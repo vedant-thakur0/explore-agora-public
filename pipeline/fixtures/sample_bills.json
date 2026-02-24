@@ -1,0 +1,47 @@
+[
+  {
+    "bill": {
+      "congress": 118,
+      "type": "HR",
+      "number": 9999,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9999",
+      "title": "Artificial Intelligence Safety and Transparency Act",
+      "mockText": "To establish federal artificial intelligence risk management standards, transparency reporting, and safety evaluations for high-impact AI systems.",
+      "updateDate": "2025-02-03",
+      "latestAction": {
+        "actionDate": "2025-02-02",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "sponsors": [{"fullName": "Rep. Jane Doe"}],
+      "committees": [{"name": "House Committee on Science, Space, and Technology"}],
+      "textVersions": [
+        {
+          "formats": [
+            {
+              "type": "Formatted Text",
+              "url": "https://example.com/hr9999.txt"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "bill": {
+      "congress": 118,
+      "type": "S",
+      "number": 2501,
+      "url": "https://api.congress.gov/v3/bill/118/s/2501",
+      "title": "Rural Broadband Infrastructure Improvement Act",
+      "mockText": "To provide grants for rural broadband deployment and telecommunications infrastructure upgrades.",
+      "updateDate": "2025-02-05",
+      "latestAction": {
+        "actionDate": "2025-02-04",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "sponsors": [{"fullName": "Sen. John Smith"}],
+      "committees": [{"name": "Senate Committee on Commerce, Science, and Transportation"}],
+      "textVersions": []
+    }
+  }
+]
