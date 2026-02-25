@@ -174,3 +174,16 @@ Each row in `bill_texts.json` should look like:
 ```
 
 This format is now supported directly by the ingestion/ranking pipeline.
+
+## After Ingestion: Evaluate Tuning Candidates
+
+Once you have run ingestion and ranking:
+
+1. Review candidate outputs in `pipeline/runs/<run_id>_candidates.jsonl`.
+2. Export reviewer sheet and inspect include/reject patterns.
+3. Identify match gaps and false positives for config/ranker tuning.
+
+Use the dedicated tuning docs:
+
+- [TUNING_RUNBOOK.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_RUNBOOK.md) for the tuning process and guardrails.
+- [TUNING_CHANGELOG.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_CHANGELOG.md) to record every behavior-changing update.

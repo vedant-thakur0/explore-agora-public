@@ -37,6 +37,17 @@ python3 -m agora.pipeline.cli trial-one-call-hr \
   --detail-max-retries 2
 ```
 
+Match incoming `.docx` files against AGORA positive profile:
+
+```bash
+python3 -m agora.pipeline.cli match-docx \
+  --docx-dir /path/to/docx \
+  --profile-jsonl /Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1.jsonl \
+  --top-k 50 \
+  --min-score 0.0 \
+  --max-profile-matches 5
+```
+
 ## Data flow
 
 - `raw/`: source payload snapshots.
@@ -45,6 +56,7 @@ python3 -m agora.pipeline.cli trial-one-call-hr \
 - `runs/`: run manifests and candidate JSONL.
 - `review_exports/`: reviewer CSVs with decision fields (`include`, `reject`, `unsure`).
 - `datasets/`: generated training/reference artifacts.
+- `runs/docx_match_<timestamp>.json`: `.docx` match runs and scored results.
 
 ## Positive profile dataset (v1)
 
@@ -85,8 +97,16 @@ Known limitations:
 - It is intended for similarity matching of incoming `.docx` in a later step.
 - No classifier training occurs in this step.
 
+## Ranking Tuning Docs
+
+Use these docs for iterative tuning of `pipeline/config.py` and `pipeline/ranker.py`:
+
+- [TUNING_RUNBOOK.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_RUNBOOK.md): process, guardrails, evaluation, and rollback.
+- [TUNING_CHANGELOG.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_CHANGELOG.md): append-only history of tuning changes and observed impact.
+
 ## Notes
 
 - No AGORA label prediction is performed.
 - Candidate ranking uses keyword signals + semantic similarity to existing federal AGORA corpus + metadata priors.
+- `.docx` matching uses a hybrid score: `0.70 * semantic_similarity + 0.30 * keyword_score`.
 - Dedup skips unchanged docs that were already reviewed in prior exports.

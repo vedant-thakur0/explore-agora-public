@@ -1,0 +1,6 @@
+.venv/
+wheelhouse/
+
+# Generated matcher run artifacts
+pipeline/runs/docx_match_*.json
+pipeline/runs/txt_match_*.json

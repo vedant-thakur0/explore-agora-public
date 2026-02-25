@@ -5,7 +5,9 @@ import os
 from pathlib import Path
 import json
 
+from .config import RUNS_DIR
 from .congress import build_records, fetch_bills, hydrate_text, new_run_id
+from .docx_matcher import run_docx_match
 from .ranker import RankConfig, TfidfCentroid, load_reference_texts, rank_records
 from .store import export_review_csv, load_run_documents, reviewed_decisions_index, save_candidates, save_fetch_run
 from .trial_one_call_hr import run_trial, print_report
@@ -67,6 +69,34 @@ def cmd_trial_one_call_hr(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_match_docx(args: argparse.Namespace) -> int:
+    out_json = Path(args.out_json) if args.out_json else (RUNS_DIR / f"docx_match_{new_run_id()}.json")
+    cfg = RankConfig(
+        min_score_for_export=args.min_score,
+        high_threshold=args.high_threshold,
+        medium_threshold=args.medium_threshold,
+    )
+    payload = run_docx_match(
+        docx_dir=Path(args.docx_dir),
+        profile_jsonl=Path(args.profile_jsonl),
+        out_json=out_json,
+        top_k=args.top_k,
+        cfg=cfg,
+        max_profile_matches=args.max_profile_matches,
+    )
+    print(
+        json.dumps(
+            {
+                "docs_discovered": payload["summary"]["docs_discovered"],
+                "docs_parsed": payload["summary"]["docs_parsed"],
+                "docs_ranked": payload["summary"]["docs_ranked"],
+                "out_json": str(out_json),
+            }
+        )
+    )
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="ingest", description="Congress.gov candidate discovery pipeline")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -118,6 +148,21 @@ def build_parser() -> argparse.ArgumentParser:
     trial.add_argument("--quiet", action="store_true")
     trial.add_argument("--out-json", default="")
     trial.set_defaults(func=cmd_trial_one_call_hr)
+
+    match_docx = sub.add_parser("match-docx", help="Match incoming .docx/.txt files to AGORA positive profile")
+    match_docx.add_argument("--docx-dir", required=True, help="Directory containing .docx and/or .txt files")
+    match_docx.add_argument(
+        "--profile-jsonl",
+        default="agora/pipeline/datasets/agora_positive_profile_v1.jsonl",
+        help="Positive profile JSONL",
+    )
+    match_docx.add_argument("--out-json", default="", help="Output JSON path (default under pipeline/runs)")
+    match_docx.add_argument("--top-k", type=int, default=50)
+    match_docx.add_argument("--min-score", type=float, default=0.0)
+    match_docx.add_argument("--high-threshold", type=float, default=0.7)
+    match_docx.add_argument("--medium-threshold", type=float, default=0.4)
+    match_docx.add_argument("--max-profile-matches", type=int, default=5)
+    match_docx.set_defaults(func=cmd_match_docx)
 
     return parser
 
