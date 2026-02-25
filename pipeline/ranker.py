@@ -13,6 +13,7 @@ from .config import KEYWORD_GROUPS, METADATA_PRIOR_TERMS
 from .models import CandidateRecord, DocumentRecord
 
 TOKEN_RE = re.compile(r"[a-z][a-z0-9_\-]{2,}")
+TITLE_AI_RE = re.compile(r"\b(ai|artificial intelligence)\b")
 
 
 @dataclass
@@ -88,15 +89,66 @@ def keyword_signal(text: str) -> tuple[float, list[str]]:
     txt = (text or "").lower()
     total = 0.0
     hits: list[str] = []
+
     for group_name, group in KEYWORD_GROUPS.items():
-        terms = group["terms"]
-        weight = float(group["weight"])
-        matched = [t for t in terms if t in txt]
-        if matched:
-            coverage = min(1.0, len(matched) / max(2, len(terms) // 3))
-            total += weight * coverage
-            hits.extend(f"{group_name}:{m}" for m in matched[:3])
-    return min(1.0, total), hits
+        group_weight = float(group.get("group_weight", group.get("weight", 0.0)))
+        min_hits_for_full_credit = float(group.get("min_hits_for_full_credit", 2.0))
+        max_credit = float(group.get("max_credit", 1.0))
+
+        positive_weight_hit = 0.0
+        negative_weight_hit = 0.0
+        matched_labels: list[str] = []
+
+        for term_cfg in group.get("terms", []):
+            if isinstance(term_cfg, str):
+                term = term_cfg
+                aliases: list[str] = []
+                match_type = "phrase"
+                term_weight = 1.0
+                polarity = "positive"
+            else:
+                term = str(term_cfg.get("term", "")).strip().lower()
+                aliases = [str(a).strip().lower() for a in term_cfg.get("aliases", []) if str(a).strip()]
+                match_type = str(term_cfg.get("match_type", "phrase"))
+                term_weight = float(term_cfg.get("weight", 1.0))
+                polarity = str(term_cfg.get("polarity", "positive")).lower()
+
+            if not term:
+                continue
+            patterns = [term] + aliases
+            matched = any(_pattern_matches(txt, p, match_type) for p in patterns)
+            if not matched:
+                continue
+
+            if polarity == "negative":
+                negative_weight_hit += term_weight
+                matched_labels.append(f"{group_name}:!{term}")
+            else:
+                positive_weight_hit += term_weight
+                matched_labels.append(f"{group_name}:{term}")
+
+        if positive_weight_hit > 0:
+            positive_credit = min(max_credit, positive_weight_hit / max(1.0, min_hits_for_full_credit))
+            total += group_weight * positive_credit
+        if negative_weight_hit > 0:
+            negative_credit = min(max_credit, negative_weight_hit / max(1.0, min_hits_for_full_credit))
+            total -= group_weight * negative_credit
+        hits.extend(matched_labels[:3])
+    return max(0.0, min(1.0, total)), hits
+
+
+def _pattern_matches(text: str, pattern: str, match_type: str) -> bool:
+    p = pattern.strip().lower()
+    if not p:
+        return False
+    if match_type == "regex":
+        return re.search(p, text) is not None
+    escaped = re.escape(p)
+    if match_type == "token":
+        return re.search(rf"\b{escaped}\b", text) is not None
+    if match_type == "phrase":
+        return re.search(rf"\b{escaped}\b", text) is not None
+    return p in text
 
 
 def metadata_prior(record: DocumentRecord) -> tuple[float, list[str]]:
@@ -114,7 +166,7 @@ def metadata_prior(record: DocumentRecord) -> tuple[float, list[str]]:
         hits.append(f"bill_type:{record.bill_type.lower()}")
 
     title_l = record.title.lower()
-    if "artificial intelligence" in title_l or "ai" in title_l:
+    if TITLE_AI_RE.search(title_l):
         score += 0.06
         hits.append("title:ai")
 
@@ -126,7 +178,7 @@ def evidence_snippets(text: str, terms: list[str], max_snippets: int = 3) -> str
     if not lines:
         return ""
 
-    plain_terms = [t.split(":", 1)[-1] for t in terms][:10]
+    plain_terms = [t.split(":", 1)[-1].lstrip("!") for t in terms][:10]
     snippets = []
     for line in lines:
         ll = line.lower()

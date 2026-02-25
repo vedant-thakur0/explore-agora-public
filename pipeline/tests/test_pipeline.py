@@ -8,7 +8,7 @@ import tempfile
 import unittest
 
 from agora.pipeline.congress import build_records
-from agora.pipeline.ranker import RankConfig, TfidfCentroid, rank_records
+from agora.pipeline.ranker import RankConfig, TfidfCentroid, keyword_signal, metadata_prior, rank_records
 from agora.pipeline.store import reviewed_decisions_index
 
 
@@ -115,6 +115,38 @@ class PipelineTests(unittest.TestCase):
             self.assertNotIn(("118-hr-2", "def"), idx)
         finally:
             store.REVIEW_EXPORTS_DIR = original
+
+    def test_keyword_signal_uses_alias_and_token_boundaries(self) -> None:
+        score_alias, hits_alias = keyword_signal("This program evaluates LLM safety and transparency practices.")
+        self.assertGreater(score_alias, 0.0)
+        self.assertTrue(any("ai_terms:large language model" == h for h in hits_alias))
+
+        score_fp, _ = keyword_signal("This project improves chairs and said outcomes in classrooms.")
+        self.assertLess(score_fp, score_alias)
+
+    def test_metadata_title_ai_boundary(self) -> None:
+        from agora.pipeline.models import DocumentRecord
+
+        rec_false = DocumentRecord(
+            source_id="x1",
+            source_url="https://example.com/x1",
+            title="Chairperson Reform Act",
+            bill_type="hr",
+            text="General text.",
+        )
+        rec_true = DocumentRecord(
+            source_id="x2",
+            source_url="https://example.com/x2",
+            title="AI Governance Act",
+            bill_type="hr",
+            text="General text.",
+        )
+
+        false_score, false_hits = metadata_prior(rec_false)
+        true_score, true_hits = metadata_prior(rec_true)
+        self.assertLess(false_score, true_score)
+        self.assertNotIn("title:ai", false_hits)
+        self.assertIn("title:ai", true_hits)
 
 
 if __name__ == "__main__":
