@@ -18,6 +18,25 @@ Offline fixture run:
 python3 -m agora.pipeline.cli fetch --since 2025-01-01 --limit 10 --fixture-json agora/pipeline/fixtures/sample_bills.json --run-id localtest
 ```
 
+One-call HR trial (live, list-only):
+
+```bash
+export CONGRESS_API_KEY='YOUR_KEY'
+python3 -m agora.pipeline.trial_one_call_hr --since 2026-01-01 --limit 250 --top-k 50
+```
+
+One-call list + per-bill detail hydration (recommended):
+
+```bash
+python3 -m agora.pipeline.cli trial-one-call-hr \
+  --since 2026-01-01 \
+  --limit 251 \
+  --top-k 50 \
+  --hydrate-details \
+  --detail-delay-sec 0.1 \
+  --detail-max-retries 2
+```
+
 ## Data flow
 
 - `raw/`: source payload snapshots.
@@ -25,6 +44,46 @@ python3 -m agora.pipeline.cli fetch --since 2025-01-01 --limit 10 --fixture-json
 - `fulltext/`: hydrated plaintext by source ID.
 - `runs/`: run manifests and candidate JSONL.
 - `review_exports/`: reviewer CSVs with decision fields (`include`, `reject`, `unsure`).
+- `datasets/`: generated training/reference artifacts.
+
+## Positive profile dataset (v1)
+
+Build the positive-only AGORA profile from `documents.csv`:
+
+```bash
+python3 -m agora.pipeline.build_positive_profile
+```
+
+Optional flags:
+
+```bash
+python3 -m agora.pipeline.build_positive_profile \
+  --input-csv /Users/vthakur/Documents/auto/agora/documents.csv \
+  --out-prefix /Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1
+```
+
+Generated artifacts:
+
+- `pipeline/datasets/agora_positive_profile_v1.jsonl`
+- `pipeline/datasets/agora_positive_profile_v1.csv`
+- `pipeline/datasets/agora_positive_profile_v1_report.json`
+- `pipeline/datasets/agora_positive_profile_v1_lineage.json`
+
+Core fields:
+
+- `agora_id`, `official_name`, `casual_name`, `link_to_document`, `authority`
+- `collections`, `most_recent_activity`, `most_recent_activity_date`
+- `short_summary`, `long_summary`, `tags`
+- `official_plaintext_retrieved`, `official_plaintext_source`
+- `profile_text`, `profile_text_sha256`
+- `label_agora_fit` (always `1`), `label_source` (always `documents_csv`)
+- `snapshot_date`, `record_origin`
+
+Known limitations:
+
+- This is a positive-only reference dataset (no negatives).
+- It is intended for similarity matching of incoming `.docx` in a later step.
+- No classifier training occurs in this step.
 
 ## Notes
 

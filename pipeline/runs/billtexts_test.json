@@ -1,0 +1,12 @@
+{
+  "run_id": "billtexts_test",
+  "created_at": "2026-02-24T21:30:18.897171+00:00",
+  "raw_path": "/Users/vthakur/Documents/auto/agora/pipeline/raw/billtexts_test_bills.json",
+  "normalized_path": "/Users/vthakur/Documents/auto/agora/pipeline/normalized/billtexts_test_documents.jsonl",
+  "records_fetched": 20,
+  "records_with_text": 20,
+  "status": "ranked",
+  "candidates_path": "/Users/vthakur/Documents/auto/agora/pipeline/runs/billtexts_test_candidates.jsonl",
+  "records_ranked": 20,
+  "records_skipped_reviewed": 0
+}

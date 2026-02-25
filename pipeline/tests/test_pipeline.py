@@ -27,6 +27,17 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual("118-hr-9999", records[0].source_id)
         self.assertTrue(records[0].title.lower().startswith("artificial intelligence"))
 
+    def test_build_records_from_bill_texts_shape(self) -> None:
+        fixture = Path("agora/pipeline/fixtures/bill_texts.json")
+        bills = json.loads(fixture.read_text(encoding="utf-8"))
+        records = build_records(bills[:1])
+        self.assertEqual(1, len(records))
+        self.assertEqual("119-hr-144", records[0].source_id)
+        self.assertEqual("hr", records[0].bill_type)
+        self.assertEqual("144", records[0].bill_number)
+        self.assertEqual("full", records[0].extraction_quality)
+        self.assertIn("SECTION 1. SHORT TITLE.", records[0].text)
+
     def test_ranker_scores_ai_doc_higher(self) -> None:
         from agora.pipeline.models import DocumentRecord
 
@@ -54,6 +65,32 @@ class PipelineTests(unittest.TestCase):
         ranked = rank_records("run1", [rec_non, rec_ai], vec, RankConfig(min_score_for_export=0.0))
         self.assertGreaterEqual(ranked[0].candidate_score, ranked[1].candidate_score)
         self.assertEqual("118-hr-1", ranked[0].source_id)
+
+    def test_ranker_uses_title_in_scoring(self) -> None:
+        from agora.pipeline.models import DocumentRecord
+
+        rec_title_ai = DocumentRecord(
+            source_id="118-hr-3",
+            source_url="https://example.com/3",
+            title="Artificial Intelligence Accountability Act",
+            bill_type="hr",
+            text="General appropriations and administration language.",
+        )
+        rec_plain = DocumentRecord(
+            source_id="118-hr-4",
+            source_url="https://example.com/4",
+            title="General Appropriations Act",
+            bill_type="hr",
+            text="General appropriations and administration language.",
+        )
+        vec = TfidfCentroid.fit(
+            [
+                "artificial intelligence accountability safety transparency",
+                "machine learning governance and oversight",
+            ]
+        )
+        ranked = rank_records("run1", [rec_plain, rec_title_ai], vec, RankConfig(min_score_for_export=0.0))
+        self.assertEqual("118-hr-3", ranked[0].source_id)
 
     def test_reviewed_index_reads_only_decided_rows(self) -> None:
         from agora.pipeline import store

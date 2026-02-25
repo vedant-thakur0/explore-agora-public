@@ -1,0 +1,22 @@
+{
+  "dataset": "agora_positive_profile_v1",
+  "built_at_utc": "2026-02-25T01:10:39+00:00",
+  "input_sources": [
+    {
+      "path": "/Users/vthakur/Documents/auto/agora/documents.csv"
+    }
+  ],
+  "row_count": 1020,
+  "schema_version": 1,
+  "label_policy": {
+    "accepted_definition": "Any row present in documents.csv is treated as accepted.",
+    "label_agora_fit": 1,
+    "label_source": "documents_csv",
+    "negatives_included": false
+  },
+  "quality_gates": {
+    "rows_kept_gt_zero": true,
+    "profile_text_non_empty_rate_gte_0_99": true,
+    "duplicate_agora_id_after_dedup_eq_zero": true
+  }
+}

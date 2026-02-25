@@ -148,6 +148,14 @@ def tier_from_score(score: float, cfg: RankConfig) -> str:
     return "low"
 
 
+def ranking_text(record: DocumentRecord) -> str:
+    title = (record.title or "").strip()
+    body = (record.text or "").strip()
+    if title and body:
+        return f"{title}\n\n{body}"
+    return title or body
+
+
 def rank_records(
     run_id: str,
     records: list[DocumentRecord],
@@ -156,8 +164,9 @@ def rank_records(
 ) -> list[CandidateRecord]:
     out: list[CandidateRecord] = []
     for rec in records:
-        kw_score, kw_hits = keyword_signal(rec.text)
-        sim_score = vectorizer.similarity(rec.text)
+        combined_text = ranking_text(rec)
+        kw_score, kw_hits = keyword_signal(combined_text)
+        sim_score = vectorizer.similarity(combined_text)
         meta_score, meta_hits = metadata_prior(rec)
 
         score = (0.5 * kw_score) + (0.4 * sim_score) + (0.1 * min(1.0, meta_score / 0.2))
@@ -173,7 +182,7 @@ def rank_records(
                 title=rec.title,
                 candidate_score=score,
                 candidate_tier=tier,
-                evidence_snippets=evidence_snippets(rec.text, hits),
+                evidence_snippets=evidence_snippets(combined_text, hits),
                 matched_signals=";".join(hits[:16]),
                 text_sha256=rec.text_sha256,
             )

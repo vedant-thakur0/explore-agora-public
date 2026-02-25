@@ -1,0 +1,225 @@
+{
+  "dataset": "agora_positive_profile_v1",
+  "total_positive_documents": 1020,
+  "rows_kept": 1020,
+  "profile_text_non_empty_rate": 1.0,
+  "median_profile_text_length_chars": 1465,
+  "duplicate_agora_id_after_dedup": 0,
+  "top_50_tokens": [
+    {
+      "token": "and",
+      "count": 10901
+    },
+    {
+      "token": "the",
+      "count": 7486
+    },
+    {
+      "token": "strategies",
+      "count": 7051
+    },
+    {
+      "token": "for",
+      "count": 4220
+    },
+    {
+      "token": "risk",
+      "count": 2689
+    },
+    {
+      "token": "factors",
+      "count": 2416
+    },
+    {
+      "token": "government",
+      "count": 2186
+    },
+    {
+      "token": "evaluation",
+      "count": 1899
+    },
+    {
+      "token": "requires",
+      "count": 1766
+    },
+    {
+      "token": "disclosure",
+      "count": 1716
+    },
+    {
+      "token": "act",
+      "count": 1624
+    },
+    {
+      "token": "with",
+      "count": 1498
+    },
+    {
+      "token": "development",
+      "count": 1474
+    },
+    {
+      "token": "security",
+      "count": 1469
+    },
+    {
+      "token": "applications",
+      "count": 1413
+    },
+    {
+      "token": "safety",
+      "count": 1337
+    },
+    {
+      "token": "intelligence",
+      "count": 1269
+    },
+    {
+      "token": "harms",
+      "count": 1262
+    },
+    {
+      "token": "including",
+      "count": 1248
+    },
+    {
+      "token": "support",
+      "count": 1170
+    },
+    {
+      "token": "federal",
+      "count": 1103
+    },
+    {
+      "token": "data",
+      "count": 1059
+    },
+    {
+      "token": "artificial",
+      "count": 1056
+    },
+    {
+      "token": "report",
+      "count": 1023
+    },
+    {
+      "token": "governance",
+      "count": 986
+    },
+    {
+      "token": "use",
+      "count": 982
+    },
+    {
+      "token": "privacy",
+      "count": 960
+    },
+    {
+      "token": "systems",
+      "count": 881
+    },
+    {
+      "token": "national",
+      "count": 865
+    },
+    {
+      "token": "mandates",
+      "count": 858
+    },
+    {
+      "token": "public",
+      "count": 838
+    },
+    {
+      "token": "defense",
+      "count": 798
+    },
+    {
+      "token": "laws",
+      "count": 744
+    },
+    {
+      "token": "that",
+      "count": 724
+    },
+    {
+      "token": "tiering",
+      "count": 720
+    },
+    {
+      "token": "technology",
+      "count": 719
+    },
+    {
+      "token": "civil",
+      "count": 707
+    },
+    {
+      "token": "state",
+      "count": 694
+    },
+    {
+      "token": "assessment",
+      "count": 689
+    },
+    {
+      "token": "secretary",
+      "count": 682
+    },
+    {
+      "token": "impact",
+      "count": 664
+    },
+    {
+      "token": "research",
+      "count": 659
+    },
+    {
+      "token": "technologies",
+      "count": 650
+    },
+    {
+      "token": "study",
+      "count": 644
+    },
+    {
+      "token": "rights",
+      "count": 639
+    },
+    {
+      "token": "from",
+      "count": 632
+    },
+    {
+      "token": "human",
+      "count": 624
+    },
+    {
+      "token": "establishes",
+      "count": 622
+    },
+    {
+      "token": "transparency",
+      "count": 593
+    },
+    {
+      "token": "health",
+      "count": 586
+    }
+  ],
+  "exclusions": {},
+  "duplicate_rows_dropped": 0,
+  "quality_gates": {
+    "rows_kept_gt_zero": true,
+    "profile_text_non_empty_rate_gte_0_99": true,
+    "duplicate_agora_id_after_dedup_eq_zero": true
+  },
+  "docx_readiness_note": "This positive-only artifact is ready for TF-IDF/embedding similarity against new DOCX files in Step 2.",
+  "paths": {
+    "input_csv": "/Users/vthakur/Documents/auto/agora/documents.csv",
+    "jsonl": "/Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1.jsonl",
+    "csv": "/Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1.csv",
+    "report": "/Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1_report.json",
+    "lineage": "/Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1_lineage.json"
+  }
+}
