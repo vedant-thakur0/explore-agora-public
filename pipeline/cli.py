@@ -5,12 +5,26 @@ import os
 from pathlib import Path
 import json
 
+from dotenv import load_dotenv
+
+# Load .env from repo root (or from alongside cli.py)
+ENV_PATH = Path(__file__).resolve().parents[1] / ".env"  # adjust parents[] if needed
+load_dotenv(dotenv_path=ENV_PATH)
+
 from .config import RUNS_DIR
 from .congress import build_records, fetch_bills, hydrate_text, new_run_id
 from .docx_matcher import run_docx_match
+from .graph_query import run as run_graph_query
+from .knowledge_graph import run as run_knowledge_graph
 from .ranker import RankConfig, TfidfCentroid, load_reference_texts, rank_records
+from .session_pull import SessionPullConfig, process_and_save
 from .store import export_review_csv, load_run_documents, reviewed_decisions_index, save_candidates, save_fetch_run
 from .trial_one_call_hr import run_trial, print_report
+
+
+if load_dotenv is not None:
+    load_dotenv()
+
 
 
 def cmd_fetch(args: argparse.Namespace) -> int:
@@ -97,6 +111,57 @@ def cmd_match_docx(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_pull_session_texts(args: argparse.Namespace) -> int:
+    cfg = SessionPullConfig(
+        congress=args.congress,
+        bill_type=args.bill_type,
+        limit=args.limit,
+        delay_sec=args.delay_sec,
+        api_url_base=args.api_url_base,
+        api_key=args.api_key or os.getenv("CONGRESS_API_KEY", ""),
+    )
+    out_json = Path(args.out_json) if args.out_json else (RUNS_DIR / f"session_text_pull_{new_run_id()}.json")
+    payload = process_and_save(cfg, out_json)
+    print(
+        json.dumps(
+            {
+                "bills_fetched": payload["summary"]["bills_fetched"],
+                "rows_with_text": payload["summary"]["rows_with_text"],
+                "rows_failed": payload["summary"]["rows_failed"],
+                "out_json": str(out_json),
+            }
+        )
+    )
+    return 0
+
+
+def cmd_build_knowledge_graph(args: argparse.Namespace) -> int:
+    payload = run_knowledge_graph(
+        documents_csv=Path(args.documents_csv),
+        segments_csv=Path(args.segments_csv),
+        authorities_csv=Path(args.authorities_csv),
+        collections_csv=Path(args.collections_csv),
+        out_dir=Path(args.out_dir),
+    )
+    print(json.dumps(payload))
+    return 0
+
+
+def cmd_query_neighborhood(args: argparse.Namespace) -> int:
+    payload = run_graph_query(
+        graph_dir=Path(args.graph_dir),
+        seed_node_id=args.seed_node_id,
+        max_hops=args.max_hops,
+        relation_filter=set(args.relation or []),
+        node_type_filter=set(args.node_type or []),
+        limit=args.limit,
+        ranked=not args.unranked,
+        direction=args.direction,
+    )
+    print(json.dumps(payload))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="ingest", description="Congress.gov candidate discovery pipeline")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -163,6 +228,35 @@ def build_parser() -> argparse.ArgumentParser:
     match_docx.add_argument("--medium-threshold", type=float, default=0.4)
     match_docx.add_argument("--max-profile-matches", type=int, default=5)
     match_docx.set_defaults(func=cmd_match_docx)
+
+    pull = sub.add_parser("pull-session-texts", help="Pull bill names for a congress/type, then fetch each bill text")
+    pull.add_argument("--congress", type=int, required=True)
+    pull.add_argument("--bill-type", default="hr")
+    pull.add_argument("--limit", type=int, default=250)
+    pull.add_argument("--delay-sec", type=float, default=0.2)
+    pull.add_argument("--api-url-base", default="https://api.congress.gov/v3/bill")
+    pull.add_argument("--api-key", default="")
+    pull.add_argument("--out-json", default="")
+    pull.set_defaults(func=cmd_pull_session_texts)
+
+    kg = sub.add_parser("build-knowledge-graph", help="Build AGORA knowledge graph nodes/edges from CSV sources")
+    kg.add_argument("--documents-csv", default="documents.csv")
+    kg.add_argument("--segments-csv", default="segments.csv")
+    kg.add_argument("--authorities-csv", default="authorities.csv")
+    kg.add_argument("--collections-csv", default="collections.csv")
+    kg.add_argument("--out-dir", default="pipeline/graph")
+    kg.set_defaults(func=cmd_build_knowledge_graph)
+
+    nq = sub.add_parser("query-neighborhood", help="Query neighborhood around a seed node in graph export")
+    nq.add_argument("--graph-dir", default="pipeline/graph")
+    nq.add_argument("--seed-node-id", required=True)
+    nq.add_argument("--max-hops", type=int, default=2)
+    nq.add_argument("--relation", action="append", default=[])
+    nq.add_argument("--node-type", action="append", default=[])
+    nq.add_argument("--limit", type=int, default=200)
+    nq.add_argument("--unranked", action="store_true")
+    nq.add_argument("--direction", choices=["out", "in", "both"], default="out")
+    nq.set_defaults(func=cmd_query_neighborhood)
 
     return parser
 

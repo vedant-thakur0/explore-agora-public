@@ -1,0 +1,15 @@
+{
+  "nodes_authority": 105,
+  "nodes_collection": 15,
+  "nodes_segment": 8401,
+  "edges_has_segment": 8401,
+  "nodes_tag": 77,
+  "edges_has_tag": 16341,
+  "nodes_topic": 77,
+  "edges_has_topic": 16341,
+  "nodes_document": 1020,
+  "edges_under_authority": 1020,
+  "edges_in_collection": 1343,
+  "node_count": 9695,
+  "edge_count": 43446
+}
