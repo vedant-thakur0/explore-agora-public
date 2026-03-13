@@ -1,0 +1,202 @@
+node_id,bioguide_id,full_name,last_name,first_name,party,state,district,chamber
+sponsor:A000372,A000372,"Rep. Allen, Rick W. [R-GA-12]",Allen,Rick W.,R,GA,12,Rep
+sponsor:B000740,B000740,"Rep. Bice, Stephanie I. [R-OK-5]",Bice,Stephanie I.,R,OK,5,Rep
+sponsor:B001243,B001243,"Sen. Blackburn, Marsha [R-TN]",Blackburn,Marsha,R,TN,,Sen
+sponsor:B001257,B001257,"Rep. Bilirakis, Gus M. [R-FL-12]",Bilirakis,Gus M.,R,FL,12,Rep
+sponsor:B001260,B001260,"Rep. Buchanan, Vern [R-FL-16]",Buchanan,Vern,R,FL,16,Rep
+sponsor:B001267,B001267,"Sen. Bennet, Michael F. [D-CO]",Bennet,Michael F.,D,CO,,Sen
+sponsor:B001275,B001275,"Rep. Bucshon, Larry [R-IN-8]",Bucshon,Larry,R,IN,8,Rep
+sponsor:B001277,B001277,"Sen. Blumenthal, Richard [D-CT]",Blumenthal,Richard,D,CT,,Sen
+sponsor:B001278,B001278,"Rep. Bonamici, Suzanne [D-OR-1]",Bonamici,Suzanne,D,OR,1,Rep
+sponsor:B001281,B001281,"Rep. Beatty, Joyce [D-OH-3]",Beatty,Joyce,D,OH,3,Rep
+sponsor:B001288,B001288,"Sen. Booker, Cory A. [D-NJ]",Booker,Cory A.,D,NJ,,Sen
+sponsor:B001292,B001292,"Rep. Beyer, Donald S., Jr. [D-VA-8]",Beyer,"Donald S., Jr.",D,VA,8,Rep
+sponsor:B001295,B001295,"Rep. Bost, Mike [R-IL-12]",Bost,Mike,R,IL,12,Rep
+sponsor:B001298,B001298,"Rep. Bacon, Don [R-NE-2]",Bacon,Don,R,NE,2,Rep
+sponsor:B001299,B001299,"Rep. Banks, Jim [R-IN-3]",Banks,Jim,R,IN,3,Rep
+sponsor:B001300,B001300,"Rep. Barragán, Nanette Diaz [D-CA-44]",Barragán,Nanette Diaz,D,CA,44,Rep
+sponsor:B001302,B001302,"Rep. Biggs, Andy [R-AZ-5]",Biggs,Andy,R,AZ,5,Rep
+sponsor:B001303,B001303,"Rep. Blunt Rochester, Lisa [D-DE-At Large]",Blunt Rochester,Lisa,D,DE,,Rep
+sponsor:B001305,B001305,"Sen. Budd, Ted [R-NC]",Budd,Ted,R,NC,,Sen
+sponsor:B001307,B001307,"Rep. Baird, James R. [R-IN-4]",Baird,James R.,R,IN,4,Rep
+sponsor:B001310,B001310,"Sen. Braun, Mike [R-IN]",Braun,Mike,R,IN,,Sen
+sponsor:B001313,B001313,"Rep. Brown, Shontel M. [D-OH-11]",Brown,Shontel M.,D,OH,11,Rep
+sponsor:B001318,B001318,"Rep. Balint, Becca [D-VT-At Large]",Balint,Becca,D,VT,,Rep
+sponsor:B001320,B001320,"Sen. Butler, Laphonza R. [D-CA]",Butler,Laphonza R.,D,CA,,Sen
+sponsor:C000059,C000059,"Rep. Calvert, Ken [R-CA-41]",Calvert,Ken,R,CA,41,Rep
+sponsor:C000127,C000127,"Sen. Cantwell, Maria [D-WA]",Cantwell,Maria,D,WA,,Sen
+sponsor:C000141,C000141,"Sen. Cardin, Benjamin L. [D-MD]",Cardin,Benjamin L.,D,MD,,Sen
+sponsor:C001053,C001053,"Rep. Cole, Tom [R-OK-4]",Cole,Tom,R,OK,4,Rep
+sponsor:C001056,C001056,"Sen. Cornyn, John [R-TX]",Cornyn,John,R,TX,,Sen
+sponsor:C001063,C001063,"Rep. Cuellar, Henry [D-TX-28]",Cuellar,Henry,D,TX,28,Rep
+sponsor:C001066,C001066,"Rep. Castor, Kathy [D-FL-14]",Castor,Kathy,D,FL,14,Rep
+sponsor:C001067,C001067,"Rep. Clarke, Yvette D. [D-NY-9]",Clarke,Yvette D.,D,NY,9,Rep
+sponsor:C001070,C001070,"Sen. Casey, Robert P., Jr. [D-PA]",Casey,"Robert P., Jr.",D,PA,,Sen
+sponsor:C001078,C001078,"Rep. Connolly, Gerald E. [D-VA-11]",Connolly,Gerald E.,D,VA,11,Rep
+sponsor:C001088,C001088,"Sen. Coons, Christopher A. [D-DE]",Coons,Christopher A.,D,DE,,Sen
+sponsor:C001091,C001091,"Rep. Castro, Joaquin [D-TX-20]",Castro,Joaquin,D,TX,20,Rep
+sponsor:C001095,C001095,"Sen. Cotton, Tom [R-AR]",Cotton,Tom,R,AR,,Sen
+sponsor:C001097,C001097,"Rep. Cárdenas, Tony [D-CA-29]",Cárdenas,Tony,D,CA,29,Rep
+sponsor:C001098,C001098,"Sen. Cruz, Ted [R-TX]",Cruz,Ted,R,TX,,Sen
+sponsor:C001108,C001108,"Rep. Comer, James [R-KY-1]",Comer,James,R,KY,1,Rep
+sponsor:C001110,C001110,"Rep. Correa, J. Luis [D-CA-46]",Correa,J. Luis,D,CA,46,Rep
+sponsor:C001113,C001113,"Sen. Cortez Masto, Catherine [D-NV]",Cortez Masto,Catherine,D,NV,,Sen
+sponsor:C001114,C001114,"Rep. Curtis, John R. [R-UT-3]",Curtis,John R.,R,UT,3,Rep
+sponsor:C001117,C001117,"Rep. Casten, Sean [D-IL-6]",Casten,Sean,D,IL,6,Rep
+sponsor:C001121,C001121,"Rep. Crow, Jason [D-CO-6]",Crow,Jason,D,CO,6,Rep
+sponsor:C001125,C001125,"Rep. Carter, Troy A. [D-LA-2]",Carter,Troy A.,D,LA,2,Rep
+sponsor:C001129,C001129,"Rep. Collins, Mike [R-GA-10]",Collins,Mike,R,GA,10,Rep
+sponsor:C001134,C001134,"Rep. Caraveo, Yadira [D-CO-8]",Caraveo,Yadira,D,CO,8,Rep
+sponsor:D000032,D000032,"Rep. Donalds, Byron [R-FL-19]",Donalds,Byron,R,FL,19,Rep
+sponsor:D000096,D000096,"Rep. Davis, Danny K. [D-IL-7]",Davis,Danny K.,D,IL,7,Rep
+sponsor:D000191,D000191,"Rep. DeFazio, Peter A. [D-OR-4]",DeFazio,Peter A.,D,OR,4,Rep
+sponsor:D000216,D000216,"Rep. DeLauro, Rosa L. [D-CT-3]",DeLauro,Rosa L.,D,CT,3,Rep
+sponsor:D000230,D000230,"Rep. Davis, Donald G. [D-NC-1]",Davis,Donald G.,D,NC,1,Rep
+sponsor:D000563,D000563,"Sen. Durbin, Richard J. [D-IL]",Durbin,Richard J.,D,IL,,Sen
+sponsor:D000615,D000615,"Rep. Duncan, Jeff [R-SC-3]",Duncan,Jeff,R,SC,3,Rep
+sponsor:D000618,D000618,"Sen. Daines, Steve [R-MT]",Daines,Steve,R,MT,,Sen
+sponsor:D000622,D000622,"Sen. Duckworth, Tammy [D-IL]",Duckworth,Tammy,D,IL,,Sen
+sponsor:D000623,D000623,"Rep. DeSaulnier, Mark [D-CA-10]",DeSaulnier,Mark,D,CA,10,Rep
+sponsor:D000624,D000624,"Rep. Dingell, Debbie [D-MI-6]",Dingell,Debbie,D,MI,6,Rep
+sponsor:E000215,E000215,"Rep. Eshoo, Anna G. [D-CA-16]",Eshoo,Anna G.,D,CA,16,Rep
+sponsor:E000295,E000295,"Sen. Ernst, Joni [R-IA]",Ernst,Joni,R,IA,,Sen
+sponsor:E000297,E000297,"Rep. Espaillat, Adriano [D-NY-13]",Espaillat,Adriano,D,NY,13,Rep
+sponsor:F000246,F000246,"Rep. Fallon, Pat [R-TX-4]",Fallon,Pat,R,TX,4,Rep
+sponsor:F000446,F000446,"Rep. Feenstra, Randy [R-IA-4]",Feenstra,Randy,R,IA,4,Rep
+sponsor:F000450,F000450,"Rep. Foxx, Virginia [R-NC-5]",Foxx,Virginia,R,NC,5,Rep
+sponsor:F000454,F000454,"Rep. Foster, Bill [D-IL-11]",Foster,Bill,D,IL,11,Rep
+sponsor:F000463,F000463,"Sen. Fischer, Deb [R-NE]",Fischer,Deb,R,NE,,Sen
+sponsor:F000472,F000472,"Rep. Franklin, Scott [R-FL-18]",Franklin,Scott,R,FL,18,Rep
+sponsor:F000477,F000477,"Rep. Foushee, Valerie P. [D-NC-4]",Foushee,Valerie P.,D,NC,4,Rep
+sponsor:G000359,G000359,"Sen. Graham, Lindsey [R-SC]",Graham,Lindsey,R,SC,,Sen
+sponsor:G000546,G000546,"Rep. Graves, Sam [R-MO-6]",Graves,Sam,R,MO,6,Rep
+sponsor:G000555,G000555,"Sen. Gillibrand, Kirsten E. [D-NY]",Gillibrand,Kirsten E.,D,NY,,Sen
+sponsor:G000558,G000558,"Rep. Guthrie, Brett [R-KY-2]",Guthrie,Brett,R,KY,2,Rep
+sponsor:G000574,G000574,"Rep. Gallego, Ruben [D-AZ-3]",Gallego,Ruben,D,AZ,3,Rep
+sponsor:G000579,G000579,"Rep. Gallagher, Mike [R-WI-8]",Gallagher,Mike,R,WI,8,Rep
+sponsor:G000583,G000583,"Rep. Gottheimer, Josh [D-NJ-5]",Gottheimer,Josh,D,NJ,5,Rep
+sponsor:G000590,G000590,"Rep. Green, Mark E. [R-TN-7]",Green,Mark E.,R,TN,7,Rep
+sponsor:G000591,G000591,"Rep. Guest, Michael [R-MS-3]",Guest,Michael,R,MS,3,Rep
+sponsor:G000598,G000598,"Rep. Garcia, Robert [D-CA-42]",Garcia,Robert,D,CA,42,Rep
+sponsor:H000273,H000273,"Sen. Hickenlooper, John W. [D-CO]",Hickenlooper,John W.,D,CO,,Sen
+sponsor:H000601,H000601,"Sen. Hagerty, Bill [R-TN]",Hagerty,Bill,R,TN,,Sen
+sponsor:H001046,H001046,"Sen. Heinrich, Martin [D-NM]",Heinrich,Martin,D,NM,,Sen
+sponsor:H001068,H001068,"Rep. Huffman, Jared [D-CA-2]",Huffman,Jared,D,CA,2,Rep
+sponsor:H001072,H001072,"Rep. Hill, J. French [R-AR-2]",Hill,J. French,R,AR,2,Rep
+sponsor:H001077,H001077,"Rep. Higgins, Clay [R-LA-3]",Higgins,Clay,R,LA,3,Rep
+sponsor:H001082,H001082,"Rep. Hern, Kevin [R-OK-1]",Hern,Kevin,R,OK,1,Rep
+sponsor:H001085,H001085,"Rep. Houlahan, Chrissy [D-PA-6]",Houlahan,Chrissy,D,PA,6,Rep
+sponsor:H001086,H001086,"Rep. Harshbarger, Diana [R-TN-1]",Harshbarger,Diana,R,TN,1,Rep
+sponsor:H001089,H001089,"Sen. Hawley, Josh [R-MO]",Hawley,Josh,R,MO,,Sen
+sponsor:H001090,H001090,"Rep. Harder, Josh [D-CA-9]",Harder,Josh,D,CA,9,Rep
+sponsor:H001095,H001095,"Rep. Hunt, Wesley [R-TX-38]",Hunt,Wesley,R,TX,38,Rep
+sponsor:J000032,J000032,"Rep. Jackson Lee, Sheila [D-TX-18]",Jackson Lee,Sheila,D,TX,18,Rep
+sponsor:J000294,J000294,"Rep. Jeffries, Hakeem S. [D-NY-8]",Jeffries,Hakeem S.,D,NY,8,Rep
+sponsor:J000295,J000295,"Rep. Joyce, David P. [R-OH-14]",Joyce,David P.,R,OH,14,Rep
+sponsor:J000308,J000308,"Rep. Jackson, Jeff [D-NC-14]",Jackson,Jeff,D,NC,14,Rep
+sponsor:K000367,K000367,"Sen. Klobuchar, Amy [D-MN]",Klobuchar,Amy,D,MN,,Sen
+sponsor:K000376,K000376,"Rep. Kelly, Mike [R-PA-16]",Kelly,Mike,R,PA,16,Rep
+sponsor:K000377,K000377,"Sen. Kelly, Mark [D-AZ]",Kelly,Mark,D,AZ,,Sen
+sponsor:K000385,K000385,"Rep. Kelly, Robin L. [D-IL-2]",Kelly,Robin L.,D,IL,2,Rep
+sponsor:K000389,K000389,"Rep. Khanna, Ro [D-CA-17]",Khanna,Ro,D,CA,17,Rep
+sponsor:K000397,K000397,"Rep. Kim, Young [R-CA-40]",Kim,Young,R,CA,40,Rep
+sponsor:K000398,K000398,"Rep. Kean, Thomas H. [R-NJ-7]",Kean,Thomas H.,R,NJ,7,Rep
+sponsor:K000400,K000400,"Rep. Kamlager-Dove, Sydney [D-CA-37]",Kamlager-Dove,Sydney,D,CA,37,Rep
+sponsor:K000401,K000401,"Rep. Kiley, Kevin [R-CA-3]",Kiley,Kevin,R,CA,3,Rep
+sponsor:L000397,L000397,"Rep. Lofgren, Zoe [D-CA-18]",Lofgren,Zoe,D,CA,18,Rep
+sponsor:L000491,L000491,"Rep. Lucas, Frank D. [R-OK-3]",Lucas,Frank D.,R,OK,3,Rep
+sponsor:L000551,L000551,"Rep. Lee, Barbara [D-CA-12]",Lee,Barbara,D,CA,12,Rep
+sponsor:L000560,L000560,"Rep. Larsen, Rick [D-WA-2]",Larsen,Rick,D,WA,2,Rep
+sponsor:L000566,L000566,"Rep. Latta, Robert E. [R-OH-5]",Latta,Robert E.,R,OH,5,Rep
+sponsor:L000570,L000570,"Sen. Lujan, Ben Ray [D-NM]",Lujan,Ben Ray,D,NM,,Sen
+sponsor:L000571,L000571,"Sen. Lummis, Cynthia M. [R-WY]",Lummis,Cynthia M.,R,WY,,Sen
+sponsor:L000575,L000575,"Sen. Lankford, James [R-OK]",Lankford,James,R,OK,,Sen
+sponsor:L000577,L000577,"Sen. Lee, Mike [R-UT]",Lee,Mike,R,UT,,Sen
+sponsor:L000578,L000578,"Rep. LaMalfa, Doug [R-CA-1]",LaMalfa,Doug,R,CA,1,Rep
+sponsor:L000582,L000582,"Rep. Lieu, Ted [D-CA-36]",Lieu,Ted,D,CA,36,Rep
+sponsor:L000589,L000589,"Rep. Lesko, Debbie [R-AZ-8]",Lesko,Debbie,R,AZ,8,Rep
+sponsor:L000598,L000598,"Rep. LaLota, Nick [R-NY-1]",LaLota,Nick,R,NY,1,Rep
+sponsor:L000600,L000600,"Rep. Langworthy, Nicholas A. [R-NY-23]",Langworthy,Nicholas A.,R,NY,23,Rep
+sponsor:L000602,L000602,"Rep. Lee, Summer L. [D-PA-12]",Lee,Summer L.,D,PA,12,Rep
+sponsor:M000133,M000133,"Sen. Markey, Edward J. [D-MA]",Markey,Edward J.,D,MA,,Sen
+sponsor:M000194,M000194,"Rep. Mace, Nancy [R-SC-1]",Mace,Nancy,R,SC,1,Rep
+sponsor:M000639,M000639,"Sen. Menendez, Robert [D-NJ]",Menendez,Robert,D,NJ,,Sen
+sponsor:M000934,M000934,"Sen. Moran, Jerry [R-KS]",Moran,Jerry,R,KS,,Sen
+sponsor:M001137,M001137,"Rep. Meeks, Gregory W. [D-NY-5]",Meeks,Gregory W.,D,NY,5,Rep
+sponsor:M001157,M001157,"Rep. McCaul, Michael T. [R-TX-10]",McCaul,Michael T.,R,TX,10,Rep
+sponsor:M001159,M001159,"Rep. McMorris Rodgers, Cathy [R-WA-5]",McMorris Rodgers,Cathy,R,WA,5,Rep
+sponsor:M001169,M001169,"Sen. Murphy, Christopher [D-CT]",Murphy,Christopher,D,CT,,Sen
+sponsor:M001176,M001176,"Sen. Merkley, Jeff [D-OR]",Merkley,Jeff,D,OR,,Sen
+sponsor:M001183,M001183,"Sen. Manchin, Joe, III [D-WV]",Manchin,"Joe, III",D,WV,,Sen
+sponsor:M001190,M001190,"Sen. Mullin, Markwayne [R-OK]",Mullin,Markwayne,R,OK,,Sen
+sponsor:M001194,M001194,"Rep. Moolenaar, John R. [R-MI-2]",Moolenaar,John R.,R,MI,2,Rep
+sponsor:M001198,M001198,"Sen. Marshall, Roger [R-KS]",Marshall,Roger,R,KS,,Sen
+sponsor:M001206,M001206,"Rep. Morelle, Joseph D. [D-NY-25]",Morelle,Joseph D.,D,NY,25,Rep
+sponsor:M001221,M001221,"Rep. Molinaro, Marcus J. [R-NY-19]",Molinaro,Marcus J.,R,NY,19,Rep
+sponsor:M001222,M001222,"Rep. Miller, Max L. [R-OH-7]",Miller,Max L.,R,OH,7,Rep
+sponsor:N000193,N000193,"Rep. Nunn, Zachary [R-IA-3]",Nunn,Zachary,R,IA,3,Rep
+sponsor:O000019,O000019,"Rep. Obernolte, Jay [R-CA-23]",Obernolte,Jay,R,CA,23,Rep
+sponsor:O000174,O000174,"Sen. Ossoff, Jon [D-GA]",Ossoff,Jon,D,GA,,Sen
+sponsor:P000034,P000034,"Rep. Pallone, Frank, Jr. [D-NJ-6]",Pallone,"Frank, Jr.",D,NJ,6,Rep
+sponsor:P000048,P000048,"Rep. Pfluger, August [R-TX-11]",Pfluger,August,R,TX,11,Rep
+sponsor:P000145,P000145,"Sen. Padilla, Alex [D-CA]",Padilla,Alex,D,CA,,Sen
+sponsor:P000595,P000595,"Sen. Peters, Gary C. [D-MI]",Peters,Gary C.,D,MI,,Sen
+sponsor:P000614,P000614,"Rep. Pappas, Chris [D-NH-1]",Pappas,Chris,D,NH,1,Rep
+sponsor:P000618,P000618,"Rep. Porter, Katie [D-CA-47]",Porter,Katie,D,CA,47,Rep
+sponsor:P000620,P000620,"Rep. Pettersen, Brittany [D-CO-7]",Pettersen,Brittany,D,CO,7,Rep
+sponsor:R000305,R000305,"Rep. Ross, Deborah K. [D-NC-2]",Ross,Deborah K.,D,NC,2,Rep
+sponsor:R000575,R000575,"Rep. Rogers, Mike D. [R-AL-3]",Rogers,Mike D.,R,AL,3,Rep
+sponsor:R000577,R000577,"Rep. Ryan, Tim [D-OH-13]",Ryan,Tim,D,OH,13,Rep
+sponsor:R000584,R000584,"Sen. Risch, James E. [R-ID]",Risch,James E.,R,ID,,Sen
+sponsor:R000595,R000595,"Sen. Rubio, Marco [R-FL]",Rubio,Marco,R,FL,,Sen
+sponsor:R000605,R000605,"Sen. Rounds, Mike [R-SD]",Rounds,Mike,R,SD,,Sen
+sponsor:R000608,R000608,"Sen. Rosen, Jacky [D-NV]",Rosen,Jacky,D,NV,,Sen
+sponsor:R000615,R000615,"Sen. Romney, Mitt [R-UT]",Romney,Mitt,R,UT,,Sen
+sponsor:R000618,R000618,"Sen. Ricketts, Pete [R-NE]",Ricketts,Pete,R,NE,,Sen
+sponsor:S000033,S000033,"Sen. Sanders, Bernard [I-VT]",Sanders,Bernard,I,VT,,Sen
+sponsor:S000168,S000168,"Rep. Salazar, Maria Elvira [R-FL-27]",Salazar,Maria Elvira,R,FL,27,Rep
+sponsor:S000185,S000185,"Rep. Scott, Robert C. ""Bobby"" [D-VA-3]",Scott,"Robert C. ""Bobby""",D,VA,3,Rep
+sponsor:S000510,S000510,"Rep. Smith, Adam [D-WA-9]",Smith,Adam,D,WA,9,Rep
+sponsor:S000770,S000770,"Sen. Stabenow, Debbie [D-MI]",Stabenow,Debbie,D,MI,,Sen
+sponsor:S001145,S001145,"Rep. Schakowsky, Janice D. [D-IL-9]",Schakowsky,Janice D.,D,IL,9,Rep
+sponsor:S001150,S001150,"Rep. Schiff, Adam B. [D-CA-28]",Schiff,Adam B.,D,CA,28,Rep
+sponsor:S001181,S001181,"Sen. Shaheen, Jeanne [D-NH]",Shaheen,Jeanne,D,NH,,Sen
+sponsor:S001183,S001183,"Rep. Schweikert, David [R-AZ-1]",Schweikert,David,R,AZ,1,Rep
+sponsor:S001184,S001184,"Sen. Scott, Tim [R-SC]",Scott,Tim,R,SC,,Sen
+sponsor:S001190,S001190,"Rep. Schneider, Bradley Scott [D-IL-10]",Schneider,Bradley Scott,D,IL,10,Rep
+sponsor:S001194,S001194,"Sen. Schatz, Brian [D-HI]",Schatz,Brian,D,HI,,Sen
+sponsor:S001195,S001195,"Rep. Smith, Jason [R-MO-8]",Smith,Jason,R,MO,8,Rep
+sponsor:S001198,S001198,"Sen. Sullivan, Dan [R-AK]",Sullivan,Dan,R,AK,,Sen
+sponsor:S001200,S001200,"Rep. Soto, Darren [D-FL-9]",Soto,Darren,D,FL,9,Rep
+sponsor:S001208,S001208,"Rep. Slotkin, Elissa [D-MI-7]",Slotkin,Elissa,D,MI,7,Rep
+sponsor:S001209,S001209,"Rep. Spanberger, Abigail Davis [D-VA-7]",Spanberger,Abigail Davis,D,VA,7,Rep
+sponsor:S001211,S001211,"Rep. Stanton, Greg [D-AZ-4]",Stanton,Greg,D,AZ,4,Rep
+sponsor:S001215,S001215,"Rep. Stevens, Haley M. [D-MI-11]",Stevens,Haley M.,D,MI,11,Rep
+sponsor:S001217,S001217,"Sen. Scott, Rick [R-FL]",Scott,Rick,R,FL,,Sen
+sponsor:S001218,S001218,"Rep. Stansbury, Melanie Ann [D-NM-1]",Stansbury,Melanie Ann,D,NM,1,Rep
+sponsor:S001225,S001225,"Rep. Sorensen, Eric [D-IL-17]",Sorensen,Eric,D,IL,17,Rep
+sponsor:S001227,S001227,"Sen. Schmitt, Eric [R-MO]",Schmitt,Eric,R,MO,,Sen
+sponsor:T000250,T000250,"Sen. Thune, John [R-SD]",Thune,John,R,SD,,Sen
+sponsor:T000463,T000463,"Rep. Turner, Michael R. [R-OH-10]",Turner,Michael R.,R,OH,10,Rep
+sponsor:T000467,T000467,"Rep. Thompson, Glenn [R-PA-15]",Thompson,Glenn,R,PA,15,Rep
+sponsor:T000469,T000469,"Rep. Tonko, Paul [D-NY-20]",Tonko,Paul,D,NY,20,Rep
+sponsor:T000472,T000472,"Rep. Takano, Mark [D-CA-39]",Takano,Mark,D,CA,39,Rep
+sponsor:T000474,T000474,"Rep. Torres, Norma J. [D-CA-35]",Torres,Norma J.,D,CA,35,Rep
+sponsor:T000481,T000481,"Rep. Tlaib, Rashida [D-MI-12]",Tlaib,Rashida,D,MI,12,Rep
+sponsor:T000486,T000486,"Rep. Torres, Ritchie [D-NY-15]",Torres,Ritchie,D,NY,15,Rep
+sponsor:U000040,U000040,"Rep. Underwood, Lauren [D-IL-14]",Underwood,Lauren,D,IL,14,Rep
+sponsor:V000133,V000133,"Rep. Van Drew, Jefferson [R-NJ-2]",Van Drew,Jefferson,R,NJ,2,Rep
+sponsor:W000187,W000187,"Rep. Waters, Maxine [D-CA-43]",Waters,Maxine,D,CA,43,Rep
+sponsor:W000437,W000437,"Sen. Wicker, Roger F. [R-MS]",Wicker,Roger F.,R,MS,,Sen
+sponsor:W000779,W000779,"Sen. Wyden, Ron [D-OR]",Wyden,Ron,D,OR,,Sen
+sponsor:W000788,W000788,"Rep. Williams, Nikema [D-GA-5]",Williams,Nikema,D,GA,5,Rep
+sponsor:W000800,W000800,"Sen. Welch, Peter [D-VT]",Welch,Peter,D,VT,,Sen
+sponsor:W000804,W000804,"Rep. Wittman, Robert J. [R-VA-1]",Wittman,Robert J.,R,VA,1,Rep
+sponsor:W000805,W000805,"Sen. Warner, Mark R. [D-VA]",Warner,Mark R.,D,VA,,Sen
+sponsor:W000814,W000814,"Rep. Weber, Randy K., Sr. [R-TX-14]",Weber,"Randy K., Sr.",R,TX,14,Rep
+sponsor:W000815,W000815,"Rep. Wenstrup, Brad R. [R-OH-2]",Wenstrup,Brad R.,R,OH,2,Rep
+sponsor:W000817,W000817,"Sen. Warren, Elizabeth [D-MA]",Warren,Elizabeth,D,MA,,Sen
+sponsor:W000821,W000821,"Rep. Westerman, Bruce [R-AR-4]",Westerman,Bruce,R,AR,4,Rep
+sponsor:W000822,W000822,"Rep. Watson Coleman, Bonnie [D-NJ-12]",Watson Coleman,Bonnie,D,NJ,12,Rep
+sponsor:W000828,W000828,"Rep. Williams, Brandon [R-NY-22]",Williams,Brandon,R,NY,22,Rep
+sponsor:Y000064,Y000064,"Sen. Young, Todd [R-IN]",Young,Todd,R,IN,,Sen

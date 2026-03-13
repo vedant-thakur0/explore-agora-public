@@ -1,0 +1,4216 @@
+[
+  {
+    "community_id": "community:001",
+    "label": "Applications: Government: military and public safety | Strategies: Government study or report | Strategies: Government support",
+    "taxonomy_signature": [
+      "Applications: Government: military and public safety",
+      "Strategies: Government study or report",
+      "Strategies: Government support",
+      "Strategies: Evaluation"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1",
+      "10",
+      "11",
+      "1161",
+      "12",
+      "1297",
+      "13",
+      "1303",
+      "139",
+      "14",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "15",
+      "150",
+      "151",
+      "152",
+      "153",
+      "155",
+      "157",
+      "158",
+      "159",
+      "16",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "17",
+      "1736",
+      "1737",
+      "1738",
+      "1739",
+      "1740",
+      "1741",
+      "1742",
+      "1743",
+      "1744",
+      "1745",
+      "1746",
+      "1747",
+      "1748",
+      "1749",
+      "1750",
+      "1751",
+      "1752",
+      "1753",
+      "1754",
+      "1755",
+      "1756",
+      "1757",
+      "1758",
+      "186",
+      "187",
+      "188",
+      "189",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "2",
+      "200",
+      "201",
+      "202",
+      "203",
+      "204",
+      "205",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "217",
+      "218",
+      "220",
+      "221",
+      "223",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "229",
+      "23",
+      "230",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "238",
+      "239",
+      "24",
+      "240",
+      "241",
+      "25",
+      "3",
+      "4",
+      "5",
+      "56",
+      "560",
+      "57",
+      "58",
+      "6",
+      "61",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "7",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "8",
+      "80",
+      "855",
+      "9"
+    ],
+    "bill_groups": [
+      [
+        "1736",
+        "1737",
+        "1757",
+        "1740",
+        "1747",
+        "1749",
+        "1750",
+        "1739",
+        "1751",
+        "1756",
+        "1738",
+        "1752",
+        "1758",
+        "1742",
+        "1746",
+        "1741",
+        "1745",
+        "1748",
+        "1753",
+        "1755",
+        "1744",
+        "1754",
+        "1743"
+      ],
+      [
+        "6",
+        "11",
+        "15",
+        "7",
+        "16",
+        "227",
+        "12",
+        "9",
+        "238",
+        "231",
+        "235",
+        "8",
+        "223",
+        "226",
+        "228",
+        "230",
+        "239",
+        "232",
+        "236",
+        "229",
+        "17",
+        "234",
+        "224",
+        "237",
+        "14",
+        "13",
+        "225",
+        "5",
+        "1161",
+        "10",
+        "233"
+      ],
+      [
+        "78",
+        "79",
+        "80",
+        "75",
+        "76",
+        "77"
+      ],
+      [
+        "66",
+        "61",
+        "69",
+        "68",
+        "64",
+        "65",
+        "67",
+        "63"
+      ],
+      [
+        "3",
+        "2",
+        "1",
+        "4",
+        "217",
+        "215",
+        "216",
+        "213",
+        "218",
+        "212",
+        "211",
+        "214"
+      ],
+      [
+        "142",
+        "155",
+        "23",
+        "146",
+        "143",
+        "152",
+        "149",
+        "157",
+        "141",
+        "153",
+        "158",
+        "221",
+        "159",
+        "139",
+        "147",
+        "151",
+        "144",
+        "145",
+        "220",
+        "140",
+        "24",
+        "161",
+        "148",
+        "160",
+        "25",
+        "150"
+      ],
+      [
+        "200",
+        "186",
+        "194",
+        "196",
+        "190",
+        "240",
+        "204",
+        "201",
+        "203",
+        "197",
+        "189",
+        "195",
+        "198",
+        "241",
+        "191",
+        "202",
+        "188",
+        "192",
+        "205",
+        "193",
+        "187",
+        "199"
+      ],
+      [
+        "163",
+        "57",
+        "162",
+        "58",
+        "164",
+        "56",
+        "165"
+      ]
+    ],
+    "doc_centrality": {
+      "1736": 0.2722,
+      "1737": 0.2722,
+      "1757": 0.2722,
+      "1740": 0.2722,
+      "1747": 0.2722,
+      "1749": 0.2722,
+      "1750": 0.2722,
+      "1739": 0.2722,
+      "1751": 0.2722,
+      "1756": 0.2722,
+      "1738": 0.2722,
+      "1752": 0.2722,
+      "1758": 0.2722,
+      "1742": 0.2722,
+      "1746": 0.2722,
+      "1741": 0.2722,
+      "1745": 0.2722,
+      "1748": 0.2722,
+      "1753": 0.2722,
+      "1755": 0.2722,
+      "1744": 0.2722,
+      "1754": 0.2722,
+      "1743": 0.2722,
+      "1303": 0.2392,
+      "142": 0.2576,
+      "155": 0.2576,
+      "23": 0.2576,
+      "146": 0.2576,
+      "143": 0.2576,
+      "152": 0.2576,
+      "149": 0.2576,
+      "157": 0.2576,
+      "141": 0.2576,
+      "153": 0.2576,
+      "158": 0.2576,
+      "221": 0.2576,
+      "159": 0.2576,
+      "139": 0.2576,
+      "147": 0.2576,
+      "151": 0.2576,
+      "144": 0.2576,
+      "145": 0.2576,
+      "220": 0.2576,
+      "140": 0.2576,
+      "24": 0.2576,
+      "161": 0.2576,
+      "148": 0.2576,
+      "160": 0.2576,
+      "25": 0.2576,
+      "150": 0.2576,
+      "163": 0.1355,
+      "57": 0.1355,
+      "162": 0.1355,
+      "58": 0.1355,
+      "164": 0.1355,
+      "56": 0.1355,
+      "165": 0.1355,
+      "200": 0.2521,
+      "186": 0.2521,
+      "194": 0.2521,
+      "196": 0.2521,
+      "190": 0.2521,
+      "240": 0.2521,
+      "204": 0.2521,
+      "201": 0.2521,
+      "203": 0.2521,
+      "197": 0.2521,
+      "189": 0.2521,
+      "195": 0.2521,
+      "198": 0.2521,
+      "241": 0.2521,
+      "191": 0.2521,
+      "202": 0.2521,
+      "188": 0.2521,
+      "192": 0.2521,
+      "205": 0.2521,
+      "193": 0.2521,
+      "187": 0.2521,
+      "199": 0.2521,
+      "6": 0.3149,
+      "11": 0.3149,
+      "15": 0.3149,
+      "7": 0.3149,
+      "16": 0.3149,
+      "227": 0.3149,
+      "12": 0.3149,
+      "9": 0.3149,
+      "238": 0.3149,
+      "231": 0.3149,
+      "235": 0.3149,
+      "8": 0.3149,
+      "223": 0.3149,
+      "226": 0.3149,
+      "228": 0.3149,
+      "230": 0.3149,
+      "239": 0.3149,
+      "232": 0.3149,
+      "236": 0.3149,
+      "229": 0.3149,
+      "17": 0.3149,
+      "234": 0.3149,
+      "224": 0.3149,
+      "237": 0.3149,
+      "14": 0.3149,
+      "13": 0.3149,
+      "225": 0.3149,
+      "5": 0.3149,
+      "1161": 0.3149,
+      "10": 0.3149,
+      "233": 0.3149,
+      "66": 0.2985,
+      "61": 0.2985,
+      "69": 0.2985,
+      "68": 0.2985,
+      "64": 0.2985,
+      "65": 0.2985,
+      "67": 0.2985,
+      "63": 0.2985,
+      "3": 0.2835,
+      "2": 0.2835,
+      "1": 0.2835,
+      "4": 0.2835,
+      "217": 0.2835,
+      "215": 0.2835,
+      "216": 0.2835,
+      "213": 0.2835,
+      "218": 0.2835,
+      "212": 0.2835,
+      "211": 0.2835,
+      "214": 0.2835,
+      "560": 0.0245,
+      "855": 0.0239,
+      "78": 0.253,
+      "79": 0.253,
+      "80": 0.253,
+      "75": 0.253,
+      "76": 0.253,
+      "77": 0.253,
+      "1297": 0.2413
+    }
+  },
+  {
+    "community_id": "community:002",
+    "label": "Strategies: Government study or report | Strategies: Governance development | Strategies: Evaluation",
+    "taxonomy_signature": [
+      "Strategies: Government study or report",
+      "Strategies: Governance development",
+      "Strategies: Evaluation",
+      "Strategies: Convening"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1202",
+      "1203",
+      "1222",
+      "1234",
+      "28",
+      "326",
+      "397",
+      "399",
+      "400",
+      "401",
+      "403",
+      "405",
+      "420",
+      "433",
+      "440",
+      "450",
+      "460",
+      "52",
+      "520",
+      "597",
+      "721",
+      "798",
+      "799",
+      "800",
+      "801",
+      "802",
+      "838",
+      "839",
+      "840",
+      "850",
+      "865",
+      "905"
+    ],
+    "bill_groups": [
+      [
+        "838",
+        "839",
+        "840"
+      ],
+      [
+        "802",
+        "798",
+        "799",
+        "800",
+        "801"
+      ]
+    ],
+    "doc_centrality": {
+      "905": 0.0559,
+      "597": 0.0215,
+      "1203": 0.1348,
+      "397": 0.0898,
+      "1202": 0.0103,
+      "460": 0.0106,
+      "405": 0.1347,
+      "440": 0.0648,
+      "399": 0.0213,
+      "52": 0.0354,
+      "400": 0.0214,
+      "433": 0.0445,
+      "28": 0.0412,
+      "1222": 0.0645,
+      "326": 0.035,
+      "520": 0.0105,
+      "802": 0.0106,
+      "798": 0.0106,
+      "799": 0.0106,
+      "800": 0.0106,
+      "801": 0.0106,
+      "850": 0.1051,
+      "721": 0.122,
+      "401": 0.0493,
+      "420": 0.0101,
+      "450": 0.0109,
+      "403": 0.1126,
+      "865": 0.0499,
+      "1234": 0.0309,
+      "838": 0.0874,
+      "839": 0.0874,
+      "840": 0.0874
+    }
+  },
+  {
+    "community_id": "community:003",
+    "label": "Strategies: Government support | Strategies: Government support: For R&D | Strategies: Convening",
+    "taxonomy_signature": [
+      "Strategies: Government support",
+      "Strategies: Government support: For R&D",
+      "Strategies: Convening",
+      "Strategies: Government study or report"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1223",
+      "1228",
+      "1243",
+      "1244",
+      "1249",
+      "1301",
+      "1320",
+      "316",
+      "320",
+      "34",
+      "394",
+      "406",
+      "435",
+      "462",
+      "467",
+      "484",
+      "511",
+      "523",
+      "534",
+      "592",
+      "593",
+      "60",
+      "611",
+      "660",
+      "70",
+      "854",
+      "879",
+      "880",
+      "914"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1301": 0.1677,
+      "611": 0.0095,
+      "467": 0.0307,
+      "462": 0.0291,
+      "1249": 0.0096,
+      "34": 0.1116,
+      "1223": 0.143,
+      "1243": 0.1321,
+      "316": 0.0965,
+      "435": 0.1699,
+      "523": 0.0817,
+      "854": 0.0373,
+      "394": 0.0394,
+      "1320": 0.0094,
+      "534": 0.114,
+      "879": 0.0941,
+      "70": 0.0499,
+      "593": 0.0491,
+      "484": 0.0187,
+      "511": 0.1659,
+      "1244": 0.0226,
+      "914": 0.0413,
+      "660": 0.1645,
+      "592": 0.0391,
+      "880": 0.076,
+      "60": 0.0797,
+      "1228": 0.1051,
+      "320": 0.0507,
+      "406": 0.1491
+    }
+  },
+  {
+    "community_id": "community:004",
+    "label": "Strategies: Disclosure | Incentives: Civil liability | Strategies: Government study or report",
+    "taxonomy_signature": [
+      "Strategies: Disclosure",
+      "Incentives: Civil liability",
+      "Strategies: Government study or report",
+      "Strategies: Governance development",
+      "Risk factors: Transparency",
+      "Incentives: Fines",
+      "Strategies: Disclosure: In deployment",
+      "Harms: Detrimental content",
+      "Harms: Violation of civil or human rights, including privacy"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1246",
+      "1293",
+      "1305",
+      "441",
+      "447",
+      "448",
+      "451",
+      "453",
+      "456",
+      "522",
+      "525",
+      "554",
+      "571",
+      "573",
+      "590",
+      "793",
+      "826",
+      "874",
+      "882",
+      "883",
+      "886",
+      "889",
+      "891",
+      "896",
+      "901",
+      "904"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "590": 0.1103,
+      "889": 0.0654,
+      "1305": 0.15,
+      "554": 0.145,
+      "1293": 0.0352,
+      "901": 0.0254,
+      "883": 0.083,
+      "882": 0.0321,
+      "1246": 0.0108,
+      "891": 0.0106,
+      "453": 0.0141,
+      "793": 0.0135,
+      "886": 0.0444,
+      "525": 0.0118,
+      "447": 0.1035,
+      "441": 0.053,
+      "522": 0.0588,
+      "826": 0.1349,
+      "451": 0.0939,
+      "874": 0.0339,
+      "904": 0.2161,
+      "573": 0.0956,
+      "896": 0.0431,
+      "448": 0.0685,
+      "571": 0.1122,
+      "456": 0.0659
+    }
+  },
+  {
+    "community_id": "community:005",
+    "label": "Strategies: Disclosure | Risk factors: Transparency | Strategies: Governance development",
+    "taxonomy_signature": [
+      "Strategies: Disclosure",
+      "Risk factors: Transparency",
+      "Strategies: Governance development",
+      "Strategies: Evaluation",
+      "Risk factors: Reliability",
+      "Strategies: Government study or report",
+      "Strategies: Disclosure: About inputs",
+      "Strategies: Disclosure: In standard form",
+      "Incentives: Civil liability",
+      "Risk factors: Safety",
+      "Strategies: Evaluation: Conformity assessment",
+      "Risk factors: Bias"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1198",
+      "1280",
+      "1304",
+      "288",
+      "395",
+      "396",
+      "416",
+      "436",
+      "437",
+      "439",
+      "473",
+      "604",
+      "637",
+      "906",
+      "988",
+      "990",
+      "993",
+      "994"
+    ],
+    "bill_groups": [
+      [
+        "993",
+        "988",
+        "994",
+        "990"
+      ]
+    ],
+    "doc_centrality": {
+      "395": 0.3413,
+      "437": 0.0375,
+      "288": 0.1245,
+      "473": 0.0992,
+      "436": 0.0838,
+      "396": 0.1111,
+      "1280": 0.2801,
+      "439": 0.0197,
+      "637": 0.2097,
+      "993": 0.0589,
+      "988": 0.0589,
+      "994": 0.0589,
+      "990": 0.0589,
+      "1198": 0.254,
+      "906": 0.3197,
+      "1304": 0.0563,
+      "604": 0.1451,
+      "416": 0.207
+    }
+  },
+  {
+    "community_id": "community:006",
+    "label": "Strategies: Evaluation | Applications: Government: other applications/unspecified | Strategies: Government study or report",
+    "taxonomy_signature": [
+      "Strategies: Evaluation",
+      "Applications: Government: other applications/unspecified",
+      "Strategies: Government study or report",
+      "Strategies: Evaluation: Impact assessment",
+      "Strategies: Government support: For R&D",
+      "Strategies: New institution",
+      "Strategies: Government support"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1264",
+      "27",
+      "315",
+      "414",
+      "442",
+      "443",
+      "471",
+      "54",
+      "55"
+    ],
+    "bill_groups": [
+      [
+        "54",
+        "55"
+      ]
+    ],
+    "doc_centrality": {
+      "315": 0.0373,
+      "27": 0.212,
+      "443": 0.1147,
+      "442": 0.0359,
+      "1264": 0.1567,
+      "471": 0.0492,
+      "54": 0.1893,
+      "55": 0.1893,
+      "414": 0.0794
+    }
+  },
+  {
+    "community_id": "community:007",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1998",
+      "1999",
+      "2000",
+      "2001"
+    ],
+    "bill_groups": [
+      [
+        "2000",
+        "2001",
+        "1998",
+        "1999"
+      ]
+    ],
+    "doc_centrality": {
+      "2000": 1.0,
+      "2001": 1.0,
+      "1998": 1.0,
+      "1999": 1.0
+    }
+  },
+  {
+    "community_id": "community:008",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "787",
+      "788",
+      "789",
+      "790"
+    ],
+    "bill_groups": [
+      [
+        "788",
+        "787",
+        "790",
+        "789"
+      ]
+    ],
+    "doc_centrality": {
+      "788": 1.0,
+      "787": 1.0,
+      "790": 1.0,
+      "789": 1.0
+    }
+  },
+  {
+    "community_id": "community:009",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "815",
+      "816",
+      "817",
+      "818"
+    ],
+    "bill_groups": [
+      [
+        "815",
+        "816",
+        "818",
+        "817"
+      ]
+    ],
+    "doc_centrality": {
+      "815": 1.0,
+      "816": 1.0,
+      "818": 1.0,
+      "817": 1.0
+    }
+  },
+  {
+    "community_id": "community:010",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "2367",
+      "466",
+      "864"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "466": 0.2825,
+      "2367": 0.2853,
+      "864": 0.2773
+    }
+  },
+  {
+    "community_id": "community:011",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "984",
+      "985",
+      "986"
+    ],
+    "bill_groups": [
+      [
+        "985",
+        "984",
+        "986"
+      ]
+    ],
+    "doc_centrality": {
+      "985": 1.0,
+      "984": 1.0,
+      "986": 1.0
+    }
+  },
+  {
+    "community_id": "community:012",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "996",
+      "997",
+      "998"
+    ],
+    "bill_groups": [
+      [
+        "996",
+        "998",
+        "997"
+      ]
+    ],
+    "doc_centrality": {
+      "996": 1.0,
+      "998": 1.0,
+      "997": 1.0
+    }
+  },
+  {
+    "community_id": "community:013",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1000",
+      "1014",
+      "999"
+    ],
+    "bill_groups": [
+      [
+        "1000",
+        "999"
+      ]
+    ],
+    "doc_centrality": {
+      "1014": 0.2672,
+      "1000": 0.2672,
+      "999": 0.2672
+    }
+  },
+  {
+    "community_id": "community:014",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1221",
+      "1391",
+      "1392"
+    ],
+    "bill_groups": [
+      [
+        "1392",
+        "1391"
+      ]
+    ],
+    "doc_centrality": {
+      "1392": 0.2621,
+      "1391": 0.2621,
+      "1221": 0.2621
+    }
+  },
+  {
+    "community_id": "community:015",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1338",
+      "1341",
+      "1342"
+    ],
+    "bill_groups": [
+      [
+        "1341",
+        "1338",
+        "1342"
+      ]
+    ],
+    "doc_centrality": {
+      "1341": 1.0,
+      "1338": 1.0,
+      "1342": 1.0
+    }
+  },
+  {
+    "community_id": "community:016",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "2393",
+      "444"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "444": 0.2789,
+      "2393": 0.2789
+    }
+  },
+  {
+    "community_id": "community:017",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2336",
+      "808"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2336": 0.2881,
+      "808": 0.2881
+    }
+  },
+  {
+    "community_id": "community:018",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "2409",
+      "666"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2409": 0.315,
+      "666": 0.315
+    }
+  },
+  {
+    "community_id": "community:019",
+    "label": "Incentives: Civil liability | Harms: Detrimental content | Harms: Violation of civil or human rights, including privacy",
+    "taxonomy_signature": [
+      "Incentives: Civil liability",
+      "Harms: Detrimental content",
+      "Harms: Violation of civil or human rights, including privacy",
+      "Applications: Arts, sports, leisure, travel, and lifestyle",
+      "Harms: Discrimination"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "481",
+      "531"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "481": 0.3903,
+      "531": 0.3903
+    }
+  },
+  {
+    "community_id": "community:020",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "2046",
+      "657"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "657": 0.2575,
+      "2046": 0.2575
+    }
+  },
+  {
+    "community_id": "community:021",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1980",
+      "1981"
+    ],
+    "bill_groups": [
+      [
+        "1981",
+        "1980"
+      ]
+    ],
+    "doc_centrality": {
+      "1981": 1.0,
+      "1980": 1.0
+    }
+  },
+  {
+    "community_id": "community:022",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1894",
+      "1913"
+    ],
+    "bill_groups": [
+      [
+        "1913",
+        "1894"
+      ]
+    ],
+    "doc_centrality": {
+      "1913": 1.0,
+      "1894": 1.0
+    }
+  },
+  {
+    "community_id": "community:023",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1986",
+      "1987"
+    ],
+    "bill_groups": [
+      [
+        "1986",
+        "1987"
+      ]
+    ],
+    "doc_centrality": {
+      "1986": 1.0,
+      "1987": 1.0
+    }
+  },
+  {
+    "community_id": "community:024",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "411",
+      "911"
+    ],
+    "bill_groups": [
+      [
+        "411",
+        "911"
+      ]
+    ],
+    "doc_centrality": {
+      "411": 1.0,
+      "911": 1.0
+    }
+  },
+  {
+    "community_id": "community:025",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "791",
+      "792"
+    ],
+    "bill_groups": [
+      [
+        "791",
+        "792"
+      ]
+    ],
+    "doc_centrality": {
+      "791": 1.0,
+      "792": 1.0
+    }
+  },
+  {
+    "community_id": "community:026",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "796",
+      "797"
+    ],
+    "bill_groups": [
+      [
+        "796",
+        "797"
+      ]
+    ],
+    "doc_centrality": {
+      "796": 1.0,
+      "797": 1.0
+    }
+  },
+  {
+    "community_id": "community:027",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "805",
+      "806"
+    ],
+    "bill_groups": [
+      [
+        "806",
+        "805"
+      ]
+    ],
+    "doc_centrality": {
+      "806": 1.0,
+      "805": 1.0
+    }
+  },
+  {
+    "community_id": "community:028",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "566",
+      "581"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "566": 0.2789,
+      "581": 0.2789
+    }
+  },
+  {
+    "community_id": "community:029",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "809",
+      "810"
+    ],
+    "bill_groups": [
+      [
+        "810",
+        "809"
+      ]
+    ],
+    "doc_centrality": {
+      "810": 1.0,
+      "809": 1.0
+    }
+  },
+  {
+    "community_id": "community:030",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "607",
+      "828"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "607": 0.2623,
+      "828": 0.2623
+    }
+  },
+  {
+    "community_id": "community:031",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "813",
+      "814"
+    ],
+    "bill_groups": [
+      [
+        "814",
+        "813"
+      ]
+    ],
+    "doc_centrality": {
+      "814": 1.0,
+      "813": 1.0
+    }
+  },
+  {
+    "community_id": "community:032",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "582",
+      "898"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "898": 0.2838,
+      "582": 0.2838
+    }
+  },
+  {
+    "community_id": "community:033",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1225",
+      "1346"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1346": 0.3057,
+      "1225": 0.3057
+    }
+  },
+  {
+    "community_id": "community:034",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1311",
+      "1357"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1311": 0.2616,
+      "1357": 0.2616
+    }
+  },
+  {
+    "community_id": "community:035",
+    "label": "Strategies: Input controls: Data use | Strategies: Input controls | Harms: Discrimination",
+    "taxonomy_signature": [
+      "Strategies: Input controls: Data use",
+      "Strategies: Input controls",
+      "Harms: Discrimination",
+      "Strategies: Performance requirements",
+      "Strategies: Input controls: Data circulation",
+      "Harms: Financial loss",
+      "Applications: Business services and analytics",
+      "Harms: Harm to health/safety",
+      "Harms: Violation of civil or human rights, including privacy",
+      "Applications: Finance and investment",
+      "Applications: Broadcasting and media production"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "327",
+      "328"
+    ],
+    "bill_groups": [
+      [
+        "328",
+        "327"
+      ]
+    ],
+    "doc_centrality": {
+      "328": 1.0,
+      "327": 1.0
+    }
+  },
+  {
+    "community_id": "community:036",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1352",
+      "1353"
+    ],
+    "bill_groups": [
+      [
+        "1353",
+        "1352"
+      ]
+    ],
+    "doc_centrality": {
+      "1353": 1.0,
+      "1352": 1.0
+    }
+  },
+  {
+    "community_id": "community:037",
+    "label": "Strategies: Disclosure | Strategies: Disclosure: About inputs | Strategies: Disclosure: In deployment",
+    "taxonomy_signature": [
+      "Strategies: Disclosure",
+      "Strategies: Disclosure: About inputs",
+      "Strategies: Disclosure: In deployment",
+      "Strategies: Disclosure: In standard form",
+      "Applications: Sales, retail, and customer relations",
+      "Risk factors: Privacy",
+      "Risk factors: Interpretability and explainability"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1009",
+      "1371"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1371": 0.2777,
+      "1009": 0.2777
+    }
+  },
+  {
+    "community_id": "community:038",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1374",
+      "1375"
+    ],
+    "bill_groups": [
+      [
+        "1375",
+        "1374"
+      ]
+    ],
+    "doc_centrality": {
+      "1375": 1.0,
+      "1374": 1.0
+    }
+  },
+  {
+    "community_id": "community:039",
+    "label": "Applications: Government: other applications/unspecified | Strategies: Government support",
+    "taxonomy_signature": [
+      "Applications: Government: other applications/unspecified",
+      "Strategies: Government support"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1010",
+      "540"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "540": 0.6406,
+      "1010": 0.6406
+    }
+  },
+  {
+    "community_id": "community:040",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2301"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2301": 1.0
+    }
+  },
+  {
+    "community_id": "community:041",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2347"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2347": 1.0
+    }
+  },
+  {
+    "community_id": "community:042",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2399"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2399": 1.0
+    }
+  },
+  {
+    "community_id": "community:043",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2320"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2320": 1.0
+    }
+  },
+  {
+    "community_id": "community:044",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2381"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2381": 1.0
+    }
+  },
+  {
+    "community_id": "community:045",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2304"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2304": 1.0
+    }
+  },
+  {
+    "community_id": "community:046",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2334"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2334": 1.0
+    }
+  },
+  {
+    "community_id": "community:047",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "2410"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "2410": 1.0
+    }
+  },
+  {
+    "community_id": "community:048",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "579"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "579": 1.0
+    }
+  },
+  {
+    "community_id": "community:049",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "867"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "867": 1.0
+    }
+  },
+  {
+    "community_id": "community:050",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1903"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1903": 1.0
+    }
+  },
+  {
+    "community_id": "community:051",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1919"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1919": 1.0
+    }
+  },
+  {
+    "community_id": "community:052",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "26"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "26": 1.0
+    }
+  },
+  {
+    "community_id": "community:053",
+    "label": "Strategies: Disclosure: About incidents | Strategies: Disclosure",
+    "taxonomy_signature": [
+      "Strategies: Disclosure: About incidents",
+      "Strategies: Disclosure"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "576"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "576": 1.0
+    }
+  },
+  {
+    "community_id": "community:054",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1208"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1208": 1.0
+    }
+  },
+  {
+    "community_id": "community:055",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "851"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "851": 1.0
+    }
+  },
+  {
+    "community_id": "community:056",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1891"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1891": 1.0
+    }
+  },
+  {
+    "community_id": "community:057",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1887"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1887": 1.0
+    }
+  },
+  {
+    "community_id": "community:058",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1988"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1988": 1.0
+    }
+  },
+  {
+    "community_id": "community:059",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1921"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1921": 1.0
+    }
+  },
+  {
+    "community_id": "community:060",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1900"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1900": 1.0
+    }
+  },
+  {
+    "community_id": "community:061",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1896"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1896": 1.0
+    }
+  },
+  {
+    "community_id": "community:062",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1923"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1923": 1.0
+    }
+  },
+  {
+    "community_id": "community:063",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1901"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1901": 1.0
+    }
+  },
+  {
+    "community_id": "community:064",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1927"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1927": 1.0
+    }
+  },
+  {
+    "community_id": "community:065",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1924"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1924": 1.0
+    }
+  },
+  {
+    "community_id": "community:066",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1929"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1929": 1.0
+    }
+  },
+  {
+    "community_id": "community:067",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1926"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1926": 1.0
+    }
+  },
+  {
+    "community_id": "community:068",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1912"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1912": 1.0
+    }
+  },
+  {
+    "community_id": "community:069",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1920"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1920": 1.0
+    }
+  },
+  {
+    "community_id": "community:070",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1961"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1961": 1.0
+    }
+  },
+  {
+    "community_id": "community:071",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1886"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1886": 1.0
+    }
+  },
+  {
+    "community_id": "community:072",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1975"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1975": 1.0
+    }
+  },
+  {
+    "community_id": "community:073",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1904"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1904": 1.0
+    }
+  },
+  {
+    "community_id": "community:074",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1922"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1922": 1.0
+    }
+  },
+  {
+    "community_id": "community:075",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1690"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1690": 1.0
+    }
+  },
+  {
+    "community_id": "community:076",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "795"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "795": 1.0
+    }
+  },
+  {
+    "community_id": "community:077",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "410"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "410": 1.0
+    }
+  },
+  {
+    "community_id": "community:078",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "508"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "508": 1.0
+    }
+  },
+  {
+    "community_id": "community:079",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "418"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "418": 1.0
+    }
+  },
+  {
+    "community_id": "community:080",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "641"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "641": 1.0
+    }
+  },
+  {
+    "community_id": "community:081",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "499"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "499": 1.0
+    }
+  },
+  {
+    "community_id": "community:082",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "468"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "468": 1.0
+    }
+  },
+  {
+    "community_id": "community:083",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "832"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "832": 1.0
+    }
+  },
+  {
+    "community_id": "community:084",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "836"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "836": 1.0
+    }
+  },
+  {
+    "community_id": "community:085",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "504"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "504": 1.0
+    }
+  },
+  {
+    "community_id": "community:086",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "811"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "811": 1.0
+    }
+  },
+  {
+    "community_id": "community:087",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "888"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "888": 1.0
+    }
+  },
+  {
+    "community_id": "community:088",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "824"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "824": 1.0
+    }
+  },
+  {
+    "community_id": "community:089",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "398"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "398": 1.0
+    }
+  },
+  {
+    "community_id": "community:090",
+    "label": "Strategies: Evaluation | Applications: Medicine, life sciences and public health",
+    "taxonomy_signature": [
+      "Strategies: Evaluation",
+      "Applications: Medicine, life sciences and public health"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "429"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "429": 1.0
+    }
+  },
+  {
+    "community_id": "community:091",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "402"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "402": 1.0
+    }
+  },
+  {
+    "community_id": "community:092",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "408"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "408": 1.0
+    }
+  },
+  {
+    "community_id": "community:093",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "415"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "415": 1.0
+    }
+  },
+  {
+    "community_id": "community:094",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "432"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "432": 1.0
+    }
+  },
+  {
+    "community_id": "community:095",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "422"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "422": 1.0
+    }
+  },
+  {
+    "community_id": "community:096",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "449"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "449": 1.0
+    }
+  },
+  {
+    "community_id": "community:097",
+    "label": "Strategies: Government study or report | Applications: Government: benefits and welfare | Strategies: Pilots and testbeds",
+    "taxonomy_signature": [
+      "Strategies: Government study or report",
+      "Applications: Government: benefits and welfare",
+      "Strategies: Pilots and testbeds"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "428"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "428": 1.0
+    }
+  },
+  {
+    "community_id": "community:098",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "438"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "438": 1.0
+    }
+  },
+  {
+    "community_id": "community:099",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "431"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "431": 1.0
+    }
+  },
+  {
+    "community_id": "community:100",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "452"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "452": 1.0
+    }
+  },
+  {
+    "community_id": "community:101",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "461"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "461": 1.0
+    }
+  },
+  {
+    "community_id": "community:102",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "489"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "489": 1.0
+    }
+  },
+  {
+    "community_id": "community:103",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "483"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "483": 1.0
+    }
+  },
+  {
+    "community_id": "community:104",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "494"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "494": 1.0
+    }
+  },
+  {
+    "community_id": "community:105",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "485"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "485": 1.0
+    }
+  },
+  {
+    "community_id": "community:106",
+    "label": "Risk factors: Reliability | Applications: Broadcasting and media production | Incentives: Civil liability",
+    "taxonomy_signature": [
+      "Risk factors: Reliability",
+      "Applications: Broadcasting and media production",
+      "Incentives: Civil liability",
+      "Incentives: Fines",
+      "Harms: Detrimental content",
+      "Applications: Government: other applications/unspecified"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "517"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "517": 1.0
+    }
+  },
+  {
+    "community_id": "community:107",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "487"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "487": 1.0
+    }
+  },
+  {
+    "community_id": "community:108",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "486"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "486": 1.0
+    }
+  },
+  {
+    "community_id": "community:109",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "539"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "539": 1.0
+    }
+  },
+  {
+    "community_id": "community:110",
+    "label": "Strategies: Government support: For R&D",
+    "taxonomy_signature": [
+      "Strategies: Government support: For R&D"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "497"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "497": 1.0
+    }
+  },
+  {
+    "community_id": "community:111",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "510"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "510": 1.0
+    }
+  },
+  {
+    "community_id": "community:112",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "500"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "500": 1.0
+    }
+  },
+  {
+    "community_id": "community:113",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "529"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "529": 1.0
+    }
+  },
+  {
+    "community_id": "community:114",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "568"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "568": 1.0
+    }
+  },
+  {
+    "community_id": "community:115",
+    "label": "Incentives: Civil liability",
+    "taxonomy_signature": [
+      "Incentives: Civil liability"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "532"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "532": 1.0
+    }
+  },
+  {
+    "community_id": "community:116",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "546"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "546": 1.0
+    }
+  },
+  {
+    "community_id": "community:117",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "804"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "804": 1.0
+    }
+  },
+  {
+    "community_id": "community:118",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "823"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "823": 1.0
+    }
+  },
+  {
+    "community_id": "community:119",
+    "label": "Strategies: Government support: For R&D | Incentives: Fines | Applications: Government: judicial and law enforcement",
+    "taxonomy_signature": [
+      "Strategies: Government support: For R&D",
+      "Incentives: Fines",
+      "Applications: Government: judicial and law enforcement",
+      "Incentives: Imprisonment",
+      "Strategies: Government support"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "652"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "652": 1.0
+    }
+  },
+  {
+    "community_id": "community:120",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "830"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "830": 1.0
+    }
+  },
+  {
+    "community_id": "community:121",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "556"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "556": 1.0
+    }
+  },
+  {
+    "community_id": "community:122",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "614"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "614": 1.0
+    }
+  },
+  {
+    "community_id": "community:123",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "515"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "515": 1.0
+    }
+  },
+  {
+    "community_id": "community:124",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "572"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "572": 1.0
+    }
+  },
+  {
+    "community_id": "community:125",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "615"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "615": 1.0
+    }
+  },
+  {
+    "community_id": "community:126",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "557"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "557": 1.0
+    }
+  },
+  {
+    "community_id": "community:127",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "530"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "530": 1.0
+    }
+  },
+  {
+    "community_id": "community:128",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "519"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "519": 1.0
+    }
+  },
+  {
+    "community_id": "community:129",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "580"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "580": 1.0
+    }
+  },
+  {
+    "community_id": "community:130",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "541"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "541": 1.0
+    }
+  },
+  {
+    "community_id": "community:131",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "533"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "533": 1.0
+    }
+  },
+  {
+    "community_id": "community:132",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "820"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "820": 1.0
+    }
+  },
+  {
+    "community_id": "community:133",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "524"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "524": 1.0
+    }
+  },
+  {
+    "community_id": "community:134",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "596"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "596": 1.0
+    }
+  },
+  {
+    "community_id": "community:135",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "601"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "601": 1.0
+    }
+  },
+  {
+    "community_id": "community:136",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "655"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "655": 1.0
+    }
+  },
+  {
+    "community_id": "community:137",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "822"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "822": 1.0
+    }
+  },
+  {
+    "community_id": "community:138",
+    "label": "Harms: Discrimination | Risk factors: Safety | Strategies: Evaluation: Post-market monitoring",
+    "taxonomy_signature": [
+      "Harms: Discrimination",
+      "Risk factors: Safety",
+      "Strategies: Evaluation: Post-market monitoring",
+      "Applications: Security",
+      "Risk factors: Privacy",
+      "Strategies: Evaluation",
+      "Risk factors: Bias",
+      "Risk factors: Security",
+      "Applications: Medicine, life sciences and public health",
+      "Strategies: Government study or report",
+      "Harms: Violation of civil or human rights, including privacy",
+      "Harms: Harm to health/safety"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "807"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "807": 1.0
+    }
+  },
+  {
+    "community_id": "community:139",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "I",
+    "member_agora_ids": [
+      "829"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "829": 1.0
+    }
+  },
+  {
+    "community_id": "community:140",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "819"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "819": 1.0
+    }
+  },
+  {
+    "community_id": "community:141",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "617"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "617": 1.0
+    }
+  },
+  {
+    "community_id": "community:142",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "583"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "583": 1.0
+    }
+  },
+  {
+    "community_id": "community:143",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "821"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "821": 1.0
+    }
+  },
+  {
+    "community_id": "community:144",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "591"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "591": 1.0
+    }
+  },
+  {
+    "community_id": "community:145",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "834"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "834": 1.0
+    }
+  },
+  {
+    "community_id": "community:146",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "672"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "672": 1.0
+    }
+  },
+  {
+    "community_id": "community:147",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "841"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "841": 1.0
+    }
+  },
+  {
+    "community_id": "community:148",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "678"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "678": 1.0
+    }
+  },
+  {
+    "community_id": "community:149",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "837"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "837": 1.0
+    }
+  },
+  {
+    "community_id": "community:150",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "915"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "915": 1.0
+    }
+  },
+  {
+    "community_id": "community:151",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "917"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "917": 1.0
+    }
+  },
+  {
+    "community_id": "community:152",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "881"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "881": 1.0
+    }
+  },
+  {
+    "community_id": "community:153",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "659"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "659": 1.0
+    }
+  },
+  {
+    "community_id": "community:154",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "844"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "844": 1.0
+    }
+  },
+  {
+    "community_id": "community:155",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "843"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "843": 1.0
+    }
+  },
+  {
+    "community_id": "community:156",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "982"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "982": 1.0
+    }
+  },
+  {
+    "community_id": "community:157",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "894"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "894": 1.0
+    }
+  },
+  {
+    "community_id": "community:158",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "872"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "872": 1.0
+    }
+  },
+  {
+    "community_id": "community:159",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "857"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "857": 1.0
+    }
+  },
+  {
+    "community_id": "community:160",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "704"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "704": 1.0
+    }
+  },
+  {
+    "community_id": "community:161",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "887"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "887": 1.0
+    }
+  },
+  {
+    "community_id": "community:162",
+    "label": "Strategies: Input controls | Strategies: Licensing, registration, and certification | Risk factors: Security",
+    "taxonomy_signature": [
+      "Strategies: Input controls",
+      "Strategies: Licensing, registration, and certification",
+      "Risk factors: Security",
+      "Risk factors: Security: Cybersecurity",
+      "Harms: Harm to health/safety"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "852"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "852": 1.0
+    }
+  },
+  {
+    "community_id": "community:163",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1003"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1003": 1.0
+    }
+  },
+  {
+    "community_id": "community:164",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "907"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "907": 1.0
+    }
+  },
+  {
+    "community_id": "community:165",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1002"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1002": 1.0
+    }
+  },
+  {
+    "community_id": "community:166",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "897"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "897": 1.0
+    }
+  },
+  {
+    "community_id": "community:167",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "682"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "682": 1.0
+    }
+  },
+  {
+    "community_id": "community:168",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "878"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "878": 1.0
+    }
+  },
+  {
+    "community_id": "community:169",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1001"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1001": 1.0
+    }
+  },
+  {
+    "community_id": "community:170",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "885"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "885": 1.0
+    }
+  },
+  {
+    "community_id": "community:171",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1007"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1007": 1.0
+    }
+  },
+  {
+    "community_id": "community:172",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "902"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "902": 1.0
+    }
+  },
+  {
+    "community_id": "community:173",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "856"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "856": 1.0
+    }
+  },
+  {
+    "community_id": "community:174",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "860"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "860": 1.0
+    }
+  },
+  {
+    "community_id": "community:175",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1011"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1011": 1.0
+    }
+  },
+  {
+    "community_id": "community:176",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1016"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1016": 1.0
+    }
+  },
+  {
+    "community_id": "community:177",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "849"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "849": 1.0
+    }
+  },
+  {
+    "community_id": "community:178",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "845"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "845": 1.0
+    }
+  },
+  {
+    "community_id": "community:179",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1197"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1197": 1.0
+    }
+  },
+  {
+    "community_id": "community:180",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1241"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1241": 1.0
+    }
+  },
+  {
+    "community_id": "community:181",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "I",
+    "member_agora_ids": [
+      "1274"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1274": 1.0
+    }
+  },
+  {
+    "community_id": "community:182",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1230"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1230": 1.0
+    }
+  },
+  {
+    "community_id": "community:183",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1259"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1259": 1.0
+    }
+  },
+  {
+    "community_id": "community:184",
+    "label": "Applications: Networking and telecommunications | Risk factors: Interpretability and explainability | Applications: Broadcasting and media production",
+    "taxonomy_signature": [
+      "Applications: Networking and telecommunications",
+      "Risk factors: Interpretability and explainability",
+      "Applications: Broadcasting and media production",
+      "Strategies: Governance development",
+      "Strategies: Convening",
+      "Risk factors: Transparency",
+      "Strategies: Government support",
+      "Applications: Business services and analytics",
+      "Strategies: Government support: AI workforce-related",
+      "Strategies: Government study or report",
+      "Applications: Medicine, life sciences and public health",
+      "Applications: Finance and investment"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1251"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1251": 1.0
+    }
+  },
+  {
+    "community_id": "community:185",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1247"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1247": 1.0
+    }
+  },
+  {
+    "community_id": "community:186",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1212"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1212": 1.0
+    }
+  },
+  {
+    "community_id": "community:187",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1245"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1245": 1.0
+    }
+  },
+  {
+    "community_id": "community:188",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1283"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1283": 1.0
+    }
+  },
+  {
+    "community_id": "community:189",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1219"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1219": 1.0
+    }
+  },
+  {
+    "community_id": "community:190",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1227"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1227": 1.0
+    }
+  },
+  {
+    "community_id": "community:191",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1216"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1216": 1.0
+    }
+  },
+  {
+    "community_id": "community:192",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1337"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1337": 1.0
+    }
+  },
+  {
+    "community_id": "community:193",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1206"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1206": 1.0
+    }
+  },
+  {
+    "community_id": "community:194",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1265"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1265": 1.0
+    }
+  },
+  {
+    "community_id": "community:195",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1312"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1312": 1.0
+    }
+  },
+  {
+    "community_id": "community:196",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1258"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1258": 1.0
+    }
+  },
+  {
+    "community_id": "community:197",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1205"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1205": 1.0
+    }
+  },
+  {
+    "community_id": "community:198",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1239"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1239": 1.0
+    }
+  },
+  {
+    "community_id": "community:199",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1306"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1306": 1.0
+    }
+  },
+  {
+    "community_id": "community:200",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1218"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1218": 1.0
+    }
+  },
+  {
+    "community_id": "community:201",
+    "label": "Risk factors: Interpretability and explainability | Applications: Education | Strategies: Convening",
+    "taxonomy_signature": [
+      "Risk factors: Interpretability and explainability",
+      "Applications: Education",
+      "Strategies: Convening",
+      "Harms: Detrimental content",
+      "Strategies: Government support",
+      "Strategies: Tiering",
+      "Risk factors: Transparency"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1287"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1287": 1.0
+    }
+  },
+  {
+    "community_id": "community:202",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1233"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1233": 1.0
+    }
+  },
+  {
+    "community_id": "community:203",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1288"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1288": 1.0
+    }
+  },
+  {
+    "community_id": "community:204",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1269"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1269": 1.0
+    }
+  },
+  {
+    "community_id": "community:205",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1209"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1209": 1.0
+    }
+  },
+  {
+    "community_id": "community:206",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1307"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1307": 1.0
+    }
+  },
+  {
+    "community_id": "community:207",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1232"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1232": 1.0
+    }
+  },
+  {
+    "community_id": "community:208",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1296"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1296": 1.0
+    }
+  },
+  {
+    "community_id": "community:209",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1290"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1290": 1.0
+    }
+  },
+  {
+    "community_id": "community:210",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1248"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1248": 1.0
+    }
+  },
+  {
+    "community_id": "community:211",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1298"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1298": 1.0
+    }
+  },
+  {
+    "community_id": "community:212",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1343"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1343": 1.0
+    }
+  },
+  {
+    "community_id": "community:213",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1316"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1316": 1.0
+    }
+  },
+  {
+    "community_id": "community:214",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1348"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1348": 1.0
+    }
+  },
+  {
+    "community_id": "community:215",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1344"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1344": 1.0
+    }
+  },
+  {
+    "community_id": "community:216",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1270"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1270": 1.0
+    }
+  },
+  {
+    "community_id": "community:217",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1263"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1263": 1.0
+    }
+  },
+  {
+    "community_id": "community:218",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1199"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1199": 1.0
+    }
+  },
+  {
+    "community_id": "community:219",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1201"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1201": 1.0
+    }
+  },
+  {
+    "community_id": "community:220",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1261"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1261": 1.0
+    }
+  },
+  {
+    "community_id": "community:221",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1319"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1319": 1.0
+    }
+  },
+  {
+    "community_id": "community:222",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1214"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1214": 1.0
+    }
+  },
+  {
+    "community_id": "community:223",
+    "label": "Harms: Harm to property | Harms: Harm to health/safety",
+    "taxonomy_signature": [
+      "Harms: Harm to property",
+      "Harms: Harm to health/safety"
+    ],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "323"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "323": 1.0
+    }
+  },
+  {
+    "community_id": "community:224",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1231"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1231": 1.0
+    }
+  },
+  {
+    "community_id": "community:225",
+    "label": "Applications: Manufacturing and process automation | Applications: Transportation | Strategies: Pilots and testbeds",
+    "taxonomy_signature": [
+      "Applications: Manufacturing and process automation",
+      "Applications: Transportation",
+      "Strategies: Pilots and testbeds",
+      "Harms: Financial loss",
+      "Strategies: Government study or report",
+      "Strategies: Government support"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "496"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "496": 1.0
+    }
+  },
+  {
+    "community_id": "community:226",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1358"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1358": 1.0
+    }
+  },
+  {
+    "community_id": "community:227",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "322"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "322": 1.0
+    }
+  },
+  {
+    "community_id": "community:228",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1200"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1200": 1.0
+    }
+  },
+  {
+    "community_id": "community:229",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "457"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "457": 1.0
+    }
+  },
+  {
+    "community_id": "community:230",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1276"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1276": 1.0
+    }
+  },
+  {
+    "community_id": "community:231",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1372"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1372": 1.0
+    }
+  },
+  {
+    "community_id": "community:232",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1242"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1242": 1.0
+    }
+  },
+  {
+    "community_id": "community:233",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1310"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1310": 1.0
+    }
+  },
+  {
+    "community_id": "community:234",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1315"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1315": 1.0
+    }
+  },
+  {
+    "community_id": "community:235",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1679"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1679": 1.0
+    }
+  },
+  {
+    "community_id": "community:236",
+    "label": "Applications: Government: judicial and law enforcement | Incentives: Civil liability | Incentives: Criminal liability",
+    "taxonomy_signature": [
+      "Applications: Government: judicial and law enforcement",
+      "Incentives: Civil liability",
+      "Incentives: Criminal liability"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1681"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1681": 1.0
+    }
+  },
+  {
+    "community_id": "community:237",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1685"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1685": 1.0
+    }
+  },
+  {
+    "community_id": "community:238",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1687"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1687": 1.0
+    }
+  },
+  {
+    "community_id": "community:239",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "R",
+    "member_agora_ids": [
+      "1684"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1684": 1.0
+    }
+  },
+  {
+    "community_id": "community:240",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "1680"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "1680": 1.0
+    }
+  },
+  {
+    "community_id": "community:241",
+    "label": "Applications: Government: military and public safety | Harms: Harm to infrastructure | Harms: Financial loss",
+    "taxonomy_signature": [
+      "Applications: Government: military and public safety",
+      "Harms: Harm to infrastructure",
+      "Harms: Financial loss",
+      "Harms: Ecological harm",
+      "Harms: Harm to property",
+      "Risk factors: Safety",
+      "Harms: Harm to health/safety"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "275"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "275": 1.0
+    }
+  },
+  {
+    "community_id": "community:242",
+    "label": "Risk factors: Reliability | Strategies: New institution | Strategies: Government study or report",
+    "taxonomy_signature": [
+      "Risk factors: Reliability",
+      "Strategies: New institution",
+      "Strategies: Government study or report",
+      "Harms: Violation of civil or human rights, including privacy",
+      "Strategies: Pilots and testbeds",
+      "Strategies: Evaluation: Adversarial testing",
+      "Strategies: Tiering: Tiering based on planning ability",
+      "Risk factors: Security",
+      "Strategies: Government support",
+      "Strategies: Tiering",
+      "Risk factors: Reliability: Robustness",
+      "Risk factors: Security: Cybersecurity",
+      "Strategies: Government support: AI workforce-related",
+      "Strategies: Evaluation: Impact assessment",
+      "Strategies: Governance development",
+      "Strategies: Government support: For R&D",
+      "Risk factors: Privacy",
+      "Strategies: Evaluation",
+      "Incentives: Subsidies",
+      "Risk factors: Safety"
+    ],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "89"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "89": 1.0
+    }
+  },
+  {
+    "community_id": "community:243",
+    "label": "General",
+    "taxonomy_signature": [],
+    "dominant_party": "D",
+    "member_agora_ids": [
+      "29"
+    ],
+    "bill_groups": [],
+    "doc_centrality": {
+      "29": 1.0
+    }
+  }
+]

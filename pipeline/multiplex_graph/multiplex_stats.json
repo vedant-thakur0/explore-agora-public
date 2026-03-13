@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "layer_1_sponsor": {
+      "nodes": 710,
+      "edges": 2387,
+      "node_types": {
+        "Sponsor": 201,
+        "Document": 509
+      },
+      "edge_types": {
+        "SPONSORED_BY": 509,
+        "SHARES_SPONSOR": 1878
+      }
+    }
+  },
+  "combined": {
+    "nodes": 710,
+    "edges": 2387
+  }
+}
