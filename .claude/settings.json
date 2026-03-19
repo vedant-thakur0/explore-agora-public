@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -:*)"
+      "Bash(python3 -:*)",
+      "Read(/Users/vthakur/Documents/auto/agora/**)",
+      "Write(/Users/vthakur/Documents/auto/agora/**)",
+      "Read(/Users/vthakur/.claude)",
+      "Write(/Users/vthakur/.claude/plans)"
     ]
   }
 }
