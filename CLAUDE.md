@@ -1,19 +1,22 @@
 # CLAUDE.md — AGORA Project
 
-**MANDATORY FIRST ACTION: Read `README_AGENTS.md` in full before doing anything else.**
-It is the authoritative quick-start reference for this project and contains directory structure,
-data flow, CLI commands, agent architecture, and progress log. All other work assumes you have read it.
-
-## Project in one sentence
-AGORA discovers, ranks, and analyzes U.S. Congress AI policy documents using a multi-stage pipeline
-(Congress.gov ingestion → TF-IDF ranking → knowledge graph → NER agents).
-
-## After significant changes
-Append an entry to the **Progress Log** section of `README_AGENTS.md` using the template in that file.
-Update the "Last Updated" timestamp at the top.
+## Project synopsis
+Explore-AGORA is a computational toolkit for AI policy research. Driven by accountability, transparency, and computational minimalism. Uses the AGORA dataset (key strengths: tags and identification of AI-related legislation).
 
 ## DO NOT
-- Use `pipeline/fixtures/` or `pipeline/runs/demo_run*` paths in live operations — offline/test only.
-- Bypass `ANTHROPIC_RATE_DELAY_SECONDS` (0.65s) in any loop calling the Claude API. Violating this causes silent NER corruption.
-- Hard-code absolute paths (e.g. `/Users/vthakur/...`). Use path constants from `pipeline/config.py` instead.
-- Commit or modify `.env`. It holds `CONGRESS_API_KEY` and must stay out of version control.
+- Spin up explore agents or bash commands unless absolutely necessary. Use context in existing .md files and plan files first.
+
+## Directory structure
+ONLY IF NEEDED: See `FILETREE.md` for the full annotated file tree.
+
+## Pipeline conventions
+- All path constants live in `config.py`.
+- CLI entry: `python3 -m agora.pipeline.cli <command>`
+- Agent outputs → `agents/output/`, checkpoints → `agents/checkpoints/`, memory → `agents/memory/`.
+
+## Key references
+- **File tree:** `FILETREE.md`
+- **Data schema:** `knowledge_graph/README.md`
+- **NER agent docs:** `NER_AGENT.md`
+- **Tuning guide:** `pipeline/TUNING_RUNBOOK.md`
+- **Tuning history:** `pipeline/TUNING_CHANGELOG.md`

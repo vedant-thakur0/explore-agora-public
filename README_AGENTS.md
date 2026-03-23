@@ -5,17 +5,19 @@
 **Status:** Active development on knowledge graph and agent pipelines
 **Next Feature:** Supabase connection
 
+
+**Key Instruction**
+Do not spin up explore agents or bash commands unless absolutely necessary! Use context provided in existing .md files and plan files as much as possible!
 ---
 
-## 🎯 Project Overview
+## 🎯 Current Project Focus
 
-AGORA is a multi-stage system for discovering, ranking, and analyzing AI policy documents from U.S. Congress. The project combines:
-1. **Data ingestion** from Congress.gov with semantic ranking
-2. **Knowledge graph construction** over the AGORA corpus
-3. **Multi-agent NER/analysis** for entity and relationship extraction
-4. **Document similarity matching** against .docx files
+A multi-stage system for discovering, ranking, and analyzing AI policy documents from U.S. Congress. The project combines:
+1. **Knowledge graph construction** over the AGORA corpus
+2. **Multi-agent NER/analysis** for entity and relationship extraction
+3. **Document similarity matching** against .docx files
 
-**Key Entry Points:** `pipeline/cli.py`, `pipeline/config.py`, notebooks in `notebooks/`
+**Key Entry Points:** `pipeline/cli.py`, `pipeline/config.py`
 
 ---
 
@@ -65,7 +67,6 @@ agora/
 │   └── graph_exploration.ipynb    # Interactive KG exploration
 │
 ├── requirements.txt               # Python dependencies
-├── .env                           # Environment secrets (Congress API key, etc.)
 └── CLAUDE.md                      # User preferences & collaboration guidelines (if exists)
 ```
 
@@ -111,191 +112,6 @@ ANTHROPIC_RATE_DELAY_SECONDS = 0.65  # ~92 RPM
 ANTHROPIC_MAX_RETRIES = 1
 ANTHROPIC_RETRY_BASE_DELAY = 2
 ```
-
-**Community Detection (Knowledge Graph):**
-```python
-LOUVAIN_RESOLUTION = 1.5
-SIMILARITY_THRESHOLD = 0.25
-DENSE_EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-COMMUNITY_SIMILARITY_WEIGHTS = {
-    "jaccard_taxonomy": 0.50, 
-    "cosine_summary": 0.25, 
-    "dense_cosine": 0.20,
-    "cosponsor_jaccard": 0.05,
-}
-```
-
-**NER Agent Settings:**
-```python
-NER_CHUNK_SIZE = 6000
-NER_MAX_PARSING_RULES = 7
-NER_MEMORY_TOP_N = {...}
-```
-
-### 3. **Data Flow Pipeline**
-
-```
-Congress.gov API
-       ↓
-fetch_bills() → raw/ (JSON snapshots)
-       ↓
-build_records() + hydrate_text() → normalized/ (JSONL)
-       ↓
-rank_records() → runs/<run_id>_candidates.jsonl
-       ↓
-export_review_csv() → review_exports/<run_id>_review.csv
-       ↓
-[Human review + decision tracking]
-       ↓
-Positive profile → datasets/agora_positive_profile_v1.jsonl
-       ↓
-Knowledge graph (community detection, NER agents) → agents/output/
-```
-
----
-
-## 🚀 Core Operations (Pipeline CLI)
-
-All commands run from project root: `python3 -m agora.pipeline.cli <command> [options]`
-
-### **1. Fetch Bills from Congress.gov** deprecated, need to rework (ignore section unless explicitly required)
-
-```bash
-# Live fetch
-python3 -m agora.pipeline.cli fetch \
-  --since 2025-01-01 \
-  --limit 100
-
-# With custom run ID
-python3 -m agora.pipeline.cli fetch \
-  --since 2025-01-01 \
-  --limit 100 \
-  --run-id my_custom_id
-
-# Offline (fixture testing)
-python3 -m agora.pipeline.cli fetch \
-  --since 2025-01-01 \
-  --limit 10 \
-  --fixture-json pipeline/fixtures/sample_bills.json \
-  --run-id localtest
-```
-
-**Output:**
-- `runs/<run_id>/raw_payload.json` (API snapshots)
-- `runs/<run_id>/manifest.json` (summary: records_fetched, records_with_text)
-- `normalized/<run_id>.jsonl` (DocumentRecord JSONL)
-
-### **2. Rank Candidates**
-
-```bash
-python3 -m agora.pipeline.cli rank-candidates \
-  --run-id <RUN_ID>
-  # Optional: --min-score 0.3 --high-threshold 0.7 --medium-threshold 0.5
-```
-
-**Logic:**
-- Loads documents from `normalized/<run_id>.jsonl`
-- Filters out already-reviewed (via `review_exports/`)
-- Vectorizes against reference texts (TF-IDF centroid)
-- Assigns `candidate_tier`: high (>0.7), medium (0.5-0.7), low, skip (<0.3)
-- Saves to `runs/<run_id>_candidates.jsonl`
-
-**Tuning:** Edit `pipeline/config.py` thresholds or `ranker.py` logic. See [TUNING_RUNBOOK.md](pipeline/TUNING_RUNBOOK.md).
-
-### **3. Export for Review**
-
-```bash
-python3 -m agora.pipeline.cli export-review \
-  --run-id <RUN_ID> \
-  --out pipeline/review_exports/<RUN_ID>_review.csv
-```
-
-**Output:** CSV with columns:
-- `source_id`, `title`, `candidate_score`, `candidate_tier`
-- `evidence_snippets`, `matched_signals`
-- `include` / `reject` / `unsure` (fill in for decisions)
-
-**Decision Tracking:** Once reviewed, decisions persist in `runs/` index. Future ranks skip already-reviewed docs.
-
-### **4. One-Call HR Trial (Recommended)**
-
-Batch fetch + optional per-bill detail hydration:
-
-```bash
-python3 -m agora.pipeline.cli trial-one-call-hr \
-  --since 2026-01-01 \
-  --limit 251 \
-  --top-k 50 \
-  --hydrate-details \
-  --detail-delay-sec 0.1 \
-  --detail-max-retries 2 \
-  --out-json runs/trial_<timestamp>.json
-```
-
-**Fast variant (list only):**
-```bash
-python3 -m agora.pipeline.cli trial-one-call-hr \
-  --since 2026-01-01 --limit 250 --top-k 50
-```
-
-### **5. Match Incoming .docx Files**
-
-```bash
-python3 -m agora.pipeline.cli match-docx \
-  --docx-dir /path/to/docx \
-  --profile-jsonl pipeline/datasets/agora_positive_profile_v1.jsonl \
-  --top-k 50 \
-  --min-score 0.0 \
-  --max-profile-matches 5 \
-  --out-json runs/docx_match_<timestamp>.json
-```
-
-**Scoring:** `0.70 * semantic_similarity + 0.30 * keyword_score`
-
-**Output:** JSON with matched documents, scores, and evidence.
-
-### **6. Build Positive Profile**
-
-Generate training reference from labeled documents:
-
-```bash
-python3 -m agora.pipeline.build_positive_profile \
-  --input-csv pipeline/datasets/documents.csv \
-  --out-prefix pipeline/datasets/agora_positive_profile_v1
-```
-
-**Generated artifacts:**
-- `.jsonl` (serialized records with profile_text)
-- `.csv` (human-readable)
-- `_report.json` (statistics)
-- `_lineage.json` (data provenance)
-
----
-
-## 📊 Knowledge Graph
-
-**Entry Point:** `pipeline/knowledge_graph.py`, `pipeline/graph_query.py`
-
-**Data Sources:**
-- Documents: `knowledge_graph/data/documents.csv` (622 Congress docs)
-- Segments: `knowledge_graph/data/segments.csv` (4,087 segments)
-- Full text: `knowledge_graph/data/fulltext/` (619 .txt files)
-
-**Join Keys:** first two most important
-- `documents.csv` → `AGORA ID` = filename in `fulltext/<agora_id>.txt`
-- `segments.csv` → `Document ID` = `AGORA ID`
-- `documents.csv` → `Authority` = issuer 
-- `documents.csv` → `Collections` (semicolon-delimited) = thematic groups
-
-**Community Detection:**
-- Louvain clustering with resolution=1.5
-- Weighted by taxonomy overlap, summary similarity, cosponsor overlap
-- Output: `multiplex_graph/<run_id>_communities.json`
-
-**Features to Add:** Entity linking (NER agents), relationship inference
-
----
-
 ## 🤖 Agent Architecture
 
 **Directory:** `pipeline/agents/`
@@ -308,6 +124,7 @@ python3 -m agora.pipeline.build_positive_profile \
 **Current Agents:**
 1. **NER Agent** — Extracts named entities (organizations, roles, legislation refs, offices, docs)
    - Settings in `config.py`: `NER_CHUNK_SIZE`, `NER_MAX_PARSING_RULES`, `NER_MEMORY_TOP_N`
+   - Read NER_AGENT.md
    - Processes documents in sections, maintains entity memory
 
 2. **Graph Query Agent** — Queries KG structure, retrieves neighbors, communities
@@ -326,13 +143,6 @@ python3 -m agora.pipeline.build_positive_profile \
 
 ## 📋 Important Files & References
 
-### Tuning & Ranking (Deprecated)
-- [TUNING_RUNBOOK.md](pipeline/TUNING_RUNBOOK.md) — Process, guardrails, rollback for ranking tuning
-- [TUNING_CHANGELOG.md](pipeline/TUNING_CHANGELOG.md) — Append-only history of tuning impacts
-
-### API & Data Ingestion (Deprecated)
-- [API_SESSION_INGESTION_PLAYBOOK.md](pipeline/API_SESSION_INGESTION_PLAYBOOK.md) — Session data ingestion guide
-
 ### Knowledge Graph Schema
 - [knowledge_graph/README.md](knowledge_graph/README.md) — Full data schema, join keys, limitations
 
@@ -343,15 +153,6 @@ python3 -m agora.pipeline.build_positive_profile \
 
 ## 🔐 Environment & Setup
 
-**Required:**
-```bash
-export CONGRESS_API_KEY="your_key_here"
-```
-
-**Optional .env file** (at repo root):
-```
-CONGRESS_API_KEY=your_key_here
-```
 
 **Dependencies:**
 - `python-docx>=1.1.0` — .docx parsing
@@ -415,50 +216,6 @@ When you make significant changes, **update this file in these sections:**
 - **Changes:** Added community detection, Louvain clustering
 - **Files Modified:** `pipeline/config.py`, `pipeline/knowledge_graph.py`
 - **New Settings:** `LOUVAIN_RESOLUTION`, `COMMUNITY_SIMILARITY_WEIGHTS`
-
-### 2025-02-15 - Docx/Txt Matcher Pipeline
-- **Status:** Complete
-- **Changes:** Added `.docx` matching against positive profile
-- **Files Modified:** `pipeline/docx_matcher.py`, `pipeline/cli.py`
-- **Scoring:** `0.70 * semantic + 0.30 * keyword`
-
-### 2025-02-10 - Positive Profile Build
-- **Status:** Complete
-- **Changes:** Generate training reference from labeled corpus
-- **Files Modified:** `pipeline/build_positive_profile.py`
-- **Artifacts:** JSONL, CSV, report, lineage
-
----
-
-## 🎓 Common Workflows for Agents
-
-### **Task: Improve Ranking Quality**
-1. Get current run: `python3 -m agora.pipeline.cli fetch --since <date> --limit 50`
-2. Rank: `python3 -m agora.pipeline.cli rank-candidates --run-id <ID>`
-3. Export: `python3 -m agora.pipeline.cli export-review --run-id <ID>`
-4. Review CSV, make decisions
-5. Evaluate precision/recall against ground truth
-6. Adjust `config.py` thresholds or `ranker.py` logic
-7. Rerun and compare — document change in [TUNING_CHANGELOG.md](pipeline/TUNING_CHANGELOG.md)
-
-### **Task: Extract Entities from Document Set**
-1. Identify document IDs in `pipeline/normalized/` or `knowledge_graph/data/documents.csv`
-2. Run NER agent on document text (stored in `agents/output/`)
-3. Save results to `agents/output/ner_entities_<timestamp>.jsonl`
-4. Link entities to document IDs for later relationship inference
-
-### **Task: Analyze Knowledge Graph Communities**
-1. Access graph data in `multiplex_graph/` or compute via `pipeline/knowledge_graph.py`
-2. Use `pipeline/graph_query.py` to explore specific communities
-3. Visualize in `notebooks/graph_exploration.ipynb`
-4. Document findings and save to `agents/output/`
-
-### **Task: Add a New Document Source**
-1. Implement fetch logic in new module (e.g., `pipeline/custom_source.py`)
-2. Return `DocumentRecord` objects
-3. Integrate into CLI via `pipeline/cli.py`
-4. Store in `raw/`, `normalized/` following existing schema
-5. Update this README with new source description
 
 ---
 

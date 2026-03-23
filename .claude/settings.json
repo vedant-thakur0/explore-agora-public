@@ -5,7 +5,11 @@
       "Read(/Users/vthakur/Documents/auto/agora/**)",
       "Write(/Users/vthakur/Documents/auto/agora/**)",
       "Read(/Users/vthakur/.claude)",
-      "Write(/Users/vthakur/.claude/plans)"
+      "Write(/Users/vthakur/.claude/plans)",
+      "Bash(python3 -c \":*)",
+      "Bash(find /Users/vthakur/Documents/auto/agora/pipeline/web/routes -name \"*.py\" -exec head -30 {} +)",
+      "mcp__supabase__list_tables",
+      "Bash(python3 -m pipeline.cli sync-supabase --dry-run)"
     ]
   }
 }

@@ -1,20 +1,14 @@
 {
   "layers": {
-    "layer_1_sponsor": {
-      "nodes": 710,
-      "edges": 2387,
-      "node_types": {
-        "Sponsor": 201,
-        "Document": 509
-      },
-      "edge_types": {
-        "SPONSORED_BY": 509,
-        "SHARES_SPONSOR": 1878
-      }
+    "layer_3_entity": {
+      "nodes": 0,
+      "edges": 0,
+      "node_types": {},
+      "edge_types": {}
     }
   },
   "combined": {
-    "nodes": 710,
-    "edges": 2387
+    "nodes": 0,
+    "edges": 0
   }
 }

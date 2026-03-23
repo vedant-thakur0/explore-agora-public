@@ -38,7 +38,7 @@ def _slugify(name: str) -> str:
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
     if not path.exists():
-        return []
+        assert ImportWarning(f"Path Not Found: {path}")
     with path.open("r", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
@@ -47,9 +47,7 @@ def _load_csv(path: Path) -> list[dict[str, str]]:
 # Layer 1: Sponsor graph
 # ---------------------------------------------------------------------------
 
-def build_layer1_sponsor(
-    agents_output_dir: Path,
-) -> nx.MultiDiGraph:
+def build_layer1_sponsor(agents_output_dir: Path,) -> nx.MultiDiGraph:
     """Build Layer 1 sponsor graph from sponsor_nodes.csv and sponsor_edges.csv."""
     G = nx.MultiDiGraph()
 
@@ -221,6 +219,48 @@ def build_layer3_entity(
                 if entity_type == "legislation_refs":
                     edge_attrs["ref_type"] = entity.get("ref_type", "")
                 G.add_edge(doc_id, node_id, **edge_attrs)
+
+        # Entity-to-entity relationships
+        for rel in rec.get("relationships", []):
+            src_type = rel.get("source_type", "")
+            src_name = rel.get("source_name", "")
+            tgt_type = rel.get("target_type", "")
+            tgt_name = rel.get("target_name", "")
+            rel_type = rel.get("relation_type", "")
+
+            if not all([src_type, src_name, tgt_type, tgt_name, rel_type]):
+                continue
+
+            src_cfg = ENTITY_CONFIG.get(src_type)
+            tgt_cfg = ENTITY_CONFIG.get(tgt_type)
+            if not src_cfg or not tgt_cfg:
+                continue
+            src_prefix = src_cfg[2]
+            tgt_prefix = tgt_cfg[2]
+
+            src_canonical = canonical_map.get(src_name.lower().strip())
+            src_node_id = src_canonical or f"{src_prefix}:{_slugify(src_name)}"
+
+            tgt_canonical = canonical_map.get(tgt_name.lower().strip())
+            tgt_node_id = tgt_canonical or f"{tgt_prefix}:{_slugify(tgt_name)}"
+
+            if src_node_id not in G or tgt_node_id not in G:
+                log.warning(
+                    "Skipping relationship %s -[%s]-> %s: node not in graph",
+                    src_node_id, rel_type, tgt_node_id,
+                )
+                continue
+
+            rel_edge_attrs: dict[str, Any] = {
+                "relation": rel_type,
+                "layer": 3,
+                "source_doc": agora_id,
+            }
+            rel_context = rel.get("context", "")
+            if rel_context:
+                rel_edge_attrs["context"] = rel_context[:200]
+
+            G.add_edge(src_node_id, tgt_node_id, **rel_edge_attrs)
 
     log.info("Layer 3: %d nodes, %d edges", G.number_of_nodes(), G.number_of_edges())
     return G

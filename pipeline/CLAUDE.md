@@ -1,8 +1,5 @@
 # CLAUDE.md — pipeline/
 
-**If you have not already read `README_AGENTS.md` at the repo root, do that first.**
-All project context, data flow, and CLI documentation lives there.
-
 ## Pipeline-specific notes
 - All path constants are in `config.py`. Never hard-code paths.
 - CLI entry point is `cli.py`. Run as `python3 -m agora.pipeline.cli <command>`.

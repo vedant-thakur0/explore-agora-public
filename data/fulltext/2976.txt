@@ -1,0 +1,463 @@
+Executive Summary
+Ghana's national, economic, and sustainable development objectives could be accelerated through the application of artificial intelligence (AI). A national AI strategy that builds upon existing digital policies and aligns key stakeholders will serve as a transformative catalyst for Ghana's AI ecosystem and leadership position in Africa.
+The Government of Ghana, through the Ministry of Communications and Digitalisation, led the development of Ghana's National AI Strategy, with support from GIZ FAIR Forward, Smart Africa, and facilitation from The Future Society (TFS). The project is grounded in extensive consultations with stakeholders and analysis of the country's AI and digital ecosystem and policy landscape.
+Mission: “To harness AI for inclusive growth across all sectors and to improve the lives of people in Ghana, becoming a trailblazer for AI leadership in Africa and beyond.”
+Vision "Ghana 2033: The Artificial Intelligence-Powered Society: By 2033, people living in Ghana will experience a transformed society where AI advances the potential of people, government, businesses and systems to achieve inclusive social and economic transformation and quality of life. Ghanaians would have the capabilities and enabling environment to be
+competitive in the global digital economy, positioning Ghana as an African AI hub.”
+As described in Smart Africa’s Blueprint: Artificial Intelligence for Africa report , AI brings major opportunities to Africa to achieve sustainable growth and development. The expansion of digital connectivity, the accumulation of more data, the development of more sophisticated algorithms, and the increase in computing power are facilitating AI's technological advancements. Most AI development and use is happening in advanced economies right now, but AI has a lot of potential to change emerging economies as well. Ghana possesses a variety of advantages and strengths that can be utilised to facilitate the development of a local Ghanaian AI ecosystem. Nevertheless, as much as AI wields positive transformative power, it also poses risks that could compromise security, safety, privacy, and human rights, as well as lead to biassed decision-making and data abuse. It is imperative for Ghana to ensure a responsible, inclusive, and sustainable AI ecosystem. Consequently, data governance and policy are essential for fostering Ghana's AI ecosystem and mitigating its many risks.
+The strategy document includes insights derived from a diagnostic assessment (SWOT Analysis) that identifies significant opportunities and constraints that AI developers in Ghana must contend with. The SWOT analysis revealed policy intervention areas required to accelerate, enable, and scale Ghana's AI ecosystem. As such, it serves as the foundation for policy recommendations centred on capitalising on the ecosystem's strengths, overcoming its weaknesses and threats, and capitalising on unique opportunities.
+In addition, eight essential pillars for a responsible and inclusive AI ecosystem in Ghana were established. Notably, these overlap with the pillars identified in the "AI for Africa Blueprint" report by Smart Africa.  
+ 
+Furthermore, the strategy document (Appendix 1) explores practical use cases for the adoption of AI in the real world that can boost productivity, efficiency, and outcomes in a number of critical sectors of the Ghanaian economy.
+ 
+Key Recommendations
+Pillar 1: Expand AI Education & Training
+1.	Conduct an annual skills gap assessment.
+2.	Launch the “AI Ready Ghana” programme.
+3.	Expand the number of AI education courses available.
+4.	Promote training courses for teachers.
+Pillar 2: Empower Youth for AI Jobs of the Future
+5.	Facilitate remote jobs or internships in AI.
+6.	Develop tax incentives for youth in AI start-ups to promote employment.
+7.	Develop AI Fellowship programs.
+8.	Support continuous training and short courses for students and professionalsto enter the AI field.
+Pillar 3: Deepen Digital Infrastructure & Inclusion
+9.	Review and identify gaps in the implementation of existing digital policiesincluding development of national data centres.
+10.	Initiate mutual partnerships engagement with world-class cloud computingproviders for affordable access for AI start-ups in Ghana.
+11.	Orchestrate market dynamics that incentivise entrepreneurs to startenterprises that focus on AI products and services.
+Pillar 4: Facilitate Data Access & Governance
+12.	Disseminate and drive enforcement of existing data sharing & governancepolicies.
+13.	Clarify data privacy and data sharing agreements and regulations forpartnerships.
+14.	Disseminate guidance on trustworthy, safe, secure and ethical AI practices toAI developers and adopters.
+15.	Apply to international and regional AI governance platforms.
+16.	Rollout of the Ghana Open Data Initiative (GODI), the Ghana Data ExchangeHub and data repositories.
+Pillar 5: Coordinate a Robust AI Ecosystem & Community
+17.	Build & convene an online and in-person AI community.
+18.	Expand and establish complementary physical or virtual AI innovation hubsacross the country, especially in marginalised communities, to promote collaborations and knowledge sharing.
+Pillar 6: Accelerate AI Adoption in Key Sectors
+19.	Spark investment into AI adoption with 5 AI pilot projects from across keysectors.
+20.	Review and clarify laws for copyright, patents and intellectual property.
+21. Implement incentives for AI start-ups, e.g. tax breaks for research & development or employment.
+Pillar 7: Invest in Applied AI Research
+22.	Establish a Special Research Initiative to delve into climate-smart agricultureand forestry.
+23.	Establish a Natural Language Processing (NLP) Centre of Excellence (CoE).
+24.	Develop a framework for the establishment of a National Deep Science Institute.
+Pillar 8: Promote AI Adoption in Public Sector
+25.	Develop a program that increases access for digital & AI-focused start-ups to public procurement processes.
+26.	Evolve public sector mindset to view algorithms as IP and work with vendors & start-ups to co-create IP in AI.
+27.	Establish a program to train civil & public servants to design, lead andimplement AI projects in public services.
+28.	Incentivise an AI culture by creating a reward system to encourage servicedelivery excellence utilising AI.
+29.	Develop a comprehensive public administration data dashboard/interface toprovide data analytics for policy, planning, programme mix, resource allocation, monitoring, and evaluation.
+30.	Initiate a programme to identify critical public service AI use-cases.
+31.	Develop a viable workflow and operational framework for public sector workthat takes into consideration agility and data-driven decision making.
+The report concludes with a recommendation that a Responsible AI Office (RAI Office) be established within the first year to lead the execution of the Ghana National AI Strategy. The RAI Office shall be mandated with implementing the National AI Strategy by coordinating institutional stakeholders and championing the responsible development and deployment of artificial intelligence. Furthermore, the office will oversee ongoing monitoring and evaluation of the progress of Ghana's AI efforts. The RAI Office will be established as an independent, well-resourced institution tasked with driving implementation. This office is modelled on the Singapore National AI Office (NAIO), the Egypt National AI Council, and the United Kingdom's Office for AI.
+Ghana has a momentous opportunity to build upon its burgeoning AI and digital ecosystem. By launching the Responsible AI Office, coordinating key actors and driving action, the Government of Ghana accelerates responsible and trustworthy AI adoption to achieve inclusive growth across sectors, improving the lives of people in Ghana and becoming a trailblazer for AI leadership in Africa and beyond.
+Acknowledgements
+Through the Data Protection Commission, the Ministry of Communications and Digitalisation collaborated with Smart Africa, GIZ FAIR Forward, and The Future Society (TFS) to develop the Ghana National Artificial Intelligence Strategy. Numerous individuals and institutions contributed to the project's completion in a variety of ways.
+We are indebted to HE Nana Addo Dankwa Akufo-Addo, President of the Republic of Ghana, for his visionary leadership that paved the way for this AI strategy initiative. In addition, the Vice President, HE Mahamudu Bawumia, is lauded for his office's contribution to the development of the Ghana National AI Strategy and tireless efforts to drive the digital transformation agenda in Ghana. In addition, the Minister of Communications and Digitalisation, Mrs. Ursula Owusu Ekuful (MP), is commended for being a guiding light, providing resources, and championing Ghana's artificial intelligence initiatives in the digital economy. Furthermore, the Deputy Minister of Communication and Digitalisation, Ms Ama Pomaa Boateng (MP), has been very supportive through her counsel, contributions, and welcoming presence throughout the development of this strategy, and we express our gratitude to her. Similarly, we recognise the efforts of Ms. Paricia Adusei-Poku, the Commissioner at the Data Protection Commission, who was a fundamental and mobilising leader in the development of the strategy, ensuring that the environment, cooperation, and personnel were always available throughout its development.
+The project benefited from the leadership of the Ministry of Communications and Digitalisation, including Mrs. Magdalene Apenteng, who was the Chief Director of the Ministry at the beginning of the project, and Mr. Alfred Nortey, who was the Director of Research at the Ministry. The project team is represented by the Executive Director of the Ghana Data Protection Commission, Patricia Adusei-Poku, Maxwell Ababio, and Abigail Yeboah. The FAIR Forward project, a global initiative of the German Federal Ministry for Economic Cooperation and Development (BMZ) implemented by The Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH, was represented by Abraham Kuuku Sam, Jonas Gramse, Emmanuel Mumuni, Mary Afram and Raphael Leuner. The knowledge partner is The Future
+Society (TFS), led by Yolanda Lannquist, Nicolas Miailhe, Derrydean Dadzie, Robert Okine, and Badrul Chowdhury. The Smart Africa Alliance participated with representation by Olivier Gakwaya.
+The working team benefited from consultation workshops and expert interviews with participants from the Ghanaian government's Ministries, Departments, and Agencies, including the Vice President's Office, the Ministry of Communications and Digitalisation, the Data Protection Commission, the National Information Technology Agency (NITA), the Ministry of Environment, Science, Innovation, and Technology (MESTI), the Ministry of Education, the Ministry of
+Transport, and the Ministry of Health.
+The project additionally benefitted from stakeholder consultations and expert interviews with participants representing the private sector, academia and civil society organisations, including but not limited to the Tony Blair Institute for Global Change, African Institute for Mathematical Sciences (AIMS), University of Cape Coast, Kwame Nkrumah University for Science and
+Technology (KNUST), the KNUST Responsible Artificial Intelligence Lab (RAIL), Responsible AI
+Network (RAIN) Africa, Ghana Chamber of Telecommunications, Mozilla Foundation, NVIDIA, Google AI, Ghana NLP, AmaliTech, Blossom Academy, Artificial Intelligence Association of Ghana, Cyst, mPharma, MinoHealth, Karagro AI, Developers in Vogue, Microsoft, Women in Machine Learning and Data Science (WiMLDS), in addition to Ghanaian AI practitioners, engineers and PhD researchers. 
+Context
+The application of artificial intelligence (AI) has the potential to accelerate Ghana's movement toward achieving its economic and sustainable development goals (SDGs). The National AI Strategy of Ghana functions as a comprehensive roadmap that enables the country to capitalise on AI's socio-economic benefits while simultaneously mitigating its hazards. Artificial intelligence can boost human and economic development across Ghana in line with its national objectives, as well as progress towards the achievement of the United Nations Sustainable Development Goals (SDGs). Despite this, there are significant ethical dangers and practical obstacles associated with using AI, even though its opportunities are enormous. Expanding on digital policies and aligning key stakeholders, a national AI strategy and action plan will establish Ghana’s regional AI ecosystem and leadership.
+The Ghanaian government, acting through the Ministry of Communications and Digitalization, has been the driving force behind the creation of the country's National Artificial Intelligence Strategy. This work has been made possible with assistance from GIZ FAIR Forward and Smart Africa, and it has been facilitated by The Future Society (TFS). The project required close coordination with the government of Ghana, which was represented by the Data Protection Commission (DPC) at the Ministry of Communications and Digitalisation. Additionally, the initiative engaged stakeholders from the local, regional, and international levels. Consequently, the National AI Strategy will position Ghana as a leader and harness AI for sustainable and inclusive growth, laying the groundwork for the future of the nation and the continent.
+To date, the majority of African nations have yet to bring AI and digital technology advancements to policy tables. However, there is renewed impetus by some African countries such as Ghana, Rwanda, Kenya, Mauritius, South Africa, Tunisia, Morocco and Egypt to set the wheels of change in motion.  Smart Africa’s Blueprint: Artificial Intelligence for Africa report presents key elements and advice for national AI strategies and international coordination in
+Africa.
+What is AI?
+AI broadly refers to “an array of technologies relying on algorithms at their core to ‘think’ or ‘act’ towards solving a problem. AI includes tasks such as learning, reasoning, planning, perception, language understanding, and robotics.”  Machine learning (ML) is the sub-set of AI which has garnered the most traction and enthusiasm in recent years, creating opportunities for rapid AI developments and applications.
+AI includes many applications to improve outcomes and efficiency across sectors. These include, for example, language translation and customer service chat bots; prediction & optimization of electricity usage; autonomous vehicles & bus routes; facial recognition check-ins; predictive medical diagnoses for disease or triage; robotic process automation for businesses; virtual home voice assistants; analysis of satellite imagery to predict deforestation or agriculture outcomes; drone imaging for precision agriculture; algorithmic predictions for credit scoring or fraud detection; image classification for reading and digitising written text, and much more.
+Mission and Vision Statements
+Mission statement
+To harness AI for inclusive growth across all sectors and to improve the lives of people in Ghana, becoming a trailblazer for AI leadership in Africa and beyond.
+Vision statement
+Ghana 2033: The AI-powered society:
+By 2033, people living in Ghana will experience a transformed society where AI advances the potential of people, government, businesses and systems to achieve inclusive social and
+economic transformation and quality of life. Ghanaians would have the capabilities and enabling environment to be competitive in the global digital economy, positioning Ghana as an African AI hub.
+Methodology
+Ghana's National AI Strategy is grounded in stakeholder consultations and analysis of the country's AI and digital ecosystem and policy landscape (Appendix 2). Around 40 expert interviews were conducted with key actors and institutions in Ghana’s AI ecosystem from the public sector, academia, start-ups and private sector and civil society, complemented by four high-level public sector consultation workshops.
+The research involved deep engagement of stakeholders and in-depth cross-sectoral analysis of the AI ecosystem's strengths, needs, opportunities and challenges. Findings are presented in a SWOT (Strengths, Weaknesses, Opportunities, Threats) analysis, which identifies the most urgent areas for reform to enable Ghana’s AI ecosystem to flourish responsibly and inclusively. Background research also incorporates African and international emerging practices in AI policy based on benchmarks of various international AI strategies. A sectoral approach provides concrete examples of AI applications in key sectors in Ghana (Appendix 1 - Booklet of AI Use Cases in Ghana).
+Public sector consultations and workshops were conducted to shape and prioritise actionable policy recommendations. An initial workshop in March 2022 with steering committee members defined mission and vision statements. Subsequent in-person and virtual public sector consultation workshops took place from May to October 2022.
+ 
+AI for Sustainable and Inclusive Development
+Around the world, AI is becoming increasingly pervasive in our lives as a "general-purpose technology." As described in Smart Africa’s Blueprint: Artificial Intelligence for Africa report , AI brings major opportunities to Africa to achieve sustainable growth and development. Technological advancements in AI are being enabled by greater digital connectivity, increasing amounts of data, advanced algorithms, and gains in computing power. While most AI development and applications are currently in advanced economies, AI also has great potential to transform emerging economies.
+Smart Africa’s Blueprint: Artificial Intelligence for Africa report presents various AI applications and opportunities for African countries, from agriculture, education, health, financial services, energy and transportation and climate change. Similarly, the Global Partnership on AI (GPAI) has identified numerous applications of AI to help combat climate change and support the environment.  International research identifies numerous use cases across sustainable development goals.  This report provides concrete examples of AI applications in key sectors in Ghana (Appendix 1 - AI Use Cases in Ghana).
+AI can be a launch pad for Africa to make a paradigm shift to more efficient, optimal and transparent delivery of public services and infrastructure development. For example, in the healthcare sector, structural inequalities, shortages of qualified healthcare professionals or supplies, barriers to accessibility, affordability and rural and urban divides raise critical gaps that AI can help address.  Investing in digital technologies, including AI, will prepare Africa to generate new economies and contribute and compete in a global economy. Strategic adoption of advanced digital technologies such as AI can provide employment opportunities for the youth and opportunities for the continent’s innovators and entrepreneurs to plug into global value chains.
+While the responsible adoption of AI has the potential to help the country by driving inclusive economic advancement, Ghana has not yet taken full advantage. The African continent as a whole still lags behind. A measure of Oxford Insights’ governments' readiness for AI adoption revealed that the African continent scored the lowest on average. Moreover, few countries in the region have set out their vision for the implementation of AI.  Generally, African countries lack the preparedness to harness the tools that widespread adoption of AI would bring to solve many of the continent's most pressing social and economic challenges. 
+Nonetheless, Ghana has numerous advantages and strengths that can be harnessed to enable a local Ghanaian AI ecosystem. For example, some notable AI activities in Ghana have stemmed from the setting up of Google's first AI centre in Africa in Accra. For Ghana to take advantage of its burgeoning AI community, supporting and developing a responsible AI ecosystem with long-term benefits is critical. While AI development is rapid, adoption and upscaling across markets are still at an early stage, and much of its value is yet to be tapped. Thus, Ghana has a window of opportunity to harness AI for inclusive growth, sustainable development and well-being.
+Risks of AI
+However, the opportunities of AI are connected with substantial ethical and societal risks, including bias, discrimination and lack of transparency & explainability in algorithmic outcomes, widening inequality gaps, cybersecurity, privacy and safety concerns, and gaps in inclusion and data governance. These require developing innovative AI governance, carefully balanced by ethical guidelines for responsible AI adoption.
+AI systems can widen already existing inequalities and exclusion. Gaps in digital inclusion in rural areas and other demographic groups mean that certain populations are underrepresented in AI systems and unable to benefit from them. Meanwhile, Ghana suffers from a systematic lack of accurate and high quality data collection. Model bias can result in less accurate outcomes that are unsafe and unfairly discriminate against underrepresented groups. Currently, algorithmic bias can occur on data and models from foreign contexts that do not fit Ghana’s contexts.
+Personal data is vulnerable to violations in privacy or security during data collection, sharing, processing and storage. Furthermore, AI-generated realistic text, audio and video (‘deep fakes’) and personalised disinformation campaigns can manipulate, persuade and deceive citizens. Meanwhile, the lack of transparency and explainability in some AI systems (e.g. neural networks and deep learning) makes it difficult to detect bias, audit and trust AI systems, and hold them accountable. As more and more basic and vital services will be based on AI and digital technologies, these service systems have a new and increased vulnerability. Moreover, AI can be used for social harm, citizen surveillance and infringe on individual privacy.
+The AI economy can provide both job opportunities and losses across skill levels. From data collection and labelling to applied research, people in Ghana can participate in the global AI value chains. However, if the population is not prepared, automation of tasks in jobs can result in job losses. It is important to “future-proof” Ghana’s workforce by preparing them for future AI and digital jobs.
+It is imperative for Ghana to ensure a responsible, inclusive and sustainable AI ecosystem. As much as AI wields positive transformative power, it has the potential to infringe on human rights and lead to biased decision-making and misuse of data. To this end, data governance and policy are key to driving Ghana's AI ecosystem while mitigating its many risks. 
+Diagnostic Assessment of Ghana’s AI Ecosystem SWOT Analysis
+Strengths
+●	Vibrant and growing digital, e-commerce and innovation start-up ecosystem, including accelerators and innovation hubs (E.g. Ghana NLP, Mazzuma, Artificial Intelligence Association of Ghana)
+●	Digital connectivity expansion including the availability of internet in urban areas (e.g. 800km fibre optic cables, submarine gateways via Eastern Corridor)
+●	Local digital hubs (e.g. Accra Digital Centre AI Lab) and business-friendly environment for international investment (i.e. Anglophone market, political stability and security, academic institutions, solid internet infrastructure, ease of visas)
+●	Growing international investment in AI and the digital landscape (e.g. Google, Twitter, Glovo)
+●	Presence of supportive global actors such as Tony Blair Institute for Global Change and Kofi Annan Centre (AITI-KACE)
+●	Hub in the West African sub-region is able to attract talent and lead by example
+●	Relatively strong availability of university graduates equipped with fundamental skills in computer science, data analysis, mathematics and other relevant courses
+●	Young and fast-growing population with a strong drive to advance and improve the country through AI and emerging technologies
+●	Existence of robust national vision, policies and objectives towards digital, ICT and innovation (e.g. Ghana Digital Economy Policy, Ghana Integrated Digital Transformation Blueprint)
+●	Championing data governance, digital development and e-payments in Africa
+●	The expansion of the market to the Africa Continental Free Trade Area (AfCFTA) with headquarters in Ghana
+Weaknesses
+●	Low awareness about opportunities and value of AI adoption, resulting in low demand for local AI projects and few job opportunities to develop human capital
+●	Skills gap and lack of appreciation or low political will among government actors to drive AI development.
+●	Lack of coordination and collaboration among actors in the AI ecosystem, including AI projects in universities, companies, and across public sector institutions
+●	Limited access and low affordability of, reliable electricity, high-speed internet and IT infrastructure, including cloud computing infrastructure and data centres for high-performance computing
+●	Low digital skills & literacy and smartphone penetration in rural areas are barriers to AI adoption in SMEs
+●	Insufficient local digitised datasets that are accurate, updated, and representative.
+●	Data is inaccessible across sectors. Lack of standard practices in data digitization, collection, and sharing; data is siloed in sectors
+●	Low awareness, compliance and enforcement of data privacy and cybersecurity policies & governance; telecommunications policies that do not align well with disruptions and new trends in the sector
+●	Public scepticism and the need to demystify AI trends, including impact on jobs.
+●	Limited availability of university professors, funding, and courses in AI; skills gaps and insufficient number of talent with data science and more advanced AI skills
+●	Gaps in internet coverage and lack of 5G. 4G penetration at 41% on average in rural areas compared to 88% in urban areas
+●	Lack of access to venture capital and traditional bank loans limit access to financing for start-ups
+●	Lack of large-scale, local AI projects by industry or local digital hubs
+Opportunities
+●	Leverage the growing, vibrant digital ecosystem, talent pool and international investment (e.g. Google, Twitter) for Ghana to become a hub and launchpad for AI solutions in the region and continent
+●	Adopting AI tools can drive inclusion, outcomes and efficiency gains across sectors, including healthcare, transportation, energy, agriculture, education and public services
+●	Professionals access remote international AI job opportunities to grow skills, employment, and support the local AI community
+●	Growing niche in natural language processing (NLP) AI methods, including collection and labelling of local languages for translation solutions and chatbots across sectors
+●	Skills and employment across the AI value chain and skills levels by training students in data science, data labelling and collection, data centre infrastructure and cloud services, cybersecurity, machine learning research and product development
+Threats
+●	Lack of coordination and investment in implementing the National AI Strategy resulting in a failure of the AI ecosystem to take off, limiting Ghana’s competitiveness in the global digital economy
+●	Low accessibility and inclusion in AI adoption due to gaps in digital skills and literacy in SMEs and rural areas
+●	Risk of failures, errors and discrimination due to lower accuracy of AI models trained on foreign data not fit for local context, and underrepresentation in digital inclusion and AI development
+●	Loss of data privacy, security and public trust due to misuse of data or limited guidance, legislation and compliance for trustworthy AI adoption
+●	Lack of coordination and implementation in existing policies results in inefficient and underutilization of resources
+●	Potential for job loss or unemployment in traditional jobs due to changing skills demand and automation
+●	Brain drain of AI talent due to opportunities abroad
+●	Limited long-term sustainability of initiatives financed by donor partners.
+A diagnostic assessment (SWOT Analysis) identifies important opportunities and constraints that AI developers face in Ghana. It identifies the areas requiring policy interventions to accelerate, enable and scale Ghana’s AI ecosystem. As such, it is the foundational knowledge base for policy recommendations to harness Ghana’s strengths, overcome its weaknesses and threats, and ultimately take advantage of important opportunities for an AI ecosystem.
+National AI Strategy Framework
+ 
+The framework includes eight key pillars to enable a responsible and inclusive AI ecosystem in
+Ghana. Several of the pillars overlap with the five pillars identified in Smart Africa’s "AI for
+Africa" Blueprint report: Human capital, From Lab to Market, Networking, Infrastructure, and Regulation. 
+Pillar 1: Expand AI Education & Training
+In an era of rapid technological and economic changes, it is essential to equip people in Ghana with the skills to survive and thrive - now and in the future. This pillar develops AI talent by increasing the number of graduates with AI and machine learning, data science, data engineering, computer science, and practical technical skills (e.g. data preparation, data collection and labelling). By increasing AI talent, individuals and the nation can participate in the global AI and digital economy. Inclusive education programmes in rural areas and women are essential to diversifying the AI field. Furthermore, this pillar prepares the workforce for an evolving labour market and skills requirements.
+Pillar 2: Empower Youth for AI Jobs of the Future
+Youth employment is a key national objective. Youth in Ghana have opportunities to participate in the AI value chain, in Ghana and at international levels. Across skill and education levels, youth can participate in data collection, labelling, applied data science, machine learning research and beyond. In doing so, they create local home-grown datasets and AI solutions fit for the context. Youth can participate in a growing global digital and AI economy while staying within Ghana and contributing to its economy and AI community in either remote or local AI projects. Increasing opportunities for the youth of Ghana to learn and develop in-demand skills helps future-proof Ghana’s competitiveness, prevent brain drain and job displacement from automation.
+Pillar 3: Deepen Digital Infrastructure & Inclusion
+Reliable digital infrastructure and digital inclusion are fundamental for robust and inclusive AI in Ghana. This pillar enables greater access to internet and digital infrastructure, hardware and cloud computing services. Internet penetration is incomplete, particularly in rural areas, and poses challenges in terms of affordability and reliability with consequences for inclusion. Similarly, access to international world-class cloud service providers is unaffordable for AI start-ups, students and practitioners. International cloud providers offer compute capabilities that are unmatched by domestic options in terms of reliability, quality, efficiency, security and scalability. A path to affordable access to world-class compute for AI/ICT start-ups and companies while mitigating risks related to security and privacy is necessary. In parallel, Ghana will prepare to build a national cloud infrastructure with AI-ready storage and compute capacity serving the region and the continent.
+Pillar 4: Facilitate Data Access & Governance
+Access and availability of accurate and quality data are critical for AI. Ghana requires collecting and labelling more local data sets to support home-grown local AI solutions fit for the context. Despite existing data policies, institutions are largely unprepared to responsibly share data across organisations or with AI researchers and practitioners. Implementation and compliance with data privacy laws, cybersecurity and governance frameworks are necessary to facilitate access to data across institutions and providers while safeguarding citizens’ privacy, safety, security and rights. Governance is needed to protect people in Ghana against risks presented by AI and create an enabling environment for trustworthy innovation.
+Pillar 5: Coordinate a Robust AI Ecosystem & Community
+While Ghana has a growing AI ecosystem, including strong AI start-ups, practitioners and university research programs (Appendix 2), the community is not in regular communication and therefore does not benefit from knowledge sharing and collaborations. Coordination of the AI community in events, meetups, projects, conferences and beyond can foster shared skills development, collaborative projects, and synergies to grow the AI ecosystem. AI practitioners can identify project partners and resources and coordinate toward exemplary and successful projects. A coordinated community also supports talent retention in Ghana.
+Pillar 6: Accelerate AI Adoption in Key Sectors
+The private sector plays a vital role in scaling up AI adoption across the economy and society. This pillar aims to accelerate the application of AI to boost productivity and outcomes in key sectors and AI entrepreneurship. Exemplary successful pilot projects can raise interest in AI applications across sectors, such as healthcare, agriculture, transportation, energy, financial services, and the environment. Numerous actors in Ghana’s AI ecosystem are identifying use cases to add value and address local challenges in these sectors. It is important to raise awareness and demystify AI to spark interest and investment in pilot projects.
+With more projects available, local AI talent gain practical skills and job opportunities and are likely to stay in Ghana and contribute to the local economy. Notably, partnerships and coordination with public sector institutions and universities for sectoral applications are crucial to synergize in R&D, data, funding, and logistics to achieve scalability. This report provides concrete examples of AI applications in key sectors in Ghana (Appendix 1 - Booklet of AI Use Cases in Ghana).
+Pillar 7: Invest in Applied AI Research
+Ghana’s AI ecosystem should be future-oriented and able to drive value and progress towards local challenges and sustainable development. Rather than adopting technologies primarily made in foreign countries, local research into deep tech and applications is best able to address the country’s unique challenges and contribute toward African and international outcomes. This pillar focuses on applied research concerning AI applications in key sectors, such as agriculture, health, the environment, and deep science. It seeks to build on Ghana’s existing strengths, such as natural language processing (NLP) within academic and corporate institutions.
+Pillar 8: Promote AI Adoption in the Public Sector
+This pillar aims to support public sector leadership in the responsible and ethical adoption of AI. AI brings opportunities to improve quality and access to goods and services through a large number of use cases across public services, from administration and planning to healthcare, transportation, education, and beyond. Performance and efficiency gains through the application of AI technologies can help overcome shortages of resources. Public sector leadership can set an example and drive demand for AI in the economy through public procurement and PPPs that are open to AI start-ups and innovative companies. Importantly, cross-sector collaboration and standardisation in operational models across institutions will ensure uniformity. Skills building and training across the public sector are important to build capacity for responsible and ethical AI adoption across Ghana.
+8 Pillars: Key Policy Recommendations
+Pillar 1: Expand AI Education & Training
+1.	Conduct an annual skills gap assessment.
+2.	Launch the “AI Ready Ghana” program
+3.	Expand education courses in AI
+4.	Promote training courses for teachers
+Pillar 2: Empower Youth for AI Jobs of the Future
+5.	Facilitate remote jobs or internships in AI
+6.	Develop tax incentives for youth in AI start-ups to promote employment
+7.	Develop AI Fellowship programs
+8.	Support continuous training and short courses for students and professionals to enter the AI field
+Pillar 3: Deepen Digital Infrastructure & Inclusion
+9.	Review and identify gaps in the implementation of existing digitalpolicies including development of national data centres
+10.	Initiate mutual partnerships engagement with world-class cloudcomputing providers for affordable access for AI start-ups in Ghana
+11.	Orchestrate market dynamics that incentivise entrepreneurs to start enterprises that focus on AI products and services
+Pillar 4: Facilitate Data Access & Governance
+12.	Disseminate and drive enforcement of existing data sharing & governance policies
+13.	Clarify data privacy and data sharing agreements and regulations for partnerships
+14.	Disseminate guidance on trustworthy, safe, secure and ethical AI practices to AI developers and adopters
+15.	Apply to international and regional AI governance platforms
+16.	Rollout of the Ghana Open Data Initiative (GODI), the Ghana Data Exchange Hub and data repositories
+Pillar 5: Coordinate a Robust AI Ecosystem & Community
+17. Build & convene an online and in-person AI community
+18. Expand and establish complementary physical or virtual AI innovation hubs across the country, especially in marginalised communities, to promote collaborations and knowledge sharing
+Pillar 6: Accelerate AI Adoption in Key Sectors
+19.	Spark investment into AI adoption with 5 AI pilot projects fromacross key sectors
+20.	Review and clarify laws for copyright, patents and intellectualproperty
+21.	Implement incentives for AI start-ups, e.g. tax breaks for research& development or employment
+Pillar 7: Invest in Applied AI Research
+22.	Establish a Special Research Initiative to delve into climate-smartagriculture and forestry
+23.	Establish a Natural Language Processing (NLP) Centre of Excellence (CoE)
+24.	Develop a framework for the establishment of a National DeepScience Institute
+Pillar 8: Promote AI Adoption in Public Sector
+25.	Develop a program that increases access for digital & AI-focusedstart-ups to public procurement processes
+26.	Evolve public sector mindset to view algorithms as IP and workwith vendors & start-ups to co-create IP in AI
+27.	Establish a program to train civil & public servants to design, leadand implement AI projects in public services
+28.	Incentivise an AI culture by creating a reward system to encourageservice delivery excellence utilising AI
+29.	Develop a comprehensive public administration datadashboard/interface to provide data analytics for policy, planning, programme mix, resource allocation, monitoring, and evaluation 30. Initiate a programme to identify critical public service AI use-cases 31. Develop a viable workflow and operational framework for public sector work that takes into consideration agility and data-driven decision making
+ 
+AI Adoption in Key Sectors
+AI adoption can support productivity, efficiency and outcomes in a number of critical sectors of the country. Examples of concrete AI applications are outlined in Appendix 1- Booklet of AI Use Cases in Ghana.
+Target Sectors for AI Adoption
+Healthcare
+Agriculture
+Transportation
+Energy
+Financial Services
+Lands and Natural Resources
+Environment and Circular Economy
+ 
+Driving Implementation: Ghana’s Responsible AI Office
+This report recommends establishing a Responsible AI Office (RAI Office) during the first year to spearhead implementation of the Ghana National AI Strategy. The RAI Office shall be mandated to implement the National AI Strategy by coordinating stakeholders across institutions and championing AI's responsible development and deployment. Coordination of ongoing monitoring and progress measurements will also fall under the purview of the office. The RAI Office is to be established as an independent, well-resourced entity mandated to drive implementation. To support its launch, the Data Protection Commission may act as a nurturing enclave and incubator to form the institution and position it to acquire the necessary capacity for its mandate.
+This office follows several international examples, such as the Singapore National AI Office (NAIO), Egypt National AI Council, and the United Kingdom’s Office for AI. To be confirmed as part of the RAI Office's preliminary activities are:
+1.	Develop agenda to ensure legislative enablement, cross-sectoral regulatory alignment and cross-agency operational standardisation.
+2.	Coordinate across institutions to implement the National AI Strategy, involving government ministries and agencies, the private sector, academia and civil society, with an added dimension to ensure AI initiatives are useful and valuable to people and businesses. Responsible for leading several national AI strategy recommendations.
+3.	Lead quarterly monitoring, measurement, and iteration of the National AI Strategy, including identifying responsible actors, drawing up budgets, undertaking gap analyses, and reviewing, collating and updating emerging technology trends in Ghana and abroad.
+4.	Conduct deeper analyses for market sizing opportunities for AI across sectors.
+5.	Develop context-relevant indices such as a Ghana AI Readiness Index and toolkit to position Ghana, set goals & targets, measure progress and attract investment. Learn from international examples such as Rwanda’s AI Readiness Index or The Global Index on Responsible AI.
+6.	Actively participate in the global governance of AI platforms such as Global Partnership on AI or OECD Working Party on Artificial Intelligence Governance (AIGO) to shape international AI policy and learn from countries’ practices. With Smart Africa and GIZ FAIR Forward, participate in peer learning in the Africa-Asia AI Policy Maker Network. Following examples, such as Egypt’s National Artificial Intelligence Strategy, coordinate with international organisations (e.g. Smart Africa, African Union).
+It is strongly suggested that The RAI Office be equipped with a public-facing internet portal that displays its activities and agenda and facilitates community debates. The RAI Office will be evaluated over the course of three years with the goal of transforming it into a full commission as a means of affirming the government's ambition, AI leadership, and commitment to becoming
+Africa's AI hub.
+ 
+Action Plan
+Pillar 1: Expand AI Education
+Outcome	Recommendation	Activities	Actor(s)	Year
+A pool of talent ready to work in AI
+Annual AI skills gap assessment
+1.	Conduct an annual skills gap assessment.
+●	Conduct a baseline study to identify the current needs and availability of talent with specific skills and competencies for AI in the labour market to inform curricula in schools and universities.
+●	Develop a framework for a 5-yearly baseline assessment and adjustment for AI skills and capacity.
+●	Consultations with associations and institutions e.g. MESTI’s Strategic Technology Centre & Decade of Innovation strategy, TVET, COTVET, and Association of Ghana Industries to build a database of industry skill demands.
+MOCD, Ministry of Education, The National Council for Curriculum and Assessment (NACCA), Ghana Technology and Business Hubs Associations, Ghana Tertiary Education Council, MESTI, AITI-KACE, National Accreditation Board, universities (e.g. KNUST, Ashesi	University, University of Cape Coast, University of Ghana, AIMS, Academic City University College)
+2023
+“AI Ready Ghana” program to train students
+2.	Launch the “AI Ready Ghana” program
+●	Launch an Initiative that aims to train over 1,000,000 AI-ready youth by 2033. The Initiative would ensure AI training for youth in the first year of high school through their last years in tertiary education.
+●	Update existing STEM and IT curricula in secondary education to incorporate practical coding and AI skills, basics of data ethics, data protection and data science, and raise awareness about jobs in AI and digital fields.
+●	Prepare students by incorporating the basics of data science and coding in primary education.
+●	Develop a digital counselling and career advisory framework to guide young people on career choices in the digital economy. Such a framework should be implemented across all secondary and tertiary institutions through their career counselling units or departments where they exist. Where such offices do not exist, steps shall be taken to establish one.
+MoCD with Ministry of Education, Ghana Education Services, Ghana Tertiary Education Council, National Youth Authority (NYA)
+2023
+AI education courses			
+3.	Expand education courses in AI
+●	Coordinate among universities to create a database of existing universities, technical universities and vocational training courses and degree programs in machine learning, artificial intelligence, data science, data engineering, cloud and database management, etc. For example, begin with a degree and courses at Kwame Nkrumah University of Science and Technology’s Responsible AI Laboratory (KNUST-RAIL), African Institute for Mathematical Sciences (AIMS), Academic City, Ashesi University, University of Ghana, Academic City University College.
+●	The database shall also include resources available to such programmes (e.g. teachers, hardware). Additionally, the database shall take stock of specific policies and clauses in related policies that have linkages to these programmes.
+●	Based on the annual AI skills gap assessment, plan the rollout of additional modules, courses or degree programs in AI to be integrated into relevant subjects (e.g. computer science, statistics, mathematics, physics, biology).
+●	With tertiary education institutions, develop a plan to attract lecturers and research programs in AI. Build upon existing institutions attracting foreign experts such as AIMS or the first Master Sponsored Research Agreements in Africa between Google with KNUST and AIMS to enable research and leadership-sponsored programs developing young tech talent in Africa.
+Ministry of Education, Ghana Tertiary Education Council
+2023
+AI teacher training & upskilling
+4.	Promote training courses for teachers
+● Work with Ghana Education Services (GES) ICT coordinators to train teachers. Consider existing programs such as the Smart Africa Digital Academy (SADA) and AIMS’ online hybrid course for teachers in mathematics.
+MoCD with Ministry of Education, Ghana Education Services, Ghana Tertiary Education Council, SADA, AIMS
+2023
+
+Pillar 2. Empower youth for jobs of the future
+Outcome	Recommendation	Activity	Actor(s)	Year
+Equip Ghana’s youth to participate in the global AI and digital economy, raising employment and future-proofing jobs for the future	
+Remote AI job opportunities
+5.	Facilitate remote jobs or internships in AI
+●	Enable local students or professionals to build competitive skills while contributing to Ghana’s AI community through internships, on-the-job training, hackathons, hubs and incubator engagements. While job opportunities in AI are currently limited, locally based practitioners can gain employment and skills while contributing to community building in Ghana (Pillar 5) and local projects or companies at a later stage. Internships are an important part of training to develop practical skills.
+●	Review programs which train youth and place them in local and international jobs (e.g. AmaliTech, Blossom Academy).
+●	Incubation and innovation centres in the universities to support talented youth with start-ups and remote jobs.
+●	Leverage Ghanaian diplomatic missions to facilitate and highlight AI remote jobs for youth in Ghana.
+●	Expand	the TVET voucher programme to include dedicated modules for digital skills of vocational trainees.
+Responsible AI Office, universities, AI training providers
+2024
+Tax incentives for youth in AI
+6. Develop tax incentives for youth in AI start-ups to promote employment
+●	Review the gaps in existing tax programmes for business and develop a new framework for incentivising youth entrepreneurship in the digital economy with an additional dispensation for AI start-ups.
+●	GRA may engage beneficiaries of tax benefits to solve specified revenue mobilisation challenges.
+MoCD, Ministry For Business Development, Ministry of Finance, Ghana Revenue Authority
+2024		
+AI Fellowships	
+7. Develop AI Fellowship programs
+●	Design and run programmes to support applied and practical AI skills development in internships and projects in the public and private sectors.
+●	These programmes should be housed in the various regional ICT centres or hubs (Pillar 5), including ecosystems outside of Accra. Develop KPIs and metrics to track the number of participants and job outcomes.
+●	Coordinate with the Girls-in-ICT annual initiative by the MOCD for the inclusion of women in AI.
+●	Target projects addressing specific problems in Ghana, such as projects with the Bank of Ghana’s sandbox program to test innovative ideas. Include projects in rural areas to build inclusion.
+Responsible AI Office, Accra Digital Centre, MoCD, Youth Employment Agency
+2024
+Continuous training & short courses in AI
+8. Support continuous training and short courses for students and professionals to enter the AI field
+●	Provide financial grants and tax incentives or share program information with the AI community for training (Pillar 5).
+●	Learn from the TVET-KFW training model to facilitate AI training for youth. Begin with examples such as Blossom Academy, Ghana Tech Lab’s National AI Training Programme or 3-week National Female Pre-Tech Training Programme, Developers in Vogue, and free courses such as Microsoft Open Education or Hacklab Foundation, which integrates training with hackathons.
+●	Publicise courses across the AI value chain ranging from data science and machine learning to technical and vocational training for data collection and labelling, cloud services/database management, and cybersecurity.
+Responsible AI Office
+2024
+
+Pillar 3. Deepen digital infrastructure & inclusion
+Outcome	Recommendation	Activity	Actor(s)		Year
+Accessible & inclusive digital infrastructure in Ghana
+Implementation of existing digital development policies
+9. Review and identify gaps in the implementation of existing digital policies including development of national data centres I.e. Ghana Integrated ICT for Accelerated Development Policy (ICT4AD), e-Transform Project, Ghana Digital Economy Policy, and Ghana Integrated Digital Transformation Blueprint, including a focus on rural areas to ensure inclusion. Harmonise and integrate existing policies into a comprehensive plan across agencies and institutions. In addition, prioritise improving the affordability and reliability of high-speed internet across Ghana and developing national data centres.
+●	Deepen co-creation and private-public partnership in digital infrastructure funding, development, deployment and utilisation, including to support national data centres.
+●	Design a policy bridging framework across agencies to ensure that policies are responsive to the broader national development agenda, serving the needs of the people in a holistic manner, synergizing and ensuring non-duplication to optimise the use of budgets and resources. A policy bridging framework is the set of tools, models, governance approaches and protocols that different policies have to subscribe to ensure policy synergies, visibility and resource optimisation across sectors and agencies.
+MoCD, Ghana Chamber of Telecommunications, AITI-KACE 
+2023
+Competitive AI start-ups with access to world-class high-performance compute capacity
+Plan for affordable access to world-class cloud computing
+10. Initiate mutual partnerships engagement with world-class cloud computing providers for affordable access for AI start-ups in Ghana
+●	Lead discussions with world-class cloud computing providers (e.g. NVIDIA, Google Cloud, Microsoft Azure, Amazon Web Services) to provide credits and subsidies for AI or digital start-ups across Ghana, enabling start-ups to overcome barriers in affordability and cost to access competitive cloud computing. Build upon frameworks from existing examples such as NVIDIA’s offer to start-ups (NVIDIA Inception Premier Members) or Google’s Black Founders Fund, or research partnerships with universities.
+●	Explore incentive opportunities to attract local entrepreneurs and investors to develop local cloud computing infrastructure.
+MoCD, Google, NVIDIA, and other cloud service providers.
+2024
+Robust AI start-up ecosystem
+Coordinate and facilitate viable innovation and AI markets
+11. Orchestrate	market dynamics that incentivise entrepreneurs to start enterprises that focus on AI products and services
+● The government, through its ICT-oriented agencies, should work together to initiate strong market-led policy initiatives that:
+i.	Clarify market conduct issues
+ii.	Ease market entry
+iii.	Establish enabling permissible segments to grow local AI enterprises
+MOCD, NITA, NCA, DPC, GIFEC, Ghana Enterprise Agency, Chamber of Technology, Ghana Chamber of Telecommunications
+2023
+
+Pillar 4. Facilitate data access & governance
+Outcome	Recommendation	Activity	Actor(s)		Year
+Regulatory clarity and compliance in the AI & digital ecosystems to promote innovation and uphold privacy, security, and ethics
+Implementation of data sharing & governance policies
+12. Disseminate and drive enforcement of existing data sharing & governance policies
+Review and complete implementation of existing policies in data protection and cybersecurity, e.g. National Data Sharing Policy (NDSP); Data Protection Act, 2012 (Act 843); Right to Information Act 2019 Act 843; Cybersecurity Act 2020; Cyber Security Policy & Strategy 2015; Digital Financial Services (DFS) Policy; Health Sector ICT Policy and Strategy 2005, Electronic Transaction Act
+●	Ensure industry-wide and cross-sectoral engagement and education to ensure uniformity
+●	Create an advocacy and dissemination plan to educate, drive awareness and deepen the utilisation of these policies.
+MoCD, DPC, Cyber Security Authority 2023
+Regulatory clarity for data sharing in PPPs in AI
+13. Clarify data privacy and data sharing agreements and regulations for partnerships
+Build trust and transparency through national data sharing agreements, which would be championed and supervised by the DPC for all public & private institutions. This enables data holders to share data with AI project partners and start-ups across sectors, including public and private sectors, telcos and start-ups in PPPs.
+MoCD, DPC, Cyber Security Authority
+2023
+Trustworthy, safe, secure and ethical AI applications in Ghana
+AI Ethical Guidelines and tools for AI developers
+14. Disseminate guidance on trustworthy, safe, secure and ethical AI practices to AI developers and adopters
+●	Based on existing work at DPC on the ethical use of AI, equip AI practitioners in the private sector and government with guidance about international best practices in data governance. Leverage AI community networks (Pillar 5) to disseminate guidance.
+●	Build upon work by UN Global Pulse with DPC to pave the way towards AI Ethical Guidelines in Ghana. Review and disseminate international guidelines such as OECD AI Principles and OECD.AI’s Tools for Implementing Trustworthy AI or UNESCO Recommendation on the Ethics of Artificial Intelligence. Share free self-assessment tools for AI developers like the EU AI Trust Label, Denmark’s D-SEAL, Singapore’s Implementation and Self-Assessment Guide for Organisations (ISAGO)
+DPC, NITA, Cyber Security Authority
+2023	
+Ghana contributing to and learning from leading international AI policies & practices 
+Participation in leading platforms shaping the responsible adoption of AI regionally and globally
+15. Apply to international and regional AI governance platforms
+E.g. OECD Working Party on Artificial Intelligence Governance (AIGO), Global Partnership on AI (GPAI), UNESCO, ITU, Smart Africa, and African Union. Ghana would participate and perspective and learn from emerging best practices and national AI strategies for responsible AI.
+Responsible AI Office
+2024
+Greater availability and accessibility of AI-ready data from the public and private sectors fueling Ghana’s AI ecosystem
+The rollout of Open Data initiatives, exchanges and APIs, Community-centric data exchanges and repositories
+16. Rollout of the Ghana Open Data Initiative (GODI), the Ghana Data Exchange Hub and data repositories
+●	Prioritise programs to share updated government data with the public or AI developers via APIs (data.gov.gh). Provide data collectors with guidelines and principles for collecting, storing and sharing data in both public and private sectors to be machine-readable and AI-ready. Ensure the data is cross-sectoral and not siloed.
+●	Review case for data marketplaces in Community-centric data exchanges for African Nations and the Continent: Roadmap for Ghana(2022) by UN Global Pulse.
+●	Work with international partners (e.g. Smart Africa, GIZ FAIR Forward, Mozilla), universities (e.g. KNUST Responsible AI Laboratory), and existing data labelling and collection initiatives such as Wiki in Africa or Ghana NLP to promote local and Africa-relevant data repositories.
+●	Digital data programs should be implemented in concert with cybersecurity precautions and infrastructure for APIs.
+●	Develop and implement incentive models that will stimulate data sharing from key institutions, agencies and demographics.
+MoCD, NITA, Cyber Security Authority
+2024
+
+Pillar 5. Coordinate a robust AI community ecosystem
+Outcome	Recommendation	Activity	Actor(s)		Year
+A collaborative and coordinated AI community that accelerates the growth of AI in Ghana
+Mapping convening Ghana’s community & AI
+17. Build & convene an online and in-person AI community
+●	Task the Responsible AI office to build a live online repository of personnel, programmes and resources of existing AI communities in Ghana, such as the Artificial Intelligence Association of Ghana, Ghana NLP, Google Developers, Python Ladies in Accra, Deep Learning Indaba, Ghana Tech Lab, including its Africa AI Accelerator Program, Hacklab Foundation, Tony Blair Institute’s Ghana AI Policy Network, and stakeholders participating in the National AI Strategy consultation process. Ensure inclusion of communities dedicated to women and other underrepresented groups.
+●	Leverage these communities to expand the list to include start-ups, university research centres and programs (e.g. KNUST’s partnership with Google on AI in agriculture), and students and professionals involved in AI. In addition, engage the Ghanaian professional diaspora working in international technology companies.
+●	Using this list, convene an online community and an initial in-person meet-up, followed by a sequence of continuous engagements. The meet-ups can revolve around the occasion of a conference, project presentations, or a hackathon for a challenge in Ghana presented by the public sector that can pave the way for a PPP project. For example, launch a series of quarterly AI meet-ups for AI practitioners to present their activities or tackle shared problems based on the City.AI model.
+●	Coordinate with MESTI for their envisioned knowledge-sharing platform to provide AI innovators with a collaborative environment and support tools.
+Responsible AI Office, MESTI
+2023
+AI Hub in Ghana
+18. Expand and establish complementary physical or virtual AI innovation hubs across the country, especially in marginalised communities, to promote collaborations and knowledge sharing
+●	Consider model examples such as Tunisia’s AI Hub at The Dot. Begin from existing hubs, such as (but not limited to) iSpace, Impact Hub, Kumasi Hive, hapaSpace in Kumasi, the HOPin Academy, iCode in Takoradi and Ho Node in the Volta Region, corporate office such as Google, or a virtual platform with events revolving around various hubs.
+●	Expand the capacity and presence of Accra Digital Centre across the various regions in Ghana, situating them to leverage the communities' unique strengths and opportunities.
+●	Liaise with District Assemblies to integrate AI Hubs with already established Community ICT Centres.		
+●	Run community skills development and capacity building programmes in rural and community schools to drive awareness and deepen their digital-assertiveness.		 
+Responsible AI Office
+2024
+
+Pillar 6. Accelerate AI adoption across sectors
+Outcome	Recommendation	Activity	Actor(s)	Year
+Private sector AI adoption resulting in inclusion, productivity and efficiency gains across sectors
+5 Key AI Pilot Projects to Showcase
+19. Spark investment into AI adoption with 5 AI pilot projects from across key sectors
+●	Catalyse investment into AI adoption by supporting the launch and showcasing the success of 5 AI pilot projects from key sectors: healthcare, transportation, agriculture, financial services, public administration and environment (See Appendix 1 - Booklet of AI Use Cases). Facilitate PPPs or collaborate with public and private sector entities and universities on projects to ensure synergies in R&D, funding, data, logistics, and scalability.
+●	Coordinate with MESTI’s Ghana Innovation and Research Commercialization Center (GIRC), CSIR-INST, and Strategic Technology Centers
+●	Involve a selection outside of Accra for the inclusion of diverse communities.
+●	In reference to Singapore’s AI Strategy (2022), consider international collaborations with multinational researchers, businesses or governments to promote investment and knowledge sharing.
+Responsible AI Office, MoCD, MESTI, sectoral ministries, Bank of Ghana, international development organisations, multinational technology companies
+2024
+Copyright, IP and patent law
+20. Review and clarify laws for copyright, patents and intellectual property
+Encourage investment into research and development at start-ups and companies by supporting intellectual property. Engage a broad IP community in Ghana, including the registrar of companies, to protect the property rights of innovators.
+Various stakeholders in the IP community, IP and Patents Unit at Registrar General’s Department at Ministry of Justice & Attorney General’s Department
+2023
+Incentives to support AI start-ups and R&D
+21. Implement incentives for AI start-ups, e.g. tax breaks for research & development or employment
+Refer to any existing policies (e.g. Ghana Digital Economy Policy, Ghana Integrated Digital Transformation Blueprint, Digital Financial Services Policy, Ministry of Environment, Science, Technology and Innovation (MESTI) Innovation Policy, Health Sector ICT Policy and Strategy 2005, Ghana Health Service Patients’ Charter 2002.
+MoCD, MESTI, MoF, MoH, Accra Digital Centre
+2023
+
+Pillar 7. Invest in Applied AI Research
+Outcome	Recommendation	Activity	Actor(s)	Year
+Continuous improvement of AI implementations and value creation from new AI opportunities
+A climate-smart Agriculture and Forestry Research Initiative
+22. Establish a Special Research Initiative to delve into climate-smart agriculture and forestry
+To develop viable responsive solutions, the Initiative’s goals include:
+●	Improve	productivity and commercial returns of farmers
+●	Ensure Ghana contributes to the preservation of the environment and global sustainability goals in a context-responsive and measurable manner
+●	Create strategies to sensitise key players who would benefit from research initiatives focusing on this domain
+●	Fostering of Partnerships among R&D departments of institutions and startups to generate new ideas and develop new solutions, as well as work together to bring funding to solve challenges
+MESTI CSIR-Institute for Scientific and Technological Information (CSIR-INSTI), universities
+2025
+A Natural Language Processing Centre of Excellence
+23. Establish a Natural Language Processing (NLP) Centre of Excellence (CoE)
+The CoE’s goals include:
+●	Expand	Ghanaian language dictionary e.g. yearly addition of new words to the existing lexicon
+●	Bridge gaps in communication for the general public including traders
+●	Develop translating chips using AI to easily translate English text and other used foreign language text and audio into Ghanaian languages
+●	Build legal tech that explores NLP to offer legal advice in Ghanaian languages
+	○ AITI-KACE is working on AI Projects in this regard at their Sunyani Campus
+●	Coordinate with existing NLP expertise in Ghana, including Ghana NLP and university (E.g. KNUST) and industry actors (e.g. Google)
+Ghana Institute of Languages (GIL), AITI-KACE, MESTI, MoCD
+2025
+A National Deep Science Institute
+24. Develop a framework for the establishment of a National Deep Science Institute
+The Institute would pursue research in deep tech, cognitive tech, and leverage ML & AI to tackle critical societal issues as well as uncover breakthroughs for critical sectors of Ghana’s economy: The focus should be on:
+●	Using	AI	to	tackle	and	churn	context-relevant inventions, new tools, learned models and insights to boost Ghana’s sectors (e.g. health) and industry.
+●	Develop a strong data core for ML that other sectors, businesses and stakeholders can leverage.
+●	Develop capabilities in general purpose AI in a broad range of cognitive domains, such as learning, language, perception, reasoning, creativity, and planning.
+●	Develop capabilities in context-relevant human-AI collaboration to augment collaboration and shared abilities between humans and AI to boost outcomes and productivity of human labour.
+MESTI, MoCD, Ghana Tertiary Education Council, Academia, e.g. KNUST Responsible AI Laboratory (RAIL)
+2025
+ 
+Pillar 8: Promote AI Adoption in Public Sector
+Outcome	Recommendation	Activity	Actor(s)	Year
+Leverage the public sector as a key demand driver for AI companies and start-ups.
+Public procurement processes redesigned include start-ups to AI
+25. Develop a program that increases access for digital & AI-focused start-ups to public procurement processes
+●	Leverage the public sector to support demand and opportunities for innovative start-ups. Startup-friendly tenders/bids to be made available to support innovators in AI adoption.
+●	Facilitate partnerships between start-ups and larger companies to collaborate in public procurement bids; Establish a framework for bidding consortia to involve start-ups. Alternatively, develop a programme or regulatory sandbox to ease the minimum requirements for start-ups to apply to projects and enable trial and error. Refer to Tony Blair Institute for Global Change’s ‘AI Procurement’ recommendations in its AI Toolkit.
+26.	Evolve public sector mindset to view algorithms as IP and work with vendors & start-ups to co-create IP in AI
+●	Review contracting frameworks and establish a new contractual regime that motivates public sector investment in algorithms to co-create IPs.
+MOCD, Accra Digital Centre, Public Procurement Authority, Ministry of Business Development
+2023
+AI transformation projects in the public sector	
+Civil servant AI capacity building program and digital culture mainstreaming
+27.	Establish a program to train civil & public servants to design, lead and implement AI projects in public services
+Build on examples such as Smart Africa Digital Academy (SADA)’s free 13-hour online course ‘Artificial Intelligence for Policymakers’, UNESCO’s ‘Digital Transformation & AI Competency Framework for Civil Servants,’ the Tony Blair Institute’s ‘Harnessing Responsible AI Toolkit,’ or GIZ and Human Sciences Research Council’s ‘Handbook for Implementing a Capacity Building Programme for Policy Makers on AI.’
+28.	Incentivise an AI culture by creating a reward system to encourage service delivery excellence utilising AI
+Individuals can be rewarded (compensation, promotion, awards, recognition) for their role in utilising AI and ML to enhance public sector services delivery while exemplifying a positive AI and innovation culture.
+NITA, AITI-KACE, Ghana Civil Service, Public Services Commission, National Labour Commission
+2024
+Use of AI to guide Policy Planning, Programmes, Adoption and KPI Monitoring and Evaluation in the Public Sector
+29. Develop a comprehensive public administration data dashboard/interface to provide data analytics for policy planning, programme mix, resource allocation, monitoring and evaluation
+Design and deploy a cross-agency Policy Data Reference Bureau (PDRB) for data gathering, sharing, analytics & visualisations for smart decision making.	Public Services Department, Office of the President, NITA, Private Sector
+2025
+Transform public sector operational workflows and integrate AI in core public service functions
+30.	Initiate a programme to identify key public service AI use-cases
+●	Review opportunities in Appendix 1 - Booklet of AI Use Cases.
+●	For example, virtual agents for citizen services such as filing for taxes, requesting and renewing driver's licences and identification. AI to transform public infrastructure maintenance by using unstructured video data from public transport vehicles such as buses to detect potholes and generate a schedule and tracking model  for repairs.
+31.	Develop a workflow and operational framework for public sector work for agility & data-driven decision making
+●	Set up a public sector workflow transformation committee to review existing workflow and develop an operational architecture that aligns with the Enterprise Architecture led by NITA and integrates seamlessly with the Common National Digital Architecture.
+●	Encourage positions for data scientists in key sectors to support data-driven decision-making in the public sector.
+Ministry of Local Government and Rural Development, Public Works Department, NITA
+2023
+ 
+[appendices omitted]

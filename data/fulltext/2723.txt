@@ -1,0 +1,57 @@
+PART U
+
+Section 1. The general business law is amended by adding a new article 47 to read as follows: 
+
+ARTICLE 47 ARTIFICIAL INTELLIGENCE COMPANION MODELS
+
+Section. 1700. Definitions.  1701. Prohibitions and requirements.  1702. Notifications.  1703. Enforcement.  1704. Severability. 
+
+§ 1700. Definitions. As used in this article, the following terms shall have the following meanings: 
+
+"Artificial intelligence", "artificial intelligence technology", or "AI" means a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments, and that uses machine- and human-based inputs to perceive real and virtual environments, abstract such perceptions into models through analysis in an automated manner, and use model inference to formulate options for information or action. 
+
+"Generative artificial intelligence" means a class of AI models that emulate the structure and characteristics of input data to generate derived synthetic content, including, but not limited to, images, videos, audio, text, and other digital content. 
+
+"AI model" means a component of an information system that implements artificial intelligence technology and uses computational, statistical, or machine-learning techniques to produce outputs from a given set of inputs. 
+
+(a) "AI companion" means a system using artificial intelligence, generative artificial intelligence, and/or emotional recognition algorithms designed to simulate a sustained human or human-like relationship with a user by: 
+
+(i) retaining information on prior interactions or user sessions and user preferences to personalize the interaction and facilitate ongoing engagement with the AI companion; 
+
+(ii) asking unprompted or unsolicited emotion-based questions that go beyond a direct response to a user prompt; and 
+
+(iii) sustaining an ongoing dialogue concerning matters personal to the user. 
+
+(b) Human relationships include, but shall not be limited to, intimate, romantic or platonic interactions or companionship. 
+
+(c) "AI companion" shall not include: 
+
+(i) any system used by a business entity solely for customer service or to strictly provide users with information about available commercial services or products provided by such entity, customer service account information, or other information strictly related to its customer service; 
+
+(ii) any system that is primarily designed and marketed for providing efficiency improvements or, research or technical assistance; or 
+
+(iii) any system used by a business entity solely for internal purposes or employee productivity. 
+
+"Operator" means any person, partnership, association, firm, or business entity, or any member, affiliate, subsidiary or beneficial owner of any partnership, association, firm, or business entity who operates for or provides an AI companion to a user. 
+
+"Person" means any natural person. 
+
+"Emotional recognition algorithms" means artificial intelligence that detects and interprets human emotional signals in text (using natural language processing and sentiment analysis), audio (using voice emotion AI), video (using facial movement analysis, gait analysis, or physiological signals), or a combination thereof. 
+
+"User" means any person who uses an AI companion for personal use within the state and who is not an operator or agent or affiliate of the operator of the AI companion. 
+
+"Self-harm" means intentional self-injury with or without the intent to cause death. 
+
+§ 1701. Prohibitions and requirements. It shall be unlawful for any operator to operate for or provide an AI companion to a user unless such AI companion contains a protocol to take reasonable efforts for detecting and addressing suicidal ideation or expressions of self-harm expressed by a user to the AI companion, that includes but is not limited to, detection of user expressions of suicidal ideation or self-harm, and a notification to the user that refers them to crisis service providers such as the 9-8-8 suicide prevention and behavioral health crisis hotline under section 36.03 of the mental hygiene law, a crisis text line, or other appropriate crisis services upon detection of such user's expressions of suicidal ideation or self-harm. 
+
+§ 1702. Notifications. An operator shall provide a clear and conspicuous notification to a user at the beginning of any AI companion interaction which need not exceed once per day and at least every three hours for continuing AI companion interactions which states either verbally or in writing that the user is not communicating with a human. 
+
+§ 1703. Enforcement. 1. Whenever the attorney general shall believe from evidence satisfactory to them that an operator has engaged in or is about to engage in any of the acts or practices stated to be unlawful in this article or in violation of section seventeen hundred one or seventeen hundred two of this article, they may bring an action in the name and on behalf of the people of the state of New York to enjoin an operator from continuing such unlawful acts or practices, and may seek civil penalties of up to fifteen thousand dollars per day for a violation under section seventeen hundred one or seventeen hundred two of this article, and may seek such other remedies as the court may deem appropriate. 
+
+All fees, fines and penalties collected under this article shall be deposited into the suicide prevention fund as established pursuant to section ninety-nine-ss of the state finance law. 
+
+§ 1704. Severability. If any clause, sentence, paragraph, subdivision, section or part of this act shall be adjudged by any court of competent jurisdiction to be invalid, such judgment shall not affect, impair, or invalidate the remainder thereof, but shall be confined in its operation to the clause, sentence, paragraph, subdivision, section or part thereof directly involved in the controversy in which such judgment shall have been rendered. It is hereby declared to be the intent of the legislature that this act would have been enacted even if such invalid provisions had not been included herein. 
+
+Section 2. The state finance law is amended by adding a new section 99-ss to read as follows: 
+
+§ 99-ss. Suicide prevention fund. 1. There is hereby established in the joint custody of the comptroller, the commissioner of taxation and finance, and the office of mental health, a fund, to be known as the "suicide prevention fund".

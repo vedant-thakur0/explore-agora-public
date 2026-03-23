@@ -1,8 +1,5 @@
 # CLAUDE.md — knowledge_graph/
 
-**If you have not already read `README_AGENTS.md` at the repo root, do that first.**
-The Knowledge Graph section covers data sources, join keys, and community detection settings.
-
 ## Knowledge graph-specific notes
 - Prototype scope is Congress-only: `data/documents.csv` (622 docs), `data/segments.csv` (4,087 segments).
 - Full corpus CSVs live one level up (`../documents.csv`, `../segments.csv`). Do not modify them.

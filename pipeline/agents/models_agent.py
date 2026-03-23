@@ -74,6 +74,7 @@ class EntityRecord:
     roles: list[dict] = field(default_factory=list)
     legislation_refs: list[dict] = field(default_factory=list)
     named_docs: list[dict] = field(default_factory=list)
+    relationships: list[dict] = field(default_factory=list)
     disambiguation_updates: dict[str, str] = field(default_factory=dict)
     new_parsing_rule: str | None = None
     oddity: str | None = None

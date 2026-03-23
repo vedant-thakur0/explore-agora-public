@@ -30,7 +30,6 @@ from pipeline.config import (
     SUBCLUSTERING_SIZE_THRESHOLD,
 )
 from pipeline.agents.models_agent import CommunityRecord
-from pipeline.docx_matcher import fit_profile_vectorizer
 
 log = logging.getLogger(__name__)
 
@@ -138,6 +137,7 @@ def compute_summary_tfidf(rows: list[dict[str, Any]]) -> dict[str, tuple[dict[st
     if not texts:
         return {}
 
+    from pipeline.docx_matcher import fit_profile_vectorizer
     vectorizer = fit_profile_vectorizer(texts)
     result: dict[str, tuple[dict[str, float], float]] = {}
     for i, agora_id in enumerate(ids):
