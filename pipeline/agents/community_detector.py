@@ -52,6 +52,43 @@ def load_docs_csv(csv_path: Path) -> list[dict[str, Any]]:
         return list(csv.DictReader(f))
 
 
+def load_docs_supabase(client=None) -> list[dict[str, Any]]:
+    """Fetch agora_documents from Supabase and reconstruct the flat CSV-style dict.
+
+    Expands taxonomy_tags TEXT[] back to boolean-style keys so the rest of the
+    community detector (which expects {"Strategies: Evaluation": "True", ...}) works
+    without any other changes.
+    """
+    from pipeline.supabase.client import fetch_documents, expand_taxonomy_tags
+
+    raw_rows = fetch_documents()
+    result = []
+    for r in raw_rows:
+        row: dict[str, Any] = {
+            "AGORA ID":                              str(r.get("agora_id") or ""),
+            "Official name":                         r.get("official_name") or "",
+            "Casual name":                           r.get("casual_name") or "",
+            "Link to document":                      r.get("link_to_document") or "",
+            "Authority":                             r.get("authority_name") or "",
+            "Collections":                           r.get("collections_raw") or "",
+            "Most recent activity":                  r.get("most_recent_activity") or "",
+            "Most recent activity date":             r.get("most_recent_activity_date") or "",
+            "Proposed date":                         r.get("proposed_date") or "",
+            "Short summary":                         r.get("short_summary") or "",
+            "Long summary":                          r.get("long_summary") or "",
+            "Tags":                                  r.get("tags") or "",
+            "Primarily applies to the government":   str(r.get("primarily_applies_government") or ""),
+            "Primarily applies to the private sector": str(r.get("primarily_applies_private") or ""),
+        }
+        # Expand taxonomy_tags → flat boolean-style keys
+        expand_taxonomy_tags(r)
+        for k, v in r.items():
+            if any(k.startswith(p) for p in TAXONOMY_PREFIXES):
+                row[k] = v
+        result.append(row)
+    return result
+
+
 def _get_taxonomy_columns(row: dict[str, Any]) -> list[str]:
     """Return sorted list of taxonomy column names from a sample row."""
     return sorted(k for k in row if any(k.startswith(p) for p in TAXONOMY_PREFIXES))
@@ -597,9 +634,21 @@ def run(
     output_dir: Path | None = None,
     resolution: float = LOUVAIN_RESOLUTION,
     inspect: bool = False,
+    supabase_client=None,
 ) -> list[CommunityRecord]:
-    """Entry point: load CSV, detect communities, optionally inspect."""
-    rows = load_docs_csv(csv_path)
+    """Entry point: load data, detect communities, optionally inspect.
+
+    If supabase_client is provided (and Supabase is enabled), data is fetched
+    from the agora_documents table instead of csv_path.
+    """
+    if supabase_client is not None:
+        from pipeline.supabase.client import supabase_enabled
+        if supabase_enabled():
+            rows = load_docs_supabase(supabase_client)
+        else:
+            rows = load_docs_csv(csv_path)
+    else:
+        rows = load_docs_csv(csv_path)
     records = detect_communities(rows, output_dir, resolution)
     if inspect:
         print(inspect_communities(records))

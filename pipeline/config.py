@@ -51,7 +51,11 @@ COLLECTIONS_CSV_PATH = DATA_DIR / "collections.csv"
 # Zenodo
 ZENODO_RECORD_ID = "19046110"  # https://doi.org/10.5281/zenodo.19046110
 
-# Supabase sync
+# Supabase
+import os as _os
+SUPABASE_URL = _os.getenv("SUPABASE_URL", "")
+SUPABASE_KEY = _os.getenv("SUPABASE_KEY", "")
+SUPABASE_BUCKET_FULLTEXTS = "fulltexts"
 SUPABASE_BATCH_SIZE = 500
 
 # NER agent

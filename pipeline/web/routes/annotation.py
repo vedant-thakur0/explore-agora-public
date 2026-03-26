@@ -140,6 +140,7 @@ def api_save_annotation(agora_id: str):
         "named_docs": data.get("named_docs", []),
         "relationships": data.get("relationships", []),
         "custom_relation_types": data.get("custom_relation_types", []),
+        "soft_aliases": data.get("soft_aliases", []),
         "disambiguation_updates": data.get("disambiguation_updates", {}),
         "new_parsing_rule": data.get("new_parsing_rule"),
         "oddity": data.get("oddity"),

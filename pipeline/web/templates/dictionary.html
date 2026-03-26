@@ -64,5 +64,5 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="{{ url_for('static', filename='dictionary.js') }}"></script>
+<script src="{{ url_for('static', filename='dictionary.js') }}?v={{ cache_bust }}"></script>
 {% endblock %}

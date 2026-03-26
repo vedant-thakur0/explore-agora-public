@@ -21,13 +21,23 @@ if load_dotenv is not None:
     load_dotenv()
 
 
+def _get_supabase_client_if_enabled():
+    """Return a Supabase client if env vars are set, else None."""
+    from .supabase.client import supabase_enabled, get_client
+    if supabase_enabled():
+        return get_client()
+    return None
+
+
 def cmd_build_knowledge_graph(args: argparse.Namespace) -> int:
+    sb_client = _get_supabase_client_if_enabled()
     payload = run_knowledge_graph(
         documents_csv=Path(args.documents_csv),
         segments_csv=Path(args.segments_csv),
         authorities_csv=Path(args.authorities_csv),
         collections_csv=Path(args.collections_csv),
         out_dir=Path(args.out_dir),
+        supabase_client=sb_client,
     )
     print(json.dumps(payload))
     return 0
@@ -39,8 +49,9 @@ def cmd_detect_communities(args: argparse.Namespace) -> int:
     csv_path = Path(args.sponsors_csv)
     output_dir = Path(args.out_dir) if args.out_dir else AGENTS_OUTPUT_DIR
     resolution = args.resolution
+    sb_client = _get_supabase_client_if_enabled()
 
-    records = run_communities(csv_path, output_dir, resolution, inspect=False)
+    records = run_communities(csv_path, output_dir, resolution, inspect=False, supabase_client=sb_client)
 
     if args.inspect:
         print(inspect_communities(records))
@@ -72,7 +83,8 @@ def cmd_build_multiplex_graph(args: argparse.Namespace) -> int:
     # Phase 2: community detection (if requested or all)
     if args.agents in ("all", "community") and args.sponsors_csv:
         from .agents.community_detector import run as run_community
-        run_community(Path(args.sponsors_csv), agents_output_dir, args.resolution)
+        sb_client = _get_supabase_client_if_enabled()
+        run_community(Path(args.sponsors_csv), agents_output_dir, args.resolution, supabase_client=sb_client)
 
     # Phase 3: NER (if requested or all)
     if args.agents in ("all", "ner") and args.sponsors_csv:

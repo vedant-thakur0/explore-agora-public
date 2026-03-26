@@ -1,0 +1,79 @@
+{
+  "agora_id": "1264",
+  "organizations": [],
+  "offices": [],
+  "roles": [
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "Secretary of Homeland Security",
+      "org": "Homeland Security",
+      "char_start": 453,
+      "char_end": 483
+    },
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "subsection (a), the Secretary of Homeland Security, acting through the",
+      "org": "Homeland Security",
+      "char_start": 1191,
+      "char_end": 1221
+    },
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "ns (a) and (b), the Secretary of Homeland Security, acting through the",
+      "org": "Homeland Security",
+      "char_start": 2160,
+      "char_end": 2190
+    },
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "orld use cases, the Secretary of Homeland Security, acting through the",
+      "org": "Homeland Security",
+      "char_start": 2718,
+      "char_end": 2748
+    },
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "dent Reporting.\u2014The Secretary of Homeland Security shall establish in ",
+      "org": "Homeland Security",
+      "char_start": 4006,
+      "char_end": 4036
+    },
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "lly thereafter, the Secretary of Homeland Security, acting through the",
+      "org": "Homeland Security",
+      "char_start": 4407,
+      "char_end": 4437
+    },
+    {
+      "title": "Secretary of Homeland Security",
+      "context": "shall report to the Secretary of Homeland Security any adverse experie",
+      "org": "Homeland Security",
+      "char_start": 4850,
+      "char_end": 4880
+    }
+  ],
+  "legislation_refs": [],
+  "named_docs": [],
+  "relationships": [],
+  "custom_relation_types": [],
+  "soft_aliases": [
+    {
+      "entity_name": "Secretary of Homeland Security",
+      "entity_type": "roles",
+      "alias_text": "Secretary",
+      "char_start": 452,
+      "char_end": 462,
+      "context": "Secretary"
+    }
+  ],
+  "disambiguation_updates": {},
+  "new_parsing_rule": null,
+  "oddity": null,
+  "model": "manual",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "chunks_processed": 0,
+  "extracted_at": "2026-03-25T16:09:14+00:00",
+  "source": "manual"
+}

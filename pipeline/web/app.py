@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import time
 from pathlib import Path
 
 from flask import Flask, redirect, render_template, url_for
@@ -25,6 +26,13 @@ def create_app() -> Flask:
     app.register_blueprint(annotation_bp)
     app.register_blueprint(auto_extract_bp)
     app.register_blueprint(dictionary_bp)
+
+    # Inject a cache-busting token (server start time) into every template
+    _start_time = str(int(time.time()))
+
+    @app.context_processor
+    def inject_cache_bust():
+        return {"cache_bust": _start_time}
 
     @app.route("/")
     def index():

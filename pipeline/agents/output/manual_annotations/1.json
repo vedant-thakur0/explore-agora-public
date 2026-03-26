@@ -1,0 +1,238 @@
+{
+  "agora_id": "1",
+  "organizations": [
+    {
+      "acronym": "",
+      "char_end": 1548,
+      "char_start": 1527,
+      "context": "Department of Defense",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 1590,
+      "char_start": 1569,
+      "context": "documents:\n\t(1) The Department of Defense Digital Modernizati",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 1990,
+      "char_start": 1969,
+      "context": "23a note).\n\t(6) The Department of Defense Artificial Intellig",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 3461,
+      "char_start": 3440,
+      "context": "er officials of the Department of Defense as the Secretary de",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 3658,
+      "char_start": 3637,
+      "context": "tion Officer of the Department of Defense, or such other offi",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 3840,
+      "char_start": 3819,
+      "context": "erts outside of the Department of Defense as the working grou",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 1653,
+      "char_start": 1632,
+      "context": " Strategy.\n\t(2) The Department of Defense Data Strategy.\n\t(3)",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 1699,
+      "char_start": 1678,
+      "context": " Strategy.\n\t(3) The Department of Defense Cloud Strategy.\n\t(4",
+      "name": "Department of Defense"
+    },
+    {
+      "acronym": "",
+      "char_end": 1746,
+      "char_start": 1725,
+      "context": " Strategy.\n\t(4) The Department of Defense Software Modernizat",
+      "name": "Department of Defense"
+    }
+  ],
+  "offices": [
+    {
+      "name": "Office of Chief Data Officer",
+      "context": "Office of Chief Data Officer",
+      "parent_org": "Department of Defense",
+      "char_start": 2610,
+      "char_end": 2639
+    }
+  ],
+  "roles": [
+    {
+      "char_end": 184,
+      "char_start": 164,
+      "context": "Secretary of Defense",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 2289,
+      "char_start": 2269,
+      "context": "nt of this Act, the Secretary of Defense shall establish a w",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 2563,
+      "char_start": 2543,
+      "context": "als selected by the Secretary of Defense to represent each o",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 2835,
+      "char_start": 2815,
+      "context": "Office of the Under Secretary of Defense for Research & Engi",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 2927,
+      "char_start": 2907,
+      "context": "Office of the Under Secretary of Defense for Acquisition & S",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 3022,
+      "char_start": 3002,
+      "context": "Office of the Under Secretary of Defense for Intelligence & ",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 3710,
+      "char_start": 3690,
+      "context": "her official as the Secretary of Defense considers appropria",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 4101,
+      "char_start": 4081,
+      "context": "horized access, the Secretary of Defense shall assemble such",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    },
+    {
+      "char_end": 4452,
+      "char_start": 4432,
+      "context": "nt of this Act, the Secretary of Defense shall submit to the",
+      "org": "Department of Defense",
+      "title": "Secretary of Defense"
+    }
+  ],
+  "legislation_refs": [],
+  "named_docs": [
+    {
+      "char_end": 1622,
+      "char_start": 1565,
+      "context": "The Department of Defense Digital Modernization Strategy.",
+      "doc_type": "strategy",
+      "name": "The Department of Defense Digital Modernization Strategy.",
+      "owner_org": "Department of Defense"
+    },
+    {
+      "char_end": 1668,
+      "char_start": 1628,
+      "context": "The Department of Defense Data Strategy.",
+      "doc_type": "strategy",
+      "name": "The Department of Defense Data Strategy.",
+      "owner_org": "Department of Defense"
+    },
+    {
+      "char_end": 1714,
+      "char_start": 1674,
+      "context": "The Department of Defense Cloud Strategy",
+      "doc_type": "strategy",
+      "name": "The Department of Defense Cloud Strategy",
+      "owner_org": "Department of Defense"
+    },
+    {
+      "char_end": 1778,
+      "char_start": 1721,
+      "context": "The Department of Defense Software Modernization Strategy",
+      "doc_type": "strategy",
+      "name": "The Department of Defense Software Modernization Strategy",
+      "owner_org": "Department of Defense"
+    },
+    {
+      "char_end": 2030,
+      "char_start": 1965,
+      "context": "The Department of Defense Artificial Intelligence Data Initiative",
+      "doc_type": "initiative",
+      "name": "The Department of Defense Artificial Intelligence Data Initiative",
+      "owner_org": "Department of Defense"
+    },
+    {
+      "char_end": 2086,
+      "char_start": 2037,
+      "context": "The Joint All-Domain Command and Control Strategy",
+      "doc_type": "strategy",
+      "name": "The Joint All-Domain Command and Control Strategy",
+      "owner_org": "Department of Defense"
+    }
+  ],
+  "relationships": [],
+  "custom_relation_types": [],
+  "soft_aliases": [
+    {
+      "alias_text": "Secretary of Defense",
+      "char_end": 184,
+      "char_start": 164,
+      "context": "Secretary of Defense",
+      "entity_name": "Secretary of Defense",
+      "entity_type": "organizations"
+    },
+    {
+      "alias_text": "Secretary of Defense",
+      "char_end": 2289,
+      "char_start": 2269,
+      "context": "Secretary of Defense",
+      "entity_name": "Secretary of Defense",
+      "entity_type": "roles"
+    },
+    {
+      "alias_text": "the Secretary",
+      "char_end": 3478,
+      "char_start": 3465,
+      "context": "the Secretary",
+      "entity_name": "Secretary of Defense",
+      "entity_type": "roles"
+    },
+    {
+      "entity_name": "Department of Defense",
+      "entity_type": "organizations",
+      "alias_text": "Office of Chief Data Officer",
+      "char_start": 2610,
+      "char_end": 2638,
+      "context": "Office of Chief Data Officer"
+    }
+  ],
+  "disambiguation_updates": {},
+  "new_parsing_rule": null,
+  "oddity": null,
+  "model": "manual",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "chunks_processed": 0,
+  "extracted_at": "2026-03-25T01:30:02+00:00",
+  "source": "manual"
+}

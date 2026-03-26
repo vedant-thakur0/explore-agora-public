@@ -28,6 +28,23 @@ from pipeline.models import append_jsonl, read_jsonl, utc_now_iso
 
 log = logging.getLogger(__name__)
 
+
+def _read_fulltext(agora_id: str, fulltext_dir: Path) -> str | None:
+    """Read fulltext for agora_id from Supabase Storage or local file.
+
+    Returns the text string, or None if not found anywhere.
+    """
+    from pipeline.supabase.client import supabase_enabled, fetch_fulltext as sb_fetch
+    if supabase_enabled():
+        text = sb_fetch(agora_id)
+        if text is not None:
+            return text
+    txt_path = fulltext_dir / f"{agora_id}.txt"
+    if txt_path.exists():
+        return txt_path.read_text(encoding="utf-8", errors="replace")
+    return None
+
+
 # ---------------------------------------------------------------------------
 # Canonical org lookup for is_new matching
 # ---------------------------------------------------------------------------
@@ -564,14 +581,13 @@ def run_community(
         short_summary = meta.get("short_summary", meta.get("Short summary", ""))
 
         # Load fulltext
-        txt_path = fulltext_dir / f"{agora_id}.txt"
-        if not txt_path.exists():
+        fulltext = _read_fulltext(agora_id, fulltext_dir)
+        if fulltext is None:
             log.warning("No fulltext for doc %s, skipping.", agora_id)
             save_checkpoint(agora_id, "failed", checkpoint_dir, reason="no_fulltext")
             failed += 1
             continue
 
-        fulltext = txt_path.read_text(encoding="utf-8", errors="replace")
         if not fulltext.strip():
             save_checkpoint(agora_id, "failed", checkpoint_dir, reason="empty_fulltext")
             failed += 1

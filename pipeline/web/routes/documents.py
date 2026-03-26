@@ -33,11 +33,32 @@ def _load_communities() -> list[dict]:
 
 
 def _load_doc_metadata() -> dict[str, dict]:
-    """Load documents.csv into a dict keyed by AGORA ID."""
+    """Load document metadata keyed by AGORA ID.
+
+    Fetches from Supabase when enabled, falls back to local CSV.
+    """
     global _doc_metadata_cache
     if _doc_metadata_cache is not None:
         return _doc_metadata_cache
     _doc_metadata_cache = {}
+
+    from pipeline.supabase.client import supabase_enabled, fetch_documents
+    if supabase_enabled():
+        for row in fetch_documents():
+            aid = str(row.get("agora_id") or "").strip()
+            if not aid:
+                continue
+            _doc_metadata_cache[aid] = {
+                "title": row.get("official_name") or "",
+                "casual_name": row.get("casual_name") or "",
+                "short_summary": row.get("short_summary") or "",
+                "activity": row.get("most_recent_activity") or "",
+                "activity_date": row.get("most_recent_activity_date") or "",
+                "proposed_date": row.get("proposed_date") or "",
+                "congress_url": row.get("link_to_document") or "",
+            }
+        return _doc_metadata_cache
+
     if not DOCUMENTS_CSV_PATH.exists():
         return _doc_metadata_cache
     with DOCUMENTS_CSV_PATH.open("r", encoding="utf-8") as f:
@@ -106,15 +127,18 @@ def api_documents():
 
     doc_community = _build_doc_community_map()
 
-    # Gather all fulltext files
-    if not FULLTEXT_DIR.exists():
-        return jsonify([])
+    from pipeline.supabase.client import supabase_enabled
+    if supabase_enabled():
+        # Build doc list from metadata cache (already fetched from Supabase)
+        all_meta = _load_doc_metadata()
+        agora_ids = sorted(all_meta.keys())
+    else:
+        if not FULLTEXT_DIR.exists():
+            return jsonify([])
+        agora_ids = [f.stem for f in sorted(FULLTEXT_DIR.iterdir()) if f.suffix == ".txt"]
 
     docs = []
-    for f in sorted(FULLTEXT_DIR.iterdir()):
-        if not f.suffix == ".txt":
-            continue
-        agora_id = f.stem
+    for agora_id in agora_ids:
         info = doc_community.get(agora_id, {})
         cid = info.get("community_id", "")
         clabel = info.get("community_label", "")
@@ -146,11 +170,23 @@ def api_documents():
 
 @bp.route("/api/documents/<agora_id>")
 def api_document_detail(agora_id: str):
-    path = FULLTEXT_DIR / f"{agora_id}.txt"
-    if not path.exists():
+    from pipeline.supabase.client import supabase_enabled, fetch_fulltext as sb_fetch_fulltext
+
+    fulltext: str | None = None
+
+    # Try Supabase Storage first
+    if supabase_enabled():
+        fulltext = sb_fetch_fulltext(agora_id)
+
+    # Fall back to local file
+    if fulltext is None:
+        path = FULLTEXT_DIR / f"{agora_id}.txt"
+        if path.exists():
+            fulltext = path.read_text(encoding="utf-8", errors="replace")
+
+    if fulltext is None:
         return jsonify({"error": "Document not found"}), 404
 
-    fulltext = path.read_text(encoding="utf-8", errors="replace")
     doc_community = _build_doc_community_map()
     info = doc_community.get(agora_id, {})
     meta = _get_doc_meta(agora_id)

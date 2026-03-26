@@ -9,7 +9,8 @@
       "Bash(python3 -c \":*)",
       "Bash(find /Users/vthakur/Documents/auto/agora/pipeline/web/routes -name \"*.py\" -exec head -30 {} +)",
       "mcp__supabase__list_tables",
-      "Bash(python3 -m pipeline.cli sync-supabase --dry-run)"
+      "Bash(python3 -m pipeline.cli sync-supabase --dry-run)",
+      "Bash(grep -E \"\\\\.py$\")"
     ]
   }
 }

@@ -36,6 +36,8 @@
       <button class="mode-btn active" id="mode-entity" onclick="setMode('entity')">Entity Mode</button>
       <button class="mode-btn" id="mode-relationship" onclick="setMode('relationship')">Relationship Mode</button>
     </div>
+    <div id="alias-capture-banner" class="alias-capture-banner hidden"></div>
+    <div id="find-all-banner" class="find-all-banner hidden"></div>
     <div class="text-content" id="text-content"></div>
   </div>
 
@@ -117,12 +119,40 @@
         <option value="named_docs">Named Doc</option>
       </select>
     </label>
-    <label>Name / Title <input type="text" id="pop-name" /></label>
-    <div id="pop-extra-fields"></div>
-    <label>Context <textarea id="pop-context" rows="2"></textarea></label>
-    <div class="popover-actions">
-      <button id="pop-add" class="btn btn-primary btn-sm">Add</button>
-      <button id="pop-cancel" class="btn btn-sm">Cancel</button>
+    <!-- Single entity mode -->
+    <div id="pop-single-mode">
+      <label>Name / Title
+        <div class="pop-name-wrap">
+          <input type="text" id="pop-name" autocomplete="off" />
+          <div id="pop-name-suggestions" class="pop-suggestions hidden"></div>
+        </div>
+      </label>
+      <div id="pop-extra-fields"></div>
+      <label>Context <textarea id="pop-context" rows="2"></textarea></label>
+      <!-- Hereafter / pronoun alias -->
+      <div style="margin-top:4px;">
+        <button type="button" class="btn-link-sm" onclick="toggleAliasSection()">+ hereafter alias</button>
+      </div>
+      <div id="pop-alias-section" class="pop-alias-section hidden">
+        <div class="pop-alias-label">Hereafter referred to as:</div>
+        <input type="text" id="pop-alias-text" placeholder="e.g. the Secretary, the Commission" />
+        <div class="pop-alias-hint">All subsequent occurrences will be auto-tagged as soft aliases.</div>
+      </div>
+      <div class="popover-actions">
+        <button id="pop-add" class="btn btn-primary btn-sm">Add</button>
+        <button id="pop-split-toggle" class="btn btn-sm btn-alias" style="display:none;" onclick="showSplitMode()">Split list…</button>
+        <button id="pop-cancel" class="btn btn-sm">Cancel</button>
+      </div>
+    </div>
+    <!-- Split / bulk mode -->
+    <div id="pop-split-mode" style="display:none;">
+      <label>Prefix <input type="text" id="pop-prefix" placeholder="e.g. Bureau of" /></label>
+      <div id="pop-split-preview" class="split-preview"></div>
+      <div class="popover-actions">
+        <button class="btn btn-primary btn-sm" onclick="addAllFromSplit()">Add All</button>
+        <button class="btn btn-sm" onclick="hideSplitMode()">← Single</button>
+        <button class="btn btn-sm" onclick="hidePopover()">Cancel</button>
+      </div>
     </div>
   </div>
 </div>
@@ -172,5 +202,5 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="{{ url_for('static', filename='annotator.js') }}"></script>
+<script src="{{ url_for('static', filename='annotator.js') }}?v={{ cache_bust }}"></script>
 {% endblock %}
