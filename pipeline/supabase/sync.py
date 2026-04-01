@@ -16,6 +16,8 @@ from ..config import (
     ZENODO_RECORD_ID,
     DATA_DIR,
     PROJECT_ROOT,
+    COSPONSOR_CSV_PATH,
+    SPONSORS_CSV_PATH,
 )
 
 # ---------------------------------------------------------------------------
@@ -27,6 +29,8 @@ LOCAL_PATHS: dict[str, Path] = {
     "segments":    DATA_DIR / "segments.csv",
     "authorities": DATA_DIR / "authorities.csv",
     "collections": DATA_DIR / "collections.csv",
+    "sponsors":    SPONSORS_CSV_PATH,
+    "cosponsors":  COSPONSOR_CSV_PATH,
 }
 
 # ---------------------------------------------------------------------------
@@ -187,6 +191,83 @@ def _load_documents(path: Path, authority_lookup: dict[str, int]) -> list[dict]:
     return rows
 
 
+def _load_sponsors(path: Path, valid_doc_ids: set[int]) -> list[dict]:
+    """Load sponsors CSV → list of dicts for bill_sponsors table."""
+    import json
+    df = pd.read_csv(path, dtype=str, encoding="utf-8-sig").where(pd.notna, "")
+    rows = []
+    for _, r in df.iterrows():
+        row_dict = r.to_dict()
+        agora_id_str = row_dict.get("AGORA ID", "")
+        if not agora_id_str:
+            continue
+        try:
+            agora_id = int(agora_id_str)
+        except (ValueError, TypeError):
+            continue
+        if agora_id not in valid_doc_ids:
+            continue
+        cosponsor_list_raw = row_dict.get("Cosponsor_List_Current_JSON", "")
+        try:
+            cosponsor_list_json = json.loads(cosponsor_list_raw) if cosponsor_list_raw else None
+        except (ValueError, TypeError):
+            cosponsor_list_json = None
+        rows.append({
+            "agora_id": agora_id,
+            "api_call_url": row_dict.get("api_callURL", ""),
+            "party_code": row_dict.get("Party_Code", ""),
+            "party_name": row_dict.get("Party_Name", ""),
+            "policy_area": row_dict.get("Policy_Area", ""),
+            "latest_action": row_dict.get("Latest_Action", ""),
+            "cosponsor_count": int(row_dict.get("Cosponsor_Count", "0") or "0"),
+            "cosponsor_count_all": int(row_dict.get("Cosponsor_Count_All_From_List", "0") or "0"),
+            "cosponsor_count_current": int(row_dict.get("Cosponsor_Count_Current_From_List", "0") or "0"),
+            "cosponsor_names_current": row_dict.get("Cosponsor_Names_Current_Str", ""),
+            "cosponsor_list_json": cosponsor_list_json,
+        })
+    return rows
+
+
+def _load_cosponsors(path: Path, valid_doc_ids: set[int]) -> list[dict]:
+    """Load cosponsors CSV → list of dicts for bill_cosponsors table."""
+    df = pd.read_csv(path, dtype=str, encoding="utf-8-sig").where(pd.notna, "")
+    rows = []
+    skipped = 0
+    for _, r in df.iterrows():
+        row_dict = r.to_dict()
+        agora_id_str = row_dict.get("AGORA ID", "")
+        bioguide_id = row_dict.get("Cosponsor_BioguideId", "").strip()
+        if not agora_id_str or not bioguide_id:
+            skipped += 1
+            continue
+        try:
+            agora_id = int(agora_id_str)
+        except (ValueError, TypeError):
+            skipped += 1
+            continue
+        if agora_id not in valid_doc_ids:
+            skipped += 1
+            continue
+        rows.append({
+            "agora_id": agora_id,
+            "bioguide_id": bioguide_id,
+            "full_name": row_dict.get("Cosponsor_FullName", ""),
+            "first_name": row_dict.get("Cosponsor_FirstName", ""),
+            "middle_name": row_dict.get("Cosponsor_MiddleName", ""),
+            "last_name": row_dict.get("Cosponsor_LastName", ""),
+            "party": row_dict.get("Cosponsor_Party", ""),
+            "state": row_dict.get("Cosponsor_State", ""),
+            "district": row_dict.get("Cosponsor_District", ""),
+            "sponsorship_date": row_dict.get("Cosponsor_SponsorshipDate", "") or None,
+            "is_original": row_dict.get("Cosponsor_IsOriginal", "").lower() == "true",
+            "withdrawn_date": row_dict.get("Cosponsor_WithdrawnDate", "") or None,
+            "is_withdrawn": row_dict.get("Cosponsor_IsWithdrawn", "").lower() == "true",
+        })
+    if skipped:
+        print(f"  cosponsors: skipped {skipped:,} rows (missing ID or FK mismatch)")
+    return rows
+
+
 def _load_segments(path: Path, valid_doc_ids: set[int]) -> list[dict]:
     """Load segments.csv → list of dicts for segments table."""
     df = pd.read_csv(path, dtype=str, encoding="utf-8-sig").where(pd.notna, "")
@@ -253,10 +334,12 @@ ON_CONFLICT: dict[str, str] = {
     "agora_documents":       "agora_id",
     "document_collections":  "agora_id,collection_id",
     "segments":              "document_id,segment_position",
+    "bill_sponsors":         "agora_id",
+    "bill_cosponsors":       "agora_id,bioguide_id",
 }
 
-# Order matters: authorities & collections first, then documents, then junctions & segments
-TABLE_ORDER = ("authorities", "collections", "agora_documents", "document_collections", "segments")
+# Order matters: authorities & collections first, then documents, then junctions & segments, then sponsors
+TABLE_ORDER = ("authorities", "collections", "agora_documents", "document_collections", "segments", "bill_sponsors", "bill_cosponsors")
 
 
 def _upsert_table(client, table: str, rows: list[dict], on_conflict: str, dry_run: bool) -> int:
@@ -301,6 +384,8 @@ def run(
         "agora_documents": "documents",
         "document_collections": "documents",  # derived from documents
         "segments": "segments",
+        "bill_sponsors": "sponsors",
+        "bill_cosponsors": "cosponsors",
     }
 
     print("\n[1/3] Resolving source files …")
@@ -391,6 +476,28 @@ def run(
         seg_rows = _load_segments(resolved["segments"], valid_doc_ids)
         totals["segments"] = _upsert_table(
             client, "segments", seg_rows, ON_CONFLICT["segments"], dry_run
+        )
+
+    # Step 6: bill_sponsors
+    if "bill_sponsors" in active_tables and "sponsors" in resolved:
+        # If we didn't load documents in this run, fetch valid IDs from DB
+        if not valid_doc_ids and client:
+            resp = client.table("agora_documents").select("agora_id").execute()
+            valid_doc_ids = {r["agora_id"] for r in resp.data}
+        sponsor_rows = _load_sponsors(resolved["sponsors"], valid_doc_ids)
+        totals["bill_sponsors"] = _upsert_table(
+            client, "bill_sponsors", sponsor_rows, ON_CONFLICT["bill_sponsors"], dry_run
+        )
+
+    # Step 7: bill_cosponsors
+    if "bill_cosponsors" in active_tables and "cosponsors" in resolved:
+        # If we didn't load documents in this run, fetch valid IDs from DB
+        if not valid_doc_ids and client:
+            resp = client.table("agora_documents").select("agora_id").execute()
+            valid_doc_ids = {r["agora_id"] for r in resp.data}
+        cosponsor_rows = _load_cosponsors(resolved["cosponsors"], valid_doc_ids)
+        totals["bill_cosponsors"] = _upsert_table(
+            client, "bill_cosponsors", cosponsor_rows, ON_CONFLICT["bill_cosponsors"], dry_run
         )
 
     # --- summary ---

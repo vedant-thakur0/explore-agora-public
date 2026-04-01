@@ -109,6 +109,58 @@ def fetch_segments(doc_ids: list[int] | None = None) -> list[dict[str, Any]]:
     return rows
 
 
+def fetch_sponsors(agora_ids: list[int] | None = None) -> list[dict[str, Any]]:
+    """Fetch all rows from bill_sponsors, optionally filtered to a set of document IDs."""
+    if agora_ids is None:
+        return _select_all("bill_sponsors")
+    client = get_client()
+    rows: list[dict] = []
+    batch_size = 200
+    for i in range(0, len(agora_ids), batch_size):
+        chunk = agora_ids[i : i + batch_size]
+        offset = 0
+        while True:
+            resp = (
+                client.table("bill_sponsors")
+                .select("*")
+                .in_("agora_id", chunk)
+                .range(offset, offset + _PAGE_SIZE - 1)
+                .execute()
+            )
+            batch = resp.data or []
+            rows.extend(batch)  # type: ignore
+            if len(batch) < _PAGE_SIZE:
+                break
+            offset += _PAGE_SIZE
+    return rows
+
+
+def fetch_cosponsors(agora_ids: list[int] | None = None) -> list[dict[str, Any]]:
+    """Fetch all rows from bill_cosponsors, optionally filtered to a set of document IDs."""
+    if agora_ids is None:
+        return _select_all("bill_cosponsors")
+    client = get_client()
+    rows: list[dict] = []
+    batch_size = 200
+    for i in range(0, len(agora_ids), batch_size):
+        chunk = agora_ids[i : i + batch_size]
+        offset = 0
+        while True:
+            resp = (
+                client.table("bill_cosponsors")
+                .select("*")
+                .in_("agora_id", chunk)
+                .range(offset, offset + _PAGE_SIZE - 1)
+                .execute()
+            )
+            batch = resp.data or []
+            rows.extend(batch)  # type: ignore
+            if len(batch) < _PAGE_SIZE:
+                break
+            offset += _PAGE_SIZE
+    return rows
+
+
 def fetch_fulltext(agora_id: str | int) -> str | None:
     """Download fulltext from Supabase Storage.
 

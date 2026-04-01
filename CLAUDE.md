@@ -17,6 +17,7 @@ ONLY IF NEEDED: See `FILETREE.md` for the full annotated file tree.
 ## Key references
 - **File tree:** `FILETREE.md`
 - **Data schema:** `knowledge_graph/README.md`
+- **Cosponsor layers:** `knowledge_graph/COSPONSOR_LAYERS.md` (Layer 1b: active, Layer 1.75: withdrawn)
 - **NER agent docs:** `NER_AGENT.md`
 - **Tuning guide:** `pipeline/TUNING_RUNBOOK.md`
 - **Tuning history:** `pipeline/TUNING_CHANGELOG.md`
