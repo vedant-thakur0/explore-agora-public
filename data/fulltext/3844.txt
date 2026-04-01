@@ -1,0 +1,203 @@
+ LONG TITLE 
+General Description:
+    This bill enacts provisions regarding the transportation of unaccompanied minors by a
+vehicle for hire operating in driverless operation.
+Highlighted Provisions:
+    This bill:
+    ▸ defines terms;
+    ▸ prohibits a vehicle for hire in driverless operation from transporting an
+unaccompanied minor under eight years old or required to use a child restraint system;
+    ▸ requires a parent or guardian sign a waiver and provide emergency contact
+information;
+    ▸ requires proper use of safety belts;
+    ▸ requires certain monitoring and emergency notification technology; and 
+    ▸ requires the vehicle be in safe operating condition.
+Money Appropriated in this Bill:
+    None
+Other Special Clauses:
+    None
+Utah Code Sections Affected:
+AMENDS:
+    41-26-102.1, as enacted by Laws of Utah 2019, Chapter 459
+ENACTS:
+    41-26-109, Utah Code Annotated 1953
+
+ Be it enacted by the Legislature of the state of Utah:
+    Section 1. Section 41-26-102.1 is amended to read:
+    41-26-102.1. Definitions.
+    (1) "ADS-dedicated vehicle" means a vehicle designed to be operated exclusively by a
+level four or five ADS for all trips within the given operational design domain limitations of
+the ADS, if any.
+    (2) (a) "Automated driving system" or "ADS" means the hardware and software that 
+are collectively capable of performing the entire dynamic driving task on a sustained basis, 
+regardless of whether the ADS is limited to a specific operational design domain, if any.
+    (b) "Automated driving system" or "ADS" is used specifically to describe a level three, 
+four, or five driving automation system.
+    (3) "Commission" means the State Tax Commission as defined in Section 59-1-101.
+    (4) "Conventional driver" means a human driver who is onboard the motor vehicle and 
+manually performs some or all of the following actions in order to operate a vehicle:
+    (a) braking;
+    (b) accelerating;
+    (c) steering; and
+    (d) transmission gear selection input devices.
+    (5) (a) "Dispatch" means to place an ADS-equipped vehicle into service in driverless
+operation by engaging the ADS.
+    (b) "Dispatch" includes software-enabled dispatch of multiple ADS-equipped motor
+vehicles in driverless operation that may complete multiple trips involving pick-up and 
+drop-off of passengers or goods throughout a day or other pre-defined periods of service, and 
+which may involve multiple agents performing various tasks related to the dispatch function.
+
+ (6) "Division" means the Motor Vehicle Division of the commission, created in
+Section 41-1a-106.
+    (7) "Driverless operation" means the operation of an ADS-equipped vehicle in which:
+    (a) no on-board user is present; or
+    (b) no on-board user is a human driver or fallback-ready user.
+    (8) "Driverless operation dispatcher" means a user who dispatches an ADS-equipped
+vehicle in driverless operation.
+    (9) "Driving automation system" means the hardware and software collectively capable
+of performing part or all of the dynamic driving task on a sustained basis.
+    (10) "Driving automation system feature" means a specific function of a driving
+automation system.
+    (11) (a) "Dynamic driving task" means all of the real-time operational and tactical
+functions required to operate a motor vehicle in on-road traffic, including:
+    (i) lateral vehicle motion control through steering;
+    (ii) longitudinal motion control through acceleration and deceleration;
+    (iii) monitoring the driving environment through object and event detection,
+recognition, classification, and response preparation;
+    (iv) object and event response execution;
+    (v) maneuver planning; and
+    (vi) enhancing conspicuity with lighting, signaling, and gesturing.
+    (b) "Dynamic driving task" does not include strategic functions such as trip scheduling
+and selection of destinations and waypoints.
+    (12) "Engage" as it pertains to the operation of a vehicle by a driving automation
+system means to cause a driving automation system feature to perform part or all of the 
+dynamic driving task on a sustained basis.
+    (13) "External event" is a situation in the driving environment that necessitates a 
+response by a human driver or driving automation system.
+    (14) "Fallback-ready user" means the user of a vehicle equipped with an engaged level 
+three ADS who is:
+    (a) a human driver; and
+    (b) ready to operate the vehicle if: (i) a system failure occurs; or
+    (ii) the ADS issues a request to intervene.
+    (15) (a) "Human driver" means a natural person:
+    (i) with a valid license to operate a motor vehicle of the proper class for the motor
+vehicle being operated; and
+    (ii) who performs in real-time all or part of the dynamic driving task.
+    (b) "Human driver" includes a:
+    (i) conventional driver; and
+    (ii) remote driver.
+
+ (16) "Level five automated driving system" or "level five ADS" means an ADS feature
+that has the capability to perform on a sustained basis the entire dynamic driving task under all
+conditions that can reasonably be managed by a human driver, as well as any maneuvers
+necessary to respond to a system failure, without any expectation that a human user will
+respond to a request to intervene.
+    (17) "Level four automated driving system" or "level four ADS" means an ADS feature
+that, without any expectation that a human user will respond to a request to intervene, has:
+    (a) the capability to perform on a sustained basis the entire dynamic driving task within
+its operational design domain; and
+    (b) the capability to perform any maneuvers necessary to achieve a minimal risk
+condition in response to:
+    (i) an exit from the operational design domain of the ADS; or
+    (ii) a system failure.
+    (18) "Level three automated driving system" or "level three ADS" means an ADS
+feature that:
+    (a) has the capability to perform on a sustained basis the entire dynamic driving task
+within its operational design domain; and
+    (b) requires a fallback-ready user to operate the vehicle after receiving a request to
+intervene or in response to a system failure.
+    (19) "Minimal risk condition" means a condition to which a user or an ADS may bring
+a motor vehicle in order to reduce the risk of a crash when a given trip cannot or should not be
+completed.
+    (20) "Object and event detection and response" means the subtasks of the dynamic
+driving task that include:
+    (a) monitoring the driving environment; and
+    (b) executing an appropriate response in order to perform the dynamic driving task. 
+    (21) (a) "On-demand autonomous vehicle network" means a transportation service
+network that uses a software application or other digital means to dispatch or otherwise enable 
+the prearrangement of transportation with motor vehicles that have a level four or five ADS in 
+driverless operation for purposes of transporting persons, including for-hire transportation and 
+transportation for compensation.
+    (b) "On-demand autonomous vehicle network" does not include a vehicle operated by a 
+public transit district as defined in Section 17B-2a-802.
+    
+ (22) "Operate" means the same as that term is defined in Section 41-1a-102.
+    (23) "Operational design domain" means the operating conditions under which a 
+given ADS or feature thereof is specifically designed to function, including:
+    (a) speed range, environmental, geographical, and time-of-day restrictions; or
+    (b) the requisite presence or absence of certain traffic or roadway characteristics. 
+    (24) "Operator" means the same as that term is defined in Section 41-6a-102.
+    (25) "Passenger" means a user on board a vehicle who has no role in the operation of
+that vehicle.
+    (26) "Person" means the same as that term is defined in Section 41-6a-102. 
+    (27) "Remote driver" means a human driver who is not located in a position to
+manually exercise in-vehicle braking, accelerating, steering, or transmission gear selection 
+input devices, but operates the vehicle.
+    (28) "Request to intervene" means the notification by an ADS to a fallback-ready user 
+indicating that the fallback-ready user should promptly begin or resume operation of the vehicle.
+    (29) "Sustained operation of a motor vehicle" means the performance of part or all of 
+the dynamic driving task both between and across external events, including response to 
+external events and continued performance of part or all of the dynamic driving task in the 
+absence of external events.
+   (30) "System failure" means a malfunction in a driving automation system or other 
+vehicle system that prevents the ADS from reliably performing the portion of the dynamic
+driving task on a sustained basis, including the complete dynamic driving task, that the ADS would otherwise perform.
+   (31) "User" means a:
+   (a) human driver;
+   (b) passenger;
+   (c) fallback-ready user; or
+   (d) driverless operation dispatcher.
+
+ Section 2. Section 41-26-109 is enacted to read:
+    41-26-109. Unaccompanied minors in an autonomous transport.
+    (1) As used in this section:
+    (a) "Guardian" means a person who has qualified and been recognized by a court as a 
+guardian of a minor court appointment.
+    (b) "Parent" means a biological or adoptive parent.
+    (c) "Safety belt" means the same as that term is defined in Section 41-6a-1802.
+    (d) "Unaccompanied minor" means a person under the age of 18 that is not under the
+supervision of an adult.
+    (2) (a) An on-demand autonomous vehicle network may not provide services to an
+unaccompanied minor that is:
+    (i) under the age of eight; or
+    (ii) required to use a child restraint system under the standards described in 49 C.F.R.
+ Sec. 571.213.
+    (b) An on-demand autonomous vehicle network may not provide services to an
+unaccompanied minor under the age of 16 if the services are not requested and initiated by 
+the minor's parent or guardian.
+    (3) (a) Before an on-demand autonomous vehicle network may provide services to an 
+unaccompanied minor under the age of 16, the entity operating the on-demand autonomous
+vehicle network shall ensure that a parent or guardian has:
+    (i) completed a waiver or permission form; and
+    (ii) provided emergency contact information for each minor being transported.
+    (b) The waiver or permission form may be part of the on-demand autonomous vehicle
+network's mobile application or other ride hailing technology.
+    (4) An entity operating an on-demand autonomous vehicle network shall ensure that 
+any vehicle offered to provide services to an unaccompanied minor:
+    (a) is enclosed with a roof or top;
+    (b) is in clean and safe condition;
+    (c) maintains an interior temperature between 60 and 85 degrees Fahrenheit;
+    (d) is compliant with safety and equipment standards described in Chapter 6a, Part 16,
+Vehicle Equipment; and
+    (e) is equipped with an emergency communication system, including assistive
+technology, that can establish effective communication between the vehicle, passenger, and 
+emergency services in the event of an incident.
+    (5) (a) An entity operating an on-demand autonomous vehicle network shall ensure that 
+any vehicle offered to provide services to an unaccompanied minor has a video monitoring 
+system to monitor activity in the vehicle, and, except as provided in Subsection (5)(b), retain
+the video data for 90 days after the date on which the on-demand autonomous vehicle network 
+provides the service.
+    (b) If a formal investigation is initiated within the 90 days described in Subsection 
+    (5)(a), the entity operating the on-demand autonomous vehicle network shall retain the video 
+data for as long as:
+    (i) reasonably necessary for evidentiary or investigative purposes; or
+    (ii) required by a warrant issued under the Utah Rules of Criminal Procedure or an 
+equivalent federal warrant.
+    (6) (a) The parent or guardian of an unaccompanied minor shall ensure that the safety 
+belt is properly fastened before an on-demand autonomous vehicle network may provide 
+services to an unaccompanied minor.
+    (b) The parent or guardian of an unaccompanied minor shall, before an on-demand 
+autonomous vehicle network may provide services to an unaccompanied minor:
+    (i) ensure that a parent, guardian, or another adult designated by a parent or guardian, is 
+at the destination to receive the unaccompanied minor; or
+    (ii) affirmatively waive the requirement described in Subsection (6)(b)(i).

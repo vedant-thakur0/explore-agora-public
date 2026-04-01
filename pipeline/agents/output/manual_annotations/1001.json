@@ -1,0 +1,141 @@
+{
+  "agora_id": "1001",
+  "organizations": [
+    {
+      "name": "President",
+      "context": "President",
+      "acronym": "",
+      "char_start": 1750,
+      "char_end": 1759
+    },
+    {
+      "name": "President",
+      "context": "ed application, the President may grant a 1-time ",
+      "acronym": "",
+      "char_start": 1864,
+      "char_end": 1873
+    },
+    {
+      "name": "President",
+      "context": "ragraph (2), if the President certifies to Congre",
+      "acronym": "",
+      "char_start": 2054,
+      "char_end": 2063
+    },
+    {
+      "name": "President",
+      "context": "etermination of the President is made pursuant to",
+      "acronym": "",
+      "char_start": 7791,
+      "char_end": 7800
+    },
+    {
+      "name": "President",
+      "context": "s determined by the President to present a signif",
+      "acronym": "",
+      "char_start": 9263,
+      "char_end": 9272
+    },
+    {
+      "name": "President",
+      "context": "ion that\u2014\n\n\n(A) the President determines, through",
+      "acronym": "",
+      "char_start": 10360,
+      "char_end": 10369
+    },
+    {
+      "name": "President",
+      "context": "sary; and\n\n\n(B) the President determines, through",
+      "acronym": "",
+      "char_start": 10549,
+      "char_end": 10558
+    },
+    {
+      "name": "Congress",
+      "context": "Congress",
+      "acronym": "",
+      "char_start": 2077,
+      "char_end": 2086
+    },
+    {
+      "name": "Congress",
+      "context": " a public report to Congress, submitted not less",
+      "acronym": "",
+      "char_start": 9460,
+      "char_end": 9468
+    },
+    {
+      "name": "foreign adversary country",
+      "context": "foreign adversary country",
+      "acronym": "",
+      "char_start": 9760,
+      "char_end": 9785
+    },
+    {
+      "name": "foreign adversary country",
+      "context": "under the laws of a foreign adversary country;\n\n\n(B) an entity wi",
+      "acronym": "",
+      "char_start": 6868,
+      "char_end": 6893
+    },
+    {
+      "name": "foreign adversary country",
+      "context": " divestiture.\n\n\n(4) FOREIGN ADVERSARY COUNTRY.\u2014The term \u201cforeign ",
+      "acronym": "",
+      "char_start": 9723,
+      "char_end": 9748
+    }
+  ],
+  "offices": [],
+  "roles": [
+    {
+      "title": "Attorney General",
+      "context": "Attorney General",
+      "org": "Department of Justice",
+      "char_start": 4973,
+      "char_end": 4989
+    },
+    {
+      "title": "Attorney General",
+      "context": "n.\n\n\n(2) ACTIONS BY ATTORNEY GENERAL.\u2014The Attorney Gener",
+      "org": "Department of Justice",
+      "char_start": 4748,
+      "char_end": 4764
+    },
+    {
+      "title": "Attorney General",
+      "context": "TORNEY GENERAL.\u2014The Attorney General\u2014\n\n\n(A) shall conduc",
+      "org": "Department of Justice",
+      "char_start": 4770,
+      "char_end": 4786
+    },
+    {
+      "title": "Attorney General",
+      "context": "1) to authorize the Attorney General to pursue enforceme",
+      "org": "Department of Justice",
+      "char_start": 6090,
+      "char_end": 6106
+    },
+    {
+      "title": "Attorney General",
+      "context": "2) to authorize the Attorney General to pursue enforceme",
+      "org": "Department of Justice",
+      "char_start": 6222,
+      "char_end": 6238
+    }
+  ],
+  "legislation_refs": [],
+  "named_docs": [],
+  "relationships": [],
+  "custom_relation_types": [],
+  "soft_aliases": [],
+  "disambiguation_updates": {},
+  "new_parsing_rule": null,
+  "oddity": null,
+  "model": "manual",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "chunks_processed": 0,
+  "extracted_at": "2026-03-25T01:33:15+00:00",
+  "source": "manual"
+}

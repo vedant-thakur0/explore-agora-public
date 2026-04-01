@@ -1,0 +1,37 @@
+{
+  "agora_id": "1203",
+  "organizations": [],
+  "offices": [
+    {
+      "name": "Director of the National Institute of Standards and Technology",
+      "context": "Director of the National Institute of Standards and Technology",
+      "parent_org": "National Institute of Standards and Technology",
+      "char_start": 765,
+      "char_end": 827
+    }
+  ],
+  "roles": [],
+  "legislation_refs": [
+    {
+      "name": "section 7223 of the Advancing American AI Act (40 U.S.C. 11301 note; as enacted as part of title LXXII of division G of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023; Public Law 117\u2013263).",
+      "context": "section 7223 of the Advancing American AI Act (40 U.S.C. 11301 note; as enacted as part of title LXXII of division G of the James M. Inhofe National D",
+      "citation": "",
+      "ref_type": "cites",
+      "char_start": 6202,
+      "char_end": 6420
+    }
+  ],
+  "named_docs": [],
+  "relationships": [],
+  "custom_relation_types": [],
+  "soft_aliases": [],
+  "disambiguation_updates": {},
+  "new_parsing_rule": null,
+  "oddity": null,
+  "model": "manual",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "chunks_processed": 0,
+  "extracted_at": "2026-03-24T23:36:58+00:00",
+  "source": "manual"
+}

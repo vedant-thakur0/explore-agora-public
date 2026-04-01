@@ -1,0 +1,370 @@
+{
+  "summary": {
+    "total_tags": 30,
+    "strongly_democratic": 21,
+    "strongly_republican": 1,
+    "balanced": 1
+  },
+  "tags": [
+    {
+      "tag": "Strategies: Government study or report",
+      "docs": 169,
+      "unique_sponsors": 382,
+      "party_distribution": {
+        "democrat": 1322,
+        "republican": 574,
+        "percent_dem": 69.4,
+        "percent_gop": 30.1
+      },
+      "party_lean": "+748D"
+    },
+    {
+      "tag": "Strategies: Government support",
+      "docs": 120,
+      "unique_sponsors": 339,
+      "party_distribution": {
+        "democrat": 1037,
+        "republican": 767,
+        "percent_dem": 57.4,
+        "percent_gop": 42.5
+      },
+      "party_lean": "+270D"
+    },
+    {
+      "tag": "Strategies: Convening",
+      "docs": 97,
+      "unique_sponsors": 237,
+      "party_distribution": {
+        "democrat": 738,
+        "republican": 529,
+        "percent_dem": 57.8,
+        "percent_gop": 41.4
+      },
+      "party_lean": "+209D"
+    },
+    {
+      "tag": "Strategies: Evaluation",
+      "docs": 95,
+      "unique_sponsors": 308,
+      "party_distribution": {
+        "democrat": 860,
+        "republican": 307,
+        "percent_dem": 73.3,
+        "percent_gop": 26.1
+      },
+      "party_lean": "+553D"
+    },
+    {
+      "tag": "Risk factors: Privacy",
+      "docs": 32,
+      "unique_sponsors": 308,
+      "party_distribution": {
+        "democrat": 900,
+        "republican": 224,
+        "percent_dem": 78.8,
+        "percent_gop": 19.6
+      },
+      "party_lean": "+676D"
+    },
+    {
+      "tag": "Strategies: Disclosure",
+      "docs": 69,
+      "unique_sponsors": 307,
+      "party_distribution": {
+        "democrat": 733,
+        "republican": 275,
+        "percent_dem": 72.3,
+        "percent_gop": 27.1
+      },
+      "party_lean": "+458D"
+    },
+    {
+      "tag": "Strategies: Governance development",
+      "docs": 92,
+      "unique_sponsors": 235,
+      "party_distribution": {
+        "democrat": 680,
+        "republican": 298,
+        "percent_dem": 69.3,
+        "percent_gop": 30.4
+      },
+      "party_lean": "+382D"
+    },
+    {
+      "tag": "Risk factors: Safety",
+      "docs": 45,
+      "unique_sponsors": 309,
+      "party_distribution": {
+        "democrat": 718,
+        "republican": 222,
+        "percent_dem": 75.5,
+        "percent_gop": 23.3
+      },
+      "party_lean": "+496D"
+    },
+    {
+      "tag": "Strategies: Government support: For R&D",
+      "docs": 77,
+      "unique_sponsors": 256,
+      "party_distribution": {
+        "democrat": 572,
+        "republican": 377,
+        "percent_dem": 60.2,
+        "percent_gop": 39.7
+      },
+      "party_lean": "+195D"
+    },
+    {
+      "tag": "Risk factors: Security",
+      "docs": 57,
+      "unique_sponsors": 291,
+      "party_distribution": {
+        "democrat": 675,
+        "republican": 253,
+        "percent_dem": 71.8,
+        "percent_gop": 26.9
+      },
+      "party_lean": "+422D"
+    },
+    {
+      "tag": "Harms: Violation of civil or human rights, including privacy",
+      "docs": 40,
+      "unique_sponsors": 290,
+      "party_distribution": {
+        "democrat": 580,
+        "republican": 130,
+        "percent_dem": 80.8,
+        "percent_gop": 18.1
+      },
+      "party_lean": "+450D"
+    },
+    {
+      "tag": "Strategies: New institution",
+      "docs": 55,
+      "unique_sponsors": 263,
+      "party_distribution": {
+        "democrat": 427,
+        "republican": 256,
+        "percent_dem": 62.2,
+        "percent_gop": 37.3
+      },
+      "party_lean": "+171D"
+    },
+    {
+      "tag": "Strategies: Government support: AI workforce-related",
+      "docs": 54,
+      "unique_sponsors": 209,
+      "party_distribution": {
+        "democrat": 417,
+        "republican": 203,
+        "percent_dem": 67.1,
+        "percent_gop": 32.7
+      },
+      "party_lean": "+214D"
+    },
+    {
+      "tag": "Applications: Government: military and public safety",
+      "docs": 99,
+      "unique_sponsors": 82,
+      "party_distribution": {
+        "democrat": 358,
+        "republican": 259,
+        "percent_dem": 57.9,
+        "percent_gop": 41.9
+      },
+      "party_lean": "+99D"
+    },
+    {
+      "tag": "Risk factors: Transparency",
+      "docs": 40,
+      "unique_sponsors": 221,
+      "party_distribution": {
+        "democrat": 478,
+        "republican": 129,
+        "percent_dem": 78.0,
+        "percent_gop": 21.0
+      },
+      "party_lean": "+349D"
+    },
+    {
+      "tag": "Incentives: Civil liability",
+      "docs": 30,
+      "unique_sponsors": 228,
+      "party_distribution": {
+        "democrat": 334,
+        "republican": 232,
+        "percent_dem": 58.1,
+        "percent_gop": 40.3
+      },
+      "party_lean": "+102D"
+    },
+    {
+      "tag": "Strategies: Input controls",
+      "docs": 10,
+      "unique_sponsors": 140,
+      "party_distribution": {
+        "democrat": 99,
+        "republican": 398,
+        "percent_dem": 19.8,
+        "percent_gop": 79.8
+      },
+      "party_lean": "-299R"
+    },
+    {
+      "tag": "Applications: Medicine, life sciences and public health",
+      "docs": 12,
+      "unique_sponsors": 251,
+      "party_distribution": {
+        "democrat": 342,
+        "republican": 103,
+        "percent_dem": 76.9,
+        "percent_gop": 23.1
+      },
+      "party_lean": "+239D"
+    },
+    {
+      "tag": "Strategies: Evaluation: Impact assessment",
+      "docs": 39,
+      "unique_sponsors": 208,
+      "party_distribution": {
+        "democrat": 340,
+        "republican": 80,
+        "percent_dem": 80.8,
+        "percent_gop": 19.0
+      },
+      "party_lean": "+260D"
+    },
+    {
+      "tag": "Harms: Harm to health/safety",
+      "docs": 29,
+      "unique_sponsors": 260,
+      "party_distribution": {
+        "democrat": 310,
+        "republican": 86,
+        "percent_dem": 76.9,
+        "percent_gop": 21.3
+      },
+      "party_lean": "+224D"
+    },
+    {
+      "tag": "Harms: Discrimination",
+      "docs": 18,
+      "unique_sponsors": 282,
+      "party_distribution": {
+        "democrat": 333,
+        "republican": 59,
+        "percent_dem": 83.9,
+        "percent_gop": 14.9
+      },
+      "party_lean": "+274D"
+    },
+    {
+      "tag": "Strategies: Evaluation: Post-market monitoring",
+      "docs": 18,
+      "unique_sponsors": 229,
+      "party_distribution": {
+        "democrat": 317,
+        "republican": 43,
+        "percent_dem": 88.1,
+        "percent_gop": 11.9
+      },
+      "party_lean": "+274D"
+    },
+    {
+      "tag": "Strategies: Disclosure: About inputs",
+      "docs": 18,
+      "unique_sponsors": 218,
+      "party_distribution": {
+        "democrat": 189,
+        "republican": 137,
+        "percent_dem": 57.4,
+        "percent_gop": 41.6
+      },
+      "party_lean": "+52D"
+    },
+    {
+      "tag": "Risk factors: Bias",
+      "docs": 20,
+      "unique_sponsors": 223,
+      "party_distribution": {
+        "democrat": 296,
+        "republican": 21,
+        "percent_dem": 93.1,
+        "percent_gop": 6.6
+      },
+      "party_lean": "+275D"
+    },
+    {
+      "tag": "Harms: Detrimental content",
+      "docs": 23,
+      "unique_sponsors": 150,
+      "party_distribution": {
+        "democrat": 193,
+        "republican": 92,
+        "percent_dem": 67.0,
+        "percent_gop": 31.9
+      },
+      "party_lean": "+101D"
+    },
+    {
+      "tag": "Strategies: Disclosure: In deployment",
+      "docs": 25,
+      "unique_sponsors": 164,
+      "party_distribution": {
+        "democrat": 192,
+        "republican": 90,
+        "percent_dem": 67.6,
+        "percent_gop": 31.7
+      },
+      "party_lean": "+102D"
+    },
+    {
+      "tag": "Applications: Government: other applications/unspecified",
+      "docs": 34,
+      "unique_sponsors": 138,
+      "party_distribution": {
+        "democrat": 142,
+        "republican": 128,
+        "percent_dem": 52.4,
+        "percent_gop": 47.2
+      },
+      "party_lean": "+14D"
+    },
+    {
+      "tag": "Risk factors: Reliability",
+      "docs": 33,
+      "unique_sponsors": 172,
+      "party_distribution": {
+        "democrat": 194,
+        "republican": 74,
+        "percent_dem": 71.9,
+        "percent_gop": 27.4
+      },
+      "party_lean": "+120D"
+    },
+    {
+      "tag": "Strategies: Disclosure: In standard form",
+      "docs": 22,
+      "unique_sponsors": 175,
+      "party_distribution": {
+        "democrat": 190,
+        "republican": 74,
+        "percent_dem": 70.9,
+        "percent_gop": 27.6
+      },
+      "party_lean": "+116D"
+    },
+    {
+      "tag": "Strategies: Disclosure: About evaluation",
+      "docs": 28,
+      "unique_sponsors": 103,
+      "party_distribution": {
+        "democrat": 222,
+        "republican": 41,
+        "percent_dem": 83.8,
+        "percent_gop": 15.5
+      },
+      "party_lean": "+181D"
+    }
+  ]
+}

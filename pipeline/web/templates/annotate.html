@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+{% block title %}Annotate - AGORA NER{% endblock %}
+
+{% block content %}
+<div class="annotate-header">
+  <a href="/documents" class="btn btn-sm">&larr; Back</a>
+  <h1 id="doc-title">Loading...</h1>
+  <div class="header-actions">
+    <button id="btn-auto" class="btn btn-primary">Auto-Extract</button>
+    <button id="btn-save" class="btn btn-success">Save</button>
+    <span id="rate-status" class="rate-indicator"></span>
+  </div>
+</div>
+
+<div class="doc-meta-bar" id="doc-meta-bar" style="display:none;">
+  <div class="meta-row">
+    <span class="meta-label">Title:</span>
+    <span id="meta-title" class="meta-value"></span>
+    <a id="meta-link" class="btn btn-sm" href="#" target="_blank" style="display:none;">Congress.gov</a>
+  </div>
+  <div class="meta-row" id="meta-summary-row" style="display:none;">
+    <span class="meta-label">Summary:</span>
+    <span id="meta-summary" class="meta-value meta-summary"></span>
+  </div>
+  <div class="meta-row meta-details">
+    <span id="meta-activity" class="meta-tag"></span>
+    <span id="meta-proposed" class="meta-tag"></span>
+    <span id="meta-community" class="meta-tag"></span>
+  </div>
+</div>
+
+<div class="annotate-workspace">
+  <!-- Left: document text -->
+  <div class="text-panel" id="text-panel">
+    <div class="mode-toggle">
+      <button class="mode-btn active" id="mode-entity" onclick="setMode('entity')">Entity Mode</button>
+      <button class="mode-btn" id="mode-relationship" onclick="setMode('relationship')">Relationship Mode</button>
+    </div>
+    <div id="alias-capture-banner" class="alias-capture-banner hidden"></div>
+    <div id="find-all-banner" class="find-all-banner hidden"></div>
+    <div class="text-content" id="text-content"></div>
+  </div>
+
+  <!-- Right: entity list -->
+  <div class="entity-panel" id="entity-panel">
+    <!-- Quick-add form -->
+    <div class="quick-add-bar">
+      <select id="qa-type">
+        <option value="organizations">Org</option>
+        <option value="offices">Office</option>
+        <option value="roles">Role</option>
+        <option value="legislation_refs">Legis</option>
+        <option value="named_docs">Doc</option>
+      </select>
+      <div class="qa-input-wrap">
+        <input type="text" id="qa-name" placeholder="Entity name..." autocomplete="off" />
+        <div id="qa-suggestions" class="qa-suggestions hidden"></div>
+      </div>
+      <button class="btn btn-sm btn-primary" onclick="quickAdd()">Add</button>
+    </div>
+    <div class="entity-sections">
+      <div class="entity-section" data-type="organizations">
+        <h3 class="section-toggle" data-type="organizations">
+          <span class="color-dot dot-organizations"></span>
+          Organizations <span class="entity-count" id="count-organizations">0</span>
+        </h3>
+        <div class="entity-list" id="list-organizations"></div>
+      </div>
+      <div class="entity-section" data-type="offices">
+        <h3 class="section-toggle" data-type="offices">
+          <span class="color-dot dot-offices"></span>
+          Offices <span class="entity-count" id="count-offices">0</span>
+        </h3>
+        <div class="entity-list" id="list-offices"></div>
+      </div>
+      <div class="entity-section" data-type="roles">
+        <h3 class="section-toggle" data-type="roles">
+          <span class="color-dot dot-roles"></span>
+          Roles <span class="entity-count" id="count-roles">0</span>
+        </h3>
+        <div class="entity-list" id="list-roles"></div>
+      </div>
+      <div class="entity-section" data-type="legislation_refs">
+        <h3 class="section-toggle" data-type="legislation_refs">
+          <span class="color-dot dot-legislation_refs"></span>
+          Legislation Refs <span class="entity-count" id="count-legislation_refs">0</span>
+        </h3>
+        <div class="entity-list" id="list-legislation_refs"></div>
+      </div>
+      <div class="entity-section" data-type="named_docs">
+        <h3 class="section-toggle" data-type="named_docs">
+          <span class="color-dot dot-named_docs"></span>
+          Named Docs <span class="entity-count" id="count-named_docs">0</span>
+        </h3>
+        <div class="entity-list" id="list-named_docs"></div>
+      </div>
+      <div class="entity-section" data-type="relationships">
+        <h3 class="section-toggle" data-type="relationships">
+          <span class="color-dot dot-relationships"></span>
+          Relationships <span class="entity-count" id="count-relationships">0</span>
+          <button id="btn-add-rel" class="btn btn-sm btn-primary" onclick="event.stopPropagation(); openRelationshipModal()" style="margin-left:auto;">+ Add</button>
+        </h3>
+        <div class="entity-list" id="list-relationships"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Entity creation popover -->
+<div id="entity-popover" class="popover hidden">
+  <div class="popover-content">
+    <h4>Add Entity</h4>
+    <label>Type
+      <select id="pop-type">
+        <option value="organizations">Organization</option>
+        <option value="offices">Office</option>
+        <option value="roles">Role</option>
+        <option value="legislation_refs">Legislation Ref</option>
+        <option value="named_docs">Named Doc</option>
+      </select>
+    </label>
+    <!-- Single entity mode -->
+    <div id="pop-single-mode">
+      <label>Name / Title
+        <div class="pop-name-wrap">
+          <input type="text" id="pop-name" autocomplete="off" />
+          <div id="pop-name-suggestions" class="pop-suggestions hidden"></div>
+        </div>
+      </label>
+      <div id="pop-extra-fields"></div>
+      <label>Context <textarea id="pop-context" rows="2"></textarea></label>
+      <!-- Hereafter / pronoun alias -->
+      <div style="margin-top:4px;">
+        <button type="button" class="btn-link-sm" onclick="toggleAliasSection()">+ hereafter alias</button>
+      </div>
+      <div id="pop-alias-section" class="pop-alias-section hidden">
+        <div class="pop-alias-label">Hereafter referred to as:</div>
+        <input type="text" id="pop-alias-text" placeholder="e.g. the Secretary, the Commission" />
+        <div class="pop-alias-hint">All subsequent occurrences will be auto-tagged as soft aliases.</div>
+      </div>
+      <div class="popover-actions">
+        <button id="pop-add" class="btn btn-primary btn-sm">Add</button>
+        <button id="pop-split-toggle" class="btn btn-sm btn-alias" style="display:none;" onclick="showSplitMode()">Split list…</button>
+        <button id="pop-cancel" class="btn btn-sm">Cancel</button>
+      </div>
+    </div>
+    <!-- Split / bulk mode -->
+    <div id="pop-split-mode" style="display:none;">
+      <label>Prefix <input type="text" id="pop-prefix" placeholder="e.g. Bureau of" /></label>
+      <div id="pop-split-preview" class="split-preview"></div>
+      <div class="popover-actions">
+        <button class="btn btn-primary btn-sm" onclick="addAllFromSplit()">Add All</button>
+        <button class="btn btn-sm" onclick="hideSplitMode()">← Single</button>
+        <button class="btn btn-sm" onclick="hidePopover()">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Relationship popover (relationship mode text selection) -->
+<div id="rel-popover" class="popover hidden">
+  <div class="popover-content">
+    <h4>Add Relationship</h4>
+    <label>Context <textarea id="rpop-context" rows="2" readonly></textarea></label>
+    <label>Source Entity
+      <select id="rpop-source"></select>
+    </label>
+    <label>Relation Type
+      <select id="rpop-type"></select>
+    </label>
+    <label>Target Entity
+      <select id="rpop-target"></select>
+    </label>
+    <div class="popover-actions">
+      <button class="btn btn-primary btn-sm" onclick="addRelFromPopover()">Add</button>
+      <button class="btn btn-sm" onclick="hideRelPopover()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Relationship creation modal -->
+<div id="rel-modal" class="modal hidden">
+  <div class="modal-content">
+    <h4>Add Relationship</h4>
+    <label>Source Entity
+      <select id="rel-source"></select>
+    </label>
+    <label>Relation Type
+      <select id="rel-type"></select>
+    </label>
+    <label>Target Entity
+      <select id="rel-target"></select>
+    </label>
+    <label>Context (optional)
+      <textarea id="rel-context" rows="2" placeholder="Paste supporting text..."></textarea>
+    </label>
+    <div class="popover-actions">
+      <button class="btn btn-primary btn-sm" onclick="addRelationship()">Add</button>
+      <button class="btn btn-sm" onclick="closeRelationshipModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='annotator.js') }}?v={{ cache_bust }}"></script>
+{% endblock %}

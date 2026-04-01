@@ -48,12 +48,140 @@ def _taxonomy_columns(fieldnames: list[str], skip: set[str]) -> list[str]:
     return [name for name in fieldnames if name not in skip and ":" in name]
 
 
+def _build_graph_from_supabase(client) -> GraphData:
+    """Build graph by fetching rows directly from Supabase tables."""
+    from .supabase.client import fetch_authorities, fetch_collections, fetch_documents, fetch_segments
+
+    nodes: list[dict[str, str]] = []
+    edges: list[dict[str, str]] = []
+    node_seen: set[str] = set()
+    edge_seen: set[tuple[str, str, str]] = set()
+    stats = Counter()
+
+    def add_node(node_id: str, node_type: str, label: str, **props: str) -> None:
+        if node_id in node_seen:
+            return
+        row = {"node_id": node_id, "node_type": node_type, "label": _normalize_space(label)}
+        for k, v in props.items():
+            row[k] = str(v)
+        nodes.append(row)
+        node_seen.add(node_id)
+        stats[f"nodes_{node_type.lower()}"] += 1
+
+    def add_edge(src: str, rel: str, dst: str, **props: str) -> None:
+        key = (src, rel, dst)
+        if key in edge_seen:
+            return
+        row = {"src_id": src, "relation": rel, "dst_id": dst}
+        for k, v in props.items():
+            row[k] = str(v)
+        edges.append(row)
+        edge_seen.add(key)
+        stats[f"edges_{rel.lower()}"] += 1
+
+    for row in fetch_authorities():
+        name = (row.get("name") or "").strip()
+        if not name:
+            continue
+        add_node(
+            _node_id("authority", name), "Authority", name,
+            jurisdiction=row.get("jurisdiction") or "",
+            parent_authority=row.get("parent_authority") or "",
+        )
+
+    for row in fetch_collections():
+        name = (row.get("name") or "").strip()
+        if not name:
+            continue
+        add_node(_node_id("collection", name), "Collection", name,
+                 description=row.get("description") or "")
+
+    for row in fetch_segments():
+        document_id = str(row.get("document_id") or "").strip()
+        seg_pos = str(row.get("segment_position") or "").strip()
+        if not document_id or not seg_pos:
+            continue
+        seg_key = f"{document_id}:{seg_pos}"
+        segment_id = _node_id("segment", seg_key)
+        add_node(
+            segment_id, "Segment", f"Segment {seg_pos}",
+            document_id=document_id,
+            segment_position=seg_pos,
+            summary=row.get("summary") or "",
+            non_operative=str(row.get("non_operative") or ""),
+            not_ai_related=str(row.get("not_ai_related") or ""),
+        )
+        doc_id = _node_id("document", document_id)
+        add_edge(doc_id, "HAS_SEGMENT", segment_id, segment_position=seg_pos)
+
+        for tag in (row.get("tags") or "").split(";"):
+            tag = tag.strip()
+            if tag:
+                tag_id = _node_id("tag", tag)
+                add_node(tag_id, "Tag", tag)
+                add_edge(segment_id, "HAS_TAG", tag_id)
+
+        for topic in row.get("taxonomy_tags") or []:
+            topic_id = _node_id("topic", topic)
+            add_node(topic_id, "Topic", topic, source_column=topic)
+            add_edge(segment_id, "HAS_TOPIC", topic_id)
+
+    for row in fetch_documents():
+        agora_id = str(row.get("agora_id") or "").strip()
+        if not agora_id:
+            continue
+        doc_id = _node_id("document", agora_id)
+        add_node(
+            doc_id, "Document",
+            row.get("official_name") or f"AGORA {agora_id}",
+            agora_id=agora_id,
+            casual_name=row.get("casual_name") or "",
+            link_to_document=row.get("link_to_document") or "",
+            most_recent_activity=row.get("most_recent_activity") or "",
+            most_recent_activity_date=row.get("most_recent_activity_date") or "",
+        )
+
+        authority = (row.get("authority_name") or "").strip()
+        if authority:
+            authority_id = _node_id("authority", authority)
+            add_node(authority_id, "Authority", authority)
+            add_edge(doc_id, "UNDER_AUTHORITY", authority_id)
+
+        for coll in (row.get("collections_raw") or "").split(";"):
+            coll = coll.strip()
+            if coll:
+                collection_id = _node_id("collection", coll)
+                add_node(collection_id, "Collection", coll)
+                add_edge(doc_id, "IN_COLLECTION", collection_id)
+
+        for tag in (row.get("tags") or "").split(";"):
+            tag = tag.strip()
+            if tag:
+                tag_id = _node_id("tag", tag)
+                add_node(tag_id, "Tag", tag)
+                add_edge(doc_id, "HAS_TAG", tag_id)
+
+        for topic in row.get("taxonomy_tags") or []:
+            topic_id = _node_id("topic", topic)
+            add_node(topic_id, "Topic", topic, source_column=topic)
+            add_edge(doc_id, "HAS_TOPIC", topic_id)
+
+    payload_stats = dict(stats)
+    payload_stats["node_count"] = len(nodes)
+    payload_stats["edge_count"] = len(edges)
+    return GraphData(nodes=nodes, edges=edges, stats=payload_stats)
+
+
 def build_graph(
     documents_csv: Path,
     segments_csv: Path,
     authorities_csv: Path,
     collections_csv: Path,
+    supabase_client=None,
 ) -> GraphData:
+    if supabase_client is not None:
+        return _build_graph_from_supabase(supabase_client)
+
     nodes: list[dict[str, str]] = []
     edges: list[dict[str, str]] = []
     node_seen: set[str] = set()
@@ -282,12 +410,14 @@ def run(
     authorities_csv: Path,
     collections_csv: Path,
     out_dir: Path,
+    supabase_client=None,
 ) -> dict[str, object]:
     graph = build_graph(
         documents_csv=documents_csv,
         segments_csv=segments_csv,
         authorities_csv=authorities_csv,
         collections_csv=collections_csv,
+        supabase_client=supabase_client,
     )
     out_paths = write_graph(graph, out_dir)
     return {

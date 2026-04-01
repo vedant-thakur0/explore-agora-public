@@ -36,8 +36,20 @@ Filtered data lives in `data/`. Source CSVs are in the parent directory (`../`).
 - `documents.csv` → `Authority` matches `Name` in authorities
 - `documents.csv` → `Collections` (semicolon-delimited) matches `Name` in collections
 
+## Cosponsor Data (NEW)
+
+Starting March 2026, cosponsor information extends the sponsor network:
+
+| File | Rows | Description |
+|---|---|---|
+| `../graph_data/agora_cosponsors_long.csv` | ~3,500 | One row per (document, cosponsor) pair. Includes bioguide ID, party, state, district, sponsorship date, withdrawal tracking. |
+| `../graph_data/agora_comprehensive_data_with_cosponsor_lists.csv` | ~622 | Enriched documents CSV (replaces `agora_with_sponsors.csv`) with cosponsor counts and JSON-encoded lists. Primary input for sponsor/cosponsor graph building. |
+
+See [COSPONSOR_LAYERS.md](./COSPONSOR_LAYERS.md) for details on the knowledge graph Layer 1b (active) and Layer 1.75 (withdrawn) cosponsor networks.
+
 ## Notes
 
 - `segments.csv` taxonomy columns use a `Category: Subcategory` naming convention.
 - Not all documents in `documents.csv` have a corresponding file in `fulltext/` (~1,016 of ~10,990 have retrieved plaintext).
 - The `documents.csv` `Annotated?` and `Validated?` fields track human review status.
+- Cosponsor data sourced from Congress.gov API (pulled 2026-03-13 per `bill_sponsors_README.md`).

@@ -1,0 +1,150 @@
+{
+  "agora_id": "1297",
+  "organizations": [],
+  "offices": [],
+  "roles": [],
+  "legislation_refs": [
+    {
+      "name": "section 3502 of title 44, United States Code",
+      "context": "section 3502 of title 44, United States Code",
+      "citation": "",
+      "ref_type": "cites",
+      "char_start": 226,
+      "char_end": 270
+    }
+  ],
+  "named_docs": [],
+  "relationships": [],
+  "custom_relation_types": [],
+  "soft_aliases": [
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 830,
+      "char_end": 838,
+      "context": "Director"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 1242,
+      "char_end": 1250,
+      "context": "nt of this Act, the Director shall establish a C"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 2183,
+      "char_end": 2191,
+      "context": "ordination with the Director of the Office of Pe"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 2914,
+      "char_end": 2922,
+      "context": " and\n(9) assist the Director, as necessary, in\u2014\n"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 3933,
+      "char_end": 3941,
+      "context": "ed necessary by the Director;\n(iii) creating a f"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 4873,
+      "char_end": 4881,
+      "context": "OC.\u2014\n(1) CHAIR.\u2014The Director shall serve as the "
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 5088,
+      "char_end": 5096,
+      "context": " the Council by the Director.\n(3) MEMBERS.\u2014Membe"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 5641,
+      "char_end": 5649,
+      "context": "ed necessary by the Director.\n(4) STANDING COMMI"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 8992,
+      "char_end": 9000,
+      "context": "s determined by the Director or the head of the "
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 9047,
+      "char_end": 9055,
+      "context": "\n(2) STRUCTURE.\u2014The Director shall issue guidanc"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 11521,
+      "char_end": 11529,
+      "context": "nt of this Act, the Director shall issue guidanc"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 12899,
+      "char_end": 12907,
+      "context": "s determined by the Director.\n(c) Strategy.\u2014\n(1)"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 17989,
+      "char_end": 17997,
+      "context": "T GUIDANCE FROM THE DIRECTOR.\nNot later than 5 y"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 18067,
+      "char_end": 18075,
+      "context": "nt of this Act, the Director shall\u2014\n(1) consider"
+    },
+    {
+      "entity_name": "Director of the Office of Management and Budget",
+      "entity_type": "roles",
+      "alias_text": "Director",
+      "char_start": 18401,
+      "char_end": 18409,
+      "context": "ned relevant by the Director; and\n(B) that inclu"
+    }
+  ],
+  "disambiguation_updates": {},
+  "new_parsing_rule": null,
+  "oddity": null,
+  "model": "manual",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "chunks_processed": 0,
+  "extracted_at": "2026-03-25T15:31:49+00:00",
+  "source": "manual"
+}

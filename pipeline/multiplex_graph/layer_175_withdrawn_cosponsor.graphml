@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="withdrawn_date" attr.type="string"/>
+<key id="d9" for="edge" attr.name="layer" attr.type="long"/>
+<key id="d8" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d7" for="node" attr.name="chamber" attr.type="string"/>
+<key id="d6" for="node" attr.name="district" attr.type="string"/>
+<key id="d5" for="node" attr.name="state" attr.type="string"/>
+<key id="d4" for="node" attr.name="party" attr.type="string"/>
+<key id="d3" for="node" attr.name="bioguide_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="layer" attr.type="long"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="directed"><node id="sponsor:N000190">
+  <data key="d0">WithdrawnCosponsor</data>
+  <data key="d1">Rep. Norman, Ralph [R-SC-5]</data>
+  <data key="d2">2</data>
+  <data key="d3">N000190</data>
+  <data key="d4">R</data>
+  <data key="d5">SC</data>
+  <data key="d6">5</data>
+  <data key="d7">Rep</data>
+</node>
+<node id="sponsor:R000618">
+  <data key="d0">WithdrawnCosponsor</data>
+  <data key="d1">Sen. Ricketts, Pete [R-NE]</data>
+  <data key="d2">2</data>
+  <data key="d3">R000618</data>
+  <data key="d4">R</data>
+  <data key="d5">NE</data>
+  <data key="d6"></data>
+  <data key="d7">Sen</data>
+</node>
+<node id="document:2362">
+  <data key="d0">Document</data>
+  <data key="d1">document:2362</data>
+  <data key="d2">2</data>
+</node>
+<node id="document:517">
+  <data key="d0">Document</data>
+  <data key="d1">document:517</data>
+  <data key="d2">2</data>
+</node>
+<edge source="document:2362" target="sponsor:N000190" id="0">
+  <data key="d8">WITHDREW_COSPONSOR</data>
+  <data key="d9">2</data>
+  <data key="d10">2025-03-24</data>
+</edge>
+<edge source="document:517" target="sponsor:R000618" id="0">
+  <data key="d8">WITHDREW_COSPONSOR</data>
+  <data key="d9">2</data>
+  <data key="d10">2024-05-14</data>
+</edge>
+</graph></graphml>

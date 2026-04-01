@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block title %}Documents - AGORA NER{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Documents</h1>
+</div>
+
+<div class="filters">
+  <input type="text" id="search-input" placeholder="Search by ID, title, or community..." />
+  <select id="status-filter">
+    <option value="">All statuses</option>
+    <option value="none">Not annotated</option>
+    <option value="auto">Auto-extracted</option>
+    <option value="reviewed">Reviewed</option>
+  </select>
+  <select id="community-filter">
+    <option value="">All communities</option>
+  </select>
+  <span id="doc-count" class="count-badge"></span>
+</div>
+
+<table class="doc-table" id="doc-table">
+  <thead>
+    <tr>
+      <th>Agora ID</th>
+      <th>Title</th>
+      <th>Community</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="doc-tbody"></tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const tbody = document.getElementById('doc-tbody');
+const searchInput = document.getElementById('search-input');
+const statusFilter = document.getElementById('status-filter');
+const communityFilter = document.getElementById('community-filter');
+const docCount = document.getElementById('doc-count');
+
+let allDocs = [];
+
+async function loadDocs() {
+  const res = await fetch('/api/documents');
+  allDocs = await res.json();
+
+  // Populate community filter
+  const communities = [...new Set(allDocs.map(d => d.community_id).filter(Boolean))].sort();
+  communityFilter.innerHTML = '<option value="">All communities</option>' +
+    communities.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  renderTable();
+}
+
+function renderTable() {
+  const search = searchInput.value.toLowerCase();
+  const status = statusFilter.value;
+  const community = communityFilter.value;
+
+  const filtered = allDocs.filter(d => {
+    if (status && d.status !== status) return false;
+    if (community && d.community_id !== community) return false;
+    if (search && !d.agora_id.toLowerCase().includes(search)
+        && !(d.title || '').toLowerCase().includes(search)
+        && !(d.community_label || '').toLowerCase().includes(search)) return false;
+    return true;
+  });
+
+  docCount.textContent = `${filtered.length} documents`;
+
+  tbody.innerHTML = filtered.map(d => `
+    <tr>
+      <td><strong>${d.agora_id}</strong></td>
+      <td style="max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${d.casual_name || d.title || '—'}</td>
+      <td><span class="community-tag">${d.community_id || '—'}</span> ${d.community_label || ''}</td>
+      <td><span class="status-badge status-${d.status}">${d.status}</span></td>
+      <td><a href="/annotate/${d.agora_id}" class="btn btn-sm">Annotate</a></td>
+    </tr>
+  `).join('');
+}
+
+searchInput.addEventListener('input', renderTable);
+statusFilter.addEventListener('change', renderTable);
+communityFilter.addEventListener('change', renderTable);
+
+loadDocs();
+</script>
+{% endblock %}

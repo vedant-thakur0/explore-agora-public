@@ -1,0 +1,916 @@
+{
+  "summary": {
+    "method1_cosponsor_pairs": {
+      "total_pairs": 24763,
+      "democratic": 17067,
+      "republican": 7696,
+      "democratic_pct": 68.9,
+      "strongly_democratic_tags": 50,
+      "strongly_republican_tags": 3
+    },
+    "method2_documents": {
+      "total_documents": 2916,
+      "democratic": 1651,
+      "republican": 1265,
+      "democratic_pct": 56.6,
+      "strongly_democratic_tags": 11,
+      "strongly_republican_tags": 6
+    }
+  },
+  "method1_top_tags": [
+    {
+      "tag": "Applications: Security",
+      "total_cosponsor_pairs": 231,
+      "democrat_pairs": 216,
+      "republican_pairs": 15,
+      "democrat_pct": 93.5,
+      "unique_documents": 9,
+      "unique_sponsors": 206,
+      "avg_cosponsors_per_doc": 25.7
+    },
+    {
+      "tag": "Risk factors: Bias",
+      "total_cosponsor_pairs": 318,
+      "democrat_pairs": 296,
+      "republican_pairs": 21,
+      "democrat_pct": 93.1,
+      "unique_documents": 20,
+      "unique_sponsors": 223,
+      "avg_cosponsors_per_doc": 15.9
+    },
+    {
+      "tag": "Incentives: Access to business opportunities",
+      "total_cosponsor_pairs": 25,
+      "democrat_pairs": 23,
+      "republican_pairs": 2,
+      "democrat_pct": 92.0,
+      "unique_documents": 3,
+      "unique_sponsors": 21,
+      "avg_cosponsors_per_doc": 8.3
+    },
+    {
+      "tag": "Strategies: Tiering: Tiering based on domain of application",
+      "total_cosponsor_pairs": 12,
+      "democrat_pairs": 11,
+      "republican_pairs": 1,
+      "democrat_pct": 91.7,
+      "unique_documents": 3,
+      "unique_sponsors": 6,
+      "avg_cosponsors_per_doc": 4.0
+    },
+    {
+      "tag": "Strategies: Evaluation: Post-market monitoring",
+      "total_cosponsor_pairs": 360,
+      "democrat_pairs": 317,
+      "republican_pairs": 43,
+      "democrat_pct": 88.1,
+      "unique_documents": 18,
+      "unique_sponsors": 229,
+      "avg_cosponsors_per_doc": 20.0
+    },
+    {
+      "tag": "Incentives: Imprisonment",
+      "total_cosponsor_pairs": 97,
+      "democrat_pairs": 83,
+      "republican_pairs": 13,
+      "democrat_pct": 85.6,
+      "unique_documents": 6,
+      "unique_sponsors": 90,
+      "avg_cosponsors_per_doc": 16.2
+    },
+    {
+      "tag": "Applications: Networking and telecommunications",
+      "total_cosponsor_pairs": 76,
+      "democrat_pairs": 64,
+      "republican_pairs": 12,
+      "democrat_pct": 84.2,
+      "unique_documents": 5,
+      "unique_sponsors": 23,
+      "avg_cosponsors_per_doc": 15.2
+    },
+    {
+      "tag": "Harms: Discrimination",
+      "total_cosponsor_pairs": 397,
+      "democrat_pairs": 333,
+      "republican_pairs": 59,
+      "democrat_pct": 83.9,
+      "unique_documents": 18,
+      "unique_sponsors": 282,
+      "avg_cosponsors_per_doc": 22.1
+    },
+    {
+      "tag": "Strategies: Disclosure: About evaluation",
+      "total_cosponsor_pairs": 265,
+      "democrat_pairs": 222,
+      "republican_pairs": 41,
+      "democrat_pct": 83.8,
+      "unique_documents": 28,
+      "unique_sponsors": 103,
+      "avg_cosponsors_per_doc": 9.5
+    },
+    {
+      "tag": "Risk factors: Security: Dissemination",
+      "total_cosponsor_pairs": 42,
+      "democrat_pairs": 35,
+      "republican_pairs": 7,
+      "democrat_pct": 83.3,
+      "unique_documents": 9,
+      "unique_sponsors": 25,
+      "avg_cosponsors_per_doc": 4.7
+    },
+    {
+      "tag": "Applications: Manufacturing and process automation",
+      "total_cosponsor_pairs": 59,
+      "democrat_pairs": 49,
+      "republican_pairs": 10,
+      "democrat_pct": 83.1,
+      "unique_documents": 8,
+      "unique_sponsors": 25,
+      "avg_cosponsors_per_doc": 7.4
+    },
+    {
+      "tag": "Incentives: Fines",
+      "total_cosponsor_pairs": 202,
+      "democrat_pairs": 167,
+      "republican_pairs": 33,
+      "democrat_pct": 82.7,
+      "unique_documents": 18,
+      "unique_sponsors": 137,
+      "avg_cosponsors_per_doc": 11.2
+    },
+    {
+      "tag": "Strategies: Tiering: Tiering based on planning ability",
+      "total_cosponsor_pairs": 68,
+      "democrat_pairs": 56,
+      "republican_pairs": 12,
+      "democrat_pct": 82.4,
+      "unique_documents": 1,
+      "unique_sponsors": 68,
+      "avg_cosponsors_per_doc": 68.0
+    },
+    {
+      "tag": "Strategies: Performance requirements",
+      "total_cosponsor_pairs": 158,
+      "democrat_pairs": 130,
+      "republican_pairs": 27,
+      "democrat_pct": 82.3,
+      "unique_documents": 22,
+      "unique_sponsors": 66,
+      "avg_cosponsors_per_doc": 7.2
+    },
+    {
+      "tag": "Applications: Education",
+      "total_cosponsor_pairs": 116,
+      "democrat_pairs": 95,
+      "republican_pairs": 21,
+      "democrat_pct": 81.9,
+      "unique_documents": 5,
+      "unique_sponsors": 44,
+      "avg_cosponsors_per_doc": 23.2
+    },
+    {
+      "tag": "Strategies: Evaluation: Adversarial testing",
+      "total_cosponsor_pairs": 109,
+      "democrat_pairs": 89,
+      "republican_pairs": 20,
+      "democrat_pct": 81.7,
+      "unique_documents": 8,
+      "unique_sponsors": 99,
+      "avg_cosponsors_per_doc": 13.6
+    },
+    {
+      "tag": "Harms: Violation of civil or human rights, including privacy",
+      "total_cosponsor_pairs": 718,
+      "democrat_pairs": 580,
+      "republican_pairs": 130,
+      "democrat_pct": 80.8,
+      "unique_documents": 40,
+      "unique_sponsors": 290,
+      "avg_cosponsors_per_doc": 17.9
+    },
+    {
+      "tag": "Strategies: Evaluation: Impact assessment",
+      "total_cosponsor_pairs": 421,
+      "democrat_pairs": 340,
+      "republican_pairs": 80,
+      "democrat_pct": 80.8,
+      "unique_documents": 39,
+      "unique_sponsors": 208,
+      "avg_cosponsors_per_doc": 10.8
+    },
+    {
+      "tag": "Strategies: Evaluation: Conformity assessment",
+      "total_cosponsor_pairs": 159,
+      "democrat_pairs": 127,
+      "republican_pairs": 31,
+      "democrat_pct": 79.9,
+      "unique_documents": 23,
+      "unique_sponsors": 120,
+      "avg_cosponsors_per_doc": 6.9
+    },
+    {
+      "tag": "Applications: Broadcasting and media production",
+      "total_cosponsor_pairs": 147,
+      "democrat_pairs": 116,
+      "republican_pairs": 31,
+      "democrat_pct": 78.9,
+      "unique_documents": 16,
+      "unique_sponsors": 56,
+      "avg_cosponsors_per_doc": 9.2
+    },
+    {
+      "tag": "Risk factors: Privacy",
+      "total_cosponsor_pairs": 1142,
+      "democrat_pairs": 900,
+      "republican_pairs": 224,
+      "democrat_pct": 78.8,
+      "unique_documents": 32,
+      "unique_sponsors": 308,
+      "avg_cosponsors_per_doc": 35.7
+    },
+    {
+      "tag": "Applications: Agriculture and resource extraction",
+      "total_cosponsor_pairs": 88,
+      "democrat_pairs": 69,
+      "republican_pairs": 19,
+      "democrat_pct": 78.4,
+      "unique_documents": 6,
+      "unique_sponsors": 79,
+      "avg_cosponsors_per_doc": 14.7
+    },
+    {
+      "tag": "Applications: Consumer goods",
+      "total_cosponsor_pairs": 23,
+      "democrat_pairs": 18,
+      "republican_pairs": 5,
+      "democrat_pct": 78.3,
+      "unique_documents": 4,
+      "unique_sponsors": 23,
+      "avg_cosponsors_per_doc": 5.8
+    },
+    {
+      "tag": "Risk factors: Transparency",
+      "total_cosponsor_pairs": 613,
+      "democrat_pairs": 478,
+      "republican_pairs": 129,
+      "democrat_pct": 78.0,
+      "unique_documents": 40,
+      "unique_sponsors": 221,
+      "avg_cosponsors_per_doc": 15.3
+    },
+    {
+      "tag": "Incentives: Subsidies",
+      "total_cosponsor_pairs": 122,
+      "democrat_pairs": 95,
+      "republican_pairs": 27,
+      "democrat_pct": 77.9,
+      "unique_documents": 7,
+      "unique_sponsors": 91,
+      "avg_cosponsors_per_doc": 17.4
+    },
+    {
+      "tag": "Harms: Harm to health/safety",
+      "total_cosponsor_pairs": 403,
+      "democrat_pairs": 310,
+      "republican_pairs": 86,
+      "democrat_pct": 76.9,
+      "unique_documents": 29,
+      "unique_sponsors": 260,
+      "avg_cosponsors_per_doc": 13.9
+    },
+    {
+      "tag": "Applications: Medicine, life sciences and public health",
+      "total_cosponsor_pairs": 445,
+      "democrat_pairs": 342,
+      "republican_pairs": 103,
+      "democrat_pct": 76.9,
+      "unique_documents": 12,
+      "unique_sponsors": 251,
+      "avg_cosponsors_per_doc": 37.1
+    },
+    {
+      "tag": "Applications: Transportation",
+      "total_cosponsor_pairs": 155,
+      "democrat_pairs": 119,
+      "republican_pairs": 36,
+      "democrat_pct": 76.8,
+      "unique_documents": 14,
+      "unique_sponsors": 72,
+      "avg_cosponsors_per_doc": 11.1
+    },
+    {
+      "tag": "Strategies: Tiering",
+      "total_cosponsor_pairs": 121,
+      "democrat_pairs": 92,
+      "republican_pairs": 29,
+      "democrat_pct": 76.0,
+      "unique_documents": 10,
+      "unique_sponsors": 94,
+      "avg_cosponsors_per_doc": 12.1
+    },
+    {
+      "tag": "Risk factors: Safety",
+      "total_cosponsor_pairs": 951,
+      "democrat_pairs": 718,
+      "republican_pairs": 222,
+      "democrat_pct": 75.5,
+      "unique_documents": 45,
+      "unique_sponsors": 309,
+      "avg_cosponsors_per_doc": 21.1
+    },
+    {
+      "tag": "Risk factors: Reliability: Robustness",
+      "total_cosponsor_pairs": 107,
+      "democrat_pairs": 80,
+      "republican_pairs": 27,
+      "democrat_pct": 74.8,
+      "unique_documents": 10,
+      "unique_sponsors": 88,
+      "avg_cosponsors_per_doc": 10.7
+    },
+    {
+      "tag": "Harms: Ecological harm",
+      "total_cosponsor_pairs": 95,
+      "democrat_pairs": 71,
+      "republican_pairs": 23,
+      "democrat_pct": 74.7,
+      "unique_documents": 7,
+      "unique_sponsors": 65,
+      "avg_cosponsors_per_doc": 13.6
+    },
+    {
+      "tag": "Strategies: Evaluation",
+      "total_cosponsor_pairs": 1174,
+      "democrat_pairs": 860,
+      "republican_pairs": 307,
+      "democrat_pct": 73.3,
+      "unique_documents": 95,
+      "unique_sponsors": 308,
+      "avg_cosponsors_per_doc": 12.4
+    },
+    {
+      "tag": "Strategies: Disclosure",
+      "total_cosponsor_pairs": 1014,
+      "democrat_pairs": 733,
+      "republican_pairs": 275,
+      "democrat_pct": 72.3,
+      "unique_documents": 69,
+      "unique_sponsors": 307,
+      "avg_cosponsors_per_doc": 14.7
+    },
+    {
+      "tag": "Risk factors: Reliability",
+      "total_cosponsor_pairs": 270,
+      "democrat_pairs": 194,
+      "republican_pairs": 74,
+      "democrat_pct": 71.9,
+      "unique_documents": 33,
+      "unique_sponsors": 172,
+      "avg_cosponsors_per_doc": 8.2
+    },
+    {
+      "tag": "Risk factors: Security",
+      "total_cosponsor_pairs": 940,
+      "democrat_pairs": 675,
+      "republican_pairs": 253,
+      "democrat_pct": 71.8,
+      "unique_documents": 57,
+      "unique_sponsors": 291,
+      "avg_cosponsors_per_doc": 16.5
+    },
+    {
+      "tag": "Strategies: Evaluation: External auditing",
+      "total_cosponsor_pairs": 31,
+      "democrat_pairs": 22,
+      "republican_pairs": 8,
+      "democrat_pct": 71.0,
+      "unique_documents": 7,
+      "unique_sponsors": 19,
+      "avg_cosponsors_per_doc": 4.4
+    },
+    {
+      "tag": "Strategies: Disclosure: In standard form",
+      "total_cosponsor_pairs": 268,
+      "democrat_pairs": 190,
+      "republican_pairs": 74,
+      "democrat_pct": 70.9,
+      "unique_documents": 22,
+      "unique_sponsors": 175,
+      "avg_cosponsors_per_doc": 12.2
+    },
+    {
+      "tag": "Harms: Financial loss",
+      "total_cosponsor_pairs": 225,
+      "democrat_pairs": 159,
+      "republican_pairs": 61,
+      "democrat_pct": 70.7,
+      "unique_documents": 19,
+      "unique_sponsors": 119,
+      "avg_cosponsors_per_doc": 11.8
+    },
+    {
+      "tag": "Strategies: Government study or report",
+      "total_cosponsor_pairs": 1906,
+      "democrat_pairs": 1322,
+      "republican_pairs": 574,
+      "democrat_pct": 69.4,
+      "unique_documents": 169,
+      "unique_sponsors": 382,
+      "avg_cosponsors_per_doc": 11.3
+    }
+  ],
+  "method2_top_tags": [
+    {
+      "tag": "Incentives: Access to business opportunities",
+      "total_tagged_documents": 3,
+      "documents_with_dem_cosponsors": 3,
+      "documents_with_gop_cosponsors": 1,
+      "democrat_doc_pct": 75.0
+    },
+    {
+      "tag": "Strategies: Disclosure: Accuracy thereof",
+      "total_tagged_documents": 3,
+      "documents_with_dem_cosponsors": 3,
+      "documents_with_gop_cosponsors": 1,
+      "democrat_doc_pct": 75.0
+    },
+    {
+      "tag": "Risk factors: Security: Dissemination",
+      "total_tagged_documents": 9,
+      "documents_with_dem_cosponsors": 8,
+      "documents_with_gop_cosponsors": 3,
+      "democrat_doc_pct": 72.7
+    },
+    {
+      "tag": "Incentives: Imprisonment",
+      "total_tagged_documents": 6,
+      "documents_with_dem_cosponsors": 5,
+      "documents_with_gop_cosponsors": 2,
+      "democrat_doc_pct": 71.4
+    },
+    {
+      "tag": "Strategies: Evaluation: External auditing",
+      "total_tagged_documents": 7,
+      "documents_with_dem_cosponsors": 7,
+      "documents_with_gop_cosponsors": 3,
+      "democrat_doc_pct": 70.0
+    },
+    {
+      "tag": "Risk factors: Bias",
+      "total_tagged_documents": 20,
+      "documents_with_dem_cosponsors": 17,
+      "documents_with_gop_cosponsors": 8,
+      "democrat_doc_pct": 68.0
+    },
+    {
+      "tag": "Applications: Transportation",
+      "total_tagged_documents": 14,
+      "documents_with_dem_cosponsors": 14,
+      "documents_with_gop_cosponsors": 7,
+      "democrat_doc_pct": 66.7
+    },
+    {
+      "tag": "Applications: Arts, sports, leisure, travel, and lifestyle",
+      "total_tagged_documents": 4,
+      "documents_with_dem_cosponsors": 4,
+      "documents_with_gop_cosponsors": 2,
+      "democrat_doc_pct": 66.7
+    },
+    {
+      "tag": "Strategies: Evaluation: Adversarial testing",
+      "total_tagged_documents": 8,
+      "documents_with_dem_cosponsors": 8,
+      "documents_with_gop_cosponsors": 4,
+      "democrat_doc_pct": 66.7
+    },
+    {
+      "tag": "Strategies: Tiering: Tiering based on domain of application",
+      "total_tagged_documents": 3,
+      "documents_with_dem_cosponsors": 2,
+      "documents_with_gop_cosponsors": 1,
+      "democrat_doc_pct": 66.7
+    },
+    {
+      "tag": "Strategies: Performance requirements",
+      "total_tagged_documents": 22,
+      "documents_with_dem_cosponsors": 19,
+      "documents_with_gop_cosponsors": 10,
+      "democrat_doc_pct": 65.5
+    },
+    {
+      "tag": "Strategies: Disclosure: About evaluation",
+      "total_tagged_documents": 28,
+      "documents_with_dem_cosponsors": 24,
+      "documents_with_gop_cosponsors": 13,
+      "democrat_doc_pct": 64.9
+    },
+    {
+      "tag": "Strategies: Disclosure: In standard form",
+      "total_tagged_documents": 22,
+      "documents_with_dem_cosponsors": 18,
+      "documents_with_gop_cosponsors": 10,
+      "democrat_doc_pct": 64.3
+    },
+    {
+      "tag": "Harms: Discrimination",
+      "total_tagged_documents": 18,
+      "documents_with_dem_cosponsors": 16,
+      "documents_with_gop_cosponsors": 9,
+      "democrat_doc_pct": 64.0
+    },
+    {
+      "tag": "Incentives: Fines",
+      "total_tagged_documents": 18,
+      "documents_with_dem_cosponsors": 16,
+      "documents_with_gop_cosponsors": 9,
+      "democrat_doc_pct": 64.0
+    },
+    {
+      "tag": "Strategies: Disclosure: About inputs",
+      "total_tagged_documents": 18,
+      "documents_with_dem_cosponsors": 16,
+      "documents_with_gop_cosponsors": 9,
+      "democrat_doc_pct": 64.0
+    },
+    {
+      "tag": "Strategies: Evaluation: Conformity assessment",
+      "total_tagged_documents": 23,
+      "documents_with_dem_cosponsors": 21,
+      "documents_with_gop_cosponsors": 12,
+      "democrat_doc_pct": 63.6
+    },
+    {
+      "tag": "Applications: Broadcasting and media production",
+      "total_tagged_documents": 16,
+      "documents_with_dem_cosponsors": 13,
+      "documents_with_gop_cosponsors": 8,
+      "democrat_doc_pct": 61.9
+    },
+    {
+      "tag": "Applications: Security",
+      "total_tagged_documents": 9,
+      "documents_with_dem_cosponsors": 8,
+      "documents_with_gop_cosponsors": 5,
+      "democrat_doc_pct": 61.5
+    },
+    {
+      "tag": "Applications: Manufacturing and process automation",
+      "total_tagged_documents": 8,
+      "documents_with_dem_cosponsors": 8,
+      "documents_with_gop_cosponsors": 5,
+      "democrat_doc_pct": 61.5
+    },
+    {
+      "tag": "Strategies: Disclosure",
+      "total_tagged_documents": 69,
+      "documents_with_dem_cosponsors": 59,
+      "documents_with_gop_cosponsors": 37,
+      "democrat_doc_pct": 61.5
+    },
+    {
+      "tag": "Risk factors: Transparency",
+      "total_tagged_documents": 40,
+      "documents_with_dem_cosponsors": 32,
+      "documents_with_gop_cosponsors": 21,
+      "democrat_doc_pct": 60.4
+    },
+    {
+      "tag": "Incentives: Civil liability",
+      "total_tagged_documents": 30,
+      "documents_with_dem_cosponsors": 24,
+      "documents_with_gop_cosponsors": 16,
+      "democrat_doc_pct": 60.0
+    },
+    {
+      "tag": "Applications: Energy and utilities",
+      "total_tagged_documents": 6,
+      "documents_with_dem_cosponsors": 6,
+      "documents_with_gop_cosponsors": 4,
+      "democrat_doc_pct": 60.0
+    },
+    {
+      "tag": "Applications: Government: judicial and law enforcement",
+      "total_tagged_documents": 10,
+      "documents_with_dem_cosponsors": 9,
+      "documents_with_gop_cosponsors": 6,
+      "democrat_doc_pct": 60.0
+    },
+    {
+      "tag": "Risk factors: Security: Cybersecurity",
+      "total_tagged_documents": 34,
+      "documents_with_dem_cosponsors": 32,
+      "documents_with_gop_cosponsors": 22,
+      "democrat_doc_pct": 59.3
+    },
+    {
+      "tag": "Strategies: Evaluation: Post-market monitoring",
+      "total_tagged_documents": 18,
+      "documents_with_dem_cosponsors": 16,
+      "documents_with_gop_cosponsors": 11,
+      "democrat_doc_pct": 59.3
+    },
+    {
+      "tag": "Strategies: Disclosure: In deployment",
+      "total_tagged_documents": 25,
+      "documents_with_dem_cosponsors": 20,
+      "documents_with_gop_cosponsors": 14,
+      "democrat_doc_pct": 58.8
+    },
+    {
+      "tag": "Strategies: Pilots and testbeds",
+      "total_tagged_documents": 27,
+      "documents_with_dem_cosponsors": 24,
+      "documents_with_gop_cosponsors": 17,
+      "democrat_doc_pct": 58.5
+    },
+    {
+      "tag": "Incentives: Criminal liability",
+      "total_tagged_documents": 10,
+      "documents_with_dem_cosponsors": 7,
+      "documents_with_gop_cosponsors": 5,
+      "democrat_doc_pct": 58.3
+    },
+    {
+      "tag": "Risk factors: Safety",
+      "total_tagged_documents": 45,
+      "documents_with_dem_cosponsors": 39,
+      "documents_with_gop_cosponsors": 28,
+      "democrat_doc_pct": 58.2
+    },
+    {
+      "tag": "Risk factors: Reliability",
+      "total_tagged_documents": 33,
+      "documents_with_dem_cosponsors": 29,
+      "documents_with_gop_cosponsors": 21,
+      "democrat_doc_pct": 58.0
+    },
+    {
+      "tag": "Harms: Violation of civil or human rights, including privacy",
+      "total_tagged_documents": 40,
+      "documents_with_dem_cosponsors": 33,
+      "documents_with_gop_cosponsors": 24,
+      "democrat_doc_pct": 57.9
+    },
+    {
+      "tag": "Strategies: Evaluation: Impact assessment",
+      "total_tagged_documents": 39,
+      "documents_with_dem_cosponsors": 34,
+      "documents_with_gop_cosponsors": 25,
+      "democrat_doc_pct": 57.6
+    },
+    {
+      "tag": "Risk factors: Privacy",
+      "total_tagged_documents": 32,
+      "documents_with_dem_cosponsors": 27,
+      "documents_with_gop_cosponsors": 20,
+      "democrat_doc_pct": 57.4
+    },
+    {
+      "tag": "Harms: Financial loss",
+      "total_tagged_documents": 19,
+      "documents_with_dem_cosponsors": 16,
+      "documents_with_gop_cosponsors": 12,
+      "democrat_doc_pct": 57.1
+    },
+    {
+      "tag": "Strategies: Tiering",
+      "total_tagged_documents": 10,
+      "documents_with_dem_cosponsors": 8,
+      "documents_with_gop_cosponsors": 6,
+      "democrat_doc_pct": 57.1
+    },
+    {
+      "tag": "Strategies: Evaluation",
+      "total_tagged_documents": 95,
+      "documents_with_dem_cosponsors": 86,
+      "documents_with_gop_cosponsors": 66,
+      "democrat_doc_pct": 56.6
+    },
+    {
+      "tag": "Strategies: New institution",
+      "total_tagged_documents": 55,
+      "documents_with_dem_cosponsors": 48,
+      "documents_with_gop_cosponsors": 37,
+      "democrat_doc_pct": 56.5
+    },
+    {
+      "tag": "Applications: Government: military and public safety",
+      "total_tagged_documents": 99,
+      "documents_with_dem_cosponsors": 92,
+      "documents_with_gop_cosponsors": 71,
+      "democrat_doc_pct": 56.4
+    }
+  ],
+  "divergence_analysis": [
+    {
+      "tag": "Applications: Consumer goods",
+      "m1_dem_pct": 78.3,
+      "m2_dem_pct": 42.9,
+      "difference_pct_points": 35.4,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Networking and telecommunications",
+      "m1_dem_pct": 84.2,
+      "m2_dem_pct": 50.0,
+      "difference_pct_points": 34.2,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Finance and investment",
+      "m1_dem_pct": 66.7,
+      "m2_dem_pct": 33.3,
+      "difference_pct_points": 33.3,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Tiering: Tiering based on planning ability",
+      "m1_dem_pct": 82.4,
+      "m2_dem_pct": 50.0,
+      "difference_pct_points": 32.4,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Security",
+      "m1_dem_pct": 93.5,
+      "m2_dem_pct": 61.5,
+      "difference_pct_points": 32.0,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Education",
+      "m1_dem_pct": 81.9,
+      "m2_dem_pct": 50.0,
+      "difference_pct_points": 31.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Evaluation: Post-market monitoring",
+      "m1_dem_pct": 88.1,
+      "m2_dem_pct": 59.3,
+      "difference_pct_points": 28.8,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Agriculture and resource extraction",
+      "m1_dem_pct": 78.4,
+      "m2_dem_pct": 50.0,
+      "difference_pct_points": 28.4,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Incentives: Subsidies",
+      "m1_dem_pct": 77.9,
+      "m2_dem_pct": 50.0,
+      "difference_pct_points": 27.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Medicine, life sciences and public health",
+      "m1_dem_pct": 76.9,
+      "m2_dem_pct": 50.0,
+      "difference_pct_points": 26.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Risk factors: Bias",
+      "m1_dem_pct": 93.1,
+      "m2_dem_pct": 68.0,
+      "difference_pct_points": 25.1,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Tiering: Tiering based on domain of application",
+      "m1_dem_pct": 91.7,
+      "m2_dem_pct": 66.7,
+      "difference_pct_points": 25.0,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Evaluation: Impact assessment",
+      "m1_dem_pct": 80.8,
+      "m2_dem_pct": 57.6,
+      "difference_pct_points": 23.1,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Harms: Violation of civil or human rights, including privacy",
+      "m1_dem_pct": 80.8,
+      "m2_dem_pct": 57.9,
+      "difference_pct_points": 22.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Harms: Harm to health/safety",
+      "m1_dem_pct": 76.9,
+      "m2_dem_pct": 54.3,
+      "difference_pct_points": 22.6,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Manufacturing and process automation",
+      "m1_dem_pct": 83.1,
+      "m2_dem_pct": 61.5,
+      "difference_pct_points": 21.5,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Risk factors: Privacy",
+      "m1_dem_pct": 78.8,
+      "m2_dem_pct": 57.4,
+      "difference_pct_points": 21.4,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Input controls: Compute use",
+      "m1_dem_pct": 53.8,
+      "m2_dem_pct": 33.3,
+      "difference_pct_points": 20.5,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Harms: Discrimination",
+      "m1_dem_pct": 83.9,
+      "m2_dem_pct": 64.0,
+      "difference_pct_points": 19.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Harms: Ecological harm",
+      "m1_dem_pct": 74.7,
+      "m2_dem_pct": 55.6,
+      "difference_pct_points": 19.2,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Disclosure: About evaluation",
+      "m1_dem_pct": 83.8,
+      "m2_dem_pct": 64.9,
+      "difference_pct_points": 18.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Tiering",
+      "m1_dem_pct": 76.0,
+      "m2_dem_pct": 57.1,
+      "difference_pct_points": 18.9,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Incentives: Fines",
+      "m1_dem_pct": 82.7,
+      "m2_dem_pct": 64.0,
+      "difference_pct_points": 18.7,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Risk factors: Reliability: Robustness",
+      "m1_dem_pct": 74.8,
+      "m2_dem_pct": 56.2,
+      "difference_pct_points": 18.5,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Risk factors: Transparency",
+      "m1_dem_pct": 78.0,
+      "m2_dem_pct": 60.4,
+      "difference_pct_points": 17.6,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Input controls: Data circulation",
+      "m1_dem_pct": 46.2,
+      "m2_dem_pct": 28.6,
+      "difference_pct_points": 17.6,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Risk factors: Safety",
+      "m1_dem_pct": 75.5,
+      "m2_dem_pct": 58.2,
+      "difference_pct_points": 17.3,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Applications: Broadcasting and media production",
+      "m1_dem_pct": 78.9,
+      "m2_dem_pct": 61.9,
+      "difference_pct_points": 17.0,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Incentives: Access to business opportunities",
+      "m1_dem_pct": 92.0,
+      "m2_dem_pct": 75.0,
+      "difference_pct_points": 17.0,
+      "inflation_direction": "M1_higher"
+    },
+    {
+      "tag": "Strategies: Performance requirements",
+      "m1_dem_pct": 82.3,
+      "m2_dem_pct": 65.5,
+      "difference_pct_points": 16.8,
+      "inflation_direction": "M1_higher"
+    }
+  ]
+}

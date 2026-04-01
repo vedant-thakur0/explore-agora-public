@@ -1,0 +1,43 @@
+{
+  "layers": {
+    "layer_1_sponsor": {
+      "nodes": 710,
+      "edges": 2387,
+      "node_types": {
+        "Document": 509,
+        "Unknown": 201
+      },
+      "edge_types": {
+        "SPONSORED_BY": 509,
+        "SHARES_SPONSOR": 1878
+      }
+    },
+    "layer_1b_cosponsor": {
+      "nodes": 959,
+      "edges": 23710,
+      "node_types": {
+        "Cosponsor": 520,
+        "Document": 439
+      },
+      "edge_types": {
+        "COSPONSORED_BY": 3460,
+        "SHARES_COSPONSOR": 20250
+      }
+    },
+    "layer_175_withdrawn_cosponsor": {
+      "nodes": 4,
+      "edges": 2,
+      "node_types": {
+        "WithdrawnCosponsor": 2,
+        "Document": 2
+      },
+      "edge_types": {
+        "WITHDREW_COSPONSOR": 2
+      }
+    }
+  },
+  "combined": {
+    "nodes": 1071,
+    "edges": 26099
+  }
+}
