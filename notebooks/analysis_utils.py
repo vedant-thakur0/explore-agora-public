@@ -82,8 +82,8 @@ def taxonomy_vector(df: pd.DataFrame, group: str) -> pd.DataFrame:
     cols = get_taxonomy_columns(df, group)
     prefix = TAXONOMY_GROUPS[group]
     matrix = df[cols].fillna(0).astype(int)
-    matrix.columns = [c.replace(prefix, "").strip().lstrip(": ") for c in cols]
-    return matrix
+    matrix.columns = [c.replace(prefix, "").strip().lstrip(": ") for c in cols] # type: ignore
+    return matrix # type: ignore
 
 
 def sponsor_taxonomy_profile(docs_df: pd.DataFrame, cosponsors_df: pd.DataFrame,
@@ -92,13 +92,17 @@ def sponsor_taxonomy_profile(docs_df: pd.DataFrame, cosponsors_df: pd.DataFrame,
 
     For each sponsor (by bioguide), sums the taxonomy binary flags across
     all documents they co-sponsored.
+
     """
     tax = taxonomy_vector(docs_df, group)
     tax["AGORA ID"] = docs_df["AGORA ID"].values
+    tax = tax.set_index("AGORA ID")
+
 
     merged = cosponsors_df[["AGORA ID", "Cosponsor_BioguideId"]].merge(
         tax, on="AGORA ID", how="inner"
     )
+    merged = merged.set_index("AGORA ID")
     profile = merged.groupby("Cosponsor_BioguideId").sum(numeric_only=True)
     return profile
 
@@ -113,6 +117,7 @@ def build_sponsor_document_bigraph(docs_df: pd.DataFrame,
     Edge attributes: party, state, is_original.
     Document attributes: Policy_Area, Cosponsor_Count, Official name.
     """
+
     B = nx.Graph()
 
     # Add document nodes
