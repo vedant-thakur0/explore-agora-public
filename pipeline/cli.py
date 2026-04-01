@@ -80,6 +80,11 @@ def cmd_build_multiplex_graph(args: argparse.Namespace) -> int:
         from .agents.sponsor_graph import run as run_sponsor
         run_sponsor(Path(args.sponsors_csv), agents_output_dir)
 
+    # Phase 1b: cosponsor graph (if requested or all)
+    if args.agents in ("all", "sponsor", "cosponsor") and args.cosponsors_csv:
+        from .agents.sponsor_graph import run_cosponsor
+        run_cosponsor(Path(args.cosponsors_csv), agents_output_dir)
+
     # Phase 2: community detection (if requested or all)
     if args.agents in ("all", "community") and args.sponsors_csv:
         from .agents.community_detector import run as run_community
@@ -171,11 +176,12 @@ def build_parser() -> argparse.ArgumentParser:
     dc.set_defaults(func=cmd_detect_communities)
 
     mpx = sub.add_parser("build-multiplex-graph", help="Build multiplex knowledge graph from agent outputs")
-    mpx.add_argument("--sponsors-csv", default="knowledge_graph/data/agora_with_sponsors.csv")
+    mpx.add_argument("--sponsors-csv", default="knowledge_graph/graph_data/agora_comprehensive_data_with_cosponsor_lists.csv")
+    mpx.add_argument("--cosponsors-csv", default="knowledge_graph/graph_data/agora_cosponsors_long.csv")
     mpx.add_argument("--fulltext-dir", default="fulltext")
     mpx.add_argument("--agents-output-dir", default="")
     mpx.add_argument("--out-dir", default="")
-    mpx.add_argument("--agents", default="all", choices=["all", "sponsor", "community", "ner"],
+    mpx.add_argument("--agents", default="all", choices=["all", "sponsor", "cosponsor", "community", "ner"],
                      help="Which agent phases to run")
     mpx.add_argument("--community", default="", help="Filter NER to single community_id")
     mpx.add_argument("--limit", type=int, default=0, help="Limit docs per community (for calibration)")

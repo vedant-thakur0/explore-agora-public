@@ -197,7 +197,176 @@ def build_sponsor_graph(
     return stats
 
 
+def build_cosponsor_graph(
+    rows: list[dict[str, Any]],
+    output_dir: Path | None = None,
+) -> dict[str, Any]:
+    """Build cosponsor graph (active + withdrawn) from agora_cosponsors_long.csv.
+
+    Produces:
+    - cosponsor_nodes.csv, cosponsor_edges.csv (active cosponsors, layer 1b)
+    - withdrawn_cosponsor_nodes.csv, withdrawn_cosponsor_edges.csv (layer 1.75)
+
+    Returns stats dict.
+    """
+    output_dir = output_dir or AGENTS_OUTPUT_DIR
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    active_cosponsors: dict[str, SponsorRecord] = {}
+    withdrawn_cosponsors: dict[str, SponsorRecord] = {}
+    active_edges: list[dict[str, str]] = []
+    withdrawn_edges: list[dict[str, str]] = []
+    doc_cosponsor_map: dict[str, list[str]] = defaultdict(list)  # for SHARES_COSPONSOR
+
+    skipped_no_cosponsor = 0
+    active_count = 0
+    withdrawn_count = 0
+
+    for row in rows:
+        agora_id = row.get("AGORA ID", "").strip()
+        bioguide = row.get("Cosponsor_BioguideId", "").strip()
+        full_name = row.get("Cosponsor_FullName", "").strip()
+        is_withdrawn = row.get("Cosponsor_IsWithdrawn", "").strip().lower() == "true"
+        withdrawn_date = row.get("Cosponsor_WithdrawnDate", "").strip() if is_withdrawn else ""
+        is_original = row.get("Cosponsor_IsOriginal", "").strip().lower() == "true"
+
+        if not agora_id:
+            continue
+
+        if not bioguide:
+            skipped_no_cosponsor += 1
+            continue
+
+        # Parse cosponsor details
+        last_name, first_name = _parse_name_parts(full_name)
+        cosponsor_rec = SponsorRecord(
+            bioguide_id=bioguide,
+            full_name=full_name,
+            last_name=last_name,
+            first_name=first_name,
+            party=row.get("Cosponsor_Party", "").strip(),
+            state=row.get("Cosponsor_State", "").strip(),
+            district=_clean_district(row.get("Cosponsor_District", "")),
+            chamber=_parse_chamber(full_name),
+        )
+
+        # Bucket into active vs withdrawn
+        if is_withdrawn:
+            withdrawn_cosponsors[bioguide] = cosponsor_rec
+            edge = {
+                "src_id": f"document:{agora_id}",
+                "relation": "WITHDREW_COSPONSOR",
+                "dst_id": f"sponsor:{bioguide}",
+                "layer": "1.75",
+                "withdrawn_date": withdrawn_date,
+            }
+            withdrawn_edges.append(edge)
+            withdrawn_count += 1
+        else:
+            active_cosponsors[bioguide] = cosponsor_rec
+            edge = {
+                "src_id": f"document:{agora_id}",
+                "relation": "COSPONSORED_BY",
+                "dst_id": f"sponsor:{bioguide}",
+                "layer": "1b",
+                "is_original": str(is_original),
+            }
+            active_edges.append(edge)
+            doc_cosponsor_map[agora_id].append(bioguide)
+            active_count += 1
+
+    # Derive SHARES_COSPONSOR edges for active cosponsors
+    cosponsor_to_docs: dict[str, list[str]] = defaultdict(list)
+    for agora_id, bio_ids in doc_cosponsor_map.items():
+        for bio_id in bio_ids:
+            cosponsor_to_docs[bio_id].append(agora_id)
+
+    shares_edges = []
+    for bio_id, doc_ids in cosponsor_to_docs.items():
+        if len(doc_ids) < 2:
+            continue
+        for i in range(len(doc_ids)):
+            for j in range(i + 1, len(doc_ids)):
+                shares_edges.append({
+                    "src_id": f"document:{doc_ids[i]}",
+                    "relation": "SHARES_COSPONSOR",
+                    "dst_id": f"document:{doc_ids[j]}",
+                    "layer": "1b",
+                    "cosponsor_bioguide": bio_id,
+                })
+
+    # Write active cosponsor nodes and edges
+    nodes_path = output_dir / "cosponsor_nodes.csv"
+    node_fields = ["node_id", "bioguide_id", "full_name", "last_name", "first_name",
+                    "party", "state", "district", "chamber"]
+    with nodes_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=node_fields)
+        writer.writeheader()
+        for s in sorted(active_cosponsors.values(), key=lambda x: x.bioguide_id):
+            writer.writerow(s.to_dict())
+
+    edges_path = output_dir / "cosponsor_edges.csv"
+    active_all_edges = active_edges + shares_edges
+    if active_all_edges:
+        edge_fields = list(active_all_edges[0].keys())
+        for e in active_all_edges:
+            for k in e:
+                if k not in edge_fields:
+                    edge_fields.append(k)
+        with edges_path.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=edge_fields, extrasaction="ignore")
+            writer.writeheader()
+            for e in active_all_edges:
+                writer.writerow(e)
+
+    # Write withdrawn cosponsor nodes and edges
+    withdrawn_nodes_path = output_dir / "withdrawn_cosponsor_nodes.csv"
+    with withdrawn_nodes_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=node_fields)
+        writer.writeheader()
+        for s in sorted(withdrawn_cosponsors.values(), key=lambda x: x.bioguide_id):
+            writer.writerow(s.to_dict())
+
+    withdrawn_edges_path = output_dir / "withdrawn_cosponsor_edges.csv"
+    if withdrawn_edges:
+        edge_fields = list(withdrawn_edges[0].keys())
+        for e in withdrawn_edges:
+            for k in e:
+                if k not in edge_fields:
+                    edge_fields.append(k)
+        with withdrawn_edges_path.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=edge_fields, extrasaction="ignore")
+            writer.writeheader()
+            for e in withdrawn_edges:
+                writer.writerow(e)
+
+    stats = {
+        "total_rows": len(rows),
+        "rows_without_cosponsor": skipped_no_cosponsor,
+        "active_cosponsors": len(active_cosponsors),
+        "withdrawn_cosponsors": len(withdrawn_cosponsors),
+        "active_edges": len(active_all_edges),
+        "withdrawn_edges": len(withdrawn_edges),
+        "shares_cosponsor_edges": len(shares_edges),
+    }
+
+    log.info(
+        "Cosponsor graph: %d active cosponsors (%d edges), %d withdrawn (%d edges)",
+        stats["active_cosponsors"],
+        stats["active_edges"],
+        stats["withdrawn_cosponsors"],
+        stats["withdrawn_edges"],
+    )
+    return stats
+
+
 def run(csv_path: Path, output_dir: Path | None = None) -> dict[str, Any]:
     """Entry point: load CSV and build sponsor graph."""
     rows = load_sponsor_csv(csv_path)
     return build_sponsor_graph(rows, output_dir)
+
+
+def run_cosponsor(csv_path: Path, output_dir: Path | None = None) -> dict[str, Any]:
+    """Entry point: load CSV and build cosponsor graph."""
+    rows = load_sponsor_csv(csv_path)
+    return build_cosponsor_graph(rows, output_dir)

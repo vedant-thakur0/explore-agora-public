@@ -51,6 +51,11 @@ COLLECTIONS_CSV_PATH = DATA_DIR / "collections.csv"
 # Zenodo
 ZENODO_RECORD_ID = "19046110"  # https://doi.org/10.5281/zenodo.19046110
 
+# Graph data
+GRAPH_DATA_DIR = PROJECT_ROOT / "knowledge_graph" / "graph_data"
+COSPONSOR_CSV_PATH = GRAPH_DATA_DIR / "agora_cosponsors_long.csv"
+SPONSORS_CSV_PATH = GRAPH_DATA_DIR / "agora_comprehensive_data_with_cosponsor_lists.csv"
+
 # Supabase
 import os as _os
 SUPABASE_URL = _os.getenv("SUPABASE_URL", "")

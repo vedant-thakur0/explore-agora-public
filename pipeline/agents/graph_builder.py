@@ -93,6 +93,118 @@ def build_layer1_sponsor(agents_output_dir: Path,) -> nx.MultiDiGraph:
 
 
 # ---------------------------------------------------------------------------
+# Layer 1b: Active Cosponsor graph
+# ---------------------------------------------------------------------------
+
+def build_layer1b_cosponsor(agents_output_dir: Path,) -> nx.MultiDiGraph:
+    """Build Layer 1b active cosponsor graph from cosponsor_nodes.csv and cosponsor_edges.csv."""
+    G = nx.MultiDiGraph()
+
+    nodes_path = agents_output_dir / "cosponsor_nodes.csv"
+    if not nodes_path.exists():
+        log.warning("cosponsor_nodes.csv not found, skipping Layer 1b.")
+        return G
+
+    nodes = _load_csv(nodes_path)
+    for row in nodes:
+        node_id = row.get("node_id", "")
+        if not node_id:
+            continue
+        G.add_node(
+            node_id,
+            node_type="Cosponsor",
+            label=row.get("full_name", ""),
+            layer=2,
+            bioguide_id=row.get("bioguide_id", ""),
+            party=row.get("party", ""),
+            state=row.get("state", ""),
+            district=row.get("district", ""),
+            chamber=row.get("chamber", ""),
+        )
+
+    edges_path = agents_output_dir / "cosponsor_edges.csv"
+    if edges_path.exists():
+        edges = _load_csv(edges_path)
+        for row in edges:
+            src = row.get("src_id", "")
+            dst = row.get("dst_id", "")
+            relation = row.get("relation", "")
+            if not src or not dst:
+                continue
+
+            # Ensure document nodes exist
+            for nid in (src, dst):
+                if nid not in G and nid.startswith("document:"):
+                    G.add_node(nid, node_type="Document", label=nid, layer=2)
+
+            G.add_edge(
+                src, dst,
+                relation=relation,
+                layer=2,
+                **{k: v for k, v in row.items() if k not in ("src_id", "dst_id", "relation", "layer")},
+            )
+
+    log.info("Layer 1b: %d nodes, %d edges", G.number_of_nodes(), G.number_of_edges())
+    return G
+
+
+# ---------------------------------------------------------------------------
+# Layer 1.75: Withdrawn Cosponsor graph
+# ---------------------------------------------------------------------------
+
+def build_layer175_withdrawn_cosponsor(agents_output_dir: Path,) -> nx.MultiDiGraph:
+    """Build Layer 1.75 withdrawn cosponsor graph."""
+    G = nx.MultiDiGraph()
+
+    nodes_path = agents_output_dir / "withdrawn_cosponsor_nodes.csv"
+    if not nodes_path.exists():
+        log.warning("withdrawn_cosponsor_nodes.csv not found, skipping Layer 1.75.")
+        return G
+
+    nodes = _load_csv(nodes_path)
+    for row in nodes:
+        node_id = row.get("node_id", "")
+        if not node_id:
+            continue
+        G.add_node(
+            node_id,
+            node_type="WithdrawnCosponsor",
+            label=row.get("full_name", ""),
+            layer=2,
+            bioguide_id=row.get("bioguide_id", ""),
+            party=row.get("party", ""),
+            state=row.get("state", ""),
+            district=row.get("district", ""),
+            chamber=row.get("chamber", ""),
+        )
+
+    edges_path = agents_output_dir / "withdrawn_cosponsor_edges.csv"
+    if edges_path.exists():
+        edges = _load_csv(edges_path)
+        for row in edges:
+            src = row.get("src_id", "")
+            dst = row.get("dst_id", "")
+            relation = row.get("relation", "")
+            if not src or not dst:
+                continue
+
+            # Ensure document nodes exist
+            for nid in (src, dst):
+                if nid not in G and nid.startswith("document:"):
+                    G.add_node(nid, node_type="Document", label=nid, layer=2)
+
+            G.add_edge(
+                src, dst,
+                relation=relation,
+                layer=2,
+                **{k: v for k, v in row.items() if k not in ("src_id", "dst_id", "relation", "layer")},
+            )
+
+    log.info("Layer 1.75: %d nodes, %d edges", G.number_of_nodes(), G.number_of_edges())
+    return G
+
+
+# ---------------------------------------------------------------------------
 # Layer 2: Community graph
 # ---------------------------------------------------------------------------
 
@@ -375,6 +487,15 @@ def build_multiplex_graph(
         layer1 = build_layer1_sponsor(agents_output_dir)
         layers["layer_1_sponsor"] = layer1
         export_graphml(layer1, graph_output_dir / "layer_1_sponsor.graphml")
+
+    if run_all or agents_filter in ("sponsor", "cosponsor"):
+        layer1b = build_layer1b_cosponsor(agents_output_dir)
+        layers["layer_1b_cosponsor"] = layer1b
+        export_graphml(layer1b, graph_output_dir / "layer_1b_cosponsor.graphml")
+
+        layer175 = build_layer175_withdrawn_cosponsor(agents_output_dir)
+        layers["layer_175_withdrawn_cosponsor"] = layer175
+        export_graphml(layer175, graph_output_dir / "layer_175_withdrawn_cosponsor.graphml")
 
     if run_all or agents_filter == "community":
         layer2 = build_layer2_community(agents_output_dir)
