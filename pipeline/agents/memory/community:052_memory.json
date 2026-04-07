@@ -1,0 +1,58 @@
+{
+  "community_id": "community:052",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "26"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "26"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "FAST Act",
+        "citation": "42 U.S.C. 4370m(6)(A)",
+        "ref_type": "amends",
+        "context": "Section 41001(6)(A) of the FAST Act (42 U.S.C. 4370m(6)(A)) is amended",
+        "mentions": 1,
+        "first_seen": "26"
+      },
+      {
+        "name": "title XLI of the FAST Act",
+        "citation": "title XLI",
+        "ref_type": "cites",
+        "context": "Federal permitting program under title XLI of the FAST Act",
+        "mentions": 1,
+        "first_seen": "26"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "26",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:fast_act": 0.6,
+    "legislation:title_xli_of_the_fast_act": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6
+  }
+}

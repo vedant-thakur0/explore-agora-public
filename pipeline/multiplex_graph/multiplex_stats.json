@@ -1,43 +1,28 @@
 {
   "layers": {
-    "layer_1_sponsor": {
-      "nodes": 710,
-      "edges": 2387,
+    "layer_3_entity": {
+      "nodes": 5355,
+      "edges": 10866,
       "node_types": {
-        "Document": 509,
-        "Unknown": 201
+        "Document": 531,
+        "Org": 1059,
+        "Office": 566,
+        "Legislation": 1343,
+        "Role": 723,
+        "Named Doc": 1133
       },
       "edge_types": {
-        "SPONSORED_BY": 509,
-        "SHARES_SPONSOR": 1878
-      }
-    },
-    "layer_1b_cosponsor": {
-      "nodes": 959,
-      "edges": 23710,
-      "node_types": {
-        "Cosponsor": 520,
-        "Document": 439
-      },
-      "edge_types": {
-        "COSPONSORED_BY": 3460,
-        "SHARES_COSPONSOR": 20250
-      }
-    },
-    "layer_175_withdrawn_cosponsor": {
-      "nodes": 4,
-      "edges": 2,
-      "node_types": {
-        "WithdrawnCosponsor": 2,
-        "Document": 2
-      },
-      "edge_types": {
-        "WITHDREW_COSPONSOR": 2
+        "MENTIONS_ORG": 3806,
+        "INVOLVES_ROLE": 2130,
+        "REFERENCES_LEGISLATION": 2601,
+        "COLLABORATES_WITH": 1,
+        "MENTIONS_OFFICE": 973,
+        "INVOLVES_NAMED_DOC": 1355
       }
     }
   },
   "combined": {
-    "nodes": 1071,
-    "edges": 26099
+    "nodes": 5355,
+    "edges": 10866
   }
 }

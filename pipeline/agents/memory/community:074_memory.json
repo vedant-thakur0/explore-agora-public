@@ -1,0 +1,50 @@
+{
+  "community_id": "community:074",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "The Commission shall provide on the website of the Commission a tool",
+        "mentions": 1,
+        "first_seen": "1922"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Commission",
+        "org": "Federal Communications Commission",
+        "context": "the Commission shall provide on the website of the Commission a tool",
+        "mentions": 1,
+        "first_seen": "1922"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1922"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1922",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "role:commission": 0.6,
+    "org:federal_communications_commission": 0.6
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "community_id": "community:203",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "name": "National Telecommunications and Information Administration",
+        "acronym": "NTIA",
+        "context": "Administrator of the National Telecommunications and Information Administration",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1288"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Secretary of Commerce",
+        "parent_org": "Department of Commerce",
+        "context": "the Secretary, in coordination with the heads of relevant Federal agencies",
+        "mentions": 1,
+        "first_seen": "1288"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "the Secretary, in coordination with the heads of relevant Federal agencies",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "title": "Director",
+        "org": "National Institute of Standards and Technology",
+        "context": "the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "title": "Administrator",
+        "org": "National Telecommunications and Information Administration",
+        "context": "the Administrator of the National Telecommunications and Information Administration",
+        "mentions": 1,
+        "first_seen": "1288"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "name": "Title 5, United States Code, Section 551",
+        "citation": "5 U.S.C. 551",
+        "ref_type": "cites",
+        "context": "section 551 of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "1288"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "section 101 of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "1288"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Artificial Intelligence Public Awareness and Education Campaign",
+        "doc_type": "program",
+        "owner_org": "Department of Commerce",
+        "context": "public awareness and education campaign conducted under this section",
+        "mentions": 1,
+        "first_seen": "1288"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Commerce",
+    "the director": "Director of the National Institute of Standards and Technology",
+    "the administrator": "Administrator of the National Telecommunications and Information Administration"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1288",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Secretary",
+      "resolved": "Secretary of Commerce",
+      "doc_id": "1288",
+      "community_id": "community:203"
+    },
+    {
+      "phrase": "the Director",
+      "resolved": "Director of the National Institute of Standards and Technology",
+      "doc_id": "1288",
+      "community_id": "community:203"
+    },
+    {
+      "phrase": "the Administrator",
+      "resolved": "Administrator of the National Telecommunications and Information Administration",
+      "doc_id": "1288",
+      "community_id": "community:203"
+    }
+  ],
+  "entity_confidence": {
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:national_telecommunications_and_information_administration": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:title_5_united_states_code_section_551": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "office:office_of_the_secretary_of_commerce": 0.6,
+    "named_doc:artificial_intelligence_public_awareness_and_education_campaign": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:director": 0.6,
+    "role:administrator": 0.6
+  }
+}

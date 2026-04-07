@@ -95,6 +95,7 @@ def cmd_build_multiplex_graph(args: argparse.Namespace) -> int:
     if args.agents in ("all", "ner") and args.sponsors_csv:
         from .agents.community_detector import load_docs_csv
         from .agents.models_agent import CommunityRecord
+
         from .agents.ner_agent import run as run_ner
 
         communities_path = agents_output_dir / "communities.json"
@@ -138,6 +139,53 @@ def cmd_sync_supabase(args: argparse.Namespace) -> int:
         dry_run=args.dry_run,
         record_id=args.record_id or "",
     )
+    return 0
+
+
+def cmd_sync_ner_entities(args: argparse.Namespace) -> int:
+    from .supabase.ner_sync import run as run_ner_sync
+    run_ner_sync(
+        entity_dict_path=Path(args.entity_dict) if args.entity_dict else None,
+        annotations_dir=Path(args.annotations_dir) if args.annotations_dir else None,
+        dry_run=args.dry_run,
+    )
+    return 0
+
+
+def cmd_eval_ner(args: argparse.Namespace) -> int:
+    import logging
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+
+    from .agents.ner_eval import evaluate
+    predicted_path = Path(args.predicted) if args.predicted else None
+    gold_dir = Path(args.gold_dir) if args.gold_dir else None
+    report = evaluate(predicted_path=predicted_path, gold_dir=gold_dir)
+    print(json.dumps(report, indent=2))
+    return 0
+
+
+def cmd_seed_registry(args: argparse.Namespace) -> int:
+    import logging
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+
+    from .agents.canonical_registry import seed_registry
+    from .config import (
+        ENTITY_DICTIONARY_PATH,
+        CANONICAL_ENTITY_MAP_PATH,
+        MANUAL_ANNOTATIONS_DIR,
+        TYPE_AUTHORITY_PATH,
+        GLOBAL_REGISTRY_PATH,
+    )
+
+    registry = seed_registry(
+        entity_dictionary_path=ENTITY_DICTIONARY_PATH,
+        canonical_map_path=CANONICAL_ENTITY_MAP_PATH,
+        manual_annotations_dir=MANUAL_ANNOTATIONS_DIR,
+        type_authority_path=TYPE_AUTHORITY_PATH if not args.no_type_authority else None,
+    )
+    out_path = Path(args.output) if args.output else GLOBAL_REGISTRY_PATH
+    registry.save(out_path)
+    print(json.dumps(registry.stats(), indent=2))
     return 0
 
 
@@ -193,6 +241,22 @@ def build_parser() -> argparse.ArgumentParser:
     ss.add_argument("--dry-run", action="store_true", help="Parse and validate only, no writes")
     ss.add_argument("--record-id", default="", help="Override ZENODO_RECORD_ID from config")
     ss.set_defaults(func=cmd_sync_supabase)
+
+    ner = sub.add_parser("sync-ner-entities", help="Sync NER entity dictionary and document-entity mappings to Supabase")
+    ner.add_argument("--entity-dict", default="", help="Path to entity_dictionary.jsonl")
+    ner.add_argument("--annotations-dir", default="", help="Path to manual_annotations directory")
+    ner.add_argument("--dry-run", action="store_true", help="Parse and validate only, no writes")
+    ner.set_defaults(func=cmd_sync_ner_entities)
+
+    ev = sub.add_parser("eval-ner", help="Evaluate NER output against manual annotations")
+    ev.add_argument("--predicted", default="", help="Path to entities.jsonl (default: agents/output/entities.jsonl)")
+    ev.add_argument("--gold-dir", default="", help="Path to manual_annotations directory")
+    ev.set_defaults(func=cmd_eval_ner)
+
+    sr = sub.add_parser("seed-registry", help="Seed or rebuild the global canonical entity registry")
+    sr.add_argument("--output", default="", help="Output path for registry JSON")
+    sr.add_argument("--no-type-authority", action="store_true", help="Skip type authority corrections")
+    sr.set_defaults(func=cmd_seed_registry)
 
     nq = sub.add_parser("query-neighborhood", help="Query neighborhood around a seed node in graph export")
     nq.add_argument("--graph-dir", default="pipeline/graph")

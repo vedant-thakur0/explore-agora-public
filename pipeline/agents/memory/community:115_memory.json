@@ -1,0 +1,85 @@
+{
+  "community_id": "community:115",
+  "label": "Incentives: Civil liability",
+  "taxonomy_signature": [
+    "Incentives: Civil liability"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "submitting the information described in that subparagraph to the Commission",
+        "mentions": 1,
+        "first_seen": "532"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "Communications Act of 1934",
+        "citation": "47 U.S.C. 230",
+        "ref_type": "amends",
+        "context": "Section 230 of the Communications Act of 1934 (47 U.S.C. 230) is amended",
+        "mentions": 1,
+        "first_seen": "532"
+      },
+      {
+        "name": "Religious Freedom Restoration Act of 1993",
+        "citation": "42 U.S.C. 2000bb-2",
+        "ref_type": "cites",
+        "context": "as defined in section 5 of the Religious Freedom Restoration Act of 1993",
+        "mentions": 1,
+        "first_seen": "532"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Disincentivizing Internet Service Censorship of Online Users and Restrictions on Speech and Expression Act",
+        "doc_type": "other",
+        "owner_org": null,
+        "context": "This Act may be cited as the \"Disincentivizing Internet Service Censorship of Online Users and Restrictions on Speech and Expression Act\"",
+        "mentions": 1,
+        "first_seen": "532"
+      },
+      {
+        "name": "DISCOURSE Act",
+        "doc_type": "other",
+        "owner_org": null,
+        "context": "or the \"DISCOURSE Act\"",
+        "mentions": 1,
+        "first_seen": "532"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the commission": "Federal Communications Commission (FCC) - identified from context requiring FCC to host public disclosure information"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "532",
+      "note": "Document consists entirely of legislative text amendments with no named government agencies, officials, or organizational entities referenced. All substantive content defines regulatory categories and modifies statutory language rather than assigning implementation to specific entities."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "532",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Commission",
+      "resolved": "Federal Communications Commission (FCC) - identified from context requiring FCC to host public disclosure information",
+      "doc_id": "532",
+      "community_id": "community:115"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:communications_act_of_1934": 0.6,
+    "legislation:religious_freedom_restoration_act_of_1993": 0.6,
+    "named_doc:disincentivizing_internet_service_censorship_of_online_users_and_restrictions_on_speech_and_expression_act": 0.6,
+    "named_doc:discourse_act": 0.6,
+    "org:federal_communications_commission": 0.6
+  }
+}

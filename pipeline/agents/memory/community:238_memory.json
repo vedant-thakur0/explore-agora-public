@@ -1,0 +1,119 @@
+{
+  "community_id": "community:238",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "1687"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "1687"
+      },
+      {
+        "name": "Armed Forces",
+        "acronym": null,
+        "context": "make such courses available to members of the Armed Forces",
+        "mentions": 1,
+        "first_seen": "1687"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Chief Digital and Artificial Intelligence Officer",
+        "parent_org": "Department of Defense",
+        "context": "Chief Digital and Artificial Intelligence Officer of the Department of Defense",
+        "mentions": 1,
+        "first_seen": "1687"
+      },
+      {
+        "name": "Under Secretary of Defense for Personnel and Readiness",
+        "parent_org": "Department of Defense",
+        "context": "Under Secretary of Defense for Personnel and Readiness, shall",
+        "mentions": 1,
+        "first_seen": "1687"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of a military department",
+        "org": "military departments",
+        "context": "each Secretary of a military department shall\u2014(A) ensure that members",
+        "mentions": 1,
+        "first_seen": "1687"
+      },
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "the Secretary of Defense shall submit to the congressional defense committees",
+        "mentions": 1,
+        "first_seen": "1687"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Defense Authorization Act for Fiscal Year 2020",
+        "citation": "Public Law 116\u201392; 133 Stat. 1290",
+        "ref_type": "amends",
+        "context": "Section 256 of the National Defense Authorization Act for Fiscal Year 2020",
+        "mentions": 1,
+        "first_seen": "1687"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "Public Law 116\u2013283; 15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the William M. (Mac) Thornberry National Defense Authorization Act",
+        "mentions": 1,
+        "first_seen": "1687"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Digital On-Demand Program",
+        "doc_type": "program",
+        "owner_org": "Department of Defense",
+        "context": "expand participation in the Digital On-Demand Program to all organizations",
+        "mentions": 1,
+        "first_seen": "1687"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "chief digital and artificial intelligence officer": "Resolved as office within Department of Defense responsible for Digital On-Demand Program per Section 5 definition"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1687",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Chief Digital and Artificial Intelligence Officer",
+      "resolved": "Resolved as office within Department of Defense responsible for Digital On-Demand Program per Section 5 definition",
+      "doc_id": "1687",
+      "community_id": "community:238"
+    }
+  ],
+  "entity_confidence": {
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:armed_forces": 0.6,
+    "legislation:national_defense_authorization_act_for_fiscal_year_2020": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "office:chief_digital_and_artificial_intelligence_officer": 0.6,
+    "office:under_secretary_of_defense_for_personnel_and_readiness": 0.6,
+    "named_doc:digital_on_demand_program": 0.6,
+    "role:secretary_of_a_military_department": 0.6,
+    "role:secretary_of_defense": 0.9
+  }
+}

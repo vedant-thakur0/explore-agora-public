@@ -1,0 +1,306 @@
+{
+  "community_id": "community:184",
+  "label": "Applications: Networking and telecommunications | Risk factors: Interpretability and explainability | Applications: Broadcasting and media production",
+  "taxonomy_signature": [
+    "Applications: Networking and telecommunications",
+    "Risk factors: Interpretability and explainability",
+    "Applications: Broadcasting and media production",
+    "Strategies: Governance development",
+    "Strategies: Convening",
+    "Risk factors: Transparency",
+    "Strategies: Government support",
+    "Applications: Business services and analytics",
+    "Strategies: Government support: AI workforce-related",
+    "Strategies: Government study or report",
+    "Applications: Medicine, life sciences and public health",
+    "Applications: Finance and investment"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Small Business Administration",
+        "acronym": "SBA",
+        "context": "Administrator of the Small Business Administration to develop strategy elements",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": "DOC",
+        "context": "Secretary of Commerce directs national strategy development",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Consumer Product Safety Commission",
+        "acronym": "CPSC",
+        "context": "the Chair of the Consumer Product Safety Commission",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "the Director of the National Science Foundation",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB",
+        "context": "the Director of the Consumer Financial Protection Bureau",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "the Chair of the Federal Communications Commission",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "the Chair of the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "National Highway Traffic Safety Administration",
+        "acronym": "NHTSA",
+        "context": "the Administrator of the National Highway Traffic Safety Administration",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "the Government Accountability Office shall issue a report",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1251"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Secretary of Agriculture",
+        "parent_org": "Department of Agriculture",
+        "context": "the Secretary of Agriculture",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Office of the Secretary of Education",
+        "parent_org": "Department of Education",
+        "context": "the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Office of the Secretary of Health and Human Services",
+        "parent_org": "Department of Health and Human Services",
+        "context": "the Secretary of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1251"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "The Secretary shall develop a national strategy and public campaign materials",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "title": "Administrator",
+        "org": "Small Business Administration",
+        "context": "consult the Administrator of the Small Business Administration to develop strategy",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "title": "Chair",
+        "org": "Consumer Product Safety Commission",
+        "context": "the Chair of the Consumer Product Safety Commission",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "title": "Director",
+        "org": "National Institute of Standards and Technology",
+        "context": "the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Commerce",
+        "context": "The Secretary shall take such steps as are necessary to coordinate and promote artificial intelligence consumer literacy efforts",
+        "mentions": 1,
+        "first_seen": "1251"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Consumer Literacy and Empowerment to Advance Responsible Navigation of Artificial Intelligence Act",
+        "citation": "Consumers LEARN AI Act",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Consumer Literacy and Empowerment to Advance Responsible Navigation of Artificial Intelligence Act\" or the \"Consumers LEARN AI Act\".",
+        "mentions": 1,
+        "first_seen": "1251"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "artificial intelligence literacy national public service campaign",
+        "doc_type": "campaign",
+        "owner_org": "Department of Commerce",
+        "context": "the artificial intelligence literacy national public service campaign described in section 4(c)(2)",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "multilingual national strategy",
+        "doc_type": "strategy",
+        "owner_org": "Department of Commerce",
+        "context": "develop a multilingual national strategy to promote artificial intelligence consumer literacy",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "report on AI consumer literacy needs",
+        "doc_type": "report",
+        "owner_org": "Department of Commerce",
+        "context": "informed by the report described in subsection (d)(1)",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "national strategy",
+        "doc_type": "strategy",
+        "owner_org": "Department of Commerce",
+        "context": "Secretary shall review not less than annually and make changes as deemed necessary",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "artificial intelligence consumer literacy national public service campaign",
+        "doc_type": "initiative",
+        "owner_org": "Department of Commerce",
+        "context": "Secretary shall develop in consultation with nonprofit, public, and private organizations",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "briefing to Congress",
+        "doc_type": "report",
+        "owner_org": "Department of Commerce",
+        "context": "Secretary shall provide not later than 30 days after completing the national strategy",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Strategy for Consumer Artificial Intelligence Literacy",
+        "doc_type": "report",
+        "owner_org": "Department of Commerce",
+        "context": "titled the \"Strategy for Consumer Artificial Intelligence Literacy\" or \"SCAIL Report\"",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "SCAIL Report",
+        "doc_type": "report",
+        "owner_org": "Department of Commerce",
+        "context": "the \"SCAIL Report\", to the Committee on Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "1251"
+      },
+      {
+        "name": "Artificial Intelligence Consumer Literacy Survey Report",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "the Government Accountability Office shall issue a report that summarizes all Federal programs",
+        "mentions": 1,
+        "first_seen": "1251"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Commerce (Department of Commerce)",
+    "the administrator": "Administrator of the Small Business Administration"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1251",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Secretary",
+      "resolved": "Secretary of Commerce (Department of Commerce)",
+      "doc_id": "1251",
+      "community_id": "community:184"
+    },
+    {
+      "phrase": "the Administrator",
+      "resolved": "Administrator of the Small Business Administration",
+      "doc_id": "1251",
+      "community_id": "community:184"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:consumer_literacy_and_empowerment_to_advance_responsible_navigation_of_artificial_intelligence_act": 0.6,
+    "office:office_of_the_secretary_of_agriculture": 0.6,
+    "office:office_of_the_secretary_of_education": 0.6,
+    "office:office_of_the_secretary_of_health_and_human_services": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:administrator": 0.6,
+    "role:chair": 0.39999999999999997,
+    "role:director": 0.6,
+    "role:secretary": 0.6,
+    "named_doc:artificial_intelligence_literacy_national_public_service_campaign": 0.6,
+    "named_doc:multilingual_national_strategy": 0.6,
+    "named_doc:report_on_ai_consumer_literacy_needs": 0.6,
+    "named_doc:national_strategy": 0.6,
+    "named_doc:artificial_intelligence_consumer_literacy_national_public_service_campaign": 0.6,
+    "named_doc:briefing_to_congress": 0.6,
+    "named_doc:strategy_for_consumer_artificial_intelligence_literacy": 0.6,
+    "named_doc:scail_report": 0.6,
+    "named_doc:artificial_intelligence_consumer_literacy_survey_report": 0.6,
+    "org:small_business_administration": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:consumer_product_safety_commission": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:national_science_foundation": 1.0,
+    "org:consumer_financial_protection_bureau": 0.6,
+    "org:federal_communications_commission": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:national_highway_traffic_safety_administration": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6
+  }
+}

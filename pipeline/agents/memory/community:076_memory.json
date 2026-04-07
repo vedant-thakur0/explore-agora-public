@@ -1,0 +1,77 @@
+{
+  "community_id": "community:076",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Internal Revenue Service",
+        "acronym": "IRS",
+        "context": "liabilities actually collected by the Internal Revenue Service",
+        "mentions": 1,
+        "first_seen": "795"
+      },
+      {
+        "name": "United States",
+        "acronym": null,
+        "context": "tax liabilities owed to the United States under the Internal Revenue Code",
+        "mentions": 1,
+        "first_seen": "795"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Commissioner of Internal Revenue",
+        "org": "Internal Revenue Service",
+        "context": "the Commissioner of Internal Revenue shall submit to Congress a projection",
+        "mentions": 1,
+        "first_seen": "795"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "IRC 1986",
+        "ref_type": "cites",
+        "context": "tax liabilities owed to the United States under the Internal Revenue Code of 1986",
+        "mentions": 1,
+        "first_seen": "795"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "National Research Program",
+        "doc_type": "program",
+        "owner_org": "Internal Revenue Service",
+        "context": "reducing the burden on taxpayers subject to National Research Program audits",
+        "mentions": 1,
+        "first_seen": "795"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "commissioner of internal revenue": "Resolved as role within IRS; appears 3 times in section with explicit agency reference"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "795",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Commissioner of Internal Revenue",
+      "resolved": "Resolved as role within IRS; appears 3 times in section with explicit agency reference",
+      "doc_id": "795",
+      "community_id": "community:076"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "role:commissioner_of_internal_revenue": 0.6,
+    "named_doc:national_research_program": 0.6,
+    "org:internal_revenue_service": 0.6,
+    "org:united_states": 0.6
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "community_id": "community:059",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "United States of America",
+        "acronym": "USA",
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Board of Governors of the Federal Reserve System",
+        "acronym": "FRB",
+        "context": "Board of Governors of the Federal Reserve System shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Federal Deposit Insurance Corporation",
+        "acronym": "FDIC",
+        "context": "Federal Deposit Insurance Corporation Board shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Office of the Comptroller of the Currency",
+        "acronym": "OCC",
+        "context": "Comptroller of the Currency shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Bureau of Consumer Financial Protection",
+        "acronym": "CFPB",
+        "context": "Director of the Bureau of Consumer Financial Protection shall submit",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "National Credit Union Administration",
+        "acronym": "NCUA",
+        "context": "National Credit Union Administration Board shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Committee on Financial Services of the House of Representatives",
+        "acronym": null,
+        "context": "submit to the Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "acronym": null,
+        "context": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Securities and Exchange Commission",
+        "acronym": "SEC",
+        "context": "SEC. 3. Study on AI benefits and risks by the Securities and Exchange Commission",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Department of Housing and Urban Development",
+        "acronym": "HUD",
+        "context": "Secretary of Housing and Urban Development shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": "USDA",
+        "context": "Administrator of the Rural Housing Service of the Department of Agriculture",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Rural Housing Service",
+        "acronym": "RHS",
+        "context": "Administrator of the Rural Housing Service of the Department of Agriculture",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Federal Housing Finance Agency",
+        "acronym": "FHFA",
+        "context": "Director of the Federal Housing Finance Agency shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": "Treasury",
+        "context": "Secretary of the Treasury shall submit report examining AI benefits and risks in financial system",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Bank Secrecy Act",
+        "acronym": null,
+        "context": "financial institutions' obligations under the Bank Secrecy Act and sanctions laws",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative",
+        "acronym": "NAII",
+        "context": "National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1921"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Rural Housing Service",
+        "parent_org": "Department of Agriculture",
+        "context": "Administrator of the Rural Housing Service of the Department of Agriculture",
+        "mentions": 1,
+        "first_seen": "1921"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "Bureau of Consumer Financial Protection",
+        "context": "Director of the Bureau of Consumer Financial Protection shall submit",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Comptroller of the Currency",
+        "org": "Office of the Comptroller of the Currency",
+        "context": "Comptroller of the Currency shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Commission",
+        "org": "Securities and Exchange Commission",
+        "context": "the Commission determines appropriate; current use cases of AI by the Commission",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Secretary of Housing and Urban Development",
+        "org": "Department of Housing and Urban Development",
+        "context": "Secretary of Housing and Urban Development shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Administrator of the Rural Housing Service",
+        "org": "Rural Housing Service",
+        "context": "Administrator of the Rural Housing Service of the Department of Agriculture",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Director of the Federal Housing Finance Agency",
+        "org": "Federal Housing Finance Agency",
+        "context": "Director of the Federal Housing Finance Agency shall submit to the Committee",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "Secretary of the Treasury shall submit to the Committee on Financial Services",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "title": "Director of the Bureau of Consumer Financial Protection",
+        "org": "Bureau of Consumer Financial Protection",
+        "context": "Secretary shall consult with the Director of the Bureau of Consumer Financial Protection",
+        "mentions": 1,
+        "first_seen": "1921"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "AI Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "A BILL To require the financial regulators to carry out studies on the realized and potential benefits of artificial intelligence",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Analysis and Improvement Act of 2024",
+        "citation": "AI Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Analysis and Improvement Act of 2024\" or the \"AI Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Federal Deposit Insurance Act",
+        "citation": "section 3",
+        "ref_type": "cites",
+        "context": "depository institution (as defined in section 3 of the Federal Deposit Insurance Act)",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Federal Credit Union Act",
+        "citation": "section 101",
+        "ref_type": "cites",
+        "context": "State credit union or a Federal credit union (as such terms are defined under section 101 of the Federal Credit Union Act)",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Federal fair lending laws",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "compliance with Federal fair lending laws",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Bank Secrecy Act",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "obligations under the Bank Secrecy Act and sanctions laws",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Title 31, United States Code, Section 5312(a)",
+        "citation": "31 U.S.C. \u00a7 5312(a)",
+        "ref_type": "cites",
+        "context": "financial institutions (as defined in section 5312(a) of title 31, United States Code)",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Public Law 91\u2013508",
+        "citation": "12 U.S.C. 1951 et seq.",
+        "ref_type": "cites",
+        "context": "chapter 2 of title I of Public Law 91\u2013508",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "Title 31, United States Code",
+        "citation": "31 U.S.C.",
+        "ref_type": "cites",
+        "context": "subchapter II of chapter 53 of title 31, United States Code",
+        "mentions": 1,
+        "first_seen": "1921"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "report on AI benefits and risks",
+        "doc_type": "report",
+        "owner_org": "Securities and Exchange Commission",
+        "context": "the Securities and Exchange Commission shall submit to the Committee...a report that examines",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "request for information",
+        "doc_type": "other",
+        "owner_org": "Securities and Exchange Commission",
+        "context": "publish a request for information to collect public input",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "report on AI benefits and risks in housing and mortgage sector",
+        "doc_type": "report",
+        "owner_org": "Department of Housing and Urban Development, Department of Agriculture, Federal Housing Finance Agency, Bureau of Consumer Financial Protection",
+        "context": "report that examines realized and potential benefits and risks of AI technology",
+        "mentions": 1,
+        "first_seen": "1921"
+      },
+      {
+        "name": "report on AI benefits and risks in securing the U.S. financial system from national security threats",
+        "doc_type": "report",
+        "owner_org": "Department of the Treasury",
+        "context": "Secretary of the Treasury shall submit report that examines realized and potential benefits and risks of AI technology",
+        "mentions": 1,
+        "first_seen": "1921"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "agency_heads": "Refers to the five banking regulators named in SEC. 2(a): Board of Governors of the Federal Reserve System, FDIC, OCC, CFPB Director, and NCUA",
+    "agency_heads in sec. 4(a)": "Refers to Secretary of HUD, Administrator of RHS, Director of FHFA, and Director of CFPB (explicitly named in this section, consistent with community context pattern)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1921",
+      "note": "Document provided is only the enacting clause and title; substantive content describing financial regulators, Treasury, and reporting requirements is referenced in summary but not present in extracted text."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1921",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "agency_heads",
+      "resolved": "Refers to the five banking regulators named in SEC. 2(a): Board of Governors of the Federal Reserve System, FDIC, OCC, CFPB Director, and NCUA",
+      "doc_id": "1921",
+      "community_id": "community:059"
+    },
+    {
+      "phrase": "agency_heads in SEC. 4(a)",
+      "resolved": "Refers to Secretary of HUD, Administrator of RHS, Director of FHFA, and Director of CFPB (explicitly named in this section, consistent with community context pattern)",
+      "doc_id": "1921",
+      "community_id": "community:059"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:ai_act_of_2024": 0.6,
+    "legislation:analysis_and_improvement_act_of_2024": 0.6,
+    "legislation:federal_deposit_insurance_act": 0.6,
+    "legislation:federal_credit_union_act": 0.6,
+    "legislation:federal_fair_lending_laws": 0.6,
+    "legislation:bank_secrecy_act": 0.6,
+    "legislation:title_31_united_states_code_section_5312_a": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:public_law_91_508": 0.6,
+    "legislation:title_31_united_states_code": 0.6,
+    "office:rural_housing_service": 0.6,
+    "role:director": 0.6,
+    "role:comptroller_of_the_currency": 0.6,
+    "role:commission": 0.6,
+    "role:secretary_of_housing_and_urban_development": 0.6,
+    "role:administrator_of_the_rural_housing_service": 0.6,
+    "role:director_of_the_federal_housing_finance_agency": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:director_of_the_bureau_of_consumer_financial_protection": 0.6,
+    "named_doc:report_on_ai_benefits_and_risks": 0.6,
+    "named_doc:request_for_information": 0.6,
+    "named_doc:report_on_ai_benefits_and_risks_in_housing_and_mortgage_sector": 0.6,
+    "named_doc:report_on_ai_benefits_and_risks_in_securing_the_u_s_financial_system_from_national_security_threats": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:united_states_of_america": 0.6,
+    "org:board_of_governors_of_the_federal_reserve_system": 0.6,
+    "org:federal_deposit_insurance_corporation": 0.6,
+    "org:office_of_the_comptroller_of_the_currency": 0.6,
+    "org:bureau_of_consumer_financial_protection": 0.6,
+    "org:national_credit_union_administration": 0.6,
+    "org:committee_on_financial_services_of_the_house_of_representatives": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs_of_the_senate": 0.6,
+    "org:securities_and_exchange_commission": 0.6,
+    "org:department_of_housing_and_urban_development": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:rural_housing_service": 0.6,
+    "org:federal_housing_finance_agency": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:bank_secrecy_act": 0.6,
+    "org:national_artificial_intelligence_initiative": 0.6
+  }
+}

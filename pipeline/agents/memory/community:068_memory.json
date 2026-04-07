@@ -1,0 +1,142 @@
+{
+  "community_id": "community:068",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "Office of Domestic Finance of the Department of the Treasury",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "Committee on Appropriations of the Senate",
+        "acronym": null,
+        "context": "the Committee on Appropriations of the Senate",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "Committee on Appropriations of the House of Representatives",
+        "acronym": null,
+        "context": "the Committee on Appropriations of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1912"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Strategic Capital",
+        "parent_org": "Office of the Secretary of Defense",
+        "context": "Office of Strategic Capital of the Office of the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "Office of Domestic Finance",
+        "parent_org": "Department of the Treasury",
+        "context": "Office of Domestic Finance of the Department of the Treasury",
+        "mentions": 1,
+        "first_seen": "1912"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "intelligence community",
+        "context": "The Director shall ensure that the policies, processes, and procedures",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "title": "Director of National Intelligence",
+        "org": "intelligence community",
+        "context": "the Director of National Intelligence shall submit to the appropriate committees",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "title": "heads of intelligence community elements",
+        "org": "intelligence community",
+        "context": "the heads of intelligence community elements shall implement a system",
+        "mentions": 1,
+        "first_seen": "1912"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Security Act of 1947",
+        "citation": "50 U.S.C. 3003",
+        "ref_type": "cites",
+        "context": "section 3 of the National Security Act of 1947 (50 U.S.C. 3003)",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "Damon Paul Nelson and Matthew Young Pollard Intelligence Authorization Act for Fiscal Years 2018, 2019, and 2020",
+        "citation": "50 U.S.C. 3334",
+        "ref_type": "amends",
+        "context": "section 5306 of the Damon Paul Nelson and Matthew Young Pollard Intelligence Authorization Act",
+        "mentions": 1,
+        "first_seen": "1912"
+      },
+      {
+        "name": "Enable Intelligence Community Partnerships Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Enable Intelligence Community Partnerships Act of 2024",
+        "mentions": 1,
+        "first_seen": "1912"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "the director": "Director of National Intelligence \u2014 resolved from SEC. 4(a)(2) and confirmed in SEC. 4(e)(2)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1912",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Director",
+      "resolved": "Director of National Intelligence \u2014 resolved from SEC. 4(a)(2) and confirmed in SEC. 4(e)(2)",
+      "doc_id": "1912",
+      "community_id": "community:068"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:national_security_act_of_1947": 0.6,
+    "legislation:damon_paul_nelson_and_matthew_young_pollard_intelligence_authorization_act_for_fiscal_years_2018_2019_and_2020": 0.6,
+    "legislation:enable_intelligence_community_partnerships_act_of_2024": 0.6,
+    "office:office_of_strategic_capital": 0.6,
+    "office:office_of_domestic_finance": 0.6,
+    "role:director": 0.6,
+    "role:director_of_national_intelligence": 0.9,
+    "role:heads_of_intelligence_community_elements": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:committee_on_appropriations_of_the_senate": 0.6,
+    "org:committee_on_appropriations_of_the_house_of_representatives": 0.6
+  }
+}

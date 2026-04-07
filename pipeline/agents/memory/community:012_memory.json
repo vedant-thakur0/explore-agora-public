@@ -1,0 +1,331 @@
+{
+  "community_id": "community:012",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "in consultation with the Federal Communications Commission",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "the Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "Office of Management and Budget entitled \"Federal Participation in the Development\"",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Agricultural Research Service",
+        "acronym": "ARS",
+        "context": "partner with the Agricultural Research Service, other Federal agencies",
+        "mentions": 1,
+        "first_seen": "997"
+      },
+      {
+        "name": "Committee on Agriculture of the House of Representatives",
+        "acronym": null,
+        "context": "submit to the Committee on Agriculture of the House of Representatives",
+        "mentions": 2,
+        "first_seen": "997"
+      },
+      {
+        "name": "Committee on Agriculture, Nutrition, and Forestry of the Senate",
+        "acronym": null,
+        "context": "Committee on Agriculture, Nutrition, and Forestry of the Senate",
+        "mentions": 2,
+        "first_seen": "997"
+      },
+      {
+        "name": "Committee on Natural Resources of the House of Representatives",
+        "acronym": null,
+        "context": "Committees on Agriculture, Natural Resources, and Science, Space, and Technology of the House",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology of the House of Representatives",
+        "acronym": null,
+        "context": "Committees on Agriculture, Natural Resources, and Science, Space, and Technology of the House",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources of the Senate",
+        "acronym": null,
+        "context": "Committees on Agriculture, Nutrition, and Forestry, Energy and Natural Resources, and Commerce",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation of the Senate",
+        "acronym": null,
+        "context": "and Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "National Park Service",
+        "acronym": "NPS",
+        "context": "the National Park Service",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "United States Fish and Wildlife Service",
+        "acronym": "USFWS",
+        "context": "the United States Fish and Wildlife Service",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Bureau of Land Management",
+        "acronym": "BLM",
+        "context": "the Bureau of Land Management",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Bureau of Reclamation",
+        "acronym": null,
+        "context": "the Bureau of Reclamation",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Forest Service",
+        "acronym": "USFS",
+        "context": "the Forest Service",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "United States Fire Administration",
+        "acronym": "USFA",
+        "context": "the United States Fire Administration",
+        "mentions": 1,
+        "first_seen": "998"
+      },
+      {
+        "name": "Bureau of Indian Affairs",
+        "acronym": "BIA",
+        "context": "the Bureau of Indian Affairs",
+        "mentions": 1,
+        "first_seen": "998"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Management and Budget",
+        "parent_org": "Executive Office of the President",
+        "context": "OMB Circular A\u2013119",
+        "mentions": 1,
+        "first_seen": "996"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Agriculture",
+        "context": "the Secretary, in consultation with the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "title": "Director",
+        "org": "National Institute of Standards and Technology",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "the Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "The Secretary of Agriculture shall establish at least one center of excellence",
+        "mentions": 2,
+        "first_seen": "997"
+      },
+      {
+        "title": "Secretary of the Interior",
+        "org": "Department of the Interior",
+        "context": "the Secretary of Agriculture and the Secretary of the Interior, acting jointly",
+        "mentions": 1,
+        "first_seen": "998"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "Public Law 115\u2013232; 10 U.S.C. note prec. 4061",
+        "ref_type": "cites",
+        "context": "section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Food Security Act of 1985",
+        "citation": "section 1201",
+        "ref_type": "cites",
+        "context": "section 1201 of the Food Security Act of 1985",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Farm, Food, and National Security Act of 2024",
+        "citation": "Title VI, Sec. 6303",
+        "ref_type": "enacts",
+        "context": "SEC. 6303. PROMOTING PRECISION AGRICULTURE",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Food, Agriculture, Conservation, and Trade Act of 1990",
+        "citation": "7 U.S.C. 5926",
+        "ref_type": "amends",
+        "context": "Section 1673 of the Food, Agriculture, Conservation, and Trade Act of 1990",
+        "mentions": 1,
+        "first_seen": "997"
+      },
+      {
+        "name": "Agricultural Research, Extension, and Education Reform Act of 1998",
+        "citation": "7 U.S.C. 7601",
+        "ref_type": "cites",
+        "context": "1862 Institutions, as defined in section 2 of the Agricultural Research, Extension, and Education Reform Act of 1998",
+        "mentions": 1,
+        "first_seen": "997"
+      },
+      {
+        "name": "Equity in Educational Land-Grant Status Act of 1994",
+        "citation": "7 U.S.C. 301 note",
+        "ref_type": "cites",
+        "context": "1994 Institutions, as defined in section 532 of the Equity in Educational Land-Grant Status Act of 1994",
+        "mentions": 1,
+        "first_seen": "997"
+      },
+      {
+        "name": "National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "citation": "7 U.S.C. 3103",
+        "ref_type": "cites",
+        "context": "non-land-grant colleges of agriculture, as defined in section 1404 of the National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "mentions": 1,
+        "first_seen": "997"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "institutions of higher education (as defined in section 101 of the Higher Education Act of 1965",
+        "mentions": 2,
+        "first_seen": "997"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities",
+        "doc_type": "other",
+        "owner_org": "Office of Management and Budget",
+        "context": "OMB Circular A\u2013119",
+        "mentions": 1,
+        "first_seen": "996"
+      },
+      {
+        "name": "Public-Private Wildfire Technology Deployment and Testbed Partnership",
+        "doc_type": "program",
+        "owner_org": "Department of Agriculture, Department of the Interior",
+        "context": "deployment and testbed pilot program for new and innovative wildfire prevention technologies",
+        "mentions": 1,
+        "first_seen": "998"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Refers to Secretary of Agriculture based on Farm, Food, and National Security Act context",
+    "secretaries": "Refers to Secretary of Agriculture and Secretary of the Interior acting jointly, established in subsection (a)(4)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 3,
+  "docs_total": 3,
+  "last_doc_id": "998",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Refers to Secretary of Agriculture based on Farm, Food, and National Security Act context",
+      "doc_id": "996",
+      "community_id": "community:012"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Resolved to Secretary of Agriculture based on Farm, Food, and National Security Act of 2024 context and community memory",
+      "doc_id": "997",
+      "community_id": "community:012"
+    },
+    {
+      "phrase": "Secretaries",
+      "resolved": "Refers to Secretary of Agriculture and Secretary of the Interior acting jointly, established in subsection (a)(4)",
+      "doc_id": "998",
+      "community_id": "community:012"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "legislation:food_security_act_of_1985": 0.6,
+    "legislation:farm_food_and_national_security_act_of_2024": 0.6,
+    "office:office_of_management_and_budget": 1.0,
+    "named_doc:federal_participation_in_the_development_and_use_of_voluntary_consensus_standards_and_in_conformity_assessment_activities": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:federal_communications_commission": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:office_of_management_and_budget": 1.0,
+    "role:secretary": 0.6,
+    "role:director": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "legislation:food_agriculture_conservation_and_trade_act_of_1990": 0.6,
+    "legislation:agricultural_research_extension_and_education_reform_act_of_1998": 0.6,
+    "legislation:equity_in_educational_land_grant_status_act_of_1994": 0.6,
+    "legislation:national_agricultural_research_extension_and_teaching_policy_act_of_1977": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "org:agricultural_research_service": 0.6,
+    "org:committee_on_agriculture_of_the_house_of_representatives": 0.6,
+    "org:committee_on_agriculture_nutrition_and_forestry_of_the_senate": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "named_doc:public_private_wildfire_technology_deployment_and_testbed_partnership": 0.6,
+    "org:committee_on_natural_resources_of_the_house_of_representatives": 0.6,
+    "org:committee_on_science_space_and_technology_of_the_house_of_representatives": 0.6,
+    "org:committee_on_energy_and_natural_resources_of_the_senate": 0.6,
+    "org:committee_on_commerce_science_and_transportation_of_the_senate": 0.6,
+    "org:national_park_service": 0.6,
+    "org:united_states_fish_and_wildlife_service": 0.6,
+    "org:bureau_of_land_management": 0.6,
+    "org:bureau_of_reclamation": 0.6,
+    "org:forest_service": 0.6,
+    "org:united_states_fire_administration": 0.6,
+    "org:bureau_of_indian_affairs": 0.6,
+    "role:secretary_of_the_interior": 0.6
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "community_id": "community:035",
+  "label": "Strategies: Input controls: Data use | Strategies: Input controls | Harms: Discrimination",
+  "taxonomy_signature": [
+    "Strategies: Input controls: Data use",
+    "Strategies: Input controls",
+    "Harms: Discrimination",
+    "Strategies: Performance requirements",
+    "Strategies: Input controls: Data circulation",
+    "Harms: Financial loss",
+    "Applications: Business services and analytics",
+    "Harms: Harm to health/safety",
+    "Harms: Violation of civil or human rights, including privacy",
+    "Applications: Finance and investment",
+    "Applications: Broadcasting and media production"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Digital Consumer Protection Commission",
+        "acronym": null,
+        "context": "Digital Consumer Protection Commission Act of 2023",
+        "mentions": 1,
+        "first_seen": "327"
+      },
+      {
+        "name": "Committee on Foreign Investment in the United States",
+        "acronym": "CFIUS",
+        "context": "shall treat the application of a foreign person for a license under title VI as a covered transaction",
+        "mentions": 1,
+        "first_seen": "328"
+      },
+      {
+        "name": "Office of Licensing for Dominant Platforms",
+        "acronym": null,
+        "context": "the Office of Licensing for Dominant Platforms shall deny the application for the license",
+        "mentions": 1,
+        "first_seen": "328"
+      },
+      {
+        "name": "National Security Division",
+        "acronym": null,
+        "context": "consult with the National Security Division of the Department of Justice",
+        "mentions": 1,
+        "first_seen": "328"
+      }
+    ],
+    "offices": [
+      {
+        "name": "National Security Division",
+        "parent_org": "Department of Justice",
+        "context": "The Committee may consult with the National Security Division of the Department of Justice",
+        "mentions": 1,
+        "first_seen": "328"
+      },
+      {
+        "name": "Office of Licensing for Dominant Platforms",
+        "parent_org": null,
+        "context": "the Office of Licensing for Dominant Platforms shall deny the application for the license",
+        "mentions": 1,
+        "first_seen": "328"
+      }
+    ],
+    "roles": [
+      {
+        "title": "director",
+        "org": "operator of a dominant platform",
+        "context": "No director of a subsidiary corporation may be a citizen of a foreign adversary",
+        "mentions": 1,
+        "first_seen": "328"
+      },
+      {
+        "title": "operator of a dominant platform",
+        "org": null,
+        "context": "An operator of a dominant platform shall be a citizen of the United States",
+        "mentions": 1,
+        "first_seen": "328"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Civil Rights Act of 1964",
+        "citation": "42 U.S.C. 2000a(e)",
+        "ref_type": "cites",
+        "context": "section 201(e) of the Civil Rights Act of 1964 (42 U.S.C. 2000a(e))",
+        "mentions": 1,
+        "first_seen": "327"
+      },
+      {
+        "name": "Secure and Trusted Communications Networks Act of 2019",
+        "citation": "47 U.S.C. 1607(c)",
+        "ref_type": "cites",
+        "context": "term 'foreign adversary' has the meaning given the term in section 8(c) of the Secure and Trusted Communications Networks Act of 2019",
+        "mentions": 1,
+        "first_seen": "328"
+      },
+      {
+        "name": "Defense Production Act of 1950",
+        "citation": "50 U.S.C. 4565",
+        "ref_type": "cites",
+        "context": "covered transaction, as defined in subsection (a) of section 721 of the Defense Production Act of 1950",
+        "mentions": 1,
+        "first_seen": "328"
+      },
+      {
+        "name": "Code of Federal Regulations, Title 31, Section 800.224",
+        "citation": "31 CFR 800.224",
+        "ref_type": "cites",
+        "context": "foreign person (as defined in section 800.224 of title 31, Code of Federal Regulations)",
+        "mentions": 1,
+        "first_seen": "328"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "department of justice": "Resolved from context: 'National Security Division of the Department of Justice' in subsection (d)(3)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "327",
+      "note": "Document is a single section (SEC. 2412) rather than a complete bill; appears to be extracted legislative text defining duty of care obligations for covered entities handling AI and personal data."
+    },
+    {
+      "agora_id": "328",
+      "note": "Document is a single section (SEC. 2501) of the Digital Consumer Protection Commission Act of 2023; appears to be extracted legislative text defining corporate citizenship and ownership requirements for dominant platform operators, including foreign investment review procedures."
+    }
+  ],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "328",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Department of Justice",
+      "resolved": "Resolved from context: 'National Security Division of the Department of Justice' in subsection (d)(3)",
+      "doc_id": "328",
+      "community_id": "community:035"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:civil_rights_act_of_1964": 0.6,
+    "org:digital_consumer_protection_commission": 0.6,
+    "legislation:secure_and_trusted_communications_networks_act_of_2019": 0.6,
+    "legislation:defense_production_act_of_1950": 0.6,
+    "legislation:code_of_federal_regulations_title_31_section_800_224": 0.6,
+    "office:national_security_division": 0.6,
+    "office:office_of_licensing_for_dominant_platforms": 0.6,
+    "role:director": 0.6,
+    "role:operator_of_a_dominant_platform": 0.6,
+    "org:committee_on_foreign_investment_in_the_united_states": 0.6,
+    "org:office_of_licensing_for_dominant_platforms": 0.6,
+    "org:national_security_division": 0.6
+  }
+}

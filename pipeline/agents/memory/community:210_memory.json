@@ -1,0 +1,99 @@
+{
+  "community_id": "community:210",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Board of Governors of the Federal Reserve System",
+        "acronym": "Federal Reserve",
+        "context": "shall submit to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "1248"
+      },
+      {
+        "name": "Federal Deposit Insurance Corporation",
+        "acronym": "FDIC",
+        "context": "shall submit to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "1248"
+      },
+      {
+        "name": "Office of the Comptroller of the Currency",
+        "acronym": "OCC",
+        "context": "shall submit to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "1248"
+      },
+      {
+        "name": "National Credit Union Administration",
+        "acronym": "NCUA",
+        "context": "shall submit to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "1248"
+      },
+      {
+        "name": "Bureau of Consumer Financial Protection",
+        "acronym": "CFPB",
+        "context": "shall submit to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "1248"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "submit to the Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1248"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "submit to the Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1248"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "S.4870",
+        "citation": "S.4870",
+        "ref_type": "enacts",
+        "context": "A bill to require reports on artificial intelligence regulation in the financial services industry",
+        "mentions": 1,
+        "first_seen": "1248"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report on Artificial Intelligence Regulation in Financial Services Industry",
+        "doc_type": "report",
+        "owner_org": "Board of Governors of the Federal Reserve System, Federal Deposit Insurance Corporation, Office of the Comptroller of the Currency, National Credit Union Administration, Bureau of Consumer Financial Protection",
+        "context": "submit to the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives a report",
+        "mentions": 1,
+        "first_seen": "1248"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1248",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:s_4870": 0.39999999999999997,
+    "named_doc:report_on_artificial_intelligence_regulation_in_financial_services_industry": 0.6,
+    "org:board_of_governors_of_the_federal_reserve_system": 0.6,
+    "org:federal_deposit_insurance_corporation": 0.6,
+    "org:office_of_the_comptroller_of_the_currency": 0.6,
+    "org:national_credit_union_administration": 0.6,
+    "org:bureau_of_consumer_financial_protection": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:committee_on_financial_services": 0.6
+  }
+}

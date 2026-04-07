@@ -1,0 +1,102 @@
+{
+  "community_id": "community:029",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Intelligence Advanced Research Projects Activity",
+        "acronym": "IARPA",
+        "context": "Director of the Intelligence Advanced Research Projects Activity",
+        "mentions": 1,
+        "first_seen": "809"
+      },
+      {
+        "name": "National Intelligence Program",
+        "acronym": "NIP",
+        "context": "Amounts authorized to be appropriated for the National Intelligence Program",
+        "mentions": 1,
+        "first_seen": "809"
+      },
+      {
+        "name": "intelligence community",
+        "acronym": null,
+        "context": "intelligence community directives in effect as of the date such briefing is provided",
+        "mentions": 1,
+        "first_seen": "810"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Intelligence Advanced Research Projects Activity",
+        "parent_org": "Office of the Director of National Intelligence",
+        "context": "acting through the Director of the Intelligence Advanced Research Projects Activity",
+        "mentions": 1,
+        "first_seen": "809"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director of National Intelligence",
+        "org": "Office of the Director of National Intelligence",
+        "context": "The Director of National Intelligence, acting through the Director",
+        "mentions": 2,
+        "first_seen": "809"
+      },
+      {
+        "title": "Director of the Intelligence Advanced Research Projects Activity",
+        "org": "Intelligence Advanced Research Projects Activity",
+        "context": "Director of the Intelligence Advanced Research Projects Activity shall provide to the congressional intelligence committees",
+        "mentions": 1,
+        "first_seen": "809"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Intelligence Community Directive 203, Analytic Standards",
+        "citation": "ICD 203",
+        "ref_type": "other",
+        "context": "Intelligence Community Directive 203, Analytic Standards, Intelligence Community Directive 206",
+        "mentions": 1,
+        "first_seen": "810"
+      },
+      {
+        "name": "Intelligence Community Directive 206, Sourcing Requirements for Disseminated Analytic Products",
+        "citation": "ICD 206",
+        "ref_type": "other",
+        "context": "Intelligence Community Directive 206, Sourcing Requirements for Disseminated Analytic Products",
+        "mentions": 1,
+        "first_seen": "810"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Programs for Next-Generation Microelectronics in Support of Artificial Intelligence",
+        "doc_type": "program",
+        "owner_org": "Office of the Director of National Intelligence",
+        "context": "program to advance microelectronics research supporting AI",
+        "mentions": 1,
+        "first_seen": "809"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "810",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "office:intelligence_advanced_research_projects_activity": 0.6,
+    "named_doc:programs_for_next_generation_microelectronics_in_support_of_artificial_intelligence": 0.6,
+    "org:intelligence_advanced_research_projects_activity": 0.6,
+    "org:national_intelligence_program": 0.6,
+    "role:director_of_national_intelligence": 0.9,
+    "role:director_of_the_intelligence_advanced_research_projects_activity": 0.6,
+    "legislation:intelligence_community_directive_203_analytic_standards": 0.6,
+    "legislation:intelligence_community_directive_206_sourcing_requirements_for_disseminated_analytic_products": 0.6,
+    "org:intelligence_community": 0.9
+  }
+}

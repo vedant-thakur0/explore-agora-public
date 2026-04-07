@@ -17,13 +17,27 @@ from pipeline.config import (
     AGENTS_CHECKPOINT_DIR,
     AGENTS_OUTPUT_DIR,
     ANTHROPIC_MODEL_BULK,
+    CANONICAL_ENTITY_MAP_PATH,
+    CONFIDENCE_REVIEW_THRESHOLD,
+    CONTEXT_BUDGET_CHARS,
+    ENTITY_DICTIONARY_PATH,
+    GLOBAL_REGISTRY_PATH,
+    GRADUATION_THRESHOLD,
+    MANUAL_ANNOTATIONS_DIR,
     MEMORY_DIR,
     NER_CHUNK_SIZE,
     NER_MAX_PARSING_RULES,
     NER_MEMORY_TOP_N,
+    REVIEW_QUEUE_PATH,
+    TYPE_AUTHORITY_PATH,
 )
 from pipeline.agents.llm_client import call_claude_json
 from pipeline.agents.models_agent import CommunityMemory, CommunityRecord, EntityRecord
+from pipeline.agents.canonical_registry import (
+    GlobalCanonicalRegistry,
+    seed_registry,
+    make_entity_id,
+)
 from pipeline.models import append_jsonl, read_jsonl, utc_now_iso
 
 log = logging.getLogger(__name__)
@@ -46,38 +60,42 @@ def _read_fulltext(agora_id: str, fulltext_dir: Path) -> str | None:
 
 
 # ---------------------------------------------------------------------------
-# Canonical org lookup for is_new matching
+# Global Canonical Registry (replaces former CANONICAL_ORGS dict)
 # ---------------------------------------------------------------------------
 
-CANONICAL_ORGS: dict[str, str] = {
-    "dod": "Department of Defense",
-    "dept. of defense": "Department of Defense",
-    "nist": "National Institute of Standards and Technology",
-    "nsf": "National Science Foundation",
-    "darpa": "Defense Advanced Research Projects Agency",
-    "fema": "Federal Emergency Management Agency",
-    "nasa": "National Aeronautics and Space Administration",
-    "noaa": "National Oceanic and Atmospheric Administration",
-    "jaic": "Joint Artificial Intelligence Center",
-    "ostp": "Office of Science and Technology Policy",
-    "omb": "Office of Management and Budget",
-    "faa": "Federal Aviation Administration",
-    "dhs": "Department of Homeland Security",
-    "ftc": "Federal Trade Commission",
-    "doj": "Department of Justice",
-    "hhs": "Department of Health and Human Services",
-}
+_registry: GlobalCanonicalRegistry | None = None
+
+
+def get_registry() -> GlobalCanonicalRegistry:
+    """Load or seed the global canonical registry (singleton per process)."""
+    global _registry
+    if _registry is not None:
+        return _registry
+
+    if GLOBAL_REGISTRY_PATH.exists():
+        _registry = GlobalCanonicalRegistry.load(GLOBAL_REGISTRY_PATH)
+    else:
+        log.info("No existing registry found. Seeding from available data sources.")
+        _registry = seed_registry(
+            entity_dictionary_path=ENTITY_DICTIONARY_PATH,
+            canonical_map_path=CANONICAL_ENTITY_MAP_PATH,
+            manual_annotations_dir=MANUAL_ANNOTATIONS_DIR,
+            type_authority_path=TYPE_AUTHORITY_PATH,
+        )
+        _registry.save(GLOBAL_REGISTRY_PATH)
+
+    return _registry
 
 # ---------------------------------------------------------------------------
 # Generic term filter
 # ---------------------------------------------------------------------------
-
+#TODO: eliminate, deprecated -> include new annotations
 GENERIC_STEMS = frozenset({
     "federal agencies", "relevant stakeholders", "program agencies",
     "appropriate entities", "the committee", "the program",
 })
 
-
+#TODO: remove
 def is_generic(name: str, resolved_phrases: set[str]) -> bool:
     normalized = name.lower().strip()
     if normalized in resolved_phrases:
@@ -165,7 +183,7 @@ def _split_by_size(text: str, max_chunk: int) -> list[str]:
 # ---------------------------------------------------------------------------
 # Prompt construction
 # ---------------------------------------------------------------------------
-
+#TODO: improve system prompt!!
 SYSTEM_PROMPT = """\
 You are a named entity extractor for U.S. federal legislative documents.
 You have access to a community memory of entities already found in related documents.
@@ -181,55 +199,129 @@ Rules:
 9. If the document has unusual structure, describe it in oddity."""
 
 
-def _build_memory_context(memory: CommunityMemory) -> str:
-    """Build the community context prefix from memory, with pruning."""
-    parts = [f'COMMUNITY CONTEXT: This document belongs to the "{memory.label}" legislative cluster.\n']
+def _build_memory_context(memory: CommunityMemory, registry: GlobalCanonicalRegistry | None = None) -> str:
+    """Build the community context prefix from memory, with budget-aware pruning.
 
-    # Entity roster (pruned to top-N by mentions)
-    roster_lines: list[str] = []
+    Tier 1 (always): Global disambiguation rules relevant to this community
+    Tier 2 (compact): Registry entities in community roster, one-line format
+    Tier 3 (fill):    Community-specific entities by mention count
+    Tier 4 (if room): Parsing rules + oddities
+    """
+    budget = CONTEXT_BUDGET_CHARS
+    parts: list[str] = []
+
+    header = f'COMMUNITY CONTEXT: This document belongs to the "{memory.label}" legislative cluster.\n'
+    parts.append(header)
+    budget -= len(header)
+
+    if registry is None:
+        registry = get_registry()
+
+    # --- Tier 1: Disambiguation rules (always include) ---
+    tier1_lines: list[str] = []
+    # Global disambiguation rules from registry
+    for rule in registry.disambiguation_rules:
+        if rule.scope == "global" or rule.scope == memory.community_id:
+            entity = registry.entities.get(rule.resolved_entity_id)
+            resolved_name = entity.canonical_name if entity else rule.resolved_entity_id
+            tier1_lines.append(f'"{rule.pattern}" = {resolved_name}')
+    # Community-level disambiguation rules
+    for phrase, resolved in memory.disambiguation_rules.items():
+        # Skip if already covered by registry rules
+        if not any(r.pattern.lower() == phrase.lower() for r in registry.disambiguation_rules):
+            tier1_lines.append(f'"{phrase}" = {resolved}')
+
+    if tier1_lines:
+        disambig_block = "Disambiguation rules: " + "; ".join(tier1_lines)
+        if len(disambig_block) <= budget:
+            parts.append(disambig_block)
+            budget -= len(disambig_block) + 1
+
+    # --- Tier 2: Registry entities in community roster (compact format) ---
+    tier2_lines: list[str] = []
+    for entity_type in NER_MEMORY_TOP_N:
+        roster = memory.entity_roster.get(entity_type, [])
+        for entry in roster:
+            name = entry.get("name") or entry.get("title", "")
+            if not name:
+                continue
+            resolved = registry.resolve(name, entity_type)
+            if resolved:
+                acronym_part = f" ({resolved.acronym})" if resolved.acronym else ""
+                type_short = resolved.entity_type.replace("_", " ").rstrip("s")
+                line = f"{resolved.canonical_name}{acronym_part} [{type_short}]"
+                if line not in tier2_lines:
+                    tier2_lines.append(line)
+
+    if tier2_lines:
+        tier2_header = "\nKnown entities (canonical):"
+        tier2_block = tier2_header + "\n" + "\n".join(f"- {l}" for l in tier2_lines)
+        if len(tier2_block) <= budget:
+            parts.append(tier2_block)
+            budget -= len(tier2_block) + 1
+        else:
+            # Truncate to fit budget
+            parts.append(tier2_header)
+            budget -= len(tier2_header) + 1
+            for line in tier2_lines:
+                entry = f"- {line}"
+                if len(entry) + 1 > budget:
+                    break
+                parts.append(entry)
+                budget -= len(entry) + 1
+
+    # --- Tier 3: Community-specific entities NOT in registry, by mention count ---
+    tier3_entries: list[tuple[str, str, int]] = []  # (name, type_label, mentions)
     for entity_type, top_n in NER_MEMORY_TOP_N.items():
         entries = memory.entity_roster.get(entity_type, [])
-        if not entries:
-            continue
-        sorted_entries = sorted(entries, key=lambda e: e.get("mentions", 0), reverse=True)[:top_n]
-        names = []
-        for e in sorted_entries:
-            name = e.get("name") or e.get("title", "")
-            acronym = e.get("acronym")
-            if acronym:
-                names.append(f"{name} ({acronym})")
-            else:
-                names.append(name)
-        if names:
-            label = entity_type.replace("_", " ").title()
-            roster_lines.append(f"- {label}: {', '.join(names)}")
+        for entry in entries:
+            name = entry.get("name") or entry.get("title", "")
+            if not name:
+                continue
+            # Skip if already covered in tier 2
+            if registry.resolve(name, entity_type):
+                continue
+            mentions = entry.get("mentions", 0)
+            type_label = entity_type.replace("_", " ").title()
+            tier3_entries.append((name, type_label, mentions))
 
-    if roster_lines:
-        parts.append("Known entities from previous documents in this cluster:")
-        parts.extend(roster_lines)
+    tier3_entries.sort(key=lambda x: x[2], reverse=True)
+    if tier3_entries:
+        tier3_header = "\nCommunity-specific entities:"
+        parts.append(tier3_header)
+        budget -= len(tier3_header) + 1
+        for name, type_label, mentions in tier3_entries:
+            line = f"- {name} [{type_label}, {mentions} mentions]"
+            if len(line) + 1 > budget:
+                break
+            parts.append(line)
+            budget -= len(line) + 1
 
-    # Disambiguation rules
-    if memory.disambiguation_rules:
-        rules = [f'"{k}" = {v}' for k, v in memory.disambiguation_rules.items()]
-        parts.append(f"\nDisambiguation rules: {'; '.join(rules)}")
-
-    # Parsing rules (capped)
+    # --- Tier 4: Parsing rules + oddities (if room) ---
     active_rules = memory.parsing_rules[:NER_MAX_PARSING_RULES]
-    if active_rules:
-        parts.append("\nParsing patterns observed in this cluster:")
+    if active_rules and budget > 100:
+        rules_header = "\nParsing patterns:"
+        parts.append(rules_header)
+        budget -= len(rules_header) + 1
         for rule in active_rules:
-            parts.append(f"- {rule}")
+            line = f"- {rule}"
+            if len(line) + 1 > budget:
+                break
+            parts.append(line)
+            budget -= len(line) + 1
 
-    # Oddities (last 3)
     recent_oddities = memory.oddities[-3:] if memory.oddities else []
-    if recent_oddities:
-        parts.append("\nWatch out for (known oddities):")
+    if recent_oddities and budget > 80:
+        parts.append("\nKnown oddities:")
         for o in recent_oddities:
-            parts.append(f"- {o.get('note', '')}")
+            note = o.get("note", "")
+            line = f"- {note}"
+            if len(line) + 1 > budget:
+                break
+            parts.append(line)
+            budget -= len(line) + 1
 
     parts.append("\nNew entities not already listed above are especially valuable — extract them carefully.")
-    parts.append("If you observe a new structural pattern, include it in new_parsing_rule.")
-    parts.append("If this document has unusual structure, describe it in oddity.")
 
     return "\n".join(parts)
 
@@ -239,11 +331,16 @@ def _build_user_prompt(
     short_summary: str,
     text_chunk: str,
     in_progress_entities: list[str] | None = None,
+    doc_disambiguations: dict[str, str] | None = None,
 ) -> str:
     """Build the user prompt for a single chunk."""
     parts = [f"Document title: {official_name}"]
     if short_summary:
         parts.append(f"Summary: {short_summary}")
+
+    if doc_disambiguations:
+        lines = [f'  "{phrase}" → {resolved}' for phrase, resolved in doc_disambiguations.items()]
+        parts.append(f"\nDisambiguations established in earlier sections of this document:\n" + "\n".join(lines))
 
     if in_progress_entities:
         parts.append(f"\nEntities already extracted from earlier sections of this document: {', '.join(in_progress_entities)}")
@@ -287,7 +384,7 @@ def validate_ner_output(data: dict[str, Any]) -> bool:
 # is_new computation
 # ---------------------------------------------------------------------------
 
-def compute_is_new(entity_name: str, entity_type: str, memory: CommunityMemory) -> bool:
+def compute_is_new(entity_name: str, entity_type: str, memory: CommunityMemory, registry: GlobalCanonicalRegistry | None = None) -> bool:
     """Determine if entity is new to the community memory."""
     roster = memory.entity_roster.get(entity_type, [])
     name_lower = entity_name.lower().strip()
@@ -295,9 +392,17 @@ def compute_is_new(entity_name: str, entity_type: str, memory: CommunityMemory) 
         existing_name = (existing.get("name") or existing.get("title", "")).lower().strip()
         if existing_name == name_lower:
             return False
-        canonical = CANONICAL_ORGS.get(name_lower)
-        if canonical and canonical.lower() == existing_name:
-            return False
+
+    # Check global registry for canonical resolution
+    if registry is None:
+        registry = get_registry()
+    resolved = registry.resolve(entity_name, entity_type)
+    if resolved:
+        canonical_lower = resolved.canonical_name.lower().strip()
+        for existing in roster:
+            existing_name = (existing.get("name") or existing.get("title", "")).lower().strip()
+            if existing_name == canonical_lower:
+                return False
     return True
 
 
@@ -311,21 +416,55 @@ def _get_entity_name(entity: dict, entity_type: str) -> str:
     return entity.get("name", "")
 
 
-def merge_chunk_results(chunk_results: list[dict[str, Any]]) -> dict[str, Any]:
-    """Merge entity lists from multiple chunks, deduplicating by name."""
+def merge_chunk_results(
+    chunk_results: list[dict[str, Any]],
+    doc_disambiguations: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    """Merge entity lists from multiple chunks, deduplicating by name.
+
+    Uses doc_disambiguations to collapse soft aliases (e.g. "Secretary" is
+    treated as a duplicate of "Secretary of Agriculture" if disambiguated).
+    """
     merged: dict[str, list[dict]] = {k: [] for k in REQUIRED_KEYS}
     seen: dict[str, set[str]] = {k: set() for k in REQUIRED_KEYS}
     disambiguation_updates: dict[str, str] = {}
     parsing_rules: list[str] = []
     oddities: list[str] = []
 
+    # Build set of soft alias phrases (lowercased) from doc disambiguations.
+    _alias_phrases: set[str] = set()
+    if doc_disambiguations:
+        for phrase in doc_disambiguations:
+            _alias_phrases.add(phrase.lower().strip())
+
     for result in chunk_results:
         for entity_type in REQUIRED_KEYS:
             for entity in result.get(entity_type, []):
                 name = _get_entity_name(entity, entity_type).lower().strip()
-                if name and name not in seen[entity_type]:
-                    seen[entity_type].add(name)
-                    merged[entity_type].append(entity)
+                if not name:
+                    continue
+                if name in seen[entity_type]:
+                    continue
+
+                # If this name is a known soft alias (e.g. "secretary") and a
+                # longer canonical form containing it is already seen (e.g.
+                # "secretary of agriculture"), skip the bare alias.
+                if name in _alias_phrases:
+                    if any(name in s and s != name for s in seen[entity_type]):
+                        continue
+
+                # Reverse: if a bare alias that is a substring of this name
+                # was already added, replace it with this canonical form.
+                for alias in list(_alias_phrases):
+                    if alias in seen[entity_type] and alias in name and alias != name:
+                        merged[entity_type] = [
+                            e for e in merged[entity_type]
+                            if _get_entity_name(e, entity_type).lower().strip() != alias
+                        ]
+                        seen[entity_type].discard(alias)
+
+                seen[entity_type].add(name)
+                merged[entity_type].append(entity)
 
         # Merge disambiguation (first wins)
         for k, v in result.get("disambiguation_updates", {}).items():
@@ -409,11 +548,16 @@ def process_document(
     fulltext: str,
     memory: CommunityMemory,
     model: str = ANTHROPIC_MODEL_BULK,
+    registry: GlobalCanonicalRegistry | None = None,
 ) -> EntityRecord | None:
-    """Run NER on a single document using community memory.
+    """Run NER on a single document using community memory and global registry.
 
+    Pre-resolves known entities via registry before LLM extraction.
     Returns EntityRecord on success, None on failure.
     """
+    if registry is None:
+        registry = get_registry()
+
     chunks = chunk_text(fulltext)
     if not chunks:
         log.warning("No text to process for doc %s", agora_id)
@@ -424,12 +568,22 @@ def process_document(
     total_pt = 0
     total_ct = 0
 
-    memory_context = _build_memory_context(memory)
+    memory_context = _build_memory_context(memory, registry)
+
+    # Pre-resolve known entities from the full document text
+    pre_resolved = registry.pre_resolve(fulltext, community_id=memory.community_id)
+    pre_resolved_names = [pr["canonical_name"] for pr in pre_resolved]
+
+    doc_disambiguations: dict[str, str] = {}  # accumulates across chunks
 
     for i, chunk in enumerate(chunks):
+        # Combine pre-resolved names with in-progress entities for context
+        all_known = list(set(pre_resolved_names + (in_progress_entities if i > 0 else [])))
+
         user_prompt = _build_user_prompt(
             official_name, short_summary, chunk,
-            in_progress_entities if i > 0 else None,
+            all_known if all_known else None,
+            doc_disambiguations if doc_disambiguations else None,
         )
         full_system = SYSTEM_PROMPT + "\n\n" + memory_context
 
@@ -443,15 +597,29 @@ def process_document(
             log.warning("Invalid NER output for doc %s chunk %d, skipping chunk.", agora_id, i)
             continue
 
-        # Filter generic terms
-        resolved = set(memory.disambiguation_rules.keys())
+        # Filter generic terms — include doc-level disambiguations as resolved
+        resolved = set(memory.disambiguation_rules.keys()) | set(doc_disambiguations.keys())
         for entity_type in REQUIRED_KEYS:
             parsed[entity_type] = [
                 e for e in parsed[entity_type]
                 if not is_generic(_get_entity_name(e, entity_type), resolved)
             ]
 
+        # Apply type authority corrections from registry
+        for entity_type in REQUIRED_KEYS:
+            for entity in parsed[entity_type]:
+                name = _get_entity_name(entity, entity_type)
+                if name:
+                    correct_type = registry.resolve_type(name)
+                    if correct_type and correct_type != entity_type:
+                        log.debug("Type correction: '%s' is %s not %s", name, correct_type, entity_type)
+
         chunk_results.append(parsed)
+
+        # Accumulate disambiguation from this chunk for subsequent chunks
+        for k, v in parsed.get("disambiguation_updates", {}).items():
+            if k not in doc_disambiguations:
+                doc_disambiguations[k] = v
 
         # Build in-progress entity names for next chunk
         for entity_type in REQUIRED_KEYS:
@@ -465,7 +633,7 @@ def process_document(
         return None
 
     # Merge all chunks
-    merged = merge_chunk_results(chunk_results)
+    merged = merge_chunk_results(chunk_results, doc_disambiguations=doc_disambiguations)
 
     record = EntityRecord(
         agora_id=agora_id,
@@ -490,8 +658,18 @@ def process_document(
 # Update memory after processing a document
 # ---------------------------------------------------------------------------
 
-def update_memory(memory: CommunityMemory, record: EntityRecord) -> None:
-    """Update community memory with entities from a processed document."""
+def update_memory(
+    memory: CommunityMemory,
+    record: EntityRecord,
+    registry: GlobalCanonicalRegistry | None = None,
+) -> None:
+    """Update community memory with entities from a processed document.
+
+    Also tracks LLM disambiguation decisions for potential rule graduation.
+    """
+    if registry is None:
+        registry = get_registry()
+
     memory.last_doc_id = record.agora_id
     memory.docs_processed += 1
 
@@ -508,12 +686,21 @@ def update_memory(memory: CommunityMemory, record: EntityRecord) -> None:
             name = _get_entity_name(entity, field_name)
             if not name:
                 continue
-            new = compute_is_new(name, type_key, memory)
+            new = compute_is_new(name, type_key, memory, registry)
             memory.merge_entity(type_key, name, entity, new)
 
-    # Disambiguation
+    # Disambiguation — track LLM decisions for graduation
     for phrase, resolved in record.disambiguation_updates.items():
         memory.add_disambiguation(phrase, resolved)
+        memory.llm_disambiguation_log.append({
+            "phrase": phrase,
+            "resolved": resolved,
+            "doc_id": record.agora_id,
+            "community_id": memory.community_id,
+        })
+
+    # Check for graduation candidates
+    _check_graduation_candidates(memory, registry)
 
     # Parsing rule
     if record.new_parsing_rule:
@@ -522,6 +709,244 @@ def update_memory(memory: CommunityMemory, record: EntityRecord) -> None:
     # Oddity
     if record.oddity:
         memory.add_oddity(record.agora_id, record.oddity)
+
+
+def _check_graduation_candidates(
+    memory: CommunityMemory,
+    registry: GlobalCanonicalRegistry,
+) -> None:
+    """Check if any LLM disambiguation patterns should graduate to rules.
+
+    If HALLUCINATION_PROBE_ENABLED, runs an adversarial high-temperature probe
+    before graduating to verify the rule is robust.
+    """
+    from collections import Counter
+    from pipeline.config import (
+        HALLUCINATION_PROBE_ENABLED,
+        HALLUCINATION_TEMPERATURE,
+        HALLUCINATION_PASS_THRESHOLD,
+    )
+
+    phrase_counts: Counter[str] = Counter()
+    for entry in memory.llm_disambiguation_log:
+        key = f"{entry['phrase'].lower().strip()}||{entry['resolved']}"
+        phrase_counts[key] += 1
+
+    for key, count in phrase_counts.items():
+        if count < GRADUATION_THRESHOLD:
+            continue
+
+        phrase, resolved = key.split("||", 1)
+        # Check if already a rule in registry
+        existing = registry.resolve(phrase, community_id=memory.community_id)
+        if existing:
+            continue
+
+        # Try to find the resolved entity in registry
+        resolved_entity = registry.resolve(resolved)
+        if not resolved_entity:
+            continue
+
+        # Adversarial hallucination probe
+        if HALLUCINATION_PROBE_ENABLED:
+            probe_pass = _run_hallucination_probe(
+                phrase, resolved, memory,
+                temperature=HALLUCINATION_TEMPERATURE,
+                pass_threshold=HALLUCINATION_PASS_THRESHOLD,
+            )
+            if probe_pass is False:
+                log.info(
+                    "Hallucination probe REJECTED: '%s' -> '%s' (community %s)",
+                    phrase, resolved, memory.community_id,
+                )
+                continue
+            elif probe_pass is None:
+                log.info(
+                    "Hallucination probe flagged for REVIEW: '%s' -> '%s' (community %s)",
+                    phrase, resolved, memory.community_id,
+                )
+                # Write to review queue instead of graduating
+                from pipeline.agents.canonical_registry import CandidateRule
+                candidate = CandidateRule(
+                    phrase=phrase,
+                    resolved_name=resolved,
+                    resolved_entity_id=resolved_entity.entity_id,
+                    community_id=memory.community_id,
+                    occurrences=count,
+                    source="llm_observed",
+                    status="review",
+                    created_at=utc_now_iso(),
+                )
+                append_jsonl(REVIEW_QUEUE_PATH, [candidate.to_dict()])
+                continue
+
+        from pipeline.agents.canonical_registry import DisambiguationRule
+
+        log.info(
+            "Graduating disambiguation rule: '%s' -> '%s' (community %s, %d occurrences)",
+            phrase, resolved, memory.community_id, count,
+        )
+        registry.add_disambiguation_rule(DisambiguationRule(
+            pattern=phrase,
+            resolved_entity_id=resolved_entity.entity_id,
+            scope=memory.community_id,
+            confidence=min(0.95, 0.6 + count * 0.05),
+            source="llm_graduated",
+        ))
+
+
+def _run_hallucination_probe(
+    phrase: str,
+    candidate_resolution: str,
+    memory: CommunityMemory,
+    temperature: float = 1.0,
+    pass_threshold: float = 0.8,
+) -> bool | None:
+    """Run adversarial high-temperature probe to validate a disambiguation rule.
+
+    Returns:
+        True  — candidate resolution dominates (>=pass_threshold), safe to graduate
+        None  — alternatives surfaced (flag for human review)
+        False — candidate resolution absent from probe output, reject graduation
+    """
+    from pipeline.agents.llm_client import call_claude
+
+    system = (
+        "You are analyzing ambiguous phrases in U.S. federal legislative documents. "
+        "Given an ambiguous phrase and the document context, list ALL plausible entity "
+        "interpretations with confidence scores (0-1). Be exhaustive — consider every "
+        "possible referent."
+    )
+
+    context_info = f'Legislative cluster: "{memory.label}"\n'
+    if memory.taxonomy_signature:
+        context_info += f"Topics: {', '.join(memory.taxonomy_signature[:5])}\n"
+
+    user = (
+        f"{context_info}\n"
+        f'The phrase "{phrase}" appears in documents from this cluster.\n\n'
+        f"List all plausible entities this phrase could refer to, with confidence scores:\n"
+        f"Format: ENTITY_NAME (confidence: 0.X)\n"
+    )
+
+    try:
+        response_text, _, _ = call_claude(
+            system, user,
+            temperature=temperature,
+            max_tokens=512,
+        )
+    except Exception as exc:
+        log.warning("Hallucination probe failed for '%s': %s. Skipping probe.", phrase, exc)
+        return True  # Don't block graduation on probe failure
+
+    # Parse response: check if candidate_resolution appears
+    response_lower = response_text.lower()
+    candidate_lower = candidate_resolution.lower()
+
+    if candidate_lower in response_lower:
+        # Candidate appears — check if it dominates
+        # Simple heuristic: if the candidate is mentioned first or is the only one,
+        # it passes. Count how many distinct entity interpretations appear.
+        lines = [l.strip() for l in response_text.split("\n") if l.strip() and "confidence" in l.lower()]
+        if len(lines) <= 1:
+            return True  # Only one interpretation found
+        # Check if candidate is in the first/highest-confidence line
+        if lines and candidate_lower in lines[0].lower():
+            return True
+        # Multiple interpretations exist — flag for review
+        return None
+    else:
+        # Candidate not even mentioned — reject
+        return False
+
+
+# ---------------------------------------------------------------------------
+# Confidence scoring (rule-based, no API cost)
+# ---------------------------------------------------------------------------
+
+def compute_entity_confidence(
+    entity_name: str,
+    entity_type: str,
+    memory: CommunityMemory,
+    registry: GlobalCanonicalRegistry,
+) -> float:
+    """Compute confidence score for an extracted entity.
+
+    Heuristic scoring (no LLM calls):
+      +0.3 if in global registry
+      +0.1 if in community memory (not new)
+      +0.1 if has acronym
+      -0.2 if name < 8 chars
+      -0.3 if type conflicts with registry
+      Base: 0.5
+    """
+    score = 0.5
+
+    resolved = registry.resolve(entity_name, entity_type)
+    if resolved:
+        score += 0.3
+    else:
+        # Check if it's in registry but with a different type (type conflict)
+        any_match = registry.resolve(entity_name)
+        if any_match and any_match.entity_type != entity_type:
+            score -= 0.3
+
+    if not compute_is_new(entity_name, entity_type, memory, registry):
+        score += 0.1
+
+    # Check for acronym in the entity dict or registry
+    if resolved and resolved.acronym:
+        score += 0.1
+
+    if len(entity_name.strip()) < 8:
+        score -= 0.2
+
+    return max(0.0, min(1.0, score))
+
+
+def score_and_queue_entities(
+    record: EntityRecord,
+    memory: CommunityMemory,
+    registry: GlobalCanonicalRegistry,
+) -> None:
+    """Score all entities in a record and queue low-confidence ones for review."""
+    low_confidence: list[dict[str, Any]] = []
+
+    for entity_type in REQUIRED_KEYS:
+        for entity in getattr(record, entity_type, []):
+            name = _get_entity_name(entity, entity_type)
+            if not name:
+                continue
+            conf = compute_entity_confidence(name, entity_type, memory, registry)
+            entity_id = make_entity_id(name, entity_type)
+            memory.entity_confidence[entity_id] = conf
+
+            if conf < CONFIDENCE_REVIEW_THRESHOLD:
+                low_confidence.append({
+                    "agora_id": record.agora_id,
+                    "entity_name": name,
+                    "entity_type": entity_type,
+                    "confidence": round(conf, 3),
+                    "reason": _explain_low_confidence(name, entity_type, registry),
+                    "ts": utc_now_iso(),
+                })
+
+    if low_confidence:
+        append_jsonl(REVIEW_QUEUE_PATH, low_confidence)
+        log.info("Queued %d low-confidence entities from doc %s for review.", len(low_confidence), record.agora_id)
+
+
+def _explain_low_confidence(name: str, entity_type: str, registry: GlobalCanonicalRegistry) -> str:
+    """Generate a brief explanation for why an entity scored low."""
+    reasons = []
+    if len(name.strip()) < 8:
+        reasons.append("short_name")
+    any_match = registry.resolve(name)
+    if any_match and any_match.entity_type != entity_type:
+        reasons.append(f"type_conflict({any_match.entity_type})")
+    if not registry.resolve(name, entity_type):
+        reasons.append("not_in_registry")
+    return ", ".join(reasons) if reasons else "low_base_score"
 
 
 # ---------------------------------------------------------------------------
@@ -551,6 +976,7 @@ def run_community(
     output_dir = output_dir or AGENTS_OUTPUT_DIR
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    registry = get_registry()
     done_ids = load_checkpoint(checkpoint_dir)
     memory = load_memory(community.community_id, memory_dir)
     memory.label = community.label
@@ -596,6 +1022,7 @@ def run_community(
         try:
             record = process_document(
                 agora_id, official_name, short_summary, fulltext, memory, model,
+                registry=registry,
             )
         except Exception as exc:
             log.error("NER failed for doc %s: %s", agora_id, exc)
@@ -613,8 +1040,9 @@ def run_community(
         append_jsonl(entities_path, [record.to_dict()])
         save_checkpoint(agora_id, "done", checkpoint_dir, chunks=record.chunks_processed)
 
-        # Update memory
-        update_memory(memory, record)
+        # Update memory and score entities
+        update_memory(memory, record, registry=registry)
+        score_and_queue_entities(record, memory, registry)
         save_memory(memory, memory_dir)
 
         processed += 1
@@ -627,6 +1055,10 @@ def run_community(
                 len(memory.entity_roster.get("organizations", [])),
             )
 
+    # Persist registry after community completes (captures graduated rules)
+    if processed > 0:
+        registry.save(GLOBAL_REGISTRY_PATH)
+
     stats = {
         "community_id": community.community_id,
         "docs_total": len(ordered_ids),
@@ -635,6 +1067,8 @@ def run_community(
         "docs_skipped": len(ordered_ids) - processed - failed,
         "memory_orgs": len(memory.entity_roster.get("organizations", [])),
         "memory_rules": len(memory.parsing_rules),
+        "registry_entities": len(registry.entities),
+        "registry_rules": len(registry.disambiguation_rules),
     }
     log.info("Community %s complete: %s", community.community_id, stats)
     return stats

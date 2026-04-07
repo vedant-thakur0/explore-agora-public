@@ -1,0 +1,505 @@
+{
+  "community_id": "community:178",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "NSF AI Education Act of 2024",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Census Bureau",
+        "acronym": null,
+        "context": "not classified as urban by the Census Bureau",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Tribal Colleges or Universities",
+        "acronym": null,
+        "context": "preference to students attending Tribal Colleges or Universities",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Institute of Food and Agriculture",
+        "acronym": "NIFA",
+        "context": "Secretary of Agriculture, acting through the Director of the National Institute of Food and Agriculture",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": null,
+        "context": "Secretary of Agriculture, acting through the Director of the National Institute of Food and Agriculture",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Carl D. Perkins Career and Technical Education Act of 2006",
+        "acronym": null,
+        "context": "area career and technical education school has the meaning given the term in section 3",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Stevenson-Wydler Act of 1980",
+        "acronym": null,
+        "context": "venture development organization has the meaning given the term in section 27(a)",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Regional Technology Hubs program at the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Institute of Education Sciences",
+        "acronym": null,
+        "context": "in coordination with the Secretary of Education, the Director of the Institute of Education Sciences",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Department of Education",
+        "acronym": null,
+        "context": "in coordination with the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Department of Labor",
+        "acronym": null,
+        "context": "in coordination with the Secretaries of Labor and Education",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "The Director shall submit a report on the criteria established under this subsection to the Committee on Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Committee on Health, Education, Labor, and Pensions",
+        "acronym": null,
+        "context": "The Director shall submit a report on the criteria established under this subsection to the Committee on Commerce, Science, and Transportation and the Committee on Health, Education, Labor, and Pensions of the Senate",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Committee on Education and the Workforce",
+        "acronym": null,
+        "context": "The Director shall submit a report on the criteria established under this subsection to the Committee on Education and the Workforce and the Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "The Director shall submit a report on the criteria established under this subsection to the Committee on Education and the Workforce and the Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Section 2 of the National Institute of Standards and Technology Act (15 U.S.C. 272)",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Initiative for Cybersecurity Education",
+        "acronym": "NICE",
+        "context": "program office of the National Initiative for Cybersecurity Education provides guidance",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Civil Rights Act of 1964",
+        "acronym": null,
+        "context": "violation of title VI of the Civil Rights Act of 1964",
+        "mentions": 1,
+        "first_seen": "845"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Director of the National Institute of Food and Agriculture",
+        "parent_org": "Department of Agriculture",
+        "context": "Secretary of Agriculture, acting through the Director of the National Institute of Food and Agriculture",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Office of Management and Budget",
+        "parent_org": "Executive Office of the President",
+        "context": "ethics requirements prescribed by the Director of the Office of Management and Budget",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Regional Technology Hubs program",
+        "parent_org": "Department of Commerce",
+        "context": "in coordination with the Regional Technology Hubs program at the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Regional Innovation Engines program",
+        "parent_org": "National Science Foundation",
+        "context": "the Regional Innovation Engines program at the National Science Foundation",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Institute of Education Sciences",
+        "parent_org": "Department of Education",
+        "context": "Director of the Institute of Education Sciences",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "program office of the National Initiative for Cybersecurity Education",
+        "parent_org": "National Initiative for Cybersecurity Education",
+        "context": "guidance that the program office provides to increase adoption",
+        "mentions": 1,
+        "first_seen": "845"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "Secretary of Agriculture, acting through the Director of the National Institute of Food and Agriculture",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "title": "Director of the National Institute of Food and Agriculture",
+        "org": "Department of Agriculture",
+        "context": "in collaboration with the Director of the National Science Foundation, shall award grants",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "title": "Director of the Office of Management and Budget",
+        "org": "Office of Management and Budget",
+        "context": "ethics requirements prescribed by the Director of the Office of Management and Budget",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "title": "Director of the Institute of Education Sciences",
+        "org": "Institute of Education Sciences",
+        "context": "the Director of the Institute of Education Sciences, the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "title": "Secretary of Education",
+        "org": "Department of Education",
+        "context": "in coordination with the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "title": "Secretary of Labor",
+        "org": "Department of Labor",
+        "context": "in coordination with the Secretaries of Labor and Education",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "Director shall submit to Congress a report that describes the process for ongoing review and updates",
+        "mentions": 1,
+        "first_seen": "845"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "NSF AI Education Act of 2024",
+        "citation": "NSF AI Education Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the NSF AI Education Act of 2024",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Elementary and Secondary Education Act of 1965",
+        "citation": "20 U.S.C. 7801",
+        "ref_type": "cites",
+        "context": "section 8101 of the Elementary and Secondary Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1058(f)",
+        "ref_type": "cites",
+        "context": "section 312(f) of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "42 U.S.C. 18901",
+        "ref_type": "cites",
+        "context": "section 10002 of the Research and Development, Competition, and Innovation Act",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Science Foundation Authorization Act of 1988",
+        "citation": "42 U.S.C. 1862g",
+        "ref_type": "cites",
+        "context": "section 113 of the National Science Foundation Authorization Act of 1988",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "title 10, United States Code",
+        "citation": "10 U.S.C. 4872(d)",
+        "ref_type": "cites",
+        "context": "section 4872(d) of title 10, United States Code",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "citation": "29 U.S.C. 152(5)",
+        "ref_type": "cites",
+        "context": "section 2(5) of the National Labor Relations Act",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 15801",
+        "ref_type": "cites",
+        "context": "section 2 of the Energy Policy Act of 2005",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "26 U.S.C. 501(c)(3)",
+        "ref_type": "cites",
+        "context": "section 501(c)(3) of the Internal Revenue Code of 1986",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "section 15",
+        "citation": "SEC. 15",
+        "ref_type": "cites",
+        "context": "Subject to section 15, the Director shall award",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "citation": "7 U.S.C. 3103",
+        "ref_type": "cites",
+        "context": "section 1404 of the National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Carl D. Perkins Career and Technical Education Act of 2006",
+        "citation": "20 U.S.C. 2302",
+        "ref_type": "cites",
+        "context": "section 3 of the Carl D. Perkins Career and Technical Education Act of 2006",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Stevenson-Wydler Act of 1980",
+        "citation": "15 U.S.C. 3722(a)",
+        "ref_type": "cites",
+        "context": "section 27(a) of the Stevenson-Wydler Act of 1980",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Stevenson-Wydler Technology Innovation Act of 1980",
+        "citation": "15 U.S.C. 3719",
+        "ref_type": "cites",
+        "context": "a prize competition under section 24 of the Stevenson-Wydler Technology Innovation Act of 1980",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Institute of Standards and Technology Act",
+        "citation": "15 U.S.C. 272",
+        "ref_type": "amends",
+        "context": "Section 2 of such Act (15 U.S.C. 272) is amended by adding at the end the following",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Civil Rights Act of 1964",
+        "citation": "42 U.S.C. 2000d et seq.",
+        "ref_type": "cites",
+        "context": "violation of title VI of the Civil Rights Act of 1964",
+        "mentions": 1,
+        "first_seen": "845"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "NSF Artificial Intelligence Professional Development Fellowships",
+        "doc_type": "program",
+        "owner_org": "National Science Foundation",
+        "context": "SEC. 5. NSF ARTIFICIAL INTELLIGENCE PROFESSIONAL DEVELOPMENT FELLOWSHIPS",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "NSF AI Education Act of 2024",
+        "doc_type": "legislation",
+        "owner_org": "National Science Foundation",
+        "context": "Subject to section 15, the Director shall carry out a nationwide outreach campaign",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Community College and Vocational School Centers of AI Excellence",
+        "doc_type": "program",
+        "owner_org": "National Science Foundation",
+        "context": "be designated as Community College and Vocational School Centers of AI Excellence",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Established Program to Stimulate Competitive Research",
+        "doc_type": "program",
+        "owner_org": "National Science Foundation",
+        "context": "National Science Foundation's Established Program to Stimulate Competitive Research",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "National Initiative for Cybersecurity Education Workforce Framework for Cybersecurity",
+        "doc_type": "framework",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "NIST Special Publication 800\u2013181, or a successor framework",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "NIST Special Publication 800\u2013181",
+        "doc_type": "other",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "National Initiative for Cybersecurity Education Workforce Framework for Cybersecurity (NIST Special Publication 800\u2013181)",
+        "mentions": 1,
+        "first_seen": "845"
+      },
+      {
+        "name": "Playbook for Workforce Frameworks",
+        "doc_type": "plan",
+        "owner_org": "National Initiative for Cybersecurity Education",
+        "context": "Playbook for Workforce Frameworks developed by the National Initiative for Cybersecurity Education",
+        "mentions": 1,
+        "first_seen": "845"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director": "Resolved to Director of the National Science Foundation per SEC. 2(4)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "845",
+      "note": "SEC. 2 is entirely definitional, establishing meaning for 21 distinct terms. SEC. 3 begins substantive provisions. This definitional section relies heavily on cross-references to other federal statutes rather than defining terms self-contained within this Act."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "845",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "DIRECTOR",
+      "resolved": "Resolved to Director of the National Science Foundation per SEC. 2(4)",
+      "doc_id": "845",
+      "community_id": "community:178"
+    }
+  ],
+  "entity_confidence": {
+    "org:national_science_foundation": 1.0,
+    "org:census_bureau": 0.6,
+    "org:tribal_colleges_or_universities": 0.6,
+    "org:national_institute_of_food_and_agriculture": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:carl_d_perkins_career_and_technical_education_act_of_2006": 0.6,
+    "org:stevenson_wydler_act_of_1980": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:institute_of_education_sciences": 0.6,
+    "org:department_of_education": 0.6,
+    "org:department_of_labor": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_health_education_labor_and_pensions": 0.6,
+    "org:committee_on_education_and_the_workforce": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:national_initiative_for_cybersecurity_education": 0.6,
+    "org:civil_rights_act_of_1964": 0.6,
+    "legislation:nsf_ai_education_act_of_2024": 0.6,
+    "legislation:elementary_and_secondary_education_act_of_1965": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "legislation:national_science_foundation_authorization_act_of_1988": 0.6,
+    "legislation:title_10_united_states_code": 0.6,
+    "legislation:national_labor_relations_act": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "legislation:section_15": 0.6,
+    "legislation:national_agricultural_research_extension_and_teaching_policy_act_of_1977": 0.6,
+    "legislation:carl_d_perkins_career_and_technical_education_act_of_2006": 0.6,
+    "legislation:stevenson_wydler_act_of_1980": 0.6,
+    "legislation:stevenson_wydler_technology_innovation_act_of_1980": 0.6,
+    "legislation:national_institute_of_standards_and_technology_act": 0.6,
+    "legislation:civil_rights_act_of_1964": 0.6,
+    "office:director_of_the_national_institute_of_food_and_agriculture": 0.6,
+    "office:office_of_management_and_budget": 1.0,
+    "office:regional_technology_hubs_program": 0.6,
+    "office:regional_innovation_engines_program": 0.6,
+    "office:institute_of_education_sciences": 0.6,
+    "office:program_office_of_the_national_initiative_for_cybersecurity_education": 0.6,
+    "named_doc:nsf_artificial_intelligence_professional_development_fellowships": 0.6,
+    "named_doc:nsf_ai_education_act_of_2024": 0.6,
+    "named_doc:community_college_and_vocational_school_centers_of_ai_excellence": 0.6,
+    "named_doc:established_program_to_stimulate_competitive_research": 0.6,
+    "named_doc:national_initiative_for_cybersecurity_education_workforce_framework_for_cybersecurity": 0.6,
+    "named_doc:nist_special_publication_800_181": 0.6,
+    "named_doc:playbook_for_workforce_frameworks": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "role:director_of_the_national_institute_of_food_and_agriculture": 0.6,
+    "role:director_of_the_office_of_management_and_budget": 0.6,
+    "role:director_of_the_institute_of_education_sciences": 0.6,
+    "role:secretary_of_education": 0.6,
+    "role:secretary_of_labor": 0.6,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9
+  }
+}

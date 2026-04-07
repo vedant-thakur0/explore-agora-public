@@ -1,0 +1,88 @@
+{
+  "community_id": "community:223",
+  "label": "Harms: Harm to property | Harms: Harm to health/safety",
+  "taxonomy_signature": [
+    "Harms: Harm to property",
+    "Harms: Harm to health/safety"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Aviation Administration",
+        "acronym": "FAA",
+        "context": "Administrator of the Federal Aviation Administration shall adopt a performance- and risk-based approach",
+        "mentions": 1,
+        "first_seen": "323"
+      },
+      {
+        "name": "Senate and House of Representatives of the United States of America",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "323"
+      }
+    ],
+    "offices": [
+      {
+        "name": "website of the Administration",
+        "parent_org": "Federal Aviation Administration",
+        "context": "shall publish all certificates of waiver issued under section 107.200 of title 14, Code of Federal Regulations, on the website of the Administration",
+        "mentions": 1,
+        "first_seen": "323"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Administrator",
+        "org": "Federal Aviation Administration",
+        "context": "The Administrator of the Federal Aviation Administration shall adopt a performance- and risk-based approach",
+        "mentions": 1,
+        "first_seen": "323"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Drone Safety and Efficiency Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Drone Safety and Efficiency Act\"",
+        "mentions": 1,
+        "first_seen": "323"
+      },
+      {
+        "name": "Title 14, Code of Federal Regulations, Section 107.200",
+        "citation": "14 CFR 107.200",
+        "ref_type": "cites",
+        "context": "certificates of waiver under section 107.200 of title 14, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "323"
+      },
+      {
+        "name": "Title 14, Code of Federal Regulations, Part 107",
+        "citation": "14 CFR Part 107",
+        "ref_type": "cites",
+        "context": "SEC. 2. 14 CFR part 107 waiver improvements",
+        "mentions": 1,
+        "first_seen": "323"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "323",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:drone_safety_and_efficiency_act": 0.6,
+    "legislation:title_14_code_of_federal_regulations_section_107_200": 0.6,
+    "legislation:title_14_code_of_federal_regulations_part_107": 0.6,
+    "office:website_of_the_administration": 0.6,
+    "role:administrator": 0.6,
+    "org:federal_aviation_administration": 1.0,
+    "org:senate_and_house_of_representatives_of_the_united_states_of_america": 0.6
+  }
+}

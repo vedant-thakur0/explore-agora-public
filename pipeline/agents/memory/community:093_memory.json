@@ -1,0 +1,185 @@
+{
+  "community_id": "community:093",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "The term \"Commission\" means the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Department of Justice",
+        "acronym": "DOJ",
+        "context": "A report under subsection (a) may be shared between the Department of Justice and the Commission",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "with the National Institute of Standards and Technology for technical assistance in understanding the report",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Clayton Act",
+        "acronym": null,
+        "context": "has the meaning given that term in subsection (a) of the first section of the Clayton Act (15 U.S.C. 12)",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "acronym": null,
+        "context": "includes section 5 of the Federal Trade Commission Act (15 U.S.C. 45)",
+        "mentions": 1,
+        "first_seen": "415"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Chief Executive Officer",
+        "org": "Person (entity using or distributing pricing algorithm)",
+        "context": "The Chief Executive Officer, Chief Economist, Chief Technology Officer, or a corporate officer of similar authority of a person shall certify",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "title": "Chief Economist",
+        "org": "Person (entity using or distributing pricing algorithm)",
+        "context": "The Chief Executive Officer, Chief Economist, Chief Technology Officer, or a corporate officer of similar authority of a person shall certify",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "org": "Person (entity using or distributing pricing algorithm)",
+        "context": "The Chief Executive Officer, Chief Economist, Chief Technology Officer, or a corporate officer of similar authority of a person shall certify",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "A person using or distributing a pricing algorithm, upon a written request by the Attorney General or the Commission",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "title": "Attorney",
+        "org": "Federal Trade Commission",
+        "context": "by any of its attorneys designated by it for such purpose",
+        "mentions": 1,
+        "first_seen": "415"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Clayton Act",
+        "citation": "15 U.S.C. 12",
+        "ref_type": "cites",
+        "context": "has the meaning given that term in subsection (a) of the first section of the Clayton Act (15 U.S.C. 12)",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Federal Trade Commission Act, Section 5",
+        "citation": "15 U.S.C. 45",
+        "ref_type": "cites",
+        "context": "includes section 5 of the Federal Trade Commission Act (15 U.S.C. 45)",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Freedom of Information Act",
+        "citation": "5 U.S.C. 552",
+        "ref_type": "cites",
+        "context": "exempt under subsection (b)(4) of section 552 of title 5, United States Code, from being made available to the public under subsection (a) of that section",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Sherman Act",
+        "citation": "15 U.S.C. 1",
+        "ref_type": "cites",
+        "context": "section 1 of the Sherman Act (15 U.S.C. 1) that the defendant",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "Consumer Price Index",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "adjusted for inflation on the basis of the Consumer Price Index",
+        "mentions": 1,
+        "first_seen": "415"
+      },
+      {
+        "name": "antitrust laws",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "Nothing in this section shall impair or limit the applicability of the antitrust laws",
+        "mentions": 1,
+        "first_seen": "415"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "FTC Study",
+        "doc_type": "study",
+        "owner_org": "Federal Trade Commission",
+        "context": "the Commission shall publish the results of a study of the use of pricing algorithms",
+        "mentions": 1,
+        "first_seen": "415"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "commission": "Defined in SEC. 2(3) as Federal Trade Commission",
+    "attorney general": "Referenced as enforcement authority requesting pricing algorithm reports in SEC. 3(a)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "415",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Commission",
+      "resolved": "Defined in SEC. 2(3) as Federal Trade Commission",
+      "doc_id": "415",
+      "community_id": "community:093"
+    },
+    {
+      "phrase": "Attorney General",
+      "resolved": "Referenced as enforcement authority requesting pricing algorithm reports in SEC. 3(a)",
+      "doc_id": "415",
+      "community_id": "community:093"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:clayton_act": 0.6,
+    "legislation:federal_trade_commission_act_section_5": 0.6,
+    "legislation:freedom_of_information_act": 0.6,
+    "legislation:sherman_act": 0.6,
+    "legislation:consumer_price_index": 0.6,
+    "legislation:antitrust_laws": 0.6,
+    "role:chief_executive_officer": 0.6,
+    "role:chief_economist": 0.6,
+    "role:chief_technology_officer": 0.6,
+    "role:attorney_general": 0.9,
+    "role:attorney": 0.6,
+    "named_doc:ftc_study": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:department_of_justice": 1.0,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:clayton_act": 0.6,
+    "org:federal_trade_commission_act": 0.6
+  }
+}

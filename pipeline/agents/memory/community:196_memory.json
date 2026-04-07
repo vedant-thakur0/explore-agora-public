@@ -1,0 +1,121 @@
+{
+  "community_id": "community:196",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Digital Social Platform Transparency Act",
+        "acronym": null,
+        "context": "SEC. 2. TERMS OF SERVICE REQUIREMENT",
+        "mentions": 1,
+        "first_seen": "1258"
+      },
+      {
+        "name": "U.S. Department of Justice",
+        "acronym": "DOJ",
+        "context": "Attorney General has exclusive authority to bring actions; receives semiannual reports",
+        "mentions": 1,
+        "first_seen": "1258"
+      },
+      {
+        "name": "United States Treasury",
+        "acronym": null,
+        "context": "Establishes separate account for Digital Social Platform Terms of Service Fund",
+        "mentions": 1,
+        "first_seen": "1258"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Digital Social Platform Terms of Service Fund",
+        "parent_org": "United States Treasury",
+        "context": "Separate account established in the Treasury; one-half of administrative assessment funds deposited",
+        "mentions": 1,
+        "first_seen": "1258"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Attorney General",
+        "org": "U.S. Department of Justice",
+        "context": "electronically submit to the Attorney General a terms of service report",
+        "mentions": 1,
+        "first_seen": "1258"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Digital Social Platform Transparency Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Digital Social Platform Transparency Act\".",
+        "mentions": 1,
+        "first_seen": "1258"
+      },
+      {
+        "name": "section 706 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 706",
+        "ref_type": "cites",
+        "context": "Notwithstanding section 706 of title 5, United States Code, Attorney General may make interpretations",
+        "mentions": 1,
+        "first_seen": "1258"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "terms of service report",
+        "doc_type": "report",
+        "owner_org": "digital social companies",
+        "context": "each digital social company shall electronically submit to the Attorney General a terms of service report",
+        "mentions": 1,
+        "first_seen": "1258"
+      },
+      {
+        "name": "searchable repository",
+        "doc_type": "initiative",
+        "owner_org": "U.S. Department of Justice",
+        "context": "The Attorney General shall make all terms of service reports submitted pursuant to this section available to the public in a searchable repository on its official internet website",
+        "mentions": 1,
+        "first_seen": "1258"
+      },
+      {
+        "name": "Digital Social Platform Terms of Service Fund",
+        "doc_type": "program",
+        "owner_org": "United States Treasury",
+        "context": "Separate account established to maintain reporting website and support enforcement",
+        "mentions": 1,
+        "first_seen": "1258"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "attorney general": "Resolved as head of U.S. Department of Justice based on standard federal structure; context: recipient of semiannual reports on digital social platform terms of service and content moderation practices"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1258",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Attorney General",
+      "resolved": "Resolved as head of U.S. Department of Justice based on standard federal structure; context: recipient of semiannual reports on digital social platform terms of service and content moderation practices",
+      "doc_id": "1258",
+      "community_id": "community:196"
+    }
+  ],
+  "entity_confidence": {
+    "org:digital_social_platform_transparency_act": 0.6,
+    "org:u_s_department_of_justice": 0.6,
+    "org:united_states_treasury": 0.6,
+    "legislation:digital_social_platform_transparency_act": 0.6,
+    "legislation:section_706_of_title_5_united_states_code": 0.6,
+    "office:digital_social_platform_terms_of_service_fund": 0.6,
+    "named_doc:terms_of_service_report": 0.6,
+    "named_doc:searchable_repository": 0.6,
+    "named_doc:digital_social_platform_terms_of_service_fund": 0.6,
+    "role:attorney_general": 0.9
+  }
+}

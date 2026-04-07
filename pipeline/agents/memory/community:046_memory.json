@@ -1,0 +1,85 @@
+{
+  "community_id": "community:046",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "2334"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "2334"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "Protecting Our Children in an AI World Act of 2025",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Protecting Our Children in an AI World Act of 2025\"",
+        "mentions": 1,
+        "first_seen": "2334"
+      },
+      {
+        "name": "Title 18, United States Code",
+        "citation": "18 U.S.C.",
+        "ref_type": "amends",
+        "context": "To amend title 18, United States Code, to prohibit child pornography",
+        "mentions": 1,
+        "first_seen": "2334"
+      },
+      {
+        "name": "Section 2252A(c)",
+        "citation": "18 U.S.C. \u00a7 2252A(c)",
+        "ref_type": "amends",
+        "context": "Section 2252A(c) of title 18, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "2334"
+      },
+      {
+        "name": "Section 2256(2)(B)",
+        "citation": "18 U.S.C. \u00a7 2256(2)(B)",
+        "ref_type": "amends",
+        "context": "Section 2256(2)(B) of title 18, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "2334"
+      },
+      {
+        "name": "Section 2256(8)(C)",
+        "citation": "18 U.S.C. \u00a7 2256(8)(C)",
+        "ref_type": "cites",
+        "context": "child pornography as described in section 2256(8)(C)",
+        "mentions": 1,
+        "first_seen": "2334"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "2334",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:protecting_our_children_in_an_ai_world_act_of_2025": 0.6,
+    "legislation:title_18_united_states_code": 0.6,
+    "legislation:section_2252a_c": 0.6,
+    "legislation:section_2256_2_b": 0.6,
+    "legislation:section_2256_8_c": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6
+  }
+}

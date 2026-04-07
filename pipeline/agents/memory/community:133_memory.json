@@ -1,0 +1,176 @@
+{
+  "community_id": "community:133",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Defense Media Activity",
+        "acronym": "DMA",
+        "context": "Director of the Defense Media Activity to establish a course of education on digital content provenance",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Committee on Armed Services",
+        "acronym": null,
+        "context": "referred to the Committee on Armed Services",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Defense Information School",
+        "acronym": "DINFOS",
+        "context": "course of education at the Defense Information School (DINFOS) to teach the practical concepts",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Committee on Armed Services of the Senate",
+        "acronym": null,
+        "context": "provide to the Committee on Armed Services of the Senate and the Committee on Armed Services",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Committee on Armed Services of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Armed Services of the House of Representatives a briefing on developing",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "Department of Defense public affairs, audiovisual, visual information, and records management",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Defense Visual Information Distribution Service",
+        "acronym": "DVIDS",
+        "context": "publicly released by the Defense Visual Information Distribution Service (DVIDS) and other",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Defense Visual Information Records Center",
+        "acronym": null,
+        "context": "historical visual information records of the Department stored at the Defense Visual Information Records Center",
+        "mentions": 1,
+        "first_seen": "524"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Defense Information School",
+        "parent_org": "Defense Media Activity",
+        "context": "course of education at the Defense Information School (DINFOS)",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Defense Visual Information Distribution Service",
+        "parent_org": "Department of Defense",
+        "context": "publicly released by the Defense Visual Information Distribution Service (DVIDS)",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "Defense Visual Information Records Center",
+        "parent_org": "Department of Defense",
+        "context": "historical visual information records stored at the Defense Visual Information Records Center",
+        "mentions": 1,
+        "first_seen": "524"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director of the Defense Media Activity",
+        "org": "Defense Media Activity",
+        "context": "Director of the Defense Media Activity to establish a course of education on digital content provenance",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "title": "Director",
+        "org": "Defense Media Activity",
+        "context": "The findings of the Director with respect to the pilot program",
+        "mentions": 1,
+        "first_seen": "524"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Digital Defense Content Provenance Act of 2023",
+        "citation": "S. 2222",
+        "ref_type": "enacts",
+        "context": "S. 2222",
+        "mentions": 1,
+        "first_seen": "524"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "DINFOS course on digital content provenance",
+        "doc_type": "program",
+        "owner_org": "Defense Media Activity",
+        "context": "establish a DINFOS course on digital content provenance within one year",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "pilot program on implementing digital content provenance standards",
+        "doc_type": "program",
+        "owner_org": "Defense Media Activity",
+        "context": "carry out a pilot program on implementing digital content provenance standards",
+        "mentions": 1,
+        "first_seen": "524"
+      },
+      {
+        "name": "pilot program",
+        "doc_type": "program",
+        "owner_org": "Defense Media Activity",
+        "context": "Assessment of the effectiveness of the pilot",
+        "mentions": 1,
+        "first_seen": "524"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "dma": "Defense Media Activity - confirmed from explicit text reference to 'Director of the Defense Media Activity'"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "524",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "DMA",
+      "resolved": "Defense Media Activity - confirmed from explicit text reference to 'Director of the Defense Media Activity'",
+      "doc_id": "524",
+      "community_id": "community:133"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:digital_defense_content_provenance_act_of_2023": 0.6,
+    "office:defense_information_school": 0.6,
+    "office:defense_visual_information_distribution_service": 0.6,
+    "office:defense_visual_information_records_center": 0.6,
+    "role:director_of_the_defense_media_activity": 0.6,
+    "role:director": 0.6,
+    "named_doc:dinfos_course_on_digital_content_provenance": 0.6,
+    "named_doc:pilot_program_on_implementing_digital_content_provenance_standards": 0.6,
+    "named_doc:pilot_program": 0.6,
+    "org:defense_media_activity": 0.6,
+    "org:committee_on_armed_services": 0.6,
+    "org:defense_information_school": 0.6,
+    "org:committee_on_armed_services_of_the_senate": 0.6,
+    "org:committee_on_armed_services_of_the_house_of_representatives": 0.6,
+    "org:department_of_defense": 1.0,
+    "org:defense_visual_information_distribution_service": 0.6,
+    "org:defense_visual_information_records_center": 0.6
+  }
+}

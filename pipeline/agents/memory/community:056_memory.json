@@ -1,0 +1,429 @@
+{
+  "community_id": "community:056",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "People's Republic of China",
+        "acronym": null,
+        "context": "investments by United States persons in the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce consulted on waivers and regulations",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Department of State",
+        "acronym": "State",
+        "context": "the Secretary of State, the Secretary of Energy, the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "Energy",
+        "context": "the Secretary of State, the Secretary of Energy, the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "acronym": null,
+        "context": "Committee on Foreign Relations and the Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "Committee on Foreign Affairs and the Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce, and the Committee on Appropriations of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Committee on Appropriations",
+        "acronym": null,
+        "context": "Committee on Appropriations of the House of Representatives and the Senate",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Central Committee of the Chinese Communist Party",
+        "acronym": null,
+        "context": "is a member of the Central Committee of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Hong Kong Special Administrative Region",
+        "acronym": "Hong Kong SAR",
+        "context": "includes the Hong Kong Special Administrative Region and the Macau Special Administrative Region",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Macau Special Administrative Region",
+        "acronym": "Macau SAR",
+        "context": "includes the Hong Kong Special Administrative Region and the Macau Special Administrative Region",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Securities and Exchange Commission",
+        "acronym": "SEC",
+        "context": "registered with the Securities and Exchange Commission",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Government of the People's Republic of China",
+        "acronym": null,
+        "context": "develops, designs, or produces any artificial intelligence models designed for use by the Government of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": "Treasury",
+        "context": "the term 'Secretary' means the Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "1891"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Secretary of Commerce",
+        "parent_org": "Department of Commerce",
+        "context": "consultation with the Secretary of Commerce and, as appropriate, the heads of other relevant",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Office of the Secretary of State",
+        "parent_org": "Department of State",
+        "context": "the Secretary of State, the Secretary of Energy, the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Office of the Secretary of Energy",
+        "parent_org": "Department of Energy",
+        "context": "the Secretary of State, the Secretary of Energy, the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "1891"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "consulted with Secretary on waivers and regulations",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "title": "Attorney General of the United States",
+        "org": "Department of Justice",
+        "context": "President may direct Attorney General to seek relief in district courts",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "the Secretary of State, the Secretary of Energy, the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "the Secretary of State, the Secretary of Energy, the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "title": "Chairperson",
+        "org": "appropriate congressional committees",
+        "context": "chairperson and ranking member of any of the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "title": "Ranking Member",
+        "org": "appropriate congressional committees",
+        "context": "chairperson and ranking member of any of the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "the term 'Secretary' means the Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "1891"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Defense Production Act of 1950",
+        "citation": "50 U.S.C. 4501 et seq.",
+        "ref_type": "amends",
+        "context": "amended by adding TITLE VIII\u2014Prohibition and notification on investments",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Administrative Procedure Act",
+        "citation": "5 U.S.C. subchapter II chapter 5 and chapter 7",
+        "ref_type": "cites",
+        "context": "regulations issued in accordance with Administrative Procedure Act",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "section 556(d) of title 5, United States Code",
+        "citation": "5 U.S.C. 556(d)",
+        "ref_type": "cites",
+        "context": "burden of proof shall be upon the Secretary in enforcement actions",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "subchapter II of chapter 5 and chapter 7 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 551 et seq., \u00a7 701 et seq.",
+        "ref_type": "cites",
+        "context": "regulations to carry out this section in accordance with subchapter II of chapter 5 and chapter 7 of title 5",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "section 552(b)(3) of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 552(b)(3)",
+        "ref_type": "cites",
+        "context": "shall be exempt from disclosure under section 552(b)(3) of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "section 802",
+        "citation": "section 802",
+        "ref_type": "cites",
+        "context": "lists all notifications submitted under section 802 during the year preceding submission",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "section 807(2)",
+        "citation": "section 807(2)",
+        "ref_type": "cites",
+        "context": "definition of the term 'country of concern' under section 807(2) should be amended",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Securities Exchange Act of 1934",
+        "citation": "15 U.S.C. 78c(a)",
+        "ref_type": "cites",
+        "context": "section 3(a) of the Securities Exchange Act of 1934",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Investment Company Act of 1940",
+        "citation": "15 U.S.C. 80a\u20133",
+        "ref_type": "cites",
+        "context": "section 3 of the Investment Company Act of 1940",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Title 31, United States Code, section 5312",
+        "citation": "31 U.S.C. 5312",
+        "ref_type": "cites",
+        "context": "section 5312 of title 31, United States Code",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Export Administration Regulations",
+        "citation": "Export Control Classification Number (ECCN) 3A090 in Supplement No. 1",
+        "ref_type": "cites",
+        "context": "integrated circuit designs that meet or exceed the specifications set in Export Control Classification Number (ECCN) 3A090 in Supplement No. 1 to the Export Administration Regulations",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "International Traffic in Arms Regulations",
+        "citation": "subchapter M of chapter I of title 22, Code of Federal Regulations",
+        "ref_type": "cites",
+        "context": "defense articles or defense services included on the United States Munitions List set forth in the International Traffic in Arms Regulations under subchapter M of chapter I of title 22",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Part 810 of title 10, Code of Federal Regulations",
+        "citation": "10 CFR 810",
+        "ref_type": "cites",
+        "context": "part 810 of title 10, Code of Federal Regulations (relating to assistance to foreign atomic energy activities)",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Part 110 of title 10, Code of Federal Regulations",
+        "citation": "10 CFR 110",
+        "ref_type": "cites",
+        "context": "part 110 of title 10, Code of Federal Regulations (relating to export and import of nuclear equipment and material)",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Export Control Reform Act of 2018",
+        "citation": "50 U.S.C. 4817, section 1758",
+        "ref_type": "cites",
+        "context": "emerging or foundational technologies controlled pursuant to section 1758 of the Export Control Reform Act of 2018",
+        "mentions": 1,
+        "first_seen": "1891"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report on Enforcement Actions and Prohibited Technology Assessment",
+        "doc_type": "report",
+        "owner_org": "Department of Defense",
+        "context": "the Secretary, in consultation with the Secretary of Commerce, shall submit to the appropriate congressional committees a report",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Strategy for multilateral engagement and coordination",
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense",
+        "context": "Not later than 180 days after the date of the enactment of this title, the Secretary, in co",
+        "mentions": 1,
+        "first_seen": "1891"
+      },
+      {
+        "name": "Public database of covered foreign persons",
+        "doc_type": "program",
+        "owner_org": "Department of Defense",
+        "context": "The Secretary, in consultation with the Secretary of Commerce, may establish a publicly accessible, non-exhaustive database",
+        "mentions": 1,
+        "first_seen": "1891"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Department of Defense Secretary (primary regulatory authority under this section)"
+  },
+  "parsing_rules": [
+    "Extract highly technical specification parameters (e.g., nanometer measurements, Kelvin temperatures, petaflops capacity, floating-point operations thresholds) as contextual details within prohibited technology definitions rather than as separate entities."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1891",
+      "note": "Document is a bill preamble/enacting clause only. Substantive content with specific entities (prohibited technologies, notifiable technologies, exemptions, penalties, multilateral engagement strategy) is not present in provided text. Full bill text would be required for comprehensive entity extraction."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1891",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Department of Defense Secretary (primary regulatory authority under this section)",
+      "doc_id": "1891",
+      "community_id": "community:056"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:defense_production_act_of_1950": 0.6,
+    "legislation:administrative_procedure_act": 0.6,
+    "legislation:section_556_d_of_title_5_united_states_code": 0.6,
+    "legislation:subchapter_ii_of_chapter_5_and_chapter_7_of_title_5_united_states_code": 0.6,
+    "legislation:section_552_b_3_of_title_5_united_states_code": 0.6,
+    "legislation:section_802": 0.6,
+    "legislation:section_807_2": 0.6,
+    "legislation:securities_exchange_act_of_1934": 0.6,
+    "legislation:investment_company_act_of_1940": 0.6,
+    "legislation:title_31_united_states_code_section_5312": 0.6,
+    "legislation:export_administration_regulations": 0.6,
+    "legislation:international_traffic_in_arms_regulations": 0.6,
+    "legislation:part_810_of_title_10_code_of_federal_regulations": 0.6,
+    "legislation:part_110_of_title_10_code_of_federal_regulations": 0.6,
+    "legislation:export_control_reform_act_of_2018": 0.6,
+    "office:office_of_the_secretary_of_commerce": 0.6,
+    "office:office_of_the_secretary_of_state": 0.6,
+    "office:office_of_the_secretary_of_energy": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:attorney_general_of_the_united_states": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:chairperson": 0.6,
+    "role:ranking_member": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "named_doc:report_on_enforcement_actions_and_prohibited_technology_assessment": 0.6,
+    "named_doc:strategy_for_multilateral_engagement_and_coordination": 0.6,
+    "named_doc:public_database_of_covered_foreign_persons": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_state": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "org:committee_on_foreign_relations": 0.6,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_appropriations": 0.6,
+    "org:central_committee_of_the_chinese_communist_party": 0.6,
+    "org:hong_kong_special_administrative_region": 0.6,
+    "org:macau_special_administrative_region": 0.6,
+    "org:securities_and_exchange_commission": 0.6,
+    "org:government_of_the_people_s_republic_of_china": 0.6,
+    "org:department_of_the_treasury": 0.6
+  }
+}

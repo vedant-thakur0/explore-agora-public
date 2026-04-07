@@ -1,0 +1,100 @@
+{
+  "community_id": "community:153",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Commerce",
+        "acronym": "Commerce",
+        "context": "Assistant Secretary of Commerce for Communications and Information",
+        "mentions": 1,
+        "first_seen": "659"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": "Treasury",
+        "context": "Secretary of the Treasury shall make the list publicly available on the website",
+        "mentions": 1,
+        "first_seen": "659"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Assistant Secretary of Commerce for Communications and Information",
+        "parent_org": "Department of Commerce",
+        "context": "The term 'Assistant Secretary' means the Assistant Secretary of Commerce for Communications and Information.",
+        "mentions": 1,
+        "first_seen": "659"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Assistant Secretary of Commerce for Communications and Information",
+        "org": "Department of Commerce",
+        "context": "In this section: (4) ASSISTANT SECRETARY.\u2014The term 'Assistant Secretary' means the Assistant Secretary of Commerce for Communications and Information.",
+        "mentions": 1,
+        "first_seen": "659"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "Secretary of the Treasury and the Secretary of Commerce shall jointly develop",
+        "mentions": 1,
+        "first_seen": "659"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary of the Treasury and the Secretary of Commerce shall jointly develop",
+        "mentions": 1,
+        "first_seen": "659"
+      },
+      {
+        "title": "Attorney General",
+        "org": "U.S. Department of Justice",
+        "context": "The Attorney General may bring a civil action in an appropriate district court",
+        "mentions": 1,
+        "first_seen": "659"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Know Your App Act",
+        "citation": "Know Your App Act",
+        "ref_type": "enacts",
+        "context": "Not later than 180 days after the date of enactment of this Act",
+        "mentions": 1,
+        "first_seen": "659"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "assistant secretary": "Resolved to Assistant Secretary of Commerce for Communications and Information based on context requiring Communications and Information expertise for application store regulations"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "659",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Assistant Secretary",
+      "resolved": "Resolved to Assistant Secretary of Commerce for Communications and Information based on context requiring Communications and Information expertise for application store regulations",
+      "doc_id": "659",
+      "community_id": "community:153"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:know_your_app_act": 0.6,
+    "office:assistant_secretary_of_commerce_for_communications_and_information": 0.6,
+    "role:assistant_secretary_of_commerce_for_communications_and_information": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:attorney_general": 0.9,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_the_treasury": 0.6
+  }
+}

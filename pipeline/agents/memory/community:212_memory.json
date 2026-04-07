@@ -1,0 +1,199 @@
+{
+  "community_id": "community:212",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Sports Agent Responsibility and Trust Act",
+        "acronym": null,
+        "context": "as defined in the Sports Agent Responsibility and Trust Act (15 U.S.C. 7801)",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Assistant Secretary for Mental Health and Substance Use",
+        "acronym": null,
+        "context": "State regulatory entity acting in cooperation with the Assistant Secretary for Mental Health and Substance Use",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "United States",
+        "acronym": null,
+        "context": "bets or wagers from any other person who is physically present in the United States in violation of Federal or State law",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Department of Justice",
+        "acronym": "DOJ",
+        "context": "component of the Department of Justice or other Federal law enforcement entity designated by the Attorney General",
+        "mentions": 1,
+        "first_seen": "1343"
+      }
+    ],
+    "offices": [
+      {
+        "name": "State regulatory entity",
+        "parent_org": "State",
+        "context": "Establish or designate a public entity in the applicable State as the State regulatory entity",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Assistant Secretary for Mental Health and Substance Use",
+        "parent_org": "Department of Health and Human Services",
+        "context": "cooperation with the Assistant Secretary for Mental Health and Substance Use, a process by which an individual may restrict",
+        "mentions": 1,
+        "first_seen": "1343"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "The Attorney General shall approve an application under section 102",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "title": "sports wagering operator",
+        "org": null,
+        "context": "a sports wagering operator shall not accept a sports wager unless such sports wager or class of sports wagers is expressly approved",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "title": "Assistant Secretary for Mental Health and Substance Use",
+        "org": "Department of Health and Human Services",
+        "context": "State regulatory entity acting in cooperation with the Assistant Secretary for Mental Health and Substance Use",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "title": "president or other chief executive",
+        "org": "prospective sports wagering operator corporation, partnership, or other business entity",
+        "context": "the president or other chief executive of the corporation, partnership, or other business entity",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "title": "partner or senior executive and director",
+        "org": "prospective sports wagering operator corporation, partnership, or other business entity",
+        "context": "any other partner or senior executive and director of the corporation, partnership, or other business entity",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "title": "employee or contractor",
+        "org": "sports wagering operator",
+        "context": "each existing and newly hired employee or contractor of the sports wagering operator undergo an annual criminal history background check",
+        "mentions": 1,
+        "first_seen": "1343"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Sports Agent Responsibility and Trust Act",
+        "citation": "15 U.S.C. 7801",
+        "ref_type": "cites",
+        "context": "any intercollegiate sport (as defined in the Sports Agent Responsibility and Trust Act (15 U.S.C. 7801))",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Title 18, United States Code, Section 224",
+        "citation": "18 U.S.C. \u00a7 224",
+        "ref_type": "cites",
+        "context": "individual convicted of an offense under subsection (a) or (b) of section 224 of title 18, United States Code",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Section 102",
+        "citation": "Sec. 102",
+        "ref_type": "cites",
+        "context": "identified in the application of the State regulatory entity under section 102",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Title 31, Code of Federal Regulations, Parts 1010.312 and 1021.312",
+        "citation": "31 CFR 1010.312, 1021.312",
+        "ref_type": "cites",
+        "context": "verification of identity in parts 1010.312 and 1021.312 of title 31, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Federal or State sports wagering law",
+        "citation": null,
+        "ref_type": "other",
+        "context": "have not committed an intentional felony violation of Federal or State sports wagering law",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Federal or State law",
+        "citation": null,
+        "ref_type": "other",
+        "context": "accepted bets or wagers from any other person who is physically present in the United States in violation of Federal or State law",
+        "mentions": 1,
+        "first_seen": "1343"
+      },
+      {
+        "name": "Title 26, Code of Federal Regulations, Section 31.3402(q)\u20131",
+        "citation": "26 CFR 31.3402(q)\u20131",
+        "ref_type": "cites",
+        "context": "pursuant to section 31.3402(q)\u20131 of title 26, Code of Federal Regulations (or a successor regulation), to furnish a Form W\u20132G",
+        "mentions": 1,
+        "first_seen": "1343"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "attorney general": "Resolved to Department of Justice leadership based on context of DOJ component designation authority"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1343",
+      "note": "Section contains detailed procedural requirements for state licensing of sports wagering operators, including suitability standards, background check procedures, and disqualification criteria. Structure emphasizes requirements imposed on State regulatory entities rather than federal enactment of new law."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1343",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Attorney General",
+      "resolved": "Resolved to Department of Justice leadership based on context of DOJ component designation authority",
+      "doc_id": "1343",
+      "community_id": "community:212"
+    }
+  ],
+  "entity_confidence": {
+    "org:sports_agent_responsibility_and_trust_act": 0.6,
+    "org:assistant_secretary_for_mental_health_and_substance_use": 0.6,
+    "org:united_states": 0.6,
+    "org:department_of_justice": 1.0,
+    "legislation:sports_agent_responsibility_and_trust_act": 0.6,
+    "legislation:title_18_united_states_code_section_224": 0.6,
+    "legislation:section_102": 0.6,
+    "legislation:title_31_code_of_federal_regulations_parts_1010_312_and_1021_312": 0.6,
+    "legislation:federal_or_state_sports_wagering_law": 0.6,
+    "legislation:federal_or_state_law": 0.6,
+    "legislation:title_26_code_of_federal_regulations_section_31_3402_q_1": 0.6,
+    "office:state_regulatory_entity": 0.6,
+    "office:assistant_secretary_for_mental_health_and_substance_use": 0.6,
+    "role:attorney_general": 0.9,
+    "role:sports_wagering_operator": 0.6,
+    "role:assistant_secretary_for_mental_health_and_substance_use": 0.6,
+    "role:president_or_other_chief_executive": 0.6,
+    "role:partner_or_senior_executive_and_director": 0.6,
+    "role:employee_or_contractor": 0.6
+  }
+}

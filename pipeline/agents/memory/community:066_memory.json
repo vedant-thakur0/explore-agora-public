@@ -1,0 +1,119 @@
+{
+  "community_id": "community:066",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Department of State",
+        "acronym": "State Department",
+        "context": "Coordinator for Digital Freedom in the Bureau of Cyberspace and Digital Policy in the United States Department of State",
+        "mentions": 1,
+        "first_seen": "1929"
+      },
+      {
+        "name": "Bureau of Cyberspace and Digital Policy",
+        "acronym": null,
+        "context": "Bureau of Cyberspace and Digital Policy in the United States Department of State",
+        "mentions": 1,
+        "first_seen": "1929"
+      },
+      {
+        "name": "Committee on Foreign Relations of the Senate",
+        "acronym": null,
+        "context": "submit to the Committee on Foreign Relations of the Senate and the Committee on Foreign Affairs",
+        "mentions": 1,
+        "first_seen": "1929"
+      },
+      {
+        "name": "Committee on Foreign Affairs of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Foreign Affairs of the House of Representatives a report on the state of global digital freedom",
+        "mentions": 1,
+        "first_seen": "1929"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Bureau of Cyberspace and Digital Policy",
+        "parent_org": "United States Department of State",
+        "context": "Coordinator for Digital Freedom in the Bureau of Cyberspace and Digital Policy",
+        "mentions": 1,
+        "first_seen": "1929"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Coordinator for Digital Freedom",
+        "org": "Bureau of Cyberspace and Digital Policy",
+        "context": "The central objective of the Coordinator for Digital Freedom shall be to promote efforts",
+        "mentions": 1,
+        "first_seen": "1929"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "United States Department of State",
+        "context": "other duties that the Secretary of State may assign",
+        "mentions": 1,
+        "first_seen": "1929"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Advancing Digital Freedom Act of 2024",
+        "citation": "S5344",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Advancing Digital Freedom Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "1929"
+      },
+      {
+        "name": "United States International Cyberspace and Digital Policy Strategy",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "consistent with guidelines outlined in the United States International Cyberspace and Digital Policy Strategy",
+        "mentions": 1,
+        "first_seen": "1929"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Risk Management Profile for Artificial Intelligence and Human Rights",
+        "doc_type": "plan",
+        "owner_org": "United States Department of State",
+        "context": "lead efforts within the Department of State to continue publishing guidelines for protecting digital freedom across the cyberspace, including through the Risk Management Profile for Artificial Intelligence and Human Rights",
+        "mentions": 1,
+        "first_seen": "1929"
+      },
+      {
+        "name": "Roadmap for Building Civil Resilience to the Global Digital Information Manipulation Challenge",
+        "doc_type": "plan",
+        "owner_org": "United States Department of State",
+        "context": "as well as the Roadmap for Building Civil Resilience to the Global Digital Information Manipulation Challenge",
+        "mentions": 1,
+        "first_seen": "1929"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1929",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:advancing_digital_freedom_act_of_2024": 0.6,
+    "legislation:united_states_international_cyberspace_and_digital_policy_strategy": 0.6,
+    "office:bureau_of_cyberspace_and_digital_policy": 0.6,
+    "role:coordinator_for_digital_freedom": 0.6,
+    "role:secretary_of_state": 0.6,
+    "named_doc:risk_management_profile_for_artificial_intelligence_and_human_rights": 0.6,
+    "named_doc:roadmap_for_building_civil_resilience_to_the_global_digital_information_manipulation_challenge": 0.6,
+    "org:united_states_department_of_state": 0.6,
+    "org:bureau_of_cyberspace_and_digital_policy": 0.6,
+    "org:committee_on_foreign_relations_of_the_senate": 0.6,
+    "org:committee_on_foreign_affairs_of_the_house_of_representatives": 0.6
+  }
+}

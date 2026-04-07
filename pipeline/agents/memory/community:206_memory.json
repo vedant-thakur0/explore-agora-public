@@ -1,0 +1,112 @@
+{
+  "community_id": "community:206",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "published by the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1307"
+      },
+      {
+        "name": "Drug Enforcement Administration",
+        "acronym": "DEA",
+        "context": "published by the Drug Enforcement Administration",
+        "mentions": 1,
+        "first_seen": "1307"
+      },
+      {
+        "name": "Directorate of Science and Technology",
+        "acronym": null,
+        "context": "Directorate of Science and Technology's research, development, testing",
+        "mentions": 1,
+        "first_seen": "1307"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Directorate of Science and Technology",
+        "parent_org": "Department of Homeland Security",
+        "context": "establish the Directorate of Science and Technology's research priorities",
+        "mentions": 1,
+        "first_seen": "1307"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Under Secretary for Science and Technology",
+        "org": "Department of Homeland Security",
+        "context": "the Under Secretary for Science and Technology shall",
+        "mentions": 1,
+        "first_seen": "1307"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Homeland Security Act of 2002",
+        "citation": "6 U.S.C. 182",
+        "ref_type": "amends",
+        "context": "Section 302 of the Homeland Security Act of 2002 (6 U.S.C. 182) is amended",
+        "mentions": 1,
+        "first_seen": "1307"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "as defined in section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1307"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Artificial Intelligence Risk Management Framework",
+        "doc_type": "strategy",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "NIST AI 100\u20131",
+        "mentions": 1,
+        "first_seen": "1307"
+      },
+      {
+        "name": "State and Territory Report on Enduring and Emerging Threats",
+        "doc_type": "report",
+        "owner_org": "Drug Enforcement Administration",
+        "context": "latest State and Territory Report on Enduring and Emerging Threats published by the Drug Enforcement Administration",
+        "mentions": 1,
+        "first_seen": "1307"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "directorate of science and technology": "Confirmed as office within DHS from context of Under Secretary role and amendment of Homeland Security Act Section 302"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1307",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Directorate of Science and Technology",
+      "resolved": "Confirmed as office within DHS from context of Under Secretary role and amendment of Homeland Security Act Section 302",
+      "doc_id": "1307",
+      "community_id": "community:206"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:homeland_security_act_of_2002": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "office:directorate_of_science_and_technology": 0.6,
+    "role:under_secretary_for_science_and_technology": 0.6,
+    "named_doc:artificial_intelligence_risk_management_framework": 0.6,
+    "named_doc:state_and_territory_report_on_enduring_and_emerging_threats": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:drug_enforcement_administration": 0.6,
+    "org:directorate_of_science_and_technology": 0.6
+  }
+}

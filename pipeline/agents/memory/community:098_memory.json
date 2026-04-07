@@ -1,0 +1,194 @@
+{
+  "community_id": "community:098",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Department of Energy and National Science Foundation research and development coordination",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "Department of Energy and National Science Foundation research and development coordination",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Senate of the United States",
+        "acronym": null,
+        "context": "IN THE SENATE OF THE UNITED STATES",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "House of Representatives of the United States",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "in Congress assembled",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "applications from Federal agencies, National Laboratories, institutions of higher education",
+        "mentions": 1,
+        "first_seen": "438"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "parent_org": "Senate of the United States",
+        "context": "referred to the Committee on Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "parent_org": "House of Representatives of the United States",
+        "context": "submit to the Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "parent_org": "Senate of the United States",
+        "context": "Committee on Energy and Natural Resources and the Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "438"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "The Secretary of Energy (in this section referred to as the \"Secretary\")",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "title": "Director of the National Science Foundation",
+        "org": "National Science Foundation",
+        "context": "the Director of the National Science Foundation (in this section referred to as the \"Director\")",
+        "mentions": 1,
+        "first_seen": "438"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "H.R. 2980",
+        "citation": "H.R. 2980",
+        "ref_type": "enacts",
+        "context": "H. R. 2980 - DOE and NSF Interagency Research Act",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "DOE and NSF Interagency Research Act",
+        "citation": "H.R. 2980",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"DOE and NSF Interagency Research Act\".",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Department of Energy Research and Innovation Act",
+        "citation": "42 U.S.C. 18644",
+        "ref_type": "cites",
+        "context": "section 306 of the Department of Energy Research and Innovation Act (42 U.S.C. 18644)",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "National Quantum Initiative Act",
+        "citation": "15 U.S.C. 8853 and 8854",
+        "ref_type": "cites",
+        "context": "sections 403 and 404 of the National Quantum Initiative Act (15 U.S.C. 8853 and 8854)",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 16313",
+        "ref_type": "cites",
+        "context": "section 973 of the Energy Policy Act of 2005 (42 U.S.C. 16313)",
+        "mentions": 1,
+        "first_seen": "438"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "42 U.S.C. 19231 et seq.",
+        "ref_type": "cites",
+        "context": "subtitle D of title VI of the Research and Development, Competition, and Innovation Act (enacted as division B of Public Law 117\u2013167; 42 U.S.C. 19231 et seq.)",
+        "mentions": 1,
+        "first_seen": "438"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Memorandum of Understanding",
+        "doc_type": "other",
+        "owner_org": "Department of Energy, National Science Foundation",
+        "context": "coordinate activities through the establishment of a memorandum of understanding, or other appropriate interagency agreement",
+        "mentions": 1,
+        "first_seen": "438"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Energy, Department of Energy",
+    "director": "Director of the National Science Foundation, National Science Foundation"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "438",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Energy, Department of Energy",
+      "doc_id": "438",
+      "community_id": "community:098"
+    },
+    {
+      "phrase": "Director",
+      "resolved": "Director of the National Science Foundation, National Science Foundation",
+      "doc_id": "438",
+      "community_id": "community:098"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:h_r_2980": 0.6,
+    "legislation:doe_and_nsf_interagency_research_act": 0.6,
+    "legislation:department_of_energy_research_and_innovation_act": 0.6,
+    "legislation:national_quantum_initiative_act": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "office:committee_on_commerce_science_and_transportation": 0.6,
+    "office:committee_on_science_space_and_technology": 0.6,
+    "office:committee_on_energy_and_natural_resources": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:director_of_the_national_science_foundation": 0.6,
+    "named_doc:memorandum_of_understanding": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:national_science_foundation": 1.0,
+    "org:senate_of_the_united_states": 0.6,
+    "org:house_of_representatives_of_the_united_states": 0.6,
+    "org:congress": 0.9,
+    "org:national_laboratories": 0.6
+  }
+}

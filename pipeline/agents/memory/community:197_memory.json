@@ -1,0 +1,313 @@
+{
+  "community_id": "community:197",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Chief Data Officer Council",
+        "acronym": null,
+        "context": "The Council shall submit to the Director reports on data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Senate committee receiving Council reports on data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Committee on Oversight and Accountability",
+        "acronym": null,
+        "context": "House committee receiving Council reports on data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Chief Financial Officers Council",
+        "acronym": null,
+        "context": "Interagency council for collaboration on data governance best practices",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Chief Human Capital Officers Council",
+        "acronym": null,
+        "context": "Interagency council for collaboration on data governance best practices",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Chief Acquisition Officers Council",
+        "acronym": null,
+        "context": "Interagency council for collaboration on data governance best practices",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Federal Privacy Council",
+        "acronym": null,
+        "context": "Interagency council for collaboration on data governance best practices",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Chief Information Officers Council",
+        "acronym": null,
+        "context": "Interagency council for collaboration on data governance best practices",
+        "mentions": 1,
+        "first_seen": "1205"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Chief Data Officer Council",
+        "parent_org": "Federal Government",
+        "context": "extend the Chief Data Officer Council's sunset and add new authorities",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Office of Electronic Government",
+        "parent_org": "Executive Branch",
+        "context": "Administrator of the Office of Electronic Government serves on Council",
+        "mentions": 1,
+        "first_seen": "1205"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Chief AI Officer",
+        "org": "Federal Agencies",
+        "context": "including to enable agencies to securely adopt AI by appointing Chief AI Officers",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Administrator of the Office of Electronic Government",
+        "org": "Office of Electronic Government",
+        "context": "Administrator serves on the Chief Data Officer Council",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Director",
+        "org": "Executive Branch",
+        "context": "Director appoints Chief AI Officer representative to Council; receives reports",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Artificial Intelligence Officer",
+        "org": "Federal Agencies",
+        "context": "Representative appointed to serve on the Chief Data Officer Council",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Information Officer",
+        "org": "Federal Agencies",
+        "context": "Senior agency leader with roles related to data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Information Security Officer",
+        "org": "Federal Agencies",
+        "context": "Senior agency leader with roles related to data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Financial Officer",
+        "org": "Federal Agencies",
+        "context": "Senior agency leader with roles related to data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Privacy Officer",
+        "org": "Federal Agencies",
+        "context": "Senior agency leader with roles related to data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Data Officer",
+        "org": "Federal Agencies",
+        "context": "Inventory of all Chief Data Officers across Federal Government required",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Chief Acquisition Officer",
+        "org": "Federal Agencies",
+        "context": "Senior agency leader with roles related to data governance",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "title": "Comptroller General",
+        "org": "Government Accountability Office",
+        "context": "Evaluates Council duties and reports to Congress on effectiveness",
+        "mentions": 1,
+        "first_seen": "1205"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "section 3520A of title 44, United States Code",
+        "citation": "44 U.S.C. \u00a7 3520A",
+        "ref_type": "amends",
+        "context": "To amend section 3520A of title 44, United States Code, to extend",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Modernizing Data Practices to Improve Government Act",
+        "citation": "Section 1",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Modernizing Data Practices to Improve Government Act\".",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "Definition of artificial intelligence provided in section 5002",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "Public Law 115\u2013232; 10 U.S.C. 4061 note prec.",
+        "ref_type": "cites",
+        "context": "Artificial systems and techniques described in section 238(g)",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Title 44, United States Code, Section 3520A",
+        "citation": "44 U.S.C. \u00a7 3520A",
+        "ref_type": "amends",
+        "context": "Amended by striking subsections (d) and (e), redesignating subsections",
+        "mentions": 1,
+        "first_seen": "1205"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Biennial report on the work of the Council",
+        "doc_type": "report",
+        "owner_org": "Chief Data Officer Council",
+        "context": "Council shall submit biennial report including updates to recommendations",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Data governance best practices report",
+        "doc_type": "report",
+        "owner_org": "Chief Data Officer Council",
+        "context": "Due 1 year after enactment; includes recommendations on datasets and policies",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Data management report",
+        "doc_type": "report",
+        "owner_org": "Director",
+        "context": "Due 270 days after enactment; submitted to Congress with Chief Data Officer inventory",
+        "mentions": 1,
+        "first_seen": "1205"
+      },
+      {
+        "name": "Comptroller General evaluation report",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "Due 2 years after enactment, then biennially; evaluates Council effectiveness",
+        "mentions": 1,
+        "first_seen": "1205"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director": "Director of the Office of Electronic Government or Director as referenced in context; appoints Chief AI Officer representative and receives Council reports",
+    "the council": "Chief Data Officer Council as established in section 3520A of title 44"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1205",
+      "note": "SEC. 2 heading 'Amendments' appears to be a structural marker without substantive content in the provided text; no amendatory language or specific code citations are present in this excerpt."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1205",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director",
+      "resolved": "Director of the Office of Electronic Government or Director as referenced in context; appoints Chief AI Officer representative and receives Council reports",
+      "doc_id": "1205",
+      "community_id": "community:197"
+    },
+    {
+      "phrase": "The Council",
+      "resolved": "Chief Data Officer Council as established in section 3520A of title 44",
+      "doc_id": "1205",
+      "community_id": "community:197"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:section_3520a_of_title_44_united_states_code": 0.6,
+    "legislation:modernizing_data_practices_to_improve_government_act": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "legislation:title_44_united_states_code_section_3520a": 0.6,
+    "office:chief_data_officer_council": 0.6,
+    "office:office_of_electronic_government": 0.6,
+    "role:chief_ai_officer": 0.6,
+    "role:administrator_of_the_office_of_electronic_government": 0.6,
+    "role:director": 0.6,
+    "role:chief_artificial_intelligence_officer": 0.6,
+    "role:chief_information_officer": 0.6,
+    "role:chief_information_security_officer": 0.6,
+    "role:chief_financial_officer": 0.6,
+    "role:chief_privacy_officer": 0.6,
+    "role:chief_data_officer": 0.6,
+    "role:chief_acquisition_officer": 0.6,
+    "role:comptroller_general": 0.6,
+    "named_doc:biennial_report_on_the_work_of_the_council": 0.6,
+    "named_doc:data_governance_best_practices_report": 0.6,
+    "named_doc:data_management_report": 0.6,
+    "named_doc:comptroller_general_evaluation_report": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:chief_data_officer_council": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_oversight_and_accountability": 0.6,
+    "org:chief_financial_officers_council": 0.6,
+    "org:chief_human_capital_officers_council": 0.6,
+    "org:chief_acquisition_officers_council": 0.6,
+    "org:federal_privacy_council": 0.6,
+    "org:chief_information_officers_council": 0.6
+  }
+}

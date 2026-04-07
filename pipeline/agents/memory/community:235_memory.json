@@ -1,0 +1,279 @@
+{
+  "community_id": "community:235",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Chief Data Officer Council",
+        "acronym": "CDO Council",
+        "context": "Requires the Chief Data Officer Council to identify AI opportunities and enhance data practices",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative",
+        "acronym": "NAII",
+        "context": "National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Committee on Oversight and Accountability",
+        "acronym": null,
+        "context": "Committee on Oversight and Accountability of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "Comptroller General shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "1679"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Chief Data Officer",
+        "parent_org": "Federal Agencies",
+        "context": "Chief Data Officer at the agency",
+        "mentions": 1,
+        "first_seen": "1679"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Chief Data Officer",
+        "org": "Chief Data Officer Council",
+        "context": "Chief Data Officer Council to identify AI opportunities and enhance data practices",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "title": "Director",
+        "org": "Office of Management and Budget",
+        "context": "The Director, upon receipt of a report required under subsection (d)",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "title": "Agency Chief Information Officers",
+        "org": "Federal Agencies",
+        "context": "representative to serve as an ex-officio member for Agency Chief Information Officers",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "title": "Agency Evaluation Officers",
+        "org": "Federal Agencies",
+        "context": "representative to serve as an ex-officio member for Agency Evaluation Officers",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "title": "Senior agency officials for privacy",
+        "org": "Federal Agencies",
+        "context": "representative to serve as an ex-officio member for Senior agency officials for privacy",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "title": "Comptroller General",
+        "org": "Government Accountability Office",
+        "context": "the Comptroller General shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "1679"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "title 44, United States Code",
+        "citation": "44 U.S.C.",
+        "ref_type": "amends",
+        "context": "To amend title 44, United States Code, to modernize data practices to improve government",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "section 3502 of title 44, United States Code",
+        "citation": "44 U.S.C. \u00a7 3502",
+        "ref_type": "cites",
+        "context": "Existing entity from earlier sections",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Modernizing Data Practices to Improve Government Act",
+        "citation": "Not yet assigned",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Modernizing Data Practices to Improve Government Act\".",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "has the meaning given the term 'artificial intelligence' in section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "Public Law 115\u2013232; 10 U.S.C. 4061 note prec.",
+        "ref_type": "cites",
+        "context": "artificial systems and techniques described in paragraphs (1) through (5) of section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Title 44, United States Code, Section 3502",
+        "citation": "44 U.S.C. 3502",
+        "ref_type": "amends",
+        "context": "Section 3502 of title 44, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Title 44, United States Code, Section 3520",
+        "citation": "44 U.S.C. 3520",
+        "ref_type": "amends",
+        "context": "Subsection (b) of section 3520 of title 44, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Title 44, United States Code, Section 3520A",
+        "citation": "44 U.S.C. 3520A",
+        "ref_type": "other",
+        "context": "termination and repeal under subsection (e)(2) of section 3520A of title 44, United States Code",
+        "mentions": 1,
+        "first_seen": "1679"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Modernizing Data Practices to Improve Government Act",
+        "doc_type": "legislation",
+        "owner_org": "Congress",
+        "context": "Bill to amend title 44, United States Code, to modernize data practices to improve government",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "biennial reports on AI use and data governance improvements",
+        "doc_type": "report",
+        "owner_org": "agencies",
+        "context": "Mandates biennial reports on AI use and data governance improvements in agencies",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Chief Data Officer Inventory",
+        "doc_type": "other",
+        "owner_org": "Office of Management and Budget",
+        "context": "The Director, in consultation with the Council, shall make available on a public website an inventory of Chief Data Officers",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "biennial report on the work of the Council",
+        "doc_type": "report",
+        "owner_org": "Chief Data Officer Council",
+        "context": "Not later than 2 years after the date of the enactment, and every two years thereafter, a report on the work of the Council",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "report on recommendations and best practices for agencies",
+        "doc_type": "report",
+        "owner_org": "Chief Data Officer Council",
+        "context": "Not later than 1 year after the date of the enactment, a report that includes recommendations and best practices for agencies",
+        "mentions": 1,
+        "first_seen": "1679"
+      },
+      {
+        "name": "Comptroller General evaluation report",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "the Comptroller General shall submit to Congress a report on whether the duties of the Council improved the use of evidence, data, and program evaluation",
+        "mentions": 1,
+        "first_seen": "1679"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director": "Refers to the Director of the Office of Management and Budget, based on context of title 44 governance and authority to issue guidance to agencies"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1679",
+      "note": "Section 3 contains only a fiscal constraint statement with no new entity mentions. This is a standard appropriations restriction clause found in legislative acts."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1679",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director",
+      "resolved": "Refers to the Director of the Office of Management and Budget, based on context of title 44 governance and authority to issue guidance to agencies",
+      "doc_id": "1679",
+      "community_id": "community:235"
+    }
+  ],
+  "entity_confidence": {
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:chief_data_officer_council": 0.6,
+    "org:national_artificial_intelligence_initiative": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_oversight_and_accountability": 0.6,
+    "org:government_accountability_office": 0.6,
+    "legislation:title_44_united_states_code": 0.6,
+    "legislation:section_3502_of_title_44_united_states_code": 0.9,
+    "legislation:modernizing_data_practices_to_improve_government_act": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "legislation:title_44_united_states_code_section_3502": 0.6,
+    "legislation:title_44_united_states_code_section_3520": 0.6,
+    "legislation:title_44_united_states_code_section_3520a": 0.6,
+    "office:chief_data_officer": 0.6,
+    "named_doc:modernizing_data_practices_to_improve_government_act": 0.6,
+    "named_doc:biennial_reports_on_ai_use_and_data_governance_improvements": 0.6,
+    "named_doc:chief_data_officer_inventory": 0.6,
+    "named_doc:biennial_report_on_the_work_of_the_council": 0.6,
+    "named_doc:report_on_recommendations_and_best_practices_for_agencies": 0.6,
+    "named_doc:comptroller_general_evaluation_report": 0.6,
+    "role:chief_data_officer": 0.6,
+    "role:director": 0.6,
+    "role:agency_chief_information_officers": 0.6,
+    "role:agency_evaluation_officers": 0.6,
+    "role:senior_agency_officials_for_privacy": 0.6,
+    "role:comptroller_general": 0.6
+  }
+}

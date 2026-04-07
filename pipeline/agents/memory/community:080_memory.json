@@ -1,0 +1,274 @@
+{
+  "community_id": "community:080",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "referred to the Committee on Energy and Commerce",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "in addition to the Committee on Foreign Affairs",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "Sec. 7. Enforcement authority granted to Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "State Attorneys General",
+        "acronym": null,
+        "context": "enforcement by the Federal Trade Commission or State Attorneys General",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "United States Agency for International Development",
+        "acronym": "USAID",
+        "context": "Administrator of the United States Agency for International Development shall, in coordination with the Secretary of State",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Committee on Foreign Relations of the Senate",
+        "acronym": null,
+        "context": "submit a report, to the Committee on Foreign Relations of the Senate",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation of the Senate",
+        "acronym": null,
+        "context": "submit a report, to the Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Committee on Foreign Affairs of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Foreign Affairs of the House of Representatives describing the findings",
+        "mentions": 1,
+        "first_seen": "641"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Advisory Group on Language-Sensitive Technologies",
+        "parent_org": "Federal Trade Commission",
+        "context": "the Commission shall establish a group to be known as the \"Advisory Group on Language-Sensitive Technologies\"",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "attorney general of a State",
+        "parent_org": "State",
+        "context": "attorney general of a State has reason to believe that an interest of the residents of the State has been or is threatened",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Office of the Secretary of State",
+        "parent_org": "U.S. Department of State",
+        "context": "in coordination with the Secretary of State, evaluate and prioritize support",
+        "mentions": 1,
+        "first_seen": "641"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Speaker",
+        "org": "House of Representatives",
+        "context": "to be subsequently determined by the Speaker",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "State Attorneys General",
+        "org": "State of [respective U.S. state]",
+        "context": "enforcement by the Federal Trade Commission or State Attorneys General",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "operator of a covered platform",
+        "org": "covered platform",
+        "context": "The operator of a covered platform shall, not less than annually, submit to the Commission",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "Member of Advisory Group",
+        "org": "Federal Trade Commission",
+        "context": "The Commission shall appoint the members of the Advisory Group",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "attorney general",
+        "org": "State",
+        "context": "the attorney general of a State shall notify the Commission in writing that the attorney general intends to bring a civil action",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "consumer protection officer",
+        "org": "State",
+        "context": "any other consumer protection officer of a State who is authorized by the State to do so may bring a civil action",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "Administrator",
+        "org": "United States Agency for International Development",
+        "context": "The Administrator of the United States Agency for International Development shall",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "U.S. Department of State",
+        "context": "in coordination with the Secretary of State, evaluate and prioritize support",
+        "mentions": 1,
+        "first_seen": "641"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "H.R. 3806",
+        "citation": "H.R. 3806",
+        "ref_type": "enacts",
+        "context": "H. R. 3806 - LISTOS Act",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Language-Inclusive Support and Transparency for Online Services Act of 2023",
+        "citation": "H.R. 3806",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Language-Inclusive Support and Transparency for Online Services Act of 2023\"",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Chapter 10 of title 5, United States Code",
+        "citation": "5 U.S.C. ch. 10",
+        "ref_type": "cites",
+        "context": "Chapter 10 of title 5, United States Code, shall not apply to the Advisory Group",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Federal Advisory Committee Act",
+        "citation": "5 U.S.C. ch. 10",
+        "ref_type": "other",
+        "context": "Non-Applicability Of The Federal Advisory Committee Act",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "citation": "15 U.S.C. 57a(a)(1)(B)",
+        "ref_type": "cites",
+        "context": "violation of a rule defining an unfair or a deceptive act or practice under section 18(a)(1)(B) of the Federal Trade Commission Act",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Title 28, United States Code",
+        "citation": "28 U.S.C. 1391",
+        "ref_type": "cites",
+        "context": "district court of the United States that meets applicable requirements relating to venue under section 1391 of title 28",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Section 553 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 553",
+        "ref_type": "cites",
+        "context": "The Commission shall, pursuant to section 553 of title 5, United States Code promulgate",
+        "mentions": 1,
+        "first_seen": "641"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "International online communication research activities pilot program",
+        "doc_type": "program",
+        "owner_org": "Federal Trade Commission",
+        "context": "Sec. 10. International online communication research activities pilot program.",
+        "mentions": 1,
+        "first_seen": "641"
+      },
+      {
+        "name": "Advisory Group on Language-Sensitive Technologies findings and recommendations",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "Commission shall make available on its website the findings of the Advisory Group with recommendations and best practices",
+        "mentions": 1,
+        "first_seen": "641"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "commission": "Federal Trade Commission \u2014 referenced in subsection (c) as the regulatory body issuing rules under this section"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "641",
+      "note": "Section 1 contains only the short title and reference to table of contents; minimal substantive legislative language from which to extract entities. The full name of the act (Language-Inclusive Support and Transparency for Online Services Act of 2023) is confirmed as the enacting statute with citation H.R. 3806."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "641",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Commission",
+      "resolved": "Federal Trade Commission \u2014 referenced in subsection (c) as the regulatory body issuing rules under this section",
+      "doc_id": "641",
+      "community_id": "community:080"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:h_r_3806": 0.6,
+    "legislation:language_inclusive_support_and_transparency_for_online_services_act_of_2023": 0.6,
+    "legislation:chapter_10_of_title_5_united_states_code": 0.6,
+    "legislation:federal_advisory_committee_act": 0.6,
+    "legislation:federal_trade_commission_act": 0.6,
+    "legislation:title_28_united_states_code": 0.6,
+    "legislation:section_553_of_title_5_united_states_code": 0.6,
+    "office:advisory_group_on_language_sensitive_technologies": 0.6,
+    "office:attorney_general_of_a_state": 0.6,
+    "office:office_of_the_secretary_of_state": 0.6,
+    "role:speaker": 0.39999999999999997,
+    "role:state_attorneys_general": 0.6,
+    "role:operator_of_a_covered_platform": 0.6,
+    "role:member_of_advisory_group": 0.6,
+    "role:attorney_general": 0.9,
+    "role:consumer_protection_officer": 0.6,
+    "role:administrator": 0.6,
+    "role:secretary_of_state": 0.6,
+    "named_doc:international_online_communication_research_activities_pilot_program": 0.6,
+    "named_doc:advisory_group_on_language_sensitive_technologies_findings_and_recommendations": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:state_attorneys_general": 0.6,
+    "org:united_states_agency_for_international_development": 0.6,
+    "org:committee_on_foreign_relations_of_the_senate": 0.6,
+    "org:committee_on_commerce_science_and_transportation_of_the_senate": 0.6,
+    "org:committee_on_foreign_affairs_of_the_house_of_representatives": 0.6
+  }
+}

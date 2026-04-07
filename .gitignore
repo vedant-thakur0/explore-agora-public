@@ -6,4 +6,4 @@ pipeline/runs/docx_match_*.json
 pipeline/runs/txt_match_*.json
 .env
 
-exploratory_reports/
+exploratory_reports/*.md

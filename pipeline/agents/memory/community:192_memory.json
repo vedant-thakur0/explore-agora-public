@@ -1,0 +1,366 @@
+{
+  "community_id": "community:192",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "the Commission shall establish and carry out a pilot program",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "in consultation with the Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "the Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Treasury of the United States",
+        "acronym": null,
+        "context": "There is established in the Treasury of the United States a separate fund",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Office of the Attorney General",
+        "acronym": null,
+        "context": "Attorney General of the United States commences on behalf of the Commission",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "the Commission shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "1337"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Comptroller General",
+        "parent_org": "Government Accountability Office",
+        "context": "Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Office of the Secretary",
+        "parent_org": "Department of Commerce",
+        "context": "in consultation with the Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "New Bureau for Privacy-Enhancing Technologies Enforcement",
+        "parent_org": "Federal Trade Commission",
+        "context": "The Commission shall establish, within the Commission, a new bureau comparable in structure, size, organization, and authority to the existing bureaus",
+        "mentions": 1,
+        "first_seen": "1337"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "in consultation with the Secretary of Commerce, to disseminate voluntary",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "the Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Attorney",
+        "org": "Federal Trade Commission",
+        "context": "In staffing the bureau established under this subsection, the Commission shall ensure the allocation of full time employees or full time employee equivalents that include attorneys",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Economist",
+        "org": "Federal Trade Commission",
+        "context": "full time employee equivalents that include attorneys, economists, investigators, technologists",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Investigator",
+        "org": "Federal Trade Commission",
+        "context": "full time employee equivalents that include attorneys, economists, investigators, technologists",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Technologist",
+        "org": "Federal Trade Commission",
+        "context": "full time employee equivalents that include attorneys, economists, investigators, technologists, and mental health professionals",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Mental Health Professional",
+        "org": "Federal Trade Commission",
+        "context": "full time employee equivalents that include attorneys, economists, investigators, technologists, and mental health professionals with experience in the well-being of children and teens",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "title": "Attorney General",
+        "org": "United States",
+        "context": "The Commission or the Attorney General of the United States, as applicable, shall deposit into the Victims Relief Fund",
+        "mentions": 1,
+        "first_seen": "1337"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "American Privacy Rights Act of 2024",
+        "citation": "SEC. 114",
+        "ref_type": "enacts",
+        "context": "Not later than 1 year after the date of the enactment of this Act",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Section 109",
+        "citation": "section 109",
+        "ref_type": "cites",
+        "context": "to comply with section 109 and meet or exceed all or some requirements",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "citation": "15 U.S.C. 57a(a)(1)(B)",
+        "ref_type": "cites",
+        "context": "treated as a violation of a rule defining an unfair or deceptive act or practice prescribed under section 18(a)(1)(B) of the Federal Trade Commission Act",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "citation": "47 U.S.C. 201 et seq.",
+        "ref_type": "cites",
+        "context": "common carriers subject to title II of the Communications Act of 1934 (47 U.S.C. 201 et seq.)",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Section 115",
+        "citation": "Sec. 115",
+        "ref_type": "other",
+        "context": "for any action under section 115 or 116 for a violation of section 109",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Section 116",
+        "citation": "Sec. 116",
+        "ref_type": "other",
+        "context": "for any action under section 115 or 116 for a violation of section 109",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Section 117",
+        "citation": "Sec. 117",
+        "ref_type": "other",
+        "context": "for any action under section 117 for a violation of section 109",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Title 31, United States Code, Section 3302",
+        "citation": "31 U.S.C. \u00a7 3302",
+        "ref_type": "cites",
+        "context": "Notwithstanding section 3302 of title 31, United States Code",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Title 31, United States Code, Chapter 15",
+        "citation": "31 U.S.C. ch. 15",
+        "ref_type": "cites",
+        "context": "apportionment for the purpose of chapter 15 of title 31, United States Code",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "American Privacy Rights Act of 2024, Section 116",
+        "citation": "Sec. 116",
+        "ref_type": "cites",
+        "context": "any amount the person received from an action brought against the entity for the same violation under section 116",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "American Privacy Rights Act of 2024, Section 117",
+        "citation": "Sec. 117",
+        "ref_type": "cites",
+        "context": "any amount the person received from an action brought against the entity for the same violation under section 117",
+        "mentions": 1,
+        "first_seen": "1337"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Privacy-Enhancing Technology Pilot Program",
+        "doc_type": "program",
+        "owner_org": "Federal Trade Commission",
+        "context": "the Commission shall establish and carry out a pilot program",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Study on Privacy-Enhancing Technologies",
+        "doc_type": "study",
+        "owner_org": "Government Accountability Office",
+        "context": "the Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Initial Briefing on Privacy-Enhancing Technology Pilot Program",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "the Comptroller General shall brief the Committee on initial results",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Final Report on Privacy-Enhancing Technologies",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "the Comptroller General shall submit a final report setting forth results",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Privacy and Security Victims Relief Fund",
+        "doc_type": "program",
+        "owner_org": "Federal Trade Commission",
+        "context": "There is established in the Treasury of the United States a separate fund to be known as the Privacy and Security Victims Relief Fund",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Victims Relief Fund",
+        "doc_type": "program",
+        "owner_org": "Federal Trade Commission",
+        "context": "amounts in the Victims Relief Fund shall be available to the Commission",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Annual Report on Violations of This Title",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "the Commission shall submit to Congress a report describing investigations conducted during the prior year",
+        "mentions": 1,
+        "first_seen": "1337"
+      },
+      {
+        "name": "Annual Plan for Commission Activities",
+        "doc_type": "plan",
+        "owner_org": "Federal Trade Commission",
+        "context": "the Commission shall submit to Congress a plan for the next calendar year describing the projected activities",
+        "mentions": 1,
+        "first_seen": "1337"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the commission": "Federal Trade Commission (established context in subsection (b))",
+    "covered entities": "Private sector entities participating in the pilot program"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1337",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Commission",
+      "resolved": "Federal Trade Commission (established context in subsection (b))",
+      "doc_id": "1337",
+      "community_id": "community:192"
+    },
+    {
+      "phrase": "covered entities",
+      "resolved": "Private sector entities participating in the pilot program",
+      "doc_id": "1337",
+      "community_id": "community:192"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:american_privacy_rights_act_of_2024": 0.6,
+    "legislation:section_109": 0.6,
+    "legislation:federal_trade_commission_act": 0.6,
+    "legislation:communications_act_of_1934": 0.6,
+    "legislation:section_115": 0.6,
+    "legislation:section_116": 0.6,
+    "legislation:section_117": 0.6,
+    "legislation:title_31_united_states_code_section_3302": 0.6,
+    "legislation:title_31_united_states_code_chapter_15": 0.6,
+    "legislation:american_privacy_rights_act_of_2024_section_116": 0.6,
+    "legislation:american_privacy_rights_act_of_2024_section_117": 0.6,
+    "office:office_of_the_comptroller_general": 0.6,
+    "office:office_of_the_secretary": 0.6,
+    "office:new_bureau_for_privacy_enhancing_technologies_enforcement": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "role:attorney": 0.6,
+    "role:economist": 0.6,
+    "role:investigator": 0.6,
+    "role:technologist": 0.6,
+    "role:mental_health_professional": 0.6,
+    "role:attorney_general": 0.9,
+    "named_doc:privacy_enhancing_technology_pilot_program": 0.6,
+    "named_doc:study_on_privacy_enhancing_technologies": 0.6,
+    "named_doc:initial_briefing_on_privacy_enhancing_technology_pilot_program": 0.6,
+    "named_doc:final_report_on_privacy_enhancing_technologies": 0.6,
+    "named_doc:privacy_and_security_victims_relief_fund": 0.6,
+    "named_doc:victims_relief_fund": 0.6,
+    "named_doc:annual_report_on_violations_of_this_title": 0.6,
+    "named_doc:annual_plan_for_commission_activities": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:department_of_commerce": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:treasury_of_the_united_states": 0.6,
+    "org:office_of_the_attorney_general": 0.6,
+    "org:congress": 0.9
+  }
+}

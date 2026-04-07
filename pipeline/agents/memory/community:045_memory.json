@@ -1,0 +1,67 @@
+{
+  "community_id": "community:045",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Small Business Administration",
+        "acronym": "SBA",
+        "context": "The Administration may provide loans under this subsection",
+        "mentions": 1,
+        "first_seen": "2304"
+      },
+      {
+        "name": "Senate and House of Representatives of the United States of America",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "2304"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "Small Business Technological Act of 2025",
+        "citation": "S.305",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Small Business Technological Act of 2025",
+        "mentions": 1,
+        "first_seen": "2304"
+      },
+      {
+        "name": "Small Business Act",
+        "citation": "15 U.S.C. 631 et seq.",
+        "ref_type": "amends",
+        "context": "Section 7(a) of the Small Business Act (15 U.S.C. 636(a)) is amended",
+        "mentions": 1,
+        "first_seen": "2304"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "the administration": "Small Business Administration - referenced in SEC. 2(a) as authority to provide loans"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "2304",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Administration",
+      "resolved": "Small Business Administration - referenced in SEC. 2(a) as authority to provide loans",
+      "doc_id": "2304",
+      "community_id": "community:045"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:small_business_technological_act_of_2025": 0.6,
+    "legislation:small_business_act": 0.6,
+    "org:small_business_administration": 0.6,
+    "org:senate_and_house_of_representatives_of_the_united_states_of_america": 0.6
+  }
+}

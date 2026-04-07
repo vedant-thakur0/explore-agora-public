@@ -1,0 +1,208 @@
+{
+  "community_id": "community:213",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "Director of the Office of Management and Budget, acting through the Administrator",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Office of Information and Regulatory Affairs",
+        "acronym": "OIRA",
+        "context": "Administrator of the Office of Information and Regulatory Affairs",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Government Publishing Office",
+        "acronym": "GPO",
+        "context": "Director of the Government Publishing Office",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Administrative Committee of the Federal Register",
+        "acronym": null,
+        "context": "committee established under section 1506 of title 44, United States Code",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Federal Register",
+        "acronym": null,
+        "context": "Director of the Federal Register",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Committee on Oversight and Accountability of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Code of Federal Regulations",
+        "acronym": "CFR",
+        "context": "eCFR maintained by the Director of the Federal Register and the Director of GPO as an official legal edition of the Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "1316"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Committee on Oversight and Accountability",
+        "parent_org": "House of Representatives",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "parent_org": "Senate",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1316"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "Office of Management and Budget",
+        "context": "Director of the Office of Management and Budget, acting through the Administrator",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "title": "Administrator",
+        "org": "Office of Information and Regulatory Affairs",
+        "context": "Administrator of the Office of Information and Regulatory Affairs",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "title": "Archivist",
+        "org": "National Archives and Records Administration",
+        "context": "Archivist of the United States",
+        "mentions": 1,
+        "first_seen": "1316"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Modernizing Retrospective Regulatory Review Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Modernizing Retrospective Regulatory Review Act",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "section 1506 of title 44, United States Code",
+        "citation": "44 U.S.C. 1506",
+        "ref_type": "cites",
+        "context": "committee established under section 1506 of title 44, United States Code",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "section 3502 of title 44, United States Code",
+        "citation": "44 U.S.C. 3502",
+        "ref_type": "cites",
+        "context": "has the meaning given the term in section 3502 of title 44, United States Code",
+        "mentions": 1,
+        "first_seen": "1316"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report On Availability Of Existing Regulations In Machine-Readable Format",
+        "doc_type": "report",
+        "owner_org": "Office of Management and Budget",
+        "context": "submit to the appropriate congressional committees, a report on the progress of the Federal Government in making regulations of agencies available in machine-readable format",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Guidance On Using Technology To Conduct Retrospective Reviews",
+        "doc_type": "initiative",
+        "owner_org": "Office of Management and Budget",
+        "context": "the Director of the Office of Management and Budget, acting through the Administrator, shall issue guidance on how the head of an agency can use technology",
+        "mentions": 1,
+        "first_seen": "1316"
+      },
+      {
+        "name": "Agency Retrospective Review Plan",
+        "doc_type": "plan",
+        "owner_org": null,
+        "context": "head of each agency shall submit to the Administrator and the appropriate congressional committees a plan",
+        "mentions": 1,
+        "first_seen": "1316"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "administrator": "Identified as Administrator of the Office of Information and Regulatory Affairs (OIRA)",
+    "director of gpo": "Resolved as Director of the Government Publishing Office",
+    "archivist of the united states": "Reference to head of National Archives and Records Administration"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1316",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Administrator",
+      "resolved": "Identified as Administrator of the Office of Information and Regulatory Affairs (OIRA)",
+      "doc_id": "1316",
+      "community_id": "community:213"
+    },
+    {
+      "phrase": "Director of GPO",
+      "resolved": "Resolved as Director of the Government Publishing Office",
+      "doc_id": "1316",
+      "community_id": "community:213"
+    },
+    {
+      "phrase": "Archivist of the United States",
+      "resolved": "Reference to head of National Archives and Records Administration",
+      "doc_id": "1316",
+      "community_id": "community:213"
+    }
+  ],
+  "entity_confidence": {
+    "org:office_of_management_and_budget": 1.0,
+    "org:office_of_information_and_regulatory_affairs": 0.6,
+    "org:government_publishing_office": 0.6,
+    "org:administrative_committee_of_the_federal_register": 0.6,
+    "org:federal_register": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:code_of_federal_regulations": 0.6,
+    "legislation:modernizing_retrospective_regulatory_review_act": 0.6,
+    "legislation:section_1506_of_title_44_united_states_code": 0.6,
+    "legislation:section_3502_of_title_44_united_states_code": 0.9,
+    "office:committee_on_oversight_and_accountability": 0.6,
+    "office:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "named_doc:report_on_availability_of_existing_regulations_in_machine_readable_format": 0.6,
+    "named_doc:guidance_on_using_technology_to_conduct_retrospective_reviews": 0.6,
+    "named_doc:agency_retrospective_review_plan": 0.6,
+    "role:director": 0.6,
+    "role:administrator": 0.6,
+    "role:archivist": 0.6
+  }
+}

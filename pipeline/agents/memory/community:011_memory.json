@@ -1,0 +1,651 @@
+{
+  "community_id": "community:011",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "The Institute",
+        "acronym": null,
+        "context": "The Institute shall seek to promote collaboration between Americas partner countries",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "Russian Federation",
+        "acronym": null,
+        "context": "residing in or acting on behalf of the Russian Federation, the People's Republic of China, Iran, North Korea, Venezuela, Cuba",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": null,
+        "context": "residing in or acting on behalf of the Russian Federation, the People's Republic of China, Iran, North Korea, Venezuela, Cuba",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "North Korea",
+        "acronym": null,
+        "context": "the People's Republic of China, Iran, North Korea, Venezuela, Cuba, or such other countries",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "Venezuela",
+        "acronym": null,
+        "context": "Iran, North Korea, Venezuela, Cuba, or such other countries as the Institute considers necessary",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "Americas Partnership Secretariat",
+        "acronym": null,
+        "context": "established under section 204 shall establish a business advisory board",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "Americas Partnership Business Advisory Board",
+        "acronym": null,
+        "context": "business advisory board established under subsection (a) shall be composed",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "BUILD Act of 2018",
+        "acronym": null,
+        "context": "The BUILD Act of 2018 (22 U.S.C. 9601 et seq.) is amended",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "United States Agency for International Development",
+        "acronym": "USAID",
+        "context": "with the concurrence of the Administrator of the United States Agency for International Development",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Government of the Russian Federation",
+        "acronym": null,
+        "context": "may receive financing from the Government of the Russian Federation",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Government of the People's Republic of China",
+        "acronym": null,
+        "context": "may receive financing from the Government of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Export-Import Bank",
+        "acronym": "Ex-Im Bank",
+        "context": "Export-Import Bank Act of 1945 (12 U.S.C. 635(b)(1)) is amended",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "multilateral development banks",
+        "acronym": null,
+        "context": "coordination with other Federal agencies and with multilateral development banks",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "Committee on Energy and Natural Resources of the Senate",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Finance",
+        "acronym": null,
+        "context": "Committee on Finance of the Senate",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "acronym": null,
+        "context": "Committee on Foreign Relations of the Senate",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Ways and Means",
+        "acronym": null,
+        "context": "Committee on Ways and Means of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "Committee on Foreign Affairs of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": null,
+        "context": "Secretary of Energy shall establish a database",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "The agencies described in this paragraph shall include... the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Department of State",
+        "acronym": null,
+        "context": "The agencies described in this paragraph shall include... the Department of State",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Export-Import Bank of the United States",
+        "acronym": "Ex-Im Bank",
+        "context": "The agencies described in this paragraph shall include... the Export-Import Bank of the United States",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "United States International Development Finance Corporation",
+        "acronym": "DFC",
+        "context": "The agencies described in this paragraph shall include... the United States International Development Finance Corporation",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Trade and Development Agency",
+        "acronym": "TDA",
+        "context": "The agencies described in this paragraph shall include... the Trade and Development Agency",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "The agencies described in this paragraph shall include... the Department of the Treasury",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Office of the United States Trade Representative",
+        "acronym": "USTR",
+        "context": "The agencies described in this paragraph shall include... the Office of the United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Americas Unit",
+        "acronym": null,
+        "context": "The agencies described in this paragraph shall include... the BUILD Americas Unit",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "World Bank Group",
+        "acronym": null,
+        "context": "the United States Executive Director of the World Bank Group",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Inter-American Development Bank",
+        "acronym": "IDB",
+        "context": "the United States Executive Director of the Inter-American Development Bank",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Asian Development Bank",
+        "acronym": "ADB",
+        "context": "the United States Executive Director of the Asian Development Bank",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "African Development Bank",
+        "acronym": "AfDB",
+        "context": "the United States Executive Director of the African Development Bank",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "European Bank for Reconstruction and Development",
+        "acronym": "EBRD",
+        "context": "the United States Executive Director of the European Bank for Reconstruction and Development",
+        "mentions": 1,
+        "first_seen": "986"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Americas Partnership Secretariat",
+        "parent_org": null,
+        "context": "meet periodically, on an ad hoc basis, at the Secretariat",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "Chief Energy Office",
+        "parent_org": "Corporation (Development Finance Corporation)",
+        "context": "by inserting 'a Chief Energy Office,' after 'a Chief Development Officer,'",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Office of Energy",
+        "parent_org": "Export-Import Bank",
+        "context": "There shall be in the Bank the Office of Energy (referred to in this subparagraph as the 'Office')",
+        "mentions": 1,
+        "first_seen": "986"
+      }
+    ],
+    "roles": [
+      {
+        "title": "representatives of private sector entities, civil society organizations, and labor organizations",
+        "org": "Americas Partnership Business Advisory Board",
+        "context": "shall be composed of representatives of private sector entities",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "title": "Chief Energy Officer",
+        "org": "Congress",
+        "context": "Establishes a Chief Energy Officer to promote transformational energy technologies",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Chief Executive Officer",
+        "org": "Development Finance Corporation",
+        "context": "the Chief Executive Officer of the Corporation, with the concurrence of the Administrator",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Administrator",
+        "org": "United States Agency for International Development",
+        "context": "with the concurrence of the Administrator of the United States Agency for International Development",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Deputy Assistant Secretary for the Americas Partnership",
+        "org": "Department of State",
+        "context": "as determined by the Deputy Assistant Secretary for the Americas Partnership",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "Secretary of Energy shall establish a database",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "United States Executive Director",
+        "org": "World Bank Group",
+        "context": "the United States Executive Director of the World Bank Group",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "officials specified in paragraph (3), The Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "officials specified in paragraph (3), The Secretary of State",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "United States Trade Representative",
+        "org": "Office of the United States Trade Representative",
+        "context": "The United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "title": "Director",
+        "org": "Trade and Development Agency",
+        "context": "The Director of the Trade and Development Agency",
+        "mentions": 1,
+        "first_seen": "986"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Americas Act, Title I, Section 102",
+        "citation": "Sec. 102",
+        "ref_type": "cites",
+        "context": "e-governance framework developed under section 102",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "Americas Act, Title I, Section 102(e)",
+        "citation": "Sec. 102(e)",
+        "ref_type": "cites",
+        "context": "certification of organizations to carry out the auditing and penetration testing required by section 102(e)",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "Americas Act, Title II, Section 202",
+        "citation": "SEC. 202",
+        "ref_type": "enacts",
+        "context": "SEC. 202. AMERICAS PARTNERSHIP BUSINESS ADVISORY BOARD",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "Americas Act, Title II, Section 204",
+        "citation": "section 204",
+        "ref_type": "cites",
+        "context": "established under section 204 shall establish a business advisory board",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "USMCA Article 28.3",
+        "citation": "Article 28.3 of the USMCA",
+        "ref_type": "cites",
+        "context": "central regulatory coordinating bodies referred to in Article 28.3 of the USMCA",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "Americas Act, Title II, Section 255",
+        "citation": "Americas Act, Title II, Sec. 255",
+        "ref_type": "enacts",
+        "context": "SEC. 255. TRANSFORMATIONAL ENERGY DEVELOPMENT",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Act of 2018",
+        "citation": "22 U.S.C. 9601 et seq.",
+        "ref_type": "amends",
+        "context": "The BUILD Act of 2018 (22 U.S.C. 9601 et seq.) is amended",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "International Financial Institutions Act, Section 1701(c)",
+        "citation": "22 U.S.C. 262r(c)",
+        "ref_type": "cites",
+        "context": "section 1701(c) of the International Financial Institutions Act (22 U.S.C. 262r(c))",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Act, Section 1402",
+        "citation": "section 1402",
+        "ref_type": "amends",
+        "context": "in section 1402",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Act, Section 1413",
+        "citation": "section 1413",
+        "ref_type": "amends",
+        "context": "in section 1413",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Act, Section 1412(c)",
+        "citation": "section 1412(c)",
+        "ref_type": "cites",
+        "context": "Notwithstanding section 1412(c)",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Americas Act, Section 255(d)",
+        "citation": "section 255(d)",
+        "ref_type": "cites",
+        "context": "Joint Energy Export, Development, and Trade Database established under section 255(d) of the Americas Act",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Export-Import Bank Act of 1945",
+        "citation": "12 U.S.C. 635(b)(1)",
+        "ref_type": "amends",
+        "context": "Section 2(b)(1) of the Export-Import Bank Act of 1945 (12 U.S.C. 635(b)(1)) is amended",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Federal Credit Reform Act of 1990",
+        "citation": "2 U.S.C. 661 et seq.",
+        "ref_type": "cites",
+        "context": "support provided... shall be considered a Federal credit program that is subject to the Federal Credit Reform Act of 1990",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Federal Credit Reform Act of 1990, Section 502(5)",
+        "citation": "2 U.S.C. 661a(5)",
+        "ref_type": "cites",
+        "context": "The cost (as defined in subsection 502(5) of the Federal Credit Reform Act of 1990",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Act of 2018, Section 1421(c)",
+        "citation": "22 U.S.C. 9621(c)",
+        "ref_type": "amends",
+        "context": "Section 1421(c) of the BUILD Act of 2018 (22 U.S.C. 9621(c)) is amended by adding",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "BUILD Act of 2018, Section 1433",
+        "citation": "22 U.S.C. 9633",
+        "ref_type": "amends",
+        "context": "Section 1433 of the BUILD Act of 2018 (22 U.S.C. 9633) is amended to read as follows",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Americas Act, Section 202",
+        "citation": "Section 202",
+        "ref_type": "cites",
+        "context": "business advisory board established pursuant to section 202",
+        "mentions": 1,
+        "first_seen": "986"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "e-governance framework",
+        "doc_type": "initiative",
+        "owner_org": "The Institute",
+        "context": "e-governance framework developed under section 102",
+        "mentions": 1,
+        "first_seen": "984"
+      },
+      {
+        "name": "Annual Report on Business Environment",
+        "doc_type": "report",
+        "owner_org": "Americas Partnership Business Advisory Board",
+        "context": "shall submit to the Secretariat a report on the business environment",
+        "mentions": 1,
+        "first_seen": "985"
+      },
+      {
+        "name": "Annual Report on Transformational Energy Projects",
+        "doc_type": "report",
+        "owner_org": "Office of Chief Energy Officer",
+        "context": "Mandates annual reporting on such projects",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "International Energy Finance Coordination Database",
+        "doc_type": "program",
+        "owner_org": "Office of Chief Energy Officer",
+        "context": "Creates a database for international energy finance coordination",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Joint Energy Export, Development, and Trade Database",
+        "doc_type": "program",
+        "owner_org": "Development Finance Corporation",
+        "context": "update the Joint Energy Export, Development, and Trade Database established under section 255(d)",
+        "mentions": 1,
+        "first_seen": "986"
+      },
+      {
+        "name": "Energy Plan for the Americas",
+        "doc_type": "plan",
+        "owner_org": "United States International Development Finance Corporation",
+        "context": "comprehensive energy plan for the Americas",
+        "mentions": 1,
+        "first_seen": "986"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "joint energy export, development, and trade database": "Identified as the database referenced in Americas Act Section 255(d); aligns with community context reference to 'International Energy Finance Coordination Database'",
+    "deputy assistant secretary": "Identified as Deputy Assistant Secretary for the Americas Partnership managing the Joint Energy Export, Development, and Trade Database per Section 255(d)(3)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 3,
+  "docs_total": 3,
+  "last_doc_id": "986",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Joint Energy Export, Development, and Trade Database",
+      "resolved": "Identified as the database referenced in Americas Act Section 255(d); aligns with community context reference to 'International Energy Finance Coordination Database'",
+      "doc_id": "986",
+      "community_id": "community:011"
+    },
+    {
+      "phrase": "Deputy Assistant Secretary",
+      "resolved": "Identified as Deputy Assistant Secretary for the Americas Partnership managing the Joint Energy Export, Development, and Trade Database per Section 255(d)(3)",
+      "doc_id": "986",
+      "community_id": "community:011"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:americas_act_title_i_section_102": 0.6,
+    "legislation:americas_act_title_i_section_102_e": 0.6,
+    "named_doc:e_governance_framework": 0.6,
+    "org:the_institute": 0.6,
+    "org:russian_federation": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:north_korea": 0.6,
+    "org:venezuela": 0.6,
+    "legislation:americas_act_title_ii_section_202": 0.6,
+    "legislation:americas_act_title_ii_section_204": 0.6,
+    "legislation:usmca_article_28_3": 0.6,
+    "office:americas_partnership_secretariat": 0.6,
+    "named_doc:annual_report_on_business_environment": 0.6,
+    "org:americas_partnership_secretariat": 0.6,
+    "org:americas_partnership_business_advisory_board": 0.6,
+    "role:representatives_of_private_sector_entities_civil_society_organizations_and_labor_organizations": 0.6,
+    "legislation:americas_act_title_ii_section_255": 0.6,
+    "legislation:build_act_of_2018": 0.6,
+    "legislation:international_financial_institutions_act_section_1701_c": 0.6,
+    "legislation:build_act_section_1402": 0.6,
+    "legislation:build_act_section_1413": 0.6,
+    "legislation:build_act_section_1412_c": 0.6,
+    "legislation:americas_act_section_255_d": 0.6,
+    "legislation:export_import_bank_act_of_1945": 0.6,
+    "legislation:federal_credit_reform_act_of_1990": 0.6,
+    "legislation:federal_credit_reform_act_of_1990_section_502_5": 0.6,
+    "legislation:build_act_of_2018_section_1421_c": 0.6,
+    "legislation:build_act_of_2018_section_1433": 0.6,
+    "legislation:americas_act_section_202": 0.6,
+    "office:chief_energy_office": 0.6,
+    "office:office_of_energy": 0.6,
+    "named_doc:annual_report_on_transformational_energy_projects": 0.6,
+    "named_doc:international_energy_finance_coordination_database": 0.6,
+    "named_doc:joint_energy_export_development_and_trade_database": 0.6,
+    "named_doc:energy_plan_for_the_americas": 0.6,
+    "org:build_act_of_2018": 0.6,
+    "org:united_states_agency_for_international_development": 0.6,
+    "org:government_of_the_russian_federation": 0.6,
+    "org:government_of_the_people_s_republic_of_china": 0.6,
+    "org:export_import_bank": 0.6,
+    "org:multilateral_development_banks": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:committee_on_finance": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:committee_on_foreign_relations": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_ways_and_means": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_state": 0.6,
+    "org:export_import_bank_of_the_united_states": 0.6,
+    "org:united_states_international_development_finance_corporation": 0.6,
+    "org:trade_and_development_agency": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:office_of_the_united_states_trade_representative": 0.6,
+    "org:build_americas_unit": 0.6,
+    "org:world_bank_group": 0.6,
+    "org:inter_american_development_bank": 0.6,
+    "org:asian_development_bank": 0.6,
+    "org:african_development_bank": 0.6,
+    "org:european_bank_for_reconstruction_and_development": 0.6,
+    "role:chief_energy_officer": 0.6,
+    "role:chief_executive_officer": 0.6,
+    "role:administrator": 0.6,
+    "role:deputy_assistant_secretary_for_the_americas_partnership": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:united_states_executive_director": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:united_states_trade_representative": 0.6,
+    "role:director": 0.6
+  }
+}

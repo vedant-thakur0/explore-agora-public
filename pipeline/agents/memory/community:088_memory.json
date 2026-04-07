@@ -1,0 +1,69 @@
+{
+  "community_id": "community:088",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Congress",
+        "acronym": null,
+        "context": "results of the study conducted under subsection (a) shall submit to the congressional committees",
+        "mentions": 1,
+        "first_seen": "824"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretaries",
+        "org": "Department of Interior; Department of Agriculture",
+        "context": "The Secretaries shall conduct a study on wildfire detection equipment and integration of artificial intelligence technologies",
+        "mentions": 1,
+        "first_seen": "824"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Western Wildfire Support Act of 2023",
+        "citation": "2023",
+        "ref_type": "enacts",
+        "context": "SEC. 206. STUDY ON WILDFIRE DETECTION EQUIPMENT AND INTEGRATION OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES; date of enactment of this Act",
+        "mentions": 1,
+        "first_seen": "824"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Study on Wildfire Detection Equipment and Integration of Artificial Intelligence Technologies",
+        "doc_type": "report",
+        "owner_org": "Department of Interior; Department of Agriculture",
+        "context": "The Secretaries shall conduct a study on wildfire detection equipment; results of the study shall be submitted to the congressional committees and made publicly available",
+        "mentions": 1,
+        "first_seen": "824"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretaries": "Refers to Secretary of Department of Interior and Secretary of Department of Agriculture, as standard practice in wildfire legislation"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "824",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Secretaries",
+      "resolved": "Refers to Secretary of Department of Interior and Secretary of Department of Agriculture, as standard practice in wildfire legislation",
+      "doc_id": "824",
+      "community_id": "community:088"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:western_wildfire_support_act_of_2023": 0.6,
+    "role:secretaries": 0.6,
+    "named_doc:study_on_wildfire_detection_equipment_and_integration_of_artificial_intelligence_technologies": 0.6,
+    "org:united_states_congress": 0.6
+  }
+}

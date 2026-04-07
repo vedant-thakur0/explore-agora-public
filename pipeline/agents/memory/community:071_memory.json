@@ -1,0 +1,75 @@
+{
+  "community_id": "community:071",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Internal Revenue Service",
+        "acronym": "IRS",
+        "context": "use of commercial-off-the-shelf products and artificial intelligence technologies by the Internal Revenue Service",
+        "mentions": 1,
+        "first_seen": "1886"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "the Comptroller General of the United States shall conduct a study",
+        "mentions": 1,
+        "first_seen": "1886"
+      },
+      {
+        "name": "United States",
+        "acronym": null,
+        "context": "tax liabilities owed to the United States",
+        "mentions": 1,
+        "first_seen": "1886"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "the Comptroller General of the United States shall conduct a study and submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "1886"
+      }
+    ],
+    "legislation_refs": [],
+    "named_docs": [
+      {
+        "name": "GAO study and report on use of commercial-off-the-shelf products and artificial intelligence technologies by IRS",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "the Comptroller General of the United States shall conduct a study and submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "1886"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "comptroller general": "Resolved to Government Accountability Office leadership role based on statutory authority to conduct GAO studies"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1886",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Comptroller General",
+      "resolved": "Resolved to Government Accountability Office leadership role based on statutory authority to conduct GAO studies",
+      "doc_id": "1886",
+      "community_id": "community:071"
+    }
+  ],
+  "entity_confidence": {
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "named_doc:gao_study_and_report_on_use_of_commercial_off_the_shelf_products_and_artificial_intelligence_technologies_by_irs": 0.6,
+    "org:internal_revenue_service": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:united_states": 0.6
+  }
+}

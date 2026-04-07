@@ -1,0 +1,207 @@
+{
+  "community_id": "community:198",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Oceanic and Atmospheric Administration",
+        "acronym": "NOAA",
+        "context": "heads of such other programs of the National Oceanic and Atmospheric Administration",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Secretary of Commerce",
+        "acronym": null,
+        "context": "submit to the Secretary of Commerce and the Director of the Office of Management and Budget",
+        "mentions": 1,
+        "first_seen": "1239"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Earth Prediction Innovation Center",
+        "parent_org": "National Oceanic and Atmospheric Administration",
+        "context": "modeling team of the National Oceanic and Atmospheric Administration within the Earth Prediction Innovation Center",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Office of Human Capital Services",
+        "parent_org": "National Oceanic and Atmospheric Administration",
+        "context": "The Under Secretary, acting through the Director of the Office of Human Capital Services",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Weather Program Office",
+        "parent_org": "National Oceanic and Atmospheric Administration",
+        "context": "Weather Program Office Innovation for Next Generation Scientists Dissertation Fellowship",
+        "mentions": 1,
+        "first_seen": "1239"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Under Secretary",
+        "org": "National Oceanic and Atmospheric Administration",
+        "context": "The Under Secretary and the heads of such other programs of the National Oceanic and Atmospheric Administration",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "title": "Director of the Office of Human Capital Services",
+        "org": "National Oceanic and Atmospheric Administration",
+        "context": "acting through the Director of the Office of Human Capital Services",
+        "mentions": 1,
+        "first_seen": "1239"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Forecasting Optimization for Robust Earth Climate Analysis and Subseasonal-to-Seasonal Tracking Act of 2024",
+        "citation": "FORECASTS Tracking Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Forecasting Optimization for Robust Earth Climate Analysis and Subseasonal-to-Seasonal Tracking Act of 2024\" or the \"FORECASTS Tracking Act of 2024\".",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Food Security Act of 1985",
+        "citation": "15 U.S.C. 8521",
+        "ref_type": "amends",
+        "context": "Section 1762 of the Food Security Act of 1985 (15 U.S.C. 8521) is amended",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Weather Research and Forecasting Innovation Act of 2017",
+        "citation": "15 U.S.C. 8512(b)(5)",
+        "ref_type": "cites",
+        "context": "section 102(b)(5) of the Weather Research and Forecasting Innovation Act of 2017",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "section 101 of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "15 U.S.C. 4651",
+        "ref_type": "cites",
+        "context": "section 9901 of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Code of Federal Regulations, title 5, part 362",
+        "citation": "5 CFR 362",
+        "ref_type": "cites",
+        "context": "part 362 of title 5, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Weather Research Forecasting and Innovation Act of 2017",
+        "citation": "15 U.S.C. 8519(a)",
+        "ref_type": "amends",
+        "context": "Section 110(a) of the Weather Research Forecasting and Innovation Act of 2017 (15 U.S.C. 8519(a)) is amended",
+        "mentions": 1,
+        "first_seen": "1239"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Weather and Earth System Modeling and Data Assimilation Workforce Innovation Program",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "Establishes the Weather and Earth System Modeling and Data Assimilation Workforce Innovation Program to advance AI in forecasting.",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Weather Program Office Innovation for Next Generation Scientists Dissertation Fellowship",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "Weather Program Office Innovation for Next Generation Scientists Dissertation Fellowship",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "Consortium for Advanced Data Assimilation Research and Education",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "Consortium for Advanced Data Assimilation Research and Education",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "data assimilation and weather and Earth system modeling workforce human capital plan",
+        "doc_type": "plan",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "develop and, on an annual basis, revise a data assimilation and weather and Earth system modeling workforce human capital plan",
+        "mentions": 1,
+        "first_seen": "1239"
+      },
+      {
+        "name": "joint technology transfer initiative",
+        "doc_type": "initiative",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "$40,000,000 is authorized for the joint technology transfer initiative described in section 102(b)(4)",
+        "mentions": 1,
+        "first_seen": "1239"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "under secretary": "Refers to Under Secretary of National Oceanic and Atmospheric Administration, established as primary administrative authority in this legislative text",
+    "director": "Resolved to Director of Office of Management and Budget in context of plan submission requirement"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1239",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Under Secretary",
+      "resolved": "Refers to Under Secretary of National Oceanic and Atmospheric Administration, established as primary administrative authority in this legislative text",
+      "doc_id": "1239",
+      "community_id": "community:198"
+    },
+    {
+      "phrase": "Director",
+      "resolved": "Resolved to Director of Office of Management and Budget in context of plan submission requirement",
+      "doc_id": "1239",
+      "community_id": "community:198"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:forecasting_optimization_for_robust_earth_climate_analysis_and_subseasonal_to_seasonal_tracking_act_of_2024": 0.6,
+    "legislation:food_security_act_of_1985": 0.6,
+    "legislation:weather_research_and_forecasting_innovation_act_of_2017": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "legislation:code_of_federal_regulations_title_5_part_362": 0.6,
+    "legislation:weather_research_forecasting_and_innovation_act_of_2017": 0.6,
+    "office:earth_prediction_innovation_center": 0.6,
+    "office:office_of_human_capital_services": 0.6,
+    "office:weather_program_office": 0.6,
+    "role:under_secretary": 0.6,
+    "role:director_of_the_office_of_human_capital_services": 0.6,
+    "named_doc:weather_and_earth_system_modeling_and_data_assimilation_workforce_innovation_program": 0.6,
+    "named_doc:weather_program_office_innovation_for_next_generation_scientists_dissertation_fellowship": 0.6,
+    "named_doc:consortium_for_advanced_data_assimilation_research_and_education": 0.6,
+    "named_doc:data_assimilation_and_weather_and_earth_system_modeling_workforce_human_capital_plan": 0.6,
+    "named_doc:joint_technology_transfer_initiative": 0.6,
+    "org:national_oceanic_and_atmospheric_administration": 1.0,
+    "org:secretary_of_commerce": 0.6
+  }
+}

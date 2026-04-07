@@ -1,0 +1,204 @@
+{
+  "community_id": "community:107",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "The Secretary of Energy and the Department shall carry out collaborative research",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "referred to the Committee on Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "Committee on Energy and Natural Resources of the Senate",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "National Science and Technology Council",
+        "acronym": "NSTC",
+        "context": "leverage related efforts and data from the National Science and Technology Council",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Interagency Council for Advancing Meteorological Services",
+        "acronym": null,
+        "context": "the Interagency Council for Advancing Meteorological Services, and other relevant interagency entities",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "National Weather Service",
+        "acronym": "NWS",
+        "context": "forecasts issued by the National Weather Service and operational models of the National Weather Service",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "establish at National Laboratories not more than 3 centers of excellence",
+        "mentions": 1,
+        "first_seen": "487"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Research laboratories",
+        "parent_org": "National Oceanic and Atmospheric Administration",
+        "context": "research laboratories of the Administration and other relevant entities",
+        "mentions": 1,
+        "first_seen": "487"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "The Secretary of Energy and the Administrator shall carry out collaborative research",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "title": "Administrator of the National Oceanic and Atmospheric Administration",
+        "org": "National Oceanic and Atmospheric Administration",
+        "context": "Administrator of the National Oceanic and Atmospheric Administration to conduct collaborative research",
+        "mentions": 1,
+        "first_seen": "487"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "section 101 of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 15801",
+        "ref_type": "cites",
+        "context": "section 2 of the Energy Policy Act of 2005",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "42 U.S.C. 19231 et seq.",
+        "ref_type": "cites",
+        "context": "consistent with subtitle D of title VI of the Research and Development, Competition, and Innovation Act",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "United States Code, Title 41, Section 3903",
+        "citation": "41 U.S.C. 3903",
+        "ref_type": "cites",
+        "context": "multi-year contracts in accordance with section 3903 of title 41, United States Code",
+        "mentions": 1,
+        "first_seen": "487"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "memorandum of understanding",
+        "doc_type": "other",
+        "owner_org": "Department of Energy, National Oceanic and Atmospheric Administration",
+        "context": "The Secretary and the Administrator shall carry out the activities under subsection (a) through the establishment of a memorandum of understanding",
+        "mentions": 1,
+        "first_seen": "487"
+      },
+      {
+        "name": "Unified Forecast System",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "applications based on the Unified Forecast System, through community-based activities",
+        "mentions": 1,
+        "first_seen": "487"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "administration": "National Oceanic and Atmospheric Administration (defined in SEC. 2(1))",
+    "administrator": "Administrator of the National Oceanic and Atmospheric Administration (defined in SEC. 2(2))",
+    "department": "Department of Energy (defined in SEC. 2(6))",
+    "secretary": "Secretary of Energy (defined in SEC. 2(9))"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "487",
+      "note": "Document contains extensive definitional section (SEC. 2) that operationalizes key terms throughout; 'Administration' and 'Administrator' are NOAA-specific terms defined locally rather than using generic federal agency language."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "487",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Administration",
+      "resolved": "National Oceanic and Atmospheric Administration (defined in SEC. 2(1))",
+      "doc_id": "487",
+      "community_id": "community:107"
+    },
+    {
+      "phrase": "Administrator",
+      "resolved": "Administrator of the National Oceanic and Atmospheric Administration (defined in SEC. 2(2))",
+      "doc_id": "487",
+      "community_id": "community:107"
+    },
+    {
+      "phrase": "Department",
+      "resolved": "Department of Energy (defined in SEC. 2(6))",
+      "doc_id": "487",
+      "community_id": "community:107"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Energy (defined in SEC. 2(9))",
+      "doc_id": "487",
+      "community_id": "community:107"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "legislation:united_states_code_title_41_section_3903": 0.6,
+    "office:research_laboratories": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:administrator_of_the_national_oceanic_and_atmospheric_administration": 0.6,
+    "named_doc:memorandum_of_understanding": 0.6,
+    "named_doc:unified_forecast_system": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:national_science_and_technology_council": 0.6,
+    "org:interagency_council_for_advancing_meteorological_services": 0.6,
+    "org:national_weather_service": 0.6,
+    "org:national_laboratories": 0.6
+  }
+}

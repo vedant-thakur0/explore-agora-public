@@ -1,0 +1,108 @@
+{
+  "community_id": "community:124",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Telecommunications and Information Administration",
+        "acronym": "NTIA",
+        "context": "principal advisor to the President on all telecommunications and information issues",
+        "mentions": 1,
+        "first_seen": "572"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "executive branch agencies on electromagnetic spectrum issues before the Federal Communications Commission",
+        "mentions": 1,
+        "first_seen": "572"
+      },
+      {
+        "name": "Institute for Telecommunication Sciences",
+        "acronym": "ITS",
+        "context": "Federal Government's premier expert laboratory for spectrum study activities",
+        "mentions": 1,
+        "first_seen": "572"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Assistant Secretary of Commerce for Communications and Information",
+        "mentions": 1,
+        "first_seen": "572"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Assistant Secretary of Commerce for Communications and Information",
+        "parent_org": "Department of Commerce",
+        "context": "Assistant Secretary of Commerce for Communications and Information to take certain actions",
+        "mentions": 1,
+        "first_seen": "572"
+      },
+      {
+        "name": "Institute for Telecommunication Sciences",
+        "parent_org": "National Telecommunications and Information Administration",
+        "context": "The Institute for Telecommunication Sciences of the NTIA is the Federal Government's premier expert laboratory",
+        "mentions": 1,
+        "first_seen": "572"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Assistant Secretary of Commerce for Communications and Information",
+        "org": "Department of Commerce",
+        "context": "direct the Assistant Secretary of Commerce for Communications and Information to take certain actions",
+        "mentions": 1,
+        "first_seen": "572"
+      },
+      {
+        "title": "Principal Advisor to the President on Telecommunications and Information Issues",
+        "org": "National Telecommunications and Information Administration",
+        "context": "NTIA is the principal advisor to the President on all telecommunications and information issues",
+        "mentions": 1,
+        "first_seen": "572"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Telecommunications and Information Administration Organization Act",
+        "citation": "47 U.S.C. 902(b)(2)",
+        "ref_type": "cites",
+        "context": "subparagraphs (F), (L), (P), and (U) of section 103(b)(2) of the National Telecommunications and Information Administration Organization Act",
+        "mentions": 1,
+        "first_seen": "572"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "assistant secretary": "Assistant Secretary of Commerce for Communications and Information (defined in section 3(c))"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "572",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Assistant Secretary",
+      "resolved": "Assistant Secretary of Commerce for Communications and Information (defined in section 3(c))",
+      "doc_id": "572",
+      "community_id": "community:124"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:national_telecommunications_and_information_administration_organization_act": 0.6,
+    "office:office_of_the_assistant_secretary_of_commerce_for_communications_and_information": 0.6,
+    "office:institute_for_telecommunication_sciences": 0.6,
+    "role:assistant_secretary_of_commerce_for_communications_and_information": 0.6,
+    "role:principal_advisor_to_the_president_on_telecommunications_and_information_issues": 0.6,
+    "org:national_telecommunications_and_information_administration": 0.6,
+    "org:federal_communications_commission": 0.6,
+    "org:institute_for_telecommunication_sciences": 0.6,
+    "org:department_of_commerce": 0.6
+  }
+}

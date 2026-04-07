@@ -1,0 +1,303 @@
+{
+  "community_id": "community:182",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Securities and Exchange Commission",
+        "acronym": "SEC",
+        "context": "appropriate financial regulatory agency with respect to brokers, dealers, investment companies, and other securities entities",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Federal Deposit Insurance Act",
+        "acronym": null,
+        "context": "defines appropriate Federal banking agency in section 3",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Bureau of Consumer Financial Protection",
+        "acronym": "CFPB",
+        "context": "appropriate financial regulatory agency for covered persons under Consumer Financial Protection Act of 2010",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "National Credit Union Administration",
+        "acronym": "NCUA",
+        "context": "appropriate financial regulatory agency with respect to insured credit unions",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Federal Housing Finance Agency",
+        "acronym": "FHFA",
+        "context": "appropriate financial regulatory agency for Federal Home Loan Banks and Federal Home Loan Bank System",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Municipal Securities Rulemaking Board",
+        "acronym": "MSRB",
+        "context": "established under Securities Exchange Act of 1934, appropriate financial regulatory agency",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Public Company Accounting Oversight Board",
+        "acronym": "PCAOB",
+        "context": "established under Sarbanes-Oxley Act of 2002, appropriate financial regulatory agency",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Securities Investor Protection Corporation",
+        "acronym": "SIPC",
+        "context": "established under Securities Investor Protection Act of 1970, appropriate financial regulatory agency",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Federal National Mortgage Association",
+        "acronym": "FNMA",
+        "context": "subject to Federal Housing Finance Agency jurisdiction for AI test projects",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Federal Home Loan Mortgage Corporation",
+        "acronym": "FHLMC",
+        "context": "subject to Federal Housing Finance Agency jurisdiction for AI test projects",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Board of Governors of the Federal Reserve System",
+        "acronym": "Federal Reserve",
+        "context": "financial regulatory agency means the Board of Governors of the Federal Reserve System",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Federal Deposit Insurance Corporation",
+        "acronym": "FDIC",
+        "context": "financial regulatory agency means the Federal Deposit Insurance Corporation",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Office of the Comptroller of the Currency",
+        "acronym": "OCC",
+        "context": "financial regulatory agency means the Office of the Comptroller of the Currency",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "Each financial regulatory agency shall submit to the Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "and the Committee on Financial Services of the House of Representatives an annual report",
+        "mentions": 1,
+        "first_seen": "1230"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "Unleashing AI Innovation in Financial Services Act",
+        "citation": "SECTION 1",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Unleashing AI Innovation in Financial Services Act\".",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Federal Deposit Insurance Act",
+        "citation": "12 U.S.C. 1813",
+        "ref_type": "cites",
+        "context": "section 3 defines appropriate Federal banking agency",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Securities Exchange Act of 1934",
+        "citation": "15 U.S.C. 78a et seq.",
+        "ref_type": "cites",
+        "context": "referenced multiple times for SEC jurisdiction over brokers, dealers, clearing agencies, and other entities",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Investment Company Act of 1940",
+        "citation": "15 U.S.C. 80a\u20131 et seq.",
+        "ref_type": "cites",
+        "context": "SEC jurisdiction over registered investment companies",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Investment Advisers Act of 1940",
+        "citation": "15 U.S.C. 80b\u20131 et seq.",
+        "ref_type": "cites",
+        "context": "SEC jurisdiction over registered investment advisers",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Consumer Financial Protection Act of 2010",
+        "citation": "12 U.S.C. 5481",
+        "ref_type": "cites",
+        "context": "section 1002 defines covered person for CFPB jurisdiction; section 1002 also defines financial product or service",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Sarbanes-Oxley Act of 2002",
+        "citation": "15 U.S.C. 7211 et seq.",
+        "ref_type": "cites",
+        "context": "established Public Company Accounting Oversight Board; also listed as Federal securities law",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Securities Investor Protection Act of 1970",
+        "citation": "15 U.S.C. 78aaa et seq.",
+        "ref_type": "cites",
+        "context": "established Securities Investor Protection Corporation",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 defines artificial intelligence term used in this Act",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Securities Act of 1933",
+        "citation": "15 U.S.C. 77a et seq.",
+        "ref_type": "cites",
+        "context": "Federal securities law",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Trust Indenture Act of 1939",
+        "citation": "15 U.S.C. 77aaa et seq.",
+        "ref_type": "cites",
+        "context": "Federal securities law",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Jumpstart Our Business Startup Act",
+        "citation": "Public Law 112\u2013106; 126 Stat. 306",
+        "ref_type": "cites",
+        "context": "Federal securities law",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Bank Holding Company Act of 1956",
+        "citation": "12 U.S.C. 1843(k)(4)",
+        "ref_type": "cites",
+        "context": "activities that are financial in nature, as defined in section 4(k)(4) of the Bank Holding Company Act of 1956",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "Anti-Money Laundering and Countering the Financing of Terrorism Obligations",
+        "citation": "31 U.S.C. subchapter II of chapter 53",
+        "ref_type": "cites",
+        "context": "consistent with the purposes of the anti-money laundering and countering the financing of terrorism obligations under subchapter II of chapter 53 of title 31",
+        "mentions": 1,
+        "first_seen": "1230"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "AI test projects",
+        "doc_type": "program",
+        "owner_org": "financial regulatory agencies",
+        "context": "procedures for modifying the AI test projects that are approved by the agency",
+        "mentions": 1,
+        "first_seen": "1230"
+      },
+      {
+        "name": "annual report on the outcomes of AI test projects",
+        "doc_type": "report",
+        "owner_org": "financial regulatory agencies",
+        "context": "Each financial regulatory agency shall submit to the Committee on Banking, Housing, and Urban Affairs of the Senate and the Committee on Financial Services of the House of Representatives an annual report on the outcomes of AI test projects",
+        "mentions": 1,
+        "first_seen": "1230"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "commission": "Explicitly defined in section (4) as Securities and Exchange Commission"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1230",
+      "note": "Document provided is only the short title section (SECTION 1). No substantive provisions, implementing agencies, regulatory requirements, or specific roles are detailed in the excerpt provided. Full text would be needed to extract organizations, offices, roles, and regulatory program details mentioned in the summary."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1230",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "COMMISSION",
+      "resolved": "Explicitly defined in section (4) as Securities and Exchange Commission",
+      "doc_id": "1230",
+      "community_id": "community:182"
+    }
+  ],
+  "entity_confidence": {
+    "org:securities_and_exchange_commission": 0.6,
+    "org:federal_deposit_insurance_act": 0.6,
+    "org:bureau_of_consumer_financial_protection": 0.6,
+    "org:national_credit_union_administration": 0.6,
+    "org:federal_housing_finance_agency": 0.6,
+    "org:municipal_securities_rulemaking_board": 0.6,
+    "org:public_company_accounting_oversight_board": 0.6,
+    "org:securities_investor_protection_corporation": 0.6,
+    "org:federal_national_mortgage_association": 0.6,
+    "org:federal_home_loan_mortgage_corporation": 0.6,
+    "org:board_of_governors_of_the_federal_reserve_system": 0.6,
+    "org:federal_deposit_insurance_corporation": 0.6,
+    "org:office_of_the_comptroller_of_the_currency": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "legislation:unleashing_ai_innovation_in_financial_services_act": 0.6,
+    "legislation:federal_deposit_insurance_act": 0.6,
+    "legislation:securities_exchange_act_of_1934": 0.6,
+    "legislation:investment_company_act_of_1940": 0.6,
+    "legislation:investment_advisers_act_of_1940": 0.6,
+    "legislation:consumer_financial_protection_act_of_2010": 0.6,
+    "legislation:sarbanes_oxley_act_of_2002": 0.6,
+    "legislation:securities_investor_protection_act_of_1970": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:securities_act_of_1933": 0.6,
+    "legislation:trust_indenture_act_of_1939": 0.6,
+    "legislation:jumpstart_our_business_startup_act": 0.6,
+    "legislation:bank_holding_company_act_of_1956": 0.6,
+    "legislation:anti_money_laundering_and_countering_the_financing_of_terrorism_obligations": 0.6,
+    "named_doc:ai_test_projects": 0.6,
+    "named_doc:annual_report_on_the_outcomes_of_ai_test_projects": 0.6
+  }
+}

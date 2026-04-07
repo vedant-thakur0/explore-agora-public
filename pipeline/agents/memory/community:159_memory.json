@@ -1,0 +1,75 @@
+{
+  "community_id": "community:159",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Bureau of Consumer Financial Protection",
+        "acronym": "BCFP",
+        "context": "the Bureau of Consumer Financial Protection (referred to in this section as the \"Bureau\") shall, in coordination with relevant executive agencies",
+        "mentions": 1,
+        "first_seen": "857"
+      },
+      {
+        "name": "Committee on Financial Services of the House of Representatives",
+        "acronym": null,
+        "context": "submit to the Committee on Financial Services of the House of Representatives and the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "857"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "acronym": null,
+        "context": "the Committee on Banking, Housing, and Urban Affairs of the Senate the findings of such assessment",
+        "mentions": 1,
+        "first_seen": "857"
+      }
+    ],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "Consumer Financial Protection Act of 2010",
+        "citation": "12 U.S.C. 5481",
+        "ref_type": "cites",
+        "context": "section 1002 of the Consumer Financial Protection Act of 2010 (12 U.S.C. 5481)",
+        "mentions": 1,
+        "first_seen": "857"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1067q(a)",
+        "ref_type": "cites",
+        "context": "section 371(a) of the Higher Education Act of 1965 (20 U.S.C. 1067q(a))",
+        "mentions": 1,
+        "first_seen": "857"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "the bureau": "Bureau of Consumer Financial Protection"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "857",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Bureau",
+      "resolved": "Bureau of Consumer Financial Protection",
+      "doc_id": "857",
+      "community_id": "community:159"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:consumer_financial_protection_act_of_2010": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "org:bureau_of_consumer_financial_protection": 0.6,
+    "org:committee_on_financial_services_of_the_house_of_representatives": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs_of_the_senate": 0.6
+  }
+}

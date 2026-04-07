@@ -1,0 +1,112 @@
+{
+  "community_id": "community:113",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Academies",
+        "acronym": null,
+        "context": "The Secretary shall seek to enter into an agreement with the National Academies to conduct a study",
+        "mentions": 1,
+        "first_seen": "529"
+      },
+      {
+        "name": "SAE International",
+        "acronym": "SAE",
+        "context": "terms in the document titled SAE International Recommended Practice J3016",
+        "mentions": 1,
+        "first_seen": "529"
+      },
+      {
+        "name": "Department of Transportation",
+        "acronym": null,
+        "context": "The term \"Secretary\" means the Secretary of Transportation",
+        "mentions": 1,
+        "first_seen": "529"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Secretary of Transportation",
+        "parent_org": "Department of Transportation",
+        "context": "The term \"Secretary\" means the Secretary of Transportation",
+        "mentions": 1,
+        "first_seen": "529"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Transportation",
+        "org": "Department of Transportation",
+        "context": "The term \"Secretary\" means the Secretary of Transportation",
+        "mentions": 1,
+        "first_seen": "529"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Americans with Disabilities Act",
+        "citation": "42 U.S.C. 12132",
+        "ref_type": "cites",
+        "context": "In accordance with title II of the Americans with Disabilities Act (42 U.S.C. 12132)",
+        "mentions": 1,
+        "first_seen": "529"
+      },
+      {
+        "name": "Disability definition",
+        "citation": "42 U.S.C. 12102",
+        "ref_type": "cites",
+        "context": "The term \"disability\" has the meaning given the term in section 12102 of title 42",
+        "mentions": 1,
+        "first_seen": "529"
+      },
+      {
+        "name": "Public Transportation definition",
+        "citation": "49 U.S.C. 5302",
+        "ref_type": "cites",
+        "context": "The term \"public transportation\" has the meaning given the term in section 5302 of title 49",
+        "mentions": 1,
+        "first_seen": "529"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "SAE International Recommended Practice J3016",
+        "doc_type": "other",
+        "owner_org": "SAE International",
+        "context": "document titled SAE International Recommended Practice J3016, published in April 2021",
+        "mentions": 1,
+        "first_seen": "529"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Transportation (defined in Section 2(4) as the Secretary of Transportation)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "529",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Transportation (defined in Section 2(4) as the Secretary of Transportation)",
+      "doc_id": "529",
+      "community_id": "community:113"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:americans_with_disabilities_act": 0.6,
+    "legislation:disability_definition": 0.6,
+    "legislation:public_transportation_definition": 0.6,
+    "office:office_of_the_secretary_of_transportation": 0.6,
+    "role:secretary_of_transportation": 0.6,
+    "named_doc:sae_international_recommended_practice_j3016": 0.6,
+    "org:national_academies": 0.6,
+    "org:sae_international": 0.6,
+    "org:department_of_transportation": 0.6
+  }
+}

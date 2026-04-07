@@ -1,0 +1,68 @@
+{
+  "community_id": "community:165",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of State",
+        "acronym": "State",
+        "context": "in consultation with appropriate entities of the Department of State",
+        "mentions": 1,
+        "first_seen": "1002"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Technology for Peace",
+        "parent_org": "Department of State",
+        "context": "There shall be in the Department an Office of Technology for Peace",
+        "mentions": 1,
+        "first_seen": "1002"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Assistant Secretary for Technology for Peace",
+        "org": "Department of State",
+        "context": "the head of which shall be the Assistant Secretary for Technology for Peace",
+        "mentions": 1,
+        "first_seen": "1002"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Department of Peacebuilding Act of 2023",
+        "citation": "Sec. 107",
+        "ref_type": "enacts",
+        "context": "SEC. 107. OFFICE OF TECHNOLOGY FOR PEACE",
+        "mentions": 1,
+        "first_seen": "1002"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "the department": "Department of State (explicitly named in subsection (a))"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1002",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Department",
+      "resolved": "Department of State (explicitly named in subsection (a))",
+      "doc_id": "1002",
+      "community_id": "community:165"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:department_of_peacebuilding_act_of_2023": 0.6,
+    "office:office_of_technology_for_peace": 0.6,
+    "role:assistant_secretary_for_technology_for_peace": 0.6,
+    "org:department_of_state": 0.6
+  }
+}

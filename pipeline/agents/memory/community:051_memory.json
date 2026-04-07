@@ -1,0 +1,222 @@
+{
+  "community_id": "community:051",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Customs and Border Protection",
+        "acronym": "CBP",
+        "context": "CBP Innovation Teams to research emerging technologies",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Department of Homeland Security",
+        "acronym": "DHS",
+        "context": "Secretary of Homeland Security, acting through the Commissioner for U.S. Customs and Border Protection and the Under Secretary for Science and Technology of the Department of Homeland Security",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "submit a plan to the Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "acronym": null,
+        "context": "submit a plan to the Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1919"
+      }
+    ],
+    "offices": [
+      {
+        "name": "CBP Innovation Teams",
+        "parent_org": "Customs and Border Protection",
+        "context": "CBP Innovation Teams to research emerging technologies, including AI",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office of the Chief Information Officer",
+        "parent_org": "Department of Homeland Security",
+        "context": "Department's Chief Information Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office of the Chief Procurement Officer",
+        "parent_org": "Department of Homeland Security",
+        "context": "Chief Procurement Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office of the Privacy Officer",
+        "parent_org": "Department of Homeland Security",
+        "context": "Privacy Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office of Civil Rights and Civil Liberties",
+        "parent_org": "Department of Homeland Security",
+        "context": "Civil Right and Civil Liberties Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office of the General Counsel",
+        "parent_org": "Department of Homeland Security",
+        "context": "General Counsel",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Science and Technology Directorate",
+        "parent_org": "Department of Homeland Security",
+        "context": "Department of Homeland Security's Science and Technology Directorate",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "CBP Acquisition Program Office",
+        "parent_org": "Customs and Border Protection",
+        "context": "CBP acquisition program office",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office of Chief Technology Officer",
+        "parent_org": "Department of Homeland Security",
+        "context": "Department of Homeland Security's Chief Technology Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "name": "Office for Civil Rights and Civil Liberties",
+        "parent_org": "Department of Homeland Security",
+        "context": "consult with the Officer for Civil Rights and Civil Liberties and the Privacy Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "Secretary of Homeland Security to plan for deploying advanced border technologies",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "title": "Commissioner for U.S. Customs and Border Protection",
+        "org": "Customs and Border Protection",
+        "context": "Commissioner for U.S. Customs and Border Protection (referred to in this section as \"CBP\")",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "title": "Under Secretary for Science and Technology",
+        "org": "Department of Homeland Security",
+        "context": "Under Secretary for Science and Technology of the Department of Homeland Security",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "title": "DHS official responsible for artificial intelligence policy",
+        "org": "Department of Homeland Security",
+        "context": "Department of Homeland Security official responsible for artificial intelligence policy",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "title": "Commissioner for CBP",
+        "org": "Customs and Border Protection",
+        "context": "The Commissioner for CBP is authorized to maintain 1 or more CBP Innovation Teams",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "title": "Officer for Civil Rights and Civil Liberties",
+        "org": "Department of Homeland Security",
+        "context": "consult with the Officer for Civil Rights and Civil Liberties and the Privacy Officer",
+        "mentions": 1,
+        "first_seen": "1919"
+      },
+      {
+        "title": "Privacy Officer",
+        "org": "Department of Homeland Security",
+        "context": "Privacy Officer of the Department of Homeland Security to ensure programs, policies",
+        "mentions": 1,
+        "first_seen": "1919"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Emerging Innovative Border Technologies Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Emerging Innovative Border Technologies Act\"",
+        "mentions": 1,
+        "first_seen": "1919"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Innovative and Emerging Border Technology Plan",
+        "doc_type": "plan",
+        "owner_org": "Department of Homeland Security",
+        "context": "SEC. 2. INNOVATIVE AND EMERGING BORDER TECHNOLOGY PLAN - the Secretary shall submit a plan to the Committee on Homeland Security",
+        "mentions": 1,
+        "first_seen": "1919"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "cbp": "Customs and Border Protection - explicitly defined in text as 'referred to in this section as \"CBP\"'"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1919",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "CBP",
+      "resolved": "Customs and Border Protection - explicitly defined in text as 'referred to in this section as \"CBP\"'",
+      "doc_id": "1919",
+      "community_id": "community:051"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:emerging_innovative_border_technologies_act": 0.6,
+    "office:cbp_innovation_teams": 0.6,
+    "office:office_of_the_chief_information_officer": 0.6,
+    "office:office_of_the_chief_procurement_officer": 0.6,
+    "office:office_of_the_privacy_officer": 0.6,
+    "office:office_of_civil_rights_and_civil_liberties": 0.6,
+    "office:office_of_the_general_counsel": 0.6,
+    "office:science_and_technology_directorate": 0.6,
+    "office:cbp_acquisition_program_office": 0.6,
+    "office:office_of_chief_technology_officer": 0.6,
+    "office:office_for_civil_rights_and_civil_liberties": 0.6,
+    "role:secretary_of_homeland_security": 0.9,
+    "role:commissioner_for_u_s_customs_and_border_protection": 0.6,
+    "role:under_secretary_for_science_and_technology": 0.6,
+    "role:dhs_official_responsible_for_artificial_intelligence_policy": 0.6,
+    "role:commissioner_for_cbp": 0.6,
+    "role:officer_for_civil_rights_and_civil_liberties": 0.6,
+    "role:privacy_officer": 0.6,
+    "named_doc:innovative_and_emerging_border_technology_plan": 0.6,
+    "org:customs_and_border_protection": 0.6,
+    "org:department_of_homeland_security": 1.0,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_homeland_security": 0.6
+  }
+}

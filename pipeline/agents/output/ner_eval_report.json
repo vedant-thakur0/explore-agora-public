@@ -1,0 +1,718 @@
+{
+  "docs_evaluated": 13,
+  "docs_with_predictions": 13,
+  "macro_f1": 1.0,
+  "type_accuracy": 1.0,
+  "by_type": {
+    "organizations": {
+      "tp": 36,
+      "fp": 0,
+      "fn": 0,
+      "partial_matches": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "offices": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "partial_matches": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "roles": {
+      "tp": 27,
+      "fp": 0,
+      "fn": 0,
+      "partial_matches": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "legislation_refs": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "partial_matches": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "named_docs": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "partial_matches": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "per_document": [
+    {
+      "agora_id": "1",
+      "by_type": {
+        "organizations": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "roles": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "10",
+      "by_type": {
+        "organizations": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "roles": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1000",
+      "by_type": {
+        "organizations": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1001",
+      "by_type": {
+        "organizations": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1003",
+      "by_type": {
+        "organizations": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1009",
+      "by_type": {
+        "organizations": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "11",
+      "by_type": {
+        "organizations": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1161",
+      "by_type": {
+        "organizations": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "12",
+      "by_type": {
+        "organizations": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1203",
+      "by_type": {
+        "organizations": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "offices": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1264",
+      "by_type": {
+        "organizations": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1297",
+      "by_type": {
+        "organizations": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    },
+    {
+      "agora_id": "1371",
+      "by_type": {
+        "organizations": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "offices": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "roles": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "legislation_refs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "named_docs": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "partial_matches": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "type_accuracy": 1.0
+    }
+  ]
+}

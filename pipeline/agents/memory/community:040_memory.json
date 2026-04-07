@@ -1,0 +1,335 @@
+{
+  "community_id": "community:040",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": "PRC",
+        "context": "prohibit United States persons from advancing artificial intelligence capabilities within the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Chinese Communist Party",
+        "acronym": null,
+        "context": "strategy of the Chinese Communist Party aiming to mobilize non-military resources",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "People's Liberation Army",
+        "acronym": "PLA",
+        "context": "development of technology, improvements in logistics, and other uses by the People's Liberation Army",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "United States Patent and Trademark Office",
+        "acronym": null,
+        "context": "patent granted by the United States Patent and Trademark Office under title 35",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "United States District Court",
+        "acronym": null,
+        "context": "district court of the United States in which the United States person resides",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Federal Bureau of Investigation",
+        "acronym": "FBI",
+        "context": "Director of the Federal Bureau of Investigation, shall promulgate regulations",
+        "mentions": 1,
+        "first_seen": "2301"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Secretary of Commerce",
+        "parent_org": "Department of Commerce",
+        "context": "the Secretary of Commerce shall issue regulations implementing this section",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Office of the Attorney General",
+        "parent_org": "Department of Justice",
+        "context": "The Attorney General, in consultation with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "2301"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Not later than 90 days after the date of enactment of this Act, the Secretary of Commerce shall issue regulations implementing this section",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Officer",
+        "org": "Corporation or Business Entity",
+        "context": "An officer, director, partner, agent, or employee that violates section 2742",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Director",
+        "org": "Corporation or Business Entity",
+        "context": "An officer, director, partner, agent, or employee that violates section 2742",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Partner",
+        "org": "Corporation or Business Entity",
+        "context": "An officer, director, partner, agent, or employee that violates section 2742",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Agent",
+        "org": "Corporation or Business Entity",
+        "context": "An officer, director, partner, agent, or employee that violates section 2742",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Employee",
+        "org": "Corporation or Business Entity",
+        "context": "An officer, director, partner, agent, or employee that violates section 2742",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "The Attorney General, in consultation with the Secretary of Defense, the Secretary of Commerce, the Secretary of Education, the Director of National Intelligence, and the Director of the Federal Bureau of Investigation, shall",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "The Attorney General, in consultation with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Secretary of Education",
+        "org": "Department of Education",
+        "context": "in consultation with the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "Director of the Federal Bureau of Investigation",
+        "org": "Federal Bureau of Investigation",
+        "context": "the Director of the Federal Bureau of Investigation, shall",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "title": "President",
+        "org": "United States of America",
+        "context": "The President may exercise the authorities provided to the President under sections 203 and 205",
+        "mentions": 1,
+        "first_seen": "2301"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Title 18, United States Code",
+        "citation": "18 U.S.C.",
+        "ref_type": "amends",
+        "context": "To amend title 18, United States Code, to prohibit United States persons",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Decoupling America's Artificial Intelligence Capabilities from China Act of 2025",
+        "citation": "Act of 2025",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Decoupling America's Artificial Intelligence Capabilities from China Act of 2025\".",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Title 17, United States Code",
+        "citation": "17 U.S.C.",
+        "ref_type": "cites",
+        "context": "any work protected by a copyright under title 17, United States Code",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Title 35, United States Code",
+        "citation": "35 U.S.C.",
+        "ref_type": "cites",
+        "context": "any property protected by a patent granted by the United States Patent and Trademark Office under title 35",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Lanham Act",
+        "citation": "15 U.S.C. 1051 et seq.",
+        "ref_type": "cites",
+        "context": "registered as a trademark with the United States Patent and Trademark Office under the Act entitled \"An Act to provide for the registration and protection of trademarks used in commerce",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Trademark Act of 1946",
+        "citation": "15 U.S.C. 1051 et seq.",
+        "ref_type": "cites",
+        "context": "commonly known as the \"Lanham Act\" or the \"Trademark Act of 1946\"",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Export Control Reform Act of 2018",
+        "citation": "50 U.S.C. 4801",
+        "ref_type": "cites",
+        "context": "has the meaning given that term in section 1742 of the Export Control Reform Act of 2018",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "10 U.S.C. note prec. 4061; Public Law 115\u2013232",
+        "ref_type": "cites",
+        "context": "has the meaning given the term in section 238(g) of the John S. McCain",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "U.S.-China Relations Act of 2000",
+        "citation": "22 U.S.C. 6903",
+        "ref_type": "cites",
+        "context": "as defined in section 204 of the U.S.-China Relations Act of 2000",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "National Defense Authorization Act for Fiscal Year 1993",
+        "citation": "22 U.S.C. 6010",
+        "ref_type": "cites",
+        "context": "has the meaning given the term in section 1711 of the National Defense Authorization Act",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Immigration and Nationality Act",
+        "citation": "8 U.S.C. 1324b(a)(3)",
+        "ref_type": "cites",
+        "context": "protected individual (as defined in section 274B(a)(3) of the Immigration and Nationality Act",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Code of Federal Regulations, Title 31, Section 800.208",
+        "citation": "31 CFR 800.208",
+        "ref_type": "cites",
+        "context": "has the meaning given the term in section 800.208 of title 31, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "Chapter 124\u2014Research and Development on Behalf of the People's Republic of China",
+        "citation": "18 U.S.C. Chapter 124",
+        "ref_type": "enacts",
+        "context": "by adding at the end the following: CHAPTER 124\u2014RESEARCH AND DEVELOPMENT ON BEHALF OF THE PEOPLE'S REPUBLIC OF CHINA",
+        "mentions": 1,
+        "first_seen": "2301"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "citation": "50 U.S.C. 1702 and 1704",
+        "ref_type": "cites",
+        "context": "The President may exercise the authorities provided to the President under sections 203 and 205 of the International Emergency Economic Powers Act",
+        "mentions": 1,
+        "first_seen": "2301"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "military-civil fusion strategy",
+        "doc_type": "strategy",
+        "owner_org": "Chinese Communist Party",
+        "context": "strategy of the Chinese Communist Party aiming to mobilize non-military resources and expertise for military application",
+        "mentions": 1,
+        "first_seen": "2301"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "2301",
+      "note": "Document excerpt contains only the enacting clause and bill title. Full legislative text not provided; substantive provisions mentioning Secretary of Commerce and other officials referenced in summary are not present in this text section."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "2301",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:title_18_united_states_code": 0.6,
+    "legislation:decoupling_america_s_artificial_intelligence_capabilities_from_china_act_of_2025": 0.6,
+    "legislation:title_17_united_states_code": 0.6,
+    "legislation:title_35_united_states_code": 0.6,
+    "legislation:lanham_act": 0.6,
+    "legislation:trademark_act_of_1946": 0.6,
+    "legislation:export_control_reform_act_of_2018": 0.6,
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "legislation:u_s_china_relations_act_of_2000": 0.6,
+    "legislation:national_defense_authorization_act_for_fiscal_year_1993": 0.6,
+    "legislation:immigration_and_nationality_act": 0.6,
+    "legislation:code_of_federal_regulations_title_31_section_800_208": 0.6,
+    "legislation:chapter_124_research_and_development_on_behalf_of_the_people_s_republic_of_china": 0.6,
+    "legislation:international_emergency_economic_powers_act": 0.6,
+    "office:secretary_of_commerce": 0.6,
+    "office:office_of_the_attorney_general": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:officer": 0.39999999999999997,
+    "role:director": 0.6,
+    "role:partner": 0.39999999999999997,
+    "role:agent": 0.39999999999999997,
+    "role:employee": 0.6,
+    "role:attorney_general": 0.9,
+    "role:secretary_of_defense": 0.9,
+    "role:secretary_of_education": 0.6,
+    "role:director_of_the_federal_bureau_of_investigation": 0.6,
+    "role:president": 0.9,
+    "named_doc:military_civil_fusion_strategy": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:chinese_communist_party": 0.6,
+    "org:people_s_liberation_army": 0.6,
+    "org:united_states_patent_and_trademark_office": 0.6,
+    "org:united_states_district_court": 0.6,
+    "org:federal_bureau_of_investigation": 0.6
+  }
+}

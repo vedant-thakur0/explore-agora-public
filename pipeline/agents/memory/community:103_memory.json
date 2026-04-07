@@ -1,0 +1,496 @@
+{
+  "community_id": "community:103",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Critical Infrastructures Protection Act of 2001",
+        "acronym": null,
+        "context": "Critical infrastructure definition referenced from 42 U.S.C. 5195c",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Public Works and Economic Development Act of 1965",
+        "acronym": null,
+        "context": "Economically distressed area requirements defined in section 301(a), 42 U.S.C. 3161(a)",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "acronym": null,
+        "context": "Labor organization definition from section 2(5), 29 U.S.C. 152(5)",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Railway Labor Act",
+        "acronym": null,
+        "context": "Cited for employment classification purposes, 45 U.S.C. 151 et seq.",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "National Science Foundation Act of 1950",
+        "acronym": null,
+        "context": "Referenced for advanced energy and industrial efficacy technologies, section 15, 42 U.S.C. 1874",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Senate committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Appropriations",
+        "acronym": null,
+        "context": "Both Senate and House committees designated as relevant committees of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Finance",
+        "acronym": null,
+        "context": "Senate committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Senate committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Armed Services",
+        "acronym": null,
+        "context": "Both Senate and House committees designated as relevant committees of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "Senate committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Select Committee on Intelligence",
+        "acronym": null,
+        "context": "Senate committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "House of Representatives committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "House of Representatives committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Ways and Means",
+        "acronym": null,
+        "context": "House of Representatives committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "acronym": null,
+        "context": "House of Representatives committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Permanent Select Committee on Intelligence",
+        "acronym": null,
+        "context": "House of Representatives committee designated as relevant committee of Congress",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce - head of the Supply Chain Resiliency and Crisis Response Office",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of State",
+        "acronym": null,
+        "context": "In coordination with the Secretary of State and the United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "United States Trade Representative",
+        "acronym": "USTR",
+        "context": "In coordination with the Secretary of State and the United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Federally Funded Research and Development Centers",
+        "acronym": "FFRDCs",
+        "context": "private sector partners, labor organizations, and, as appropriate, Federally Funded Research and Development Centers",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "provide guidance to the Department of Commerce, the National Science Foundation, and other relevant Federal agencies",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Small Business Administration",
+        "acronym": "SBA",
+        "context": "coordinate with the Small Business Administration",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "coordinate with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Homeland Security",
+        "acronym": "DHS",
+        "context": "coordinate with the Secretary of Homeland Security",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": "Treasury",
+        "context": "coordinate with the Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "coordinate with the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Transportation",
+        "acronym": "DOT",
+        "context": "coordinate with the Secretary of Transportation",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": "USDA",
+        "context": "coordinate with the Secretary of Agriculture",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "acronym": "HHS",
+        "context": "coordinate with the Secretary of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Department of Labor",
+        "acronym": "DOL",
+        "context": "coordinate with the Secretary of Labor",
+        "mentions": 1,
+        "first_seen": "483"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Supply Chain Resiliency and Crisis Response Office",
+        "parent_org": null,
+        "context": "Established under subsection (b), referred to as the Office in section 2(a)(12)",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Office of Supply Chain Resiliency and Crisis Response",
+        "parent_org": "Department of Commerce",
+        "context": "established not later than 180 days after enactment to carry out supply chain monitoring and resilience activities",
+        "mentions": 1,
+        "first_seen": "483"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "shall establish the Supply Chain Resiliency and Crisis Response Office",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "title": "Under Secretary of the Office of Supply Chain Resiliency and Crisis Response",
+        "org": "Office of Supply Chain Resiliency and Crisis Response",
+        "context": "head of the Office, appointed by President with Senate advice and consent, compensated at Executive Schedule level II",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "In coordination with the Secretary of State and the United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "title": "Under Secretary",
+        "org": "Office of Supply Chain Resiliency and Crisis Response",
+        "context": "the Under Secretary may establish subgroups of the unified coordination group",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "title": "United States Trade Representative",
+        "org": "Executive Office of the President",
+        "context": "coordinate with the United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "ensuring compliance with Federal antitrust law with the Attorney General and the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "title": "Under Secretary of National Intelligence",
+        "org": "Office of the Director of National Intelligence",
+        "context": "coordinate with the Under Secretary of National Intelligence",
+        "mentions": 1,
+        "first_seen": "483"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Critical Infrastructures Protection Act of 2001",
+        "citation": "42 U.S.C. 5195c",
+        "ref_type": "cites",
+        "context": "Definition of critical infrastructure incorporated by reference",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Public Works and Economic Development Act of 1965",
+        "citation": "42 U.S.C. 3161(a)",
+        "ref_type": "cites",
+        "context": "Requirements for economically distressed area defined in section 301(a)",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "citation": "29 U.S.C. 152(5)",
+        "ref_type": "cites",
+        "context": "Labor organization definition from section 2(5) with specified exceptions",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Railway Labor Act",
+        "citation": "45 U.S.C. 151 et seq.",
+        "ref_type": "cites",
+        "context": "Referenced for employment classification of railway labor",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "National Science Foundation Act of 1950",
+        "citation": "42 U.S.C. 1874",
+        "ref_type": "cites",
+        "context": "Section 15 referenced for advanced energy technologies consistency",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Title 5, United States Code",
+        "citation": "5 U.S.C. 551",
+        "ref_type": "cites",
+        "context": "Federal agency definition incorporates section 551 definition of agency",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Executive Schedule",
+        "citation": "section 5313 of title 5, United States Code",
+        "ref_type": "cites",
+        "context": "compensation rate for Under Secretary at level II",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Title 5 Civil Service Laws",
+        "citation": "chapter 51 and subchapter III of chapter 53 of title 5, United States Code",
+        "ref_type": "cites",
+        "context": "authorities for Under Secretary appointment of officers and employees",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Freedom of Information Act",
+        "citation": "5 U.S.C. \u00a7 552(b)(3)",
+        "ref_type": "cites",
+        "context": "as required under section 552(b)(3) of title 5, United States Code (commonly known as the \"Freedom of Information Act\")",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Executive Order 14017",
+        "citation": "Executive Order 14017",
+        "ref_type": "cites",
+        "context": "section 4(a) of Executive Order 14017 (relating to America's supply chains)",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "title 31, United States Code",
+        "citation": "31 U.S.C. \u00a7 1105",
+        "ref_type": "cites",
+        "context": "Concurrent with the annual submission by the President of the budget under section 1105 of title 31",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Supply Chain Mapping and Monitoring Act",
+        "citation": "section 2(m)",
+        "ref_type": "cites",
+        "context": "provisions of section 2(m) of the Supply Chain Mapping and Monitoring Act",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "Public Law 116\u2013283, section 9902",
+        "ref_type": "cites",
+        "context": "section 9902 of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "mentions": 1,
+        "first_seen": "483"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Sectoral Supply Chain Assessments",
+        "doc_type": "report",
+        "owner_org": "Office of Supply Chain Resiliency and Crisis Response",
+        "context": "final Sectoral Supply Chain Assessments report on supply chains required under section 4(a) of Executive Order 14017",
+        "mentions": 1,
+        "first_seen": "483"
+      },
+      {
+        "name": "Quadrennial Report On Supply Chain Resiliency And Domestic Manufacturing",
+        "doc_type": "report",
+        "owner_org": "Office of Supply Chain Resiliency and Crisis Response",
+        "context": "submit to the relevant committees of Congress and post on the website of the Under Secretary a report on supply chain resilience and domestic manufacturing",
+        "mentions": 1,
+        "first_seen": "483"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Commerce (defined in section 15 of document)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "483",
+      "note": "Document section consists entirely of definitional provisions (Section 2(a)). The text provided is the definitions subsection of the Supply Chain Resiliency and Crisis Response Office establishment clause, containing 14 defined terms but no operational authority language or role assignments yet visible."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "483",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Commerce (defined in section 15 of document)",
+      "doc_id": "483",
+      "community_id": "community:103"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:critical_infrastructures_protection_act_of_2001": 0.6,
+    "legislation:public_works_and_economic_development_act_of_1965": 0.6,
+    "legislation:national_labor_relations_act": 0.6,
+    "legislation:railway_labor_act": 0.6,
+    "legislation:national_science_foundation_act_of_1950": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "legislation:executive_schedule": 0.6,
+    "legislation:title_5_civil_service_laws": 0.6,
+    "legislation:freedom_of_information_act": 0.6,
+    "legislation:executive_order_14017": 0.6,
+    "legislation:title_31_united_states_code": 0.6,
+    "legislation:supply_chain_mapping_and_monitoring_act": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "office:supply_chain_resiliency_and_crisis_response_office": 0.6,
+    "office:office_of_supply_chain_resiliency_and_crisis_response": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:under_secretary_of_the_office_of_supply_chain_resiliency_and_crisis_response": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:under_secretary": 0.6,
+    "role:united_states_trade_representative": 0.6,
+    "role:attorney_general": 0.9,
+    "role:under_secretary_of_national_intelligence": 0.6,
+    "named_doc:sectoral_supply_chain_assessments": 0.6,
+    "named_doc:quadrennial_report_on_supply_chain_resiliency_and_domestic_manufacturing": 0.6,
+    "org:critical_infrastructures_protection_act_of_2001": 0.6,
+    "org:public_works_and_economic_development_act_of_1965": 0.6,
+    "org:national_labor_relations_act": 0.6,
+    "org:railway_labor_act": 0.6,
+    "org:national_science_foundation_act_of_1950": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_appropriations": 0.6,
+    "org:committee_on_finance": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_armed_services": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:select_committee_on_intelligence": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_ways_and_means": 0.6,
+    "org:committee_on_homeland_security": 0.6,
+    "org:permanent_select_committee_on_intelligence": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_state": 0.6,
+    "org:united_states_trade_representative": 0.6,
+    "org:federally_funded_research_and_development_centers": 0.6,
+    "org:national_science_foundation": 1.0,
+    "org:small_business_administration": 0.6,
+    "org:department_of_defense": 1.0,
+    "org:department_of_homeland_security": 1.0,
+    "org:department_of_the_treasury": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:department_of_transportation": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:department_of_health_and_human_services": 1.0,
+    "org:department_of_labor": 0.6
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "community_id": "community:070",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "It is the sense of Congress that, with the integration of artificial intelligence",
+        "mentions": 1,
+        "first_seen": "1961"
+      }
+    ],
+    "offices": [
+      {
+        "name": "international affairs agency",
+        "parent_org": "U.S. Federal Government",
+        "context": "The head of each international affairs agency shall employ experts",
+        "mentions": 1,
+        "first_seen": "1961"
+      }
+    ],
+    "roles": [
+      {
+        "title": "head of each international affairs agency",
+        "org": "international affairs agency",
+        "context": "The head of each international affairs agency shall employ experts, including technologists",
+        "mentions": 1,
+        "first_seen": "1961"
+      },
+      {
+        "title": "head of each agency",
+        "org": "international affairs agency",
+        "context": "the head of each agency shall submit a report to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1961"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "American Foreign Affairs Talent Expansion Act: Diversity in Diplomacy and Development",
+        "citation": "Section 112",
+        "ref_type": "enacts",
+        "context": "Not later than 1 year after the date of the enactment of this Act",
+        "mentions": 1,
+        "first_seen": "1961"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "risk-mitigation framework",
+        "doc_type": "plan",
+        "owner_org": "international affairs agency",
+        "context": "support the development of a risk-mitigation framework that promotes trustworthy artificial intelligence systems",
+        "mentions": 1,
+        "first_seen": "1961"
+      },
+      {
+        "name": "biennial report to appropriate congressional committees",
+        "doc_type": "report",
+        "owner_org": "international affairs agency",
+        "context": "the head of each agency shall submit a report to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1961"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1961",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:american_foreign_affairs_talent_expansion_act_diversity_in_diplomacy_and_development": 0.6,
+    "office:international_affairs_agency": 0.6,
+    "role:head_of_each_international_affairs_agency": 0.6,
+    "role:head_of_each_agency": 0.6,
+    "named_doc:risk_mitigation_framework": 0.6,
+    "named_doc:biennial_report_to_appropriate_congressional_committees": 0.6,
+    "org:congress": 0.9
+  }
+}

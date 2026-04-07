@@ -1,0 +1,608 @@
+{
+  "community_id": "community:219",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Digital Service",
+        "acronym": "USDS",
+        "context": "United States Digital Service algorithm auditors",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "The term 'Commission' means the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "United States Census Bureau",
+        "acronym": null,
+        "context": "according to the most recent data collected by the United States Census Bureau",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Civil Rights Act of 1964",
+        "acronym": null,
+        "context": "section 201(e) of the Civil Rights Act of 1964 (42 U.S.C. 2000a(e))",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "upon request, make the evaluation, assessment, or review available to Congress",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "National Institute of Science of Technology",
+        "acronym": "NIST",
+        "context": "the Commission shall consult with the National Institute of Science of Technology",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "National Telecommunications and Information Administration",
+        "acronym": "NTIA",
+        "context": "the Commission shall consult with the National Telecommunications and Information Administration",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation of the Senate",
+        "acronym": null,
+        "context": "submit to the Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Committee on Energy and Commerce of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "in accordance with current guidance from the Office of Management and Budget",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "acronym": null,
+        "context": "common carriers subject to the Communications Act of 1934",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Federal Aviation Act of 1958",
+        "acronym": null,
+        "context": "air carrier or foreign air carrier subject to the Federal Aviation Act of 1958",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Packers and Stockyards Act, 1921",
+        "acronym": null,
+        "context": "person, partnership, or corporation subject to the Packers and Stockyards Act, 1921",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "National Labor Relations Board",
+        "acronym": "NLRB",
+        "context": "National Labor Relations Act (29 U.S.C. 151 et seq.)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "report entitled \"Artificial Intelligence: An Accountability Framework for Federal Agencies and Other Entities\" (GAO\u201321\u2013519SP)",
+        "mentions": 1,
+        "first_seen": "1201"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Science and Technology Policy",
+        "parent_org": "Executive Office of the President",
+        "context": "the Commission shall consult with the Office of Science and Technology Policy",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "State data protection authority",
+        "parent_org": "State government",
+        "context": "attorney general of a State or a State data protection authority",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Office of Personnel Management",
+        "parent_org": "Federal Government",
+        "context": "Director of the Office of Personnel Management shall exercise the authority",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Algorithm Auditing Track",
+        "parent_org": "United States Digital Service",
+        "context": "establish a track for algorithm auditing; and hire algorithm audit practitioners",
+        "mentions": 1,
+        "first_seen": "1201"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Commission",
+        "org": "Federal Trade Commission",
+        "context": "Sec. 401. Enforcement by the Commission.",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "algorithm auditor",
+        "org": "Federal Government",
+        "context": "Occupational series relating to algorithm auditing",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "algorithm auditors",
+        "org": "United States Digital Service",
+        "context": "United States Digital Service algorithm auditors",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "independent auditor",
+        "org": null,
+        "context": "individual that conducts a pre-deployment evaluation or impact assessment of a covered algorithm",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "developer",
+        "org": null,
+        "context": "A developer or deployer shall not offer, license, promote, sell, or use a covered algorithm",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "deployer",
+        "org": null,
+        "context": "A developer or deployer shall not offer, license, promote, sell, or use a covered algorithm",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "human reviewer",
+        "org": "Federal Trade Commission",
+        "context": "Specify training requirements for human reviewers with respect to a consequential action",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "attorney general of a State",
+        "org": "State government",
+        "context": "attorney general of a State...may...bring a civil action",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "attorney general",
+        "org": "Federal Trade Commission",
+        "context": "the attorney general by the laws of the State to conduct investigations",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "attorney general of the State",
+        "org": "State government",
+        "context": "the attorney general of the State where such individual resides",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "State attorney general",
+        "org": "State government",
+        "context": "If a State attorney general does intervene, they shall only be heard with respect to the interests of the residents of their State",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "employer",
+        "org": "National Labor Relations Act",
+        "context": "employer (as such term is defined in section 2 of such Act (29 U.S.C. 152)) to bargain collectively regarding the deployment or effects of a covered algorithm",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "Director of the Office of Personnel Management",
+        "org": "Office of Personnel Management",
+        "context": "Director of the Office of Personnel Management shall exercise the authority of the Director under section 5105",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "Administrator",
+        "org": "United States Digital Service",
+        "context": "Administrator of the United States Digital Service shall establish a track for algorithm auditing",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "Algorithm Audit Practitioners",
+        "org": "United States Digital Service",
+        "context": "hire algorithm audit practitioners",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "Algorithm Auditing Track Personnel",
+        "org": "United States Digital Service",
+        "context": "algorithm auditing track personnel and projects prioritize the efforts of the Commission",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "title": "Commission personnel",
+        "org": "Federal Trade Commission",
+        "context": "the Commission may hire not more than 500 additional personnel to accomplish the work of the Commission with respect to unfair or deceptive acts or practices relating to the development or deployment of covered algorithms",
+        "mentions": 1,
+        "first_seen": "1201"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Artificial Intelligence Civil Rights Act of 2024",
+        "citation": "SECTION 1(a)",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Artificial Intelligence Civil Rights Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 553 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 553",
+        "ref_type": "cites",
+        "context": "rules promulgated pursuant to section 553 of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Constitution of the United States",
+        "citation": null,
+        "ref_type": "other",
+        "context": "infringement of a right protected under the Constitution of the United States",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 101(b)(2)",
+        "citation": "section 101(b)(2)",
+        "ref_type": "cites",
+        "context": "does not include a private club or establishment described in section 101(b)(2)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Civil Rights Act of 1964",
+        "citation": "42 U.S.C. 2000a(e)",
+        "ref_type": "cites",
+        "context": "section 201(e) of the Civil Rights Act of 1964 (42 U.S.C. 2000a(e))",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 1839 of title 18, United States Code",
+        "citation": "18 U.S.C. \u00a7 1839",
+        "ref_type": "cites",
+        "context": "trade secret (as defined in section 1839 of title 18, United States Code)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 102(a)",
+        "citation": "section 102(a)",
+        "ref_type": "cites",
+        "context": "pre-deployment evaluation described in section 102(a) or an impact assessment described in section 102(b)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 102(b)",
+        "citation": "section 102(b)",
+        "ref_type": "cites",
+        "context": "impact assessment described in section 102(b)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 102(c)",
+        "citation": "section 102(c)",
+        "ref_type": "cites",
+        "context": "annual review of assessments conducted by the developer under section 102(c)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "this Act",
+        "citation": "Artificial Intelligence Civil Rights Act of 2024",
+        "ref_type": "cites",
+        "context": "potential violations of this Act",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "21st Century Integrated Digital Experience Act",
+        "citation": "44 U.S.C. 3501 note",
+        "ref_type": "cites",
+        "context": "in accordance with the 21st Century Integrated Digital Experience Act",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Open, Public, Electronic, and Necessary Government Data Act",
+        "citation": "44 U.S.C. 101 note",
+        "ref_type": "cites",
+        "context": "in accordance with current guidance from the Office of Management and Budget, such as the Open, Public, Electronic, and Necessary Government Data Act",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "citation": "15 U.S.C. 57a(a)(1)(B)",
+        "ref_type": "cites",
+        "context": "violation of a rule defining an unfair or deceptive act or practice under section 18(a)(1)(B)",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "title 5, United States Code",
+        "citation": "section 553",
+        "ref_type": "cites",
+        "context": "Commission may promulgate in accordance with section 553 of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "citation": "47 U.S.C. 151 et seq.",
+        "ref_type": "cites",
+        "context": "common carriers subject to the Communications Act of 1934",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Federal Aviation Act of 1958",
+        "citation": "49 U.S.C. App. 1301 et seq.",
+        "ref_type": "cites",
+        "context": "air carrier or foreign air carrier subject to the Federal Aviation Act of 1958",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Packers and Stockyards Act, 1921",
+        "citation": "7 U.S.C. 181 et seq.",
+        "ref_type": "cites",
+        "context": "person, partnership, or corporation subject to the Packers and Stockyards Act, 1921",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 1391 of title 28, United States Code",
+        "citation": "28 U.S.C. \u00a7 1391",
+        "ref_type": "cites",
+        "context": "appropriate Federal district court...meets applicable requirements relating to venue under section 1391",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "title I, II, or III",
+        "citation": "this Act",
+        "ref_type": "cites",
+        "context": "Any individual or class of individuals alleging a violation of title I, II, or III",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "citation": "29 U.S.C. 151 et seq.",
+        "ref_type": "cites",
+        "context": "Nothing in this Act shall be construed to waive or otherwise limit any requirement under the National Labor Relations Act",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "National Labor Relations Act section 2",
+        "citation": "29 U.S.C. 152",
+        "ref_type": "cites",
+        "context": "employer (as such term is defined in section 2 of such Act (29 U.S.C. 152))",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "section 5105 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 5105",
+        "ref_type": "cites",
+        "context": "Director under section 5105 of title 5, United States Code, to establish a new occupational series",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Office of Management and Budget Memorandum M\u201324\u201310",
+        "citation": "OMB M\u201324\u201310",
+        "ref_type": "other",
+        "context": "obligations to implement Office of Management and Budget Memorandum M\u201324\u201310",
+        "mentions": 1,
+        "first_seen": "1201"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Study on explanations regarding the use of covered algorithms",
+        "doc_type": "study",
+        "owner_org": "Federal Trade Commission",
+        "context": "Sec. 302. Study on explanations regarding the use of covered algorithms.",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "impact assessment",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "report on the impact assessment conducted under paragraph (2), including the findings",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "pre-deployment evaluation",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "developer or deployer that conducts a full pre-deployment evaluation shall submit the evaluation to the Commission",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "developer annual review of assessments",
+        "doc_type": "report",
+        "owner_org": null,
+        "context": "developer shall, on an annual basis, review each impact assessment summary submitted by a deployer",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Report on study findings and recommendations",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "the Commission shall submit to the Committee a report that includes the findings of the study",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Annual Report on Pre-Deployment Evaluations, Impact Assessments, and Developer Reviews",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "Commission shall publish on the internet website of the Commission a report",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Publicly Accessible Repository of Pre-Deployment Evaluations and Impact Assessments",
+        "doc_type": "program",
+        "owner_org": "Federal Trade Commission",
+        "context": "Commission shall develop a publicly accessible repository to publish each pre-deployment evaluation, impact assessment, and developer review",
+        "mentions": 1,
+        "first_seen": "1201"
+      },
+      {
+        "name": "Artificial Intelligence: An Accountability Framework for Federal Agencies and Other Entities",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "report of the Government Accountability Office entitled \"Artificial Intelligence: An Accountability Framework for Federal Agencies and Other Entities\" (GAO\u201321\u2013519SP), dated June 30, 2021",
+        "mentions": 1,
+        "first_seen": "1201"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the commission": "Federal Trade Commission (established from document context and community memory)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1201",
+      "note": "Section 1 contains only the short title and table of contents designation; substantive legislative text and entity references are absent from this excerpt."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1201",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Commission",
+      "resolved": "Federal Trade Commission (established from document context and community memory)",
+      "doc_id": "1201",
+      "community_id": "community:219"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:artificial_intelligence_civil_rights_act_of_2024": 0.6,
+    "legislation:section_553_of_title_5_united_states_code": 0.6,
+    "legislation:constitution_of_the_united_states": 0.6,
+    "legislation:section_101_b_2": 0.6,
+    "legislation:civil_rights_act_of_1964": 0.6,
+    "legislation:section_1839_of_title_18_united_states_code": 0.6,
+    "legislation:section_102_a": 0.6,
+    "legislation:section_102_b": 0.6,
+    "legislation:section_102_c": 0.6,
+    "legislation:this_act": 0.6,
+    "legislation:21st_century_integrated_digital_experience_act": 0.6,
+    "legislation:open_public_electronic_and_necessary_government_data_act": 0.6,
+    "legislation:federal_trade_commission_act": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "legislation:communications_act_of_1934": 0.6,
+    "legislation:federal_aviation_act_of_1958": 0.6,
+    "legislation:packers_and_stockyards_act_1921": 0.6,
+    "legislation:section_1391_of_title_28_united_states_code": 0.6,
+    "legislation:title_i_ii_or_iii": 0.6,
+    "legislation:national_labor_relations_act": 0.6,
+    "legislation:national_labor_relations_act_section_2": 0.6,
+    "legislation:section_5105_of_title_5_united_states_code": 0.6,
+    "legislation:office_of_management_and_budget_memorandum_m_24_10": 0.6,
+    "office:office_of_science_and_technology_policy": 1.0,
+    "office:state_data_protection_authority": 0.6,
+    "office:office_of_personnel_management": 0.6,
+    "office:algorithm_auditing_track": 0.6,
+    "role:commission": 0.6,
+    "role:algorithm_auditor": 0.6,
+    "role:algorithm_auditors": 0.6,
+    "role:independent_auditor": 0.6,
+    "role:developer": 0.6,
+    "role:deployer": 0.6,
+    "role:human_reviewer": 0.6,
+    "role:attorney_general_of_a_state": 0.6,
+    "role:attorney_general": 0.9,
+    "role:attorney_general_of_the_state": 0.6,
+    "role:state_attorney_general": 0.6,
+    "role:employer": 0.6,
+    "role:director_of_the_office_of_personnel_management": 0.6,
+    "role:administrator": 0.6,
+    "role:algorithm_audit_practitioners": 0.6,
+    "role:algorithm_auditing_track_personnel": 0.6,
+    "role:commission_personnel": 0.6,
+    "named_doc:study_on_explanations_regarding_the_use_of_covered_algorithms": 0.6,
+    "named_doc:impact_assessment": 0.6,
+    "named_doc:pre_deployment_evaluation": 0.6,
+    "named_doc:developer_annual_review_of_assessments": 0.6,
+    "named_doc:report_on_study_findings_and_recommendations": 0.6,
+    "named_doc:annual_report_on_pre_deployment_evaluations_impact_assessments_and_developer_reviews": 0.6,
+    "named_doc:publicly_accessible_repository_of_pre_deployment_evaluations_and_impact_assessments": 0.6,
+    "named_doc:artificial_intelligence_an_accountability_framework_for_federal_agencies_and_other_entities": 0.6,
+    "org:united_states_digital_service": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:united_states_census_bureau": 0.6,
+    "org:civil_rights_act_of_1964": 0.6,
+    "org:congress": 0.9,
+    "org:national_institute_of_science_of_technology": 0.6,
+    "org:national_telecommunications_and_information_administration": 0.6,
+    "org:committee_on_commerce_science_and_transportation_of_the_senate": 0.6,
+    "org:committee_on_energy_and_commerce_of_the_house_of_representatives": 0.6,
+    "org:office_of_management_and_budget": 1.0,
+    "org:communications_act_of_1934": 0.6,
+    "org:federal_aviation_act_of_1958": 0.6,
+    "org:packers_and_stockyards_act_1921": 0.6,
+    "org:national_labor_relations_board": 0.6,
+    "org:government_accountability_office": 0.6
+  }
+}

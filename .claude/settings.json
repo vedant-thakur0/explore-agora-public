@@ -11,6 +11,9 @@
       "mcp__supabase__list_tables",
       "Bash(python3 -m pipeline.cli sync-supabase --dry-run)",
       "Bash(grep -E \"\\\\.py$\")"
+    ],
+    "additionalDirectories": [
+      "/Users/vthakur/Documents"
     ]
   }
 }

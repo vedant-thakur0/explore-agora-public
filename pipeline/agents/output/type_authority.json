@@ -1,0 +1,20 @@
+{
+  "role_not_org": [
+    "Secretary of Defense",
+    "Director of National Intelligence",
+    "Attorney General",
+    "Secretary of Homeland Security",
+    "Intelligence Community Chief Data Officer",
+    "Director of National Intelligence"
+  ],
+  "org_not_role": [
+    "Department of Defense",
+    "Intelligence Community",
+    "Congress",
+    "Federal Trade Commission",
+    "National Science Foundation",
+    "National Institutes of Health",
+    "Bureau of Human Rights",
+    "Bureau of Democracy"
+  ]
+}

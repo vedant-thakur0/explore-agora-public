@@ -1,0 +1,2282 @@
+{
+  "community_id": "community:004",
+  "label": "Strategies: Disclosure | Incentives: Civil liability | Strategies: Government study or report",
+  "taxonomy_signature": [
+    "Strategies: Disclosure",
+    "Incentives: Civil liability",
+    "Strategies: Government study or report",
+    "Strategies: Governance development",
+    "Risk factors: Transparency",
+    "Incentives: Fines",
+    "Strategies: Disclosure: In deployment",
+    "Harms: Detrimental content",
+    "Harms: Violation of civil or human rights, including privacy"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Election Commission",
+        "acronym": "FEC",
+        "context": "enforces Federal Election Campaign Act amendments",
+        "mentions": 4,
+        "first_seen": "904"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "in consultation with the Director of the National Institute of Standards and Technology",
+        "mentions": 4,
+        "first_seen": "904"
+      },
+      {
+        "name": "Committee on Rules and Administration",
+        "acronym": null,
+        "context": "the Committee on Rules and Administration of the Senate",
+        "mentions": 1,
+        "first_seen": "904"
+      },
+      {
+        "name": "Committee on House Administration",
+        "acronym": null,
+        "context": "the Committee on House Administration of the House of Representatives",
+        "mentions": 3,
+        "first_seen": "904"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "referred to the Committee on Commerce, Science, and Transportation",
+        "mentions": 3,
+        "first_seen": "554"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "violations treated as unfair or deceptive acts under Federal Trade Commission Act",
+        "mentions": 9,
+        "first_seen": "554"
+      },
+      {
+        "name": "Attorney General",
+        "acronym": null,
+        "context": "Attorney General shall designate a coordinator in each United States Attorney's Office",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "United States Attorney's Office",
+        "acronym": null,
+        "context": "coordinator in each United States Attorney's Office to receive reports from the public",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "Russian Federation",
+        "acronym": null,
+        "context": "efforts of the Russian Federation and the People's Republic of China to use deepfake technology",
+        "mentions": 2,
+        "first_seen": "826"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": null,
+        "context": "efforts of the Russian Federation and the People's Republic of China to use deepfake technology",
+        "mentions": 2,
+        "first_seen": "826"
+      },
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "Director of the Office of Management and Budget",
+        "mentions": 2,
+        "first_seen": "571"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "the Director shall consider soliciting input from the Government Accountability Office",
+        "mentions": 2,
+        "first_seen": "571"
+      },
+      {
+        "name": "General Services Administration",
+        "acronym": "GSA",
+        "context": "the General Services Administration, including on the topic of user experience",
+        "mentions": 2,
+        "first_seen": "571"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "in consultation with the Federal Communications Commission, the Attorney General",
+        "mentions": 1,
+        "first_seen": "590"
+      },
+      {
+        "name": "Media Ratings Council",
+        "acronym": "MRC",
+        "context": "as measured by an independent digital ratings service accredited by the Media Ratings Council (or its successor)",
+        "mentions": 1,
+        "first_seen": "447"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "referred to the Committee on Energy and Commerce",
+        "mentions": 7,
+        "first_seen": "573"
+      },
+      {
+        "name": "Permanent Select Committee on Intelligence",
+        "acronym": null,
+        "context": "in addition to the Permanent Select Committee on Intelligence",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "Department of Intelligence",
+        "acronym": null,
+        "context": "Director of National Intelligence shall submit...on the Department's website",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "Supreme Court",
+        "acronym": null,
+        "context": "Supreme Court found 8\u20131 in Citizens United v. Federal Election Commission",
+        "mentions": 1,
+        "first_seen": "883"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "submit to the Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "883"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "acronym": null,
+        "context": "section 230(f) of the Communications Act of 1934",
+        "mentions": 3,
+        "first_seen": "456"
+      },
+      {
+        "name": "Senate of the United States",
+        "acronym": null,
+        "context": "IN THE SENATE OF THE UNITED STATES",
+        "mentions": 8,
+        "first_seen": "889"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 8,
+        "first_seen": "889"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Technology of the Senate",
+        "acronym": null,
+        "context": "submit to the Committee on Commerce, Science, and Technology of the Senate",
+        "mentions": 1,
+        "first_seen": "889"
+      },
+      {
+        "name": "Committee on Energy and Commerce of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 2,
+        "first_seen": "889"
+      },
+      {
+        "name": "Committee on Ways and Means",
+        "acronym": null,
+        "context": "bill referred to the Committee on Ways and Means",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Finance",
+        "acronym": null,
+        "context": "appropriate congressional committees of the Senate",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "appropriate congressional committees of the Senate",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Select Committee on Intelligence",
+        "acronym": null,
+        "context": "appropriate congressional committees of the Senate",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "acronym": null,
+        "context": "appropriate congressional committees of the Senate",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "appropriate congressional committees of the House",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "appropriate congressional committees of the House",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "North Korea",
+        "acronym": null,
+        "context": "country of concern",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Venezuela",
+        "acronym": null,
+        "context": "regime of Nicol\u00e0s Maduro identified as country of concern",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Trade Act of 1974",
+        "acronym": null,
+        "context": "amended by adding Title X for protection of national critical capabilities",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Office of the United States Trade Representative",
+        "acronym": "USTR",
+        "context": "The Office of the United States Trade Representative shall be represented on the Committee",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "The Department of Commerce shall be represented on the Committee",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Department of State",
+        "acronym": null,
+        "context": "The Department of State shall be represented on the Committee",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "The Department of the Treasury shall be represented on the Committee",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": null,
+        "context": "The Department of Energy shall be represented on the Committee",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": null,
+        "context": "The Department of Agriculture shall be represented on the Committee",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Department of Labor",
+        "acronym": null,
+        "context": "The Department of Labor shall be represented on the Committee",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "United Nations",
+        "acronym": "UN",
+        "context": "conduct of the official business of the Federal Government, the United Nations, or international financial institutions",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "acronym": null,
+        "context": "other than this subsection and the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.)",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "National Defense Authorization Act for Fiscal Year 2020",
+        "acronym": null,
+        "context": "section 847 of the National Defense Authorization Act for Fiscal Year 2020 (Public Law 116\u201392)",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "United States Court of Appeals for the District of Columbia Circuit",
+        "acronym": null,
+        "context": "civil action may be brought only in the United States Court of Appeals",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Supreme Court of the United States",
+        "acronym": null,
+        "context": "subject to review by the Supreme Court of the United States",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Federal Intelligence Surveillance Court",
+        "acronym": null,
+        "context": "court ex parte and in camera review of classified information",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Republican Party",
+        "acronym": null,
+        "context": "emails from political campaigns of candidates belonging to the Republican Party",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "name": "Democratic Party",
+        "acronym": null,
+        "context": "emails from political campaigns of candidates belonging to the Democratic Party",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "name": "Library of Congress",
+        "acronym": null,
+        "context": "The Register, with the approval of the Librarian of Congress, shall designate",
+        "mentions": 2,
+        "first_seen": "886"
+      },
+      {
+        "name": "American Federation of Musicians",
+        "acronym": "AFM",
+        "context": "payment from the amount allocated under paragraph (1)(B) of this subsection to the American Federation of Musicians",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Screen Actors Guild",
+        "acronym": "SAG",
+        "context": "American Federation of Musicians and Screen Actors Guild and the American Federation of Television and Radio Artists",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "American Federation of Television and Radio Artists",
+        "acronym": "AFTRA",
+        "context": "Screen Actors Guild and the American Federation of Television and Radio Artists Intellectual Property Rights Distribution Fund",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Board of Directors",
+        "acronym": null,
+        "context": "governed by a Board of Directors that includes committees that are composed of a mix of voting and nonvoting members",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Register of Copyrights",
+        "acronym": null,
+        "context": "The term \"Register\" means the Register of Copyrights.",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Election Assistance Commission",
+        "acronym": "EAC",
+        "context": "the Election Assistance Commission shall, in consultation with the National Institute of Standards and Technology, submit to Congress",
+        "mentions": 1,
+        "first_seen": "896"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "in Congress assembled",
+        "mentions": 2,
+        "first_seen": "874"
+      },
+      {
+        "name": "Board of Governors of the Federal Reserve System",
+        "acronym": null,
+        "context": "The Chairman of the Board of Governors of the Federal Reserve System",
+        "mentions": 1,
+        "first_seen": "882"
+      },
+      {
+        "name": "Nuclear Regulatory Commission",
+        "acronym": "NRC",
+        "context": "To update oversight and inspection practices of the Nuclear Regulatory Commission",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "acronym": "HHS",
+        "context": "Secretary of Health and Human Services under section 319 of the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Public Health Service",
+        "acronym": null,
+        "context": "section 319 of the Public Health Service Act (42 U.S.C. 247d)",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "seek input from the National Laboratories",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Comptroller General of the United States",
+        "acronym": null,
+        "context": "Comptroller General of the United States shall review office and facility space",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Committee on Environment and Public Works",
+        "acronym": null,
+        "context": "Committee on Environment and Public Works of the Senate",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Small Business Administration",
+        "acronym": "SBA",
+        "context": "Administrator of the Small Business Administration regarding the distribution",
+        "mentions": 1,
+        "first_seen": "1246"
+      },
+      {
+        "name": "Internal Revenue Service",
+        "acronym": "IRS",
+        "context": "use of artificial intelligence by Internal Revenue Service",
+        "mentions": 1,
+        "first_seen": "891"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Committee on Rules and Administration of the Senate",
+        "parent_org": "United States Senate",
+        "context": "submit a report to the Committee on Rules and Administration of the Senate",
+        "mentions": 2,
+        "first_seen": "904"
+      },
+      {
+        "name": "Committee on House Administration of the House of Representatives",
+        "parent_org": "United States House of Representatives",
+        "context": "the Committee on House Administration of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "904"
+      },
+      {
+        "name": "Committee on Rules and Administration",
+        "parent_org": "United States Senate",
+        "context": "Committee on Rules and Administration of the Senate",
+        "mentions": 2,
+        "first_seen": "1305"
+      },
+      {
+        "name": "Committee on House Administration",
+        "parent_org": "United States House of Representatives",
+        "context": "Committee on House Administration of the House of Representatives",
+        "mentions": 2,
+        "first_seen": "1305"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "parent_org": "United States Senate",
+        "context": "referred to the Committee on Commerce, Science, and Transportation",
+        "mentions": 4,
+        "first_seen": "554"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "parent_org": "House of Representatives",
+        "context": "Director shall submit report to Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 3,
+        "first_seen": "554"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "parent_org": "United States Senate",
+        "context": "submit to the Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "571"
+      },
+      {
+        "name": "Committee on Oversight and Accountability",
+        "parent_org": "United States House of Representatives",
+        "context": "Committee on Oversight and Accountability of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "571"
+      },
+      {
+        "name": "Department of Justice",
+        "parent_org": null,
+        "context": "Department of Justice's website",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "parent_org": "House of Representatives",
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 2,
+        "first_seen": "883"
+      },
+      {
+        "name": "Committee on Finance",
+        "parent_org": "Senate of the United States",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "parent_org": "Senate of the United States",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Select Committee on Intelligence",
+        "parent_org": "Senate of the United States",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "parent_org": "Senate of the United States",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "parent_org": "House of Representatives",
+        "context": "appropriate congressional committees",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "parent_org": "House of Representatives",
+        "context": "appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Committee on National Critical Capabilities",
+        "parent_org": "Executive Branch",
+        "context": "The President shall establish an interagency committee...known as the 'Committee on National Critical Capabilities'",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Federal Register",
+        "parent_org": null,
+        "context": "The Register shall publish a notice in the Federal Register that includes",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "American Federation of Musicians and Screen Actors Guild and the American Federation of Television and Radio Artists Intellectual Property Rights Distribution Fund",
+        "parent_org": "American Federation of Musicians; Screen Actors Guild; American Federation of Television and Radio Artists",
+        "context": "distribution to each eligible non-featured artist",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Committee on the Judiciary",
+        "parent_org": "House of Representatives",
+        "context": "which was referred to the Committee on the Judiciary",
+        "mentions": 1,
+        "first_seen": "874"
+      },
+      {
+        "name": "Register of Copyrights",
+        "parent_org": "Library of Congress",
+        "context": "submit to the Register a notice; Register shall establish and maintain database",
+        "mentions": 1,
+        "first_seen": "874"
+      },
+      {
+        "name": "headquarters of the Nuclear Regulatory Commission",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "costs associated with the headquarters, regional offices, and technical training center",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "regional offices of the Nuclear Regulatory Commission",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "costs associated with the headquarters, regional offices, and technical training center",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "technical training center of the Nuclear Regulatory Commission",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "costs associated with the headquarters, regional offices, and technical training center",
+        "mentions": 1,
+        "first_seen": "525"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "National Institute of Standards and Technology",
+        "context": "in consultation with the Director of the National Institute of Standards and Technology",
+        "mentions": 6,
+        "first_seen": "904"
+      },
+      {
+        "title": "Coordinator for Violations Directed By Foreign Nation-States",
+        "org": "United States Attorney's Office",
+        "context": "Attorney General shall designate a coordinator in each United States Attorney's Office to receive reports regarding potential violations",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "title": "Coordinator for False Intimate Depictions",
+        "org": "United States Attorney's Office",
+        "context": "Attorney General shall designate a coordinator in each United States Attorney's Office to receive reports regarding potential violations relating to deepfake depictions of an intimate and sexual nature",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "accessible for use by the agency, the Comptroller General of the United States, and Congress",
+        "mentions": 3,
+        "first_seen": "571"
+      },
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "in consultation with the Federal Communications Commission, the Attorney General",
+        "mentions": 2,
+        "first_seen": "590"
+      },
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "the Attorney General, and the Secretary of Homeland Security, shall issue regulations",
+        "mentions": 2,
+        "first_seen": "590"
+      },
+      {
+        "title": "Ms. Clarke of New York",
+        "org": "House of Representatives",
+        "context": "Ms. Clarke of New York introduced the following bill",
+        "mentions": 1,
+        "first_seen": "447"
+      },
+      {
+        "title": "Commission",
+        "org": "Federal Election Commission",
+        "context": "Not later than 120 days after the date of the enactment of the REAL Political Advertisements Act, the Commission shall promulgate a regulation",
+        "mentions": 5,
+        "first_seen": "447"
+      },
+      {
+        "title": "Director of National Intelligence",
+        "org": "Department of Intelligence",
+        "context": "Director of National Intelligence shall submit a National Intelligence Estimate on the use of platforms",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "title": "Comptroller General",
+        "org": "Government Accountability Office",
+        "context": "Comptroller General shall submit to Congress reports on the implementation of this Act",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "title": "Ms. Schakowsky",
+        "org": "House of Representatives",
+        "context": "Ms. Schakowsky introduced the following bill",
+        "mentions": 1,
+        "first_seen": "451"
+      },
+      {
+        "title": "President",
+        "org": "Executive Branch",
+        "context": "AI model trained to replicate President Biden's voice",
+        "mentions": 2,
+        "first_seen": "883"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "Already extracted from earlier sections",
+        "mentions": 1,
+        "first_seen": "883"
+      },
+      {
+        "title": "Mr. Torres of New York",
+        "org": "House of Representatives",
+        "context": "Mr. Torres of New York introduced the following bill",
+        "mentions": 1,
+        "first_seen": "448"
+      },
+      {
+        "title": "Mr. Espaillat",
+        "org": "Congress",
+        "context": "Mr. Espaillat introduced the following bill",
+        "mentions": 1,
+        "first_seen": "456"
+      },
+      {
+        "title": "Senator",
+        "org": "Senate of the United States",
+        "context": "Mr. Welch (for himself and Mr. Luj\u00e1n) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "889"
+      },
+      {
+        "title": "Ms. DeLauro",
+        "org": "House of Representatives",
+        "context": "Ms. DeLauro (for herself, Mr. Pascrell, and Mr. Fitzpatrick) introduced",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "Mr. Pascrell",
+        "org": "House of Representatives",
+        "context": "Ms. DeLauro (for herself, Mr. Pascrell, and Mr. Fitzpatrick) introduced",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "Mr. Fitzpatrick",
+        "org": "House of Representatives",
+        "context": "Ms. DeLauro (for herself, Mr. Pascrell, and Mr. Fitzpatrick) introduced",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "United States Trade Representative",
+        "org": "Office of the United States Trade Representative",
+        "context": "chairperson shall consult with the United States Trade Representative",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "chairperson shall consult with...the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "chairperson shall consult with...the Secretary of Commerce",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "chairperson shall consult with...the Secretary of State",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "chairperson shall consult with...the Secretary of the Treasury",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "title": "Chairperson",
+        "org": "Committee on National Critical Capabilities",
+        "context": "The head of the Executive department...shall serve as the chairperson of the Committee",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "head of any agency specified in section 1002(b)",
+        "org": "agencies under National Critical Capabilities Defense Act",
+        "context": "may appoint candidates directly to positions in competitive service",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "title": "Mrs. Lesko",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Ms. Van Duyne",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Mr. Steube",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Mr. Pfluger",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Mr. Duncan",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Mr. Higgins of Louisiana",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Mr. Issa",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Ms. Stefanik",
+        "org": "House of Representatives",
+        "context": "Mrs. Lesko (for herself, Ms. Van Duyne, Mr. Steube, Mr. Pfluger, Mr. Duncan, Mr. Higgins of Louisiana, Mr. Issa, and Ms. Stefanik) introduced",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "operator of an email service",
+        "org": null,
+        "context": "It shall be unlawful for an operator of an email service to use a filtering algorithm",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "title": "Register",
+        "org": "Library of Congress",
+        "context": "The Register, with the approval of the Librarian of Congress, shall designate",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "title": "Librarian of Congress",
+        "org": "Library of Congress",
+        "context": "The Register, with the approval of the Librarian of Congress, shall designate",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "title": "Fund Administrator",
+        "org": null,
+        "context": "The Fund Administrator shall deposit into the Fund any amounts received",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "title": "Board Member",
+        "org": "Eligible Entity",
+        "context": "artist representatives as members of the Board",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "title": "Register of Copyrights",
+        "org": "Library of Congress",
+        "context": "The term \"Register\" means the Register of Copyrights.",
+        "mentions": 2,
+        "first_seen": "886"
+      },
+      {
+        "title": "Ms. Klobuchar",
+        "org": "Senate of the United States",
+        "context": "Ms. Klobuchar (for herself and Ms. Collins) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "896"
+      },
+      {
+        "title": "Ms. Collins",
+        "org": "Senate of the United States",
+        "context": "Ms. Klobuchar (for herself and Ms. Collins) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "896"
+      },
+      {
+        "title": "Chairman of the Board of Governors of the Federal Reserve System",
+        "org": "Board of Governors of the Federal Reserve System",
+        "context": "The Chairman of the Board of Governors of the Federal Reserve System",
+        "mentions": 1,
+        "first_seen": "882"
+      },
+      {
+        "title": "Under Secretary of Commerce for Industry and Security",
+        "org": "Department of Commerce",
+        "context": "The Under Secretary of Commerce for Industry and Security",
+        "mentions": 1,
+        "first_seen": "882"
+      },
+      {
+        "title": "law enforcement officer or agency",
+        "org": "not specified",
+        "context": "distribution made in good faith to a law enforcement officer or agency",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "title": "Mr. Sorensen",
+        "org": "House of Representatives",
+        "context": "Mr. Sorensen (for himself and Mr. Ciscomani) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "title": "Mr. Ciscomani",
+        "org": "House of Representatives",
+        "context": "Mr. Sorensen (for himself and Mr. Ciscomani) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "Secretary of Health and Human Services under section 319 of the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "seek input from the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "title": "Administrator",
+        "org": "Small Business Administration",
+        "context": "the Administrator of the Small Business Administration regarding the distribution",
+        "mentions": 1,
+        "first_seen": "1246"
+      },
+      {
+        "title": "Commissioner",
+        "org": "Internal Revenue Service",
+        "context": "Commissioner relating to the use of artificial intelligence",
+        "mentions": 1,
+        "first_seen": "891"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Federal Election Campaign Act of 1971",
+        "citation": "52 U.S.C. 30120",
+        "ref_type": "amends",
+        "context": "Section 318 amended by adding subsection (e)",
+        "mentions": 5,
+        "first_seen": "904"
+      },
+      {
+        "name": "AI Transparency in Elections Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "date of the enactment of the AI Transparency in Elections Act of 2024",
+        "mentions": 2,
+        "first_seen": "904"
+      },
+      {
+        "name": "AI Labeling Act of 2023",
+        "citation": "S. 2691",
+        "ref_type": "enacts",
+        "context": "S. 2691 To require disclosures for AI-generated content",
+        "mentions": 1,
+        "first_seen": "554"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "citation": "15 U.S.C. 57a(a)(1)(B)",
+        "ref_type": "cites",
+        "context": "violation treated as violation of rule under section 18(a)(1)(B) of the Federal Trade Commission Act",
+        "mentions": 10,
+        "first_seen": "554"
+      },
+      {
+        "name": "Chapter 10 of title 5, United States Code",
+        "citation": "5 U.S.C. Chapter 10",
+        "ref_type": "other",
+        "context": "Federal Advisory Committee Act shall not apply to the working group",
+        "mentions": 1,
+        "first_seen": "554"
+      },
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "section 238(g)",
+        "ref_type": "cites",
+        "context": "artificial intelligence (as defined in section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019)",
+        "mentions": 2,
+        "first_seen": "554"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "citation": "section 230(f), 47 U.S.C. 230(f)",
+        "ref_type": "cites",
+        "context": "the term \"interactive computer service\" in section 230(f) of the Communications Act of 1934 (47 U.S.C. 230(f))",
+        "mentions": 5,
+        "first_seen": "554"
+      },
+      {
+        "name": "Chapter 47 of title 18, United States Code",
+        "citation": "18 U.S.C. ch. 47",
+        "ref_type": "amends",
+        "context": "Chapter 47 of title 18, United States Code, is amended by adding at the end the following",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "Section 1391 of title 28",
+        "citation": "28 U.S.C. \u00a7 1391",
+        "ref_type": "cites",
+        "context": "Any action under this section may be brought in the district where or described in section 1391 of title 28",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "First Amendment of the Constitution",
+        "citation": "U.S. Const. amend. I",
+        "ref_type": "cites",
+        "context": "compliance with this section would impede their ability to engage in lawful activities protected by the First Amendment of the Constitution",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "Section 1041 (Advanced technological false personation record)",
+        "citation": "18 U.S.C. \u00a7 1041",
+        "ref_type": "enacts",
+        "context": "1041. Advanced technological false personation record.",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "Section 1042 (Deepfakes victim assistance)",
+        "citation": "18 U.S.C. \u00a7 1042",
+        "ref_type": "enacts",
+        "context": "1042. Deepfakes victim assistance.",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "section 3502 of title 44, United States Code",
+        "citation": "44 U.S.C. 3502",
+        "ref_type": "cites",
+        "context": "agency\" has the meaning given the term in section 3502 of title 44",
+        "mentions": 2,
+        "first_seen": "571"
+      },
+      {
+        "name": "Patient Protection and Affordable Care Act",
+        "citation": "42 U.S.C. 18031(e)(3)(B)",
+        "ref_type": "cites",
+        "context": "section 1311(e)(3)(B) of the Patient Protection and Affordable Care Act",
+        "mentions": 1,
+        "first_seen": "571"
+      },
+      {
+        "name": "AI in Government Act of 2020",
+        "citation": "40 U.S.C. 11301 note",
+        "ref_type": "cites",
+        "context": "section 104 of the AI in Government Act of 2020 (40 U.S.C. 11301 note)",
+        "mentions": 1,
+        "first_seen": "571"
+      },
+      {
+        "name": "Transparent Automated Governance Act",
+        "citation": null,
+        "ref_type": "repeals",
+        "context": "this Act shall have no force or effect [10 years after enactment]",
+        "mentions": 1,
+        "first_seen": "571"
+      },
+      {
+        "name": "Chapter 5 of title 5, United States Code",
+        "citation": "5 U.S.C. 553",
+        "ref_type": "cites",
+        "context": "in accordance with section 553 of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "590"
+      },
+      {
+        "name": "REAL Political Advertisements Act",
+        "citation": "H.R. 3044",
+        "ref_type": "enacts",
+        "context": "H. R. 3044 [document title: REAL Political Advertisements Act]",
+        "mentions": 1,
+        "first_seen": "447"
+      },
+      {
+        "name": "Require the Exposure of AI\u2013Led Political Advertisements Act",
+        "citation": "REAL Political Advertisements Act",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Require the Exposure of AI\u2013Led Political Advertisements Act\" or the \"REAL Political Advertisements Act\".",
+        "mentions": 1,
+        "first_seen": "447"
+      },
+      {
+        "name": "Immigration and Nationality Act",
+        "citation": "section 219",
+        "ref_type": "cites",
+        "context": "foreign terrorist organization designated under section 219 of the Immigration and Nationality Act",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "Executive Order 13224",
+        "citation": "Executive Order 13224",
+        "ref_type": "cites",
+        "context": "designated as Specially Designated Global Terrorists under Executive Order 13224",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "STOP HATE Act of 2023",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "Comptroller General shall submit...reports on the implementation of this Act",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "Telemarketing Sales Rule",
+        "citation": "part 310 of title 16, Code of Federal Regulations",
+        "ref_type": "amends",
+        "context": "revise the Telemarketing Sales Rule (part 310 of title 16, Code of Federal Regulations)",
+        "mentions": 1,
+        "first_seen": "451"
+      },
+      {
+        "name": "Telemarketing and Consumer Fraud and Abuse Prevention Act",
+        "citation": "15 U.S.C. 6106",
+        "ref_type": "amends",
+        "context": "section 7 of the Telemarketing and Consumer Fraud and Abuse Prevention Act (15 U.S.C. 6106)",
+        "mentions": 1,
+        "first_seen": "451"
+      },
+      {
+        "name": "Restrictions on Utilizing Realistic Electronic Artificial Language Act",
+        "citation": "H.R. 7120",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Restrictions on Utilizing Realistic Electronic Artificial Language Act",
+        "mentions": 1,
+        "first_seen": "451"
+      },
+      {
+        "name": "R U REAL Act",
+        "citation": "H.R. 7120",
+        "ref_type": "enacts",
+        "context": "or the R U REAL Act",
+        "mentions": 1,
+        "first_seen": "451"
+      },
+      {
+        "name": "Citizens United v. Federal Election Commission",
+        "citation": "558 U.S. 310 (2010)",
+        "ref_type": "cites",
+        "context": "Supreme Court found 8\u20131 in Citizens United v. Federal Election Commission",
+        "mentions": 1,
+        "first_seen": "883"
+      },
+      {
+        "name": "National Institute of Standards and Technology Act",
+        "citation": "15 U.S.C. 272",
+        "ref_type": "cites",
+        "context": "section 2 of the National Institute of Standards and Technology Act (15 U.S.C. 272)",
+        "mentions": 2,
+        "first_seen": "883"
+      },
+      {
+        "name": "OMB Circular A\u2013119",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "OMB Circular A\u2013119",
+        "mentions": 1,
+        "first_seen": "883"
+      },
+      {
+        "name": "section 553 of title 5, United States Code",
+        "citation": "5 U.S.C. 553",
+        "ref_type": "cites",
+        "context": "Commission shall promulgate regulations under section 553 of title 5",
+        "mentions": 3,
+        "first_seen": "883"
+      },
+      {
+        "name": "section 18(a)(1)(B) of the Federal Trade Commission Act",
+        "citation": "15 U.S.C. 57a(a)(1)(B)",
+        "ref_type": "cites",
+        "context": "violation treated as a violation of a regulation under section 18(a)(1)(B)",
+        "mentions": 2,
+        "first_seen": "883"
+      },
+      {
+        "name": "section 706 of title 5, United States Code",
+        "citation": "5 U.S.C. 706",
+        "ref_type": "cites",
+        "context": "may be appealed to a district court...as provided for in section 706",
+        "mentions": 1,
+        "first_seen": "883"
+      },
+      {
+        "name": "AI Disclosure Act of 2023",
+        "citation": "H.R. 3831",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'AI Disclosure Act of 2023'",
+        "mentions": 1,
+        "first_seen": "448"
+      },
+      {
+        "name": "Candidate Voice Fraud Prohibition Act",
+        "citation": "H.R. 4611",
+        "ref_type": "enacts",
+        "context": "H. R. 4611",
+        "mentions": 1,
+        "first_seen": "456"
+      },
+      {
+        "name": "Section 325 of the Federal Election Campaign Act of 1971",
+        "citation": "52 U.S.C. 30125",
+        "ref_type": "enacts",
+        "context": "SEC. 325. PROHIBITION ON THE DISTRIBUTION OF CERTAIN COMMUNICATIONS THAT CONTAIN MATERIALLY DECEPTIVE AUDIO GENERATED BY ARTIFICIAL INTELLIGENCE",
+        "mentions": 1,
+        "first_seen": "456"
+      },
+      {
+        "name": "Section 318(a) of the Federal Election Campaign Act of 1971",
+        "citation": "52 U.S.C. 30118(a)",
+        "ref_type": "cites",
+        "context": "with respect to a communication described in section 318(a)",
+        "mentions": 1,
+        "first_seen": "456"
+      },
+      {
+        "name": "Section 309(d)(1) of the Federal Election Campaign Act of 1971",
+        "citation": "52 U.S.C. 30109(d)(1)",
+        "ref_type": "amends",
+        "context": "Section 309(d)(1) of the Federal Election Campaign Act of 1971 (52 U.S.C. 30109(d)(1)) is amended by adding at the end the following new subparagraph",
+        "mentions": 1,
+        "first_seen": "456"
+      },
+      {
+        "name": "Title 18, United States Code",
+        "citation": "18 U.S.C.",
+        "ref_type": "cites",
+        "context": "shall be fined under title 18, United States Code, or imprisoned",
+        "mentions": 1,
+        "first_seen": "456"
+      },
+      {
+        "name": "Section 230(f) of the Communications Act of 1934",
+        "citation": "47 U.S.C. 230(f)",
+        "ref_type": "cites",
+        "context": "An interactive computer service provider, information content provider, or an access software provider as described in section 230(f) of the Communications Act of 1934 (47 U.S.C. 230(f))",
+        "mentions": 2,
+        "first_seen": "456"
+      },
+      {
+        "name": "S. 3975",
+        "citation": "S. 3975",
+        "ref_type": "enacts",
+        "context": "S. 3975 - To require companies to receive consent from consumers",
+        "mentions": 1,
+        "first_seen": "889"
+      },
+      {
+        "name": "Artificial Intelligence Consumer Opt-in, Notification, Standards, and Ethical Norms for Training Act",
+        "citation": "AI CONSENT Act",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Artificial Intelligence Consumer Opt-in, Notification, Standards, and Ethical Norms for Training Act\" or the \"AI CONSENT Act\".",
+        "mentions": 1,
+        "first_seen": "889"
+      },
+      {
+        "name": "H.R. 3136",
+        "citation": "H.R. 3136",
+        "ref_type": "enacts",
+        "context": "H. R. 3136 - National Critical Capabilities Defense Act of 2023",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "National Critical Capabilities Defense Act of 2023",
+        "citation": "H.R. 3136",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"National Critical Capabilities Defense Act of 2023\"",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Trade Act of 1974",
+        "citation": "19 U.S.C. 2101 et seq.",
+        "ref_type": "amends",
+        "context": "amended by adding at the end the following Title X",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 101 of title 5, United States Code",
+        "citation": "5 U.S.C. 101",
+        "ref_type": "cites",
+        "context": "Executive department (as defined in section 101 of title 5, United States Code)",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 1008",
+        "citation": "section 1008",
+        "ref_type": "cites",
+        "context": "Subject to regulations prescribed in accordance with section 1008",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 1004",
+        "citation": "section 1004",
+        "ref_type": "cites",
+        "context": "by considering factors specified in section 1004",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "citation": "50 U.S.C. 1701 et seq.",
+        "ref_type": "cites",
+        "context": "provisions of law (other than this subsection and the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.))",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 706(b)",
+        "citation": "section 706(b)",
+        "ref_type": "cites",
+        "context": "The provisions of section 706(b) shall apply to any mitigation agreement entered into or condition imposed",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 552 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 552",
+        "ref_type": "cites",
+        "context": "exempt from disclosure under section 552 of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 847 of the National Defense Authorization Act for Fiscal Year 2020",
+        "citation": "Public Law 116\u201392; 10 U.S.C. 4819 note",
+        "ref_type": "cites",
+        "context": "control and beneficial ownership (as determined in accordance with section 847 of the National Defense Authorization Act for Fiscal Year 2020 (Public Law 116\u201392; 10 U.S.C. 4819 note))",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "subchapter II of chapter 5 and chapter 7 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 5 (subch. II), \u00a7 7",
+        "ref_type": "cites",
+        "context": "in accordance with subchapter II of chapter 5 and chapter 7 of title 5",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Administrative Procedure Act",
+        "citation": "5 U.S.C. \u00a7 5, \u00a7 7",
+        "ref_type": "cites",
+        "context": "commonly known as the 'Administrative Procedure Act'",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 709",
+        "citation": "section 709",
+        "ref_type": "cites",
+        "context": "The provisions of section 709 shall apply to any regulations",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 1254 of title 28, United States Code",
+        "citation": "28 U.S.C. \u00a7 1254",
+        "ref_type": "cites",
+        "context": "subject to review by the Supreme Court under section 1254 of title 28",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Foreign Intelligence Surveillance Act of 1978",
+        "citation": "50 U.S.C. 1801 et seq.",
+        "ref_type": "cites",
+        "context": "Information obtained or derived from any activity authorized under FISA",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 106 of Foreign Intelligence Surveillance Act",
+        "citation": "50 U.S.C. 1806",
+        "ref_type": "cites",
+        "context": "subsections (c), (e), (f), (g), and (h) shall not apply",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 305 of Foreign Intelligence Surveillance Act",
+        "citation": "50 U.S.C. 1825",
+        "ref_type": "cites",
+        "context": "subsections (d), (f), (g), (h), and (i) shall not apply",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 405 of Foreign Intelligence Surveillance Act",
+        "citation": "50 U.S.C. 1845",
+        "ref_type": "cites",
+        "context": "subsections (c), (e), (f), (g), and (h) shall not apply",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 706 of Foreign Intelligence Surveillance Act",
+        "citation": "50 U.S.C. 1881e",
+        "ref_type": "cites",
+        "context": "section 706 of that Act shall not apply",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Classified Information Procedures Act",
+        "citation": "18 U.S.C. App. section 1(a)",
+        "ref_type": "cites",
+        "context": "definition of classified information",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Atomic Energy Act of 1954",
+        "citation": "42 U.S.C. 2014 section 11",
+        "ref_type": "cites",
+        "context": "Restricted Data as defined in section 11",
+        "mentions": 2,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 1520.5 of title 49, Code of Federal Regulations",
+        "citation": "49 CFR 1520.5",
+        "ref_type": "cites",
+        "context": "Sensitive security information definition",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "sections 3309 through 3318 of title 5, United States Code",
+        "citation": "5 U.S.C. 3309-3318",
+        "ref_type": "cites",
+        "context": "hiring authority without regard to provisions",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "section 2102 of title 5, United States Code",
+        "citation": "5 U.S.C. 2102",
+        "ref_type": "cites",
+        "context": "competitive service definition",
+        "mentions": 1,
+        "first_seen": "522"
+      },
+      {
+        "name": "Political BIAS Emails Act of 2023",
+        "citation": "H.R. 5495",
+        "ref_type": "enacts",
+        "context": "H. R. 5495",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "name": "Living Wage for Musicians Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'Living Wage for Musicians Act of 2024'",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Preparing Election Administrators for AI Act",
+        "citation": "S. 3897",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'Preparing Election Administrators for AI Act'",
+        "mentions": 1,
+        "first_seen": "896"
+      },
+      {
+        "name": "Communications Act",
+        "citation": null,
+        "ref_type": "amends",
+        "context": "Amends the Communications Act to criminalize nonconsensual intimate deepfakes",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act'",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Consolidated Appropriations Act, 2022",
+        "citation": "15 U.S.C. 6851",
+        "ref_type": "cites",
+        "context": "section 1309 of the Consolidated Appropriations Act, 2022 (15 U.S.C. 6851)",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Controlled Substances Act",
+        "citation": "21 U.S.C. 853",
+        "ref_type": "cites",
+        "context": "Section 413 of the Controlled Substances Act (21 U.S.C. 853)",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Title 18, United States Code, Section 2256",
+        "citation": "18 U.S.C. 2256(2)(A)",
+        "ref_type": "cites",
+        "context": "as that term is defined in section 2256(2)(A) of title 18, United States Code",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Title 18, United States Code, Section 2264",
+        "citation": "18 U.S.C. 2264",
+        "ref_type": "cites",
+        "context": "in the same manner as under section 2264 of title 18, United States Code",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Code of Federal Regulations",
+        "citation": "47 CFR 8.1(b)",
+        "ref_type": "cites",
+        "context": "provider of broadband internet access service (as described in section 8.1(b) of title 47, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "1293"
+      },
+      {
+        "name": "Generative AI Copyright Disclosure Act of 2024",
+        "citation": "H.R. 7913",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Generative AI Copyright Disclosure Act of 2024",
+        "mentions": 1,
+        "first_seen": "874"
+      },
+      {
+        "name": "AI PLAN Act",
+        "citation": "H.R. 7781",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Artificial Intelligence Practices, Logistics, Actions, and Necessities Act\" or the \"AI PLAN Act\"",
+        "mentions": 1,
+        "first_seen": "882"
+      },
+      {
+        "name": "Protect Victims of Digital Exploitation and Manipulation Act of 2024",
+        "citation": "not specified",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Protect Victims of Digital Exploitation and Manipulation Act of 2024",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "name": "Chapter 88 of title 18, United States Code",
+        "citation": "18 U.S.C. ch. 88",
+        "ref_type": "amends",
+        "context": "Chapter 88 of title 18, United States Code, is amended by adding at the end the following",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "name": "section 2256(5) of title 18, United States Code",
+        "citation": "18 U.S.C. \u00a7 2256(5)",
+        "ref_type": "cites",
+        "context": "visual depiction, as that term is defined in section 2256(5) of title 18",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "name": "section 2256(2) of title 18, United States Code",
+        "citation": "18 U.S.C. \u00a7 2256(2)",
+        "ref_type": "cites",
+        "context": "sexually explicit conduct has the meaning given the term in subparagraph (A) of section 2256(2) of title 18",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "name": "section 2510 of title 18, United States Code",
+        "citation": "18 U.S.C. \u00a7 2510",
+        "ref_type": "cites",
+        "context": "electronic communication service, as that term is defined in section 2510",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "name": "section 1101(a)(22) of title 8, United States Code",
+        "citation": "8 U.S.C. \u00a7 1101(a)(22)",
+        "ref_type": "cites",
+        "context": "national of the United States (as defined in section 1101(a)(22) of title 8)",
+        "mentions": 1,
+        "first_seen": "901"
+      },
+      {
+        "name": "Section 227 of the Communications Act of 1934",
+        "citation": "47 U.S.C. 227",
+        "ref_type": "amends",
+        "context": "Section 227 of the Communications Act of 1934 (47 U.S.C. 227) is amended",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "name": "Section 503 of the Communications Act of 1934",
+        "citation": "47 U.S.C. 503",
+        "ref_type": "cites",
+        "context": "subsection (b) of section 503 (as the case may be)",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "name": "Section 501 of the Communications Act of 1934",
+        "citation": "47 U.S.C. 501",
+        "ref_type": "cites",
+        "context": "criminal fine that may be imposed under subsection (e)(5)(B) of this section or section 501",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "name": "Kids Online Safety Act",
+        "citation": "Section 13",
+        "ref_type": "other",
+        "context": "SEC. 13. FILTER BUBBLE TRANSPARENCY REQUIREMENTS.",
+        "mentions": 1,
+        "first_seen": "793"
+      },
+      {
+        "name": "Advancing Nuclear Regulatory Oversight Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Advancing Nuclear Regulatory Oversight Act\".",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Public Health Service Act",
+        "citation": "42 U.S.C. 247d",
+        "ref_type": "cites",
+        "context": "section 319 of the Public Health Service Act (42 U.S.C. 247d) on January 31, 2020",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "Small Business Act",
+        "citation": "15 U.S.C. 632",
+        "ref_type": "cites",
+        "context": "section 3 of the Small Business Act (15 U.S.C. 632)",
+        "mentions": 1,
+        "first_seen": "1246"
+      },
+      {
+        "name": "Stevenson-Wydler Technology Innovation Act of 1980",
+        "citation": "15 U.S.C. 3701 et seq.",
+        "ref_type": "cites",
+        "context": "consistent with the Stevenson-Wydler Technology Innovation Act of 1980",
+        "mentions": 1,
+        "first_seen": "1246"
+      },
+      {
+        "name": "Cybersecurity Enhancement Act of 2014",
+        "citation": "15 U.S.C. 7443",
+        "ref_type": "cites",
+        "context": "section 303 of the Cybersecurity Enhancement Act of 2014",
+        "mentions": 1,
+        "first_seen": "1246"
+      },
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "26 U.S.C.",
+        "ref_type": "amends",
+        "context": "Section 7803(a) of the Internal Revenue Code of 1986 is amended",
+        "mentions": 1,
+        "first_seen": "891"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. \u00a7 5002",
+        "ref_type": "cites",
+        "context": "meaning given such term in section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "891"
+      },
+      {
+        "name": "section 7803(a)(3) of the Internal Revenue Code of 1986",
+        "citation": "26 U.S.C. \u00a7 7803(a)(3)",
+        "ref_type": "cites",
+        "context": "taxpayer rights as listed in section 7803(a)(3) of the Internal Revenue Code",
+        "mentions": 1,
+        "first_seen": "891"
+      },
+      {
+        "name": "Section 7605 of the Internal Revenue Code of 1986",
+        "citation": "26 U.S.C. \u00a7 7605",
+        "ref_type": "amends",
+        "context": "Section 7605 is amended by redesignating subsection (c)",
+        "mentions": 1,
+        "first_seen": "891"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Compliance and Enforcement Report on AI Disclaimers in Political Communications",
+        "doc_type": "report",
+        "owner_org": "Federal Election Commission",
+        "context": "the Federal Election Commission shall submit a report...that includes an assessment of the compliance with and the enforcement of the requirements",
+        "mentions": 1,
+        "first_seen": "904"
+      },
+      {
+        "name": "AI-Generated Content Consumer Transparency Working Group Framework",
+        "doc_type": "plan",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "working group shall publish a framework that includes technical standards for AI-generated content detection",
+        "mentions": 1,
+        "first_seen": "554"
+      },
+      {
+        "name": "Plan to effectuate and enforce section 1041",
+        "doc_type": "plan",
+        "owner_org": "Attorney General",
+        "context": "Attorney General shall publish a report containing a plan to effectuate and enforce section 1041",
+        "mentions": 1,
+        "first_seen": "826"
+      },
+      {
+        "name": "transparent automated governance guidance",
+        "doc_type": "strategy",
+        "owner_org": "Office of Management and Budget",
+        "context": "head of each agency shall implement the transparent automated governance guidance",
+        "mentions": 1,
+        "first_seen": "571"
+      },
+      {
+        "name": "Report on Compliance and Enforcement of AI-Generated Content Requirements in Political Advertisements",
+        "doc_type": "report",
+        "owner_org": "Federal Election Commission",
+        "context": "submit a report to Congress which includes an assessment of the compliance with and the enforcement of the requirements",
+        "mentions": 1,
+        "first_seen": "447"
+      },
+      {
+        "name": "National Intelligence Estimate",
+        "doc_type": "report",
+        "owner_org": "Department of Intelligence",
+        "context": "Director of National Intelligence shall submit a National Intelligence Estimate on the use of platforms",
+        "mentions": 1,
+        "first_seen": "573"
+      },
+      {
+        "name": "report on methods used by covered entities to convert covered data into de-identified data",
+        "doc_type": "report",
+        "owner_org": "Federal Trade Commission",
+        "context": "the Commission shall submit to the Committee on Commerce, Science, and Technology of the Senate and the Committee on Energy and Commerce of the House of Representatives a report on methods",
+        "mentions": 1,
+        "first_seen": "889"
+      },
+      {
+        "name": "quarterly transparency report",
+        "doc_type": "report",
+        "owner_org": "email service operators",
+        "context": "each operator of an email service shall be required to make publicly available, on a quarterly basis, a transparency report",
+        "mentions": 1,
+        "first_seen": "441"
+      },
+      {
+        "name": "Artist Compensation Royalty Fund",
+        "doc_type": "program",
+        "owner_org": "Library of Congress",
+        "context": "a fund to be known as the Artist Compensation Royalty Fund",
+        "mentions": 1,
+        "first_seen": "886"
+      },
+      {
+        "name": "Report with voluntary guidelines for election offices that address the use and risks of artificial intelligence technologies",
+        "doc_type": "report",
+        "owner_org": "Election Assistance Commission",
+        "context": "submit to Congress, issue to State and local election offices, and make available to the public a report with voluntary guidelines",
+        "mentions": 1,
+        "first_seen": "896"
+      },
+      {
+        "name": "Study on use and impacts of artificial intelligence technologies in the elections for Federal office held in 2024",
+        "doc_type": "report",
+        "owner_org": "Election Assistance Commission",
+        "context": "the Election Assistance Commission, in consultation with the National Institute of Standards and Technology, shall study and submit to Congress",
+        "mentions": 1,
+        "first_seen": "896"
+      },
+      {
+        "name": "publicly available online database of notices",
+        "doc_type": "initiative",
+        "owner_org": "Register of Copyrights",
+        "context": "The Register shall establish and maintain a publicly available online database",
+        "mentions": 1,
+        "first_seen": "874"
+      },
+      {
+        "name": "Report on Risks Posed by Misinformation, Fraud, and Financial Crime Conducted With Artificial Intelligence",
+        "doc_type": "report",
+        "owner_org": "Department of the Treasury, Department of Homeland Security, Department of Commerce",
+        "context": "Not later than 180 days after the date of the enactment of this Act and annually thereafter, the Secretary of the Treasury, the Secretary of Homeland Security, and the Secretary of Commerce, in consultation with the officials specified in paragraph (3), shall jointly submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "882"
+      },
+      {
+        "name": "Quashing Unwanted and Interruptive Electronic Telecommunications Act",
+        "doc_type": "other",
+        "owner_org": "Congress",
+        "context": "This Act may be cited as the \"Quashing Unwanted and Interruptive Electronic Telecommunications Act\"",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "name": "QUIET Act",
+        "doc_type": "other",
+        "owner_org": "Congress",
+        "context": "or the \"QUIET Act\"",
+        "mentions": 1,
+        "first_seen": "453"
+      },
+      {
+        "name": "Differing Professional Views or Opinions process",
+        "doc_type": "program",
+        "owner_org": "Nuclear Regulatory Commission",
+        "context": "updating the Differing Professional Views or Opinions process to include safety significance as a threshold",
+        "mentions": 1,
+        "first_seen": "525"
+      },
+      {
+        "name": "risk management framework",
+        "doc_type": "program",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "the risk management framework under subsection (c)",
+        "mentions": 1,
+        "first_seen": "1246"
+      },
+      {
+        "name": "national cybersecurity awareness and education program",
+        "doc_type": "program",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "activities relating to the national cybersecurity awareness and education program",
+        "mentions": 1,
+        "first_seen": "1246"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the commission": "Federal Election Commission - established through context of 52 U.S.C. 30109 amendments and regulatory authority",
+    "commission": "Federal Trade Commission - confirmed by explicit definition in section (4) of this definitions provision"
+  },
+  "parsing_rules": [
+    "Definition sections in legislative text systematically define key regulatory terms (covered activity, covered foreign entity, country of concern, appropriate congressional committees). Extract all enumerated entities from such definitions, particularly country listings and committee memberships, as they represent explicit policy scope."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "826",
+      "note": "Section heading 'SEC. 2. TRANSPARENCY REQUIREMENTS' provided without substantive text content; only the section number and title are present in the supplied document excerpt, preventing entity extraction from the actual transparency requirements language."
+    },
+    {
+      "agora_id": "571",
+      "note": "Section 1 contains only the short title provision with no substantive content referencing entities. The document title 'Transparent Automated Governance Act' and acronym 'TAG Act' are present but appear to be metadata rather than entities extracted from legislative text. Known entities from earlier sections (section 3502 of title 44 United States Code, Congress, Office of Management and Budget) are not referenced in this section."
+    },
+    {
+      "agora_id": "447",
+      "note": "Document presents only bill introduction materials (title, referral, enacting clause) without substantive legislative sections. No entity-bearing regulatory or procedural language present in supplied text. Full bill text with substantive provisions not provided."
+    },
+    {
+      "agora_id": "573",
+      "note": "Section 5 titled 'REPORTS' appears in the provided text but contains no substantive content, preventing extraction of any entities from that section."
+    },
+    {
+      "agora_id": "883",
+      "note": "Section 3 title 'GUIDELINES TO FACILITATE DISTINGUISHING CONTENT GENERATED BY GENERATIVE ARTIFICIAL INTELLIGENCE' is present but substantive content is not provided in the text supplied."
+    },
+    {
+      "agora_id": "522",
+      "note": "Text ends mid-entry at 'NATIONAL CRITICAL CAPABILI' (definition 5 truncated), indicating document was cut off during extraction."
+    },
+    {
+      "agora_id": "886",
+      "note": "The document title indicates AI classification prohibition, but the extracted text sections do not contain explicit language prohibiting AI entities from being classified as artists\u2014only fund establishment and deposit procedures are detailed in the provided sections."
+    }
+  ],
+  "docs_processed": 26,
+  "docs_total": 26,
+  "last_doc_id": "891",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Commission",
+      "resolved": "Federal Election Commission - established through context of 52 U.S.C. 30109 amendments and regulatory authority",
+      "doc_id": "904",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "Commission",
+      "resolved": "Federal Trade Commission - confirmed by explicit definition in section (4) of this definitions provision",
+      "doc_id": "554",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "the Commission",
+      "resolved": "Federal Trade Commission - established by explicit definition in section (c)(3) of this Act",
+      "doc_id": "590",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "Commission",
+      "resolved": "Federal Trade Commission confirmed through explicit reference to 'Federal Trade Commission Act' and enforcement authority over unfair or deceptive acts or practices under 15 U.S.C. 57a(a)(1)(B)",
+      "doc_id": "883",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "commission",
+      "resolved": "Federal Trade Commission - explicitly defined in section (2) of this definitions provision",
+      "doc_id": "889",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "Commission",
+      "resolved": "Explicitly defined in SEC. 4(1) as Federal Trade Commission; context confirms FTC enforcement authority",
+      "doc_id": "1293",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "Commission",
+      "resolved": "Resolved to Federal Trade Commission via explicit definition in section (3) of definitions provision",
+      "doc_id": "793",
+      "community_id": "community:004"
+    },
+    {
+      "phrase": "Commission",
+      "resolved": "Nuclear Regulatory Commission - explicitly defined in section (2) of this definitions provision",
+      "doc_id": "525",
+      "community_id": "community:004"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:federal_election_campaign_act_of_1971": 0.6,
+    "legislation:ai_transparency_in_elections_act_of_2024": 0.6,
+    "office:committee_on_rules_and_administration_of_the_senate": 0.6,
+    "office:committee_on_house_administration_of_the_house_of_representatives": 0.6,
+    "named_doc:compliance_and_enforcement_report_on_ai_disclaimers_in_political_communications": 0.6,
+    "org:federal_election_commission": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:committee_on_rules_and_administration": 0.6,
+    "org:committee_on_house_administration": 0.6,
+    "role:director": 0.6,
+    "office:committee_on_rules_and_administration": 0.6,
+    "office:committee_on_house_administration": 0.6,
+    "legislation:ai_labeling_act_of_2023": 0.6,
+    "legislation:federal_trade_commission_act": 0.6,
+    "legislation:chapter_10_of_title_5_united_states_code": 0.6,
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "legislation:communications_act_of_1934": 0.6,
+    "office:committee_on_commerce_science_and_transportation": 0.6,
+    "office:committee_on_energy_and_commerce": 0.6,
+    "named_doc:ai_generated_content_consumer_transparency_working_group_framework": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "legislation:chapter_47_of_title_18_united_states_code": 0.6,
+    "legislation:section_1391_of_title_28": 0.6,
+    "legislation:first_amendment_of_the_constitution": 0.6,
+    "legislation:section_1041_advanced_technological_false_personation_record": 0.6,
+    "legislation:section_1042_deepfakes_victim_assistance": 0.6,
+    "named_doc:plan_to_effectuate_and_enforce_section_1041": 0.6,
+    "org:attorney_general": 0.9,
+    "org:united_states_attorney_s_office": 0.6,
+    "org:russian_federation": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "role:coordinator_for_violations_directed_by_foreign_nation_states": 0.6,
+    "role:coordinator_for_false_intimate_depictions": 0.6,
+    "legislation:section_3502_of_title_44_united_states_code": 0.9,
+    "legislation:patient_protection_and_affordable_care_act": 0.6,
+    "legislation:ai_in_government_act_of_2020": 0.6,
+    "legislation:transparent_automated_governance_act": 0.6,
+    "office:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "office:committee_on_oversight_and_accountability": 0.6,
+    "named_doc:transparent_automated_governance_guidance": 0.6,
+    "org:office_of_management_and_budget": 1.0,
+    "org:government_accountability_office": 0.6,
+    "org:general_services_administration": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "legislation:chapter_5_of_title_5_united_states_code": 0.6,
+    "org:federal_communications_commission": 0.6,
+    "role:attorney_general": 0.9,
+    "role:secretary_of_homeland_security": 0.9,
+    "legislation:real_political_advertisements_act": 0.6,
+    "legislation:require_the_exposure_of_ai_led_political_advertisements_act": 0.6,
+    "named_doc:report_on_compliance_and_enforcement_of_ai_generated_content_requirements_in_political_advertisements": 0.6,
+    "org:media_ratings_council": 0.6,
+    "role:ms_clarke_of_new_york": 0.6,
+    "role:commission": 0.6,
+    "legislation:immigration_and_nationality_act": 0.6,
+    "legislation:executive_order_13224": 0.6,
+    "legislation:stop_hate_act_of_2023": 0.6,
+    "office:department_of_justice": 1.0,
+    "named_doc:national_intelligence_estimate": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:permanent_select_committee_on_intelligence": 0.6,
+    "org:department_of_intelligence": 0.6,
+    "role:director_of_national_intelligence": 0.9,
+    "role:comptroller_general": 0.6,
+    "legislation:telemarketing_sales_rule": 0.6,
+    "legislation:telemarketing_and_consumer_fraud_and_abuse_prevention_act": 0.6,
+    "legislation:restrictions_on_utilizing_realistic_electronic_artificial_language_act": 0.6,
+    "legislation:r_u_real_act": 0.6,
+    "role:ms_schakowsky": 0.6,
+    "legislation:citizens_united_v_federal_election_commission": 0.6,
+    "legislation:national_institute_of_standards_and_technology_act": 0.6,
+    "legislation:omb_circular_a_119": 0.6,
+    "legislation:section_553_of_title_5_united_states_code": 0.6,
+    "legislation:section_18_a_1_b_of_the_federal_trade_commission_act": 0.6,
+    "legislation:section_706_of_title_5_united_states_code": 0.6,
+    "office:committee_on_science_space_and_technology": 0.6,
+    "org:supreme_court": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "role:president": 0.9,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "legislation:ai_disclosure_act_of_2023": 0.6,
+    "role:mr_torres_of_new_york": 0.6,
+    "legislation:candidate_voice_fraud_prohibition_act": 0.6,
+    "legislation:section_325_of_the_federal_election_campaign_act_of_1971": 0.6,
+    "legislation:section_318_a_of_the_federal_election_campaign_act_of_1971": 0.6,
+    "legislation:section_309_d_1_of_the_federal_election_campaign_act_of_1971": 0.6,
+    "legislation:title_18_united_states_code": 0.6,
+    "legislation:section_230_f_of_the_communications_act_of_1934": 0.6,
+    "org:communications_act_of_1934": 0.6,
+    "role:mr_espaillat": 0.6,
+    "legislation:s_3975": 0.39999999999999997,
+    "legislation:artificial_intelligence_consumer_opt_in_notification_standards_and_ethical_norms_for_training_act": 0.6,
+    "named_doc:report_on_methods_used_by_covered_entities_to_convert_covered_data_into_de_identified_data": 0.6,
+    "org:senate_of_the_united_states": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:committee_on_commerce_science_and_technology_of_the_senate": 0.6,
+    "org:committee_on_energy_and_commerce_of_the_house_of_representatives": 0.6,
+    "role:senator": 0.39999999999999997,
+    "legislation:h_r_3136": 0.6,
+    "legislation:national_critical_capabilities_defense_act_of_2023": 0.6,
+    "legislation:trade_act_of_1974": 0.6,
+    "legislation:section_101_of_title_5_united_states_code": 0.6,
+    "legislation:section_1008": 0.6,
+    "legislation:section_1004": 0.6,
+    "legislation:international_emergency_economic_powers_act": 0.6,
+    "legislation:section_706_b": 0.6,
+    "legislation:section_552_of_title_5_united_states_code": 0.6,
+    "legislation:section_847_of_the_national_defense_authorization_act_for_fiscal_year_2020": 0.6,
+    "legislation:subchapter_ii_of_chapter_5_and_chapter_7_of_title_5_united_states_code": 0.6,
+    "legislation:administrative_procedure_act": 0.6,
+    "legislation:section_709": 0.6,
+    "legislation:section_1254_of_title_28_united_states_code": 0.6,
+    "legislation:foreign_intelligence_surveillance_act_of_1978": 0.6,
+    "legislation:section_106_of_foreign_intelligence_surveillance_act": 0.6,
+    "legislation:section_305_of_foreign_intelligence_surveillance_act": 0.6,
+    "legislation:section_405_of_foreign_intelligence_surveillance_act": 0.6,
+    "legislation:section_706_of_foreign_intelligence_surveillance_act": 0.6,
+    "legislation:classified_information_procedures_act": 0.6,
+    "legislation:atomic_energy_act_of_1954": 0.6,
+    "legislation:section_1520_5_of_title_49_code_of_federal_regulations": 0.6,
+    "legislation:sections_3309_through_3318_of_title_5_united_states_code": 0.6,
+    "legislation:section_2102_of_title_5_united_states_code": 0.6,
+    "office:committee_on_finance": 0.6,
+    "office:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "office:select_committee_on_intelligence": 0.6,
+    "office:committee_on_foreign_relations": 0.6,
+    "office:committee_on_financial_services": 0.6,
+    "office:committee_on_foreign_affairs": 0.6,
+    "office:committee_on_national_critical_capabilities": 0.6,
+    "org:committee_on_ways_and_means": 0.6,
+    "org:committee_on_finance": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:select_committee_on_intelligence": 0.6,
+    "org:committee_on_foreign_relations": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:north_korea": 0.6,
+    "org:venezuela": 0.6,
+    "org:trade_act_of_1974": 0.6,
+    "org:office_of_the_united_states_trade_representative": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_state": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:department_of_labor": 0.6,
+    "org:united_nations": 0.6,
+    "org:international_emergency_economic_powers_act": 0.6,
+    "org:national_defense_authorization_act_for_fiscal_year_2020": 0.6,
+    "org:united_states_court_of_appeals_for_the_district_of_columbia_circuit": 0.6,
+    "org:supreme_court_of_the_united_states": 0.6,
+    "org:federal_intelligence_surveillance_court": 0.6,
+    "role:ms_delauro": 0.6,
+    "role:mr_pascrell": 0.6,
+    "role:mr_fitzpatrick": 0.6,
+    "role:united_states_trade_representative": 0.6,
+    "role:secretary_of_defense": 0.9,
+    "role:secretary_of_commerce": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:chairperson": 0.6,
+    "role:head_of_any_agency_specified_in_section_1002_b": 0.6,
+    "legislation:political_bias_emails_act_of_2023": 0.6,
+    "named_doc:quarterly_transparency_report": 0.6,
+    "org:republican_party": 0.6,
+    "org:democratic_party": 0.6,
+    "role:mrs_lesko": 0.6,
+    "role:ms_van_duyne": 0.6,
+    "role:mr_steube": 0.6,
+    "role:mr_pfluger": 0.6,
+    "role:mr_duncan": 0.6,
+    "role:mr_higgins_of_louisiana": 0.6,
+    "role:mr_issa": 0.6,
+    "role:ms_stefanik": 0.6,
+    "role:operator_of_an_email_service": 0.6,
+    "legislation:living_wage_for_musicians_act_of_2024": 0.6,
+    "office:federal_register": 0.6,
+    "office:american_federation_of_musicians_and_screen_actors_guild_and_the_american_federation_of_television_and_radio_artists_intellectual_property_rights_distribution_fund": 0.6,
+    "named_doc:artist_compensation_royalty_fund": 0.6,
+    "org:library_of_congress": 0.6,
+    "org:american_federation_of_musicians": 0.6,
+    "org:screen_actors_guild": 0.6,
+    "org:american_federation_of_television_and_radio_artists": 0.6,
+    "org:board_of_directors": 0.6,
+    "org:register_of_copyrights": 0.6,
+    "role:register": 0.6,
+    "role:librarian_of_congress": 0.6,
+    "role:fund_administrator": 0.6,
+    "role:board_member": 0.6,
+    "role:register_of_copyrights": 0.6,
+    "legislation:preparing_election_administrators_for_ai_act": 0.6,
+    "named_doc:report_with_voluntary_guidelines_for_election_offices_that_address_the_use_and_risks_of_artificial_intelligence_technologies": 0.6,
+    "named_doc:study_on_use_and_impacts_of_artificial_intelligence_technologies_in_the_elections_for_federal_office_held_in_2024": 0.6,
+    "org:election_assistance_commission": 0.6,
+    "role:ms_klobuchar": 0.6,
+    "role:ms_collins": 0.6,
+    "legislation:communications_act": 0.6,
+    "legislation:tools_to_address_known_exploitation_by_immobilizing_technological_deepfakes_on_websites_and_networks_act": 0.6,
+    "legislation:consolidated_appropriations_act_2022": 0.6,
+    "legislation:controlled_substances_act": 0.6,
+    "legislation:title_18_united_states_code_section_2256": 0.6,
+    "legislation:title_18_united_states_code_section_2264": 0.6,
+    "legislation:code_of_federal_regulations": 0.6,
+    "legislation:generative_ai_copyright_disclosure_act_of_2024": 0.6,
+    "office:committee_on_the_judiciary": 0.6,
+    "office:register_of_copyrights": 0.6,
+    "named_doc:publicly_available_online_database_of_notices": 0.6,
+    "org:congress": 0.9,
+    "legislation:ai_plan_act": 0.6,
+    "named_doc:report_on_risks_posed_by_misinformation_fraud_and_financial_crime_conducted_with_artificial_intelligence": 0.6,
+    "org:board_of_governors_of_the_federal_reserve_system": 0.6,
+    "role:chairman_of_the_board_of_governors_of_the_federal_reserve_system": 0.6,
+    "role:under_secretary_of_commerce_for_industry_and_security": 0.6,
+    "legislation:protect_victims_of_digital_exploitation_and_manipulation_act_of_2024": 0.6,
+    "legislation:chapter_88_of_title_18_united_states_code": 0.6,
+    "legislation:section_2256_5_of_title_18_united_states_code": 0.6,
+    "legislation:section_2256_2_of_title_18_united_states_code": 0.6,
+    "legislation:section_2510_of_title_18_united_states_code": 0.6,
+    "legislation:section_1101_a_22_of_title_8_united_states_code": 0.6,
+    "role:law_enforcement_officer_or_agency": 0.6,
+    "legislation:section_227_of_the_communications_act_of_1934": 0.6,
+    "legislation:section_503_of_the_communications_act_of_1934": 0.6,
+    "legislation:section_501_of_the_communications_act_of_1934": 0.6,
+    "named_doc:quashing_unwanted_and_interruptive_electronic_telecommunications_act": 0.6,
+    "named_doc:quiet_act": 0.6,
+    "role:mr_sorensen": 0.6,
+    "role:mr_ciscomani": 0.6,
+    "legislation:kids_online_safety_act": 0.6,
+    "legislation:advancing_nuclear_regulatory_oversight_act": 0.6,
+    "legislation:public_health_service_act": 0.6,
+    "office:headquarters_of_the_nuclear_regulatory_commission": 0.6,
+    "office:regional_offices_of_the_nuclear_regulatory_commission": 0.6,
+    "office:technical_training_center_of_the_nuclear_regulatory_commission": 0.6,
+    "named_doc:differing_professional_views_or_opinions_process": 0.6,
+    "org:nuclear_regulatory_commission": 0.6,
+    "org:department_of_health_and_human_services": 1.0,
+    "org:public_health_service": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:comptroller_general_of_the_united_states": 0.6,
+    "org:committee_on_environment_and_public_works": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "legislation:small_business_act": 0.6,
+    "legislation:stevenson_wydler_technology_innovation_act_of_1980": 0.6,
+    "legislation:cybersecurity_enhancement_act_of_2014": 0.6,
+    "named_doc:risk_management_framework": 0.6,
+    "named_doc:national_cybersecurity_awareness_and_education_program": 0.6,
+    "org:small_business_administration": 0.6,
+    "role:administrator": 0.6,
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:section_7803_a_3_of_the_internal_revenue_code_of_1986": 0.6,
+    "legislation:section_7605_of_the_internal_revenue_code_of_1986": 0.6,
+    "org:internal_revenue_service": 0.6,
+    "role:commissioner": 0.6
+  }
+}

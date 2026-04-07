@@ -1,0 +1,231 @@
+{
+  "community_id": "community:141",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate of the United States",
+        "acronym": null,
+        "context": "IN THE SENATE OF THE UNITED STATES",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "House of Representatives of the United States",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Committee on Health, Education, Labor, and Pensions",
+        "acronym": "HELP",
+        "context": "referred to the Committee on Health, Education, Labor, and Pensions",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Public Health Service Act",
+        "acronym": null,
+        "context": "To amend the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB",
+        "context": "Director of the Consumer Financial Protection Bureau shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Internal Revenue Service",
+        "acronym": "IRS",
+        "context": "section 501(r) of the Internal Revenue Code of 1986",
+        "mentions": 1,
+        "first_seen": "617"
+      }
+    ],
+    "offices": [
+      {
+        "name": "HHS.gov",
+        "parent_org": "Department of Health and Human Services",
+        "context": "The Secretary shall annually publish a public list on HHS.gov",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Supervision of Nondepository Covered Persons program",
+        "parent_org": "Consumer Financial Protection Bureau",
+        "context": "information from the Consumer Financial Protection Bureau's Supervision of Nondepository Covered Persons program",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Risk-Based Supervision Program",
+        "parent_org": "Consumer Financial Protection Bureau",
+        "context": "information from the Consumer Financial Protection Bureau's Supervision of Nondepository Covered Persons program including the Risk-Based Supervision Program",
+        "mentions": 1,
+        "first_seen": "617"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Senator",
+        "org": "Senate of the United States",
+        "context": "Mr. Murphy (for himself and Mr. Braun) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Health and Human Services",
+        "context": "the Secretary shall develop a definition of the term 'health care entity'",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "title": "Director",
+        "org": "Consumer Financial Protection Bureau",
+        "context": "the Director of the Consumer Financial Protection Bureau shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "617"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Public Health Service Act",
+        "citation": null,
+        "ref_type": "amends",
+        "context": "To amend the Public Health Service Act to provide additional transparency",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "S. 2483",
+        "citation": "S. 2483",
+        "ref_type": "enacts",
+        "context": "S. 2483 - Strengthening Consumer Protections and Medical Debt Transparency Act",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Strengthening Consumer Protections and Medical Debt Transparency Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Strengthening Consumer Protections and Medical Debt Transparency Act\".",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Fair Debt Collection Practices Act",
+        "citation": "Fair Debt Collection Practices Act",
+        "ref_type": "cites",
+        "context": "The term 'debt collector' has the meaning as defined under the Fair Debt Collection Practices Act",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "section 501(r)",
+        "ref_type": "cites",
+        "context": "The term 'extraordinary collection action' is as defined for purposes of section 501(r) of the Internal Revenue Code of 1986",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Code of Federal Regulations Title 26",
+        "citation": "26 C.F.R. 1.501(r)\u20136(a)(2)",
+        "ref_type": "cites",
+        "context": "sections 1.501(r)\u20136(a)(2) of title 26, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Dodd-Frank Wall Street Reform and Consumer Protection Act",
+        "citation": "Public Law 111\u2013203, section 1024",
+        "ref_type": "cites",
+        "context": "section 1024 of Public Law 111\u2013203",
+        "mentions": 1,
+        "first_seen": "617"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "medical debt collection public database",
+        "doc_type": "program",
+        "owner_org": "Department of Health and Human Services",
+        "context": "The Secretary shall establish and regularly update a medical debt collection public database",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Risk-Based Supervision Program",
+        "doc_type": "program",
+        "owner_org": "Consumer Financial Protection Bureau",
+        "context": "Risk-Based Supervision Program (under section 1024 of Public Law 111\u2013203)",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Supervision of Nondepository Covered Persons",
+        "doc_type": "program",
+        "owner_org": "Consumer Financial Protection Bureau",
+        "context": "the agency's Supervision of Nondepository Covered Persons, including the Risk-Based Supervision Program",
+        "mentions": 1,
+        "first_seen": "617"
+      },
+      {
+        "name": "Consumer Financial Protection Bureau database of consumer complaints",
+        "doc_type": "program",
+        "owner_org": "Consumer Financial Protection Bureau",
+        "context": "the Consumer Financial Protection Bureau database of consumer complaints",
+        "mentions": 1,
+        "first_seen": "617"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "committee on health, education, labor, and pensions": "Senate committee referenced for bill referral; established HELP as standard acronym"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "617",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Committee on Health, Education, Labor, and Pensions",
+      "resolved": "Senate committee referenced for bill referral; established HELP as standard acronym",
+      "doc_id": "617",
+      "community_id": "community:141"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:public_health_service_act": 0.6,
+    "legislation:s_2483": 0.39999999999999997,
+    "legislation:strengthening_consumer_protections_and_medical_debt_transparency_act": 0.6,
+    "legislation:fair_debt_collection_practices_act": 0.6,
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "legislation:code_of_federal_regulations_title_26": 0.6,
+    "legislation:dodd_frank_wall_street_reform_and_consumer_protection_act": 0.6,
+    "office:hhs_gov": 0.39999999999999997,
+    "office:supervision_of_nondepository_covered_persons_program": 0.6,
+    "office:risk_based_supervision_program": 0.6,
+    "role:senator": 0.39999999999999997,
+    "role:secretary": 0.6,
+    "role:director": 0.6,
+    "named_doc:medical_debt_collection_public_database": 0.6,
+    "named_doc:risk_based_supervision_program": 0.6,
+    "named_doc:supervision_of_nondepository_covered_persons": 0.6,
+    "named_doc:consumer_financial_protection_bureau_database_of_consumer_complaints": 0.6,
+    "org:senate_of_the_united_states": 0.6,
+    "org:house_of_representatives_of_the_united_states": 0.6,
+    "org:committee_on_health_education_labor_and_pensions": 0.6,
+    "org:public_health_service_act": 0.6,
+    "org:consumer_financial_protection_bureau": 0.6,
+    "org:internal_revenue_service": 0.6
+  }
+}

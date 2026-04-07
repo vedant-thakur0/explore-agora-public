@@ -5,7 +5,10 @@ from __future__ import annotations
 import time
 from pathlib import Path
 
+from dotenv import load_dotenv
 from flask import Flask, redirect, render_template, url_for
+
+load_dotenv()
 
 
 def create_app() -> Flask:

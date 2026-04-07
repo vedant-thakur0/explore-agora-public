@@ -1,0 +1,125 @@
+{
+  "community_id": "community:234",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Agriculture",
+        "acronym": "USDA",
+        "context": "Department of Agriculture (referred to in this Act as the \"Department\")",
+        "mentions": 1,
+        "first_seen": "1315"
+      },
+      {
+        "name": "National Security Council",
+        "acronym": "NSC",
+        "context": "primary liaison on behalf of the Department with the National Security Council",
+        "mentions": 1,
+        "first_seen": "1315"
+      },
+      {
+        "name": "Office of Homeland Security",
+        "acronym": null,
+        "context": "Office of Homeland Security of the Department",
+        "mentions": 1,
+        "first_seen": "1315"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Secretary",
+        "parent_org": "Department of Agriculture",
+        "context": "establish within the Office of the Secretary the position of Senior Advisor",
+        "mentions": 1,
+        "first_seen": "1315"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "the Secretary of Agriculture (referred to in this Act as the \"Secretary\")",
+        "mentions": 1,
+        "first_seen": "1315"
+      },
+      {
+        "title": "Senior Advisor for National Security",
+        "org": "Department of Agriculture",
+        "context": "Senior Advisor for National Security (referred to in this Act as the \"Senior Advisor\")",
+        "mentions": 1,
+        "first_seen": "1315"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Agriculture and National Security Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Agriculture and National Security Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "1315"
+      },
+      {
+        "name": "Department of Agriculture Reorganization Act of 1994",
+        "citation": "7 U.S.C. 6922",
+        "ref_type": "amends",
+        "context": "Section 221 of the Department of Agriculture Reorganization Act of 1994 (7 U.S.C. 6922)",
+        "mentions": 1,
+        "first_seen": "1315"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Biennial reports on national security gaps and vulnerabilities",
+        "doc_type": "report",
+        "owner_org": "Department of Agriculture",
+        "context": "Secretary shall submit to Congress and the National Security Council a report",
+        "mentions": 1,
+        "first_seen": "1315"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Agriculture",
+    "the department": "Department of Agriculture",
+    "the senior advisor": "Senior Advisor for National Security"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1315",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Secretary",
+      "resolved": "Secretary of Agriculture",
+      "doc_id": "1315",
+      "community_id": "community:234"
+    },
+    {
+      "phrase": "the Department",
+      "resolved": "Department of Agriculture",
+      "doc_id": "1315",
+      "community_id": "community:234"
+    },
+    {
+      "phrase": "the Senior Advisor",
+      "resolved": "Senior Advisor for National Security",
+      "doc_id": "1315",
+      "community_id": "community:234"
+    }
+  ],
+  "entity_confidence": {
+    "org:department_of_agriculture": 0.6,
+    "org:national_security_council": 0.6,
+    "org:office_of_homeland_security": 0.6,
+    "legislation:agriculture_and_national_security_act_of_2024": 0.6,
+    "legislation:department_of_agriculture_reorganization_act_of_1994": 0.6,
+    "office:office_of_the_secretary": 0.6,
+    "named_doc:biennial_reports_on_national_security_gaps_and_vulnerabilities": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "role:senior_advisor_for_national_security": 0.6
+  }
+}

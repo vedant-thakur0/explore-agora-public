@@ -1,0 +1,82 @@
+{
+  "community_id": "community:106",
+  "label": "Risk factors: Reliability | Applications: Broadcasting and media production | Incentives: Civil liability",
+  "taxonomy_signature": [
+    "Risk factors: Reliability",
+    "Applications: Broadcasting and media production",
+    "Incentives: Civil liability",
+    "Incentives: Fines",
+    "Harms: Detrimental content",
+    "Applications: Government: other applications/unspecified"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Election Commission",
+        "acronym": "FEC",
+        "context": "Federal Election Campaign Act of 1971 (52 U.S.C. 30101 et seq.) enforces prohibitions",
+        "mentions": 1,
+        "first_seen": "517"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "covered individual",
+        "org": "Federal government",
+        "context": "candidate for Federal office whose voice or likeness appears in deceptive AI-generated media",
+        "mentions": 1,
+        "first_seen": "517"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Federal Election Campaign Act of 1971",
+        "citation": "52 U.S.C. 30101 et seq.",
+        "ref_type": "amends",
+        "context": "Title III amended by adding new section SEC. 325",
+        "mentions": 1,
+        "first_seen": "517"
+      },
+      {
+        "name": "Federal Rules of Civil Procedure",
+        "citation": "N/A",
+        "ref_type": "cites",
+        "context": "actions under this section entitled to precedence in accordance with",
+        "mentions": 1,
+        "first_seen": "517"
+      },
+      {
+        "name": "Protect Elections from Deceptive AI Act",
+        "citation": "N/A",
+        "ref_type": "enacts",
+        "context": "current legislation being extracted, cited in SHORT TITLE",
+        "mentions": 1,
+        "first_seen": "517"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [
+    "Legislative definitions sections (subsection (a)) contain key operational terms (COVERED INDIVIDUAL, DECEPTIVE AI-GENERATED AUDIO OR VISUAL MEDIA, FEDERAL ELECTION ACTIVITY) that function as role qualifiers rather than entities themselves; extract their associated entity types separately."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "517",
+      "note": "Section structure uses nested quotation marks for amended statutory text (amending Title III of Federal Election Campaign Act), creating embedded legislative language within the bill text. Exemptions in subsection (c) reference broadcaster and publisher categories rather than specific named entities, suggesting categorical rather than organizational entity carveouts."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "517",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:federal_election_campaign_act_of_1971": 0.6,
+    "legislation:federal_rules_of_civil_procedure": 0.6,
+    "legislation:protect_elections_from_deceptive_ai_act": 0.6,
+    "role:covered_individual": 0.6,
+    "org:federal_election_commission": 0.6
+  }
+}

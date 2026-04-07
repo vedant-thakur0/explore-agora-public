@@ -1,0 +1,471 @@
+{
+  "community_id": "community:239",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Department of State",
+        "acronym": "State Department",
+        "context": "amend the State Department Basic Authorities Act to establish a Deputy Secretary of State for Economic Security, redesignate and relocate other offices of the Department of State",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Forced Labor Enforcement Task Force",
+        "acronym": null,
+        "context": "become the lead representative of the Department of State on the Forced Labor Enforcement Task Force",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": "PRC",
+        "context": "economic, trade, supply chain, and financial activities of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Russian Federation",
+        "acronym": null,
+        "context": "economic, trade, supply chain, and financial activities of the Russian Federation",
+        "mentions": 1,
+        "first_seen": "1684"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Economic Analysis and Targeting",
+        "parent_org": "Department of State",
+        "context": "acquire AI and machine learning tools for data analysis in the Office of Economic Analysis and Targeting",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Bureau of Cyberspace and Digital Policy",
+        "parent_org": "Department of State",
+        "context": "the head of the Bureau shall be an Assistant Secretary for Cyberspace and Digital Policy",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Sanctions Coordination",
+        "parent_org": "Department of State",
+        "context": "The Office of Sanctions Coordination, to the Deputy Secretary of State for Economic Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of the Science and Technology Advisor to the Secretary",
+        "parent_org": "Department of State",
+        "context": "The Office of the Science and Technology Advisor to the Secretary",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Cooperative Threat Reduction",
+        "parent_org": "Department of State",
+        "context": "The Office of Cooperative Threat Reduction",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Critical Technology Protection",
+        "parent_org": "Department of State",
+        "context": "The Office of Critical Technology Protection",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of China Coordination",
+        "parent_org": "Department of State",
+        "context": "The technology and economic policy functions of the Office of China Coordination",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office to Monitor and Combat Trafficking in Persons",
+        "parent_org": "Department of State",
+        "context": "the forced labor enforcement functions of the Office to Monitor and Combat Trafficking in Persons",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Division for Transportation Affairs",
+        "parent_org": "Department of State",
+        "context": "all functions of the Division for Transportation Affairs",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Division for Counter Threat Finance and Sanctions",
+        "parent_org": "Department of State",
+        "context": "the Division for Counter Threat Finance and Sanctions",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Assistant Secretary for Strategic Foreign Assistance",
+        "parent_org": "Department of State",
+        "context": "established in the Department of State an Assistant Secretary for Strategic Foreign Assistance",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Division for Finance and Development",
+        "parent_org": "Department of State",
+        "context": "assets, liabilities, personnel, and duties of the Division for Finance and Development",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Foreign Assistance",
+        "parent_org": "Department of State",
+        "context": "The Office of Foreign Assistance shall be transferred to the Assistant Secretary",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Assistant Secretary for Technology and Innovation Security",
+        "parent_org": "Department of State",
+        "context": "established in the Department of State an Assistant Secretary for Technology and Innovation Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Special Envoy for Critical and Emerging Technology",
+        "parent_org": "Department of State",
+        "context": "The Special Envoy for Critical and Emerging Technology shall be transferred",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Conventional Arms Threat Reduction",
+        "parent_org": "Department of State",
+        "context": "export control functions of the Office of Conventional Arms Threat Reduction",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Emerging Security Challenges",
+        "parent_org": "Department of State",
+        "context": "space security and space policy functions of the Office of Emerging Security Challenges",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of the Chief Economist",
+        "parent_org": "Department of State",
+        "context": "assets, liabilities, personnel, and duties of the Office of the Chief Economist",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of Legislative Solutions",
+        "parent_org": "Department of State",
+        "context": "Deputy Secretary of State for Economic Security shall establish an Office of Legislative Solutions",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Office of the Deputy Secretary of State for Economic Security",
+        "parent_org": "Department of State",
+        "context": "Deputy Secretary of State for Economic Security office with hiring authority for up to 25 positions",
+        "mentions": 1,
+        "first_seen": "1684"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Deputy Secretary of State for Economic Security",
+        "org": "Department of State",
+        "context": "establish a Deputy Secretary of State for Economic Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Assistant Secretary for Cyberspace and Digital Policy",
+        "org": "Department of State",
+        "context": "the head of the Bureau shall be an Assistant Secretary for Cyberspace and Digital Policy and shall report to the Deputy Secretary for Economic Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Deputy Secretary for Economic Security",
+        "org": "Department of State",
+        "context": "shall report to the Deputy Secretary for Economic Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "The Secretary of State shall take such steps as may be necessary",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Under Secretary of State for Economic Growth, Energy, and the Environment",
+        "org": "Department of State",
+        "context": "the position and office of Under Secretary of State for Economic Growth, Energy, and the Environment",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Assistant Secretary for Trade and Investment Security",
+        "org": "Department of State",
+        "context": "The Assistant Secretary for Economic and Business Affairs as the Assistant Secretary for Trade and Investment Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Assistant Secretary for Supply Chain Security",
+        "org": "Department of State",
+        "context": "The Assistant Secretary for Energy Resources as the Assistant Secretary for Supply Chain Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Assistant Secretary for Oceans and International and Scientific Affairs",
+        "org": "Department of State",
+        "context": "The Assistant Secretary for Oceans and International and Scientific Affairs, to the Under Secretary for Civilian Security, Democracy, and Human Rights",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Special Envoy for Global Food Security",
+        "org": "Department of State",
+        "context": "The Special Envoy for Global Food Security, to the Under Secretary for Civilian Security, Democracy, and Human Rights",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Under Secretary for Civilian Security, Democracy, and Human Rights",
+        "org": "Department of State",
+        "context": "to the Under Secretary for Civilian Security, Democracy, and Human Rights",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Special Representative for Global Partnerships",
+        "org": "Department of State",
+        "context": "The Special Representative for Global Partnerships",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Sanctions Coordinator",
+        "org": "Department of State",
+        "context": "the Sanctions Coordinator relocated pursuant to paragraph (4)(C)",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Director of the Office of Economic Analysis and Targeting",
+        "org": "Department of State",
+        "context": "Chief Economist shall be redesignated as the Director of the Office of Economic Analysis and Targeting",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Assistant Secretary for Ocean and International and Scientific Affairs",
+        "org": "Department of State",
+        "context": "space policy functions of the Assistant Secretary for Ocean and International and Scientific Affairs",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "Chief Economist",
+        "org": "Department of State",
+        "context": "the Chief Economist shall be redesignated as the Director",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "title": "President",
+        "org": "Executive Branch",
+        "context": "may establish and appoint not more than 10 candidates to Schedule C positions",
+        "mentions": 1,
+        "first_seen": "1684"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "State Department Basic Authorities Act",
+        "citation": null,
+        "ref_type": "amends",
+        "context": "To amend the State Department Basic Authorities Act to establish a Deputy Secretary of State for Economic Security",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Economic Security and Diplomacy Act of 2024",
+        "citation": "Economic Security and Diplomacy Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Economic Security and Diplomacy Act of 2024\".",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "State Department Basic Authorities Act of 1956",
+        "citation": "22 U.S.C. 2651a",
+        "ref_type": "amends",
+        "context": "Section 1 of the State Department Basic Authorities Act of 1956 (22 U.S.C. 2651a) is amended",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Visa Mantis program",
+        "citation": null,
+        "ref_type": "other",
+        "context": "security advisory opinions under the Visa Mantis program",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Wassenaar Arrangement",
+        "citation": null,
+        "ref_type": "other",
+        "context": "multilateral Wassenaar Arrangement",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Countering PRC Influence Fund",
+        "citation": null,
+        "ref_type": "other",
+        "context": "management functions of the Office of China Coordination with respect to the Countering PRC Influence Fund",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "End Use Review Committee",
+        "citation": null,
+        "ref_type": "other",
+        "context": "participation in the End Use Review Committee",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "Code of Federal Regulations Title 5, Part 213, Subpart C",
+        "citation": "5 CFR 213",
+        "ref_type": "cites",
+        "context": "Schedule C positions classified as confidential or policy-determining character",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "United States Code Title 5, Sections 3309-3318",
+        "citation": "5 U.S.C. \u00a7 3309-3318",
+        "ref_type": "cites",
+        "context": "competitive service appointments without regard to these provisions",
+        "mentions": 1,
+        "first_seen": "1684"
+      },
+      {
+        "name": "United States Code Title 5, Section 2102",
+        "citation": "5 U.S.C. \u00a7 2102",
+        "ref_type": "cites",
+        "context": "competitive service definition for Deputy Secretary hiring authority",
+        "mentions": 1,
+        "first_seen": "1684"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Federal database on economic security data",
+        "doc_type": "initiative",
+        "owner_org": "Office of Economic Analysis and Targeting",
+        "context": "establish a database, which shall be accessible by all Federal employees",
+        "mentions": 1,
+        "first_seen": "1684"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "department of state": "Explicitly named; referred to as 'Department of State' and 'State Department' interchangeably in this section"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1684",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Department of State",
+      "resolved": "Explicitly named; referred to as 'Department of State' and 'State Department' interchangeably in this section",
+      "doc_id": "1684",
+      "community_id": "community:239"
+    }
+  ],
+  "entity_confidence": {
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:department_of_state": 0.6,
+    "org:forced_labor_enforcement_task_force": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:russian_federation": 0.6,
+    "legislation:state_department_basic_authorities_act": 0.6,
+    "legislation:economic_security_and_diplomacy_act_of_2024": 0.6,
+    "legislation:state_department_basic_authorities_act_of_1956": 0.6,
+    "legislation:visa_mantis_program": 0.6,
+    "legislation:wassenaar_arrangement": 0.6,
+    "legislation:countering_prc_influence_fund": 0.6,
+    "legislation:end_use_review_committee": 0.6,
+    "legislation:code_of_federal_regulations_title_5_part_213_subpart_c": 0.6,
+    "legislation:united_states_code_title_5_sections_3309_3318": 0.6,
+    "legislation:united_states_code_title_5_section_2102": 0.6,
+    "office:office_of_economic_analysis_and_targeting": 0.6,
+    "office:bureau_of_cyberspace_and_digital_policy": 0.6,
+    "office:office_of_sanctions_coordination": 0.6,
+    "office:office_of_the_science_and_technology_advisor_to_the_secretary": 0.6,
+    "office:office_of_cooperative_threat_reduction": 0.6,
+    "office:office_of_critical_technology_protection": 0.6,
+    "office:office_of_china_coordination": 0.6,
+    "office:office_to_monitor_and_combat_trafficking_in_persons": 0.6,
+    "office:division_for_transportation_affairs": 0.6,
+    "office:division_for_counter_threat_finance_and_sanctions": 0.6,
+    "office:assistant_secretary_for_strategic_foreign_assistance": 0.6,
+    "office:division_for_finance_and_development": 0.6,
+    "office:office_of_foreign_assistance": 0.6,
+    "office:assistant_secretary_for_technology_and_innovation_security": 0.6,
+    "office:special_envoy_for_critical_and_emerging_technology": 0.6,
+    "office:office_of_conventional_arms_threat_reduction": 0.6,
+    "office:office_of_emerging_security_challenges": 0.6,
+    "office:office_of_the_chief_economist": 0.6,
+    "office:office_of_legislative_solutions": 0.6,
+    "office:office_of_the_deputy_secretary_of_state_for_economic_security": 0.6,
+    "named_doc:federal_database_on_economic_security_data": 0.6,
+    "role:deputy_secretary_of_state_for_economic_security": 0.6,
+    "role:assistant_secretary_for_cyberspace_and_digital_policy": 0.6,
+    "role:deputy_secretary_for_economic_security": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:under_secretary_of_state_for_economic_growth_energy_and_the_environment": 0.6,
+    "role:assistant_secretary_for_trade_and_investment_security": 0.6,
+    "role:assistant_secretary_for_supply_chain_security": 0.6,
+    "role:assistant_secretary_for_oceans_and_international_and_scientific_affairs": 0.6,
+    "role:special_envoy_for_global_food_security": 0.6,
+    "role:under_secretary_for_civilian_security_democracy_and_human_rights": 0.6,
+    "role:special_representative_for_global_partnerships": 0.6,
+    "role:sanctions_coordinator": 0.6,
+    "role:director_of_the_office_of_economic_analysis_and_targeting": 0.6,
+    "role:assistant_secretary_for_ocean_and_international_and_scientific_affairs": 0.6,
+    "role:chief_economist": 0.6,
+    "role:president": 0.9
+  }
+}

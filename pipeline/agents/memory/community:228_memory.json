@@ -1,0 +1,327 @@
+{
+  "community_id": "community:228",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "acronym": "CISA",
+        "context": "Expands CISA education and training programs to community colleges and technical schools",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "NIST Special Publication 800-181, revision 1",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Federal Bureau of Investigation",
+        "acronym": "FBI",
+        "context": "Other Federal agencies, such as the Department of Defense, the Federal Bureau of Investigation",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "National Security Agency",
+        "acronym": "NSA",
+        "context": "the National Security Agency, and the Office of the National Cyber Director",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Office of the National Cyber Director",
+        "acronym": null,
+        "context": "the National Security Agency, and the Office of the National Cyber Director",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "National Initiative for Cybersecurity Education",
+        "acronym": "NICE",
+        "context": "National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Armed Forces",
+        "acronym": null,
+        "context": "have completed a term of service in the Armed Forces that is equal to the service obligation",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "acronym": null,
+        "context": "Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1200"
+      }
+    ],
+    "offices": [
+      {
+        "name": "CISA Education and Training Programs and Resources",
+        "parent_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "SEC. 2. CISA EDUCATION AND TRAINING PROGRAMS AND RESOURCES.",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "CISA Regional Security Advisors program",
+        "parent_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "internship opportunities with the CISA Regional Security Advisors program",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "CISA Regional Office",
+        "parent_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "at each CISA regional office; and",
+        "mentions": 1,
+        "first_seen": "1200"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director of CISA",
+        "org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "The Director of the Cybersecurity and Infrastructure Security Agency (CISA) of the Department shall seek",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "title": "National Cyber Director",
+        "org": "Office of the National Cyber Director",
+        "context": "The Director of CISA, in coordination with the National Cyber Director, shall host",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "title": "Director of the Cybersecurity and Infrastructure Security Agency",
+        "org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "Director of the Cybersecurity and Infrastructure Security Agency (CISA) of the Department of Homeland Security shall submit to Congress",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "The Secretary of Homeland Security shall submit to the Committee on Homeland Security",
+        "mentions": 1,
+        "first_seen": "1200"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Act of 2024",
+        "citation": "Cyber PIVOTT Act",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Act of 2024\" or the \"Cyber PIVOTT Act\".",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Homeland Security Act of 2002",
+        "citation": "Subtitle D of title XIII",
+        "ref_type": "amends",
+        "context": "Subtitle D of title XIII of the Homeland Security Act of 2002 is amended by adding at the end",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "section 5002, 15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "as such term is defined in section 5002 of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Code of Federal Regulations",
+        "citation": "section 411.167 of title 20",
+        "ref_type": "cites",
+        "context": "as such term is defined in section 411.167 of title 20, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Title 5, United States Code",
+        "citation": "section 105",
+        "ref_type": "cites",
+        "context": "an executive agency (as such term is defined in section 105 of title 5, United States Code)",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "part D of subpart 10 of chapter 2 of subpart 2 of part A of title IV, 20 U.S.C. 1087a et seq.",
+        "ref_type": "cites",
+        "context": "Federal Direct Unsubsidized Stafford Loan under part D of subpart 10 of chapter 2 of subpart 2 of part A of title IV of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "section 1334 of the Homeland Security Act of 2002",
+        "citation": "Sec. 1334",
+        "ref_type": "enacts",
+        "context": "new item: 'Sec. 1334. CISA education and training programs and resources.'",
+        "mentions": 1,
+        "first_seen": "1200"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Program",
+        "doc_type": "program",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "Such programs shall be known as the 'Providing Individuals Various Opportunities for Technical Training to Build a Skills-Based Cyber Workforce Program'",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "PIVOTT Program",
+        "doc_type": "program",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "or the 'PIVOTT Program' (in this section referred to as the 'Program')",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "NICE Cybersecurity Workforce Framework",
+        "doc_type": "strategy",
+        "owner_org": "National Initiative for Cybersecurity Education",
+        "context": "NICE Cybersecurity Workforce Framework (NIST Special Publication 800-181, revision 1)",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "Department of Defense Cyber Workforce Framework",
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense",
+        "context": "or the Department of Defense Cyber Workforce Framework, to advance the cyber mission",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "National Centers of Academic Excellence in Cybersecurity",
+        "doc_type": "program",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "a participant in the National Centers of Academic Excellence in Cybersecurity (NCAE-C) program",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "NCAE-C",
+        "doc_type": "program",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "National Centers of Academic Excellence in Cybersecurity (NCAE-C) program",
+        "mentions": 1,
+        "first_seen": "1200"
+      },
+      {
+        "name": "CyberCorps Scholarship for Service Program",
+        "doc_type": "program",
+        "owner_org": "Department of Homeland Security",
+        "context": "current support of the Department to the CyberCorps Scholarship for Service Program",
+        "mentions": 1,
+        "first_seen": "1200"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director of cisa": "Resolved as Director of the Cybersecurity and Infrastructure Security Agency, a specific officer role within CISA",
+    "secretary": "Resolved as Secretary of Homeland Security, acting through the Director of CISA in program administration",
+    "the department": "Resolved as Department of Homeland Security based on context of Homeland Security Act amendments"
+  },
+  "parsing_rules": [
+    "Programs and initiatives with acronyms should be extracted as separate named_docs entries when the acronym is parenthetically defined (e.g., 'PIVOTT Program' requires extraction alongside full program name)."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1200",
+      "note": "Section 2 heading references 'CISA EDUCATION AND TRAINING PROGRAMS AND RESOURCES' as a structural section title rather than introducing new named entities; this appears to be a section header establishing the programmatic scope rather than a distinct initiative with its own identity."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1200",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director of CISA",
+      "resolved": "Resolved as Director of the Cybersecurity and Infrastructure Security Agency, a specific officer role within CISA",
+      "doc_id": "1200",
+      "community_id": "community:228"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Resolved as Secretary of Homeland Security, acting through the Director of CISA in program administration",
+      "doc_id": "1200",
+      "community_id": "community:228"
+    },
+    {
+      "phrase": "the Department",
+      "resolved": "Resolved as Department of Homeland Security based on context of Homeland Security Act amendments",
+      "doc_id": "1200",
+      "community_id": "community:228"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:providing_individuals_various_opportunities_for_technical_training_to_build_a_skills_based_cyber_workforce_act_of_2024": 0.6,
+    "legislation:homeland_security_act_of_2002": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "legislation:code_of_federal_regulations": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:section_1334_of_the_homeland_security_act_of_2002": 0.6,
+    "office:cisa_education_and_training_programs_and_resources": 0.6,
+    "office:cisa_regional_security_advisors_program": 0.6,
+    "office:cisa_regional_office": 0.6,
+    "role:director_of_cisa": 0.6,
+    "role:national_cyber_director": 0.6,
+    "role:director_of_the_cybersecurity_and_infrastructure_security_agency": 0.6,
+    "role:secretary_of_homeland_security": 0.9,
+    "named_doc:providing_individuals_various_opportunities_for_technical_training_to_build_a_skills_based_cyber_workforce_program": 0.6,
+    "named_doc:pivott_program": 0.6,
+    "named_doc:nice_cybersecurity_workforce_framework": 0.6,
+    "named_doc:department_of_defense_cyber_workforce_framework": 0.6,
+    "named_doc:national_centers_of_academic_excellence_in_cybersecurity": 0.6,
+    "named_doc:ncae_c": 0.39999999999999997,
+    "named_doc:cybercorps_scholarship_for_service_program": 0.6,
+    "org:cybersecurity_and_infrastructure_security_agency": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:federal_bureau_of_investigation": 0.6,
+    "org:national_security_agency": 0.6,
+    "org:office_of_the_national_cyber_director": 0.6,
+    "org:national_initiative_for_cybersecurity_education": 0.6,
+    "org:armed_forces": 0.6,
+    "org:committee_on_homeland_security": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6
+  }
+}

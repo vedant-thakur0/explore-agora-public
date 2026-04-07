@@ -1,0 +1,368 @@
+{
+  "community_id": "community:061",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "United States of America",
+        "acronym": "USA",
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": "PRC",
+        "context": "PRC exploits United States investors to finance development and modernization of its military",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Chinese Communist Party",
+        "acronym": null,
+        "context": "economic threat that the Chinese Communist Party poses to United States freedom and prosperity",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "Office of Foreign Assets Control of the Department of the Treasury",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "maintained by the Federal Communications Commission under section 2 of the Secure and Trusted Communications Networks Act",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "National Science and Technology Council",
+        "acronym": null,
+        "context": "Critical and Emerging Technologies List of the National Science and Technology Council",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Consolidated Screening List of the Federal Government",
+        "acronym": null,
+        "context": "The Consolidated Screening List of the Federal Government",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Armed Services",
+        "acronym": null,
+        "context": "appropriate congressional committees means\u2014(A) the Committee on Armed Services",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "Committee on Banking, Housing, and Urban Affairs, the Committee on Foreign Relations",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "acronym": null,
+        "context": "Committee on Foreign Relations, and the Committee on Homeland Security and Governmental Affairs",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "Committee on Financial Services, the Committee on Foreign Affairs",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "Committee on Foreign Affairs, and the Committee on Homeland Security of the House",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "acronym": null,
+        "context": "Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "National Security Act of 1947",
+        "acronym": null,
+        "context": "title V of the National Security Act of 1947 (50 U.S.C. 3091 et seq.)",
+        "mentions": 1,
+        "first_seen": "1896"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Foreign Assets Control",
+        "parent_org": "Department of the Treasury",
+        "context": "Office of Foreign Assets Control of the Department of the Treasury, by blocking the assets of certain entities",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Secretary of Commerce",
+        "parent_org": "Department of Commerce",
+        "context": "Secretary of the Treasury, in consultation with the Secretary of State, the Secretary of Commerce, and the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "1896"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "delegating authority for naming Chinese military companies to the Secretary of the Treasury, in consultation",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "Secretary of the Treasury, in consultation with the Secretary of State and, as appropriate, the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "title": "Chairman or ranking member of appropriate congressional committees",
+        "org": "Congress",
+        "context": "Not later than 30 days after receiving a request from the chairman or ranking member of one of the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary of the Treasury, in consultation with the Secretary of State, the Secretary of Commerce, and the Secretary of Defense, shall determine",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "title": "President",
+        "org": "United States of America",
+        "context": "The President may, for renewable periods of not to exceed 180 days, waive",
+        "mentions": 1,
+        "first_seen": "1896"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Executive Order 13959",
+        "citation": "E.O. 13959",
+        "ref_type": "other",
+        "context": "Codifies and updates Executive Order 13959",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Chinese Military and Surveillance Company Sanctions Act of 2024",
+        "citation": "Chinese Military and Surveillance Company Sanctions Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Chinese Military and Surveillance Company Sanctions Act of 2024\".",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Strom Thurmond National Defense Authorization Act for Fiscal Year 1999",
+        "citation": "Public Law 105\u2013261; 50 U.S.C. 1701 note",
+        "ref_type": "cites",
+        "context": "section 1237 of the Strom Thurmond National Defense Authorization Act for Fiscal Year 1999",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Executive Order 14032",
+        "citation": "June 3, 2021",
+        "ref_type": "amends",
+        "context": "On June 3, 2021, the President issued Executive Order 14032, which amended Executive Order 13959",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "Public Law 116\u2013283; 10 U.S.C. 113 note",
+        "ref_type": "cites",
+        "context": "Secretary of Defense under section 1260H(b) of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Uyghur Forced Labor Prevention Act",
+        "citation": "Public Law 117\u201378; 22 U.S.C. 6901 note",
+        "ref_type": "cites",
+        "context": "section 2(d)(2)(B) of the Act entitled 'An Act to ensure that goods made with forced labor in the Xinjiang Autonomous Region' (commonly referred to as the 'Uyghur Forced Labor Prevention Act')",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Secure and Trusted Communications Networks Act of 2019",
+        "citation": "47 U.S.C. 1601",
+        "ref_type": "cites",
+        "context": "section 2 of the Secure and Trusted Communications Networks Act of 2019",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "citation": "50 U.S.C. 1702, 1704, 1705",
+        "ref_type": "cites",
+        "context": "sections 203 and 205 of the International Emergency Economic Powers Act and section 206 penalties",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "National Security Act of 1947",
+        "citation": "50 U.S.C. 3091 et seq.",
+        "ref_type": "cites",
+        "context": "title V of the National Security Act of 1947 (50 U.S.C. 3091 et seq.)",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "title 31, United States Code",
+        "citation": "31 U.S.C. 5318A",
+        "ref_type": "cites",
+        "context": "section 5318A of title 31, United States Code",
+        "mentions": 1,
+        "first_seen": "1896"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "SDN list",
+        "doc_type": "program",
+        "owner_org": "Office of Foreign Assets Control",
+        "context": "list of specially designated nationals and blocked persons (commonly referred to as the \"SDN list\")",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Critical and Emerging Technologies List",
+        "doc_type": "list",
+        "owner_org": "National Science and Technology Council",
+        "context": "Any other area on the Critical and Emerging Technologies List of the National Science and Technology Council",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "List of communications equipment and services that pose an unacceptable risk to national security",
+        "doc_type": "list",
+        "owner_org": "Federal Communications Commission",
+        "context": "list of communications equipment and services that pose an unacceptable risk to the national security of the United States",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "List of Chinese military companies operating directly or indirectly in the United States",
+        "doc_type": "list",
+        "owner_org": "Department of Defense",
+        "context": "list of Chinese military companies operating directly or indirectly in the United States maintained by the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "1896"
+      },
+      {
+        "name": "Annex to Executive Order 13959",
+        "doc_type": "other",
+        "owner_org": "Office of the President",
+        "context": "the President shall update the Annex to Executive Order 13959 not less frequently than annually",
+        "mentions": 1,
+        "first_seen": "1896"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary of defense": "Department of Defense (inferred from context: Secretary of the Treasury in consultation with Secretary of State and Secretary of Defense)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1896",
+      "note": "This is the enacting clause of a bill. No substantive content, sanctions details, or entity lists appear in this excerpt. The document title and summary indicate Chinese military/surveillance entities will be referenced later in the text."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1896",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary of Defense",
+      "resolved": "Department of Defense (inferred from context: Secretary of the Treasury in consultation with Secretary of State and Secretary of Defense)",
+      "doc_id": "1896",
+      "community_id": "community:061"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:executive_order_13959": 0.6,
+    "legislation:chinese_military_and_surveillance_company_sanctions_act_of_2024": 0.6,
+    "legislation:strom_thurmond_national_defense_authorization_act_for_fiscal_year_1999": 0.6,
+    "legislation:executive_order_14032": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "legislation:uyghur_forced_labor_prevention_act": 0.6,
+    "legislation:secure_and_trusted_communications_networks_act_of_2019": 0.6,
+    "legislation:international_emergency_economic_powers_act": 0.6,
+    "legislation:national_security_act_of_1947": 0.6,
+    "legislation:title_31_united_states_code": 0.6,
+    "office:office_of_foreign_assets_control": 0.6,
+    "office:secretary_of_commerce": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:chairman_or_ranking_member_of_appropriate_congressional_committees": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:president": 0.9,
+    "named_doc:sdn_list": 0.6,
+    "named_doc:critical_and_emerging_technologies_list": 0.6,
+    "named_doc:list_of_communications_equipment_and_services_that_pose_an_unacceptable_risk_to_national_security": 0.6,
+    "named_doc:list_of_chinese_military_companies_operating_directly_or_indirectly_in_the_united_states": 0.6,
+    "named_doc:annex_to_executive_order_13959": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:united_states_of_america": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:chinese_communist_party": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:federal_communications_commission": 0.6,
+    "org:national_science_and_technology_council": 0.6,
+    "org:consolidated_screening_list_of_the_federal_government": 0.6,
+    "org:committee_on_armed_services": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:committee_on_foreign_relations": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:committee_on_homeland_security": 0.6,
+    "org:national_security_act_of_1947": 0.6
+  }
+}

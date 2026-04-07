@@ -1,0 +1,180 @@
+{
+  "community_id": "community:072",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Committee on Finance",
+        "acronym": null,
+        "context": "Committee on Finance of the Senate",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Committee on the Judiciary",
+        "acronym": null,
+        "context": "Committee on the Judiciary of the Senate",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "acronym": null,
+        "context": "Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Office of National Drug Control Policy",
+        "acronym": "ONDCP",
+        "context": "Director of the Office of National Drug Control Policy",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": null,
+        "context": "Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "Transportation Security Administration",
+        "acronym": "TSA",
+        "context": "Administrator of the Transportation Security Administration",
+        "mentions": 1,
+        "first_seen": "1975"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Science and Technology Policy",
+        "parent_org": "Executive Office of the President",
+        "context": "Director of the Office of Science and Technology Policy",
+        "mentions": 1,
+        "first_seen": "1975"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "Office of Science and Technology Policy",
+        "context": "Director of the Office of Science and Technology Policy",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Commerce",
+        "context": "Secretary of Commerce (acting through the Director of the National Institute of Standards and Technology)",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "title": "Administrator",
+        "org": "Transportation Security Administration",
+        "context": "Administrator of the Transportation Security Administration",
+        "mentions": 1,
+        "first_seen": "1975"
+      }
+    ],
+    "legislation_refs": [],
+    "named_docs": [
+      {
+        "name": "joint strategy to accelerate research and development and deployment of non-intrusive, advanced inspection technologies",
+        "doc_type": "strategy",
+        "owner_org": "Office of Science and Technology Policy, Office of National Drug Control Policy",
+        "context": "develop a joint strategy to accelerate research and development and deployment",
+        "mentions": 1,
+        "first_seen": "1975"
+      },
+      {
+        "name": "report on such strategy",
+        "doc_type": "report",
+        "owner_org": "Office of Science and Technology Policy, Office of National Drug Control Policy",
+        "context": "not later than 2 years after the date of the enactment of this Act, submit a report",
+        "mentions": 1,
+        "first_seen": "1975"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director of the national institute of standards and technology": "Identified as acting through the Secretary of Commerce in the consultation context",
+    "appropriate congressional committees": "Defined in subsection (a) as eight specific Senate and House committees"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1975",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director of the National Institute of Standards and Technology",
+      "resolved": "Identified as acting through the Secretary of Commerce in the consultation context",
+      "doc_id": "1975",
+      "community_id": "community:072"
+    },
+    {
+      "phrase": "appropriate congressional committees",
+      "resolved": "Defined in subsection (a) as eight specific Senate and House committees",
+      "doc_id": "1975",
+      "community_id": "community:072"
+    }
+  ],
+  "entity_confidence": {
+    "office:office_of_science_and_technology_policy": 1.0,
+    "role:director": 0.6,
+    "role:secretary": 0.6,
+    "role:administrator": 0.6,
+    "named_doc:joint_strategy_to_accelerate_research_and_development_and_deployment_of_non_intrusive_advanced_inspection_technologies": 0.6,
+    "named_doc:report_on_such_strategy": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_finance": 0.6,
+    "org:committee_on_the_judiciary": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_homeland_security": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "org:office_of_national_drug_control_policy": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:transportation_security_administration": 0.6
+  }
+}

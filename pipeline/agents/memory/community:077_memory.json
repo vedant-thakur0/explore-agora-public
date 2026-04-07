@@ -1,0 +1,122 @@
+{
+  "community_id": "community:077",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institutes of Health",
+        "acronym": "NIH",
+        "context": "Director of the National Institutes of Health shall establish a grant program",
+        "mentions": 1,
+        "first_seen": "410"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "referred to the Committee on Energy and Commerce",
+        "mentions": 1,
+        "first_seen": "410"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Director",
+        "parent_org": "National Institutes of Health",
+        "context": "The Director of the National Institutes of Health shall establish a grant program",
+        "mentions": 1,
+        "first_seen": "410"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "National Institutes of Health",
+        "context": "The Director of the National Institutes of Health shall establish a grant program",
+        "mentions": 1,
+        "first_seen": "410"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Healthcare Enhancement And Learning Through Harnessing Artificial Intelligence Act",
+        "citation": "H.R. 7381",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Healthcare Enhancement And Learning Through Harnessing Artificial Intelligence Act\"",
+        "mentions": 1,
+        "first_seen": "410"
+      },
+      {
+        "name": "HEALTH AI Act",
+        "citation": "H.R. 7381",
+        "ref_type": "enacts",
+        "context": "or the \"HEALTH AI Act\"",
+        "mentions": 1,
+        "first_seen": "410"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "410"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "section 101 of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "410"
+      },
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "26 U.S.C. 501(c)(3)",
+        "ref_type": "cites",
+        "context": "section 501(c)(3) of the Internal Revenue Code of 1986",
+        "mentions": 1,
+        "first_seen": "410"
+      },
+      {
+        "name": "Public Health Service Act",
+        "citation": "42 U.S.C. 254b(b)",
+        "ref_type": "cites",
+        "context": "section 330(b) of the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "410"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Grant program to facilitate research regarding the use of generative artificial intelligence in health care",
+        "doc_type": "program",
+        "owner_org": "National Institutes of Health",
+        "context": "The Director of the National Institutes of Health shall establish a grant program",
+        "mentions": 1,
+        "first_seen": "410"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "410",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:healthcare_enhancement_and_learning_through_harnessing_artificial_intelligence_act": 0.6,
+    "legislation:health_ai_act": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "legislation:public_health_service_act": 0.6,
+    "office:office_of_the_director": 0.6,
+    "role:director": 0.6,
+    "named_doc:grant_program_to_facilitate_research_regarding_the_use_of_generative_artificial_intelligence_in_health_care": 0.6,
+    "org:national_institutes_of_health": 1.0,
+    "org:committee_on_energy_and_commerce": 0.6
+  }
+}

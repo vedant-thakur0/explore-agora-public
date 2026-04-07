@@ -34,6 +34,7 @@ def call_claude(
     *,
     model: str = ANTHROPIC_MODEL_BULK,
     max_tokens: int = 2048,
+    temperature: float | None = None,
 ) -> tuple[str, int, int]:
     """Call Claude and return (response_text, prompt_tokens, completion_tokens).
 
@@ -45,12 +46,15 @@ def call_claude(
 
     for attempt in range(ANTHROPIC_MAX_RETRIES):
         try:
-            response = client.messages.create(
+            kwargs: dict[str, Any] = dict(
                 model=model,
                 max_tokens=max_tokens,
                 system=system,
                 messages=[{"role": "user", "content": user}],
             )
+            if temperature is not None:
+                kwargs["temperature"] = temperature
+            response = client.messages.create(**kwargs)
             text = response.content[0].text
             prompt_tokens = response.usage.input_tokens
             completion_tokens = response.usage.output_tokens
@@ -84,13 +88,14 @@ def call_claude_json(
     *,
     model: str = ANTHROPIC_MODEL_BULK,
     max_tokens: int = 2048,
+    temperature: float | None = None,
 ) -> tuple[dict[str, Any] | None, int, int]:
     """Call Claude expecting JSON output. Returns (parsed_dict, prompt_tokens, completion_tokens).
 
     On JSON parse failure, retries once with a stricter prompt prefix.
     Returns (None, tokens, tokens) if both attempts produce invalid JSON.
     """
-    text, pt, ct = call_claude(system, user, model=model, max_tokens=max_tokens)
+    text, pt, ct = call_claude(system, user, model=model, max_tokens=max_tokens, temperature=temperature)
 
     # Try parsing the raw response
     parsed = _try_parse_json(text)

@@ -1,0 +1,384 @@
+{
+  "community_id": "community:081",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Committee on Armed Services",
+        "acronym": null,
+        "context": "referred to the Committee on Armed Services",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committees on Science, Space, and Technology",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committees on Energy and Commerce",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Committee on Education and the Workforce",
+        "acronym": null,
+        "context": "Committees on Education and the Workforce",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Chinese Communist Party",
+        "acronym": null,
+        "context": "military-civil fusion strategy of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "People's Liberation Army",
+        "acronym": "PLA",
+        "context": "colleges or universities that receive funding from the People's Liberation Army",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Equipment Development Department",
+        "acronym": null,
+        "context": "colleges or universities that receive funding from the Equipment Development Department of the Central Military Commission",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Science and Technology Commission",
+        "acronym": null,
+        "context": "colleges or universities that receive funding from the Science and Technology Commission of the Central Military Commission",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Central Military Commission",
+        "acronym": null,
+        "context": "funding source for Chinese colleges and universities",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "State Administration for Science, Technology, and Industry for the National Defense",
+        "acronym": null,
+        "context": "designates colleges or universities to host joint construction programs",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "People's Armed Police",
+        "acronym": null,
+        "context": "security entity conducting research in Chinese colleges or universities",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Ministry of Public Security",
+        "acronym": null,
+        "context": "security entity conducting research in Chinese colleges or universities",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Ministry of State Security",
+        "acronym": null,
+        "context": "security entity conducting research in Chinese colleges or universities",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "National People's Congress",
+        "acronym": null,
+        "context": "owners, directors, or senior management officials serving as delegates",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Chinese People's Political Consultative Conference",
+        "acronym": null,
+        "context": "members among owners, directors, or senior management officials",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "publishes the Non-SDN Chinese Military-Industrial Complex Companies List",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Government of the People's Republic of China",
+        "acronym": null,
+        "context": "majority shareholder or ultimate parent entity of certain enterprises",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Department of State",
+        "acronym": "State Department",
+        "context": "Secretary of State, in consultation with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Federal Bureau of Investigation",
+        "acronym": "FBI",
+        "context": "Director of the Federal Bureau of Investigation, in consultation",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Secretary of Energy, in consultation with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Department of Education",
+        "acronym": "ED",
+        "context": "Secretary of Education, in consultation with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": "Commerce",
+        "context": "Secretary of Commerce, in consultation with the Secretary of Defense",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Australian Strategic Policy Institute",
+        "acronym": "ASPI",
+        "context": "China Defense Universities Tracker maintained by the Australian Strategic Policy Institute",
+        "mentions": 1,
+        "first_seen": "499"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Equipment Development Department",
+        "parent_org": "Central Military Commission",
+        "context": "funding source for Chinese educational institutions",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Science and Technology Commission",
+        "parent_org": "Central Military Commission",
+        "context": "funding source for Chinese educational institutions",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "China Defense Universities Tracker",
+        "parent_org": "Australian Strategic Policy Institute",
+        "context": "existing resources, such as the China Defense Universities Tracker",
+        "mentions": 1,
+        "first_seen": "499"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Speaker",
+        "org": "House of Representatives",
+        "context": "to be subsequently determined by the Speaker",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "determines colleges or universities involved in military-civil fusion strategy",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "Secretary of Defense, in consultation with the Secretary of State",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Director of National Intelligence",
+        "org": "Office of the Director of National Intelligence",
+        "context": "in consultation with the Director of National Intelligence",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Director of the Federal Bureau of Investigation",
+        "org": "Federal Bureau of Investigation",
+        "context": "in consultation with the Director of the Federal Bureau of Investigation",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "in consultation with the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Secretary of Education",
+        "org": "Department of Education",
+        "context": "in consultation with the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "in consultation with the Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "in consultation with the Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "499"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Preventing PLA Acquisition of United States Technology Act of 2023",
+        "citation": "H.R. 2993",
+        "ref_type": "enacts",
+        "context": "H. R. 2993 / To counter the military-civil fusion strategy",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "10 U.S.C. 113 note; section 1260H(a)",
+        "ref_type": "cites",
+        "context": "Secretary of Defense identifies Chinese military companies under this act",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Code of Federal Regulations Title 2, Section 200.1",
+        "citation": "2 C.F.R. 200.1",
+        "ref_type": "cites",
+        "context": "definition of Federal financial assistance",
+        "mentions": 1,
+        "first_seen": "499"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "military-civil fusion strategy",
+        "doc_type": "strategy",
+        "owner_org": "Chinese Communist Party",
+        "context": "counter the military-civil fusion strategy of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "Non-SDN Chinese Military-Industrial Complex Companies List",
+        "doc_type": "other",
+        "owner_org": "Department of the Treasury",
+        "context": "published list of Chinese military companies",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "double first-class university plan",
+        "doc_type": "plan",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "Chinese university designation involving military research",
+        "mentions": 1,
+        "first_seen": "499"
+      },
+      {
+        "name": "China Defense Universities Tracker",
+        "doc_type": "initiative",
+        "owner_org": "Australian Strategic Policy Institute",
+        "context": "may use as a model any existing resources, such as the China Defense Universities Tracker",
+        "mentions": 1,
+        "first_seen": "499"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary of defense": "Confirmed as executive officer with authority to determine Chinese entities of concern under military-civil fusion strategy; distinguished from other Defense officials"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "499",
+      "note": "Legislative text fragment containing only header and procedural routing information; substantive provisions and implementing requirements referenced in summary are not present in this excerpt."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "499",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary of Defense",
+      "resolved": "Confirmed as executive officer with authority to determine Chinese entities of concern under military-civil fusion strategy; distinguished from other Defense officials",
+      "doc_id": "499",
+      "community_id": "community:081"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:preventing_pla_acquisition_of_united_states_technology_act_of_2023": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "legislation:code_of_federal_regulations_title_2_section_200_1": 0.6,
+    "office:equipment_development_department": 0.6,
+    "office:science_and_technology_commission": 0.6,
+    "office:china_defense_universities_tracker": 0.6,
+    "role:speaker": 0.39999999999999997,
+    "role:secretary_of_defense": 0.9,
+    "role:secretary_of_state": 0.6,
+    "role:director_of_national_intelligence": 0.9,
+    "role:director_of_the_federal_bureau_of_investigation": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:secretary_of_education": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "named_doc:military_civil_fusion_strategy": 0.6,
+    "named_doc:non_sdn_chinese_military_industrial_complex_companies_list": 0.6,
+    "named_doc:double_first_class_university_plan": 0.6,
+    "named_doc:china_defense_universities_tracker": 0.6,
+    "org:committee_on_armed_services": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_education_and_the_workforce": 0.6,
+    "org:chinese_communist_party": 0.6,
+    "org:people_s_liberation_army": 0.6,
+    "org:equipment_development_department": 0.6,
+    "org:science_and_technology_commission": 0.6,
+    "org:central_military_commission": 0.6,
+    "org:state_administration_for_science_technology_and_industry_for_the_national_defense": 0.6,
+    "org:people_s_armed_police": 0.6,
+    "org:ministry_of_public_security": 0.6,
+    "org:ministry_of_state_security": 0.6,
+    "org:national_people_s_congress": 0.6,
+    "org:chinese_people_s_political_consultative_conference": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:government_of_the_people_s_republic_of_china": 0.6,
+    "org:department_of_state": 0.6,
+    "org:federal_bureau_of_investigation": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:department_of_education": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:australian_strategic_policy_institute": 0.6
+  }
+}

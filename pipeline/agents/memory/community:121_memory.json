@@ -1,0 +1,345 @@
+{
+  "community_id": "community:121",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "IN THE HOUSE OF REPRESENTATIVES",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Transportation and Infrastructure",
+        "acronym": null,
+        "context": "referred to the Committee on Transportation and Infrastructure",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committees on Energy and Commerce, and Armed Services",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Armed Services",
+        "acronym": null,
+        "context": "Committees on Energy and Commerce, and Armed Services",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Nuclear Regulatory Commission",
+        "acronym": "NRC",
+        "context": "With approval by the Nuclear Regulatory Commission, microreactors can be mass produced",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Federal Emergency Management Agency",
+        "acronym": "FEMA",
+        "context": "Administrator of the Federal Emergency Management Agency",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Assistant Secretary of the Office of Nuclear Energy of the Department of Energy",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "National Guard Bureau",
+        "acronym": "NGB",
+        "context": "Chief of the National Guard Bureau",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Army Corps of Engineers",
+        "acronym": "USACE",
+        "context": "Chief of Engineers of the Army Corps of Engineers",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Department of Defense",
+        "acronym": "DOD",
+        "context": "Under Secretary of Defense for Research and Engineering",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Strategic Alliance for FLEX Emergency Response",
+        "acronym": "SAFER",
+        "context": "Strategic Alliance for FLEX Emergency Response locations in Memphis, Tennessee and Phoenix, Arizona",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Emergency Management Assistance Compact",
+        "acronym": "EMAC",
+        "context": "how the Emergency Management Assistance Compact...can be utilized to allow States to allocate their unused microreactors",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Oversight and Accountability",
+        "acronym": null,
+        "context": "Committee on Oversight and Accountability of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "Committee on Energy and Natural Resources of the Senate",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Environment and Public Works",
+        "acronym": null,
+        "context": "Committee on Environment and Public Works of the Senate",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "556"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Nuclear Energy",
+        "parent_org": "Department of Energy",
+        "context": "Assistant Secretary of the Office of Nuclear Energy of the Department of Energy",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Office of Reactor Fleet and Advanced Reactor Deployment",
+        "parent_org": "Department of Energy",
+        "context": "Deputy Assistant Secretary for the Office of Reactor Fleet and Advanced Reactor Deployment",
+        "mentions": 1,
+        "first_seen": "556"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Speaker",
+        "org": "House of Representatives",
+        "context": "to be subsequently determined by the Speaker",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Administrator",
+        "org": "Federal Emergency Management Agency",
+        "context": "Administrator of the Federal Emergency Management Agency",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Chief of the National Guard Bureau",
+        "org": "National Guard Bureau",
+        "context": "Chief of the National Guard Bureau",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Chief of Engineers",
+        "org": "Army Corps of Engineers",
+        "context": "Chief of Engineers of the Army Corps of Engineers",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Assistant Secretary of the Office of Nuclear Energy",
+        "org": "Department of Energy",
+        "context": "Assistant Secretary of the Office of Nuclear Energy of the Department of Energy",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Under Secretary of Defense for Research and Engineering",
+        "org": "Department of Defense",
+        "context": "Under Secretary of Defense for Research and Engineering",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Chairman",
+        "org": "Nuclear Regulatory Commission",
+        "context": "Chairman of the Nuclear Regulatory Commission",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "title": "Deputy Assistant Secretary for the Office of Reactor Fleet and Advanced Reactor Deployment",
+        "org": "Department of Energy",
+        "context": "Deputy Assistant Secretary for the Office of Reactor Fleet and Advanced Reactor Deployment of the Department of Energy",
+        "mentions": 1,
+        "first_seen": "556"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "H. R. 1009",
+        "citation": "H. R. 1009",
+        "ref_type": "enacts",
+        "context": "H. R. 1009 - National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act",
+        "citation": "H. R. 1009",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"National Strategy to Utilize Microreactors for Natural Disaster Response Efforts Act\".",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Robert T. Stafford Disaster Relief and Emergency Assistance Act",
+        "citation": "42 U.S.C. 5121 et seq.",
+        "ref_type": "cites",
+        "context": "existing law that can be used to ease the burden of utilizing microreactors",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 15801 et seq.",
+        "ref_type": "cites",
+        "context": "existing law that can be used to ease the burden of utilizing microreactors",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Atomic Energy Act of 1954",
+        "citation": "42 U.S.C. 2011 et seq.",
+        "ref_type": "cites",
+        "context": "existing law that can be used to ease the burden of utilizing microreactors",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Nuclear Energy Innovation and Modernization Act",
+        "citation": "42 U.S.C. 2215 note",
+        "ref_type": "cites",
+        "context": "existing law that can be used to ease the burden of utilizing microreactors",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "Joint resolution granting the consent of Congress to the Emergency Management Assistance Compact",
+        "citation": "Public Law 104\u2013321",
+        "ref_type": "cites",
+        "context": "Joint resolution entitled \"Joint resolution granting the consent of Congress to the Emergency Management Assistance Compact\" (Public Law 104\u2013321)",
+        "mentions": 1,
+        "first_seen": "556"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "National Strategy for Utilizing Microreactors",
+        "doc_type": "strategy",
+        "owner_org": "President",
+        "context": "require the President develop a national strategy for utilizing microreactors",
+        "mentions": 1,
+        "first_seen": "556"
+      },
+      {
+        "name": "national strategy to utilize microreactors to assist with natural disaster response efforts",
+        "doc_type": "strategy",
+        "owner_org": "President",
+        "context": "President shall develop a national strategy to utilize microreactors to assist with natural disaster response efforts",
+        "mentions": 1,
+        "first_seen": "556"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "556",
+      "note": "Document text consists entirely of subsections (9)\u2013(16) detailing specific assessment and recommendation requirements within the national strategy. No introductory language, entity actions, or structural narrative present. This appears to be an excerpt from a larger legislative section rather than a complete standalone document."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "556",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:h_r_1009": 0.6,
+    "legislation:national_strategy_to_utilize_microreactors_for_natural_disaster_response_efforts_act": 0.6,
+    "legislation:robert_t_stafford_disaster_relief_and_emergency_assistance_act": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "legislation:atomic_energy_act_of_1954": 0.6,
+    "legislation:nuclear_energy_innovation_and_modernization_act": 0.6,
+    "legislation:joint_resolution_granting_the_consent_of_congress_to_the_emergency_management_assistance_compact": 0.6,
+    "office:office_of_nuclear_energy": 0.6,
+    "office:office_of_reactor_fleet_and_advanced_reactor_deployment": 0.6,
+    "role:speaker": 0.39999999999999997,
+    "role:administrator": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:chief_of_the_national_guard_bureau": 0.6,
+    "role:chief_of_engineers": 0.6,
+    "role:assistant_secretary_of_the_office_of_nuclear_energy": 0.6,
+    "role:under_secretary_of_defense_for_research_and_engineering": 0.6,
+    "role:chairman": 0.6,
+    "role:deputy_assistant_secretary_for_the_office_of_reactor_fleet_and_advanced_reactor_deployment": 0.6,
+    "named_doc:national_strategy_for_utilizing_microreactors": 0.6,
+    "named_doc:national_strategy_to_utilize_microreactors_to_assist_with_natural_disaster_response_efforts": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:committee_on_transportation_and_infrastructure": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_armed_services": 0.6,
+    "org:nuclear_regulatory_commission": 0.6,
+    "org:federal_emergency_management_agency": 1.0,
+    "org:department_of_energy": 0.6,
+    "org:national_guard_bureau": 0.6,
+    "org:army_corps_of_engineers": 0.6,
+    "org:department_of_defense": 1.0,
+    "org:strategic_alliance_for_flex_emergency_response": 0.6,
+    "org:emergency_management_assistance_compact": 0.6,
+    "org:committee_on_oversight_and_accountability": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:committee_on_environment_and_public_works": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6
+  }
+}

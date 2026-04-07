@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="int"/>
+<key id="d0" for="node" attr.name="group" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Convening">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Detrimental content">
+  <data key="d0">Harms</data>
+</node>
+<node id="Discrimination">
+  <data key="d0">Harms</data>
+</node>
+<node id="Ecological harm">
+  <data key="d0">Harms</data>
+</node>
+<node id="Financial loss">
+  <data key="d0">Harms</data>
+</node>
+<node id="Harm to health/safety">
+  <data key="d0">Harms</data>
+</node>
+<node id="Harm to infrastructure">
+  <data key="d0">Harms</data>
+</node>
+<node id="Harm to property">
+  <data key="d0">Harms</data>
+</node>
+<node id="Violation of civil or human rights, including privacy">
+  <data key="d0">Harms</data>
+</node>
+<node id="Disclosure">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Disclosure: About evaluation">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Disclosure: About incidents">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Disclosure: About inputs">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Disclosure: Accuracy thereof">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Disclosure: In deployment">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Disclosure: In standard form">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Evaluation">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Evaluation: Adversarial testing">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Evaluation: Conformity assessment">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Evaluation: External auditing">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Evaluation: Impact assessment">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Evaluation: Post-market monitoring">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Governance development">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Government study or report">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Government support">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Government support: AI workforce-related">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Government support: For R&amp;D">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Input controls">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Input controls: Compute use">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Input controls: Data circulation">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Input controls: Data use">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Licensing, registration, and certification">
+  <data key="d0">Strategies</data>
+</node>
+<node id="New institution">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Performance requirements">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Pilots and testbeds">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Tiering">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Tiering: Tiering based on domain of application">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Tiering: Tiering based on impact">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Tiering: Tiering based on inputs">
+  <data key="d0">Strategies</data>
+</node>
+<node id="Tiering: Tiering based on planning ability">
+  <data key="d0">Strategies</data>
+</node>
+<edge source="Convening" target="Detrimental content">
+  <data key="d1">7</data>
+</edge>
+<edge source="Convening" target="Discrimination">
+  <data key="d1">11</data>
+</edge>
+<edge source="Convening" target="Ecological harm">
+  <data key="d1">4</data>
+</edge>
+<edge source="Convening" target="Financial loss">
+  <data key="d1">7</data>
+</edge>
+<edge source="Convening" target="Harm to health/safety">
+  <data key="d1">12</data>
+</edge>
+<edge source="Convening" target="Harm to infrastructure">
+  <data key="d1">4</data>
+</edge>
+<edge source="Convening" target="Harm to property">
+  <data key="d1">3</data>
+</edge>
+<edge source="Convening" target="Violation of civil or human rights, including privacy">
+  <data key="d1">18</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure">
+  <data key="d1">11</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure: About evaluation">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure: About incidents">
+  <data key="d1">4</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure: About inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure: Accuracy thereof">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure: In deployment">
+  <data key="d1">8</data>
+</edge>
+<edge source="Detrimental content" target="Disclosure: In standard form">
+  <data key="d1">4</data>
+</edge>
+<edge source="Detrimental content" target="Evaluation">
+  <data key="d1">4</data>
+</edge>
+<edge source="Detrimental content" target="Evaluation: Conformity assessment">
+  <data key="d1">2</data>
+</edge>
+<edge source="Detrimental content" target="Evaluation: Impact assessment">
+  <data key="d1">3</data>
+</edge>
+<edge source="Detrimental content" target="Evaluation: Post-market monitoring">
+  <data key="d1">2</data>
+</edge>
+<edge source="Detrimental content" target="Governance development">
+  <data key="d1">15</data>
+</edge>
+<edge source="Detrimental content" target="Government study or report">
+  <data key="d1">15</data>
+</edge>
+<edge source="Detrimental content" target="Government support">
+  <data key="d1">6</data>
+</edge>
+<edge source="Detrimental content" target="Government support: AI workforce-related">
+  <data key="d1">3</data>
+</edge>
+<edge source="Detrimental content" target="Government support: For R&amp;D">
+  <data key="d1">3</data>
+</edge>
+<edge source="Detrimental content" target="Input controls">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Input controls: Data circulation">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Input controls: Data use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="Licensing, registration, and certification">
+  <data key="d1">1</data>
+</edge>
+<edge source="Detrimental content" target="New institution">
+  <data key="d1">4</data>
+</edge>
+<edge source="Detrimental content" target="Performance requirements">
+  <data key="d1">2</data>
+</edge>
+<edge source="Detrimental content" target="Pilots and testbeds">
+  <data key="d1">3</data>
+</edge>
+<edge source="Detrimental content" target="Tiering">
+  <data key="d1">4</data>
+</edge>
+<edge source="Detrimental content" target="Tiering: Tiering based on domain of application">
+  <data key="d1">2</data>
+</edge>
+<edge source="Detrimental content" target="Tiering: Tiering based on impact">
+  <data key="d1">2</data>
+</edge>
+<edge source="Detrimental content" target="Tiering: Tiering based on inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Discrimination" target="Disclosure">
+  <data key="d1">12</data>
+</edge>
+<edge source="Discrimination" target="Disclosure: About evaluation">
+  <data key="d1">9</data>
+</edge>
+<edge source="Discrimination" target="Disclosure: About incidents">
+  <data key="d1">3</data>
+</edge>
+<edge source="Discrimination" target="Disclosure: About inputs">
+  <data key="d1">9</data>
+</edge>
+<edge source="Discrimination" target="Disclosure: Accuracy thereof">
+  <data key="d1">1</data>
+</edge>
+<edge source="Discrimination" target="Disclosure: In deployment">
+  <data key="d1">7</data>
+</edge>
+<edge source="Discrimination" target="Disclosure: In standard form">
+  <data key="d1">8</data>
+</edge>
+<edge source="Discrimination" target="Evaluation">
+  <data key="d1">11</data>
+</edge>
+<edge source="Discrimination" target="Evaluation: Adversarial testing">
+  <data key="d1">2</data>
+</edge>
+<edge source="Discrimination" target="Evaluation: Conformity assessment">
+  <data key="d1">6</data>
+</edge>
+<edge source="Discrimination" target="Evaluation: External auditing">
+  <data key="d1">3</data>
+</edge>
+<edge source="Discrimination" target="Evaluation: Impact assessment">
+  <data key="d1">7</data>
+</edge>
+<edge source="Discrimination" target="Evaluation: Post-market monitoring">
+  <data key="d1">6</data>
+</edge>
+<edge source="Discrimination" target="Governance development">
+  <data key="d1">12</data>
+</edge>
+<edge source="Discrimination" target="Government study or report">
+  <data key="d1">15</data>
+</edge>
+<edge source="Discrimination" target="Government support">
+  <data key="d1">9</data>
+</edge>
+<edge source="Discrimination" target="Government support: AI workforce-related">
+  <data key="d1">4</data>
+</edge>
+<edge source="Discrimination" target="Government support: For R&amp;D">
+  <data key="d1">7</data>
+</edge>
+<edge source="Discrimination" target="Input controls">
+  <data key="d1">4</data>
+</edge>
+<edge source="Discrimination" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Discrimination" target="Input controls: Data circulation">
+  <data key="d1">4</data>
+</edge>
+<edge source="Discrimination" target="Input controls: Data use">
+  <data key="d1">4</data>
+</edge>
+<edge source="Discrimination" target="Licensing, registration, and certification">
+  <data key="d1">1</data>
+</edge>
+<edge source="Discrimination" target="New institution">
+  <data key="d1">9</data>
+</edge>
+<edge source="Discrimination" target="Performance requirements">
+  <data key="d1">8</data>
+</edge>
+<edge source="Discrimination" target="Pilots and testbeds">
+  <data key="d1">5</data>
+</edge>
+<edge source="Discrimination" target="Tiering">
+  <data key="d1">3</data>
+</edge>
+<edge source="Discrimination" target="Tiering: Tiering based on domain of application">
+  <data key="d1">2</data>
+</edge>
+<edge source="Discrimination" target="Tiering: Tiering based on impact">
+  <data key="d1">3</data>
+</edge>
+<edge source="Discrimination" target="Tiering: Tiering based on inputs">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Disclosure">
+  <data key="d1">4</data>
+</edge>
+<edge source="Ecological harm" target="Disclosure: About evaluation">
+  <data key="d1">4</data>
+</edge>
+<edge source="Ecological harm" target="Disclosure: About incidents">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Disclosure: About inputs">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Disclosure: In deployment">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Disclosure: In standard form">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Evaluation">
+  <data key="d1">5</data>
+</edge>
+<edge source="Ecological harm" target="Evaluation: Conformity assessment">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Evaluation: Impact assessment">
+  <data key="d1">5</data>
+</edge>
+<edge source="Ecological harm" target="Evaluation: Post-market monitoring">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Governance development">
+  <data key="d1">3</data>
+</edge>
+<edge source="Ecological harm" target="Government study or report">
+  <data key="d1">6</data>
+</edge>
+<edge source="Ecological harm" target="Government support">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Government support: AI workforce-related">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Government support: For R&amp;D">
+  <data key="d1">3</data>
+</edge>
+<edge source="Ecological harm" target="Input controls">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Input controls: Data circulation">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Input controls: Data use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Licensing, registration, and certification">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="New institution">
+  <data key="d1">3</data>
+</edge>
+<edge source="Ecological harm" target="Performance requirements">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Pilots and testbeds">
+  <data key="d1">3</data>
+</edge>
+<edge source="Ecological harm" target="Tiering">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Tiering: Tiering based on domain of application">
+  <data key="d1">1</data>
+</edge>
+<edge source="Ecological harm" target="Tiering: Tiering based on impact">
+  <data key="d1">2</data>
+</edge>
+<edge source="Ecological harm" target="Tiering: Tiering based on inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Financial loss" target="Disclosure">
+  <data key="d1">10</data>
+</edge>
+<edge source="Financial loss" target="Disclosure: About evaluation">
+  <data key="d1">5</data>
+</edge>
+<edge source="Financial loss" target="Disclosure: About incidents">
+  <data key="d1">3</data>
+</edge>
+<edge source="Financial loss" target="Disclosure: About inputs">
+  <data key="d1">4</data>
+</edge>
+<edge source="Financial loss" target="Disclosure: Accuracy thereof">
+  <data key="d1">1</data>
+</edge>
+<edge source="Financial loss" target="Disclosure: In deployment">
+  <data key="d1">5</data>
+</edge>
+<edge source="Financial loss" target="Disclosure: In standard form">
+  <data key="d1">4</data>
+</edge>
+<edge source="Financial loss" target="Evaluation">
+  <data key="d1">10</data>
+</edge>
+<edge source="Financial loss" target="Evaluation: Adversarial testing">
+  <data key="d1">1</data>
+</edge>
+<edge source="Financial loss" target="Evaluation: Conformity assessment">
+  <data key="d1">4</data>
+</edge>
+<edge source="Financial loss" target="Evaluation: External auditing">
+  <data key="d1">1</data>
+</edge>
+<edge source="Financial loss" target="Evaluation: Impact assessment">
+  <data key="d1">6</data>
+</edge>
+<edge source="Financial loss" target="Evaluation: Post-market monitoring">
+  <data key="d1">4</data>
+</edge>
+<edge source="Financial loss" target="Governance development">
+  <data key="d1">11</data>
+</edge>
+<edge source="Financial loss" target="Government study or report">
+  <data key="d1">15</data>
+</edge>
+<edge source="Financial loss" target="Government support">
+  <data key="d1">6</data>
+</edge>
+<edge source="Financial loss" target="Government support: AI workforce-related">
+  <data key="d1">2</data>
+</edge>
+<edge source="Financial loss" target="Government support: For R&amp;D">
+  <data key="d1">2</data>
+</edge>
+<edge source="Financial loss" target="Input controls">
+  <data key="d1">2</data>
+</edge>
+<edge source="Financial loss" target="Input controls: Data circulation">
+  <data key="d1">2</data>
+</edge>
+<edge source="Financial loss" target="Input controls: Data use">
+  <data key="d1">2</data>
+</edge>
+<edge source="Financial loss" target="New institution">
+  <data key="d1">5</data>
+</edge>
+<edge source="Financial loss" target="Performance requirements">
+  <data key="d1">5</data>
+</edge>
+<edge source="Financial loss" target="Pilots and testbeds">
+  <data key="d1">2</data>
+</edge>
+<edge source="Financial loss" target="Tiering">
+  <data key="d1">3</data>
+</edge>
+<edge source="Financial loss" target="Tiering: Tiering based on domain of application">
+  <data key="d1">1</data>
+</edge>
+<edge source="Financial loss" target="Tiering: Tiering based on impact">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Disclosure">
+  <data key="d1">12</data>
+</edge>
+<edge source="Harm to health/safety" target="Disclosure: About evaluation">
+  <data key="d1">6</data>
+</edge>
+<edge source="Harm to health/safety" target="Disclosure: About incidents">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Disclosure: About inputs">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to health/safety" target="Disclosure: In deployment">
+  <data key="d1">6</data>
+</edge>
+<edge source="Harm to health/safety" target="Disclosure: In standard form">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to health/safety" target="Evaluation">
+  <data key="d1">15</data>
+</edge>
+<edge source="Harm to health/safety" target="Evaluation: Adversarial testing">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to health/safety" target="Evaluation: Conformity assessment">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Evaluation: Impact assessment">
+  <data key="d1">9</data>
+</edge>
+<edge source="Harm to health/safety" target="Evaluation: Post-market monitoring">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to health/safety" target="Governance development">
+  <data key="d1">10</data>
+</edge>
+<edge source="Harm to health/safety" target="Government study or report">
+  <data key="d1">22</data>
+</edge>
+<edge source="Harm to health/safety" target="Government support">
+  <data key="d1">6</data>
+</edge>
+<edge source="Harm to health/safety" target="Government support: AI workforce-related">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Government support: For R&amp;D">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to health/safety" target="Input controls">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to health/safety" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to health/safety" target="Input controls: Data circulation">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Input controls: Data use">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Licensing, registration, and certification">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to health/safety" target="New institution">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to health/safety" target="Performance requirements">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to health/safety" target="Pilots and testbeds">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to health/safety" target="Tiering">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Tiering: Tiering based on domain of application">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to health/safety" target="Tiering: Tiering based on impact">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to health/safety" target="Tiering: Tiering based on inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Disclosure">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Disclosure: About evaluation">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to infrastructure" target="Disclosure: About incidents">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to infrastructure" target="Disclosure: About inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Disclosure: In deployment">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Disclosure: In standard form">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Evaluation">
+  <data key="d1">9</data>
+</edge>
+<edge source="Harm to infrastructure" target="Evaluation: Conformity assessment">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Evaluation: Impact assessment">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to infrastructure" target="Evaluation: Post-market monitoring">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to infrastructure" target="Governance development">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to infrastructure" target="Government study or report">
+  <data key="d1">10</data>
+</edge>
+<edge source="Harm to infrastructure" target="Government support">
+  <data key="d1">5</data>
+</edge>
+<edge source="Harm to infrastructure" target="Government support: AI workforce-related">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to infrastructure" target="Government support: For R&amp;D">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to infrastructure" target="Input controls">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Input controls: Data circulation">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Input controls: Data use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Licensing, registration, and certification">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="New institution">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to infrastructure" target="Performance requirements">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Pilots and testbeds">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to infrastructure" target="Tiering">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to infrastructure" target="Tiering: Tiering based on domain of application">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to infrastructure" target="Tiering: Tiering based on impact">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to infrastructure" target="Tiering: Tiering based on inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Disclosure">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to property" target="Disclosure: About evaluation">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to property" target="Disclosure: About incidents">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Disclosure: About inputs">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Disclosure: In deployment">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Disclosure: In standard form">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Evaluation">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to property" target="Evaluation: Conformity assessment">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Evaluation: Impact assessment">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to property" target="Evaluation: Post-market monitoring">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Governance development">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to property" target="Government study or report">
+  <data key="d1">4</data>
+</edge>
+<edge source="Harm to property" target="Government support">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Government support: AI workforce-related">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Government support: For R&amp;D">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Input controls">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Input controls: Data circulation">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Input controls: Data use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Licensing, registration, and certification">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="New institution">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Performance requirements">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Pilots and testbeds">
+  <data key="d1">3</data>
+</edge>
+<edge source="Harm to property" target="Tiering">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Tiering: Tiering based on domain of application">
+  <data key="d1">1</data>
+</edge>
+<edge source="Harm to property" target="Tiering: Tiering based on impact">
+  <data key="d1">2</data>
+</edge>
+<edge source="Harm to property" target="Tiering: Tiering based on inputs">
+  <data key="d1">1</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure">
+  <data key="d1">22</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure: About evaluation">
+  <data key="d1">10</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure: About incidents">
+  <data key="d1">7</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure: About inputs">
+  <data key="d1">8</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure: Accuracy thereof">
+  <data key="d1">2</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure: In deployment">
+  <data key="d1">13</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Disclosure: In standard form">
+  <data key="d1">11</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Evaluation">
+  <data key="d1">19</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Evaluation: Adversarial testing">
+  <data key="d1">4</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Evaluation: Conformity assessment">
+  <data key="d1">8</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Evaluation: External auditing">
+  <data key="d1">3</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Evaluation: Impact assessment">
+  <data key="d1">13</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Evaluation: Post-market monitoring">
+  <data key="d1">10</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Governance development">
+  <data key="d1">27</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Government study or report">
+  <data key="d1">31</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Government support">
+  <data key="d1">15</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Government support: AI workforce-related">
+  <data key="d1">7</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Government support: For R&amp;D">
+  <data key="d1">12</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Input controls">
+  <data key="d1">3</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Input controls: Compute use">
+  <data key="d1">1</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Input controls: Data circulation">
+  <data key="d1">3</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Input controls: Data use">
+  <data key="d1">3</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Licensing, registration, and certification">
+  <data key="d1">1</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="New institution">
+  <data key="d1">14</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Performance requirements">
+  <data key="d1">8</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Pilots and testbeds">
+  <data key="d1">5</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Tiering">
+  <data key="d1">6</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Tiering: Tiering based on domain of application">
+  <data key="d1">3</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Tiering: Tiering based on impact">
+  <data key="d1">4</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Tiering: Tiering based on inputs">
+  <data key="d1">2</data>
+</edge>
+<edge source="Violation of civil or human rights, including privacy" target="Tiering: Tiering based on planning ability">
+  <data key="d1">1</data>
+</edge>
+</graph></graphml>

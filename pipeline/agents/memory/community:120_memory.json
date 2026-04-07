@@ -1,0 +1,264 @@
+{
+  "community_id": "community:120",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Medicare Advantage",
+        "acronym": "MA",
+        "context": "prior authorization requirements under Medicare Advantage plans",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Centers for Medicare & Medicaid Services",
+        "acronym": "CMS",
+        "context": "public website of the Centers for Medicare & Medicaid Services",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Medicare Payment Advisory Commission",
+        "acronym": "MedPAC",
+        "context": "the Medicare Payment Advisory Commission shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "Comptroller General of the United States shall submit to Congress",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Medicare Advantage Organizations",
+        "acronym": "MAOs",
+        "context": "organization determination made with respect to a prior authorization request",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Medicaid Managed Care Plans",
+        "acronym": null,
+        "context": "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Children's Health Insurance Program",
+        "acronym": "CHIP",
+        "context": "CHIP Agencies and CHIP Managed Care Entities",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Merit-Based Incentive Payment System",
+        "acronym": "MIPS",
+        "context": "MIPS Eligible Clinicians",
+        "mentions": 1,
+        "first_seen": "830"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Federally Facilitated Exchanges",
+        "parent_org": null,
+        "context": "Issuers of Qualified Health Plans on the Federally Facilitated Exchanges",
+        "mentions": 1,
+        "first_seen": "830"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Health and Human Services",
+        "context": "requirements described in clause (ii)(II) finalized by the Secretary",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "Comptroller General of the United States shall submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "830"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Health Care Price Transparency Act of 2023",
+        "citation": "2023",
+        "ref_type": "enacts",
+        "context": "SEC. 301 establishing requirements with respect to prior authorization",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Social Security Act",
+        "citation": "42 U.S.C. 1395w\u201322",
+        "ref_type": "amends",
+        "context": "Section 1852 of the Social Security Act (42 U.S.C. 1395w\u201322) is amended",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "section 1173",
+        "citation": "section 1173",
+        "ref_type": "cites",
+        "context": "technical standards adopted by the Secretary pursuant to section 1173",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "section 1853(b)(1)(B)(i)",
+        "citation": "section 1853(b)(1)(B)(i)",
+        "ref_type": "cites",
+        "context": "initial announcement described in section 1853(b)(1)(B)(i)",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Social Security Act, section 1852(g)",
+        "citation": "42 U.S.C. 1395w\u201322(g)",
+        "ref_type": "amends",
+        "context": "Section 1852(g) of the Social Security Act (42 U.S.C. 1395w\u201322(g)) is amended",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Improving Seniors' Timely Access to Care Act of 2023",
+        "citation": null,
+        "ref_type": "other",
+        "context": "first day of the third plan year beginning after the date of the enactment of the [Improving Seniors' Timely Access to Care Act of 2023]",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Patient Protection and Affordable Care Act",
+        "citation": null,
+        "ref_type": "other",
+        "context": "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Advancing Interoperability",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Medicare Promoting Interoperability Program",
+        "citation": null,
+        "ref_type": "other",
+        "context": "Eligible Hospitals and Critical Access Hospitals in the Medicare Promoting Interoperability Program",
+        "mentions": 1,
+        "first_seen": "830"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "electronic prior authorization programs",
+        "doc_type": "program",
+        "owner_org": "Medicare Advantage",
+        "context": "electronic prior authorization programs for Medicare Advantage plans",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "reports to Congress",
+        "doc_type": "report",
+        "owner_org": "Department of Health and Human Services",
+        "context": "reports to Congress evaluating implementation and challenges",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "electronic prior authorization program",
+        "doc_type": "program",
+        "owner_org": "Medicare Advantage",
+        "context": "establish the electronic prior authorization program described in paragraph (2)",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "MedPAC Report on Prior Authorization",
+        "doc_type": "report",
+        "owner_org": "Medicare Payment Advisory Commission",
+        "context": "Medicare Payment Advisory Commission shall submit to Congress a report on such information",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "GAO Report on Prior Authorization Implementation",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "Comptroller General shall submit to Congress a report containing an evaluation of the implementation",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "HHS Report on Prior Authorization Information",
+        "doc_type": "report",
+        "owner_org": "Department of Health and Human Services",
+        "context": "Secretary shall submit to Congress a report containing a description of the information submitted",
+        "mentions": 1,
+        "first_seen": "830"
+      },
+      {
+        "name": "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Advancing Interoperability and Improving Prior Authorization Processes for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children's Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities, Issuers of Qualified Health Plans on the Federally Facilitated Exchanges, Merit-Based Incentive Payment System (MIPS) Eligible Clinicians, and Eligible Hospitals and Critical Access Hospitals in the Medicare Promoting Interoperability Program",
+        "doc_type": "other",
+        "owner_org": null,
+        "context": "proposed rule published on December 13, 2022 (87 Fed. Reg. 76238)",
+        "mentions": 1,
+        "first_seen": "830"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of the Department of Health and Human Services (inferred from context of Medicare Advantage regulation authority)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "830",
+      "note": "Section references subsection (o) multiple times but subsection (o) is not defined in this excerpt, suggesting it appears elsewhere in the full legislative text."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "830",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of the Department of Health and Human Services (inferred from context of Medicare Advantage regulation authority)",
+      "doc_id": "830",
+      "community_id": "community:120"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:health_care_price_transparency_act_of_2023": 0.6,
+    "legislation:social_security_act": 0.6,
+    "legislation:section_1173": 0.6,
+    "legislation:section_1853_b_1_b_i": 0.6,
+    "legislation:social_security_act_section_1852_g": 0.6,
+    "legislation:improving_seniors_timely_access_to_care_act_of_2023": 0.6,
+    "legislation:patient_protection_and_affordable_care_act": 0.6,
+    "legislation:medicare_promoting_interoperability_program": 0.6,
+    "office:federally_facilitated_exchanges": 0.6,
+    "role:secretary": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "named_doc:electronic_prior_authorization_programs": 0.6,
+    "named_doc:reports_to_congress": 0.6,
+    "named_doc:electronic_prior_authorization_program": 0.6,
+    "named_doc:medpac_report_on_prior_authorization": 0.6,
+    "named_doc:gao_report_on_prior_authorization_implementation": 0.6,
+    "named_doc:hhs_report_on_prior_authorization_information": 0.6,
+    "named_doc:medicare_and_medicaid_programs_patient_protection_and_affordable_care_act_advancing_interoperability_and_improving_prior_authorization_processes_for_medicare_advantage_organizations_medicaid_managed_care_plans_state_medicaid_agencies_children_s_health_insurance_program_chip_agencies_and_chip_managed_care_entities_issuers_of_qualified_health_plans_on_the_federally_facilitated_exchanges_merit_based_incentive_payment_system_mips_eligible_clinicians_and_eligible_hospitals_and_critical_access_hospitals_in_the_medicare_promoting_interoperability_program": 0.6,
+    "org:medicare_advantage": 0.6,
+    "org:centers_for_medicare_medicaid_services": 0.6,
+    "org:medicare_payment_advisory_commission": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:medicare_advantage_organizations": 0.6,
+    "org:medicaid_managed_care_plans": 0.6,
+    "org:children_s_health_insurance_program": 0.6,
+    "org:merit_based_incentive_payment_system": 0.6
+  }
+}

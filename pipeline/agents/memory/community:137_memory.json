@@ -1,0 +1,85 @@
+{
+  "community_id": "community:137",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Telecommunications and Information Administration",
+        "acronym": "NTIA",
+        "context": "National Telecommunications and Information Administration Organization Act",
+        "mentions": 1,
+        "first_seen": "822"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "in coordination with the Commission and in consultation with other relevant Federal agencies",
+        "mentions": 1,
+        "first_seen": "822"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Under Secretary",
+        "parent_org": "National Telecommunications and Information Administration",
+        "context": "the Under Secretary, in coordination with the Commission",
+        "mentions": 1,
+        "first_seen": "822"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Under Secretary",
+        "org": "National Telecommunications and Information Administration",
+        "context": "the Under Secretary, in coordination with the Commission and in consultation with other relevant Federal agencies, shall develop, establish, prototype, and support",
+        "mentions": 1,
+        "first_seen": "822"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "NTIA Reauthorization Act of 2023",
+        "citation": "2023",
+        "ref_type": "enacts",
+        "context": "SEC. 203. SPECTRUM MANAGEMENT IMPROVEMENTS",
+        "mentions": 1,
+        "first_seen": "822"
+      },
+      {
+        "name": "National Telecommunications and Information Administration Organization Act",
+        "citation": "47 U.S.C. 902(b)(2); 47 U.S.C. 903",
+        "ref_type": "cites",
+        "context": "section 103(b)(2) of the National Telecommunications and Information Administration Organization Act; Section 104 of the National Telecommunications and Information Administration Organization Act",
+        "mentions": 1,
+        "first_seen": "822"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "the commission": "Federal Communications Commission (FCC) - referenced as coordinating entity in spectrum management context"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "822",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Commission",
+      "resolved": "Federal Communications Commission (FCC) - referenced as coordinating entity in spectrum management context",
+      "doc_id": "822",
+      "community_id": "community:137"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:ntia_reauthorization_act_of_2023": 0.6,
+    "legislation:national_telecommunications_and_information_administration_organization_act": 0.6,
+    "office:office_of_the_under_secretary": 0.6,
+    "role:under_secretary": 0.6,
+    "org:national_telecommunications_and_information_administration": 0.6,
+    "org:federal_communications_commission": 0.6
+  }
+}

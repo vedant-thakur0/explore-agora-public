@@ -1,0 +1,421 @@
+{
+  "community_id": "community:240",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Center for Quality Improvement and Patient Safety",
+        "acronym": null,
+        "context": "research, implementation, and dissemination activities described in section 933",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Agency for Healthcare Research and Quality",
+        "acronym": "AHRQ",
+        "context": "Section 902(b)(1) of the Public Health Service Act amended for diagnostic safety and quality programs",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Centers for Medicare & Medicaid Services",
+        "acronym": "CMS",
+        "context": "Administrator of the Centers for Medicare & Medicaid Services",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Library of Medicine",
+        "acronym": "NLM",
+        "context": "Director of the National Library of Medicine",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC",
+        "context": "Council member designee from Centers for Disease Control and Prevention",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Department of Veterans Affairs",
+        "acronym": "VA",
+        "context": "Council member designee from Department of Veterans Affairs",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Food and Drug Administration",
+        "acronym": "FDA",
+        "context": "Center for Devices and Radiological Health of the Food and Drug Administration",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Cancer Institute",
+        "acronym": "NCI",
+        "context": "Designee from National Cancer Institute within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Center for Advancing Translational Sciences",
+        "acronym": "NCATS",
+        "context": "Designee from National Center for Advancing Translational Sciences within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Institute of Allergy and Infectious Diseases",
+        "acronym": "NIAID",
+        "context": "Designee from National Institute of Allergy and Infectious Diseases within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Heart, Lung, and Blood Institute",
+        "acronym": "NHLBI",
+        "context": "Designee from National Heart, Lung, and Blood Institute within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Institute of Neurological Disorders and Stroke",
+        "acronym": "NINDS",
+        "context": "Designee from National Institute of Neurological Disorders and Stroke within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Institute on Minority Health and Health Disparities",
+        "acronym": "NIMHD",
+        "context": "Designee from National Institute on Minority Health and Health Disparities within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Institute of Nursing Research",
+        "acronym": "NINR",
+        "context": "Designee from National Institute of Nursing Research within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+        "acronym": "NICHD",
+        "context": "Designee from Eunice Kennedy Shriver National Institute of Child Health and Human Development within NIH",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Congressionally Directed Medical Research Program",
+        "acronym": "CDMRP",
+        "context": "Council member designee from Congressionally Directed Medical Research Program of DoD",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "National Academies of Sciences, Engineering, and Medicine",
+        "acronym": "National Academies",
+        "context": "conduct a study and issues a report on disparities in diagnostic safety and quality",
+        "mentions": 1,
+        "first_seen": "1680"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Chief AI Officer",
+        "parent_org": "Department of Health and Human Services",
+        "context": "expert panel consultation for data needs, involving the Chief AI Officer",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Office of the Chief Data Officer",
+        "parent_org": "Department of Health and Human Services",
+        "context": "Chief Data Officer of the Department of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Office of the Chief Artificial Intelligence Officer",
+        "parent_org": "Department of Health and Human Services",
+        "context": "Chief Artificial Intelligence Officer of the Department of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Office of the Secretary",
+        "parent_org": "Department of Health and Human Services",
+        "context": "Interagency council established within the Office of the Secretary",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Center for Devices and Radiological Health",
+        "parent_org": "Food and Drug Administration",
+        "context": "Council member designee from Center for Devices and Radiological Health of FDA",
+        "mentions": 1,
+        "first_seen": "1680"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Chief AI Officer",
+        "org": "Department of Health and Human Services",
+        "context": "expert panel consultation for data needs, involving the Chief AI Officer",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Health and Human Services",
+        "context": "The Secretary, in coordination with the Director, the Administrator",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Administrator",
+        "org": "Centers for Medicare & Medicaid Services",
+        "context": "Administrator of the Centers for Medicare & Medicaid Services",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "National Coordinator for Health Information Technology",
+        "org": "Department of Health and Human Services",
+        "context": "National Coordinator for Health Information Technology",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Chief Data Officer",
+        "org": "Department of Health and Human Services",
+        "context": "Chief Data Officer of the Department of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Chief Artificial Intelligence Officer",
+        "org": "Department of Health and Human Services",
+        "context": "Chief Artificial Intelligence Officer of the Department of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "Secretary of Health and Human Services shall establish interagency council",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Director of the Agency for Healthcare Research and Quality",
+        "org": "Agency for Healthcare Research and Quality",
+        "context": "Director shall be the Chairperson of the Council",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Director of the National Institutes of Health",
+        "org": "National Institutes of Health",
+        "context": "Director determines appropriate national institutes for designees",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "title": "Chairperson of the Council",
+        "org": "Interagency Council on Improving Diagnosis in Health Care",
+        "context": "Chairperson determines appropriate additional designees from Federal departments",
+        "mentions": 1,
+        "first_seen": "1680"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Improving Diagnosis in Medicine Act of 2024",
+        "citation": "H.R./S. [number not specified in excerpt]",
+        "ref_type": "enacts",
+        "context": "A BILL To improve the quality, appropriateness, and effectiveness of diagnosis",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Public Health Service Act",
+        "citation": "42 U.S.C. 299b et seq.",
+        "ref_type": "amends",
+        "context": "Part B of title IX of the Public Health Service Act is amended by adding at the end",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "section 933",
+        "citation": "section 933",
+        "ref_type": "cites",
+        "context": "consistent with the research, implementation, and dissemination activities of the Center for Quality Improvement and Patient Safety, as described in section 933",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "section 911(b)",
+        "citation": "section 911(b)",
+        "ref_type": "cites",
+        "context": "Consistent with section 911(b), the health care improvement research centers",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "section 902(c)",
+        "citation": "section 902(c)",
+        "ref_type": "cites",
+        "context": "pursuant to section 902(c)",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Ruth Kirschstein awards",
+        "citation": "Section 487(a)",
+        "ref_type": "other",
+        "context": "Program amended to include diagnostic safety and quality research as part of biomedical and behavioral research",
+        "mentions": 1,
+        "first_seen": "1680"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "diagnostic safety and quality research program",
+        "doc_type": "program",
+        "owner_org": "Department of Health and Human Services",
+        "context": "Establishes a research program to improve diagnostic safety and quality",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "interagency council",
+        "doc_type": "initiative",
+        "owner_org": "Department of Health and Human Services",
+        "context": "Forms an interagency council to enhance research, policy, and collaboration",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Research program to improve diagnostic safety and quality",
+        "doc_type": "program",
+        "owner_org": "National Institutes of Health",
+        "context": "SEC. 918. Research program to improve diagnostic safety and quality",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Research Centers of Diagnostic Excellence",
+        "doc_type": "initiative",
+        "owner_org": "National Institutes of Health",
+        "context": "link research directly with clinical practice in geographically diverse locations throughout the United States",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Interagency Council on Improving Diagnosis in Health Care",
+        "doc_type": "initiative",
+        "owner_org": "Department of Health and Human Services",
+        "context": "Interagency council to be known as the Interagency Council on Improving Diagnosis in Health Care",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "Strategic Federal Plan to Improve Diagnosis",
+        "doc_type": "plan",
+        "owner_org": "Interagency Council on Improving Diagnosis in Health Care",
+        "context": "Council shall develop strategic plan to be known as the Strategic Federal Plan to Improve Diagnosis",
+        "mentions": 1,
+        "first_seen": "1680"
+      },
+      {
+        "name": "study and report on disparities in diagnostic safety and quality",
+        "doc_type": "report",
+        "owner_org": "National Academies of Sciences, Engineering, and Medicine",
+        "context": "identifies what is known about burden and causes of disparities; includes recommendations for policymakers, researchers, clinicians, and stakeholders",
+        "mentions": 1,
+        "first_seen": "1680"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "chief ai officer": "Identified as a role within Department of Health and Human Services based on summary context mentioning expert panel consultation for data needs",
+    "director": "Identified as Director of Agency for Healthcare Research and Quality based on coordination listing pattern and context of diagnostic safety research authority"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1680",
+      "note": "Document excerpt contains only enacting clause and title; substantive legislative text not provided in excerpt. Summary contains specific operational details (Chief AI Officer involvement, interagency council formation) not present in the provided text section."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1680",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Chief AI Officer",
+      "resolved": "Identified as a role within Department of Health and Human Services based on summary context mentioning expert panel consultation for data needs",
+      "doc_id": "1680",
+      "community_id": "community:240"
+    },
+    {
+      "phrase": "Director",
+      "resolved": "Identified as Director of Agency for Healthcare Research and Quality based on coordination listing pattern and context of diagnostic safety research authority",
+      "doc_id": "1680",
+      "community_id": "community:240"
+    }
+  ],
+  "entity_confidence": {
+    "org:center_for_quality_improvement_and_patient_safety": 0.6,
+    "org:agency_for_healthcare_research_and_quality": 0.6,
+    "org:centers_for_medicare_medicaid_services": 0.6,
+    "org:national_library_of_medicine": 0.6,
+    "org:centers_for_disease_control_and_prevention": 0.6,
+    "org:department_of_veterans_affairs": 0.6,
+    "org:food_and_drug_administration": 0.6,
+    "org:national_cancer_institute": 0.6,
+    "org:national_center_for_advancing_translational_sciences": 0.6,
+    "org:national_institute_of_allergy_and_infectious_diseases": 0.6,
+    "org:national_heart_lung_and_blood_institute": 0.6,
+    "org:national_institute_of_neurological_disorders_and_stroke": 0.6,
+    "org:national_institute_on_minority_health_and_health_disparities": 0.6,
+    "org:national_institute_of_nursing_research": 0.6,
+    "org:eunice_kennedy_shriver_national_institute_of_child_health_and_human_development": 0.6,
+    "org:congressionally_directed_medical_research_program": 0.6,
+    "org:national_academies_of_sciences_engineering_and_medicine": 0.6,
+    "legislation:improving_diagnosis_in_medicine_act_of_2024": 0.6,
+    "legislation:public_health_service_act": 0.6,
+    "legislation:section_933": 0.6,
+    "legislation:section_911_b": 0.6,
+    "legislation:section_902_c": 0.6,
+    "legislation:ruth_kirschstein_awards": 0.6,
+    "office:office_of_the_chief_ai_officer": 0.6,
+    "office:office_of_the_chief_data_officer": 0.6,
+    "office:office_of_the_chief_artificial_intelligence_officer": 0.6,
+    "office:office_of_the_secretary": 0.6,
+    "office:center_for_devices_and_radiological_health": 0.6,
+    "named_doc:diagnostic_safety_and_quality_research_program": 0.6,
+    "named_doc:interagency_council": 0.6,
+    "named_doc:research_program_to_improve_diagnostic_safety_and_quality": 0.6,
+    "named_doc:research_centers_of_diagnostic_excellence": 0.6,
+    "named_doc:interagency_council_on_improving_diagnosis_in_health_care": 0.6,
+    "named_doc:strategic_federal_plan_to_improve_diagnosis": 0.6,
+    "named_doc:study_and_report_on_disparities_in_diagnostic_safety_and_quality": 0.6,
+    "role:chief_ai_officer": 0.6,
+    "role:secretary": 0.6,
+    "role:administrator": 0.6,
+    "role:national_coordinator_for_health_information_technology": 0.6,
+    "role:chief_data_officer": 0.6,
+    "role:chief_artificial_intelligence_officer": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6,
+    "role:director_of_the_agency_for_healthcare_research_and_quality": 0.6,
+    "role:director_of_the_national_institutes_of_health": 0.6,
+    "role:chairperson_of_the_council": 0.6
+  }
+}

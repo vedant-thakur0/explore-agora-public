@@ -1,0 +1,246 @@
+{
+  "community_id": "community:129",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "task force within the Department of Commerce to oversee and promote diversity",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "referred to the Committee on Energy and Commerce",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Committee on Education and the Workforce",
+        "acronym": null,
+        "context": "in addition to the Committee on Education and the Workforce",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Department of Labor",
+        "acronym": null,
+        "context": "Chief Diversity and Equity Officer of the Department of Labor",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Communications Equity and Diversity Council",
+        "acronym": null,
+        "context": "Chair of the Communications Equity and Diversity Council of the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Minority Business Development Agency",
+        "acronym": null,
+        "context": "Under Secretary of Commerce for the Minority Business Development Agency",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Women's Bureau",
+        "acronym": null,
+        "context": "Director of the Women's Bureau of the Department of Labor",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Office of Policy and Strategic Planning",
+        "acronym": null,
+        "context": "within the Office of Policy and Strategic Planning",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "advise the Secretary of Labor, the Secretary of Commerce, and the Chair of the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "580"
+      }
+    ],
+    "offices": [
+      {
+        "name": "DEIA Task Force",
+        "parent_org": "Department of Commerce",
+        "context": "task force within the Department of Commerce to oversee and promote diversity, equity, inclusion, and accessibility",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Office of Policy and Strategic Planning",
+        "parent_org": "Department of Commerce",
+        "context": "within the Office of Policy and Strategic Planning",
+        "mentions": 1,
+        "first_seen": "580"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Speaker",
+        "org": "House of Representatives",
+        "context": "period to be subsequently determined by the Speaker",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary of Commerce shall establish",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Chief Diversity and Equity Officer",
+        "org": "Department of Labor",
+        "context": "Chief Diversity and Equity Officer of the Department of Labor",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Chair of the Communications Equity and Diversity Council",
+        "org": "Federal Trade Commission",
+        "context": "Chair of the Communications Equity and Diversity Council of the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Director of the Women's Bureau",
+        "org": "Department of Labor",
+        "context": "Director of the Women's Bureau of the Department of Labor",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Under Secretary of Commerce for the Minority Business Development Agency",
+        "org": "Department of Commerce",
+        "context": "Under Secretary of Commerce for the Minority Business Development Agency",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Chief Diversity, Equity, and Inclusion Officer",
+        "org": "Department of Commerce",
+        "context": "Chief Diversity, Equity, and Inclusion Officer of the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Secretary of Labor",
+        "org": "Department of Labor",
+        "context": "advise the Secretary of Labor, the Secretary of Commerce, and the Chair of the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "title": "Chair of the Federal Trade Commission",
+        "org": "Federal Trade Commission",
+        "context": "advise the Secretary of Labor, the Secretary of Commerce, and the Chair of the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "580"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Diversify Tech Act",
+        "citation": "H.R. 7314",
+        "ref_type": "enacts",
+        "context": "H. R. 7314 To create a task force within the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "title 5, United States Code",
+        "citation": "5 U.S.C.",
+        "ref_type": "cites",
+        "context": "Notwithstanding section 1009(a)(1) of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "580"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force",
+        "doc_type": "initiative",
+        "owner_org": "Department of Commerce",
+        "context": "the Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Report on Layoffs in 2023",
+        "doc_type": "report",
+        "owner_org": "Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force",
+        "context": "submit to the President and Congress a publicly available report that identifies the number of individuals that were laid off during calendar year 2023",
+        "mentions": 1,
+        "first_seen": "580"
+      },
+      {
+        "name": "Annual Report on DEIA Progress",
+        "doc_type": "report",
+        "owner_org": "Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force",
+        "context": "submit to the President and Congress a publicly available report that evaluates the progress of entities in the tech industry in achieving the DEIA goals",
+        "mentions": 1,
+        "first_seen": "580"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "deia task force": "Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force \u2014 full canonical name established in SEC. 2(a)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "580",
+      "note": "SEC. 2(d) references 'Members of the Commission' but the entity is called 'Task Force' throughout; appears to be drafting inconsistency or error."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "580",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "DEIA Task Force",
+      "resolved": "Tech Industry Diversity, Equity, Inclusion, and Accessibility Task Force \u2014 full canonical name established in SEC. 2(a)",
+      "doc_id": "580",
+      "community_id": "community:129"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:diversify_tech_act": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "office:deia_task_force": 0.6,
+    "office:office_of_policy_and_strategic_planning": 0.6,
+    "role:speaker": 0.39999999999999997,
+    "role:secretary_of_commerce": 0.6,
+    "role:chief_diversity_and_equity_officer": 0.6,
+    "role:chair_of_the_communications_equity_and_diversity_council": 0.6,
+    "role:director_of_the_women_s_bureau": 0.6,
+    "role:under_secretary_of_commerce_for_the_minority_business_development_agency": 0.6,
+    "role:chief_diversity_equity_and_inclusion_officer": 0.6,
+    "role:secretary_of_labor": 0.6,
+    "role:chair_of_the_federal_trade_commission": 0.6,
+    "named_doc:tech_industry_diversity_equity_inclusion_and_accessibility_task_force": 0.6,
+    "named_doc:report_on_layoffs_in_2023": 0.6,
+    "named_doc:annual_report_on_deia_progress": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_education_and_the_workforce": 0.6,
+    "org:department_of_labor": 0.6,
+    "org:communications_equity_and_diversity_council": 0.6,
+    "org:minority_business_development_agency": 0.6,
+    "org:women_s_bureau": 0.6,
+    "org:office_of_policy_and_strategic_planning": 0.6,
+    "org:federal_trade_commission": 1.0
+  }
+}

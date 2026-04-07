@@ -1,0 +1,267 @@
+{
+  "community_id": "community:043",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "People's Republic of China",
+        "acronym": null,
+        "context": "an individual who is a citizen or national of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Government of the People's Republic of China",
+        "acronym": null,
+        "context": "entity organized under the laws of the People's Republic of China or otherwise subject to the jurisdiction of the Government of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "United States Patent and Trademark Office",
+        "acronym": "USPTO",
+        "context": "any property protected by a patent granted by the United States Patent and Trademark Office",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "United States",
+        "acronym": null,
+        "context": "protect the United States when channels for such exchange are exploited by adversaries",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Department of State",
+        "acronym": "State",
+        "context": "Secretary of State shall jointly submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": "Commerce",
+        "context": "Secretary of Commerce shall jointly submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Communist Party of China",
+        "acronym": null,
+        "context": "entity or individual capable of impacting the national strategy of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "2320"
+      }
+    ],
+    "offices": [
+      {
+        "name": "United States Trade Representative",
+        "parent_org": "Executive Office of the President",
+        "context": "determined in consultation with the United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "2320"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "Secretary of State and the Secretary of Commerce shall jointly submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary of State and the Secretary of Commerce shall jointly submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "title": "President",
+        "org": "United States",
+        "context": "The President shall, pursuant to the International Emergency Economic Powers Act",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "title": "Trade Representative",
+        "org": "United States Trade Representative",
+        "context": "The Trade Representative shall set forth a list of products manufactured or produced in",
+        "mentions": 1,
+        "first_seen": "2320"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "China Technology Transfer Control Act of 2025",
+        "citation": "China Technology Transfer Control Act of 2025",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"China Technology Transfer Control Act of 2025\"",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Trade Act of 1974",
+        "citation": "section 183 of the Trade Act of 1974",
+        "ref_type": "cites",
+        "context": "most recent list required under section 183 of the Trade Act of 1974, as added by section 6(a)",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Lanham Act",
+        "citation": "15 U.S.C. 1051 et seq.",
+        "ref_type": "cites",
+        "context": "registered as a trademark with the United States Patent and Trademark Office under the Act...approved July 5, 1946 (commonly known as the 'Lanham Act')",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Trademark Act of 1946",
+        "citation": "15 U.S.C. 1051 et seq.",
+        "ref_type": "cites",
+        "context": "An Act to provide for the registration and protection of trademarks used in commerce...approved July 5, 1946 (commonly known as...the 'Trademark Act of 1946')",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Title 17, United States Code",
+        "citation": "title 17, United States Code",
+        "ref_type": "cites",
+        "context": "any work protected by a copyright under title 17, United States Code",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Title 35, United States Code",
+        "citation": "title 35, United States Code",
+        "ref_type": "cites",
+        "context": "any property protected by a patent granted by the United States Patent and Trademark Office under title 35, United States Code",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Title 18, United States Code",
+        "citation": "section 1839 of title 18, United States Code",
+        "ref_type": "cites",
+        "context": "a trade secret (as defined in section 1839 of title 18, United States Code)",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "International Traffic in Arms Regulations",
+        "citation": "subchapter M of chapter I of title 22, Code of Federal Regulations",
+        "ref_type": "cites",
+        "context": "covered national interest technology or intellectual property should be controlled under the International Traffic in Arms Regulations",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Export Administration Regulations",
+        "citation": "subchapter C of chapter VII of title 15, Code of Federal Regulations",
+        "ref_type": "cites",
+        "context": "covered national interest technology or intellectual property should be controlled under the Export Administration Regulations",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "citation": "50 U.S.C. 1701 et seq.",
+        "ref_type": "cites",
+        "context": "pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.)",
+        "mentions": 1,
+        "first_seen": "2320"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report on control of covered national interest technology and intellectual property",
+        "doc_type": "report",
+        "owner_org": "Department of State and Department of Commerce",
+        "context": "Secretary of State and the Secretary of Commerce shall jointly submit to Congress a report assessing whether covered national interest technology",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Notice on Issuing Made in China 2025",
+        "doc_type": "initiative",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "documents set forth by the Government of the People's Republic of China: Notice on Issuing Made in China 2025",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "China Manufacturing 2025",
+        "doc_type": "strategy",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "China Manufacturing 2025",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Notice on Issuing the 13th Five-year National Strategic Emerging Industries Development Plan",
+        "doc_type": "plan",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "Notice on Issuing the 13th Five-year National Strategic Emerging Industries Development Plan",
+        "mentions": 1,
+        "first_seen": "2320"
+      },
+      {
+        "name": "Guiding Opinion on Promoting International Industrial Capacity and Equipment Manufacturing Cooperation",
+        "doc_type": "initiative",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "Guiding Opinion on Promoting International Industrial Capacity and Equipment Manufacturing Cooperation",
+        "mentions": 1,
+        "first_seen": "2320"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "united states trade representative": "Extracted as an office entity; referenced in consultation context for listing AI-related products supported by Chinese government per document summary"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "2320",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "United States Trade Representative",
+      "resolved": "Extracted as an office entity; referenced in consultation context for listing AI-related products supported by Chinese government per document summary",
+      "doc_id": "2320",
+      "community_id": "community:043"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:china_technology_transfer_control_act_of_2025": 0.6,
+    "legislation:trade_act_of_1974": 0.6,
+    "legislation:lanham_act": 0.6,
+    "legislation:trademark_act_of_1946": 0.6,
+    "legislation:title_17_united_states_code": 0.6,
+    "legislation:title_35_united_states_code": 0.6,
+    "legislation:title_18_united_states_code": 0.6,
+    "legislation:international_traffic_in_arms_regulations": 0.6,
+    "legislation:export_administration_regulations": 0.6,
+    "legislation:international_emergency_economic_powers_act": 0.6,
+    "office:united_states_trade_representative": 0.6,
+    "role:secretary_of_state": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:president": 0.9,
+    "role:trade_representative": 0.6,
+    "named_doc:report_on_control_of_covered_national_interest_technology_and_intellectual_property": 0.6,
+    "named_doc:notice_on_issuing_made_in_china_2025": 0.6,
+    "named_doc:china_manufacturing_2025": 0.6,
+    "named_doc:notice_on_issuing_the_13th_five_year_national_strategic_emerging_industries_development_plan": 0.6,
+    "named_doc:guiding_opinion_on_promoting_international_industrial_capacity_and_equipment_manufacturing_cooperation": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:government_of_the_people_s_republic_of_china": 0.6,
+    "org:united_states_patent_and_trademark_office": 0.6,
+    "org:united_states": 0.6,
+    "org:department_of_state": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:communist_party_of_china": 0.6
+  }
+}

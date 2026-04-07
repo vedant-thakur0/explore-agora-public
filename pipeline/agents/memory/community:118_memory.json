@@ -1,0 +1,180 @@
+{
+  "community_id": "community:118",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Nuclear Regulatory Commission",
+        "acronym": "Commission",
+        "context": "Commission shall submit to the appropriate committees of Congress a report",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "acronym": "HHS",
+        "context": "Secretary of Health and Human Services under section 319 of the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "seek input from the National Laboratories",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "Comptroller General of the United States shall review office and other facility space",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "General Services Administration",
+        "acronym": "GSA",
+        "context": "recommendations to Congress, the Commission, and the General Services Administration",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "Committee on Energy and Commerce of the House of Representatives",
+        "acronym": null,
+        "context": "appropriate committees of Congress means the Committee on Energy and Commerce",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "Committee on Environment and Public Works of the Senate",
+        "acronym": null,
+        "context": "appropriate committees of Congress means...the Committee on Environment and Public Works",
+        "mentions": 1,
+        "first_seen": "823"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Differing Professional Views or Opinions",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "Differing Professional Views or Opinions process to ensure any impacts on agency decisions",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "headquarters",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "costs associated with the headquarters, regional offices, and technical training center",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "regional offices",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "costs associated with the headquarters, regional offices, and technical training center",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "technical training center",
+        "parent_org": "Nuclear Regulatory Commission",
+        "context": "costs associated with the headquarters, regional offices, and technical training center",
+        "mentions": 1,
+        "first_seen": "823"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "Secretary of Health and Human Services under section 319 of the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "seek input from the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "the Comptroller General of the United States shall review office and other facility space",
+        "mentions": 1,
+        "first_seen": "823"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Public Health Service Act",
+        "citation": "42 U.S.C. 247d (section 319)",
+        "ref_type": "cites",
+        "context": "section 319 of the Public Health Service Act (42 U.S.C. 247d) on January 31, 2020",
+        "mentions": 1,
+        "first_seen": "823"
+      },
+      {
+        "name": "Atomic Energy Act of 1954",
+        "citation": "Atomic Energy Act of 1954",
+        "ref_type": "cites",
+        "context": "nuclear reactor and materials oversight and inspection programs carried out pursuant to the Atomic Energy Act of 1954",
+        "mentions": 1,
+        "first_seen": "823"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "commission": "Nuclear Regulatory Commission (resolved from context: regulatory authority for civilian use of radioactive materials)",
+    "the appropriate committees of congress": "refers to Congressional committees with jurisdiction over atomic energy (extracted entity: Congress)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "823",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Commission",
+      "resolved": "Nuclear Regulatory Commission (resolved from context: regulatory authority for civilian use of radioactive materials)",
+      "doc_id": "823",
+      "community_id": "community:118"
+    },
+    {
+      "phrase": "the appropriate committees of Congress",
+      "resolved": "refers to Congressional committees with jurisdiction over atomic energy (extracted entity: Congress)",
+      "doc_id": "823",
+      "community_id": "community:118"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:public_health_service_act": 0.6,
+    "legislation:atomic_energy_act_of_1954": 0.6,
+    "office:differing_professional_views_or_opinions": 0.6,
+    "office:headquarters": 0.6,
+    "office:regional_offices": 0.6,
+    "office:technical_training_center": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "org:nuclear_regulatory_commission": 0.6,
+    "org:department_of_health_and_human_services": 1.0,
+    "org:department_of_energy": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:general_services_administration": 0.6,
+    "org:committee_on_energy_and_commerce_of_the_house_of_representatives": 0.6,
+    "org:committee_on_environment_and_public_works_of_the_senate": 0.6
+  }
+}

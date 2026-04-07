@@ -1,0 +1,165 @@
+{
+  "community_id": "community:204",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "United States District Court",
+        "acronym": null,
+        "context": "Attorney General may bring a civil action in an appropriate United States District Court",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Election Assistance Commission",
+        "acronym": "EAC",
+        "context": "in consultation with the Director of the National Institute of Standards and Technology and the members of the Election Assistance Commission",
+        "mentions": 1,
+        "first_seen": "1269"
+      }
+    ],
+    "offices": [
+      {
+        "name": "President",
+        "parent_org": "Federal Government",
+        "context": "nominating or electing a candidate for the office of President",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Vice President",
+        "parent_org": "Federal Government",
+        "context": "nominating or electing a candidate for the office of Vice President",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Presidential elector",
+        "parent_org": "Federal Government",
+        "context": "nominating or electing a candidate for the office of Presidential elector",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Member of the Senate",
+        "parent_org": "Federal Government",
+        "context": "nominating or electing a candidate for the office of Member of the Senate",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Member of the House of Representatives",
+        "parent_org": "Federal Government",
+        "context": "nominating or electing a candidate for the office of Member of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Delegate or Commissioner from a Territory or possession",
+        "parent_org": "Federal Government",
+        "context": "nominating or electing a candidate for the office of Delegate or Commissioner from a Territory",
+        "mentions": 1,
+        "first_seen": "1269"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Attorney General",
+        "org": "U.S. Department of Justice",
+        "context": "Authorizes the Attorney General to enforce violations",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "title": "Director",
+        "org": "National Institute of Standards and Technology",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "title": "President",
+        "org": "Executive Office of the President",
+        "context": "President",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "title": "election official",
+        "org": "Federal Election Administration",
+        "context": "any individual legally authorized to perform duties in connection with an applicable Federal election",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "in consultation with the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1269"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
+        "citation": "FAIR Elections Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "National Voter Registration Act of 1993",
+        "citation": "52 U.S.C. 20501 et seq.",
+        "ref_type": "amends",
+        "context": "The National Voter Registration Act of 1993 (52 U.S.C. 20501 et seq.) is amended by inserting after section 8",
+        "mentions": 1,
+        "first_seen": "1269"
+      },
+      {
+        "name": "Computer Fraud and Abuse Act",
+        "citation": "18 U.S.C. 1030",
+        "ref_type": "cites",
+        "context": "The source information was not obtained in violation of section 1030 of title 18, United States Code (commonly known as the 'Computer Fraud and Abuse Act')",
+        "mentions": 1,
+        "first_seen": "1269"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1269",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:fraudulent_artificial_intelligence_regulations_fair_elections_act_of_2024": 0.6,
+    "legislation:national_voter_registration_act_of_1993": 0.6,
+    "legislation:computer_fraud_and_abuse_act": 0.6,
+    "office:president": 0.9,
+    "office:vice_president": 0.6,
+    "office:presidential_elector": 0.6,
+    "office:member_of_the_senate": 0.6,
+    "office:member_of_the_house_of_representatives": 0.6,
+    "office:delegate_or_commissioner_from_a_territory_or_possession": 0.6,
+    "role:attorney_general": 0.9,
+    "role:director": 0.6,
+    "role:president": 0.9,
+    "role:election_official": 0.6,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:united_states_district_court": 0.6,
+    "org:election_assistance_commission": 0.6
+  }
+}

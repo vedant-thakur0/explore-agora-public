@@ -1,0 +1,310 @@
+{
+  "community_id": "community:027",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of State",
+        "acronym": "DOS",
+        "context": "Secretary of State, in coordination with the Secretary of Defense",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "Secretary of Defense and, as appropriate, the Secretary of Commerce",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": "DOC",
+        "context": "Secretary of Commerce and the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Secretary of Energy, shall submit to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "International Atomic Energy Agency",
+        "acronym": "IAEA",
+        "context": "negotiating an Article 14 Arrangement with the International Atomic Energy Agency",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "United States Navy",
+        "acronym": "USN",
+        "context": "Australian personnel embedded on United States Navy ships during Phase One",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "Government of Australia",
+        "acronym": null,
+        "context": "progress by the Government of Australia in negotiating an Article 14",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "name": "Government of the United Kingdom",
+        "acronym": null,
+        "context": "actions the Departments have requested the Governments of the United Kingdom",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "name": "AUKUS",
+        "acronym": "AUKUS",
+        "context": "efforts of the Department of State to implement the AUKUS partnership",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "National Disclosure Policy Committee",
+        "acronym": null,
+        "context": "coordinating entities such as the National Disclosure Policy Committee",
+        "mentions": 1,
+        "first_seen": "806"
+      },
+      {
+        "name": "Arms Transfer and Technology Release Senior Steering Group",
+        "acronym": null,
+        "context": "coordinating entities such as the Arms Transfer and Technology Release Senior Steering Group",
+        "mentions": 1,
+        "first_seen": "806"
+      },
+      {
+        "name": "Government of Canada",
+        "acronym": null,
+        "context": "sale and release to Australia, Canada, and the United Kingdom",
+        "mentions": 1,
+        "first_seen": "806"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Advanced Capabilities Pillar",
+        "parent_org": "AUKUS",
+        "context": "advanced capabilities pillar of the AUKUS agreement",
+        "mentions": 1,
+        "first_seen": "805"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "the Secretary of State, in coordination with the Secretary of Defense",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "in coordination with the Secretary of Defense and, as appropriate",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "as appropriate, the Secretary of Commerce and the Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "the Secretary of Energy, shall submit to the appropriate congressional",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "title": "President",
+        "org": "United States",
+        "context": "the President shall provide a briefing to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "805"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Arms Export Control Act",
+        "citation": "22 U.S.C. 2778(j)(2)",
+        "ref_type": "cites",
+        "context": "section 38(j)(2) of the Arms Export Control Act (22 U.S.C. 2778(j)(2))",
+        "mentions": 2,
+        "first_seen": "805"
+      },
+      {
+        "name": "International Traffic in Regulations",
+        "acronym": "ITAR",
+        "citation": "ITAR",
+        "ref_type": "cites",
+        "context": "changes to the International Traffic in Regulations (ITAR) and the United States export control regime",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "TORPEDO Act of 2023",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "Not later than 90 days after the date of the enactment of this Act",
+        "mentions": 2,
+        "first_seen": "805"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Optimal Pathway for AUKUS Pillar One",
+        "doc_type": "plan",
+        "owner_org": "AUKUS",
+        "context": "Phase One goals for of the Optimal Pathway for AUKUS Pillar One",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "AUKUS Agreement",
+        "doc_type": "initiative",
+        "owner_org": "AUKUS",
+        "context": "implement the AUKUS agreement and to permit AUKUS member states",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "Pillar One",
+        "doc_type": "initiative",
+        "owner_org": "AUKUS",
+        "context": "consultations amongst AUKUS partners on Pillar One",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "Pillar Two",
+        "doc_type": "initiative",
+        "owner_org": "AUKUS",
+        "context": "the eight Lines of Effort in Pillar Two",
+        "mentions": 1,
+        "first_seen": "805"
+      },
+      {
+        "name": "Foreign Military Sales program",
+        "doc_type": "program",
+        "owner_org": "Department of State",
+        "context": "pre-cleared and prioritized for sale and release through the Foreign Military Sales program",
+        "mentions": 1,
+        "first_seen": "806"
+      },
+      {
+        "name": "Pillar One technologies",
+        "doc_type": "initiative",
+        "owner_org": "Department of Defense",
+        "context": "Pillar One technologies associated with submarine and associated combat systems",
+        "mentions": 1,
+        "first_seen": "806"
+      },
+      {
+        "name": "Pillar Two technologies",
+        "doc_type": "initiative",
+        "owner_org": "Department of Defense",
+        "context": "Pillar Two technologies, including hypersonic missiles, cyber capabilities, artificial intelligence, quantum technologies",
+        "mentions": 1,
+        "first_seen": "806"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the department of state": "explicitly named in SEC. 6(a)(1) as the primary reporting entity",
+    "aukus partners": "contextually refers to Australia, the United Kingdom, and the United States as trilateral partners in the agreement",
+    "national disclosure policy committee": "Explicitly named coordinating entity in SEC. 12(a)(1)",
+    "arms transfer and technology release senior steering group": "Explicitly named coordinating entity in SEC. 12(a)(1)",
+    "government of canada": "New entity added\u2014SEC. 12 expands AUKUS-adjacent framework to include Canada alongside Australia and UK"
+  },
+  "parsing_rules": [
+    "Technology release policies should capture both Pillar designations (Pillar One/Two) as distinct named initiatives with associated capability categories (e.g., submarine systems, hypersonic missiles, AI, quantum, cyber, undersea)."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "805",
+      "note": "Document specifies reporting requirements across eight trilateral Lines of Effort (undersea capabilities, quantum technologies, AI and autonomy, advanced cyber capabilities) with only four listed in the provided text\u2014full enumeration may appear in complete document."
+    },
+    {
+      "agora_id": "806",
+      "note": "This section expands recipient countries to include Canada, distinct from the AUKUS trilateral framework (Australia, UK, US) documented in community context. The section treats all three countries identically in FMS preclearance and anticipatory release policy, suggesting a broader allied technology partnership framework."
+    }
+  ],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "806",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Department of State",
+      "resolved": "explicitly named in SEC. 6(a)(1) as the primary reporting entity",
+      "doc_id": "805",
+      "community_id": "community:027"
+    },
+    {
+      "phrase": "AUKUS partners",
+      "resolved": "contextually refers to Australia, the United Kingdom, and the United States as trilateral partners in the agreement",
+      "doc_id": "805",
+      "community_id": "community:027"
+    },
+    {
+      "phrase": "National Disclosure Policy Committee",
+      "resolved": "Explicitly named coordinating entity in SEC. 12(a)(1)",
+      "doc_id": "806",
+      "community_id": "community:027"
+    },
+    {
+      "phrase": "Arms Transfer and Technology Release Senior Steering Group",
+      "resolved": "Explicitly named coordinating entity in SEC. 12(a)(1)",
+      "doc_id": "806",
+      "community_id": "community:027"
+    },
+    {
+      "phrase": "Government of Canada",
+      "resolved": "New entity added\u2014SEC. 12 expands AUKUS-adjacent framework to include Canada alongside Australia and UK",
+      "doc_id": "806",
+      "community_id": "community:027"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:arms_export_control_act": 0.6,
+    "legislation:international_traffic_in_regulations": 0.6,
+    "legislation:torpedo_act_of_2023": 0.6,
+    "office:advanced_capabilities_pillar": 0.6,
+    "named_doc:optimal_pathway_for_aukus_pillar_one": 0.6,
+    "named_doc:aukus_agreement": 0.6,
+    "named_doc:pillar_one": 0.6,
+    "named_doc:pillar_two": 0.6,
+    "org:department_of_state": 0.6,
+    "org:department_of_defense": 1.0,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:international_atomic_energy_agency": 0.6,
+    "org:united_states_navy": 0.6,
+    "org:government_of_australia": 0.6,
+    "org:government_of_the_united_kingdom": 0.6,
+    "org:aukus": 0.39999999999999997,
+    "role:secretary_of_state": 0.6,
+    "role:secretary_of_defense": 0.9,
+    "role:secretary_of_commerce": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:president": 0.9,
+    "named_doc:foreign_military_sales_program": 0.6,
+    "named_doc:pillar_one_technologies": 0.6,
+    "named_doc:pillar_two_technologies": 0.6,
+    "org:national_disclosure_policy_committee": 0.6,
+    "org:arms_transfer_and_technology_release_senior_steering_group": 0.6,
+    "org:government_of_canada": 0.6
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "community_id": "community:242",
+  "label": "Risk factors: Reliability | Strategies: New institution | Strategies: Government study or report",
+  "taxonomy_signature": [
+    "Risk factors: Reliability",
+    "Strategies: New institution",
+    "Strategies: Government study or report",
+    "Harms: Violation of civil or human rights, including privacy",
+    "Strategies: Pilots and testbeds",
+    "Strategies: Evaluation: Adversarial testing",
+    "Strategies: Tiering: Tiering based on planning ability",
+    "Risk factors: Security",
+    "Strategies: Government support",
+    "Strategies: Tiering",
+    "Risk factors: Reliability: Robustness",
+    "Risk factors: Security: Cybersecurity",
+    "Strategies: Government support: AI workforce-related",
+    "Strategies: Evaluation: Impact assessment",
+    "Strategies: Governance development",
+    "Strategies: Government support: For R&D",
+    "Risk factors: Privacy",
+    "Strategies: Evaluation",
+    "Incentives: Subsidies",
+    "Risk factors: Safety"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Artificial Intelligence Research Resource Task Force",
+        "acronym": null,
+        "context": "authorized under section 5106 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative",
+        "acronym": null,
+        "context": "National Artificial Intelligence Initiative Act of 2020 (15 U.S.C. 9401 et seq.)",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "name": "Interagency Committee",
+        "acronym": null,
+        "context": "NAIRR Steering Subcommittee established within the Interagency Committee",
+        "mentions": 1,
+        "first_seen": "89"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Science and Technology Policy",
+        "parent_org": "Executive Office of the President",
+        "context": "Director chairs the NAIRR Steering Subcommittee",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "name": "Program Management Office",
+        "parent_org": "National Artificial Intelligence Research Resource",
+        "context": "Coordinates with NSF and Steering Subcommittee on operating plan and budget",
+        "mentions": 1,
+        "first_seen": "89"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director of the Office of Science and Technology Policy",
+        "org": "Office of Science and Technology Policy",
+        "context": "Chairs NAIRR Steering Subcommittee; may establish assistant chairs; selects members",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "title": "Chair of the NAIRR Steering Subcommittee",
+        "org": "National Artificial Intelligence Research Resource",
+        "context": "Filled by Director of OSTP",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "title": "Assistant Chair of the NAIRR Steering Subcommittee",
+        "org": "National Artificial Intelligence Research Resource",
+        "context": "May be established by Director of OSTP with rotating schedule",
+        "mentions": 1,
+        "first_seen": "89"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2023",
+        "citation": "CREATE AI Act of 2023",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2023\" or the \"CREATE AI Act of 2023\".",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401 et seq.",
+        "ref_type": "cites",
+        "context": "section 5106 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "89"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "15 U.S.C. 9413",
+        "ref_type": "amends",
+        "context": "Section 5103 amended to add NAIRR Steering Subcommittee provisions",
+        "mentions": 1,
+        "first_seen": "89"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Strengthening and Democratizing the U.S. Artificial Intelligence Innovation Ecosystem: An Implementation Plan for a National Artificial Intelligence Research Resource",
+        "doc_type": "report",
+        "owner_org": "National Artificial Intelligence Research Resource Task Force",
+        "context": "issued on January 24, 2023",
+        "mentions": 1,
+        "first_seen": "89"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "operating entity": "Entity selected by NAIRR Steering Subcommittee to manage operational aspects of NAIRR resources and funding",
+    "program management office": "Office within NAIRR structure coordinating with NSF and Steering Subcommittee on plans and budgets"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "89",
+      "note": "Document excerpt contains only conforming amendments section with table of contents entries (Sec. 5601-5604) for TITLE LVI; no substantive legislative text provided, limiting entity extraction to legislative citations."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "89",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Operating Entity",
+      "resolved": "Entity selected by NAIRR Steering Subcommittee to manage operational aspects of NAIRR resources and funding",
+      "doc_id": "89",
+      "community_id": "community:242"
+    },
+    {
+      "phrase": "Program Management Office",
+      "resolved": "Office within NAIRR structure coordinating with NSF and Steering Subcommittee on plans and budgets",
+      "doc_id": "89",
+      "community_id": "community:242"
+    }
+  ],
+  "entity_confidence": {
+    "org:national_artificial_intelligence_research_resource_task_force": 0.6,
+    "org:national_artificial_intelligence_initiative": 0.6,
+    "org:interagency_committee": 0.6,
+    "legislation:creating_resources_for_every_american_to_experiment_with_artificial_intelligence_act_of_2023": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "office:office_of_science_and_technology_policy": 1.0,
+    "office:program_management_office": 0.6,
+    "named_doc:strengthening_and_democratizing_the_u_s_artificial_intelligence_innovation_ecosystem_an_implementation_plan_for_a_national_artificial_intelligence_research_resource": 0.6,
+    "role:director_of_the_office_of_science_and_technology_policy": 0.6,
+    "role:chair_of_the_nairr_steering_subcommittee": 0.6,
+    "role:assistant_chair_of_the_nairr_steering_subcommittee": 0.6
+  }
+}
