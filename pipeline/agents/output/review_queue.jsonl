@@ -203,3 +203,5 @@
 {"agora_id": "275", "entity_name": "Senate", "entity_type": "organizations", "confidence": 0.4, "reason": "short_name, not_in_registry", "ts": "2026-04-07T05:36:39+00:00"}
 {"agora_id": "275", "entity_name": "Russia", "entity_type": "organizations", "confidence": 0.4, "reason": "short_name, not_in_registry", "ts": "2026-04-07T05:36:39+00:00"}
 {"agora_id": "275", "entity_name": "China", "entity_type": "organizations", "confidence": 0.4, "reason": "short_name, not_in_registry", "ts": "2026-04-07T05:36:39+00:00"}
+{"agora_id": "457", "entity_name": "Senate", "entity_type": "organizations", "confidence": 0.4, "reason": "short_name, not_in_registry", "ts": "2026-04-07T05:44:09+00:00"}
+{"agora_id": "457", "entity_name": "Board", "entity_type": "organizations", "confidence": 0.4, "reason": "short_name, not_in_registry", "ts": "2026-04-07T05:44:09+00:00"}

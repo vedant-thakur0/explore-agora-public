@@ -574,3 +574,4 @@
 {"agora_id": "275", "status": "done", "ts": "2026-04-07T05:36:39+00:00", "chunks": 1}
 {"agora_id": "89", "status": "done", "ts": "2026-04-07T05:37:17+00:00", "chunks": 4}
 {"agora_id": "29", "status": "failed", "ts": "2026-04-07T05:37:17+00:00", "reason": "no_fulltext"}
+{"agora_id": "457", "status": "done", "ts": "2026-04-07T05:44:09+00:00", "chunks": 18}

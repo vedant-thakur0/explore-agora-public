@@ -1,28 +1,28 @@
 {
   "layers": {
     "layer_3_entity": {
-      "nodes": 5355,
-      "edges": 10866,
+      "nodes": 5366,
+      "edges": 10943,
       "node_types": {
         "Document": 531,
-        "Org": 1059,
+        "Org": 1061,
         "Office": 566,
-        "Legislation": 1343,
+        "Legislation": 1352,
         "Role": 723,
         "Named Doc": 1133
       },
       "edge_types": {
-        "MENTIONS_ORG": 3806,
-        "INVOLVES_ROLE": 2130,
-        "REFERENCES_LEGISLATION": 2601,
+        "MENTIONS_ORG": 3832,
+        "INVOLVES_ROLE": 2144,
+        "REFERENCES_LEGISLATION": 2632,
         "COLLABORATES_WITH": 1,
-        "MENTIONS_OFFICE": 973,
-        "INVOLVES_NAMED_DOC": 1355
+        "MENTIONS_OFFICE": 977,
+        "INVOLVES_NAMED_DOC": 1357
       }
     }
   },
   "combined": {
-    "nodes": 5355,
-    "edges": 10866
+    "nodes": 5366,
+    "edges": 10943
   }
 }

@@ -1,53 +1,53 @@
 {
   "docs_evaluated": 13,
   "docs_with_predictions": 13,
-  "macro_f1": 1.0,
-  "type_accuracy": 1.0,
+  "macro_f1": 0.1708,
+  "type_accuracy": 0.8333,
   "by_type": {
     "organizations": {
-      "tp": 36,
-      "fp": 0,
-      "fn": 0,
+      "tp": 7,
+      "fp": 39,
+      "fn": 29,
       "partial_matches": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "precision": 0.1522,
+      "recall": 0.1944,
+      "f1": 0.1707
     },
     "offices": {
-      "tp": 3,
-      "fp": 0,
-      "fn": 0,
+      "tp": 1,
+      "fp": 21,
+      "fn": 2,
       "partial_matches": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "precision": 0.0455,
+      "recall": 0.3333,
+      "f1": 0.08
     },
     "roles": {
-      "tp": 27,
-      "fp": 0,
-      "fn": 0,
+      "tp": 5,
+      "fp": 35,
+      "fn": 22,
       "partial_matches": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "precision": 0.125,
+      "recall": 0.1852,
+      "f1": 0.1493
     },
     "legislation_refs": {
-      "tp": 3,
-      "fp": 0,
-      "fn": 0,
+      "tp": 1,
+      "fp": 33,
+      "fn": 2,
       "partial_matches": 0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1": 1.0
+      "precision": 0.0294,
+      "recall": 0.3333,
+      "f1": 0.0541
     },
     "named_docs": {
       "tp": 6,
-      "fp": 0,
+      "fp": 18,
       "fn": 0,
       "partial_matches": 0,
-      "precision": 1.0,
+      "precision": 0.25,
       "recall": 1.0,
-      "f1": 1.0
+      "f1": 0.4
     }
   },
   "per_document": [
@@ -55,35 +55,35 @@
       "agora_id": "1",
       "by_type": {
         "organizations": {
-          "tp": 9,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 9,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "offices": {
           "tp": 1,
-          "fp": 0,
+          "fp": 5,
           "fn": 0,
           "partial_matches": 0,
-          "precision": 1.0,
+          "precision": 0.1667,
           "recall": 1.0,
-          "f1": 1.0
+          "f1": 0.2857
         },
         "roles": {
-          "tp": 9,
-          "fp": 0,
-          "fn": 0,
+          "tp": 1,
+          "fp": 1,
+          "fn": 8,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.5,
+          "recall": 0.1111,
+          "f1": 0.1818
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -92,12 +92,12 @@
         },
         "named_docs": {
           "tp": 6,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
-          "precision": 1.0,
+          "precision": 0.8571,
           "recall": 1.0,
-          "f1": 1.0
+          "f1": 0.9231
         }
       },
       "type_accuracy": 1.0
@@ -107,34 +107,34 @@
       "by_type": {
         "organizations": {
           "tp": 1,
-          "fp": 0,
+          "fp": 5,
           "fn": 0,
           "partial_matches": 0,
-          "precision": 1.0,
+          "precision": 0.1667,
           "recall": 1.0,
-          "f1": 1.0
+          "f1": 0.2857
         },
         "offices": {
-          "tp": 1,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 1,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "roles": {
           "tp": 1,
-          "fp": 0,
+          "fp": 4,
           "fn": 0,
           "partial_matches": 0,
-          "precision": 1.0,
+          "precision": 0.2,
           "recall": 1.0,
-          "f1": 1.0
+          "f1": 0.3333
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 3,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -143,7 +143,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 4,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -151,14 +151,14 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.6667
     },
     {
       "agora_id": "1000",
       "by_type": {
         "organizations": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -176,7 +176,7 @@
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -185,12 +185,12 @@
         },
         "legislation_refs": {
           "tp": 1,
-          "fp": 0,
+          "fp": 3,
           "fn": 0,
           "partial_matches": 0,
-          "precision": 1.0,
+          "precision": 0.25,
           "recall": 1.0,
-          "f1": 1.0
+          "f1": 0.4
         },
         "named_docs": {
           "tp": 0,
@@ -208,17 +208,17 @@
       "agora_id": "1001",
       "by_type": {
         "organizations": {
-          "tp": 12,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 5,
+          "fn": 12,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -226,17 +226,17 @@
           "f1": 0.0
         },
         "roles": {
-          "tp": 5,
-          "fp": 0,
-          "fn": 0,
+          "tp": 1,
+          "fp": 1,
+          "fn": 4,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.5,
+          "recall": 0.2,
+          "f1": 0.2857
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 4,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -245,7 +245,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 3,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -253,23 +253,23 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.5
     },
     {
       "agora_id": "1003",
       "by_type": {
         "organizations": {
-          "tp": 2,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 5,
+          "fn": 2,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -278,7 +278,7 @@
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 5,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -287,7 +287,7 @@
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -296,7 +296,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -304,7 +304,7 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.0
     },
     {
       "agora_id": "1009",
@@ -329,7 +329,7 @@
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -338,7 +338,7 @@
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -362,7 +362,7 @@
       "by_type": {
         "organizations": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -371,7 +371,7 @@
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -379,17 +379,17 @@
           "f1": 0.0
         },
         "roles": {
-          "tp": 3,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 3,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -398,7 +398,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 3,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -406,23 +406,23 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.0
     },
     {
       "agora_id": "1161",
       "by_type": {
         "organizations": {
-          "tp": 5,
-          "fp": 0,
-          "fn": 0,
+          "tp": 1,
+          "fp": 2,
+          "fn": 4,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.3333,
+          "recall": 0.2,
+          "f1": 0.25
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -430,17 +430,17 @@
           "f1": 0.0
         },
         "roles": {
-          "tp": 2,
-          "fp": 0,
-          "fn": 0,
+          "tp": 1,
+          "fp": 1,
+          "fn": 1,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -449,7 +449,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -463,17 +463,17 @@
       "agora_id": "12",
       "by_type": {
         "organizations": {
-          "tp": 2,
+          "tp": 1,
           "fp": 0,
-          "fn": 0,
+          "fn": 1,
           "partial_matches": 0,
           "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "recall": 0.5,
+          "f1": 0.6667
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -482,7 +482,7 @@
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -491,7 +491,7 @@
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -500,7 +500,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -508,14 +508,14 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.5
     },
     {
       "agora_id": "1203",
       "by_type": {
         "organizations": {
           "tp": 0,
-          "fp": 0,
+          "fp": 5,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -523,17 +523,17 @@
           "f1": 0.0
         },
         "offices": {
-          "tp": 1,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -541,17 +541,17 @@
           "f1": 0.0
         },
         "legislation_refs": {
-          "tp": 1,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 5,
+          "fn": 1,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -559,14 +559,14 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.0
     },
     {
       "agora_id": "1264",
       "by_type": {
         "organizations": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -575,7 +575,7 @@
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 1,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -583,13 +583,13 @@
           "f1": 0.0
         },
         "roles": {
-          "tp": 7,
-          "fp": 0,
-          "fn": 0,
+          "tp": 1,
+          "fp": 1,
+          "fn": 6,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.5,
+          "recall": 0.1429,
+          "f1": 0.2222
         },
         "legislation_refs": {
           "tp": 0,
@@ -602,7 +602,7 @@
         },
         "named_docs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -617,7 +617,7 @@
       "by_type": {
         "organizations": {
           "tp": 0,
-          "fp": 0,
+          "fp": 10,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -626,7 +626,7 @@
         },
         "offices": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -635,7 +635,7 @@
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 14,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -643,13 +643,13 @@
           "f1": 0.0
         },
         "legislation_refs": {
-          "tp": 1,
-          "fp": 0,
-          "fn": 0,
+          "tp": 0,
+          "fp": 4,
+          "fn": 1,
           "partial_matches": 0,
-          "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
         },
         "named_docs": {
           "tp": 0,
@@ -661,19 +661,19 @@
           "f1": 0.0
         }
       },
-      "type_accuracy": 1.0
+      "type_accuracy": 0.0
     },
     {
       "agora_id": "1371",
       "by_type": {
         "organizations": {
-          "tp": 4,
+          "tp": 3,
           "fp": 0,
-          "fn": 0,
+          "fn": 1,
           "partial_matches": 0,
           "precision": 1.0,
-          "recall": 1.0,
-          "f1": 1.0
+          "recall": 0.75,
+          "f1": 0.8571
         },
         "offices": {
           "tp": 0,
@@ -686,7 +686,7 @@
         },
         "roles": {
           "tp": 0,
-          "fp": 0,
+          "fp": 2,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
@@ -695,7 +695,7 @@
         },
         "legislation_refs": {
           "tp": 0,
-          "fp": 0,
+          "fp": 6,
           "fn": 0,
           "partial_matches": 0,
           "precision": 0.0,
