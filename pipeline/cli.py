@@ -147,6 +147,7 @@ def cmd_sync_ner_entities(args: argparse.Namespace) -> int:
     run_ner_sync(
         entity_dict_path=Path(args.entity_dict) if args.entity_dict else None,
         annotations_dir=Path(args.annotations_dir) if args.annotations_dir else None,
+        canonicalized_path=Path(args.canonicalized) if args.canonicalized else None,
         dry_run=args.dry_run,
     )
     return 0
@@ -186,6 +187,17 @@ def cmd_seed_registry(args: argparse.Namespace) -> int:
     out_path = Path(args.output) if args.output else GLOBAL_REGISTRY_PATH
     registry.save(out_path)
     print(json.dumps(registry.stats(), indent=2))
+    return 0
+
+
+def cmd_canonicalize(args: argparse.Namespace) -> int:
+    import logging
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+
+    from .agents.canonicalize import run as run_canonicalize
+
+    report = run_canonicalize()
+    print(json.dumps(report, indent=2))
     return 0
 
 
@@ -245,6 +257,7 @@ def build_parser() -> argparse.ArgumentParser:
     ner = sub.add_parser("sync-ner-entities", help="Sync NER entity dictionary and document-entity mappings to Supabase")
     ner.add_argument("--entity-dict", default="", help="Path to entity_dictionary.jsonl")
     ner.add_argument("--annotations-dir", default="", help="Path to manual_annotations directory")
+    ner.add_argument("--canonicalized", default="", help="Path to entities_canonicalized.jsonl (default: agents/output/entities_canonicalized.jsonl)")
     ner.add_argument("--dry-run", action="store_true", help="Parse and validate only, no writes")
     ner.set_defaults(func=cmd_sync_ner_entities)
 
@@ -257,6 +270,9 @@ def build_parser() -> argparse.ArgumentParser:
     sr.add_argument("--output", default="", help="Output path for registry JSON")
     sr.add_argument("--no-type-authority", action="store_true", help="Skip type authority corrections")
     sr.set_defaults(func=cmd_seed_registry)
+
+    cn = sub.add_parser("canonicalize", help="Flag bare aliases in review queue with resolution context")
+    cn.set_defaults(func=cmd_canonicalize)
 
     nq = sub.add_parser("query-neighborhood", help="Query neighborhood around a seed node in graph export")
     nq.add_argument("--graph-dir", default="pipeline/graph")

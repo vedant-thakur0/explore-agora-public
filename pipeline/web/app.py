@@ -24,11 +24,13 @@ def create_app() -> Flask:
     from pipeline.web.routes.annotation import bp as annotation_bp
     from pipeline.web.routes.auto_extract import bp as auto_extract_bp
     from pipeline.web.routes.dictionary import bp as dictionary_bp
+    from pipeline.web.routes.review_queue import bp as review_queue_bp
 
     app.register_blueprint(documents_bp)
     app.register_blueprint(annotation_bp)
     app.register_blueprint(auto_extract_bp)
     app.register_blueprint(dictionary_bp)
+    app.register_blueprint(review_queue_bp)
 
     # Inject a cache-busting token (server start time) into every template
     _start_time = str(int(time.time()))

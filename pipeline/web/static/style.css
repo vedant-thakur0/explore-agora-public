@@ -273,6 +273,9 @@ main { padding: 1.5rem; max-width: 1400px; margin: 0 auto; }
   color: #666;
 }
 
+/* Generic hidden utility */
+.hidden { display: none !important; }
+
 /* Pulse highlight for scroll-to */
 .pulse-highlight {
   background: rgba(251,191,36,0.5);

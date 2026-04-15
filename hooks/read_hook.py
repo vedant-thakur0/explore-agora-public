@@ -19,6 +19,15 @@ def main():
                 "reason": "Access to .env files is not permitted.",
             }, sys.stdout)
             return
+
+    if tool_name == "Bash":
+        command = tool_input.get("command", "")
+        if ".env" in command:
+            json.dump({
+                "decision": "block",
+                "reason": "Access to .env files is not permitted.",
+            }, sys.stdout)
+            return
     json.dump({"decision": "approve"}, sys.stdout)
 
 

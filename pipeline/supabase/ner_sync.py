@@ -12,7 +12,12 @@ from itertools import islice
 from pathlib import Path
 from typing import Iterator, Any
 
-from ..config import ENTITY_DICTIONARY_PATH, MANUAL_ANNOTATIONS_DIR, SUPABASE_BATCH_SIZE
+from ..config import (
+    CANONICALIZED_ENTITIES_PATH,
+    ENTITY_DICTIONARY_PATH,
+    MANUAL_ANNOTATIONS_DIR,
+    SUPABASE_BATCH_SIZE,
+)
 
 log = logging.getLogger(__name__)
 
@@ -161,6 +166,123 @@ def _load_doc_entities(annotations_dir: Path) -> list[dict[str, Any]]:
 
 
 # ---------------------------------------------------------------------------
+# Load from entities_canonicalized.jsonl
+# ---------------------------------------------------------------------------
+
+# Prefix map for generating synthetic entity_ids from entity type + canonical name
+_TYPE_PREFIX: dict[str, str] = {
+    "organizations": "org",
+    "offices": "office",
+    "roles": "role",
+    "legislation_refs": "legislation",
+    "named_docs": "doc",
+}
+
+# Name field per entity type (matches NER output schema)
+_NAME_FIELD: dict[str, str] = {
+    "organizations": "name",
+    "offices": "name",
+    "roles": "title",
+    "legislation_refs": "name",
+    "named_docs": "name",
+}
+
+
+def _make_entity_id(entity_type: str, name: str) -> str:
+    """Generate a deterministic entity_id from type + name, matching registry convention."""
+    import re
+    prefix = _TYPE_PREFIX.get(entity_type, entity_type)
+    slug = re.sub(r"[^a-z0-9]+", "_", name.lower().strip()).strip("_")
+    return f"{prefix}:{slug}"
+
+
+def _load_canonicalized_entities(
+    path: Path,
+    existing_entity_ids: set[str],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Load entities_canonicalized.jsonl and derive ner_entities + doc_entities rows.
+
+    Returns (new_entity_rows, doc_entity_rows).
+    new_entity_rows: entities not already in existing_entity_ids.
+    doc_entity_rows: one row per (agora_id, entity_id) unique mention.
+    """
+    if not path.exists():
+        log.warning("Canonicalized entities file not found at %s", path)
+        return [], []
+
+    # Accumulate entity dict by entity_id (to deduplicate across docs)
+    entity_map: dict[str, dict[str, Any]] = {}
+    # (agora_id, entity_id) → doc_entity row
+    doc_entity_map: dict[tuple[int, str], dict[str, Any]] = {}
+
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError as e:
+                log.warning("Skipped malformed line: %s", e)
+                continue
+
+            agora_id_raw = row.get("agora_id")
+            try:
+                agora_id = int(agora_id_raw)
+            except (ValueError, TypeError):
+                log.warning("Invalid agora_id: %s", agora_id_raw)
+                continue
+
+            for entity_type, name_field in _NAME_FIELD.items():
+                for entity in row.get(entity_type, []):
+                    name = entity.get(name_field, "").strip()
+                    if not name:
+                        continue
+
+                    # Use _canonicalized_from name if present (resolved bare alias)
+                    canonical_name = entity.get("_canonicalized_from") or name
+                    entity_id = _make_entity_id(entity_type, canonical_name)
+
+                    # Accumulate entity dictionary entry if not already known
+                    if entity_id not in existing_entity_ids and entity_id not in entity_map:
+                        entity_map[entity_id] = {
+                            "entity_id": entity_id,
+                            "entity_type": entity_type,
+                            "canonical_name": canonical_name,
+                            "acronym": entity.get("acronym"),
+                            "aliases": [],
+                            "soft_aliases": [],
+                            "metadata": {},
+                            "mention_count": 0,
+                            "first_seen": str(agora_id),
+                            "created_at": row.get("extracted_at"),
+                            "updated_at": row.get("extracted_at"),
+                        }
+
+                    # Accumulate doc_entity mention
+                    key = (agora_id, entity_id)
+                    if key not in doc_entity_map:
+                        doc_entity_map[key] = {
+                            "agora_id": agora_id,
+                            "entity_id": entity_id,
+                            "entity_type": entity_type,
+                            "mention_count": 0,
+                            "char_positions": [],
+                            "contexts": [],
+                        }
+                    de = doc_entity_map[key]
+                    de["mention_count"] += 1
+                    if "char_start" in entity and "char_end" in entity:
+                        de["char_positions"].append({
+                            "start": entity["char_start"],
+                            "end": entity["char_end"],
+                        })
+                    if "context" in entity:
+                        de["contexts"].append(entity["context"])
+
+    return list(entity_map.values()), list(doc_entity_map.values())
+
+
+# ---------------------------------------------------------------------------
 # Name → entity_id lookup
 # ---------------------------------------------------------------------------
 
@@ -241,39 +363,72 @@ def _upsert_table(
 def run(
     entity_dict_path: Path | None = None,
     annotations_dir: Path | None = None,
+    canonicalized_path: Path | None = None,
     dry_run: bool = False,
 ) -> None:
-    """Sync NER entities and document-entity mappings to Supabase."""
+    """Sync NER entities and document-entity mappings to Supabase.
+
+    Sources (merged):
+    - entity_dictionary.jsonl  → ner_entities (canonical registry)
+    - entities_canonicalized.jsonl → ner_entities (new entities) + doc_entities
+    - manual_annotations/       → doc_entities (legacy, used if present)
+    """
     entity_dict_path = entity_dict_path or ENTITY_DICTIONARY_PATH
     annotations_dir = annotations_dir or MANUAL_ANNOTATIONS_DIR
+    canonicalized_path = canonicalized_path or CANONICALIZED_ENTITIES_PATH
 
     client = None if dry_run else _get_supabase_client()
     totals: dict[str, int] = {}
 
     print("\n[1/2] Loading NER data …")
+
+    # 1a. Load canonical entity dictionary
     entity_rows = _load_entity_dictionary(entity_dict_path)
     print(f"  Entity dictionary: {len(entity_rows):,} entities")
+    existing_ids = {e["entity_id"] for e in entity_rows}
 
-    doc_entity_rows = _load_doc_entities(annotations_dir)
-    print(f"  Document annotations: {len(doc_entity_rows):,} mentions")
+    # 1b. Load entities_canonicalized.jsonl — new entities + doc_entities
+    new_entity_rows, canon_doc_entity_rows = _load_canonicalized_entities(
+        canonicalized_path, existing_ids
+    )
+    print(f"  Canonicalized entities (new): {len(new_entity_rows):,} entities, "
+          f"{len(canon_doc_entity_rows):,} doc-entity mappings")
+
+    # 1c. Load legacy manual annotations (if present)
+    legacy_doc_rows = _load_doc_entities(annotations_dir)
+    if legacy_doc_rows:
+        print(f"  Legacy manual annotations: {len(legacy_doc_rows):,} mentions")
+
+    # Merge entity rows: dictionary first, then new-from-canonicalized
+    all_entity_rows = entity_rows + new_entity_rows
 
     print("\n[2/2] Upserting to Supabase …")
 
-    # Upsert ner_entities first
+    # Upsert ner_entities first (dictionary + newly derived)
     totals["ner_entities"] = _upsert_table(
-        client, "ner_entities", entity_rows, "entity_id", dry_run
+        client, "ner_entities", all_entity_rows, "entity_id", dry_run
     )
 
-    # Build lookup and resolve doc_entity entity_ids
-    if entity_rows:
-        entity_lookup = _build_entity_lookup(entity_rows)
-        resolved_doc_entities = _resolve_doc_entity_ids(doc_entity_rows, entity_lookup)
+    # Resolve legacy annotations against full entity set
+    if legacy_doc_rows and all_entity_rows:
+        entity_lookup = _build_entity_lookup(all_entity_rows)
+        resolved_legacy = _resolve_doc_entity_ids(legacy_doc_rows, entity_lookup)
     else:
-        resolved_doc_entities = []
+        resolved_legacy = []
+
+    # Merge doc_entity rows: canonicalized primary, legacy fallback (deduplicated by key)
+    doc_entity_by_key: dict[tuple, dict] = {
+        (r["agora_id"], r["entity_id"]): r for r in canon_doc_entity_rows
+    }
+    for r in resolved_legacy:
+        key = (r["agora_id"], r["entity_id"])
+        if key not in doc_entity_by_key:
+            doc_entity_by_key[key] = r
+    all_doc_entity_rows = list(doc_entity_by_key.values())
 
     # Upsert doc_entities
     totals["doc_entities"] = _upsert_table(
-        client, "doc_entities", resolved_doc_entities, "agora_id,entity_id", dry_run
+        client, "doc_entities", all_doc_entity_rows, "agora_id,entity_id", dry_run
     )
 
     # Summary

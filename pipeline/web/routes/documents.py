@@ -132,7 +132,9 @@ def api_documents():
         # Build doc list from metadata cache (already fetched from Supabase)
         all_meta = _load_doc_metadata()
         agora_ids = sorted(all_meta.keys())
-    else:
+
+    # Fall back to local fulltext files if Supabase is disabled or returned nothing
+    if not supabase_enabled() or not agora_ids:
         if not FULLTEXT_DIR.exists():
             return jsonify([])
         agora_ids = [f.stem for f in sorted(FULLTEXT_DIR.iterdir()) if f.suffix == ".txt"]

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Review Queue - AGORA NER{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Review Queue</h1>
+  <div style="display:flex;gap:0.5rem;">
+    <button id="btn-bulk-accept" class="btn btn-success btn-sm" disabled>Bulk Accept</button>
+    <button id="btn-bulk-dismiss" class="btn btn-danger btn-sm" disabled>Bulk Dismiss</button>
+  </div>
+</div>
+
+<div class="filters">
+  <input type="text" id="rq-search" placeholder="Search entities..." />
+  <select id="rq-type-filter">
+    <option value="">All types</option>
+    <option value="organizations">Organizations</option>
+    <option value="offices">Offices</option>
+    <option value="roles">Roles</option>
+    <option value="legislation_refs">Legislation Refs</option>
+    <option value="named_docs">Named Docs</option>
+  </select>
+  <select id="rq-source-filter">
+    <option value="">All sources</option>
+    <option value="community">Community</option>
+    <option value="doc">Doc</option>
+    <option value="registry">Registry</option>
+    <option value="unresolved">Unresolved</option>
+  </select>
+  <span id="rq-count" class="count-badge"></span>
+</div>
+
+<table class="doc-table" id="rq-table">
+  <thead>
+    <tr>
+      <th><input type="checkbox" id="select-all" /></th>
+      <th>Entity Name</th>
+      <th>Type</th>
+      <th>Community</th>
+      <th>Suggested Canonical</th>
+      <th>Source</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="rq-tbody"></tbody>
+</table>
+
+<!-- Edit canonical modal -->
+<div id="edit-modal" class="modal hidden">
+  <div class="modal-content">
+    <h3>Edit &amp; Accept</h3>
+    <input type="hidden" id="edit-agora-id" />
+    <input type="hidden" id="edit-entity-name" />
+    <input type="hidden" id="edit-entity-type" />
+    <label>Canonical Name
+      <input type="text" id="edit-canonical" />
+    </label>
+    <div class="popover-actions">
+      <button id="edit-save" class="btn btn-primary btn-sm">Accept</button>
+      <button id="edit-cancel" class="btn btn-sm">Cancel</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='review_queue.js') }}?v={{ cache_bust }}"></script>
+{% endblock %}
