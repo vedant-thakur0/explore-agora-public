@@ -1,9 +1,53 @@
-.venv/
-wheelhouse/
-
-# Generated matcher run artifacts
-pipeline/runs/docx_match_*.json
-pipeline/runs/txt_match_*.json
+# Secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
 
-exploratory_reports/*.md
+# Runtime artifacts
+pipeline/agents/output/
+pipeline/agents/checkpoints/
+pipeline/agents/memory/
+pipeline/runs/
+pipeline/review_exports/
+pipeline/datasets/
+pipeline/raw/
+pipeline/normalized/
+pipeline/fulltext/
+
+# Knowledge graph fulltext (large)
+knowledge_graph/fulltext/
+
+# Reports and exploratory output
+reports/
+exploratory_reports/
+exploratory\ reports/
+ner_run.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Wheels / build
+wheelhouse/
+build/
+dist/
+
+# Large archives (case-by-case opt-in via !path)
+*.zip
+*.tar.gz
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
