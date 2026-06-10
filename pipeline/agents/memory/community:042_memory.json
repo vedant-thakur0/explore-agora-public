@@ -1,0 +1,111 @@
+{
+  "community_id": "community:042",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "2399"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "2399"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "acronym": null,
+        "context": "section 3 of the Communications Act of 1934",
+        "mentions": 1,
+        "first_seen": "2399"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "law enforcement officer",
+        "org": "unspecified law enforcement agency",
+        "context": "distribution made in good faith to a law enforcement officer or agency",
+        "mentions": 1,
+        "first_seen": "2399"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Protect Victims of Digital Exploitation and Manipulation Act of 2025",
+        "citation": "H.R./S. [bill number not specified]",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Protect Victims of Digital Exploitation and Manipulation Act of 2025\"",
+        "mentions": 1,
+        "first_seen": "2399"
+      },
+      {
+        "name": "Immigration and Nationality Act",
+        "citation": "section 101(a)",
+        "ref_type": "cites",
+        "context": "as such term is defined in section 101(a) of the Immigration and Nationality Act",
+        "mentions": 1,
+        "first_seen": "2399"
+      },
+      {
+        "name": "Title 18, United States Code",
+        "citation": "Title 18",
+        "ref_type": "amends",
+        "context": "To amend title 18, United States Code, to prohibit the production or distribution",
+        "mentions": 1,
+        "first_seen": "2399"
+      },
+      {
+        "name": "Chapter 88 of title 18, United States Code",
+        "citation": "Chapter 88, Title 18",
+        "ref_type": "amends",
+        "context": "Chapter 88 of title 18, United States Code, is amended by adding at the end",
+        "mentions": 1,
+        "first_seen": "2399"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "citation": "section 3; section 230(f)",
+        "ref_type": "cites",
+        "context": "section 3 of the Communications Act of 1934; section 230(f) of the Communications Act of 1934",
+        "mentions": 1,
+        "first_seen": "2399"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "law enforcement agency": "Resolved as generic reference to any federal, state, or local law enforcement entity per subsection (b)(1)(A) context"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "2399",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "law enforcement agency",
+      "resolved": "Resolved as generic reference to any federal, state, or local law enforcement entity per subsection (b)(1)(A) context",
+      "doc_id": "2399",
+      "community_id": "community:042"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:protect_victims_of_digital_exploitation_and_manipulation_act_of_2025": 0.6,
+    "legislation:immigration_and_nationality_act": 0.6,
+    "legislation:title_18_united_states_code": 0.6,
+    "legislation:chapter_88_of_title_18_united_states_code": 0.6,
+    "legislation:communications_act_of_1934": 0.6,
+    "role:law_enforcement_officer": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:communications_act_of_1934": 0.6
+  }
+}

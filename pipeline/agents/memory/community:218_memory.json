@@ -1,0 +1,160 @@
+{
+  "community_id": "community:218",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Security Commission on Artificial Intelligence",
+        "acronym": null,
+        "context": "Commission established under section 1051 of the John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "Senate Committee on Health, Education, Labor, and Pensions",
+        "acronym": null,
+        "context": "Recipient of MedShield program plan report required under section 4",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "Senate Committee on Appropriations",
+        "acronym": null,
+        "context": "Recipient of MedShield program plan report required under section 4",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "House Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Recipient of MedShield program plan report required under section 4",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "House Committee on Appropriations",
+        "acronym": null,
+        "context": "Recipient of MedShield program plan report required under section 4",
+        "mentions": 1,
+        "first_seen": "1199"
+      }
+    ],
+    "offices": [
+      {
+        "name": "National Response Framework",
+        "parent_org": "Federal Emergency Management Agency",
+        "context": "Framework under which HHS serves as primary agency for emergency support function relating to public health and medical services",
+        "mentions": 1,
+        "first_seen": "1199"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "Shall implement the MedShield program utilizing artificial intelligence and other relevant technologies",
+        "mentions": 1,
+        "first_seen": "1199"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "MedShield Act of 2024",
+        "citation": "Short title, SEC. 1",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the MedShield Act of 2024",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "Public Health Service Act",
+        "citation": "42 U.S.C. 247d, section 319",
+        "ref_type": "cites",
+        "context": "Declaration of a public health emergency under section 319 of the Public Health Service Act",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "Public Law 115-232, 132 Stat. 1962",
+        "ref_type": "cites",
+        "context": "Definitions of artificial intelligence and National Security Commission on Artificial Intelligence",
+        "mentions": 1,
+        "first_seen": "1199"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "MedShield program",
+        "doc_type": "program",
+        "owner_org": "Department of Health and Human Services",
+        "context": "Pandemic preparedness and response program utilizing artificial intelligence established under section 3",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "Operation Warp Speed",
+        "doc_type": "initiative",
+        "owner_org": null,
+        "context": "Initiative referenced as example that should not be required for future pandemics under sense of Congress",
+        "mentions": 1,
+        "first_seen": "1199"
+      },
+      {
+        "name": "National Response Framework",
+        "doc_type": "plan",
+        "owner_org": "Federal Emergency Management Agency",
+        "context": "Framework defining emergency support functions for public health and medical services",
+        "mentions": 1,
+        "first_seen": "1199"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Health and Human Services",
+    "the department": "Department of Health and Human Services",
+    "the program": "MedShield program"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1199",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Secretary",
+      "resolved": "Secretary of Health and Human Services",
+      "doc_id": "1199",
+      "community_id": "community:218"
+    },
+    {
+      "phrase": "the Department",
+      "resolved": "Department of Health and Human Services",
+      "doc_id": "1199",
+      "community_id": "community:218"
+    },
+    {
+      "phrase": "the Program",
+      "resolved": "MedShield program",
+      "doc_id": "1199",
+      "community_id": "community:218"
+    }
+  ],
+  "entity_confidence": {
+    "org:national_security_commission_on_artificial_intelligence": 0.6,
+    "org:senate_committee_on_health_education_labor_and_pensions": 0.6,
+    "org:senate_committee_on_appropriations": 0.6,
+    "org:house_committee_on_energy_and_commerce": 0.6,
+    "org:house_committee_on_appropriations": 0.6,
+    "legislation:medshield_act_of_2024": 0.6,
+    "legislation:public_health_service_act": 0.6,
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "office:national_response_framework": 0.6,
+    "named_doc:medshield_program": 0.6,
+    "named_doc:operation_warp_speed": 0.6,
+    "named_doc:national_response_framework": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6
+  }
+}

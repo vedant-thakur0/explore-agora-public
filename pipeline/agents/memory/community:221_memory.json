@@ -1,0 +1,159 @@
+{
+  "community_id": "community:221",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Secretary of Agriculture",
+        "acronym": null,
+        "context": "The Secretary, in consultation with the head of any other relevant Federal agency, shall establish a center",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "acronym": null,
+        "context": "National Laboratory has the meaning given the term in section 2 of the Energy Policy Act of 2005",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "National Institute of Food and Agriculture",
+        "acronym": "NIFA",
+        "context": "Agricultural Genome to Phenome Initiative (also known as the \"AG2PI\") of the National Institute of Food and Agriculture",
+        "mentions": 1,
+        "first_seen": "1319"
+      }
+    ],
+    "offices": [
+      {
+        "name": "National Synthetic Biology Center",
+        "parent_org": "Federal government",
+        "context": "Establishes a National Synthetic Biology Center to award grants for projects",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "technology transfer offices",
+        "parent_org": "National Synthetic Biology Center",
+        "context": "The Center shall coordinate with technology transfer offices or technology licensing offices",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "technology licensing offices",
+        "parent_org": "National Synthetic Biology Center",
+        "context": "The Center shall coordinate with technology transfer offices or technology licensing offices",
+        "mentions": 1,
+        "first_seen": "1319"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "The Secretary, in consultation with the head of any other relevant Federal agency, shall establish a center",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "title": "Head of relevant Federal agency",
+        "org": "Federal agencies",
+        "context": "The Secretary, in consultation with the head of any other relevant Federal agency",
+        "mentions": 1,
+        "first_seen": "1319"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Synthetic Biology Advancement Act of 2024",
+        "citation": "H.R./S. [number not provided]",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Synthetic Biology Advancement Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "Securing Our Agriculture and Food Act",
+        "citation": "Public Law 115-43; 131 Stat. 884",
+        "ref_type": "cites",
+        "context": "Congress has historically prioritized a safe and secure food supply in the United States, as evidenced by the enactment of the Securing Our Agriculture and Food Act",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "Agricultural Research, Extension, and Education Reform Act of 1998",
+        "citation": "7 U.S.C. 7601",
+        "ref_type": "cites",
+        "context": "1862 Institution and 1890 Institution have the meanings given those terms in section 2 of the Agricultural Research, Extension, and Education Reform Act of 1998",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "Equity in Educational Land-Grant Status Act of 1994",
+        "citation": "7 U.S.C. 301 note; Public Law 103-382",
+        "ref_type": "cites",
+        "context": "1994 Institution has the meaning given the term in section 532 of the Equity in Educational Land-Grant Status Act of 1994",
+        "mentions": 1,
+        "first_seen": "1319"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 15801",
+        "ref_type": "cites",
+        "context": "National Laboratory has the meaning given the term in section 2 of the Energy Policy Act of 2005",
+        "mentions": 1,
+        "first_seen": "1319"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Agricultural Genome to Phenome Initiative",
+        "doc_type": "initiative",
+        "owner_org": "National Institute of Food and Agriculture",
+        "context": "Agricultural Genome to Phenome Initiative (also known as the \"AG2PI\") of the National Institute of Food and Agriculture",
+        "mentions": 1,
+        "first_seen": "1319"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Agriculture (established in SEC. 3(a)(6) as the entity responsible for establishing the National Synthetic Biology Center)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1319",
+      "note": "Only the short title section is provided; full text of substantive provisions not present in extracted text"
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1319",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Agriculture (established in SEC. 3(a)(6) as the entity responsible for establishing the National Synthetic Biology Center)",
+      "doc_id": "1319",
+      "community_id": "community:221"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:synthetic_biology_advancement_act_of_2024": 0.6,
+    "legislation:securing_our_agriculture_and_food_act": 0.6,
+    "legislation:agricultural_research_extension_and_education_reform_act_of_1998": 0.6,
+    "legislation:equity_in_educational_land_grant_status_act_of_1994": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "office:national_synthetic_biology_center": 0.6,
+    "office:technology_transfer_offices": 0.6,
+    "office:technology_licensing_offices": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "role:head_of_relevant_federal_agency": 0.6,
+    "named_doc:agricultural_genome_to_phenome_initiative": 0.6,
+    "org:secretary_of_agriculture": 0.6,
+    "org:energy_policy_act_of_2005": 0.6,
+    "org:national_institute_of_food_and_agriculture": 0.6
+  }
+}

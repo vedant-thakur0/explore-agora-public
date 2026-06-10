@@ -1,0 +1,32 @@
+{
+  "community_id": "community:149",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [],
+    "offices": [],
+    "roles": [],
+    "legislation_refs": [
+      {
+        "name": "Online Privacy Act of 2023",
+        "citation": "Online Privacy Act of 2023, Sec. 106",
+        "ref_type": "enacts",
+        "context": "Document title and legislative source for Section 106",
+        "mentions": 1,
+        "first_seen": "837"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "837",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:online_privacy_act_of_2023": 0.6
+  }
+}

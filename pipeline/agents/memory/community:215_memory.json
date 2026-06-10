@@ -1,0 +1,335 @@
+{
+  "community_id": "community:215",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Oceanic and Atmospheric Administration",
+        "acronym": "NOAA",
+        "context": "Administrator of the National Oceanic and Atmospheric Administration shall establish a joint office",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Federal Emergency Management Agency",
+        "acronym": "FEMA",
+        "context": "Referenced in community context; coordination entity for fire management",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "United States Fire Administration",
+        "acronym": "USFA",
+        "context": "One member who is a career employee of the United States Fire Administration",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "National Weather Service",
+        "acronym": "NWS",
+        "context": "One member who is a career employee of the National Weather Service",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Forest Service",
+        "acronym": "FS",
+        "context": "One member who is a career employee of the Forest Service, appointed by the Chief",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Department of the Interior",
+        "acronym": "DOI",
+        "context": "One member who is a career employee of the Department of the Interior",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Bureau of Land Management",
+        "acronym": "BLM",
+        "context": "One member who is a career employee of the Bureau of Land Management",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Bureau of Indian Affairs",
+        "acronym": "BIA",
+        "context": "One member who is a career employee of the Bureau of Indian Affairs",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "National Park Service",
+        "acronym": "NPS",
+        "context": "One member who is a career employee of the National Park Service",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "United States Fish and Wildlife Service",
+        "acronym": "USFWS",
+        "context": "One member who is a career employee of the United States Fish and Wildlife Service",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Environmental Protection Agency",
+        "acronym": "EPA",
+        "context": "Joint Office is encouraged to consult with Environmental Protection Agency",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "National Aeronautical and Space Administration",
+        "acronym": "NASA",
+        "context": "Joint Office is encouraged to consult with National Aeronautical and Space Agency",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "United States Geological Survey",
+        "acronym": "USGS",
+        "context": "Joint Office is encouraged to consult with United States Geological Survey",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC",
+        "context": "Joint Office is encouraged to consult with Centers for Disease Control and Prevention",
+        "mentions": 1,
+        "first_seen": "1344"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Joint Office of the Fire Environment Center",
+        "parent_org": "National Oceanic and Atmospheric Administration",
+        "context": "SEC. 405. Joint Office of the Fire Environment Center established not later than 1 year after enactment",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Technology and Engineering",
+        "parent_org": "Joint Office of the Fire Environment Center",
+        "context": "Branch focused on modeling and building and testing of technology, may enter into public-private partnerships",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Data Services",
+        "parent_org": "Joint Office of the Fire Environment Center",
+        "context": "Responsible for testing artificial intelligence and machine learning technologies, data sharing with State, local, and Tribal entities",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Analysis and Prediction",
+        "parent_org": "Joint Office of the Fire Environment Center",
+        "context": "Branch of the Joint Office for analytical and predictive functions",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Education and Consultation",
+        "parent_org": "Joint Office of the Fire Environment Center",
+        "context": "Branch responsible for incident management",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Board of the Joint Office",
+        "parent_org": "Joint Office of the Fire Environment Center",
+        "context": "The Joint Office shall be governed by a board, comprised of 12 members",
+        "mentions": 1,
+        "first_seen": "1344"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Administrator",
+        "org": "National Oceanic and Atmospheric Administration",
+        "context": "Administrator of the National Oceanic and Atmospheric Administration shall establish joint office and operate as collective entity",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Chief",
+        "org": "Forest Service",
+        "context": "appointed by the Chief of the Forest Service",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of the Interior",
+        "context": "appointed by the Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Chairperson",
+        "org": "Board of the Joint Office",
+        "context": "Chairperson and Vice Chairperson of the Board shall be elected by the members",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Vice Chairperson",
+        "org": "Board of the Joint Office",
+        "context": "Chairperson and Vice Chairperson of the Board shall be elected by the members",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Chief Information Officer",
+        "org": "Joint Office of the Fire Environment Center",
+        "context": "Director may appoint a Chief Information Officer",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Chief Financial Officer",
+        "org": "Joint Office of the Fire Environment Center",
+        "context": "Director may appoint a Chief Financial Officer",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "org": "Joint Office of the Fire Environment Center",
+        "context": "Director may appoint a Chief Technology Officer",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Chief Operating Officer",
+        "org": "Joint Office of the Fire Environment Center",
+        "context": "Director may appoint a Chief Operating Officer",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "title": "Director of the Joint Office",
+        "org": "Joint Office of the Fire Environment Center",
+        "context": "Director of the Joint Office required by subsection (d)",
+        "mentions": 1,
+        "first_seen": "1344"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Modernizing Wildfire Safety and Prevention Act of 2024",
+        "citation": "SEC. 405",
+        "ref_type": "enacts",
+        "context": "Not later than 1 year after the date of the enactment of this Act",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Title 5, United States Code",
+        "citation": "5 U.S.C.",
+        "ref_type": "cites",
+        "context": "travel expenses under subchapter I of chapter 57 of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Title 5, United States Code (Chapter 51 and Subchapter III of Chapter 53)",
+        "citation": "5 U.S.C. \u00a7\u00a7 3101 et seq., Chapter 51, Subchapter III of Chapter 53",
+        "ref_type": "cites",
+        "context": "paid in accordance with provisions of chapter 51 and subchapter III of chapter 53",
+        "mentions": 1,
+        "first_seen": "1344"
+      },
+      {
+        "name": "Section 3109(b) of Title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 3109(b)",
+        "ref_type": "cites",
+        "context": "procure temporary and intermittent services under section 3109(b) of title 5",
+        "mentions": 1,
+        "first_seen": "1344"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report Recommendations 104, 105, 106",
+        "doc_type": "report",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "SEC. 405 addresses Report Recommendations 104, 105, 106 regarding Joint Office establishment",
+        "mentions": 1,
+        "first_seen": "1344"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the administrator": "Administrator of the National Oceanic and Atmospheric Administration",
+    "the board": "Board associated with Joint Office of the Fire Environment Center (referenced in subsection (a)(2)(E) as determining necessary branches)",
+    "director": "Director of the Joint Office of the Fire Environment Center (as defined in subsection (d), distinct from generic Director usage elsewhere)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1344",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Administrator",
+      "resolved": "Administrator of the National Oceanic and Atmospheric Administration",
+      "doc_id": "1344",
+      "community_id": "community:215"
+    },
+    {
+      "phrase": "the Board",
+      "resolved": "Board associated with Joint Office of the Fire Environment Center (referenced in subsection (a)(2)(E) as determining necessary branches)",
+      "doc_id": "1344",
+      "community_id": "community:215"
+    },
+    {
+      "phrase": "Director",
+      "resolved": "Director of the Joint Office of the Fire Environment Center (as defined in subsection (d), distinct from generic Director usage elsewhere)",
+      "doc_id": "1344",
+      "community_id": "community:215"
+    }
+  ],
+  "entity_confidence": {
+    "org:national_oceanic_and_atmospheric_administration": 1.0,
+    "org:federal_emergency_management_agency": 1.0,
+    "org:united_states_fire_administration": 0.6,
+    "org:national_weather_service": 0.6,
+    "org:forest_service": 0.6,
+    "org:department_of_the_interior": 0.6,
+    "org:bureau_of_land_management": 0.6,
+    "org:bureau_of_indian_affairs": 0.6,
+    "org:national_park_service": 0.6,
+    "org:united_states_fish_and_wildlife_service": 0.6,
+    "org:environmental_protection_agency": 0.6,
+    "org:national_aeronautical_and_space_administration": 0.6,
+    "org:united_states_geological_survey": 0.6,
+    "org:centers_for_disease_control_and_prevention": 0.6,
+    "legislation:modernizing_wildfire_safety_and_prevention_act_of_2024": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "legislation:title_5_united_states_code_chapter_51_and_subchapter_iii_of_chapter_53": 0.6,
+    "legislation:section_3109_b_of_title_5_united_states_code": 0.6,
+    "office:joint_office_of_the_fire_environment_center": 0.6,
+    "office:technology_and_engineering": 0.6,
+    "office:data_services": 0.6,
+    "office:analysis_and_prediction": 0.6,
+    "office:education_and_consultation": 0.6,
+    "office:board_of_the_joint_office": 0.6,
+    "named_doc:report_recommendations_104_105_106": 0.6,
+    "role:administrator": 0.6,
+    "role:chief": 0.39999999999999997,
+    "role:secretary": 0.6,
+    "role:chairperson": 0.6,
+    "role:vice_chairperson": 0.6,
+    "role:chief_information_officer": 0.6,
+    "role:chief_financial_officer": 0.6,
+    "role:chief_technology_officer": 0.6,
+    "role:chief_operating_officer": 0.6,
+    "role:director_of_the_joint_office": 0.6
+  }
+}

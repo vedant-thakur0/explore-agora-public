@@ -1,0 +1,250 @@
+{
+  "community_id": "community:036",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Forest Service",
+        "acronym": "USFS",
+        "context": "Chief of the Forest Service shall jointly establish a Fireshed Center",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "U.S. Geological Survey",
+        "acronym": "USGS",
+        "context": "Director of the U.S. Geological Survey, shall jointly establish a Fireshed Center",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Bureau of Land Management",
+        "acronym": "BLM",
+        "context": "career representative from...The Bureau of Land Management",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "National Park Service",
+        "acronym": "NPS",
+        "context": "career representative from...The National Park Service",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Bureau of Indian Affairs",
+        "acronym": "BIA",
+        "context": "career representative from...The Bureau of Indian Affairs",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "U.S. Fish and Wildlife Service",
+        "acronym": "USFWS",
+        "context": "career representative from...The U.S. Fish and Wildlife Service",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "career representative from...The Department of Energy",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "United States Fire Administration",
+        "acronym": "USFA",
+        "context": "the United States Fire Administration",
+        "mentions": 1,
+        "first_seen": "1353"
+      },
+      {
+        "name": "National Wildfire Coordinating Group",
+        "acronym": "NWCG",
+        "context": "incorporate the Pilot Program into the National Wildfire Coordinating Group",
+        "mentions": 1,
+        "first_seen": "1353"
+      },
+      {
+        "name": "Fire Weather Testbed",
+        "acronym": null,
+        "context": "participated in the Fire Weather Testbed of the National Oceanic and Atmospheric Administration",
+        "mentions": 1,
+        "first_seen": "1353"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Fireshed Center",
+        "parent_org": "U.S. Geological Survey / Forest Service",
+        "context": "shall jointly establish a Fireshed Center comprised of at least one career representative",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Fireshed Registry",
+        "parent_org": "Fireshed Center",
+        "context": "maintain the Fireshed Registry established under section 103",
+        "mentions": 1,
+        "first_seen": "1352"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Chief of the Forest Service",
+        "org": "Forest Service",
+        "context": "The Secretary, acting through the Chief of the Forest Service",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "title": "Director of the U.S. Geological Survey",
+        "org": "U.S. Geological Survey",
+        "context": "Secretary of the Interior, acting through the Director of the U.S. Geological Survey",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "title": "Director of the Center",
+        "org": "Fireshed Center",
+        "context": "shall jointly appoint a Director of the Center, who shall be an employee of the U.S. Geological Survey or the Forest Service",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Agriculture",
+        "context": "The Secretary, acting through the Chief of the Forest Service",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "title": "Secretary of the Interior",
+        "org": "Department of the Interior",
+        "context": "the Secretary of the Interior, acting through the Director of the U.S. Geological Survey",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "title": "The Secretaries",
+        "org": "Department of Agriculture and Department of the Interior",
+        "context": "the Secretaries, in coordination with the heads of the covered agencies",
+        "mentions": 1,
+        "first_seen": "1353"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Fix Our Forests Act, Section 105",
+        "citation": "SEC. 105",
+        "ref_type": "cites",
+        "context": "at-risk communities identified in fireshed assessments conducted under section 105",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Fix Our Forests Act, Section 103",
+        "citation": "SEC. 103",
+        "ref_type": "cites",
+        "context": "maintain the Fireshed Registry established under section 103",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Federal Lands Recreation Enhancement Act",
+        "citation": "16 U.S.C. 6801",
+        "ref_type": "cites",
+        "context": "as defined in the Federal Lands Recreation Enhancement Act (16 U.S.C. 6801)",
+        "mentions": 1,
+        "first_seen": "1353"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "as defined in section 101 of the Higher Education Act of 1965 (20 U.S.C. 1001)",
+        "mentions": 1,
+        "first_seen": "1353"
+      },
+      {
+        "name": "Fix Our Forests Act, Section 303",
+        "citation": "SEC. 303",
+        "ref_type": "enacts",
+        "context": "SEC. 303. Public-private wildfire technology deployment and demonstration partnership",
+        "mentions": 1,
+        "first_seen": "1353"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "National Weather Service fire weather forecasts",
+        "doc_type": "other",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "National Weather Service fire weather forecasts to support short- and long-term planning",
+        "mentions": 1,
+        "first_seen": "1352"
+      },
+      {
+        "name": "Pilot Program",
+        "doc_type": "program",
+        "owner_org": "Department of Agriculture and Department of the Interior",
+        "context": "establish a deployment and demonstration pilot program (in this section referred to as \"Pilot Program\")",
+        "mentions": 1,
+        "first_seen": "1353"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Agriculture (inferred from context with Chief of Forest Service)",
+    "the director": "Director of the Fireshed Center (established in this section)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "1353",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Secretary",
+      "resolved": "Secretary of Agriculture (inferred from context with Chief of Forest Service)",
+      "doc_id": "1352",
+      "community_id": "community:036"
+    },
+    {
+      "phrase": "the Director",
+      "resolved": "Director of the Fireshed Center (established in this section)",
+      "doc_id": "1352",
+      "community_id": "community:036"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:fix_our_forests_act_section_105": 0.6,
+    "legislation:fix_our_forests_act_section_103": 0.6,
+    "office:fireshed_center": 0.6,
+    "office:fireshed_registry": 0.6,
+    "role:chief_of_the_forest_service": 0.6,
+    "role:director_of_the_u_s_geological_survey": 0.6,
+    "role:director_of_the_center": 0.6,
+    "role:secretary": 0.6,
+    "role:secretary_of_the_interior": 0.6,
+    "named_doc:national_weather_service_fire_weather_forecasts": 0.6,
+    "org:forest_service": 0.6,
+    "org:u_s_geological_survey": 0.6,
+    "org:bureau_of_land_management": 0.6,
+    "org:national_park_service": 0.6,
+    "org:bureau_of_indian_affairs": 0.6,
+    "org:u_s_fish_and_wildlife_service": 0.6,
+    "org:department_of_energy": 0.6,
+    "legislation:federal_lands_recreation_enhancement_act": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:fix_our_forests_act_section_303": 0.6,
+    "role:the_secretaries": 0.6,
+    "named_doc:pilot_program": 0.6,
+    "org:united_states_fire_administration": 0.6,
+    "org:national_wildfire_coordinating_group": 0.6,
+    "org:fire_weather_testbed": 0.6
+  }
+}

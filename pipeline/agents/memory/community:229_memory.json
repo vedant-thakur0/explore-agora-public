@@ -1,0 +1,784 @@
+{
+  "community_id": "community:229",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Fair Labor Standards Act of 1938",
+        "acronym": null,
+        "context": "section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C. 203)",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Government Employee Rights Act of 1991",
+        "acronym": null,
+        "context": "section 304(a) of the Government Employee Rights Act of 1991 (42 U.S.C. 2000e\u201316c(a))",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Congressional Accountability Act of 1995",
+        "acronym": null,
+        "context": "section 101 of the Congressional Accountability Act of 1995 (2 U.S.C. 1301)",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "the Government Accountability Office and the Library of Congress",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Library of Congress",
+        "acronym": null,
+        "context": "the Government Accountability Office and the Library of Congress",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "acronym": null,
+        "context": "section 2(5) of the National Labor Relations Act (29 U.S.C. 152(5))",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federally Recognized Indian Tribe List Act of 1994",
+        "acronym": null,
+        "context": "section 104 of the Federally Recognized Indian Tribe List Act of 1994 (25 U.S.C. 5131)",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federal Reserve Bank",
+        "acronym": null,
+        "context": "individuals employed by the United States, any wholly owned Government corporation, any Federal Reserve Bank",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "California Privacy Protection Agency",
+        "acronym": null,
+        "context": "a State consumer protection agency with expertise in data protection, including the California Privacy Protection Agency",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Department of Labor",
+        "acronym": null,
+        "context": "established in the Department of Labor the Privacy and Technology Division",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Privacy and Technology Division",
+        "acronym": null,
+        "context": "There is established in the Department of Labor the Privacy and Technology Division",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "including the Federal Trade Commission, and Federal agencies that have jurisdiction over labor",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Equal Employment Opportunity Commission",
+        "acronym": "EEOC",
+        "context": "including the Equal Employment Opportunity Commission, the National Labor Relations Board",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "National Labor Relations Board",
+        "acronym": "NLRB",
+        "context": "including the Equal Employment Opportunity Commission, the National Labor Relations Board",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "National Mediation Board",
+        "acronym": null,
+        "context": "the National Labor Relations Board, the National Mediation Board, and the Merit Systems Protection Board",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Merit Systems Protection Board",
+        "acronym": "MSPB",
+        "context": "the National Mediation Board, and the Merit Systems Protection Board",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Wage and Hour Division",
+        "acronym": null,
+        "context": "acting through the Administrator and the Administrator of the Wage and Hour Division",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Office of Compliance",
+        "acronym": null,
+        "context": "the Board of Directors of the Office of Compliance shall prescribe regulations in accordance with section 304 of the Congressional Accountability Act of 1995",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Office of Personnel Management",
+        "acronym": "OPM",
+        "context": "the Director of the Office of Personnel Management shall prescribe such regulations",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Attorney General",
+        "acronym": null,
+        "context": "Referral for criminal proceedings under Federal criminal law",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Tribal government",
+        "acronym": null,
+        "context": "A Tribal government's receipt or use of Federal financial assistance",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federal Rules of Civil Procedure",
+        "acronym": "FRCP",
+        "context": "may intervene as of right pursuant to the Federal Rules of Civil Procedure",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "submit to Congress, and make publicly available, a report",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Indian Tribe",
+        "acronym": null,
+        "context": "civil actions on behalf of the Tribal government or the Indian Tribe of the Tribal government",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "11th Amendment to the Constitution of the United States",
+        "acronym": null,
+        "context": "waiver of sovereign immunity, under the 11th Amendment to the Constitution",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Civil Rights Act of 1964",
+        "acronym": null,
+        "context": "section 606 of the Civil Rights Act of 1964 (42 U.S.C. 2000d\u20134a)",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Board",
+        "acronym": null,
+        "context": "Board (as defined in section 101 of that Act (2 U.S.C. 1301))",
+        "mentions": 1,
+        "first_seen": "457"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Privacy and Technology Division",
+        "parent_org": "Federal Trade Commission",
+        "context": "Establishes a Privacy and Technology Division for oversight",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "principal office",
+        "parent_org": "Privacy and Technology Division",
+        "context": "The principal office of the Privacy and Technology Division shall be in the District of Columbia",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "regional, local, or other offices",
+        "parent_org": "Privacy and Technology Division",
+        "context": "The Administrator may establish regional, local, or other offices, including an office in the city of San Francisco, California, or the San Francisco Bay area in California",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "San Francisco office",
+        "parent_org": "Privacy and Technology Division",
+        "context": "an office in the city of San Francisco, California, or the San Francisco Bay area in California",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Board of Directors",
+        "parent_org": "Office of Compliance",
+        "context": "the Board of Directors of the Office of Compliance shall prescribe regulations",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Solicitor of Labor",
+        "parent_org": "Department of Labor",
+        "context": "may appear for and represent the Secretary on any litigation",
+        "mentions": 1,
+        "first_seen": "457"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Labor",
+        "org": "Department of Labor",
+        "context": "The term \"Secretary\" means the Secretary of Labor",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "State attorney general",
+        "org": "State",
+        "context": "the attorney general or chief law enforcement officer of the State, or another official or agency designated by the State",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Chief law enforcement officer",
+        "org": "Tribal government",
+        "context": "the attorney general or chief law enforcement officer of the Tribal government, or another official or agency designated by the Tribal government",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Chief consumer protection officer",
+        "org": "State",
+        "context": "the chief consumer protection officer of a State",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Labor",
+        "context": "in a form prescribed by the Secretary",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Administrator of the Privacy and Technology Division",
+        "org": "Privacy and Technology Division",
+        "context": "The President shall appoint an Administrator of the Privacy and Technology Division to head the Privacy and Technology Division",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Administrator of the Wage and Hour Division",
+        "org": "Wage and Hour Division",
+        "context": "acting through the Administrator and the Administrator of the Wage and Hour Division, may issue orders and guidance",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "The Comptroller General of the United States and the Librarian of Congress shall prescribe any regulations",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Librarian of Congress",
+        "org": "Library of Congress",
+        "context": "The Comptroller General of the United States and the Librarian of Congress shall prescribe any regulations",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "President",
+        "org": "Executive Office of the President",
+        "context": "the President (or the designee of the President) shall prescribe such regulations",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Director",
+        "org": "Office of Personnel Management",
+        "context": "the Director of the Office of Personnel Management shall prescribe such regulations",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "title": "Solicitor of Labor",
+        "org": "Department of Labor",
+        "context": "may appear for and represent the Secretary on any litigation brought under this subsection",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "State privacy regulator",
+        "org": null,
+        "context": "In any case in which a State attorney general or a State privacy regulator has reason to believe that an interest of the residents of a State",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "title": "Attorney General",
+        "org": "State",
+        "context": "the attorney general or chief law enforcement officer of the State, or another official or agency designated by the State",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "title": "Director of the Office of Personnel Management",
+        "org": "Office of Personnel Management",
+        "context": "the Director of the Office of Personnel Management shall prescribe such regulations as may be necessary to carry out this Act",
+        "mentions": 1,
+        "first_seen": "457"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Stop Spying Bosses Act",
+        "citation": "Section 1",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Stop Spying Bosses Act\".",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Fair Labor Standards Act of 1938",
+        "citation": "29 U.S.C. 203",
+        "ref_type": "cites",
+        "context": "section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C. 203)",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Government Employee Rights Act of 1991",
+        "citation": "42 U.S.C. 2000e\u201316c(a)",
+        "ref_type": "cites",
+        "context": "section 304(a) of the Government Employee Rights Act of 1991",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Congressional Accountability Act of 1995",
+        "citation": "2 U.S.C. 1301",
+        "ref_type": "cites",
+        "context": "section 101 of the Congressional Accountability Act of 1995",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 3, United States Code, Section 411(c)",
+        "citation": "3 U.S.C. 411(c)",
+        "ref_type": "cites",
+        "context": "an employing office, as defined in section 411(c) of title 3, United States Code",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Chapter 63, Subchapter V",
+        "citation": "5 U.S.C. \u00a7 63, subchapter V",
+        "ref_type": "cites",
+        "context": "subchapter V of chapter 63 of title 5, United States Code",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Section 3371",
+        "citation": "5 U.S.C. 3371",
+        "ref_type": "cites",
+        "context": "section 3371 of title 5, United States Code",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "citation": "29 U.S.C. 152(5)",
+        "ref_type": "cites",
+        "context": "section 2(5) of the National Labor Relations Act (29 U.S.C. 152(5))",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federally Recognized Indian Tribe List Act of 1994",
+        "citation": "25 U.S.C. 5131",
+        "ref_type": "cites",
+        "context": "section 104 of the Federally Recognized Indian Tribe List Act of 1994",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Railway Labor Act",
+        "citation": "45 U.S.C. 151 et seq.",
+        "ref_type": "cites",
+        "context": "individuals employed by persons subject to the Railway Labor Act (45 U.S.C. 151 et seq.)",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Section 3309-3318",
+        "citation": "5 U.S.C. \u00a7\u00a7 3309-3318",
+        "ref_type": "cites",
+        "context": "without regard to the provisions of sections 3309 through 3318 of title 5, United States Code",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Section 2102",
+        "citation": "5 U.S.C. \u00a7 2102",
+        "ref_type": "cites",
+        "context": "competitive service, as defined in section 2102 of such title",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Chapter 51 and Subchapter III of Chapter 53",
+        "citation": "5 U.S.C. ch. 51 & subch. III of ch. 53",
+        "ref_type": "cites",
+        "context": "without regard to chapter 51 and subchapter III of chapter 53 of title 5, United States Code, relating to classification",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Section 5316",
+        "citation": "5 U.S.C. \u00a7 5316",
+        "ref_type": "cites",
+        "context": "the rate payable for level V of the Executive Schedule under section 5316 of that title",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Chapter 10 (Federal Advisory Committee Act)",
+        "citation": "5 U.S.C. ch. 10",
+        "ref_type": "cites",
+        "context": "Each advisory board shall be exempt from chapter 10 of title 5, United States Code (commonly known as the Federal Advisory Committee Act)",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Title 5, United States Code, Subchapter I of Chapter 57",
+        "citation": "5 U.S.C. subch. I of ch. 57",
+        "ref_type": "cites",
+        "context": "receive travel expenses, including per diem in lieu of subsistence, in accordance with applicable provisions under subchapter I of chapter 57",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Chapter 5 of Title 3, United States Code",
+        "citation": "3 U.S.C. Chapter 5",
+        "ref_type": "cites",
+        "context": "Employees covered by chapter 5 of title 3, united states code",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Chapter 63 of Title 5, United States Code",
+        "citation": "5 U.S.C. Chapter 63",
+        "ref_type": "cites",
+        "context": "Employees covered by chapter 63 of title 5, united states code",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "11th Amendment to the Constitution of the United States",
+        "citation": "U.S. Const. amend. XI",
+        "ref_type": "cites",
+        "context": "Waiver of sovereign immunity under the 11th Amendment for States receiving Federal financial assistance",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Revised Statutes section 722",
+        "citation": "42 U.S.C. 1988",
+        "ref_type": "cites",
+        "context": "Court may award costs authorized by section 722 of the Revised Statutes in official capacity suits",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Civil Rights Act of 1964 section 606",
+        "citation": "42 U.S.C. 2000d\u20134a",
+        "ref_type": "cites",
+        "context": "Definition of 'program or activity' in context of State employee remedies",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 3 of Stop Spying Bosses Act",
+        "citation": "section 3",
+        "ref_type": "cites",
+        "context": "any alleged violation of section 3, 4, or 7",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 4 of Stop Spying Bosses Act",
+        "citation": "section 4",
+        "ref_type": "cites",
+        "context": "A violation of section 4 by a third party or service provider",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 7 of Stop Spying Bosses Act",
+        "citation": "section 7",
+        "ref_type": "cites",
+        "context": "any alleged violation of section 3, 4, or 7",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "Fair Labor Standards Act of 1938, Section 3",
+        "citation": "29 U.S.C. 203",
+        "ref_type": "cites",
+        "context": "section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C 203)",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Government Employee Rights Act of 1991, Section 304(a)",
+        "citation": "42 U.S.C. 2000e\u201316c(a)",
+        "ref_type": "cites",
+        "context": "section 304(a) of the Government Employee Rights Act of 1991",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Congressional Accountability Act of 1995, Section 101",
+        "citation": "2 U.S.C. 1301",
+        "ref_type": "cites",
+        "context": "section 101 of the Congressional Accountability Act of 1995",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "National Labor Relations Act, Section 2(5)",
+        "citation": "29 U.S.C. 152(5)",
+        "ref_type": "cites",
+        "context": "section 2(5) of the National Labor Relations Act (29 U.S.C. 152(5))",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federally Recognized Indian Tribe List Act of 1994, Section 104",
+        "citation": "25 U.S.C. 5131",
+        "ref_type": "cites",
+        "context": "section 104 of the Federally Recognized Indian Tribe List Act of 1994",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 202(a)(1) of Congressional Accountability Act of 1995",
+        "citation": "2 U.S.C. 1312(a)(1)",
+        "ref_type": "cites",
+        "context": "alleging a violation of section 202(a)(1) of that Act",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 101 of Congressional Accountability Act of 1995",
+        "citation": "2 U.S.C. 1301",
+        "ref_type": "cites",
+        "context": "Board (as defined in section 101 of that Act (2 U.S.C. 1301))",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 412(a)(1) of Title 3, United States Code",
+        "citation": "3 U.S.C. 412(a)(1)",
+        "ref_type": "cites",
+        "context": "alleging a violation of section 412(a)(1) of that title",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Chapter 12 of Title 5, United States Code",
+        "citation": "5 U.S.C. Chapter 12",
+        "ref_type": "cites",
+        "context": "provided in chapter 12 of that title to the Merit Systems Protection Board",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Section 606 of the Civil Rights Act of 1964",
+        "citation": "42 U.S.C. 2000d\u20134a",
+        "ref_type": "cites",
+        "context": "the term 'program or activity' has the meaning given the term in section 606 of the Civil Rights Act of 1964",
+        "mentions": 1,
+        "first_seen": "457"
+      },
+      {
+        "name": "Federal Rules of Civil Procedure",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "may intervene as of right pursuant to the Federal Rules of Civil Procedure",
+        "mentions": 1,
+        "first_seen": "457"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "report on workplace surveillance",
+        "doc_type": "report",
+        "owner_org": "Department of Labor",
+        "context": "submit to Congress, and make publicly available, a report on the findings",
+        "mentions": 2,
+        "first_seen": "457"
+      },
+      {
+        "name": "study on workplace surveillance",
+        "doc_type": "other",
+        "owner_org": "Department of Labor",
+        "context": "conduct a study on workplace surveillance on covered individuals by employers",
+        "mentions": 2,
+        "first_seen": "457"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "administrator": "Resolved to Administrator of the Privacy and Technology Division based on SEC. 2(1)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "457",
+      "note": "Document excerpt contains only bill title and enacting clause; substantive content not provided in text. Summary indicates Privacy and Technology Division establishment and federal/state agency coordination mandates, but these do not appear in the extracted text passage."
+    },
+    {
+      "agora_id": "457",
+      "note": "Document excerpt contains only bill title and enacting clause; substantive content addressing Privacy and Technology Division, employer surveillance disclosure, AI-driven monitoring restrictions, private rights of action, whistleblower protections, and federal/state agency coordination referenced in summary are not present in extracted text passage."
+    }
+  ],
+  "docs_processed": 2,
+  "docs_total": 1,
+  "last_doc_id": "457",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Administrator",
+      "resolved": "Resolved to Administrator of the Privacy and Technology Division based on SEC. 2(1)",
+      "doc_id": "457",
+      "community_id": "community:229"
+    },
+    {
+      "phrase": "Administrator",
+      "resolved": "Explicitly resolved to Administrator of the Privacy and Technology Division in SEC. 2(1)",
+      "doc_id": "457",
+      "community_id": "community:229"
+    }
+  ],
+  "entity_confidence": {
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:fair_labor_standards_act_of_1938": 0.6,
+    "org:government_employee_rights_act_of_1991": 0.6,
+    "org:congressional_accountability_act_of_1995": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:library_of_congress": 0.6,
+    "org:national_labor_relations_act": 0.6,
+    "org:federally_recognized_indian_tribe_list_act_of_1994": 0.6,
+    "org:federal_reserve_bank": 0.6,
+    "org:california_privacy_protection_agency": 0.6,
+    "org:department_of_labor": 0.6,
+    "org:privacy_and_technology_division": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:equal_employment_opportunity_commission": 0.6,
+    "org:national_labor_relations_board": 0.6,
+    "org:national_mediation_board": 0.6,
+    "org:merit_systems_protection_board": 0.6,
+    "org:wage_and_hour_division": 0.6,
+    "org:office_of_compliance": 0.6,
+    "org:office_of_personnel_management": 0.6,
+    "org:attorney_general": 0.9,
+    "org:tribal_government": 0.6,
+    "org:federal_rules_of_civil_procedure": 0.6,
+    "org:congress": 0.9,
+    "legislation:stop_spying_bosses_act": 0.6,
+    "legislation:fair_labor_standards_act_of_1938": 0.6,
+    "legislation:government_employee_rights_act_of_1991": 0.6,
+    "legislation:congressional_accountability_act_of_1995": 0.6,
+    "legislation:title_3_united_states_code_section_411_c": 0.6,
+    "legislation:title_5_united_states_code_chapter_63_subchapter_v": 0.6,
+    "legislation:title_5_united_states_code_section_3371": 0.6,
+    "legislation:national_labor_relations_act": 0.6,
+    "legislation:federally_recognized_indian_tribe_list_act_of_1994": 0.6,
+    "legislation:railway_labor_act": 0.6,
+    "legislation:title_5_united_states_code_section_3309_3318": 0.6,
+    "legislation:title_5_united_states_code_section_2102": 0.6,
+    "legislation:title_5_united_states_code_chapter_51_and_subchapter_iii_of_chapter_53": 0.6,
+    "legislation:title_5_united_states_code_section_5316": 0.6,
+    "legislation:title_5_united_states_code_chapter_10_federal_advisory_committee_act": 0.6,
+    "legislation:title_5_united_states_code_subchapter_i_of_chapter_57": 0.6,
+    "legislation:chapter_5_of_title_3_united_states_code": 0.6,
+    "legislation:chapter_63_of_title_5_united_states_code": 0.6,
+    "legislation:11th_amendment_to_the_constitution_of_the_united_states": 0.6,
+    "legislation:revised_statutes_section_722": 0.6,
+    "legislation:civil_rights_act_of_1964_section_606": 0.6,
+    "legislation:section_3_of_stop_spying_bosses_act": 0.6,
+    "legislation:section_4_of_stop_spying_bosses_act": 0.6,
+    "legislation:section_7_of_stop_spying_bosses_act": 0.6,
+    "office:privacy_and_technology_division": 0.6,
+    "office:principal_office": 0.6,
+    "office:regional_local_or_other_offices": 0.6,
+    "office:san_francisco_office": 0.6,
+    "office:board_of_directors": 0.6,
+    "office:solicitor_of_labor": 0.6,
+    "named_doc:report_on_workplace_surveillance": 0.6,
+    "named_doc:study_on_workplace_surveillance": 0.6,
+    "role:secretary_of_labor": 0.6,
+    "role:state_attorney_general": 0.6,
+    "role:chief_law_enforcement_officer": 0.6,
+    "role:chief_consumer_protection_officer": 0.6,
+    "role:secretary": 0.6,
+    "role:administrator_of_the_privacy_and_technology_division": 0.6,
+    "role:administrator_of_the_wage_and_hour_division": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "role:librarian_of_congress": 0.6,
+    "role:president": 0.9,
+    "role:director": 0.6,
+    "role:solicitor_of_labor": 0.6,
+    "role:state_privacy_regulator": 0.6,
+    "role:attorney_general": 0.9,
+    "role:director_of_the_office_of_personnel_management": 0.6,
+    "legislation:fair_labor_standards_act_of_1938_section_3": 0.6,
+    "legislation:government_employee_rights_act_of_1991_section_304_a": 0.6,
+    "legislation:congressional_accountability_act_of_1995_section_101": 0.6,
+    "legislation:national_labor_relations_act_section_2_5": 0.6,
+    "legislation:federally_recognized_indian_tribe_list_act_of_1994_section_104": 0.6,
+    "legislation:section_202_a_1_of_congressional_accountability_act_of_1995": 0.6,
+    "legislation:section_101_of_congressional_accountability_act_of_1995": 0.6,
+    "legislation:section_412_a_1_of_title_3_united_states_code": 0.6,
+    "legislation:chapter_12_of_title_5_united_states_code": 0.6,
+    "legislation:section_606_of_the_civil_rights_act_of_1964": 0.6,
+    "legislation:federal_rules_of_civil_procedure": 0.6,
+    "org:indian_tribe": 0.6,
+    "org:11th_amendment_to_the_constitution_of_the_united_states": 0.6,
+    "org:civil_rights_act_of_1964": 0.6,
+    "org:board": 0.39999999999999997
+  }
+}

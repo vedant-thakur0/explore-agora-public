@@ -1,0 +1,134 @@
+{
+  "community_id": "community:083",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Oceanic and Atmospheric Administration",
+        "acronym": "NOAA",
+        "context": "The Under Secretary, acting through the National Centers for Coastal Ocean Science (NCCOS) and the Integrated Ocean Observing System (IOOS) of the National Oceanic and Atmospheric Administration",
+        "mentions": 1,
+        "first_seen": "832"
+      },
+      {
+        "name": "National Centers for Coastal Ocean Science",
+        "acronym": "NCCOS",
+        "context": "The Under Secretary, acting through the National Centers for Coastal Ocean Science (NCCOS)",
+        "mentions": 1,
+        "first_seen": "832"
+      },
+      {
+        "name": "Integrated Ocean Observing System",
+        "acronym": "IOOS",
+        "context": "the Integrated Ocean Observing System (IOOS) of the National Oceanic and Atmospheric Administration",
+        "mentions": 1,
+        "first_seen": "832"
+      }
+    ],
+    "offices": [
+      {
+        "name": "IOOS Program Office",
+        "parent_org": "Integrated Ocean Observing System",
+        "context": "the IOOS Program Office shall\u2014(1) coordinate with NCCOS",
+        "mentions": 1,
+        "first_seen": "832"
+      },
+      {
+        "name": "Harmful Algal Bloom Data Assembly Center",
+        "parent_org": "Integrated Ocean Observing System",
+        "context": "establish a Harmful Algal Bloom Data Assembly Center to integrate, disseminate, and provide a central architecture",
+        "mentions": 1,
+        "first_seen": "832"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Under Secretary",
+        "org": "National Oceanic and Atmospheric Administration",
+        "context": "The Under Secretary, acting through the National Centers for Coastal Ocean Science (NCCOS)",
+        "mentions": 1,
+        "first_seen": "832"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Harmful Algal Blooms and Hypoxia Research and Control Act of 1998",
+        "citation": "33 U.S.C. 4005",
+        "ref_type": "amends",
+        "context": "The Harmful Algal Blooms and Hypoxia Research and Control Act of 1998 is amended by amending section 606",
+        "mentions": 1,
+        "first_seen": "832"
+      },
+      {
+        "name": "Coast Guard Authorization Act of 1998",
+        "citation": "section 2",
+        "ref_type": "amends",
+        "context": "The table of contents in section 2 of the Coast Guard Authorization Act of 1998 is amended",
+        "mentions": 1,
+        "first_seen": "832"
+      },
+      {
+        "name": "Harmful Algal Bloom and Hypoxia Research and Control Amendments Act of 2023",
+        "citation": "Sec. 2f",
+        "ref_type": "enacts",
+        "context": "Document title: Harmful Algal Bloom and Hypoxia Research and Control Amendments Act of 2023",
+        "mentions": 1,
+        "first_seen": "832"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "National Harmful Algal Bloom Observing Network",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "establish a national network of harmful algal bloom observing systems for the monitoring, detection, and forecasting",
+        "mentions": 1,
+        "first_seen": "832"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "nccos": "National Centers for Coastal Ocean Science (established as NOAA component through this document)",
+    "ioos": "Integrated Ocean Observing System (established as NOAA component; IOOS Program Office coordinates within it)",
+    "under secretary": "Under Secretary of NOAA (role explicitly tied to NOAA in this legislative context)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "832",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "NCCOS",
+      "resolved": "National Centers for Coastal Ocean Science (established as NOAA component through this document)",
+      "doc_id": "832",
+      "community_id": "community:083"
+    },
+    {
+      "phrase": "IOOS",
+      "resolved": "Integrated Ocean Observing System (established as NOAA component; IOOS Program Office coordinates within it)",
+      "doc_id": "832",
+      "community_id": "community:083"
+    },
+    {
+      "phrase": "Under Secretary",
+      "resolved": "Under Secretary of NOAA (role explicitly tied to NOAA in this legislative context)",
+      "doc_id": "832",
+      "community_id": "community:083"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:harmful_algal_blooms_and_hypoxia_research_and_control_act_of_1998": 0.6,
+    "legislation:coast_guard_authorization_act_of_1998": 0.6,
+    "legislation:harmful_algal_bloom_and_hypoxia_research_and_control_amendments_act_of_2023": 0.6,
+    "office:ioos_program_office": 0.6,
+    "office:harmful_algal_bloom_data_assembly_center": 0.6,
+    "role:under_secretary": 0.6,
+    "named_doc:national_harmful_algal_bloom_observing_network": 0.6,
+    "org:national_oceanic_and_atmospheric_administration": 1.0,
+    "org:national_centers_for_coastal_ocean_science": 0.6,
+    "org:integrated_ocean_observing_system": 0.6
+  }
+}

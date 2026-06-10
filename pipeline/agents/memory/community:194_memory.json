@@ -1,0 +1,82 @@
+{
+  "community_id": "community:194",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Homeland Security",
+        "acronym": "DHS",
+        "context": "Secretary of Homeland Security shall seek to consult",
+        "mentions": 1,
+        "first_seen": "1265"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1265"
+      },
+      {
+        "name": "United States Patent and Trademark Office",
+        "acronym": "USPTO",
+        "context": "Director of the United States Patent and Trademark Office",
+        "mentions": 1,
+        "first_seen": "1265"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "Secretary of Homeland Security shall seek to consult with the Director",
+        "mentions": 1,
+        "first_seen": "1265"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "Director of the National Institute of Standards and Technology regarding development",
+        "mentions": 1,
+        "first_seen": "1265"
+      },
+      {
+        "title": "Director of the United States Patent and Trademark Office",
+        "org": "United States Patent and Trademark Office",
+        "context": "Director of the United States Patent and Trademark Office regarding development",
+        "mentions": 1,
+        "first_seen": "1265"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Civilian Agency AI Watermark Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Civilian Agency AI Watermark Act\"",
+        "mentions": 1,
+        "first_seen": "1265"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1265",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "org:department_of_homeland_security": 1.0,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:united_states_patent_and_trademark_office": 0.6,
+    "legislation:civilian_agency_ai_watermark_act": 0.6,
+    "role:secretary_of_homeland_security": 0.9,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "role:director_of_the_united_states_patent_and_trademark_office": 0.6
+  }
+}

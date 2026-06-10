@@ -1,0 +1,185 @@
+{
+  "community_id": "community:195",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Department of Agriculture",
+        "acronym": "USDA",
+        "context": "NSF and USDA Interagency Research Act",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": "USDA",
+        "context": "Secretary of Agriculture and the Director of the National Science Foundation shall carry out cross-cutting and collaborative research",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "Director of the National Science Foundation shall carry out cross-cutting and collaborative research",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Cooperative Extension System",
+        "acronym": null,
+        "context": "activities supported by the Cooperative Extension System",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Committee on Agriculture of the House of Representatives",
+        "acronym": null,
+        "context": "appropriate committees of Congress",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology of the House of Representatives",
+        "acronym": null,
+        "context": "appropriate committees of Congress",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation of the Senate",
+        "acronym": null,
+        "context": "appropriate committees of Congress",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Committee on Agriculture, Nutrition, and Forestry of the Senate",
+        "acronym": null,
+        "context": "appropriate committees of Congress",
+        "mentions": 1,
+        "first_seen": "1312"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "The Secretary of Agriculture (in this section referred to as the Secretary)",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "title": "Director of the National Science Foundation",
+        "org": "National Science Foundation",
+        "context": "the Director of the National Science Foundation (in this section referred to as the Director)",
+        "mentions": 1,
+        "first_seen": "1312"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "NSF and USDA Interagency Research Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"NSF and USDA Interagency Research Act\"",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "subtitle D of title VI, enacted as division B of the CHIPS Act of 2022 (Public Law 117\u2013167; 42 U.S.C. 19231 et seq.)",
+        "ref_type": "cites",
+        "context": "consistent with subtitle D of title VI of the Research and Development, Competition, and Innovation Act",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "CHIPS Act of 2022",
+        "citation": "Public Law 117\u2013167",
+        "ref_type": "cites",
+        "context": "enacted as division B of the CHIPS Act of 2022 (Public Law 117\u2013167; 42 U.S.C. 19231 et seq.)",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Carl D. Perkins Career and Technical Education Act of 2006",
+        "citation": "20 U.S.C. 2302",
+        "ref_type": "cites",
+        "context": "area career and technical education school definition",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Energy Science Education Enhancement Act",
+        "citation": "42 U.S.C. 7381c\u20133",
+        "ref_type": "cites",
+        "context": "community college definition",
+        "mentions": 1,
+        "first_seen": "1312"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "institution of higher education definition",
+        "mentions": 1,
+        "first_seen": "1312"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Center for Agricultural Research, Education, and Workforce Development",
+        "doc_type": "program",
+        "owner_org": "Department of Agriculture; National Science Foundation",
+        "context": "award grants to institutions of higher education to establish a Center for Agricultural Research, Education, and Workforce Development",
+        "mentions": 1,
+        "first_seen": "1312"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Agriculture, Department of Agriculture",
+    "director": "Director of the National Science Foundation, National Science Foundation"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1312",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Agriculture, Department of Agriculture",
+      "doc_id": "1312",
+      "community_id": "community:195"
+    },
+    {
+      "phrase": "Director",
+      "resolved": "Director of the National Science Foundation, National Science Foundation",
+      "doc_id": "1312",
+      "community_id": "community:195"
+    }
+  ],
+  "entity_confidence": {
+    "org:united_states_department_of_agriculture": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:national_science_foundation": 1.0,
+    "org:cooperative_extension_system": 0.6,
+    "org:committee_on_agriculture_of_the_house_of_representatives": 0.6,
+    "org:committee_on_science_space_and_technology_of_the_house_of_representatives": 0.6,
+    "org:committee_on_commerce_science_and_transportation_of_the_senate": 0.6,
+    "org:committee_on_agriculture_nutrition_and_forestry_of_the_senate": 0.6,
+    "legislation:nsf_and_usda_interagency_research_act": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "legislation:chips_act_of_2022": 0.6,
+    "legislation:carl_d_perkins_career_and_technical_education_act_of_2006": 0.6,
+    "legislation:energy_science_education_enhancement_act": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "named_doc:center_for_agricultural_research_education_and_workforce_development": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "role:director_of_the_national_science_foundation": 0.6
+  }
+}

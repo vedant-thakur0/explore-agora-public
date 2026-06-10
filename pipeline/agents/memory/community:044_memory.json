@@ -1,0 +1,232 @@
+{
+  "community_id": "community:044",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "United States House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Department of Homeland Security",
+        "acronym": null,
+        "context": "Secretary of Homeland Security",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Federal Reserve System",
+        "acronym": null,
+        "context": "Board of Governors of the Federal Reserve System",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Securities and Exchange Commission",
+        "acronym": "SEC",
+        "context": "Chairman of the Securities and Exchange Commission",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Office of the United States Trade Representative",
+        "acronym": "USTR",
+        "context": "United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "2381"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Under Secretary of Commerce for Industry and Security",
+        "parent_org": "Department of Commerce",
+        "context": "Under Secretary of Commerce for Industry and Security",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Board of Governors",
+        "parent_org": "Federal Reserve System",
+        "context": "Chairman of the Board of Governors of the Federal Reserve System",
+        "mentions": 1,
+        "first_seen": "2381"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "Secretary of the Treasury, the Secretary of Homeland Security, and the Secretary of Commerce, in consultation",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "Secretary of the Treasury, the Secretary of Homeland Security, and the Secretary of Commerce, in consultation",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary of the Treasury, the Secretary of Homeland Security, and the Secretary of Commerce, in consultation",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "United States Trade Representative",
+        "org": "Office of the United States Trade Representative",
+        "context": "The United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "The Attorney General",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Chairman of the Board of Governors of the Federal Reserve System",
+        "org": "Federal Reserve System",
+        "context": "The Chairman of the Board of Governors of the Federal Reserve System",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "The Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Under Secretary of Commerce for Industry and Security",
+        "org": "Department of Commerce",
+        "context": "The Under Secretary of Commerce for Industry and Security",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "title": "Chairman of the Securities and Exchange Commission",
+        "org": "Securities and Exchange Commission",
+        "context": "The Chairman of the Securities and Exchange Commission",
+        "mentions": 1,
+        "first_seen": "2381"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Artificial Intelligence Practices, Logistics, Actions, and Necessities Act",
+        "citation": "AI PLAN Act",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Artificial Intelligence Practices, Logistics, Actions, and Necessities Act\" or the \"AI PLAN Act\"",
+        "mentions": 1,
+        "first_seen": "2381"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Strategy to defend against risks posed by the use of artificial intelligence",
+        "doc_type": "strategy",
+        "owner_org": "Department of the Treasury, Department of Homeland Security, Department of Commerce",
+        "context": "Strategy to defend against risks posed by misinformation, fraud, and financial crime conducted with artificial intelligence",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Report on AI financial crime risks",
+        "doc_type": "report",
+        "owner_org": "Department of the Treasury, Department of Homeland Security, Department of Commerce",
+        "context": "Not later than 180 days after the date of the enactment of this Act and annually thereafter...shall jointly submit to Congress a report",
+        "mentions": 1,
+        "first_seen": "2381"
+      },
+      {
+        "name": "Recommendations relating to AI financial crime defense",
+        "doc_type": "plan",
+        "owner_org": "Department of the Treasury, Department of Homeland Security, Department of Commerce",
+        "context": "Not later than 90 days after each report under subsection (b) is submitted...shall jointly submit to Congress a set of recommendations",
+        "mentions": 1,
+        "first_seen": "2381"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "attorney general": "Confirmed as role with Department of Justice as parent organization, mentioned in consultation officials list"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "2381",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Attorney General",
+      "resolved": "Confirmed as role with Department of Justice as parent organization, mentioned in consultation officials list",
+      "doc_id": "2381",
+      "community_id": "community:044"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:artificial_intelligence_practices_logistics_actions_and_necessities_act": 0.6,
+    "office:under_secretary_of_commerce_for_industry_and_security": 0.6,
+    "office:board_of_governors": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:secretary_of_homeland_security": 0.9,
+    "role:secretary_of_commerce": 0.6,
+    "role:united_states_trade_representative": 0.6,
+    "role:attorney_general": 0.9,
+    "role:chairman_of_the_board_of_governors_of_the_federal_reserve_system": 0.6,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "role:under_secretary_of_commerce_for_industry_and_security": 0.6,
+    "role:chairman_of_the_securities_and_exchange_commission": 0.6,
+    "named_doc:strategy_to_defend_against_risks_posed_by_the_use_of_artificial_intelligence": 0.6,
+    "named_doc:report_on_ai_financial_crime_risks": 0.6,
+    "named_doc:recommendations_relating_to_ai_financial_crime_defense": 0.6,
+    "org:united_states_senate": 0.6,
+    "org:united_states_house_of_representatives": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:department_of_homeland_security": 1.0,
+    "org:department_of_commerce": 0.6,
+    "org:federal_reserve_system": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:securities_and_exchange_commission": 0.6,
+    "org:office_of_the_united_states_trade_representative": 0.6
+  }
+}

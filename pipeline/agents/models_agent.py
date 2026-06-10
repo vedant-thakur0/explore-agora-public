@@ -112,6 +112,9 @@ class CommunityMemory:
     docs_processed: int = 0
     docs_total: int = 0
     last_doc_id: str = ""
+    # Shared memory system additions
+    llm_disambiguation_log: list[dict] = field(default_factory=list)
+    entity_confidence: dict[str, float] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

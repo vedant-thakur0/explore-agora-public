@@ -1,0 +1,526 @@
+{
+  "entities": {
+    "org:department_of_defense": {
+      "entity_id": "org:department_of_defense",
+      "entity_type": "organizations",
+      "canonical_name": "Department of Defense",
+      "acronym": "DOD",
+      "aliases": [
+        "dept. of defense"
+      ],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:national_institute_of_standards_and_technology": {
+      "entity_id": "org:national_institute_of_standards_and_technology",
+      "entity_type": "organizations",
+      "canonical_name": "National Institute of Standards and Technology",
+      "acronym": "NIST",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:national_science_foundation": {
+      "entity_id": "org:national_science_foundation",
+      "entity_type": "organizations",
+      "canonical_name": "National Science Foundation",
+      "acronym": "NSF",
+      "aliases": [
+        "nsf"
+      ],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:defense_advanced_research_projects_agency": {
+      "entity_id": "org:defense_advanced_research_projects_agency",
+      "entity_type": "organizations",
+      "canonical_name": "Defense Advanced Research Projects Agency",
+      "acronym": "DARPA",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:federal_emergency_management_agency": {
+      "entity_id": "org:federal_emergency_management_agency",
+      "entity_type": "organizations",
+      "canonical_name": "Federal Emergency Management Agency",
+      "acronym": "FEMA",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:national_aeronautics_and_space_administration": {
+      "entity_id": "org:national_aeronautics_and_space_administration",
+      "entity_type": "organizations",
+      "canonical_name": "National Aeronautics and Space Administration",
+      "acronym": "NASA",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:national_oceanic_and_atmospheric_administration": {
+      "entity_id": "org:national_oceanic_and_atmospheric_administration",
+      "entity_type": "organizations",
+      "canonical_name": "National Oceanic and Atmospheric Administration",
+      "acronym": "NOAA",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:joint_artificial_intelligence_center": {
+      "entity_id": "org:joint_artificial_intelligence_center",
+      "entity_type": "organizations",
+      "canonical_name": "Joint Artificial Intelligence Center",
+      "acronym": "JAIC",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:office_of_science_and_technology_policy": {
+      "entity_id": "org:office_of_science_and_technology_policy",
+      "entity_type": "organizations",
+      "canonical_name": "Office of Science and Technology Policy",
+      "acronym": "OSTP",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:office_of_management_and_budget": {
+      "entity_id": "org:office_of_management_and_budget",
+      "entity_type": "organizations",
+      "canonical_name": "Office of Management and Budget",
+      "acronym": "OMB",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:federal_aviation_administration": {
+      "entity_id": "org:federal_aviation_administration",
+      "entity_type": "organizations",
+      "canonical_name": "Federal Aviation Administration",
+      "acronym": "FAA",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:department_of_homeland_security": {
+      "entity_id": "org:department_of_homeland_security",
+      "entity_type": "organizations",
+      "canonical_name": "Department of Homeland Security",
+      "acronym": "DHS",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:federal_trade_commission": {
+      "entity_id": "org:federal_trade_commission",
+      "entity_type": "organizations",
+      "canonical_name": "Federal Trade Commission",
+      "acronym": "FTC",
+      "aliases": [
+        "ftc"
+      ],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "acronym": "FTC"
+      }
+    },
+    "org:department_of_justice": {
+      "entity_id": "org:department_of_justice",
+      "entity_type": "organizations",
+      "canonical_name": "Department of Justice",
+      "acronym": "DOJ",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:department_of_health_and_human_services": {
+      "entity_id": "org:department_of_health_and_human_services",
+      "entity_type": "organizations",
+      "canonical_name": "Department of Health and Human Services",
+      "acronym": "HHS",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "seed",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:national_institutes_of_health": {
+      "entity_id": "org:national_institutes_of_health",
+      "entity_type": "organizations",
+      "canonical_name": "National Institutes of Health",
+      "acronym": "NIH",
+      "aliases": [
+        "nih"
+      ],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "office:director_of_the_national_institute_of_standards_and_technology": {
+      "entity_id": "office:director_of_the_national_institute_of_standards_and_technology",
+      "entity_type": "offices",
+      "canonical_name": "Director of the National Institute of Standards and Technology",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "parent_org": "National Institute of Standards and Technology"
+      }
+    },
+    "legislation:section_7223_of_the_advancing_american_ai_act_40_usc_11301_note_as_enacted_as_part_of_title_lxxii_of_division_g_of_the_james_m_inhofe_national_defense_authorization_act_for_fiscal_year_2023_public_law_117263": {
+      "entity_id": "legislation:section_7223_of_the_advancing_american_ai_act_40_usc_11301_note_as_enacted_as_part_of_title_lxxii_of_division_g_of_the_james_m_inhofe_national_defense_authorization_act_for_fiscal_year_2023_public_law_117263",
+      "entity_type": "legislation_refs",
+      "canonical_name": "section 7223 of the Advancing American AI Act (40 U.S.C. 11301 note; as enacted as part of title LXXII of division G of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023; Public Law 117\u2013263).",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "entity_dictionary",
+      "confidence": 0.9,
+      "metadata": {
+        "ref_type": "cites"
+      }
+    },
+    "org:bureau_of_human_rights": {
+      "entity_id": "org:bureau_of_human_rights",
+      "entity_type": "organizations",
+      "canonical_name": "Bureau of Human Rights",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:bureau_of_democracy": {
+      "entity_id": "org:bureau_of_democracy",
+      "entity_type": "organizations",
+      "canonical_name": "Bureau of Democracy",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "named_doc:the_department_of_defense_digital_modernization_strategy": {
+      "entity_id": "named_doc:the_department_of_defense_digital_modernization_strategy",
+      "entity_type": "named_docs",
+      "canonical_name": "The Department of Defense Digital Modernization Strategy.",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense"
+      }
+    },
+    "named_doc:the_department_of_defense_data_strategy": {
+      "entity_id": "named_doc:the_department_of_defense_data_strategy",
+      "entity_type": "named_docs",
+      "canonical_name": "The Department of Defense Data Strategy.",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense"
+      }
+    },
+    "org:intelligence_community": {
+      "entity_id": "org:intelligence_community",
+      "entity_type": "organizations",
+      "canonical_name": "intelligence community.",
+      "acronym": "",
+      "aliases": [
+        "intelligence community"
+      ],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "office:office_of_the_director_of_national_intelligence": {
+      "entity_id": "office:office_of_the_director_of_national_intelligence",
+      "entity_type": "offices",
+      "canonical_name": "Office of the Director of National Intelligence",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "parent_org": "Intelligence Community"
+      }
+    },
+    "role:intelligence_community_chief_data_officer": {
+      "entity_id": "role:intelligence_community_chief_data_officer",
+      "entity_type": "roles",
+      "canonical_name": "Intelligence Community Chief Data Officer",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "roles"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "org": "Intelligence Community"
+      }
+    },
+    "role:secretary_of_defense": {
+      "entity_id": "role:secretary_of_defense",
+      "entity_type": "roles",
+      "canonical_name": "Secretary of Defense",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "roles"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "org": "Department of Defense"
+      }
+    },
+    "named_doc:the_department_of_defense_cloud_strategy": {
+      "entity_id": "named_doc:the_department_of_defense_cloud_strategy",
+      "entity_type": "named_docs",
+      "canonical_name": "The Department of Defense Cloud Strategy",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense"
+      }
+    },
+    "named_doc:the_department_of_defense_software_modernization_strategy": {
+      "entity_id": "named_doc:the_department_of_defense_software_modernization_strategy",
+      "entity_type": "named_docs",
+      "canonical_name": "The Department of Defense Software Modernization Strategy",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense"
+      }
+    },
+    "named_doc:the_department_of_defense_artificial_intelligence_data_initiative": {
+      "entity_id": "named_doc:the_department_of_defense_artificial_intelligence_data_initiative",
+      "entity_type": "named_docs",
+      "canonical_name": "The Department of Defense Artificial Intelligence Data Initiative",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "doc_type": "initiative",
+        "owner_org": "Department of Defense"
+      }
+    },
+    "named_doc:the_joint_all_domain_command_and_control_strategy": {
+      "entity_id": "named_doc:the_joint_all_domain_command_and_control_strategy",
+      "entity_type": "named_docs",
+      "canonical_name": "The Joint All-Domain Command and Control Strategy",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "doc_type": "strategy",
+        "owner_org": "Department of Defense"
+      }
+    },
+    "role:director_of_national_intelligence": {
+      "entity_id": "role:director_of_national_intelligence",
+      "entity_type": "roles",
+      "canonical_name": "Director of National Intelligence",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "roles"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "org": "Intelligence Community"
+      }
+    },
+    "office:office_of_chief_data_officer": {
+      "entity_id": "office:office_of_chief_data_officer",
+      "entity_type": "offices",
+      "canonical_name": "Office of Chief Data Officer",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "parent_org": "Department of Defense"
+      }
+    },
+    "org:president": {
+      "entity_id": "org:president",
+      "entity_type": "organizations",
+      "canonical_name": "President",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:congress": {
+      "entity_id": "org:congress",
+      "entity_type": "organizations",
+      "canonical_name": "Congress",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "organizations"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "org:foreign_adversary_country": {
+      "entity_id": "org:foreign_adversary_country",
+      "entity_type": "organizations",
+      "canonical_name": "foreign adversary country",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    "role:attorney_general": {
+      "entity_id": "role:attorney_general",
+      "entity_type": "roles",
+      "canonical_name": "Attorney General",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "roles"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "org": "Department of Justice"
+      }
+    },
+    "legislation:section_3502_of_title_44_united_states_code": {
+      "entity_id": "legislation:section_3502_of_title_44_united_states_code",
+      "entity_type": "legislation_refs",
+      "canonical_name": "section 3502 of title 44, United States Code",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "ref_type": "cites"
+      }
+    },
+    "legislation:chapter_151_of_title_46_united_states_code": {
+      "entity_id": "legislation:chapter_151_of_title_46_united_states_code",
+      "entity_type": "legislation_refs",
+      "canonical_name": "Chapter 151 of title 46, United States Code,",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "ref_type": "amends"
+      }
+    },
+    "role:secretary_of_homeland_security": {
+      "entity_id": "role:secretary_of_homeland_security",
+      "entity_type": "roles",
+      "canonical_name": "Secretary of Homeland Security",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [
+        "roles"
+      ],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "org": "Homeland Security"
+      }
+    },
+    "legislation:section_7223_of_the_advancing_american_ai_act_40_u_s_c_11301_note_as_enacted_as_part_of_title_lxxii_of_division_g_of_the_james_m_inhofe_national_defense_authorization_act_for_fiscal_year_2023_public_law_117_263": {
+      "entity_id": "legislation:section_7223_of_the_advancing_american_ai_act_40_u_s_c_11301_note_as_enacted_as_part_of_title_lxxii_of_division_g_of_the_james_m_inhofe_national_defense_authorization_act_for_fiscal_year_2023_public_law_117_263",
+      "entity_type": "legislation_refs",
+      "canonical_name": "section 7223 of the Advancing American AI Act (40 U.S.C. 11301 note; as enacted as part of title LXXII of division G of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023; Public Law 117\u2013263).",
+      "acronym": "",
+      "aliases": [],
+      "type_constraints": [],
+      "source": "manual_annotation",
+      "confidence": 1.0,
+      "metadata": {
+        "ref_type": "cites"
+      }
+    }
+  },
+  "disambiguation_rules": [],
+  "saved_at": "2026-04-07T05:44:09+00:00"
+}

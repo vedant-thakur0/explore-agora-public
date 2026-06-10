@@ -1,0 +1,232 @@
+{
+  "community_id": "community:170",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "People's Republic of China",
+        "acronym": null,
+        "context": "economic integration between the United States and the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "United States Senate",
+        "acronym": null,
+        "context": "IN THE SENATE OF THE UNITED STATES",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Committee on Finance",
+        "acronym": null,
+        "context": "referred to the Committee on Finance",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Chinese Communist Party",
+        "acronym": null,
+        "context": "subject to the control of the Government of the People's Republic of China or the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Department of State",
+        "acronym": null,
+        "context": "The Secretary of State",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "The Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Department of the Interior",
+        "acronym": null,
+        "context": "The Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "The Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "acronym": null,
+        "context": "The Secretary of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": null,
+        "context": "The Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "885"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Management and Budget",
+        "parent_org": "Executive Office of the President",
+        "context": "Director of the Office of Management and Budget",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "National Science Foundation",
+        "parent_org": null,
+        "context": "The Director of the National Science Foundation",
+        "mentions": 1,
+        "first_seen": "885"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "The Secretary of State",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "The Secretary of the Treasury",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "Secretary of the Interior",
+        "org": "Department of the Interior",
+        "context": "The Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "The Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "The Secretary of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "The Secretary of Energy",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "United States Trade Representative",
+        "org": "Office of the United States Trade Representative",
+        "context": "The United States Trade Representative",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "title": "Director of the National Science Foundation",
+        "org": "National Science Foundation",
+        "context": "The Director of the National Science Foundation",
+        "mentions": 1,
+        "first_seen": "885"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Energy Act of 2020",
+        "citation": "section 7002(a), 30 U.S.C. 1606(a)",
+        "ref_type": "cites",
+        "context": "Critical minerals (as defined in section 7002(a) of the Energy Act of 2020 (30 U.S.C. 1606(a)))",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Freedom of Information Act",
+        "citation": "section 552 of title 5, United States Code",
+        "ref_type": "cites",
+        "context": "exempt from public disclosure under section 552 of title 5, United States Code (commonly known as the \"Freedom of Information Act\")",
+        "mentions": 1,
+        "first_seen": "885"
+      },
+      {
+        "name": "Paperwork Reduction Act",
+        "citation": "Subchapter I of chapter 35 of title 44, United States Code",
+        "ref_type": "cites",
+        "context": "Subchapter I of chapter 35 of title 44, United States Code (commonly known as the \"Paperwork Reduction Act\")",
+        "mentions": 1,
+        "first_seen": "885"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "American Economic Independence Act of 2024",
+        "doc_type": "legislation",
+        "owner_org": "United States Congress",
+        "context": "This Act may be cited as the \"American Economic Independence Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "885"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director": "Director of the Office of Management and Budget (per SEC. 2(a))"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "885",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director",
+      "resolved": "Director of the Office of Management and Budget (per SEC. 2(a))",
+      "doc_id": "885",
+      "community_id": "community:170"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:energy_act_of_2020": 0.6,
+    "legislation:freedom_of_information_act": 0.6,
+    "legislation:paperwork_reduction_act": 0.6,
+    "office:office_of_management_and_budget": 1.0,
+    "office:national_science_foundation": 1.0,
+    "role:secretary_of_state": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "role:secretary_of_the_interior": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:united_states_trade_representative": 0.6,
+    "role:director_of_the_national_science_foundation": 0.6,
+    "named_doc:american_economic_independence_act_of_2024": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:united_states_senate": 0.6,
+    "org:committee_on_finance": 0.6,
+    "org:chinese_communist_party": 0.6,
+    "org:department_of_state": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:department_of_the_interior": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_health_and_human_services": 1.0,
+    "org:department_of_energy": 0.6
+  }
+}

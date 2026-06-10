@@ -1,0 +1,499 @@
+{
+  "community_id": "community:160",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Telecommunications and Information Administration",
+        "acronym": "NTIA",
+        "context": "National Telecommunications and Information Administration of the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Department of Commerce for use in the national airspace system",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Federal Aviation Administration",
+        "acronym": "FAA",
+        "context": "The Administration; referenced throughout for rulemaking, certification, and airspace operations",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Air Traffic Organization",
+        "acronym": "ATO",
+        "context": "member of Advanced Aviation Coordination Unit; has Technical Operations Services",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Department of Transportation",
+        "acronym": "DOT",
+        "context": "Secretary of Transportation",
+        "mentions": 1,
+        "first_seen": "704"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Advanced Aviation",
+        "parent_org": "Federal Aviation Administration",
+        "context": "redesignate the Office of NextGen as the Office of Advanced Aviation",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of NextGen",
+        "parent_org": "Federal Aviation Administration",
+        "context": "redesignate the Office of NextGen as the Office of Advanced Aviation",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Advanced Integration",
+        "parent_org": "Office of Advanced Aviation",
+        "context": "Established within Office of Advanced Aviation; to be headed by Director of Advanced Integration",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "William J. Hughes Technical Center for Advanced Aviation",
+        "parent_org": "Federal Aviation Administration",
+        "context": "Redesignated under section 5; director consulted on advanced aviation technologies and rulemaking",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Aircraft Certification Service",
+        "parent_org": "Federal Aviation Administration",
+        "context": "Executive Director collaborates with Director of Advanced Integration; member of Coordination Unit",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Flight Standards Service",
+        "parent_org": "Federal Aviation Administration",
+        "context": "Executive Director collaborates with Director of Advanced Integration; member of Coordination Unit",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Air Traffic Services Operations Planning and Integration",
+        "parent_org": "Federal Aviation Administration",
+        "context": "Director collaborates with Director of Advanced Integration on section 2(c)(2) responsibilities",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Technical Operations Services",
+        "parent_org": "Air Traffic Organization",
+        "context": "member of Advanced Aviation Coordination Unit under SEC. 4(b)(8)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Finance and Management",
+        "parent_org": "Federal Aviation Administration",
+        "context": "member of Advanced Aviation Coordination Unit; Assistant Administrator collaborates on section 2(c)(4)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of International Affairs",
+        "parent_org": "Federal Aviation Administration",
+        "context": "Director collaborates with Director of Advanced Integration on section 2(c)(5) responsibilities",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Environment and Energy",
+        "parent_org": "Federal Aviation Administration",
+        "context": "Director collaborates with Director of Advanced Integration; member of Coordination Unit",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Aviation Safety",
+        "parent_org": "Federal Aviation Administration",
+        "context": "member of Advanced Aviation Coordination Unit under SEC. 4(b)(3)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Program Management Organization",
+        "parent_org": "Federal Aviation Administration",
+        "context": "member of Advanced Aviation Coordination Unit under SEC. 4(b)(7)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Airports",
+        "parent_org": "Federal Aviation Administration",
+        "context": "member of Advanced Aviation Coordination Unit under SEC. 4(b)(9)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of the Chief Counsel",
+        "parent_org": "Federal Aviation Administration",
+        "context": "member of Advanced Aviation Coordination Unit under SEC. 4(b)(10)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Office of Commercial Space Transportation",
+        "parent_org": "Federal Aviation Administration",
+        "context": "member of Advanced Aviation Coordination Unit under SEC. 4(b)(11)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Advanced Aviation Coordination Unit",
+        "parent_org": "Federal Aviation Administration",
+        "context": "refer such technology to the Advanced Aviation Coordination Unit established under section 4",
+        "mentions": 1,
+        "first_seen": "704"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Associate Administrator for Advanced Aviation",
+        "org": "Federal Aviation Administration",
+        "context": "Secretary shall appoint an Associate Administrator for Advanced Aviation to head the Office",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "org": "Federal Aviation Administration",
+        "context": "Develops enterprise architecture; proposes supporting system requirements; advises on counter-UAS systems",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Director of the William J. Hughes Technical Center for Advanced Aviation",
+        "org": "Federal Aviation Administration",
+        "context": "Consulted on evaluating technologies and informing rulemaking related to advanced aviation systems",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Director of Advanced Integration",
+        "org": "Office of Advanced Integration",
+        "context": "To be appointed not later than 1 year after enactment; heads Office of Advanced Integration",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Executive Director of the Aircraft Certification Service",
+        "org": "Federal Aviation Administration",
+        "context": "collaborates with Director of Advanced Integration per section 2(c)(1)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Executive Director of the Flight Standards Service",
+        "org": "Federal Aviation Administration",
+        "context": "collaborates with Director of Advanced Integration per section 2(c)(1)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Director for Air Traffic Services Operations Planning and Integration",
+        "org": "Federal Aviation Administration",
+        "context": "collaborates on responsibilities described in section 2(c)(2)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Vice President of Technical Operations",
+        "org": "Air Traffic Organization",
+        "context": "collaborates with Director of Advanced Integration on section 2(c)(3) responsibilities",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Assistant Administrator for Finance and Management",
+        "org": "Federal Aviation Administration",
+        "context": "collaborates on responsibilities described in section 2(c)(4)",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Director of the Office of International Affairs",
+        "org": "Federal Aviation Administration",
+        "context": "collaborates with Director of Advanced Integration on section 2(c)(5) responsibilities",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Director of the Office of Environment and Energy",
+        "org": "Federal Aviation Administration",
+        "context": "collaborates with Director of Advanced Integration on section 2(c)(5) responsibilities",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "title": "Secretary of Transportation",
+        "org": "Department of Transportation",
+        "context": "Secretary means the Secretary of Transportation",
+        "mentions": 1,
+        "first_seen": "704"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Advanced Aviation Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'Advanced Aviation Act'",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Section 44701",
+        "citation": "49 U.S.C. 44701",
+        "ref_type": "cites",
+        "context": "airworthiness or type certification determination related to advanced aviation systems",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Section 44704",
+        "citation": "49 U.S.C. 44704",
+        "ref_type": "cites",
+        "context": "airworthiness or type certification determination related to advanced aviation systems",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Section 44807",
+        "citation": "49 U.S.C. 44807",
+        "ref_type": "cites",
+        "context": "waiver determination for operation of advanced aviation systems in national airspace system",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Section 5",
+        "citation": "section 5",
+        "ref_type": "other",
+        "context": "William J. Hughes Technical Center redesignated under this section",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "section 2(c)",
+        "citation": "section 2(c)",
+        "ref_type": "cites",
+        "context": "referenced for responsibilities delegated to Director of Advanced Integration",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "section 3",
+        "citation": "section 3",
+        "ref_type": "cites",
+        "context": "Office of Advanced Integration established under this section",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "section 5(c)",
+        "citation": "section 5(c)",
+        "ref_type": "cites",
+        "context": "aviation innovation program referenced for identifying new technologies",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "section 4",
+        "citation": "section 4",
+        "ref_type": "cites",
+        "context": "refer such technology to the Advanced Aviation Coordination Unit established under section 4",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Section 44507 of title 49, United States Code",
+        "citation": "49 U.S.C. \u00a7 44507",
+        "ref_type": "amends",
+        "context": "Section 44507 of title 49, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Section 44801 of title 49, United States Code",
+        "citation": "49 U.S.C. \u00a7 44801",
+        "ref_type": "cites",
+        "context": "terms have the meanings given such terms in section 44801 of title 49, United States Code",
+        "mentions": 1,
+        "first_seen": "704"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "National Aviation Research Plan",
+        "doc_type": "plan",
+        "owner_org": "Federal Aviation Administration",
+        "context": "congressional report prepared by Director of William J. Hughes Technical Center",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Annual Review",
+        "doc_type": "report",
+        "owner_org": "Federal Aviation Administration",
+        "context": "congressional report on research prepared by Director of William J. Hughes Technical Center",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "aviation innovation program",
+        "doc_type": "program",
+        "owner_org": "William J. Hughes Technical Center for Advanced Aviation",
+        "context": "established under section 5(c); used to identify new aviation-related technologies",
+        "mentions": 1,
+        "first_seen": "704"
+      },
+      {
+        "name": "Research and Development Advisory Committee",
+        "doc_type": "initiative",
+        "owner_org": "Federal Aviation Administration",
+        "context": "managed by Director of William J. Hughes Technical Center as part of R&D portfolio",
+        "mentions": 1,
+        "first_seen": "704"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Inferred as Secretary of Transportation based on FAA authority context; appoints Associate Administrator for Advanced Aviation",
+    "administrator": "Inferred as FAA Administrator; receives quarterly workforce reports",
+    "chief technology officer": "Chief Technology Officer of the Federal Aviation Administration; develops enterprise architecture; proposes supporting system requirements",
+    "director": "In this section, refers to Director of Advanced Integration within Office of Advanced Integration; appointed by Associate Administrator in consultation with Administrator and Secretary",
+    "executive director of the aircraft certification service": "Explicitly named role within FAA collaborating with Director of Advanced Integration",
+    "executive director of the flight standards service": "Explicitly named role within FAA collaborating with Director of Advanced Integration",
+    "director for air traffic services operations planning and integration": "Explicitly named FAA role distinct from Director of Advanced Integration",
+    "vice president of technical operations": "Explicitly named leadership position within Air Traffic Organization"
+  },
+  "parsing_rules": [
+    "Notice of Objection process creates a formal escalation pathway: Associate Administrator \u2192 Administrator (30 days) \u2192 Secretary (30 days) \u2192 Congress notification. Objections suspend implementation of targeted rules/determinations."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "704",
+      "note": "Section 3 begins mid-document without clear demarcation; appears to be structural continuation rather than new major section."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "704",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Inferred as Secretary of Transportation based on FAA authority context; appoints Associate Administrator for Advanced Aviation",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Administrator",
+      "resolved": "Inferred as FAA Administrator; receives quarterly workforce reports",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Chief Technology Officer",
+      "resolved": "Chief Technology Officer of the Federal Aviation Administration; develops enterprise architecture; proposes supporting system requirements",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Director",
+      "resolved": "In this section, refers to Director of Advanced Integration within Office of Advanced Integration; appointed by Associate Administrator in consultation with Administrator and Secretary",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Executive Director of the Aircraft Certification Service",
+      "resolved": "Explicitly named role within FAA collaborating with Director of Advanced Integration",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Executive Director of the Flight Standards Service",
+      "resolved": "Explicitly named role within FAA collaborating with Director of Advanced Integration",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Director for Air Traffic Services Operations Planning and Integration",
+      "resolved": "Explicitly named FAA role distinct from Director of Advanced Integration",
+      "doc_id": "704",
+      "community_id": "community:160"
+    },
+    {
+      "phrase": "Vice President of Technical Operations",
+      "resolved": "Explicitly named leadership position within Air Traffic Organization",
+      "doc_id": "704",
+      "community_id": "community:160"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:advanced_aviation_act": 0.6,
+    "legislation:section_44701": 0.6,
+    "legislation:section_44704": 0.6,
+    "legislation:section_44807": 0.6,
+    "legislation:section_5": 0.6,
+    "legislation:section_2_c": 0.6,
+    "legislation:section_3": 0.6,
+    "legislation:section_5_c": 0.6,
+    "legislation:section_4": 0.6,
+    "legislation:section_44507_of_title_49_united_states_code": 0.6,
+    "legislation:section_44801_of_title_49_united_states_code": 0.6,
+    "office:office_of_advanced_aviation": 0.6,
+    "office:office_of_nextgen": 0.6,
+    "office:office_of_advanced_integration": 0.6,
+    "office:william_j_hughes_technical_center_for_advanced_aviation": 0.6,
+    "office:aircraft_certification_service": 0.6,
+    "office:flight_standards_service": 0.6,
+    "office:office_of_air_traffic_services_operations_planning_and_integration": 0.6,
+    "office:technical_operations_services": 0.6,
+    "office:office_of_finance_and_management": 0.6,
+    "office:office_of_international_affairs": 0.6,
+    "office:office_of_environment_and_energy": 0.6,
+    "office:office_of_aviation_safety": 0.6,
+    "office:program_management_organization": 0.6,
+    "office:office_of_airports": 0.6,
+    "office:office_of_the_chief_counsel": 0.6,
+    "office:office_of_commercial_space_transportation": 0.6,
+    "office:advanced_aviation_coordination_unit": 0.6,
+    "role:associate_administrator_for_advanced_aviation": 0.6,
+    "role:chief_technology_officer": 0.6,
+    "role:director_of_the_william_j_hughes_technical_center_for_advanced_aviation": 0.6,
+    "role:director_of_advanced_integration": 0.6,
+    "role:executive_director_of_the_aircraft_certification_service": 0.6,
+    "role:executive_director_of_the_flight_standards_service": 0.6,
+    "role:director_for_air_traffic_services_operations_planning_and_integration": 0.6,
+    "role:vice_president_of_technical_operations": 0.6,
+    "role:assistant_administrator_for_finance_and_management": 0.6,
+    "role:director_of_the_office_of_international_affairs": 0.6,
+    "role:director_of_the_office_of_environment_and_energy": 0.6,
+    "role:secretary_of_transportation": 0.6,
+    "named_doc:national_aviation_research_plan": 0.6,
+    "named_doc:annual_review": 0.6,
+    "named_doc:aviation_innovation_program": 0.6,
+    "named_doc:research_and_development_advisory_committee": 0.6,
+    "org:national_telecommunications_and_information_administration": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:federal_aviation_administration": 1.0,
+    "org:air_traffic_organization": 0.6,
+    "org:department_of_transportation": 0.6
+  }
+}

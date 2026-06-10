@@ -1,0 +1,89 @@
+{
+  "community_id": "community:097",
+  "label": "Strategies: Government study or report | Applications: Government: benefits and welfare | Strategies: Pilots and testbeds",
+  "taxonomy_signature": [
+    "Strategies: Government study or report",
+    "Applications: Government: benefits and welfare",
+    "Strategies: Pilots and testbeds"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "Secretary of Defense shall seek to enter into an agreement",
+        "mentions": 1,
+        "first_seen": "428"
+      },
+      {
+        "name": "United States Senate Committee on Armed Services",
+        "acronym": null,
+        "context": "submit to the Committees on Armed Services of the Senate",
+        "mentions": 1,
+        "first_seen": "428"
+      },
+      {
+        "name": "United States House of Representatives Committee on Armed Services",
+        "acronym": null,
+        "context": "Committees on Armed Services of the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "428"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "the Secretary of Defense shall seek to enter into an agreement",
+        "mentions": 1,
+        "first_seen": "428"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Title 37, United States Code, Section 403",
+        "citation": "37 U.S.C. \u00a7 403",
+        "ref_type": "cites",
+        "context": "basic allowance for housing for members of the uniformed services under section 403 of title 37",
+        "mentions": 1,
+        "first_seen": "428"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Basic Allowance for Housing Calculation Improvement Act of 2023",
+        "doc_type": "other",
+        "owner_org": "United States Congress",
+        "context": "This Act may be cited as the 'Basic Allowance for Housing Calculation Improvement Act of 2023'",
+        "mentions": 1,
+        "first_seen": "428"
+      },
+      {
+        "name": "Pilot Program Report on BAH Rate Calculation",
+        "doc_type": "report",
+        "owner_org": "Department of Defense",
+        "context": "the Secretary shall submit to the Committees on Armed Services a report containing the evaluation of the Secretary of the rates calculated",
+        "mentions": 1,
+        "first_seen": "428"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "428",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:title_37_united_states_code_section_403": 0.6,
+    "role:secretary_of_defense": 0.9,
+    "named_doc:basic_allowance_for_housing_calculation_improvement_act_of_2023": 0.6,
+    "named_doc:pilot_program_report_on_bah_rate_calculation": 0.6,
+    "org:department_of_defense": 1.0,
+    "org:united_states_senate_committee_on_armed_services": 0.6,
+    "org:united_states_house_of_representatives_committee_on_armed_services": 0.6
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "community_id": "community:131",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "Director of the National Science Foundation shall support merit-reviewed and competitively awarded research",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "in consultation with the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "coordinate with the Director of the National Science Foundation, the Director of the National Institute of Standards and Technology, and the Federal Trade Commission",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "Office of Science and Technology Policy",
+        "acronym": "OSTP",
+        "context": "Director of the Office of Science and Technology Policy, acting through the Networking and Information Technology Research and Development Program",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "submit to the Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "533"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Networking and Information Technology Research and Development Program",
+        "parent_org": "Office of Science and Technology Policy",
+        "context": "acting through the Networking and Information Technology Research and Development Program",
+        "mentions": 1,
+        "first_seen": "533"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "National Science Foundation",
+        "context": "The Director of the National Science Foundation, in consultation with other relevant Federal agencies",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "title": "Chair",
+        "org": "Federal Trade Commission",
+        "context": "the Chair of the Federal Trade Commission, submit to the Committee on Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "533"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Promoting Digital Privacy Technologies Act",
+        "citation": "S. 3325",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'Promoting Digital Privacy Technologies Act'",
+        "mentions": 1,
+        "first_seen": "533"
+      },
+      {
+        "name": "Cyber Security Research and Development Act",
+        "citation": "15 U.S.C. 7403(a)(1)(D)",
+        "ref_type": "amends",
+        "context": "Subparagraph (D) of section 4(a)(1) of the Cyber Security Research and Development Act (15 U.S.C. 7403(a)(1)(D)) is amended",
+        "mentions": 1,
+        "first_seen": "533"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report On Privacy Enhancing Technology Research",
+        "doc_type": "report",
+        "owner_org": "Office of Science and Technology Policy",
+        "context": "the Director of the Office of Science and Technology Policy...shall...submit to the Committee...a report containing",
+        "mentions": 1,
+        "first_seen": "533"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "chair of the federal trade commission": "Explicitly named role in section (e) coordinating report submission"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "533",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Chair of the Federal Trade Commission",
+      "resolved": "Explicitly named role in section (e) coordinating report submission",
+      "doc_id": "533",
+      "community_id": "community:131"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:promoting_digital_privacy_technologies_act": 0.6,
+    "legislation:cyber_security_research_and_development_act": 0.6,
+    "office:networking_and_information_technology_research_and_development_program": 0.6,
+    "role:director": 0.6,
+    "role:chair": 0.39999999999999997,
+    "named_doc:report_on_privacy_enhancing_technology_research": 0.6,
+    "org:national_science_foundation": 1.0,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:federal_trade_commission": 1.0,
+    "org:office_of_science_and_technology_policy": 1.0,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6
+  }
+}

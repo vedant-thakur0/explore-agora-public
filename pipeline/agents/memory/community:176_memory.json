@@ -1,0 +1,261 @@
+{
+  "community_id": "community:176",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "U.S. Customs and Border Protection",
+        "acronym": "CBP",
+        "context": "U.S. Customs and Border Protection shall provide to the Committees on Appropriations",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "U.S. Border Patrol",
+        "acronym": "USBP",
+        "context": "the U.S. Border Patrol sectors where each system will be deployed",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Committees on Appropriations of the House of Representatives and the Senate",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Committees on Appropriations of the House of Representatives and the Senate",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "U.S. Immigration and Customs Enforcement",
+        "acronym": "ICE",
+        "context": "Director of U.S. Immigration and Customs Enforcement shall provide to the Committees",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "Secretary shall ensure assistance from Department of Defense for border security operations",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "U.S. Citizenship and Immigration Services",
+        "acronym": "USCIS",
+        "context": "increased the total number of U.S. Citizenship and Immigration Services asylum officers by 800",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Enforcement and Removal Operations",
+        "acronym": "ERO",
+        "context": "increased the total number of Enforcement and Removal Operations deportation officers by 200",
+        "mentions": 1,
+        "first_seen": "1016"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Under Secretary for Management",
+        "parent_org": "Department of Homeland Security",
+        "context": "Under Secretary for Management at the Department of Homeland Security shall provide",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Committees on Appropriations of the House of Representatives and the Senate",
+        "parent_org": "Congress",
+        "context": "recurring reporting body for multiple sections (206-209)",
+        "mentions": 1,
+        "first_seen": "1016"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Homeland Security",
+        "context": "The Secretary shall, by March 1, 2025, and quarterly thereafter, provide to the Committees",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "title": "Commissioner",
+        "org": "U.S. Customs and Border Protection",
+        "context": "the Commissioner of U.S. Customs and Border Protection shall provide to the Committees",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "title": "Under Secretary for Management",
+        "org": "Department of Homeland Security",
+        "context": "the Under Secretary for Management at the Department of Homeland Security",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "title": "Director",
+        "org": "U.S. Immigration and Customs Enforcement",
+        "context": "Director of U.S. Immigration and Customs Enforcement shall provide data detailing removal flights",
+        "mentions": 1,
+        "first_seen": "1016"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Border Act of 2024",
+        "citation": "Border Act of 2024",
+        "ref_type": "enacts",
+        "context": "Border Act of 2024, General Provisions Title",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Consolidated Appropriations Act, 2020",
+        "citation": "Public Law 116\u201393",
+        "ref_type": "cites",
+        "context": "Consolidated Appropriations Act, 2020 (Public Law 116\u201393)",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Consolidated Appropriations Act, 2021",
+        "citation": "Public Law 116\u2013260",
+        "ref_type": "cites",
+        "context": "Consolidated Appropriations Act, 2021 (Public Law 116\u2013260)",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Immigration and Nationality Act",
+        "citation": "sections 235B and 244B",
+        "ref_type": "cites",
+        "context": "procedures included in sections 235B and 244B of the Immigration and Nationality Act",
+        "mentions": 1,
+        "first_seen": "1016"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Quarterly Updates on AI Technology Impacts",
+        "doc_type": "report",
+        "owner_org": "Department of Homeland Security",
+        "context": "Requires quarterly updates on AI technology impacts",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Expenditure Plan for Autonomous Surveillance Tower Systems",
+        "doc_type": "plan",
+        "owner_org": "U.S. Customs and Border Protection",
+        "context": "U.S. Customs and Border Protection shall provide to the Committees an expenditure plan for the use of the funds available under subsection (a)(1)",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Quarterly Update on Non-Intrusive Inspection Technology Impacts",
+        "doc_type": "report",
+        "owner_org": "U.S. Customs and Border Protection",
+        "context": "the Commissioner shall provide to the Committees a quarterly update on the impacts of deployments of additional non-intrusive inspection technology",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Expenditure and Hiring Plan",
+        "doc_type": "plan",
+        "owner_org": "Department of Homeland Security",
+        "context": "the Under Secretary for Management shall provide to the Committees an expenditure and hiring plan for amounts made available in this title",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Border Security Improvement Plan",
+        "doc_type": "plan",
+        "owner_org": "Department of Homeland Security",
+        "context": "submitted to Congress on August 1, 2020 identifying barrier locations",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Shelter and Services Program",
+        "doc_type": "program",
+        "owner_org": "Federal Emergency Management Agency",
+        "context": "transfer to \"Federal Emergency Management Agency\u2014Federal Assistance\" for the Shelter and Services Program",
+        "mentions": 1,
+        "first_seen": "1016"
+      },
+      {
+        "name": "Emergency Food and Shelter-Humanitarian program",
+        "doc_type": "program",
+        "owner_org": "Federal Emergency Management Agency",
+        "context": "Shelter and Services Program or the Emergency Food and Shelter-Humanitarian program",
+        "mentions": 1,
+        "first_seen": "1016"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Homeland Security (Department of Homeland Security) \u2014 resolved from context in Sec. 201(a)",
+    "the committees": "Committees on Appropriations of the House of Representatives and the Senate \u2014 recurring reporting body in Secs. 201-204",
+    "director (sec. 206-207)": "Director of U.S. Immigration and Customs Enforcement \u2014 explicitly named in section text"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1016",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Secretary",
+      "resolved": "Secretary of Homeland Security (Department of Homeland Security) \u2014 resolved from context in Sec. 201(a)",
+      "doc_id": "1016",
+      "community_id": "community:176"
+    },
+    {
+      "phrase": "the Committees",
+      "resolved": "Committees on Appropriations of the House of Representatives and the Senate \u2014 recurring reporting body in Secs. 201-204",
+      "doc_id": "1016",
+      "community_id": "community:176"
+    },
+    {
+      "phrase": "Director (Sec. 206-207)",
+      "resolved": "Director of U.S. Immigration and Customs Enforcement \u2014 explicitly named in section text",
+      "doc_id": "1016",
+      "community_id": "community:176"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:border_act_of_2024": 0.6,
+    "legislation:consolidated_appropriations_act_2020": 0.6,
+    "legislation:consolidated_appropriations_act_2021": 0.6,
+    "legislation:immigration_and_nationality_act": 0.6,
+    "office:office_of_the_under_secretary_for_management": 0.6,
+    "office:committees_on_appropriations_of_the_house_of_representatives_and_the_senate": 0.6,
+    "role:secretary": 0.6,
+    "role:commissioner": 0.6,
+    "role:under_secretary_for_management": 0.6,
+    "role:director": 0.6,
+    "named_doc:quarterly_updates_on_ai_technology_impacts": 0.6,
+    "named_doc:expenditure_plan_for_autonomous_surveillance_tower_systems": 0.6,
+    "named_doc:quarterly_update_on_non_intrusive_inspection_technology_impacts": 0.6,
+    "named_doc:expenditure_and_hiring_plan": 0.6,
+    "named_doc:border_security_improvement_plan": 0.6,
+    "named_doc:shelter_and_services_program": 0.6,
+    "named_doc:emergency_food_and_shelter_humanitarian_program": 0.6,
+    "org:u_s_customs_and_border_protection": 0.6,
+    "org:u_s_border_patrol": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:u_s_immigration_and_customs_enforcement": 0.6,
+    "org:department_of_defense": 1.0,
+    "org:u_s_citizenship_and_immigration_services": 0.6,
+    "org:enforcement_and_removal_operations": 0.6
+  }
+}

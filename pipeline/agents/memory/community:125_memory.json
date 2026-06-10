@@ -1,0 +1,456 @@
+{
+  "community_id": "community:125",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "IN THE HOUSE OF REPRESENTATIVES",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "referred to the Committee on Foreign Affairs",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "acronym": "IEEPA",
+        "context": "authorities provided under the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.)",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "United States",
+        "acronym": null,
+        "context": "national security of the United States if developed or acquired by a country of concern",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Department of State",
+        "acronym": "State Department",
+        "context": "Secretary of State shall delegate authorities and coordinate with heads of other relevant Federal agencies",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "authority of the President or the Congress under the Constitution",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "Committee on Financial Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Ways and Means",
+        "acronym": null,
+        "context": "Committee on Ways and Means of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Appropriations",
+        "acronym": null,
+        "context": "Committee on Appropriations of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Permanent Select Committee on Intelligence",
+        "acronym": "PSCI",
+        "context": "Permanent Select Committee on Intelligence of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "acronym": null,
+        "context": "Committee on Foreign Relations of the Senate",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "Committee on Banking, Housing, and Urban Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Committee on Finance",
+        "acronym": null,
+        "context": "Committee on Finance of the Senate",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Select Committee on Intelligence",
+        "acronym": "SCI",
+        "context": "Select Committee on Intelligence of the Senate",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Democratic People's Republic of North Korea",
+        "acronym": "DPRK",
+        "context": "country of concern specified in definition",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": "PRC",
+        "context": "country of concern including Hong Kong and Macau",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Russian Federation",
+        "acronym": null,
+        "context": "country of concern specified in definition",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Islamic Republic of Iran",
+        "acronym": null,
+        "context": "country of concern specified in definition",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Hong Kong Special Administrative Region",
+        "acronym": null,
+        "context": "included within People's Republic of China for purposes of this Act",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Macau Special Administrative Region",
+        "acronym": null,
+        "context": "included within People's Republic of China for purposes of this Act",
+        "mentions": 1,
+        "first_seen": "615"
+      }
+    ],
+    "offices": [
+      {
+        "name": "appropriate congressional committees",
+        "parent_org": "Congress",
+        "context": "submit to the appropriate congressional committees a report",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Federal Register",
+        "parent_org": "United States",
+        "context": "published in the Federal Register pursuant to sections 3(a)(1)(B)",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Office of the Secretary of State",
+        "parent_org": "Department of State",
+        "context": "President shall delegate authorities and functions under this section to the Secretary of State",
+        "mentions": 1,
+        "first_seen": "615"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Representative",
+        "org": "House of Representatives",
+        "context": "Mr. McCaul (for himself and Mr. Meeks) introduced",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "head of any Federal agency",
+        "org": "Federal agency",
+        "context": "The President may delegate the authorities described in subsection (a) to the head of any Federal agency",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "President",
+        "org": "Executive Office of the President",
+        "context": "the President shall identify categories of technologies and products in covered sectors",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "Member of Congress",
+        "org": "Congress",
+        "context": "no such information may be made public by Member of Congress",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "Attorney General",
+        "org": "United States",
+        "context": "the President may direct the Attorney General to seek appropriate relief",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "Secretary of State",
+        "org": "Department of State",
+        "context": "President shall delegate the authorities and functions under this section to the Secretary of State",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "heads of other relevant Federal agencies",
+        "org": "Federal agencies",
+        "context": "Secretary of State, in coordination with the heads of other relevant Federal agencies, should",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "Head of the Federal department or agency designated under section 2(b)",
+        "org": "Federal department or agency designated to hold primary responsibility for administering this Act",
+        "context": "may appoint, without regard to the provisions of sections 3309 through 3318",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "title": "heads of relevant Federal agencies",
+        "org": "Federal agencies",
+        "context": "in consultation with the heads of relevant Federal agencies, as appropriate",
+        "mentions": 1,
+        "first_seen": "615"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Preventing Adversaries from Developing Critical Capabilities Act",
+        "citation": "H.R. 6349",
+        "ref_type": "enacts",
+        "context": "H. R. 6349",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "citation": "50 U.S.C. 1701 et seq.",
+        "ref_type": "cites",
+        "context": "authorities provided under the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.)",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "International Emergency Economic Powers Act, section 206",
+        "citation": "section 206 of 50 U.S.C. 1701 et seq.",
+        "ref_type": "cites",
+        "context": "authorities to impose penalties under section 206 of such Act",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "section 552(b)(3) of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 552(b)(3)",
+        "ref_type": "cites",
+        "context": "exempt from disclosure under section 552(b)(3) of title 5, United States Code",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Administrative Procedure Act",
+        "citation": "subchapter II of chapter 5 and chapter 7 of title 5",
+        "ref_type": "cites",
+        "context": "in accordance with subchapter II of chapter 5 and chapter 7 of title 5",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "sections 3309 through 3318 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7\u00a7 3309-3318",
+        "ref_type": "cites",
+        "context": "appoint, without regard to the provisions of sections 3309 through 3318 of title 5",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "section 2102 of title 5, United States Code",
+        "citation": "5 U.S.C. \u00a7 2102",
+        "ref_type": "cites",
+        "context": "positions in the competitive service (as defined in section 2102 of that title)",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "section 2(b) of this Act",
+        "citation": "section 2(b)",
+        "ref_type": "cites",
+        "context": "head of the Federal department or agency designated under section 2(b)",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Constitution of the United States",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "authority under the Constitution of the United States",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Securities Exchange Act of 1934",
+        "citation": "section 3(a)(10)",
+        "ref_type": "cites",
+        "context": "definition of publicly traded security",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Investment Company Act of 1940",
+        "citation": "section 3(a)(1)",
+        "ref_type": "cites",
+        "context": "definition of investment company",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "section 6",
+        "citation": "section 6",
+        "ref_type": "cites",
+        "context": "regulations prescribed in accordance with section 6",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "section 7",
+        "citation": "section 7",
+        "ref_type": "cites",
+        "context": "regulations prescribed in accordance with section 7",
+        "mentions": 1,
+        "first_seen": "615"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Federal Register",
+        "doc_type": "other",
+        "owner_org": "United States",
+        "context": "publish a list in the Federal Register; updated list published in Federal Register",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Strategy for Multilateral Engagement and Coordination",
+        "doc_type": "strategy",
+        "owner_org": "Department of State",
+        "context": "Secretary of State...should develop a strategy to work with the governments of countries that are allies and partners",
+        "mentions": 1,
+        "first_seen": "615"
+      },
+      {
+        "name": "Annual Report on Multilateral Engagement and Coordination",
+        "doc_type": "report",
+        "owner_org": "Department of State",
+        "context": "Secretary of State shall submit to the appropriate congressional committees a report...annually thereafter for 4 years",
+        "mentions": 1,
+        "first_seen": "615"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "president": "Resolved to United States President from context directing regulatory actions",
+    "attorney general": "Resolved to U.S. Attorney General from context of enforcement authority"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "615",
+      "note": "Document excerpt contains only definitional provisions (subsections 3-7 of a section); no new organizational entities, offices, or named documents appear in this passage. Primary content establishes technical definitions for 'covered foreign entity', 'covered sectors', 'party', and 'United States person' with multiple categories and cross-references to regulatory authority."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "615",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "President",
+      "resolved": "Resolved to United States President from context directing regulatory actions",
+      "doc_id": "615",
+      "community_id": "community:125"
+    },
+    {
+      "phrase": "Attorney General",
+      "resolved": "Resolved to U.S. Attorney General from context of enforcement authority",
+      "doc_id": "615",
+      "community_id": "community:125"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:preventing_adversaries_from_developing_critical_capabilities_act": 0.6,
+    "legislation:international_emergency_economic_powers_act": 0.6,
+    "legislation:international_emergency_economic_powers_act_section_206": 0.6,
+    "legislation:section_552_b_3_of_title_5_united_states_code": 0.6,
+    "legislation:administrative_procedure_act": 0.6,
+    "legislation:sections_3309_through_3318_of_title_5_united_states_code": 0.6,
+    "legislation:section_2102_of_title_5_united_states_code": 0.6,
+    "legislation:section_2_b_of_this_act": 0.6,
+    "legislation:constitution_of_the_united_states": 0.6,
+    "legislation:securities_exchange_act_of_1934": 0.6,
+    "legislation:investment_company_act_of_1940": 0.6,
+    "legislation:section_6": 0.6,
+    "legislation:section_7": 0.6,
+    "office:appropriate_congressional_committees": 0.6,
+    "office:federal_register": 0.6,
+    "office:office_of_the_secretary_of_state": 0.6,
+    "role:representative": 0.6,
+    "role:head_of_any_federal_agency": 0.6,
+    "role:president": 0.9,
+    "role:member_of_congress": 0.6,
+    "role:attorney_general": 0.9,
+    "role:secretary_of_state": 0.6,
+    "role:heads_of_other_relevant_federal_agencies": 0.6,
+    "role:head_of_the_federal_department_or_agency_designated_under_section_2_b": 0.6,
+    "role:heads_of_relevant_federal_agencies": 0.6,
+    "named_doc:federal_register": 0.6,
+    "named_doc:strategy_for_multilateral_engagement_and_coordination": 0.6,
+    "named_doc:annual_report_on_multilateral_engagement_and_coordination": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:international_emergency_economic_powers_act": 0.6,
+    "org:united_states": 0.6,
+    "org:department_of_state": 0.6,
+    "org:congress": 0.9,
+    "org:committee_on_financial_services": 0.6,
+    "org:committee_on_ways_and_means": 0.6,
+    "org:committee_on_appropriations": 0.6,
+    "org:permanent_select_committee_on_intelligence": 0.6,
+    "org:committee_on_foreign_relations": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:committee_on_finance": 0.6,
+    "org:select_committee_on_intelligence": 0.6,
+    "org:democratic_people_s_republic_of_north_korea": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:russian_federation": 0.6,
+    "org:islamic_republic_of_iran": 0.6,
+    "org:hong_kong_special_administrative_region": 0.6,
+    "org:macau_special_administrative_region": 0.6
+  }
+}

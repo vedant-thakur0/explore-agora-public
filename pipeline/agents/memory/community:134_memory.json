@@ -1,0 +1,169 @@
+{
+  "community_id": "community:134",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Fire Administration",
+        "acronym": "USFA",
+        "context": "the United States Fire Administration; (D) the Federal Emergency Management Agency",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Bureau of Indian Affairs",
+        "acronym": "BIA",
+        "context": "the Bureau of Indian Affairs; and (G) any other Federal agency involved in wildfire response",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": null,
+        "context": "the Secretary of Agriculture and the Secretary of the Interior to establish a wildfire technology testbed",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Department of the Interior",
+        "acronym": null,
+        "context": "the Secretary of Agriculture and the Secretary of the Interior to establish a wildfire technology testbed",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Committee on Natural Resources",
+        "acronym": null,
+        "context": "referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Committee on Agriculture",
+        "acronym": null,
+        "context": "referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committees on Agriculture, Natural Resources, and Science, Space, and Technology of the House",
+        "mentions": 1,
+        "first_seen": "596"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of the Secretary of Agriculture",
+        "parent_org": "Department of Agriculture",
+        "context": "Secretary of Agriculture and the Secretary of the Interior, acting jointly",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Office of the Secretary of the Interior",
+        "parent_org": "Department of the Interior",
+        "context": "Secretary of Agriculture and the Secretary of the Interior, acting jointly",
+        "mentions": 1,
+        "first_seen": "596"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "direct the Secretary of Agriculture and the Secretary of the Interior to establish",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "title": "Secretary of the Interior",
+        "org": "Department of the Interior",
+        "context": "direct the Secretary of Agriculture and the Secretary of the Interior to establish",
+        "mentions": 1,
+        "first_seen": "596"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Federal Lands Recreation Enhancement Act",
+        "citation": "16 U.S.C. 6801",
+        "ref_type": "cites",
+        "context": "Federal land management agency (as such term is defined in the Federal Lands Recreation Enhancement Act (16 U.S.C. 6801))",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "institution of higher education (as defined in section 101 of the Higher Education Act of 1965 (20 U.S.C. 1001))",
+        "mentions": 1,
+        "first_seen": "596"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Wildfire Technology Demonstration, Evaluation, Modernization, and Optimization Act",
+        "doc_type": "legislation",
+        "owner_org": "Congress",
+        "context": "This Act may be cited as the \"Wildfire Technology Demonstration, Evaluation, Modernization, and Optimization Act\"",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Wildfire Technology DEMO Act",
+        "doc_type": "legislation",
+        "owner_org": "Congress",
+        "context": "or the \"Wildfire Technology DEMO Act\"",
+        "mentions": 1,
+        "first_seen": "596"
+      },
+      {
+        "name": "Testbed Pilot Program",
+        "doc_type": "program",
+        "owner_org": "Department of Agriculture",
+        "context": "the testbed pilot program developed under subsection (b)",
+        "mentions": 1,
+        "first_seen": "596"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretaries": "Resolved to Secretary of Agriculture and Secretary of the Interior acting jointly, per subsection (a)(3) and throughout the Act"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "596",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretaries",
+      "resolved": "Resolved to Secretary of Agriculture and Secretary of the Interior acting jointly, per subsection (a)(3) and throughout the Act",
+      "doc_id": "596",
+      "community_id": "community:134"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:federal_lands_recreation_enhancement_act": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "office:office_of_the_secretary_of_agriculture": 0.6,
+    "office:office_of_the_secretary_of_the_interior": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "role:secretary_of_the_interior": 0.6,
+    "named_doc:wildfire_technology_demonstration_evaluation_modernization_and_optimization_act": 0.6,
+    "named_doc:wildfire_technology_demo_act": 0.6,
+    "named_doc:testbed_pilot_program": 0.6,
+    "org:united_states_fire_administration": 0.6,
+    "org:bureau_of_indian_affairs": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:department_of_the_interior": 0.6,
+    "org:committee_on_natural_resources": 0.6,
+    "org:committee_on_agriculture": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6
+  }
+}

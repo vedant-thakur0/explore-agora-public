@@ -1,0 +1,152 @@
+{
+  "community_id": "community:053",
+  "label": "Strategies: Disclosure: About incidents | Strategies: Disclosure",
+  "taxonomy_signature": [
+    "Strategies: Disclosure: About incidents",
+    "Strategies: Disclosure"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Drug Enforcement Administration",
+        "acronym": "DEA",
+        "context": "submit to the Drug Enforcement Administration a report containing",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Department of Justice",
+        "acronym": "DOJ",
+        "context": "Attorney General shall enforce this section",
+        "mentions": 1,
+        "first_seen": "576"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Attorney General",
+        "org": "Department of Justice",
+        "context": "The Attorney General shall enforce this section",
+        "mentions": 1,
+        "first_seen": "576"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Controlled Substances Act",
+        "citation": "21 U.S.C. 871 et seq.",
+        "ref_type": "amends",
+        "context": "Part E of the Controlled Substances Act (21 U.S.C. 871 et seq.) is amended by adding",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "CAN-SPAM Act of 2003",
+        "citation": "15 U.S.C. 7702",
+        "ref_type": "cites",
+        "context": "the term 'electronic mail address' has the meaning given that term in section 3 of the CAN-SPAM Act of 2003",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Internet Tax Freedom Act",
+        "citation": "47 U.S.C. 151 note",
+        "ref_type": "cites",
+        "context": "the term 'Internet' has the meaning given that term in section 1101 of the Internet Tax Freedom Act",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Title 18, United States Code, Section 2510",
+        "citation": "18 U.S.C. 2510",
+        "ref_type": "cites",
+        "context": "the term 'electronic communication service' has the meaning given that term in section 2510 of title 18",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Title 18, United States Code, Section 2711",
+        "citation": "18 U.S.C. 2711",
+        "ref_type": "cites",
+        "context": "the term 'remote computing service' has the meaning given that term in section 2711 of title 18",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Title 18, United States Code, Section 2703",
+        "citation": "18 U.S.C. 2703",
+        "ref_type": "cites",
+        "context": "under section 2703(f) of title 18, United States Code",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Title 47, Code of Federal Regulations, Section 8.1",
+        "citation": "47 CFR 8.1(b)",
+        "ref_type": "cites",
+        "context": "provider of broadband internet access service, as that term is defined in section 8.1(b) of title 47, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Stored Communications Act",
+        "citation": "Title 18, United States Code, Section 2702",
+        "ref_type": "amends",
+        "context": "Section 2702 of title 18, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "576"
+      },
+      {
+        "name": "Cooper Davis Act",
+        "citation": null,
+        "ref_type": "other",
+        "context": "If any provision of this Act or amendment made by this Act",
+        "mentions": 1,
+        "first_seen": "576"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Annual Report",
+        "doc_type": "report",
+        "owner_org": "Drug Enforcement Administration",
+        "context": "the Drug Enforcement Administration shall publish a report that includes, for the reporting period",
+        "mentions": 1,
+        "first_seen": "576"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "attorney general": "Confirmed as head of Department of Justice in context of enforcement responsibilities under Section 2(e) of the Cooper Davis Act"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "576",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Attorney General",
+      "resolved": "Confirmed as head of Department of Justice in context of enforcement responsibilities under Section 2(e) of the Cooper Davis Act",
+      "doc_id": "576",
+      "community_id": "community:053"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:controlled_substances_act": 0.6,
+    "legislation:can_spam_act_of_2003": 0.6,
+    "legislation:internet_tax_freedom_act": 0.6,
+    "legislation:title_18_united_states_code_section_2510": 0.6,
+    "legislation:title_18_united_states_code_section_2711": 0.6,
+    "legislation:title_18_united_states_code_section_2703": 0.6,
+    "legislation:title_47_code_of_federal_regulations_section_8_1": 0.6,
+    "legislation:stored_communications_act": 0.6,
+    "legislation:cooper_davis_act": 0.6,
+    "role:attorney_general": 0.9,
+    "named_doc:annual_report": 0.6,
+    "org:drug_enforcement_administration": 0.6,
+    "org:department_of_justice": 1.0
+  }
+}

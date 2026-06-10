@@ -1,0 +1,212 @@
+{
+  "community_id": "community:142",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institutes of Health",
+        "acronym": "NIH",
+        "context": "research to be conducted or supported by the National Institutes of Health",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "referred to the Committee on Energy and Commerce",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "Animal Welfare Act",
+        "acronym": null,
+        "context": "The Animal Welfare Act (Public Law 89\u2013544) requires researchers to consider",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "acronym": null,
+        "context": "Secretary shall establish a National Center (implied authority under Public Health Service Act)",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "National Center for Alternatives to Animals in Research and Testing",
+        "acronym": "NCAART",
+        "context": "report to the National Center for Alternatives to Animals in Research and Testing",
+        "mentions": 1,
+        "first_seen": "583"
+      }
+    ],
+    "offices": [
+      {
+        "name": "National Center for Alternatives to Animals in Research and Testing",
+        "parent_org": "National Institutes of Health",
+        "context": "establishment of the National Center for Alternatives to Animals in Research and Testing",
+        "mentions": 1,
+        "first_seen": "583"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Member of Congress",
+        "org": "House of Representatives",
+        "context": "Mr. Pappas (for himself and Mr. Calvert) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "title": "researchers",
+        "org": "National Institutes of Health",
+        "context": "researchers to develop and utilize humane, cost-effective, and scientifically suitable nonanimal methods",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "title": "reference librarian with expertise in evaluating the adequacy of searches for nonanimal methods",
+        "org": "National Institutes of Health",
+        "context": "reviewers of the research proposals have access to a reference librarian with expertise",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "title": "Director",
+        "org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Center shall be headed by a director, who shall be appointed by the Secretary",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Health and Human Services",
+        "context": "the Secretary shall establish a National Center and shall appoint the Director",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "title": "Director of the National Center",
+        "org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Director of the National Center shall provide assistance and perform duties under SEC. 485E(c)",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "title": "Director of the National Center for Alternatives to Animals in Research and Testing",
+        "org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Director of the National Center for Alternatives to Animals in Research and Testing shall establish a standardized process",
+        "mentions": 1,
+        "first_seen": "583"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Public Health Service Act",
+        "citation": null,
+        "ref_type": "amends",
+        "context": "To amend the Public Health Service Act to ensure that nonanimal methods are prioritized",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "Humane and Existing Alternatives in Research and Testing Sciences Act of 2022",
+        "citation": "HEARTS Act of 2022",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Humane and Existing Alternatives in Research and Testing Sciences Act of 2022\" or the \"HEARTS Act of 2022\".",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "Animal Welfare Act",
+        "citation": "Public Law 89\u2013544",
+        "ref_type": "cites",
+        "context": "The Animal Welfare Act (Public Law 89\u2013544) requires researchers to consider alternatives",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "National Institutes of Health Revitalization Act of 1993",
+        "citation": "Public Law 103\u201343",
+        "ref_type": "cites",
+        "context": "under the National Institutes of Health Revitalization Act of 1993 (Public Law 103\u201343)",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "HEARTS Act of 2022",
+        "citation": "not provided",
+        "ref_type": "enacts",
+        "context": "Not later than 2 years after the date of enactment of this Act",
+        "mentions": 1,
+        "first_seen": "583"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "plan for reducing the number of animals used in federally funded research and testing",
+        "doc_type": "plan",
+        "owner_org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "developing a plan for reducing the number of animals used in federally funded research and testing",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "standardized process for submitting and updating reports and plans",
+        "doc_type": "program",
+        "owner_org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "establish a standardized process for submitting and updating reports and plans under subsection (a)",
+        "mentions": 1,
+        "first_seen": "583"
+      },
+      {
+        "name": "plan for reducing the numbers of animals used in federally funded research and testing",
+        "doc_type": "plan",
+        "owner_org": "covered reporting entity",
+        "context": "develop and submit to the National Center for Alternatives to Animals in Research and Testing a plan for reducing the numbers",
+        "mentions": 1,
+        "first_seen": "583"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "public health service act": "Confirmed as legislation cited in Section 404C(a)(1) regarding NIH plan for reducing animal research use"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "583",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Public Health Service Act",
+      "resolved": "Confirmed as legislation cited in Section 404C(a)(1) regarding NIH plan for reducing animal research use",
+      "doc_id": "583",
+      "community_id": "community:142"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:public_health_service_act": 0.6,
+    "legislation:humane_and_existing_alternatives_in_research_and_testing_sciences_act_of_2022": 0.6,
+    "legislation:animal_welfare_act": 0.6,
+    "legislation:national_institutes_of_health_revitalization_act_of_1993": 0.6,
+    "legislation:hearts_act_of_2022": 0.6,
+    "office:national_center_for_alternatives_to_animals_in_research_and_testing": 0.6,
+    "role:member_of_congress": 0.6,
+    "role:researchers": 0.6,
+    "role:reference_librarian_with_expertise_in_evaluating_the_adequacy_of_searches_for_nonanimal_methods": 0.6,
+    "role:director": 0.6,
+    "role:secretary": 0.6,
+    "role:director_of_the_national_center": 0.6,
+    "role:director_of_the_national_center_for_alternatives_to_animals_in_research_and_testing": 0.6,
+    "named_doc:plan_for_reducing_the_number_of_animals_used_in_federally_funded_research_and_testing": 0.6,
+    "named_doc:standardized_process_for_submitting_and_updating_reports_and_plans": 0.6,
+    "named_doc:plan_for_reducing_the_numbers_of_animals_used_in_federally_funded_research_and_testing": 0.6,
+    "org:national_institutes_of_health": 1.0,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:animal_welfare_act": 0.6,
+    "org:department_of_health_and_human_services": 1.0,
+    "org:national_center_for_alternatives_to_animals_in_research_and_testing": 0.6
+  }
+}

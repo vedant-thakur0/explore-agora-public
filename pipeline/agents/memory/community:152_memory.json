@@ -1,0 +1,119 @@
+{
+  "community_id": "community:152",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "U.S. Customs and Border Protection",
+        "acronym": "CBP",
+        "context": "U.S. Customs and Border Protection personnel to detect contraband",
+        "mentions": 1,
+        "first_seen": "881"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "881"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "acronym": null,
+        "context": "Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "881"
+      }
+    ],
+    "offices": [
+      {
+        "name": "CBP Innovation Team",
+        "parent_org": "U.S. Customs and Border Protection",
+        "context": "the U.S. Customs and Border Protection Innovation Team within the Office of the Commissioner",
+        "mentions": 1,
+        "first_seen": "881"
+      },
+      {
+        "name": "Office of the Commissioner",
+        "parent_org": "U.S. Customs and Border Protection",
+        "context": "CBP Innovation Team within the Office of the Commissioner",
+        "mentions": 1,
+        "first_seen": "881"
+      },
+      {
+        "name": "Office of Field Operations",
+        "parent_org": "U.S. Customs and Border Protection",
+        "context": "in coordination with the Office of Field Operations",
+        "mentions": 1,
+        "first_seen": "881"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "the Secretary of Homeland Security, acting through CBP Innovation Team",
+        "mentions": 1,
+        "first_seen": "881"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "Public Law 115\u2013232; 10 U.S.C. 4061 note",
+        "ref_type": "cites",
+        "context": "section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "mentions": 1,
+        "first_seen": "881"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Contraband Awareness Technology Catches Harmful Fentanyl Act",
+        "doc_type": "legislation",
+        "owner_org": "U.S. Congress",
+        "context": "This Act may be cited as the Contraband Awareness Technology Catches Harmful Fentanyl Act",
+        "mentions": 1,
+        "first_seen": "881"
+      },
+      {
+        "name": "Nonintrusive Inspection Systems Program",
+        "doc_type": "program",
+        "owner_org": "U.S. Customs and Border Protection",
+        "context": "The CBP Innovation Team shall work with existing nonintrusive inspection systems programs",
+        "mentions": 1,
+        "first_seen": "881"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary of homeland security": "Explicitly named in Section 3(a)(1) as acting through CBP Innovation Team"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "881",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary of Homeland Security",
+      "resolved": "Explicitly named in Section 3(a)(1) as acting through CBP Innovation Team",
+      "doc_id": "881",
+      "community_id": "community:152"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "office:cbp_innovation_team": 0.6,
+    "office:office_of_the_commissioner": 0.6,
+    "office:office_of_field_operations": 0.6,
+    "role:secretary_of_homeland_security": 0.9,
+    "named_doc:contraband_awareness_technology_catches_harmful_fentanyl_act": 0.6,
+    "named_doc:nonintrusive_inspection_systems_program": 0.6,
+    "org:u_s_customs_and_border_protection": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:committee_on_homeland_security": 0.6
+  }
+}

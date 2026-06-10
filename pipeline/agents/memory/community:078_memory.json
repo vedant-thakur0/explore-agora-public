@@ -1,0 +1,613 @@
+{
+  "community_id": "community:078",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "People's Republic of China",
+        "acronym": "PRC",
+        "context": "sanctions with respect to the People's Republic of China if the People's Liberation Army initiates",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "People's Liberation Army",
+        "acronym": "PLA",
+        "context": "if the People's Liberation Army initiates a military invasion of Taiwan",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "acronym": null,
+        "context": "referred to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Taiwan Relations Act",
+        "acronym": null,
+        "context": "policy of the United States toward Taiwan is guided by the Taiwan Relations Act",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "State Council of the People's Republic of China",
+        "acronym": null,
+        "context": "Taiwan Affairs Office of the State Council of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Chinese Communist Party",
+        "acronym": "CCP",
+        "context": "the Chinese Communist Party has employed a variety of coercive military tactics",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Armed Forces of the Russian Federation",
+        "acronym": null,
+        "context": "the Armed Forces of the Russian Federation initiated an unprovoked and unjustified invasion",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "United States Indo-Pacific Command",
+        "acronym": "INDOPACOM",
+        "context": "Commander of the United States Indo-Pacific Command Admiral Philip Davidson",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "United States Pacific Fleet",
+        "acronym": null,
+        "context": "Commander of the United States Pacific Fleet Admiral John Aquilino",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Government of the People's Republic of China",
+        "acronym": null,
+        "context": "efforts by the Government of the People's Republic of China and the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Government of the United States",
+        "acronym": null,
+        "context": "are of grave concern to the Government of the United States",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Committee on Foreign Relations",
+        "acronym": null,
+        "context": "appropriate congressional committees of the Senate",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Committee on Armed Services",
+        "acronym": null,
+        "context": "appropriate congressional committees of the Senate and House",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Committee on Foreign Affairs",
+        "acronym": null,
+        "context": "appropriate congressional committees of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Committee on Financial Services",
+        "acronym": null,
+        "context": "appropriate congressional committees of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Government of Taiwan",
+        "acronym": null,
+        "context": "territory controlled or administered by the Government of Taiwan",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "covered joint resolution may be introduced in the House of Representatives",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "covered joint resolution may be introduced in the Senate",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "General Secretary of the Chinese Communist Party",
+        "acronym": null,
+        "context": "senior or special advisors to the General Secretary of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Central Military Commission",
+        "acronym": null,
+        "context": "Chairman of the Central Military Commission, or the President of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Chinese Coast Guard",
+        "acronym": null,
+        "context": "command or clear and direct decision-making power in the Chinese Coast Guard",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Chinese People's Armed Police",
+        "acronym": null,
+        "context": "command or clear and direct decision-making power in the Chinese People's Armed Police",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "acronym": null,
+        "context": "powers granted by the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.)",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "United Nations",
+        "acronym": null,
+        "context": "Agreement regarding the Headquarters of the United Nations, signed at Lake Success on June 26, 1947",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Political Bureau of the Central Committee of the Chinese Communist Party",
+        "acronym": null,
+        "context": "may include the Political Bureau of the Central Committee of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Standing Committee of the Political Bureau of the Central Committee of the Chinese Communist Party",
+        "acronym": null,
+        "context": "may include the Standing Committee of the Political Bureau of the Central Committee of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Central Military Commission of the Chinese Communist Party",
+        "acronym": null,
+        "context": "may include the Central Military Commission of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Central Military Commission of the People's Republic of China",
+        "acronym": null,
+        "context": "may include the Central Military Commission of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "National People's Congress of the People's Republic of China",
+        "acronym": null,
+        "context": "may include the National People's Congress of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Central Committee of the Chinese Communist Party",
+        "acronym": null,
+        "context": "may include the Central Committee of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Secretary of the Treasury",
+        "acronym": null,
+        "context": "shall impose the sanctions described in subsection (c)",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Federal Reserve",
+        "acronym": "Federal Reserve",
+        "context": "section 19(b)(1)(A) of the Federal Reserve Act (12 U.S.C. 461(b)(1)(A))",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Securities and Exchange Commission",
+        "acronym": "SEC",
+        "context": "registered with the Securities and Exchange Commission under the Securities Exchange Act of 1934",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "National Security Agency",
+        "acronym": "NSA",
+        "context": "title V of the National Security Act of 1947",
+        "mentions": 1,
+        "first_seen": "508"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Committee on Banking, Housing, and Urban Affairs",
+        "parent_org": "United States Senate",
+        "context": "referred to the Committee on Banking, Housing, and Urban Affairs",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Taiwan Affairs Office",
+        "parent_org": "State Council of the People's Republic of China",
+        "context": "Taiwan Affairs Office of the State Council of the People's Republic of China released a white paper",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "majority leader",
+        "parent_org": "House of Representatives",
+        "context": "majority leader (or the majority leader's designee) in the House of Representatives",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "minority leader",
+        "parent_org": "House of Representatives",
+        "context": "minority leader (or the minority leader's designee) in the House of Representatives",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "House of Representatives",
+        "parent_org": "United States Congress",
+        "context": "joint resolution from the House of Representatives",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Senate",
+        "parent_org": "United States Congress",
+        "context": "passage by the Senate of a covered joint resolution",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "intelligence agencies or security services",
+        "parent_org": "Government of the People's Republic of China",
+        "context": "officials of the Government of the People's Republic of China in the intelligence agencies or security services",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "top decision-making bodies",
+        "parent_org": "Government of the People's Republic of China",
+        "context": "officials of the Government of the People's Republic of China who are members of the top decision-making bodies",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Secretary of the Treasury",
+        "parent_org": "Department of the Treasury",
+        "context": "the Secretary of the Treasury shall impose the sanctions",
+        "mentions": 1,
+        "first_seen": "508"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Introducer",
+        "org": "United States Senate",
+        "context": "Mr. Sullivan introduced the following bill",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "title": "Commander",
+        "org": "United States Indo-Pacific Command",
+        "context": "then Commander of the United States Indo-Pacific Command Admiral Philip Davidson testified",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "title": "President of Taiwan",
+        "org": "Taiwan",
+        "context": "election of President Tsai Ing-wen as President of Taiwan in 2016",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "title": "sponsor",
+        "org": "House of Representatives",
+        "context": "sponsor of the joint resolution (or a designee) to move for consideration",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "title": "General Secretary",
+        "org": "Chinese Communist Party",
+        "context": "senior or special advisors to the General Secretary of the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "title": "Chairman",
+        "org": "Central Military Commission",
+        "context": "Chairman of the Central Military Commission, or the President of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "title": "Secretary of the Treasury",
+        "org": "Department of the Treasury",
+        "context": "Secretary of the Treasury shall impose the sanctions described in subsection (b)",
+        "mentions": 1,
+        "first_seen": "508"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "STAND with Taiwan Act of 2023",
+        "citation": "S. 1027",
+        "ref_type": "enacts",
+        "context": "To require the imposition of sanctions with respect to the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Sanctions Targeting Aggressors of Neighboring Democracies with Taiwan Act of 2023",
+        "citation": "STAND with Taiwan Act of 2023",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Sanctions Targeting Aggressors of Neighboring Democracies with Taiwan Act of 2023\" or the \"STAND with Taiwan Act of 2023\".",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Taiwan Relations Act",
+        "citation": "22 U.S.C. 3301 et seq.",
+        "ref_type": "cites",
+        "context": "policy of the United States toward Taiwan is guided by the Taiwan Relations Act (22 U.S.C. 3301 et seq.)",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Taiwan Relations Act, section 2",
+        "citation": "22 U.S.C. 3301",
+        "ref_type": "cites",
+        "context": "Under section 2 of the Taiwan Relations Act (22 U.S.C. 3301), it is the policy",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "United States-People's Republic of China joint communiqu\u00e9s",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "joint communiqu\u00e9s concluded in 1972, 1978, and 1982",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Six Assurances",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "Six Assurances that President Ronald Reagan communicated to Taiwan in 1982",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Immigration and Nationality Act",
+        "citation": "8 U.S.C. 1101",
+        "ref_type": "cites",
+        "context": "admission, admitted, and alien definitions",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "title 31, United States Code, section 5318A",
+        "citation": "31 U.S.C. 5318A",
+        "ref_type": "cites",
+        "context": "account, correspondent account, payable-through account definitions",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "title 31, United States Code, section 5312(a)(2)",
+        "citation": "31 U.S.C. 5312(a)(2)",
+        "ref_type": "cites",
+        "context": "financial institution definition",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "International Emergency Economic Powers Act",
+        "citation": "50 U.S.C. 1701 et seq.",
+        "ref_type": "cites",
+        "context": "powers granted by the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.)",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "International Emergency Economic Powers Act, section 202",
+        "citation": "50 U.S.C. 1701",
+        "ref_type": "cites",
+        "context": "requirements of section 202 of the International Emergency Economic Powers Act (50 U.S.C. 1701)",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Agreement regarding the Headquarters of the United Nations",
+        "citation": "signed at Lake Success on June 26, 1947; entered into force November 21, 1947",
+        "ref_type": "cites",
+        "context": "Agreement regarding the Headquarters of the United Nations, signed at Lake Success on June 26, 1947, and entered into force November 21, 1947",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "International Emergency Economic Powers Act section 202",
+        "citation": "50 U.S.C. 1701",
+        "ref_type": "cites",
+        "context": "requirements of section 202 of the International Emergency Economic Powers Act",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Federal Reserve Act",
+        "citation": "12 U.S.C. 461(b)(1)(A)",
+        "ref_type": "cites",
+        "context": "section 19(b)(1)(A) of the Federal Reserve Act (12 U.S.C. 461(b)(1)(A))",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Securities Exchange Act of 1934",
+        "citation": "15 U.S.C. 78a et seq.",
+        "ref_type": "cites",
+        "context": "registered with the Securities and Exchange Commission under the Securities Exchange Act of 1934 (15 U.S.C. 78a et seq.)",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "National Security Act of 1947",
+        "citation": "50 U.S.C. 3091 et seq.",
+        "ref_type": "cites",
+        "context": "title V of the National Security Act of 1947 (50 U.S.C. 3091 et seq.)",
+        "mentions": 1,
+        "first_seen": "508"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "The Taiwan Question and China's Reunification in the New Era",
+        "doc_type": "other",
+        "owner_org": "Taiwan Affairs Office of the State Council of the People's Republic of China",
+        "context": "white paper entitled \"The Taiwan Question and China's Reunification in the New Era\" that reiterated",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "Made in China 2025",
+        "doc_type": "plan",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "priority industrial sector identified in the \"Made in China 2025\" plan",
+        "mentions": 1,
+        "first_seen": "508"
+      },
+      {
+        "name": "14th Five Year Smart Manufacturing Development Plan",
+        "doc_type": "plan",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "priority industrial sector identified in...the \"14th Five Year Smart Manufacturing Development Plan\"",
+        "mentions": 1,
+        "first_seen": "508"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "president": "Ronald Reagan referenced as historical figure communicating assurances to Taiwan in 1982; current policy context uses 'President' generically for U.S. policy framework"
+  },
+  "parsing_rules": [
+    "This section contains procedural rules for joint resolution processing in Congress. Key pattern: conditional procedures based on timing of receipt (before/after passage) and identity matching between chambers. The section emphasizes waiver of points of order and expedited consideration timelines."
+  ],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "508",
+      "note": "Section 5 is a definitions section containing primarily statutory cross-references and term definitions rather than substantive policy entities. No new organizational entities beyond committees already extracted appear in this definitional text."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "508",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "President",
+      "resolved": "Ronald Reagan referenced as historical figure communicating assurances to Taiwan in 1982; current policy context uses 'President' generically for U.S. policy framework",
+      "doc_id": "508",
+      "community_id": "community:078"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:stand_with_taiwan_act_of_2023": 0.6,
+    "legislation:sanctions_targeting_aggressors_of_neighboring_democracies_with_taiwan_act_of_2023": 0.6,
+    "legislation:taiwan_relations_act": 0.6,
+    "legislation:taiwan_relations_act_section_2": 0.6,
+    "legislation:united_states_people_s_republic_of_china_joint_communiqu_s": 0.6,
+    "legislation:six_assurances": 0.6,
+    "legislation:immigration_and_nationality_act": 0.6,
+    "legislation:title_31_united_states_code_section_5318a": 0.6,
+    "legislation:title_31_united_states_code_section_5312_a_2": 0.6,
+    "legislation:international_emergency_economic_powers_act": 0.6,
+    "legislation:international_emergency_economic_powers_act_section_202": 0.6,
+    "legislation:agreement_regarding_the_headquarters_of_the_united_nations": 0.6,
+    "legislation:federal_reserve_act": 0.6,
+    "legislation:securities_exchange_act_of_1934": 0.6,
+    "legislation:national_security_act_of_1947": 0.6,
+    "office:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "office:taiwan_affairs_office": 0.6,
+    "office:majority_leader": 0.6,
+    "office:minority_leader": 0.6,
+    "office:house_of_representatives": 0.6,
+    "office:senate": 0.39999999999999997,
+    "office:intelligence_agencies_or_security_services": 0.6,
+    "office:top_decision_making_bodies": 0.6,
+    "office:secretary_of_the_treasury": 0.6,
+    "role:introducer": 0.6,
+    "role:commander": 0.6,
+    "role:president_of_taiwan": 0.6,
+    "role:sponsor": 0.39999999999999997,
+    "role:general_secretary": 0.6,
+    "role:chairman": 0.6,
+    "role:secretary_of_the_treasury": 0.6,
+    "named_doc:the_taiwan_question_and_china_s_reunification_in_the_new_era": 0.6,
+    "named_doc:made_in_china_2025": 0.6,
+    "named_doc:14th_five_year_smart_manufacturing_development_plan": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "org:people_s_liberation_army": 0.6,
+    "org:committee_on_banking_housing_and_urban_affairs": 0.6,
+    "org:taiwan_relations_act": 0.6,
+    "org:state_council_of_the_people_s_republic_of_china": 0.6,
+    "org:chinese_communist_party": 0.6,
+    "org:armed_forces_of_the_russian_federation": 0.6,
+    "org:united_states_indo_pacific_command": 0.6,
+    "org:united_states_pacific_fleet": 0.6,
+    "org:government_of_the_people_s_republic_of_china": 0.6,
+    "org:government_of_the_united_states": 0.6,
+    "org:committee_on_foreign_relations": 0.6,
+    "org:committee_on_armed_services": 0.6,
+    "org:committee_on_foreign_affairs": 0.6,
+    "org:committee_on_financial_services": 0.6,
+    "org:government_of_taiwan": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:general_secretary_of_the_chinese_communist_party": 0.6,
+    "org:central_military_commission": 0.6,
+    "org:chinese_coast_guard": 0.6,
+    "org:chinese_people_s_armed_police": 0.6,
+    "org:international_emergency_economic_powers_act": 0.6,
+    "org:united_nations": 0.6,
+    "org:political_bureau_of_the_central_committee_of_the_chinese_communist_party": 0.6,
+    "org:standing_committee_of_the_political_bureau_of_the_central_committee_of_the_chinese_communist_party": 0.6,
+    "org:central_military_commission_of_the_chinese_communist_party": 0.6,
+    "org:central_military_commission_of_the_people_s_republic_of_china": 0.6,
+    "org:national_people_s_congress_of_the_people_s_republic_of_china": 0.6,
+    "org:central_committee_of_the_chinese_communist_party": 0.6,
+    "org:secretary_of_the_treasury": 0.6,
+    "org:federal_reserve": 0.6,
+    "org:securities_and_exchange_commission": 0.6,
+    "org:national_security_agency": 0.6
+  }
+}

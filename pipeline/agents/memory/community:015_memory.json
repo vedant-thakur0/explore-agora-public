@@ -1,0 +1,346 @@
+{
+  "community_id": "community:015",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Government",
+        "acronym": null,
+        "context": "notify appropriate elements of the United States Government of information security risks",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "Federal Government",
+        "acronym": null,
+        "context": "elements of the Federal Government may provide threat briefings to vendors",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology shall initiate a process",
+        "mentions": 2,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "acronym": "CISA",
+        "context": "in coordination with the Director of the Cybersecurity and Infrastructure Security Agency",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "National Security Agency",
+        "acronym": "NSA",
+        "context": "Director of the National Security Agency",
+        "mentions": 2,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Information Communications Technology Supply Chain Risk Management Task Force",
+        "acronym": null,
+        "context": "leveraging efforts of the Information Communications Technology Supply Chain Risk Management Task Force",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Cybersecurity Collaboration Center",
+        "acronym": null,
+        "context": "within the Cybersecurity Collaboration Center of the National Security Agency",
+        "mentions": 1,
+        "first_seen": "1342"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "parent_org": "Senate",
+        "context": "the Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "Committee on Homeland Security",
+        "parent_org": "House of Representatives",
+        "context": "the Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "National Vulnerability Database",
+        "parent_org": "National Institute of Standards and Technology",
+        "context": "National Vulnerability Database of the Institute to ensure that the database",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "parent_org": "Senate",
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Select Committee on Intelligence",
+        "parent_org": "Senate",
+        "context": "Select Committee on Intelligence of the Senate",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Committee on the Judiciary",
+        "parent_org": "Senate",
+        "context": "Committee on the Judiciary of the Senate",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Committee on Oversight and Accountability",
+        "parent_org": "House of Representatives",
+        "context": "Committee on Oversight and Accountability of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "parent_org": "House of Representatives",
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Permanent Select Committee on Intelligence",
+        "parent_org": "House of Representatives",
+        "context": "Permanent Select Committee on Intelligence of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Artificial Intelligence Security Center",
+        "parent_org": "National Security Agency",
+        "context": "establish an Artificial Intelligence Security Center within the Cybersecurity Collaboration Center",
+        "mentions": 1,
+        "first_seen": "1342"
+      },
+      {
+        "name": "Artificial Intelligence Safety Institute",
+        "parent_org": "National Institute of Standards and Technology",
+        "context": "Coordinating with the Artificial Intelligence Safety Institute of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1342"
+      }
+    ],
+    "roles": [
+      {
+        "title": "President",
+        "org": "Executive Branch",
+        "context": "the President shall develop and issue procedures",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "the Director of the National Institute of Standards and Technology shall initiate a process",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "title": "Director of the Cybersecurity and Infrastructure Security Agency",
+        "org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "in coordination with the Director of the Cybersecurity and Infrastructure Security Agency, shall",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "title": "Director of the Office of Management and Budget",
+        "org": "Office of Management and Budget",
+        "context": "Director of the Office of Management and Budget",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "title": "Director of the National Security Agency",
+        "org": "National Security Agency",
+        "context": "Director of the National Security Agency",
+        "mentions": 2,
+        "first_seen": "1341"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Security Act of 1947",
+        "citation": "50 U.S.C. 3059(f)",
+        "ref_type": "cites",
+        "context": "suspected foreign malign influence (as defined by section 119C of the National Security Act of 1947)",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "Intelligence Authorization Act for Fiscal Year 2025",
+        "citation": "Intelligence Authorization Act for Fiscal Year 2025, Title V, Section 510",
+        "ref_type": "enacts",
+        "context": "Not later than 180 days after the date of the enactment of this Act",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Department of Homeland Security Binding Operational Directive 20\u201301",
+        "citation": "DHS BOD 20\u201301",
+        "ref_type": "other",
+        "context": "Department of Homeland Security Binding Operational Directive 20\u201301, or any subsequent directive",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Executive Order dated October 30, 2023",
+        "citation": "Executive Order (October 30, 2023)",
+        "ref_type": "cites",
+        "context": "section 5.2 of the Executive Order dated October 30, 2023 (relating to safe, secure, and trustworthy development and use of artificial intelligence)",
+        "mentions": 1,
+        "first_seen": "1342"
+      },
+      {
+        "name": "United States Code Title 44, Section 3552",
+        "citation": "44 U.S.C. \u00a7 3552",
+        "ref_type": "cites",
+        "context": "national security systems (as defined in section 3552 of title 44, United States Code)",
+        "mentions": 1,
+        "first_seen": "1342"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "procedures to facilitate and promote mechanisms for notification of AI-related risks",
+        "doc_type": "plan",
+        "owner_org": "President",
+        "context": "the President shall develop and issue procedures to facilitate and promote mechanisms",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "briefing on procedures developed and issued pursuant to subsection (b)",
+        "doc_type": "report",
+        "owner_org": "President",
+        "context": "The President shall provide the appropriate committees of Congress a briefing on procedures",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "plan for industry outreach and public education regarding risks posed by artificial intelligence systems",
+        "doc_type": "plan",
+        "owner_org": "Federal Government",
+        "context": "An outline of a plan for industry outreach and public education regarding risks",
+        "mentions": 1,
+        "first_seen": "1338"
+      },
+      {
+        "name": "comprehensive database to publicly track artificial intelligence security and artificial intelligence safety incidents",
+        "doc_type": "program",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "develop and establish a comprehensive database to publicly track artificial intelligence security",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "Common Vulnerabilities and Exposures Program",
+        "doc_type": "program",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "reference guide and classification system for publicly known information security vulnerabilities",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "multi-stakeholder process to evaluate consensus standards for vulnerability reporting",
+        "doc_type": "initiative",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "multi-stakeholder process to evaluate whether existing voluntary consensus standards for vulnerability reporting",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "multi-stakeholder process to encourage development and adoption of best practices for AI supply chain risks",
+        "doc_type": "initiative",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "multi-stakeholder process to encourage the development and adoption of best practices relating to addressing supply chain risks",
+        "mentions": 1,
+        "first_seen": "1341"
+      },
+      {
+        "name": "research test bed for artificial intelligence security research",
+        "doc_type": "program",
+        "owner_org": "National Security Agency",
+        "context": "Making available a research test bed to private sector and academic researchers",
+        "mentions": 1,
+        "first_seen": "1342"
+      },
+      {
+        "name": "guidance to prevent or mitigate counter-artificial intelligence techniques",
+        "doc_type": "strategy",
+        "owner_org": "National Security Agency",
+        "context": "Developing guidance to prevent or mitigate counter-artificial intelligence techniques",
+        "mentions": 1,
+        "first_seen": "1342"
+      },
+      {
+        "name": "terms of usage governing researcher access to the test bed",
+        "doc_type": "plan",
+        "owner_org": "National Security Agency",
+        "context": "The Director shall establish terms of usage governing researcher access to the test bed",
+        "mentions": 1,
+        "first_seen": "1342"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 3,
+  "docs_total": 3,
+  "last_doc_id": "1342",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:national_security_act_of_1947": 0.6,
+    "office:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "office:committee_on_homeland_security": 0.6,
+    "named_doc:procedures_to_facilitate_and_promote_mechanisms_for_notification_of_ai_related_risks": 0.6,
+    "named_doc:briefing_on_procedures_developed_and_issued_pursuant_to_subsection_b": 0.6,
+    "named_doc:plan_for_industry_outreach_and_public_education_regarding_risks_posed_by_artificial_intelligence_systems": 0.6,
+    "org:united_states_government": 0.6,
+    "org:federal_government": 0.6,
+    "role:president": 0.9,
+    "legislation:intelligence_authorization_act_for_fiscal_year_2025": 0.6,
+    "legislation:department_of_homeland_security_binding_operational_directive_20_01": 0.6,
+    "office:national_vulnerability_database": 0.6,
+    "office:committee_on_commerce_science_and_transportation": 0.6,
+    "office:select_committee_on_intelligence": 0.6,
+    "office:committee_on_the_judiciary": 0.6,
+    "office:committee_on_oversight_and_accountability": 0.6,
+    "office:committee_on_energy_and_commerce": 0.6,
+    "office:permanent_select_committee_on_intelligence": 0.6,
+    "named_doc:comprehensive_database_to_publicly_track_artificial_intelligence_security_and_artificial_intelligence_safety_incidents": 0.6,
+    "named_doc:common_vulnerabilities_and_exposures_program": 0.6,
+    "named_doc:multi_stakeholder_process_to_evaluate_consensus_standards_for_vulnerability_reporting": 0.6,
+    "named_doc:multi_stakeholder_process_to_encourage_development_and_adoption_of_best_practices_for_ai_supply_chain_risks": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:cybersecurity_and_infrastructure_security_agency": 0.6,
+    "org:national_security_agency": 0.6,
+    "org:information_communications_technology_supply_chain_risk_management_task_force": 0.6,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "role:director_of_the_cybersecurity_and_infrastructure_security_agency": 0.6,
+    "role:director_of_the_office_of_management_and_budget": 0.6,
+    "role:director_of_the_national_security_agency": 0.6,
+    "legislation:executive_order_dated_october_30_2023": 0.6,
+    "legislation:united_states_code_title_44_section_3552": 0.6,
+    "office:artificial_intelligence_security_center": 0.6,
+    "office:artificial_intelligence_safety_institute": 0.6,
+    "named_doc:research_test_bed_for_artificial_intelligence_security_research": 0.6,
+    "named_doc:guidance_to_prevent_or_mitigate_counter_artificial_intelligence_techniques": 0.6,
+    "named_doc:terms_of_usage_governing_researcher_access_to_the_test_bed": 0.6,
+    "org:cybersecurity_collaboration_center": 0.6
+  }
+}

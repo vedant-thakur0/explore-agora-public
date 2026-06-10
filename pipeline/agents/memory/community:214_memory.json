@@ -1,0 +1,230 @@
+{
+  "community_id": "community:214",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Centers for Disease Control and Prevention",
+        "acronym": "CDC",
+        "context": "Director of the Centers for Disease Control and Prevention",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Food and Drug Administration",
+        "acronym": "FDA",
+        "context": "Commissioner of Food and Drugs",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "National Institute on Minority Health and Health Disparities",
+        "acronym": "NIMHD",
+        "context": "Director of the National Institute on Minority Health and Health Disparities",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Indian Health Service",
+        "acronym": "IHS",
+        "context": "Director of the Indian Health Service",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Centers for Medicare & Medicaid Services",
+        "acronym": "CMS",
+        "context": "Administrator of the Centers for Medicare & Medicaid Services",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Agency for Healthcare Research and Quality",
+        "acronym": "AHRQ",
+        "context": "Director of the Agency for Healthcare Research and Quality",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Health Resources and Services Administration",
+        "acronym": "HRSA",
+        "context": "Administrator of the Health Resources and Services Administration",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "National Council on Disability",
+        "acronym": "NCD",
+        "context": "Chairperson of the National Council on Disability",
+        "mentions": 1,
+        "first_seen": "1348"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Minority Health",
+        "parent_org": "Department of Health and Human Services",
+        "context": "Director of the Office of Minority Health",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Office on Women's Health",
+        "parent_org": "Department of Health and Human Services",
+        "context": "Director of the Office on Women's Health",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Office of the National Coordinator for Health Information Technology",
+        "parent_org": "Department of Health and Human Services",
+        "context": "National Coordinator for Health Information Technology",
+        "mentions": 1,
+        "first_seen": "1348"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "Secretary of Health and Human Services shall establish a Task Force",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Chief Information Officer",
+        "org": "Department of Health and Human Services",
+        "context": "Chief Information Officer of the Department of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Director",
+        "org": "Centers for Disease Control and Prevention",
+        "context": "Director of the Centers for Disease Control and Prevention",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Commissioner",
+        "org": "Food and Drug Administration",
+        "context": "Commissioner of Food and Drugs",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Administrator",
+        "org": "Federal Emergency Management Agency",
+        "context": "Administrator of the Federal Emergency Management Agency",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Surgeon General",
+        "org": "Department of Health and Human Services",
+        "context": "the Surgeon General",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Chairperson",
+        "org": "National Council on Disability",
+        "context": "Chairperson of the National Council on Disability",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "National Coordinator for Health Information Technology",
+        "org": "Department of Health and Human Services",
+        "context": "National Coordinator for Health Information Technology",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "title": "Chairperson of the Task Force",
+        "org": "Task Force on Preventing AI and Algorithmic Bias in Health Care",
+        "context": "Chief Information Officer of the Department of Health and Human Services shall serve as Chairperson",
+        "mentions": 1,
+        "first_seen": "1348"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Title 5, United States Code",
+        "citation": "title 5, United States Code",
+        "ref_type": "cites",
+        "context": "without regard to the provisions of title 5, United States Code, governing appointments",
+        "mentions": 1,
+        "first_seen": "1348"
+      },
+      {
+        "name": "Chapter 51 and Subchapter III of Chapter 53, Title 5, United States Code",
+        "citation": "chapter 51 and subchapter III of chapter 53",
+        "ref_type": "cites",
+        "context": "without regard to chapter 51 and subchapter III of chapter 53 relating to classification",
+        "mentions": 1,
+        "first_seen": "1348"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Task Force on Preventing AI and Algorithmic Bias in Health Care",
+        "doc_type": "initiative",
+        "owner_org": "Department of Health and Human Services",
+        "context": "establish a Task Force to be known as the Task Force on Preventing AI and Algorithmic Bias",
+        "mentions": 1,
+        "first_seen": "1348"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of Health and Human Services",
+    "the task force": "Task Force on Preventing AI and Algorithmic Bias in Health Care"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1348",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Secretary",
+      "resolved": "Secretary of Health and Human Services",
+      "doc_id": "1348",
+      "community_id": "community:214"
+    },
+    {
+      "phrase": "the Task Force",
+      "resolved": "Task Force on Preventing AI and Algorithmic Bias in Health Care",
+      "doc_id": "1348",
+      "community_id": "community:214"
+    }
+  ],
+  "entity_confidence": {
+    "org:centers_for_disease_control_and_prevention": 0.6,
+    "org:food_and_drug_administration": 0.6,
+    "org:national_institute_on_minority_health_and_health_disparities": 0.6,
+    "org:indian_health_service": 0.6,
+    "org:centers_for_medicare_medicaid_services": 0.6,
+    "org:agency_for_healthcare_research_and_quality": 0.6,
+    "org:health_resources_and_services_administration": 0.6,
+    "org:national_council_on_disability": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "legislation:chapter_51_and_subchapter_iii_of_chapter_53_title_5_united_states_code": 0.6,
+    "office:office_of_minority_health": 0.6,
+    "office:office_on_women_s_health": 0.6,
+    "office:office_of_the_national_coordinator_for_health_information_technology": 0.6,
+    "named_doc:task_force_on_preventing_ai_and_algorithmic_bias_in_health_care": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6,
+    "role:chief_information_officer": 0.6,
+    "role:director": 0.6,
+    "role:commissioner": 0.6,
+    "role:administrator": 0.6,
+    "role:surgeon_general": 0.6,
+    "role:chairperson": 0.6,
+    "role:national_coordinator_for_health_information_technology": 0.6,
+    "role:chairperson_of_the_task_force": 0.6
+  }
+}

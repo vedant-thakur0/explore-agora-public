@@ -1,0 +1,192 @@
+{
+  "community_id": "community:225",
+  "label": "Applications: Manufacturing and process automation | Applications: Transportation | Strategies: Pilots and testbeds",
+  "taxonomy_signature": [
+    "Applications: Manufacturing and process automation",
+    "Applications: Transportation",
+    "Strategies: Pilots and testbeds",
+    "Harms: Financial loss",
+    "Strategies: Government study or report",
+    "Strategies: Government support"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "A 2019 Government Accountability Office report found that while there are many Federal employment and training programs",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "World Economic Forum",
+        "acronym": "WEF",
+        "context": "43 percent of businesses in the World Economic Forum's Future of Jobs survey indicating they plan to reduce their workforce",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Organisation on Economic Co-operation and Development",
+        "acronym": "OECD",
+        "context": "member countries of the Organisation on Economic Co-operation and Development",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Department of Labor",
+        "acronym": null,
+        "context": "Secretary of Labor referenced in definitions section",
+        "mentions": 1,
+        "first_seen": "496"
+      }
+    ],
+    "offices": [
+      {
+        "name": "State workforce development board",
+        "parent_org": "Department of Labor",
+        "context": "representatives of a State workforce development board or a local workforce development board",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Local workforce development board",
+        "parent_org": "Department of Labor",
+        "context": "representatives of a State workforce development board or a local workforce development board",
+        "mentions": 1,
+        "first_seen": "496"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Labor",
+        "context": "The term 'Secretary' means the Secretary of Labor",
+        "mentions": 1,
+        "first_seen": "496"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Investing in Tomorrow's Workforce Act of 2023",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "Allocates $40 million annually for dislocated worker grants aimed at training workers displaced by automation",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Workforce Innovation and Opportunity Act",
+        "citation": "29 U.S.C. 3102(24)",
+        "ref_type": "cites",
+        "context": "section 3(24) of the Workforce Innovation and Opportunity Act (29 U.S.C. 3102(24))",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Infrastructure Investment and Jobs Act",
+        "citation": "47 U.S.C. 1721",
+        "ref_type": "cites",
+        "context": "section 60301 of the Infrastructure Investment and Jobs Act (47 U.S.C. 1721)",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "20 U.S.C. 1001",
+        "ref_type": "cites",
+        "context": "section 101 of the Higher Education Act of 1965 (20 U.S.C. 1001)",
+        "mentions": 1,
+        "first_seen": "496"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "outcome reports",
+        "doc_type": "report",
+        "owner_org": null,
+        "context": "Mandates outcome reports",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "Future of Jobs",
+        "doc_type": "report",
+        "owner_org": "World Economic Forum",
+        "context": "World Economic Forum's Future of Jobs survey indicating they plan to reduce their workforce",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "demonstration and pilot projects relating to the training needs of workers impacted by automation",
+        "doc_type": "initiative",
+        "owner_org": "Department of Labor",
+        "context": "eligible partnerships to support demonstration and pilot projects relating to the training needs of workers",
+        "mentions": 1,
+        "first_seen": "496"
+      },
+      {
+        "name": "demonstration or pilot project",
+        "doc_type": "report",
+        "owner_org": "eligible partnership",
+        "context": "eligible partnership's completion of a demonstration or pilot project supported under this section, the eligible partnership shall prepare and submit to the Secretary a report",
+        "mentions": 1,
+        "first_seen": "496"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Labor (Department of Labor) - references throughout section authorize grants for automation-related worker training"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "496",
+      "note": "Document excerpt contains only enacting clause and bill title/summary. Full legislative text with substantive provisions, agency assignments, and implementing roles not present in provided text. Extracted entities are limited to constitutional legislative bodies and documents referenced in the summary."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "496",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Labor (Department of Labor) - references throughout section authorize grants for automation-related worker training",
+      "doc_id": "496",
+      "community_id": "community:225"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:investing_in_tomorrow_s_workforce_act_of_2023": 0.6,
+    "legislation:workforce_innovation_and_opportunity_act": 0.6,
+    "legislation:infrastructure_investment_and_jobs_act": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "office:state_workforce_development_board": 0.6,
+    "office:local_workforce_development_board": 0.6,
+    "role:secretary": 0.6,
+    "named_doc:outcome_reports": 0.6,
+    "named_doc:future_of_jobs": 0.6,
+    "named_doc:demonstration_and_pilot_projects_relating_to_the_training_needs_of_workers_impacted_by_automation": 0.6,
+    "named_doc:demonstration_or_pilot_project": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:government_accountability_office": 0.6,
+    "org:world_economic_forum": 0.6,
+    "org:organisation_on_economic_co_operation_and_development": 0.6,
+    "org:department_of_labor": 0.6
+  }
+}

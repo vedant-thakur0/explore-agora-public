@@ -1,0 +1,92 @@
+{
+  "community_id": "community:026",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Federal Aviation Administration",
+        "acronym": "FAA",
+        "context": "Administrator shall conduct a review of current and planned artificial intelligence",
+        "mentions": 2,
+        "first_seen": "796"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Administrator",
+        "org": "Federal Aviation Administration",
+        "context": "The Administrator shall conduct a review of current and planned artificial intelligence",
+        "mentions": 2,
+        "first_seen": "796"
+      },
+      {
+        "title": "Certified Professional Controller",
+        "org": "Federal Aviation Administration",
+        "context": "training time to become a Certified Professional Controller",
+        "mentions": 1,
+        "first_seen": "797"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "FAA Research and Development Act of 2023",
+        "citation": "Sec. 210",
+        "ref_type": "enacts",
+        "context": "Not later than one year after the date of the enactment of this Act",
+        "mentions": 2,
+        "first_seen": "796"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Technology Review of Artificial Intelligence and Machine Learning Technologies Report",
+        "doc_type": "report",
+        "owner_org": "Federal Aviation Administration",
+        "context": "the Administrator shall submit to the appropriate committees of Congress a report containing the results of the review",
+        "mentions": 1,
+        "first_seen": "796"
+      },
+      {
+        "name": "Report on Air Traffic Control Training Research Findings",
+        "doc_type": "report",
+        "owner_org": "Federal Aviation Administration",
+        "context": "submit to the appropriate committees of Congress a report on the findings of the research",
+        "mentions": 1,
+        "first_seen": "797"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "administrator": "Federal Aviation Administration Administrator (inferred from FAA context and statutory authority)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "797",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Administrator",
+      "resolved": "Federal Aviation Administration Administrator (inferred from FAA context and statutory authority)",
+      "doc_id": "796",
+      "community_id": "community:026"
+    },
+    {
+      "phrase": "Administrator",
+      "resolved": "Federal Aviation Administration Administrator, established by FAA context and Sec. 215 authority",
+      "doc_id": "797",
+      "community_id": "community:026"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:faa_research_and_development_act_of_2023": 0.6,
+    "named_doc:technology_review_of_artificial_intelligence_and_machine_learning_technologies_report": 0.6,
+    "org:federal_aviation_administration": 1.0,
+    "role:administrator": 0.6,
+    "named_doc:report_on_air_traffic_control_training_research_findings": 0.6,
+    "role:certified_professional_controller": 0.6
+  }
+}

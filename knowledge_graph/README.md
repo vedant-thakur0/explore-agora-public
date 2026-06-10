@@ -3,6 +3,8 @@
 Knowledge graph development project over the AGORA corpus of AI policy documents.
 Prototype scope: **United States Congress** documents only.
 
+**Note:** `graph_data/` contains filtered Congress-only datasets; the full AGORA corpus (including `data/fulltext/` with ~1,016 plaintext bill files) lives at the repo root.
+
 ## Data Sources
 
 Filtered data lives in `data/`. Source CSVs are in the parent directory (`../`).
@@ -46,6 +48,10 @@ Starting March 2026, cosponsor information extends the sponsor network:
 | `../graph_data/agora_comprehensive_data_with_cosponsor_lists.csv` | ~622 | Enriched documents CSV (replaces `agora_with_sponsors.csv`) with cosponsor counts and JSON-encoded lists. Primary input for sponsor/cosponsor graph building. |
 
 See [COSPONSOR_LAYERS.md](./COSPONSOR_LAYERS.md) for details on the knowledge graph Layer 1b (active) and Layer 1.75 (withdrawn) cosponsor networks.
+
+## Data source & licensing
+
+Filtered datasets in `data/` are derived from the AGORA corpus published on Zenodo (https://zenodo.org/records/15692257). Licensing and attribution terms are documented in [`DATA_LICENSE.md`](../DATA_LICENSE.md) at the repo root.
 
 ## Notes
 

@@ -1,0 +1,302 @@
+{
+  "community_id": "community:158",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Veterans Affairs",
+        "acronym": "VA",
+        "context": "laws administered by Secretary of Veterans Affairs",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Committee on Veterans' Affairs of the House of Representatives",
+        "acronym": null,
+        "context": "Secretary shall submit to the Committees on Veterans' Affairs of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Committee on Veterans' Affairs of the Senate",
+        "acronym": null,
+        "context": "Secretary shall submit to the Committees on Veterans' Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Veterans Benefits Administration",
+        "acronym": "VBA",
+        "context": "not been assigned to an office of the Veterans Benefits Administration for adjudication",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "National Work Queue",
+        "acronym": null,
+        "context": "filed in the National Work Queue (or any successor system)",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Court of Appeals for Veterans Claims",
+        "acronym": null,
+        "context": "Expansion Of Jurisdiction Of Court Of Appeals For Veterans Claims",
+        "mentions": 1,
+        "first_seen": "872"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Board of Veterans' Appeals",
+        "parent_org": "Department of Veterans Affairs",
+        "context": "Permits the Board of Veterans' Appeals to aggregate appeals with similar legal or factual questions",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Office of General Counsel",
+        "parent_org": "Department of Veterans Affairs",
+        "context": "Board may submit to the General Counsel a request for an opinion",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Agency of Original Jurisdiction",
+        "parent_org": "Department of Veterans Affairs",
+        "context": "failure on the part of the agency of original jurisdiction to satisfy the Secretary's duty",
+        "mentions": 1,
+        "first_seen": "872"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Veterans Affairs",
+        "org": "Department of Veterans Affairs",
+        "context": "Requires the Secretary to track and maintain information on certain veterans' benefits claims",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "title": "Chairman of the Board of Veterans' Appeals",
+        "org": "Board of Veterans' Appeals",
+        "context": "Chairman of the Board of Veterans' Appeals determines were unnecessary",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "title": "Adjudicator",
+        "org": "Veterans Benefits Administration",
+        "context": "adjudicator of the Veterans Benefits Administration does not comply",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "title": "General Counsel",
+        "org": "Department of Veterans Affairs",
+        "context": "submit to the General Counsel a request for an opinion",
+        "mentions": 1,
+        "first_seen": "872"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Veterans Appeals Efficiency Act of 2024",
+        "citation": "H.R. [number not provided]",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Veterans Appeals Efficiency Act of 2024\"",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5109B of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5109B",
+        "ref_type": "amends",
+        "context": "Section 5109B of title 38, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Chapter 51 of title 38, United States Code",
+        "citation": "38 U.S.C. ch. 51",
+        "ref_type": "amends",
+        "context": "Chapter 51 of title 38, United States Code, is amended by inserting after section 5109B",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5109C of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5109C",
+        "ref_type": "enacts",
+        "context": "by inserting after section 5109B the following new section",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5104C of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5104C",
+        "ref_type": "cites",
+        "context": "continuously pursued in accordance with sections 5104C(a)",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5110 of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5110",
+        "ref_type": "cites",
+        "context": "sections 5104C(a) and 5110(a)(2) of this title",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 7104 of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 7104",
+        "ref_type": "amends",
+        "context": "Section 7104 of such section is amended in subsection (a)",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 7107 of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 7107",
+        "ref_type": "cites",
+        "context": "pending a hearing by the Board of Veterans' Appeals under section 7107",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5108 of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5108",
+        "ref_type": "cites",
+        "context": "supplemental claims under section 5108 of this title filed",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5103A of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5103A",
+        "ref_type": "cites",
+        "context": "the Secretary's duty to assist under section 5103A of this title",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 7252 of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 7252",
+        "ref_type": "amends",
+        "context": "Section 7252 of title 38, United States Code, is amended",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Chapter 71 of title 38, United States Code",
+        "citation": "38 U.S.C. ch. 71",
+        "ref_type": "cites",
+        "context": "authority of the Board of Veterans' Appeals established under chapter 71",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Section 5100 of title 38, United States Code",
+        "citation": "38 U.S.C. \u00a7 5100",
+        "ref_type": "cites",
+        "context": "terms have the meanings given such terms in section 5100",
+        "mentions": 1,
+        "first_seen": "872"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Annual Report on Length of Adjudications",
+        "doc_type": "report",
+        "owner_org": "Secretary of Veterans Affairs",
+        "context": "Secretary shall submit to the Committees on Veterans' Affairs an annual report",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Study on Common Questions of Law or Fact Before Board of Veterans' Appeals",
+        "doc_type": "study",
+        "owner_org": "Board of Veterans' Appeals",
+        "context": "Chairman of the Board of Veterans Appeals shall carry out a study to identify questions",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Report on Common Questions of Law or Fact",
+        "doc_type": "report",
+        "owner_org": "Board of Veterans' Appeals",
+        "context": "Chairman of the Board of Veterans Appeals shall submit a report that includes findings",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Assessment of Potential Modifications to Authority of Board of Veterans' Appeals",
+        "doc_type": "strategy",
+        "owner_org": "Secretary of Veterans Affairs",
+        "context": "FFRDC shall submit to the Secretary a written assessment",
+        "mentions": 1,
+        "first_seen": "872"
+      },
+      {
+        "name": "Plan for Timely Assignment of Claims",
+        "doc_type": "plan",
+        "owner_org": "Secretary of Veterans Affairs",
+        "context": "Secretary of Veterans Affairs shall develop a plan to ensure claims for benefits",
+        "mentions": 1,
+        "first_seen": "872"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Veterans Affairs - explicitly identified in Section 2"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "872",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Veterans Affairs - explicitly identified in Section 2",
+      "doc_id": "872",
+      "community_id": "community:158"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:veterans_appeals_efficiency_act_of_2024": 0.6,
+    "legislation:section_5109b_of_title_38_united_states_code": 0.6,
+    "legislation:chapter_51_of_title_38_united_states_code": 0.6,
+    "legislation:section_5109c_of_title_38_united_states_code": 0.6,
+    "legislation:section_5104c_of_title_38_united_states_code": 0.6,
+    "legislation:section_5110_of_title_38_united_states_code": 0.6,
+    "legislation:section_7104_of_title_38_united_states_code": 0.6,
+    "legislation:section_7107_of_title_38_united_states_code": 0.6,
+    "legislation:section_5108_of_title_38_united_states_code": 0.6,
+    "legislation:section_5103a_of_title_38_united_states_code": 0.6,
+    "legislation:section_7252_of_title_38_united_states_code": 0.6,
+    "legislation:chapter_71_of_title_38_united_states_code": 0.6,
+    "legislation:section_5100_of_title_38_united_states_code": 0.6,
+    "office:board_of_veterans_appeals": 0.6,
+    "office:office_of_general_counsel": 0.6,
+    "office:agency_of_original_jurisdiction": 0.6,
+    "role:secretary_of_veterans_affairs": 0.6,
+    "role:chairman_of_the_board_of_veterans_appeals": 0.6,
+    "role:adjudicator": 0.6,
+    "role:general_counsel": 0.6,
+    "named_doc:annual_report_on_length_of_adjudications": 0.6,
+    "named_doc:study_on_common_questions_of_law_or_fact_before_board_of_veterans_appeals": 0.6,
+    "named_doc:report_on_common_questions_of_law_or_fact": 0.6,
+    "named_doc:assessment_of_potential_modifications_to_authority_of_board_of_veterans_appeals": 0.6,
+    "named_doc:plan_for_timely_assignment_of_claims": 0.6,
+    "org:department_of_veterans_affairs": 0.6,
+    "org:committee_on_veterans_affairs_of_the_house_of_representatives": 0.6,
+    "org:committee_on_veterans_affairs_of_the_senate": 0.6,
+    "org:veterans_benefits_administration": 0.6,
+    "org:national_work_queue": 0.6,
+    "org:court_of_appeals_for_veterans_claims": 0.6
+  }
+}

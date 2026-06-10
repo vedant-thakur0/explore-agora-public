@@ -1,0 +1,105 @@
+{
+  "community_id": "community:095",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "Department of Defense military bases and installations",
+        "mentions": 1,
+        "first_seen": "422"
+      },
+      {
+        "name": "Chinese Communist Party",
+        "acronym": "CCP",
+        "context": "potentially sharing geospatial and other data with the Chinese Communist Party",
+        "mentions": 1,
+        "first_seen": "422"
+      },
+      {
+        "name": "People's Liberation Army",
+        "acronym": "PLA",
+        "context": "how the CCP or People's Liberation Army could potentially use the data",
+        "mentions": 1,
+        "first_seen": "422"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Committees on Armed Services of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "422"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Committees on Armed Services of the Senate",
+        "mentions": 1,
+        "first_seen": "422"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Under Secretary of Defense for Policy",
+        "parent_org": "Department of Defense",
+        "context": "acting through Under Secretary of Defense for Policy",
+        "mentions": 1,
+        "first_seen": "422"
+      },
+      {
+        "name": "Under Secretary of Defense for Acquisitions and Sustainment",
+        "parent_org": "Department of Defense",
+        "context": "in coordination with the Under Secretary of Defense for Acquisitions and Sustainment",
+        "mentions": 1,
+        "first_seen": "422"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "The Secretary of Defense, acting through Under Secretary of Defense for Policy",
+        "mentions": 1,
+        "first_seen": "422"
+      }
+    ],
+    "legislation_refs": [],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "secretary of defense": "Confirmed as role title with Department of Defense as associated agency, required to provide briefing",
+    "department of defense": "Confirmed as parent organization; briefing concerns threats to DoD military bases and installations"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "422",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary of Defense",
+      "resolved": "Confirmed as role title with Department of Defense as associated agency, required to provide briefing",
+      "doc_id": "422",
+      "community_id": "community:095"
+    },
+    {
+      "phrase": "Department of Defense",
+      "resolved": "Confirmed as parent organization; briefing concerns threats to DoD military bases and installations",
+      "doc_id": "422",
+      "community_id": "community:095"
+    }
+  ],
+  "entity_confidence": {
+    "office:under_secretary_of_defense_for_policy": 0.6,
+    "office:under_secretary_of_defense_for_acquisitions_and_sustainment": 0.6,
+    "role:secretary_of_defense": 0.9,
+    "org:department_of_defense": 1.0,
+    "org:chinese_communist_party": 0.6,
+    "org:people_s_liberation_army": 0.6,
+    "org:house_of_representatives": 0.6,
+    "org:senate": 0.39999999999999997
+  }
+}

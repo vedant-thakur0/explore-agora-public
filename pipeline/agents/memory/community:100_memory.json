@@ -1,0 +1,249 @@
+{
+  "community_id": "community:100",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "NSF Director to submit interim and final reports on AI's workforce impact",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Office of Science and Technology Policy",
+        "acronym": "OSTP",
+        "context": "Federal agency collaborating on AI workforce analysis",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Committee on Education and the Workforce",
+        "acronym": null,
+        "context": "House committee to which bill was referred",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "House committee to which bill was referred",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "United States Department of Labor",
+        "acronym": null,
+        "context": "Secretary of Labor to submit interim and final reports on AI's workforce impact",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Committee on Health, Education, Labor, and Pensions",
+        "acronym": "HELP",
+        "context": "Committee on Health, Education, Labor, and Pensions of the Senate",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Committee on Commerce, Science and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "collaboration with National Laboratories",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "National Academies of Science",
+        "acronym": null,
+        "context": "collaborate with the National Academies of Science",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "United States Department of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "United States Department of Education",
+        "acronym": null,
+        "context": "Secretary of Education",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Office",
+        "acronym": null,
+        "context": "Director of the National Artificial Intelligence Initiative Office",
+        "mentions": 1,
+        "first_seen": "452"
+      }
+    ],
+    "offices": [
+      {
+        "name": "White House Office of Science and Technology Policy",
+        "parent_org": "Executive Office of the President",
+        "context": "Director of the White House Office of Science and Technology Policy",
+        "mentions": 1,
+        "first_seen": "452"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Labor",
+        "org": "United States Department of Labor",
+        "context": "Secretary of Labor and the NSF Director to submit interim and final reports",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "title": "National Cyber Director",
+        "org": "White House",
+        "context": "the National Cyber Director, and the heads of any other Federal agency",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "United States Department of Commerce",
+        "context": "Secretary of Commerce",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "title": "Secretary of Education",
+        "org": "United States Department of Education",
+        "context": "Secretary of Education",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "title": "Director of the National Artificial Intelligence Initiative Office",
+        "org": "National Artificial Intelligence Initiative Office",
+        "context": "Director of the National Artificial Intelligence Initiative Office",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "title": "Director of the White House Office of Science and Technology Policy",
+        "org": "White House Office of Science and Technology Policy",
+        "context": "Director of the White House Office of Science and Technology Policy",
+        "mentions": 1,
+        "first_seen": "452"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Jobs of the Future Act of 2023",
+        "citation": "H.R. 4498",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the 'Jobs of the Future Act of 2023'",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "section 5105",
+        "ref_type": "cites",
+        "context": "study conducted under section 5105 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Higher Education Act of 1965",
+        "citation": "section 312(f), 20 U.S.C. 1058(f)",
+        "ref_type": "cites",
+        "context": "section 312(f) of the Higher Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Elementary and Secondary Education Act of 1965",
+        "citation": "section 8101, 20 U.S.C. 7801",
+        "ref_type": "cites",
+        "context": "section 8101 of the Elementary and Secondary Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "452"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Report on Artificial Intelligence",
+        "doc_type": "report",
+        "owner_org": "Secretary of Labor and NSF Director",
+        "context": "SEC. 3. REPORT ON ARTIFICIAL INTELLIGENCE - required submission",
+        "mentions": 1,
+        "first_seen": "452"
+      },
+      {
+        "name": "Report on Artificial Intelligence and Its Impact on the Workforce of the United States",
+        "doc_type": "report",
+        "owner_org": "United States Department of Labor, National Science Foundation",
+        "context": "interim report on artificial intelligence and its impact on the workforce",
+        "mentions": 1,
+        "first_seen": "452"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director": "resolved to Director of the National Science Foundation in subsection (a) context",
+    "secretary of labor": "confirmed as lead agency official in subsection (a)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "452",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director",
+      "resolved": "resolved to Director of the National Science Foundation in subsection (a) context",
+      "doc_id": "452",
+      "community_id": "community:100"
+    },
+    {
+      "phrase": "Secretary of Labor",
+      "resolved": "confirmed as lead agency official in subsection (a)",
+      "doc_id": "452",
+      "community_id": "community:100"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:jobs_of_the_future_act_of_2023": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:higher_education_act_of_1965": 0.6,
+    "legislation:elementary_and_secondary_education_act_of_1965": 0.6,
+    "office:white_house_office_of_science_and_technology_policy": 0.6,
+    "role:secretary_of_labor": 0.6,
+    "role:national_cyber_director": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:secretary_of_education": 0.6,
+    "role:director_of_the_national_artificial_intelligence_initiative_office": 0.6,
+    "role:director_of_the_white_house_office_of_science_and_technology_policy": 0.6,
+    "named_doc:report_on_artificial_intelligence": 0.6,
+    "named_doc:report_on_artificial_intelligence_and_its_impact_on_the_workforce_of_the_united_states": 0.6,
+    "org:national_science_foundation": 1.0,
+    "org:office_of_science_and_technology_policy": 1.0,
+    "org:committee_on_education_and_the_workforce": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:united_states_department_of_labor": 0.6,
+    "org:committee_on_health_education_labor_and_pensions": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:national_academies_of_science": 0.6,
+    "org:united_states_department_of_commerce": 0.6,
+    "org:united_states_department_of_education": 0.6,
+    "org:national_artificial_intelligence_initiative_office": 0.6
+  }
+}

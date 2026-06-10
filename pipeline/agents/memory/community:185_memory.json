@@ -1,0 +1,75 @@
+{
+  "community_id": "community:185",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "authorized to be appropriated for the National Institute of Standards and Technology pursuant to this section",
+        "mentions": 1,
+        "first_seen": "1247"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "submit to the Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "1247"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1247"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "National Institute of Standards and Technology",
+        "context": "The Director, in consultation with heads of Federal agencies the Director considers appropriate",
+        "mentions": 1,
+        "first_seen": "1247"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "42 U.S.C. 18931; Public Law 117\u2013167",
+        "ref_type": "amends",
+        "context": "Section 10221 of the Research and Development, Competition, and Innovation Act (42 U.S.C. 18931; enacted as part of title II of division B of Public Law 117\u2013167) is amended",
+        "mentions": 1,
+        "first_seen": "1247"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "the director": "Refers to the Director of the National Institute of Standards and Technology, established through context of authorization of appropriations and measurement research mandate."
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1247",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Director",
+      "resolved": "Refers to the Director of the National Institute of Standards and Technology, established through context of authorization of appropriations and measurement research mandate.",
+      "doc_id": "1247",
+      "community_id": "community:185"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "role:director": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6
+  }
+}

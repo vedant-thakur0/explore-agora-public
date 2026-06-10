@@ -1,0 +1,416 @@
+{
+  "community_id": "community:057",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "United States of America",
+        "acronym": "USA",
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Department of State",
+        "acronym": "State",
+        "context": "The Department of State, the intelligence community, and the National Security Commission",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "National Security Commission on Artificial Intelligence",
+        "acronym": "NSCAI",
+        "context": "the National Security Commission on Artificial Intelligence, as well as senior officials at",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "senior officials at the Department of Energy, Argonne National Laboratory",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Argonne National Laboratory",
+        "acronym": null,
+        "context": "the Department of Energy, Argonne National Laboratory, the Cybersecurity and Infrastructure",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Cybersecurity and Infrastructure Security Agency",
+        "acronym": "CISA",
+        "context": "Argonne National Laboratory, the Cybersecurity and Infrastructure Security Agency, and the",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "National Counterterrorism Center",
+        "acronym": "NCTC",
+        "context": "Cybersecurity and Infrastructure Security Agency, and the National Counterterrorism Center",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce shall submit to Congress recommended changes",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "National Institute for Standards and Technology",
+        "acronym": "NIST",
+        "context": "interagency coordination with National Institute for Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "National Nuclear Security Administration",
+        "acronym": "NNSA",
+        "context": "interagency coordination with National Nuclear Security Administration",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "National Security Agency",
+        "acronym": "NSA",
+        "context": "interagency coordination with National Security Agency",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Bureau of Industry and Security",
+        "acronym": "BIS",
+        "context": "interagency coordination with Bureau of Industry and Security",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Under Secretary of Commerce for Industry and Security",
+        "acronym": null,
+        "context": "in coordination with the Under Secretary of Commerce for Industry and Security",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "Director of the National Institute of Standards and Technology may, acting through the Artificial Intelligence Safety Institute",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "United States District Courts",
+        "acronym": null,
+        "context": "district courts of the United States",
+        "mentions": 1,
+        "first_seen": "1887"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Artificial Intelligence Safety Review Office",
+        "parent_org": null,
+        "context": "Establishes an Artificial Intelligence Safety Review Office to evaluate AI models",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Subcommittee on Emerging Threats and Spending Oversight",
+        "parent_org": "Committee on Homeland Security and Governmental Affairs",
+        "context": "Subcommittee on Emerging Threats and Spending Oversight of the Committee on Homeland Security",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Artificial Intelligence Safety Institute",
+        "parent_org": "National Institute of Standards and Technology",
+        "context": "acting through the Artificial Intelligence Safety Institute, make available to the Office",
+        "mentions": 1,
+        "first_seen": "1887"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary of Commerce shall submit to Congress recommended changes every 2 years",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Under Secretary of Commerce for Artificial Intelligence Safety",
+        "org": "Department of Commerce",
+        "context": "Under Secretary means the Under Secretary of Commerce for Artificial Intelligence Safety appointed under section 4(d)(1)",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Under Secretary",
+        "org": "Department of Commerce",
+        "context": "the Under Secretary shall, in coordination with the Under Secretary of Commerce for Industry and Security",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "in coordination with...the Director of the National Institute of Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "and the Secretary of Energy, and the heads of such other entities",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Director of the Cybersecurity and Infrastructure Security Agency",
+        "org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "in coordination with the Director of the Cybersecurity and Infrastructure Security Agency",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Commerce",
+        "context": "The Secretary shall review each determination for which a request is made under clause (i) within 90 days",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Director of the National Security Agency",
+        "org": "National Security Agency",
+        "context": "in coordination with the Director of the National Security Agency, the Director of the National Institute for Standards and Technology",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Director of the National Institute for Standards and Technology",
+        "org": "National Institute for Standards and Technology",
+        "context": "the Director of the National Institute for Standards and Technology, and the Under Secretary",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "title": "Attorney General",
+        "org": "United States of America",
+        "context": "The Attorney General may seek appropriate relief in the district courts",
+        "mentions": 1,
+        "first_seen": "1887"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Preserving American Dominance in Artificial Intelligence Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "Document title and enacting clause establish this legislation",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Immigration and Nationality Act",
+        "citation": "8 U.S.C. 1101",
+        "ref_type": "cites",
+        "context": "alien has the meaning given such term in section 101 of the Immigration and Nationality Act",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Title 5, United States Code, Section 1015",
+        "citation": "5 U.S.C. 1015",
+        "ref_type": "cites",
+        "context": "Executive agency has the meaning given such term in section 1015 of title 5",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Title 5, United States Code",
+        "citation": "5 U.S.C.",
+        "ref_type": "cites",
+        "context": "appointed without regard to title 5, United States Code; section 5108",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Chapter 51 or subchapter III of chapter 53 of title 5, United States Code",
+        "citation": "5 U.S.C. ch. 51, ch. 53",
+        "ref_type": "cites",
+        "context": "without regard to provisions of chapter 51 or subchapter III of chapter 53",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Section 8",
+        "citation": "section 8",
+        "ref_type": "cites",
+        "context": "implementation of red-teaming and mitigation techniques required under section 8(c)(1)(A)",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Section 4",
+        "citation": "section 4(c)",
+        "ref_type": "cites",
+        "context": "in coordination with the heads of entities specified under section 4(c)",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "subsection (e)",
+        "citation": "subsection (e)(3)",
+        "ref_type": "cites",
+        "context": "Pursuant to receipt of a request submitted under subsection (e)(3) for a rereview",
+        "mentions": 1,
+        "first_seen": "1887"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Advanced Technology: Examining Threats to National Security",
+        "doc_type": "other",
+        "owner_org": "Subcommittee on Emerging Threats and Spending Oversight",
+        "context": "A September 2023 hearing titled, \"Advanced Technology: Examining Threats to National Security\"",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Report on the status of the strategies, best practices, and technical assistance",
+        "doc_type": "report",
+        "owner_org": "National Institute of Standards and Technology",
+        "context": "the Director shall submit to Congress a report on the status of the strategies, best practices, and technical assistance made available",
+        "mentions": 1,
+        "first_seen": "1887"
+      },
+      {
+        "name": "Joint Cybersecurity Information bulletin",
+        "doc_type": "other",
+        "owner_org": "Cybersecurity and Infrastructure Security Agency",
+        "context": "best practices identified in any Joint Cybersecurity Information bulletin determined relevant by the Director",
+        "mentions": 1,
+        "first_seen": "1887"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the intelligence community": "already established as distinct entity in community context",
+    "the department of defense": "already established in community context",
+    "the department of state": "identified as distinct from other named agencies in this section",
+    "the under secretary": "Under Secretary of Commerce for Artificial Intelligence Safety (established in earlier sections)",
+    "the secretary": "Secretary of Commerce (established in earlier sections)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1887",
+      "note": "This enacting clause contains only boilerplate statutory language with no substantive policy details. The actual legislative provisions (AI Safety Review Office, red-teaming requirements, fines, criminal penalties, $50M allocation) appear only in the summary, not in the provided text excerpt."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1887",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the intelligence community",
+      "resolved": "already established as distinct entity in community context",
+      "doc_id": "1887",
+      "community_id": "community:057"
+    },
+    {
+      "phrase": "the Department of Defense",
+      "resolved": "already established in community context",
+      "doc_id": "1887",
+      "community_id": "community:057"
+    },
+    {
+      "phrase": "the Department of State",
+      "resolved": "identified as distinct from other named agencies in this section",
+      "doc_id": "1887",
+      "community_id": "community:057"
+    },
+    {
+      "phrase": "the Under Secretary",
+      "resolved": "Under Secretary of Commerce for Artificial Intelligence Safety (established in earlier sections)",
+      "doc_id": "1887",
+      "community_id": "community:057"
+    },
+    {
+      "phrase": "the Secretary",
+      "resolved": "Secretary of Commerce (established in earlier sections)",
+      "doc_id": "1887",
+      "community_id": "community:057"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:preserving_american_dominance_in_artificial_intelligence_act_of_2024": 0.6,
+    "legislation:immigration_and_nationality_act": 0.6,
+    "legislation:title_5_united_states_code_section_1015": 0.6,
+    "legislation:title_5_united_states_code": 0.6,
+    "legislation:chapter_51_or_subchapter_iii_of_chapter_53_of_title_5_united_states_code": 0.6,
+    "legislation:section_8": 0.6,
+    "legislation:section_4": 0.6,
+    "legislation:subsection_e": 0.6,
+    "office:artificial_intelligence_safety_review_office": 0.6,
+    "office:subcommittee_on_emerging_threats_and_spending_oversight": 0.6,
+    "office:artificial_intelligence_safety_institute": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:under_secretary_of_commerce_for_artificial_intelligence_safety": 0.6,
+    "role:under_secretary": 0.6,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "role:secretary_of_energy": 0.6,
+    "role:director_of_the_cybersecurity_and_infrastructure_security_agency": 0.6,
+    "role:secretary": 0.6,
+    "role:director_of_the_national_security_agency": 0.6,
+    "role:director_of_the_national_institute_for_standards_and_technology": 0.6,
+    "role:attorney_general": 0.9,
+    "named_doc:advanced_technology_examining_threats_to_national_security": 0.6,
+    "named_doc:report_on_the_status_of_the_strategies_best_practices_and_technical_assistance": 0.6,
+    "named_doc:joint_cybersecurity_information_bulletin": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:united_states_of_america": 0.6,
+    "org:department_of_state": 0.6,
+    "org:national_security_commission_on_artificial_intelligence": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:argonne_national_laboratory": 0.6,
+    "org:cybersecurity_and_infrastructure_security_agency": 0.6,
+    "org:national_counterterrorism_center": 0.6,
+    "org:committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:national_institute_for_standards_and_technology": 0.6,
+    "org:national_nuclear_security_administration": 0.6,
+    "org:national_security_agency": 0.6,
+    "org:bureau_of_industry_and_security": 0.6,
+    "org:under_secretary_of_commerce_for_industry_and_security": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:united_states_district_courts": 0.6
+  }
+}

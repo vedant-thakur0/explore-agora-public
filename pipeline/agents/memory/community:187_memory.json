@@ -1,0 +1,136 @@
+{
+  "community_id": "community:187",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Department of Energy",
+        "acronym": "DOE",
+        "context": "Secretary of Energy shall develop and submit to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "Nuclear Regulatory Commission",
+        "acronym": "NRC",
+        "context": "acceptance by the Nuclear Regulatory Commission through commercial grade dedication",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "American Society of Mechanical Engineers",
+        "acronym": "ASME",
+        "context": "safety-related nuclear components and materials that receive appropriate ASME certification",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "Committee on Environment and Public Works",
+        "acronym": null,
+        "context": "Committee on Environment and Public Works of the Senate",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "Committee on Energy and Natural Resources of the Senate",
+        "mentions": 1,
+        "first_seen": "1245"
+      }
+    ],
+    "offices": [
+      {
+        "name": "appropriate congressional committees",
+        "parent_org": "Congress",
+        "context": "submit to the appropriate congressional committees an evaluation of the nuclear supply chain",
+        "mentions": 1,
+        "first_seen": "1245"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Energy",
+        "org": "United States Department of Energy",
+        "context": "the Secretary of Energy shall develop and submit to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "1245"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Atomic Supply Chain Solutions Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Atomic Supply Chain Solutions Act\".",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1245"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "nuclear supply chain evaluation",
+        "doc_type": "report",
+        "owner_org": "United States Department of Energy",
+        "context": "the Secretary of Energy shall develop and submit to the appropriate congressional committees an evaluation of the nuclear supply chain",
+        "mentions": 1,
+        "first_seen": "1245"
+      },
+      {
+        "name": "ASME Nuclear Certification",
+        "doc_type": "other",
+        "owner_org": "American Society of Mechanical Engineers",
+        "context": "N\u2013stamp means the ASME Nuclear Certification",
+        "mentions": 1,
+        "first_seen": "1245"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary of energy": "Identified as role within Department of Energy based on statutory context"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1245",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary of Energy",
+      "resolved": "Identified as role within Department of Energy based on statutory context",
+      "doc_id": "1245",
+      "community_id": "community:187"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:atomic_supply_chain_solutions_act": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "office:appropriate_congressional_committees": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "named_doc:nuclear_supply_chain_evaluation": 0.6,
+    "named_doc:asme_nuclear_certification": 0.6,
+    "org:united_states_department_of_energy": 0.6,
+    "org:nuclear_regulatory_commission": 0.6,
+    "org:american_society_of_mechanical_engineers": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_environment_and_public_works": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6
+  }
+}

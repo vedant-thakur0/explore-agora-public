@@ -1,0 +1,125 @@
+{
+  "community_id": "community:114",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Clayton Act",
+        "acronym": null,
+        "context": "antitrust laws has the meaning given such term in subsection (a) of the first section of the Clayton Act",
+        "mentions": 1,
+        "first_seen": "568"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "acronym": null,
+        "context": "section 5 of the Federal Trade Commission Act (15 U.S.C. 45)",
+        "mentions": 1,
+        "first_seen": "568"
+      },
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "Office of Management and Budget North American Industry Classification System (NAICS) code 512250",
+        "mentions": 1,
+        "first_seen": "568"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Management and Budget",
+        "parent_org": "Executive Office of the President",
+        "context": "North American Industry Classification System (NAICS) code 512250",
+        "mentions": 1,
+        "first_seen": "568"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Independent Music Creator Owners",
+        "org": "Music Industry",
+        "context": "those who own the copyrights and market their work themselves",
+        "mentions": 1,
+        "first_seen": "568"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Digital Millennium Copyright Act",
+        "citation": null,
+        "ref_type": "cites",
+        "context": "These platforms game the system created by the Digital Millennium Copyright Act",
+        "mentions": 1,
+        "first_seen": "568"
+      },
+      {
+        "name": "Clayton Act",
+        "citation": "15 U.S.C. 12",
+        "ref_type": "cites",
+        "context": "antitrust laws has the meaning given such term in subsection (a) of the first section of the Clayton Act",
+        "mentions": 1,
+        "first_seen": "568"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "citation": "15 U.S.C. 45",
+        "ref_type": "cites",
+        "context": "section 5 of the Federal Trade Commission Act applies to unfair methods of competition",
+        "mentions": 1,
+        "first_seen": "568"
+      },
+      {
+        "name": "Title 17, Section 114(d)(2)",
+        "citation": "17 U.S.C. 114(d)(2)",
+        "ref_type": "cites",
+        "context": "is not eligible for a license under section 114(d)(2) of title 17",
+        "mentions": 1,
+        "first_seen": "568"
+      },
+      {
+        "name": "antitrust laws",
+        "citation": "not specified",
+        "ref_type": "cites",
+        "context": "shall not be held liable under the antitrust laws for agreeing with other Individual Music Creator Owners",
+        "mentions": 1,
+        "first_seen": "568"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {
+    "independent music creator owners": "Clarified in section (a) as entities earning less than $1,000,000 in licensing revenues in prior year OR qualifying as small business under OMB NAICS code 512250; used interchangeably with 'Individual Music Creator Owner' in liability limitations"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "568",
+      "note": "Document section cuts off mid-definition (Section 3(a)(4)(B) incomplete), suggesting partial extraction from larger legislative text."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "568",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Independent Music Creator Owners",
+      "resolved": "Clarified in section (a) as entities earning less than $1,000,000 in licensing revenues in prior year OR qualifying as small business under OMB NAICS code 512250; used interchangeably with 'Individual Music Creator Owner' in liability limitations",
+      "doc_id": "568",
+      "community_id": "community:114"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:digital_millennium_copyright_act": 0.6,
+    "legislation:clayton_act": 0.6,
+    "legislation:federal_trade_commission_act": 0.6,
+    "legislation:title_17_section_114_d_2": 0.6,
+    "legislation:antitrust_laws": 0.6,
+    "office:office_of_management_and_budget": 1.0,
+    "role:independent_music_creator_owners": 0.6,
+    "org:clayton_act": 0.6,
+    "org:federal_trade_commission_act": 0.6,
+    "org:office_of_management_and_budget": 1.0
+  }
+}

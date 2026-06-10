@@ -56,7 +56,22 @@ def load_cosponsors_df() -> pd.DataFrame:
 def load_communities() -> list[dict]:
     """Load pre-computed cosponsor communities."""
     with open(COMMUNITIES_JSON) as f:
-        return json.load(f)
+        data = json.load(f)
+    # Support both a bare list and a wrapper object with a "communities" key
+    if isinstance(data, dict):
+        if "communities" not in data:
+            raise ValueError("communities JSON object missing required key 'communities'")
+        data = data["communities"]
+    if not isinstance(data, list):
+        raise ValueError(f"communities must be a list, got {type(data).__name__}")
+    for i, entry in enumerate(data):
+        if not isinstance(entry, dict):
+            raise ValueError(f"communities[{i}] must be a dict, got {type(entry).__name__}")
+        if "members" not in entry:
+            raise ValueError(f"communities[{i}] missing required key 'members'")
+        if not isinstance(entry["members"], list):
+            raise ValueError(f"communities[{i}]['members'] must be a list, got {type(entry['members']).__name__}")
+    return data
 
 
 def load_graphml(name: str) -> nx.MultiDiGraph:
@@ -77,13 +92,38 @@ def get_taxonomy_columns(df: pd.DataFrame, group: str) -> list[str]:
     return [c for c in df.columns if c.startswith(prefix)]
 
 
+def _strip_prefix(col: str, prefix: str) -> str:
+    return col.replace(prefix, "").strip().lstrip(": ")
+
+
 def taxonomy_vector(df: pd.DataFrame, group: str) -> pd.DataFrame:
     """Extract a binary taxonomy matrix for a group, with short column labels."""
     cols = get_taxonomy_columns(df, group)
     prefix = TAXONOMY_GROUPS[group]
     matrix = df[cols].fillna(0).astype(int)
-    matrix.columns = [c.replace(prefix, "").strip().lstrip(": ") for c in cols] # type: ignore
+    matrix.columns = [_strip_prefix(c, prefix) for c in cols] # type: ignore
     return matrix # type: ignore
+
+
+def taxonomy_label_meta(df: pd.DataFrame, group: str) -> pd.DataFrame:
+    """Return per-label hierarchy info for a taxonomy group.
+
+    Convention: a column "{Group}: A" is top-level (parent=group, is_top=True);
+    "{Group}: A: B" is a sub-level whose parent is the stripped-label "A".
+    """
+    cols = get_taxonomy_columns(df, group)
+    prefix = TAXONOMY_GROUPS[group]
+    rows = []
+    for c in cols:
+        label = _strip_prefix(c, prefix)
+        if ": " in label:
+            parent = label.split(": ", 1)[0]
+            is_top = False
+        else:
+            parent = group
+            is_top = True
+        rows.append({"column": c, "label": label, "parent": parent, "is_top": is_top})
+    return pd.DataFrame(rows)
 
 
 def sponsor_taxonomy_profile(docs_df: pd.DataFrame, cosponsors_df: pd.DataFrame,
@@ -233,15 +273,17 @@ def build_taxonomy_cooccurrence_graph(docs_df: pd.DataFrame,
 
     G = nx.Graph()
     for c1 in cols1:
-        label1 = c1.replace(prefix1, "").strip().lstrip(": ")
+        label1 = _strip_prefix(c1, prefix1)
+        id1 = f"{group1}::{label1}"
         for c2 in cols2:
-            label2 = c2.replace(prefix2, "").strip().lstrip(": ")
+            label2 = _strip_prefix(c2, prefix2)
+            id2 = f"{group2}::{label2}"
             mask = (docs_df[c1].fillna(0).astype(bool)) & (docs_df[c2].fillna(0).astype(bool))
             count = mask.sum()
             if count > 0:
-                G.add_node(label1, group=group1)
-                G.add_node(label2, group=group2)
-                G.add_edge(label1, label2, weight=count)
+                G.add_node(id1, group=group1, label=label1)
+                G.add_node(id2, group=group2, label=label2)
+                G.add_edge(id1, id2, weight=count)
 
     return G
 

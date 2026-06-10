@@ -1,0 +1,692 @@
+{
+  "community_id": "community:010",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 9,
+        "first_seen": "2367"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Be it enacted by the Senate and House of Representatives",
+        "mentions": 9,
+        "first_seen": "2367"
+      },
+      {
+        "name": "United States of America",
+        "acronym": "USA",
+        "context": "United States of America in Congress assembled",
+        "mentions": 9,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "Secretary in consultation with Director of NIST and FCC shall develop standards",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "acronym": "NIST",
+        "context": "in consultation with Director of NIST and FCC shall develop standards",
+        "mentions": 1,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Comptroller General of the United States",
+        "acronym": null,
+        "context": "Comptroller General of the United States shall conduct a study",
+        "mentions": 3,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation of the Senate",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Committee on Agriculture",
+        "acronym": null,
+        "context": "Committee on Agriculture of the House of Representatives",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Committee on Agriculture, Nutrition, and Forestry",
+        "acronym": null,
+        "context": "Committee on Agriculture, Nutrition, and Forestry of the Senate",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Congress",
+        "acronym": null,
+        "context": "in Congress assembled",
+        "mentions": 6,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": null,
+        "context": "Secretary of Agriculture defined in SEC. 2(6)",
+        "mentions": 7,
+        "first_seen": "2367"
+      },
+      {
+        "name": "voluntary consensus standards development organizations",
+        "acronym": null,
+        "context": "organizations that set standards for precision agriculture",
+        "mentions": 7,
+        "first_seen": "2367"
+      },
+      {
+        "name": "State and local governments",
+        "acronym": null,
+        "context": "consult with sector-specific agencies, other appropriate agencies, and State and local governments",
+        "mentions": 4,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "referred to the Committee on Energy and Natural Resources",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Institute of Electrical and Electronics Engineers Standards Association",
+        "acronym": "IEEE SA",
+        "context": "standard published by the Institute of Electrical and Electronics Engineers Standards Association",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "The term \"Department\" means the Department of Energy",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "Secretary shall work with National Laboratories...to consider weather data",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "National Center for Atmospheric Research",
+        "acronym": "NCAR",
+        "context": "work with National Laboratories, the National Center for Atmospheric Research",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Energy Information Administration",
+        "acronym": "EIA",
+        "context": "existing surveys, such as the surveys carried out using Form EIA\u2013861",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Pacific Northwest National Laboratory",
+        "acronym": "PNNL",
+        "context": "Wind Data Hub of the Pacific Northwest National Laboratory",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "National Renewable Energy Laboratory",
+        "acronym": "NREL",
+        "context": "National Solar Radiation Database of the National Renewable Energy Laboratory",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "North American Electric Reliability Corporation",
+        "acronym": "NERC",
+        "context": "representatives from relevant Federal agencies, such as the North American Electric Reliability Corporation",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "National Association of Regulatory Utility Commissioners",
+        "acronym": "NARUC",
+        "context": "representatives of regulators and electric power sectors, such as the National Association of Regulatory Utility Commissioners",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Federal Energy Regulatory Commission",
+        "acronym": "FERC",
+        "context": "the Federal Energy Regulatory Commission",
+        "mentions": 1,
+        "first_seen": "864"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Director of the National Institute of Standards and Technology",
+        "parent_org": "National Institute of Standards and Technology",
+        "context": "in consultation with the Director of the National Institute of Standards and Technology",
+        "mentions": 5,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Office of Electricity",
+        "parent_org": "Department of Energy",
+        "context": "the Office of Electricity of the Department",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Office of Energy Efficiency and Renewable Energy",
+        "parent_org": "Department of Energy",
+        "context": "the Office of Energy Efficiency and Renewable Energy of the Department",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Office of Cybersecurity, Energy Security, and Emergency Response",
+        "parent_org": "Department of Energy",
+        "context": "the Office of Cybersecurity, Energy Security, and Emergency Response of the Department",
+        "mentions": 1,
+        "first_seen": "864"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "The term \"Secretary\" means the Secretary of Agriculture",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "title": "Director of the National Institute of Standards and Technology",
+        "org": "National Institute of Standards and Technology",
+        "context": "in consultation with the Director of NIST and FCC shall develop standards",
+        "mentions": 3,
+        "first_seen": "2367"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "Comptroller General of the United States shall conduct a study",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Agriculture",
+        "context": "the Secretary, in consultation with the Director of the National Institute of Standards and Technology and the Federal Communications Commission, shall",
+        "mentions": 4,
+        "first_seen": "2367"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "Secretary of Energy to identify, analyze, and share available data",
+        "mentions": 1,
+        "first_seen": "864"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Promoting Precision Agriculture Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "A BILL To enhance the participation of precision agriculture in the United States",
+        "mentions": 7,
+        "first_seen": "2367"
+      },
+      {
+        "name": "John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "citation": "Public Law 115\u2013232; 10 U.S.C. note prec. 4061",
+        "ref_type": "cites",
+        "context": "has the meaning given the term in section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "Promoting Precision Agriculture Act of 2023",
+        "citation": "H.R. 1697",
+        "ref_type": "enacts",
+        "context": "A BILL To enhance the participation of precision agriculture in the United States",
+        "mentions": 1,
+        "first_seen": "466"
+      },
+      {
+        "name": "GRIData Act of 2024",
+        "citation": "S. 4140",
+        "ref_type": "enacts",
+        "context": "S. 4140 To require the Secretary of Energy to identify, analyze, and share available data",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Grid Reliability and Integrated Data Act of 2024",
+        "citation": "GRIData Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Grid Reliability and Integrated Data Act of 2024\" or the \"GRIData Act of 2024\".",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "26 U.S.C.",
+        "ref_type": "cites",
+        "context": "section 45(b)(11)(B) of the Internal Revenue Code of 1986",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Omnibus Public Land Management Act of 2009",
+        "citation": "16 U.S.C. 1015",
+        "ref_type": "cites",
+        "context": "section 6001 of the Omnibus Public Land Management Act of 2009",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Inflation Reduction Act of 2022",
+        "citation": "42 U.S.C. 18795(d), Public Law 117\u2013169",
+        "ref_type": "cites",
+        "context": "section 50121(d) of Public Law 117\u2013169 (commonly known as the \"Inflation Reduction Act of 2022\")",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Infrastructure Investment and Jobs Act",
+        "citation": "23 U.S.C. 149 note, Public Law 117\u201358",
+        "ref_type": "cites",
+        "context": "section 11406(a) of the Infrastructure Investment and Jobs Act",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Public Utility Regulatory Policies Act of 1978",
+        "citation": "7 U.S.C. 918c(a)",
+        "ref_type": "cites",
+        "context": "section 609(a) of the Public Utility Regulatory Policies Act of 1978",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Consolidated Farm and Rural Development Act",
+        "citation": "7 U.S.C. 1991(a)",
+        "ref_type": "cites",
+        "context": "section 343(a) of the Consolidated Farm and Rural Development Act",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Federal Advisory Committee Act",
+        "citation": "Chapter 10 of title 5, United States Code",
+        "ref_type": "cites",
+        "context": "Chapter 10 of title 5, United States Code (commonly referred to as the Federal Advisory Committee Act)",
+        "mentions": 1,
+        "first_seen": "864"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Federal Participation in the Development and Use of Voluntary Consensus Standards and in Conformity Assessment Activities",
+        "doc_type": "other",
+        "owner_org": "Office of Management and Budget",
+        "context": "OMB Circular A\u2013119",
+        "mentions": 8,
+        "first_seen": "2367"
+      },
+      {
+        "name": "IEEE Guide for Electric Power Distribution Reliability Indices",
+        "doc_type": "other",
+        "owner_org": "Institute of Electrical and Electronics Engineers Standards Association",
+        "context": "standard published by the Institute of Electrical and Electronics Engineers Standards Association entitled \"IEEE Guide for Electric Power Distribution Reliability Indices\" and numbered 1366",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "IEEE 1366",
+        "doc_type": "standard",
+        "owner_org": "Institute of Electrical and Electronics Engineers Standards Association",
+        "context": "existing IEEE 1366 reliability data and metrics",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "System Average Interruption Duration Index",
+        "doc_type": "metric",
+        "owner_org": "Institute of Electrical and Electronics Engineers Standards Association",
+        "context": "the System Average Interruption Duration Index (SAIDI)",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "System Average Interruption Frequency Index",
+        "doc_type": "metric",
+        "owner_org": "Institute of Electrical and Electronics Engineers Standards Association",
+        "context": "the System Average Interruption Frequency Index (SAIFI)",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Customer Average Interruption Duration Index",
+        "doc_type": "metric",
+        "owner_org": "Institute of Electrical and Electronics Engineers Standards Association",
+        "context": "the Customer Average Interruption Duration Index (CAIDI)",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Momentary Average Interruption Frequency Index",
+        "doc_type": "metric",
+        "owner_org": "Institute of Electrical and Electronics Engineers Standards Association",
+        "context": "the Momentary Average Interruption Frequency Index (MAIFI)",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Outage Data Initiative Nationwide",
+        "doc_type": "program",
+        "owner_org": "Department of Energy",
+        "context": "through the Outage Data Initiative Nationwide (ODIN) program of the Department",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Open Energy Data Initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Energy",
+        "context": "existing data sharing platforms, such as the Open Energy Data Initiative",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "U.S. Energy Atlas",
+        "doc_type": "initiative",
+        "owner_org": "Energy Information Administration",
+        "context": "the U.S. Energy Atlas of the Energy Information Administration",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Wind Data Hub",
+        "doc_type": "initiative",
+        "owner_org": "Pacific Northwest National Laboratory",
+        "context": "the Wind Data Hub of the Pacific Northwest National Laboratory",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "Form EIA\u2013861",
+        "doc_type": "survey",
+        "owner_org": "Energy Information Administration",
+        "context": "existing surveys, such as the surveys carried out using Form EIA\u2013861",
+        "mentions": 1,
+        "first_seen": "864"
+      },
+      {
+        "name": "National Solar Radiation Database",
+        "doc_type": "initiative",
+        "owner_org": "National Renewable Energy Laboratory",
+        "context": "the National Solar Radiation Database of the National Renewable Energy Laboratory",
+        "mentions": 1,
+        "first_seen": "864"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Secretary of Agriculture (defined in SEC. 2(6))",
+    "director of the national institute of standards and technology": "Confirmed in SEC. 4(a) and (b) as consultation partner on precision agriculture standards development",
+    "foreign adversary": "Defined in SEC. 2(3) as foreign government or nongovernment person engaged in conduct adverse to U.S. national security",
+    "foreign_adversary": "Defined in SEC. 2(3) as foreign government or nongovernment person engaged in long-term pattern or serious instances of conduct significantly adverse to U.S. national security",
+    "secretary_confirmed": "SEC. 4(a) and (b) confirm 'Secretary' = Secretary of Agriculture directing interconnectivity standards development with NIST and FCC consultation",
+    "director_nist_confirmed": "SEC. 4(a) and (b) confirm Director of the National Institute of Standards and Technology as consultation partner on precision agriculture standards",
+    "department": "SEC. 2(2) defines 'Department' = Department of Energy"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "2367",
+      "note": "Document provided is only the enacting clause and title; substantive text containing Secretary of Agriculture, Comptroller General, and standards development requirements is not present in the extracted section."
+    },
+    {
+      "agora_id": "2367",
+      "note": "Document extract contains only enacting clause and title. Substantive sections defining roles for Secretary of Agriculture and Comptroller General, standards development requirements, and AI considerations referenced in summary are not present in this text section."
+    },
+    {
+      "agora_id": "2367",
+      "note": "Document extract contains only enacting clause and bill title. Substantive sections defining roles for Secretary of Agriculture and Comptroller General, interconnectivity standards development requirements, and AI considerations referenced in the summary are not present in this text section."
+    },
+    {
+      "agora_id": "2367",
+      "note": "Document extract contains only enacting clause and bill title. Substantive sections defining roles for Secretary of Agriculture and Comptroller General, precision agriculture interconnectivity standards development requirements, and AI impact considerations referenced in the summary are not present in this text section."
+    },
+    {
+      "agora_id": "2367",
+      "note": "Document extract contains only enacting clause and bill title. Substantive sections defining roles for Secretary of Agriculture and Comptroller General, precision agriculture interconnectivity standards development requirements, and AI impact considerations referenced in the summary are not present in this text section."
+    },
+    {
+      "agora_id": "2367",
+      "note": "Document extract contains only enacting clause and bill title. Substantive sections defining roles for Secretary of Agriculture and Comptroller General, precision agriculture interconnectivity standards development requirements, and AI impact considerations referenced in the summary are not present in this text section."
+    },
+    {
+      "agora_id": "2367",
+      "note": "Document extract contains only enacting clause and bill title. Substantive sections referenced in summary (Secretary of Agriculture roles, Comptroller General assessment duties, AI impact considerations, interconnectivity standards development) are not present in this text section."
+    },
+    {
+      "agora_id": "466",
+      "note": "Document extract contains only enacting clause, bill title, and introduction materials. Substantive sections defining roles for Secretary of Agriculture and Comptroller General, precision agriculture interconnectivity standards development requirements, and AI impact considerations referenced in the summary are not present in this text section."
+    },
+    {
+      "agora_id": "864",
+      "note": "Document extract contains only enacting clause, bill title, and introduction materials. Substantive sections defining Secretary of Energy duties, steering committee composition, AI/machine learning application, data dissemination requirements, and report mandates referenced in the summary are not present in this text section."
+    }
+  ],
+  "docs_processed": 9,
+  "docs_total": 3,
+  "last_doc_id": "864",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of Agriculture (defined in SEC. 2(6))",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Director of the National Institute of Standards and Technology",
+      "resolved": "Confirmed in SEC. 4(a) and (b) as consultation partner on precision agriculture standards development",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "SECRETARY",
+      "resolved": "Explicitly defined in SEC. 2(6) as Secretary of Agriculture; resolves all references to 'Secretary' in this Act",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Confirmed as Secretary of Agriculture per SEC. 2(6) definition; all references in SEC. 4 resolve to this office",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Resolved to Secretary of Agriculture per SEC. 2(6) explicit definition",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Confirmed as Secretary of Agriculture in SEC. 2(6) of this document",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Resolved to Secretary of Agriculture per SEC. 2(6); confirmed authority over precision agriculture equipment determinations",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Resolved to Secretary of Agriculture per SEC. 2(6)",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Foreign adversary",
+      "resolved": "Defined in SEC. 2(3) as foreign government or nongovernment person engaged in conduct adverse to U.S. national security",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Resolved to Secretary of Agriculture per SEC. 2(6) explicit definition",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "foreign_adversary",
+      "resolved": "Defined in SEC. 2(3) as foreign government or nongovernment person engaged in long-term pattern or serious instances of conduct significantly adverse to U.S. national security",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary_confirmed",
+      "resolved": "SEC. 4(a) and (b) confirm 'Secretary' = Secretary of Agriculture directing interconnectivity standards development with NIST and FCC consultation",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Director_NIST_confirmed",
+      "resolved": "SEC. 4(a) and (b) confirm Director of the National Institute of Standards and Technology as consultation partner on precision agriculture standards",
+      "doc_id": "2367",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "SECRETARY",
+      "resolved": "SEC. 2(6) confirms 'Secretary' = Secretary of Agriculture",
+      "doc_id": "466",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "FOREIGN_ADVERSARY",
+      "resolved": "SEC. 2(3) defines foreign adversary as foreign government or nongovernment person engaged in long-term pattern or serious instances of conduct significantly adverse to U.S. national security",
+      "doc_id": "466",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary_confirmed",
+      "resolved": "SEC. 4(a) and (b) confirm 'Secretary' = Secretary of Agriculture directing interconnectivity standards development with NIST and FCC consultation",
+      "doc_id": "466",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "director_nist_confirmed",
+      "resolved": "SEC. 4(a) and (b) confirm Director of the National Institute of Standards and Technology as consultation partner on precision agriculture standards",
+      "doc_id": "466",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "SEC. 2(11) confirms 'Secretary' = Secretary of Energy",
+      "doc_id": "864",
+      "community_id": "community:010"
+    },
+    {
+      "phrase": "Department",
+      "resolved": "SEC. 2(2) defines 'Department' = Department of Energy",
+      "doc_id": "864",
+      "community_id": "community:010"
+    }
+  ],
+  "entity_confidence": {
+    "role:secretary_of_agriculture": 0.6,
+    "role:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:united_states_of_america": 0.6,
+    "org:office_of_management_and_budget": 1.0,
+    "org:federal_communications_commission": 0.6,
+    "org:national_institute_of_standards_and_technology": 1.0,
+    "org:comptroller_general_of_the_united_states": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_agriculture": 0.6,
+    "org:committee_on_agriculture_nutrition_and_forestry": 0.6,
+    "named_doc:federal_participation_in_the_development_and_use_of_voluntary_consensus_standards_and_in_conformity_assessment_activities": 0.6,
+    "legislation:promoting_precision_agriculture_act": 0.6,
+    "legislation:john_s_mccain_national_defense_authorization_act_for_fiscal_year_2019": 0.6,
+    "office:director_of_the_national_institute_of_standards_and_technology": 0.9,
+    "org:congress": 0.9,
+    "org:department_of_agriculture": 0.6,
+    "org:voluntary_consensus_standards_development_organizations": 0.6,
+    "role:secretary": 0.6,
+    "org:state_and_local_governments": 0.6,
+    "legislation:promoting_precision_agriculture_act_of_2023": 0.6,
+    "legislation:gridata_act_of_2024": 0.6,
+    "legislation:grid_reliability_and_integrated_data_act_of_2024": 0.6,
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "legislation:omnibus_public_land_management_act_of_2009": 0.6,
+    "legislation:inflation_reduction_act_of_2022": 0.6,
+    "legislation:infrastructure_investment_and_jobs_act": 0.6,
+    "legislation:public_utility_regulatory_policies_act_of_1978": 0.6,
+    "legislation:consolidated_farm_and_rural_development_act": 0.6,
+    "legislation:federal_advisory_committee_act": 0.6,
+    "office:office_of_electricity": 0.6,
+    "office:office_of_energy_efficiency_and_renewable_energy": 0.6,
+    "office:office_of_cybersecurity_energy_security_and_emergency_response": 0.6,
+    "named_doc:ieee_guide_for_electric_power_distribution_reliability_indices": 0.6,
+    "named_doc:ieee_1366": 0.6,
+    "named_doc:system_average_interruption_duration_index": 0.6,
+    "named_doc:system_average_interruption_frequency_index": 0.6,
+    "named_doc:customer_average_interruption_duration_index": 0.6,
+    "named_doc:momentary_average_interruption_frequency_index": 0.6,
+    "named_doc:outage_data_initiative_nationwide": 0.6,
+    "named_doc:open_energy_data_initiative": 0.6,
+    "named_doc:u_s_energy_atlas": 0.6,
+    "named_doc:wind_data_hub": 0.6,
+    "named_doc:form_eia_861": 0.6,
+    "named_doc:national_solar_radiation_database": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:institute_of_electrical_and_electronics_engineers_standards_association": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:national_center_for_atmospheric_research": 0.6,
+    "org:energy_information_administration": 0.6,
+    "org:pacific_northwest_national_laboratory": 0.6,
+    "org:national_renewable_energy_laboratory": 0.6,
+    "org:north_american_electric_reliability_corporation": 0.6,
+    "org:national_association_of_regulatory_utility_commissioners": 0.6,
+    "org:federal_energy_regulatory_commission": 0.6,
+    "role:secretary_of_energy": 0.6
+  }
+}

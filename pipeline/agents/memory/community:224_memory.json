@@ -1,0 +1,153 @@
+{
+  "community_id": "community:224",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America in Congress",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Internal Revenue Service",
+        "acronym": "IRS",
+        "context": "the Secretary referenced in determinations of technology eligibility",
+        "mentions": 1,
+        "first_seen": "1231"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Internal Revenue Service",
+        "context": "Secretary determines other technologies contributing to efficient production",
+        "mentions": 1,
+        "first_seen": "1231"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Internal Revenue Code of 1986",
+        "citation": "IRC 1986",
+        "ref_type": "amends",
+        "context": "To amend the Internal Revenue Code of 1986 to establish a credit",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Supporting Innovation in Agriculture Act of 2024",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Supporting Innovation in Agriculture Act of 2024\".",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Revenue Reconciliation Act of 1990",
+        "citation": "1990",
+        "ref_type": "cites",
+        "context": "Rules of subsections (c)(4) and (d) of section 46 as in effect on day before date of enactment",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Specialty Crops Competitiveness Act of 2004",
+        "citation": "section 3",
+        "ref_type": "cites",
+        "context": "Definition of specialty crops for innovative agricultural technology project",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Farm Security and Rural Investment Act of 2002",
+        "citation": "7 U.S.C. 8107(c)",
+        "ref_type": "cites",
+        "context": "section 9007(c) regarding grants for renewable energy systems and equipment",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Food Security Act of 1985",
+        "citation": "16 U.S.C. 3839aa et seq.",
+        "ref_type": "cites",
+        "context": "subchapter A of chapter 4 of subtitle D of title XII establishing environmental quality incentives program",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "Internal Revenue Code",
+        "citation": "Section 6417, 6418, 46, 49, 50",
+        "ref_type": "amends",
+        "context": "Section 6417 of such Code is amended; Section 6418(f)(1)(A) of such Code is amended; Section 46 of such Code is amended; Section 49(a)(1)(C) of such Code is amended; Section 50(a)(2)(E) of such Code is amended",
+        "mentions": 1,
+        "first_seen": "1231"
+      },
+      {
+        "name": "innovative agricultural technology investment credit",
+        "citation": "section 48F",
+        "ref_type": "enacts",
+        "context": "The innovative agricultural technology investment credit under section 48F; The table of sections for subpart E of part IV of subchapter A of chapter 1 of such Code is amended by inserting after the item relating to section 48E the following new item: Sec. 48F. Innovative agricultural technology investment credit.",
+        "mentions": 1,
+        "first_seen": "1231"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "environmental quality incentives program",
+        "doc_type": "program",
+        "owner_org": "Department of Agriculture",
+        "context": "established under Food Security Act of 1985 for physical improvements to land",
+        "mentions": 1,
+        "first_seen": "1231"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Interpreted as Secretary of the Treasury (IRS authority) based on Internal Revenue Code context and determinations of technology eligibility under tax credit provisions"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1231",
+      "note": "Section heading 'SEC. 2. Credit for investment in innovative agricultural technology' defines tax credit mechanism but provides no regulatory text, agency assignments, or implementation details in provided excerpt."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1231",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Interpreted as Secretary of the Treasury (IRS authority) based on Internal Revenue Code context and determinations of technology eligibility under tax credit provisions",
+      "doc_id": "1231",
+      "community_id": "community:224"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:internal_revenue_code_of_1986": 0.6,
+    "legislation:supporting_innovation_in_agriculture_act_of_2024": 0.6,
+    "legislation:revenue_reconciliation_act_of_1990": 0.6,
+    "legislation:specialty_crops_competitiveness_act_of_2004": 0.6,
+    "legislation:farm_security_and_rural_investment_act_of_2002": 0.6,
+    "legislation:food_security_act_of_1985": 0.6,
+    "legislation:internal_revenue_code": 0.6,
+    "legislation:innovative_agricultural_technology_investment_credit": 0.6,
+    "role:secretary": 0.6,
+    "named_doc:environmental_quality_incentives_program": 0.6,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:internal_revenue_service": 0.6
+  }
+}

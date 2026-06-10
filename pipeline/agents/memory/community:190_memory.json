@@ -1,0 +1,101 @@
+{
+  "community_id": "community:190",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate Committee on Appropriations",
+        "acronym": null,
+        "context": "Secretary shall notify the Committee on Appropriations and the Committee on Homeland Security and Governmental Affairs of the Senate",
+        "mentions": 1,
+        "first_seen": "1227"
+      },
+      {
+        "name": "Senate Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "Committee on Homeland Security and Governmental Affairs of the Senate and the Committee on Appropriations and the Committee on Homeland Security of the House",
+        "mentions": 1,
+        "first_seen": "1227"
+      },
+      {
+        "name": "House Committee on Appropriations",
+        "acronym": null,
+        "context": "Committee on Appropriations and the Committee on Homeland Security of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "1227"
+      },
+      {
+        "name": "House Committee on Homeland Security",
+        "acronym": null,
+        "context": "Committee on Homeland Security of the House of Representatives and offer a briefing",
+        "mentions": 1,
+        "first_seen": "1227"
+      },
+      {
+        "name": "Department of Homeland Security",
+        "acronym": "DHS",
+        "context": "amended\u2014Section 831 of the Homeland Security Act of 2002",
+        "mentions": 1,
+        "first_seen": "1227"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Homeland Security",
+        "context": "the Secretary shall notify the Committee on Appropriations and the Committee on Homeland Security and Governmental Affairs",
+        "mentions": 1,
+        "first_seen": "1227"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Homeland Security Act of 2002",
+        "citation": "6 U.S.C. 391",
+        "ref_type": "amends",
+        "context": "Section 831 of the Homeland Security Act of 2002 (6 U.S.C. 391) is amended",
+        "mentions": 1,
+        "first_seen": "1227"
+      },
+      {
+        "name": "James M. Inhofe National Defense Authorization Act for Fiscal Year 2023",
+        "citation": "6 U.S.C. 112 note; Public Law 117\u2013263",
+        "ref_type": "amends",
+        "context": "section 7113(d)(1) of the James M. Inhofe National Defense Authorization Act for Fiscal Year 2023",
+        "mentions": 1,
+        "first_seen": "1227"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Producing Advanced Technologies for Homeland Security Act",
+        "doc_type": "other",
+        "owner_org": "Congress",
+        "context": "This Act may be cited as the 'Producing Advanced Technologies for Homeland Security Act' or the 'PATHS Act'",
+        "mentions": 1,
+        "first_seen": "1227"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1227",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:homeland_security_act_of_2002": 0.6,
+    "legislation:james_m_inhofe_national_defense_authorization_act_for_fiscal_year_2023": 0.6,
+    "role:secretary": 0.6,
+    "named_doc:producing_advanced_technologies_for_homeland_security_act": 0.6,
+    "org:senate_committee_on_appropriations": 0.6,
+    "org:senate_committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:house_committee_on_appropriations": 0.6,
+    "org:house_committee_on_homeland_security": 0.6,
+    "org:department_of_homeland_security": 1.0
+  }
+}

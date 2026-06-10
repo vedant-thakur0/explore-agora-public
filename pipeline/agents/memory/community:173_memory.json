@@ -1,0 +1,277 @@
+{
+  "community_id": "community:173",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Consumer Financial Protection Bureau",
+        "acronym": "CFPB",
+        "context": "A July 2011 report by the Consumer Financial Protection Bureau (\"Consumer Bureau\")",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Consumer Federation of America",
+        "acronym": "CFA",
+        "context": "A February 2011 study by Consumer Federation of America and VantageScore",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "VantageScore",
+        "acronym": null,
+        "context": "A February 2011 study by Consumer Federation of America and VantageScore",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act",
+        "acronym": null,
+        "context": "15 U.S.C. 1681 et seq.",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Board of Governors of the Federal Reserve System",
+        "acronym": null,
+        "context": "term 'motor vehicle lender' has the meaning given the term by the Board of Governors",
+        "mentions": 1,
+        "first_seen": "856"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "the Bureau",
+        "org": "Consumer Financial Protection Bureau",
+        "context": "as determined by the Bureau",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "person who makes or arranges a loan or extends credit",
+        "org": "lenders and creditors (generic)",
+        "context": "to predict the likelihood of certain credit behaviors",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "customer service representative",
+        "org": "nationwide specialty consumer reporting agencies",
+        "context": "consumers shall be directed to an individual who is a customer service representative",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "private educational lender",
+        "org": null,
+        "context": "If a private educational lender obtains a copy of any consumer reports",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "motor vehicle lender",
+        "org": null,
+        "context": "motor vehicle lender or indirect auto lender obtains a copy of any consumer reports",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "indirect auto lender",
+        "org": null,
+        "context": "indirect auto lender obtains a copy of any consumer reports or credit scores",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "residential mortgage lender",
+        "org": null,
+        "context": "REQUIRES RESIDENTIAL MORTGAGE LENDERS TO PROVIDE CONSUMERS WITH FREE COPIES",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "title": "creditor",
+        "org": null,
+        "context": "None of the costs to the creditor or lender associated with procuring",
+        "mentions": 1,
+        "first_seen": "856"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Fair Credit Reporting Act",
+        "citation": "15 U.S.C. 1681a",
+        "ref_type": "amends",
+        "context": "Section 603 of the Fair Credit Reporting Act (15 U.S.C. 1681a) is amended",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 609(f)",
+        "citation": "15 U.S.C. 1681g(f)",
+        "ref_type": "amends",
+        "context": "Section 609(f) amended to read as follows",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 609",
+        "citation": "15 U.S.C. 1681g",
+        "ref_type": "cites",
+        "context": "by inserting after \"section 609\" the following: \"(including the disclosure of a credit score or educational credit score under subsection (f) of such section)\"",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 611",
+        "citation": "FCRA \u00a7 611",
+        "ref_type": "amends",
+        "context": "has disputed information, or submitted an appeal of an investigation or reinvestigation of such information, under section 611",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 623",
+        "citation": "FCRA \u00a7 623",
+        "ref_type": "amends",
+        "context": "has disputed information, or submitted an appeal of an investigation or reinvestigation of such information, under section 611 or 623",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 603",
+        "citation": "FCRA \u00a7 603",
+        "ref_type": "cites",
+        "context": "consumer reporting agency described under subsection (p) of section 603",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 605A",
+        "citation": "FCRA \u00a7 605A",
+        "ref_type": "cites",
+        "context": "obtains a fraud alert, extended alert, active duty alert, or security freeze as described in section 605A",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 633",
+        "citation": "FCRA \u00a7 633",
+        "ref_type": "cites",
+        "context": "shall comply with the requirements of section 633",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair and Accurate Credit Transactions Act of 2003 Section 211",
+        "citation": "15 U.S.C. 1681j note",
+        "ref_type": "cites",
+        "context": "centralized source established pursuant to section 211(d) of the Fair and Accurate Credit Transactions Act of 2003",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 609(g)",
+        "citation": "15 U.S.C. 1681g(g)",
+        "ref_type": "amends",
+        "context": "Section 609(g) of the Fair Credit Reporting Act (15 U.S.C. 1681g(g)) is amended",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Fair Credit Reporting Act Section 615(h)(7)",
+        "citation": "15 U.S.C. 1681m(h)(7)",
+        "ref_type": "amends",
+        "context": "Section 615(h)(7) of such Act (15 U.S.C. 1681m(h)(7)) is amended by striking",
+        "mentions": 1,
+        "first_seen": "856"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "The Impact of Differences between Consumer- and Creditor-Purchased Credit Scores",
+        "doc_type": "report",
+        "owner_org": "Consumer Financial Protection Bureau",
+        "context": "A July 2011 report by the Consumer Financial Protection Bureau",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Analysis of Differences between Consumer- and Creditor-Purchased Credit Scores",
+        "doc_type": "report",
+        "owner_org": "Consumer Financial Protection Bureau",
+        "context": "a September 2012 Consumer Bureau report titled",
+        "mentions": 1,
+        "first_seen": "856"
+      },
+      {
+        "name": "Consumer Voices on Credit Reports and Scores",
+        "doc_type": "report",
+        "owner_org": "Consumer Financial Protection Bureau",
+        "context": "A February 2015 Consumer Bureau report titled",
+        "mentions": 1,
+        "first_seen": "856"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the bureau": "Consumer Financial Protection Bureau (CFPB) \u2014 resolved from context in Section 3(a)",
+    "commission": "Consumer Financial Protection Bureau \u2014 resolved from legislative amendment context replacing 'Commission' with 'Bureau' in Fair Credit Reporting Act Section 612"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "856",
+      "note": "Document contains extensive regulatory text with embedded statutory amendments and specific disclaimer language requirements (18-point font, boldface borders). Section numbering suggests this is part of a larger bill; the provided text covers Sections 3-6 focusing on conforming amendments, credit score disclosure requirements, and disclaimer provisions."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "856",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Bureau",
+      "resolved": "Consumer Financial Protection Bureau (CFPB) \u2014 resolved from context in Section 3(a)",
+      "doc_id": "856",
+      "community_id": "community:173"
+    },
+    {
+      "phrase": "Commission",
+      "resolved": "Consumer Financial Protection Bureau \u2014 resolved from legislative amendment context replacing 'Commission' with 'Bureau' in Fair Credit Reporting Act Section 612",
+      "doc_id": "856",
+      "community_id": "community:173"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:fair_credit_reporting_act": 0.6,
+    "legislation:fair_credit_reporting_act_section_609_f": 0.6,
+    "legislation:fair_credit_reporting_act_section_609": 0.6,
+    "legislation:fair_credit_reporting_act_section_611": 0.6,
+    "legislation:fair_credit_reporting_act_section_623": 0.6,
+    "legislation:fair_credit_reporting_act_section_603": 0.6,
+    "legislation:fair_credit_reporting_act_section_605a": 0.6,
+    "legislation:fair_credit_reporting_act_section_633": 0.6,
+    "legislation:fair_and_accurate_credit_transactions_act_of_2003_section_211": 0.6,
+    "legislation:fair_credit_reporting_act_section_609_g": 0.6,
+    "legislation:fair_credit_reporting_act_section_615_h_7": 0.6,
+    "role:the_bureau": 0.6,
+    "role:person_who_makes_or_arranges_a_loan_or_extends_credit": 0.6,
+    "role:customer_service_representative": 0.6,
+    "role:private_educational_lender": 0.6,
+    "role:motor_vehicle_lender": 0.6,
+    "role:indirect_auto_lender": 0.6,
+    "role:residential_mortgage_lender": 0.6,
+    "role:creditor": 0.6,
+    "named_doc:the_impact_of_differences_between_consumer_and_creditor_purchased_credit_scores": 0.6,
+    "named_doc:analysis_of_differences_between_consumer_and_creditor_purchased_credit_scores": 0.6,
+    "named_doc:consumer_voices_on_credit_reports_and_scores": 0.6,
+    "org:consumer_financial_protection_bureau": 0.6,
+    "org:consumer_federation_of_america": 0.6,
+    "org:vantagescore": 0.6,
+    "org:fair_credit_reporting_act": 0.6,
+    "org:board_of_governors_of_the_federal_reserve_system": 0.6
+  }
+}

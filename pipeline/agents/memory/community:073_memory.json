@@ -1,0 +1,68 @@
+{
+  "community_id": "community:073",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate and House of Representatives of the United States of America",
+        "acronym": "Congress",
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "1904"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Inspector General",
+        "org": "Establishment (generic federal establishment)",
+        "context": "Section 405(b) of title 5, United States Code, amending Inspector General Act of 1978",
+        "mentions": 1,
+        "first_seen": "1904"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Transparency in Bureaucratic Communications Act",
+        "citation": "Section 1",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the Transparency in Bureaucratic Communications Act",
+        "mentions": 1,
+        "first_seen": "1904"
+      },
+      {
+        "name": "Inspector General Act of 1978",
+        "citation": "5 U.S.C. Section 405(b)",
+        "ref_type": "amends",
+        "context": "Section 405(b) of title 5, United States Code, is amended by adding at the end",
+        "mentions": 1,
+        "first_seen": "1904"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "citation": "47 U.S.C. 230(f); 47 U.S.C. 230(c)(2)",
+        "ref_type": "cites",
+        "context": "section 230(f) and section 230(c)(2) of the Communications Act of 1934",
+        "mentions": 1,
+        "first_seen": "1904"
+      }
+    ],
+    "named_docs": []
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1904",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:transparency_in_bureaucratic_communications_act": 0.6,
+    "legislation:inspector_general_act_of_1978": 0.6,
+    "legislation:communications_act_of_1934": 0.6,
+    "role:inspector_general": 0.6,
+    "org:senate_and_house_of_representatives_of_the_united_states_of_america": 0.6
+  }
+}

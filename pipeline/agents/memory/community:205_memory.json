@@ -1,0 +1,110 @@
+{
+  "community_id": "community:205",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "secure computing and data storage environment for the testing of artificial intelligence trained on biological data",
+        "mentions": 1,
+        "first_seen": "1209"
+      },
+      {
+        "name": "Department of the Air Force",
+        "acronym": null,
+        "context": "AI Accelerator of the Department of the Air Force",
+        "mentions": 1,
+        "first_seen": "1209"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Under Secretary of Defense for Research and Engineering",
+        "parent_org": "Department of Defense",
+        "context": "shall develop a plan for the establishment of a secure computing and data storage environment",
+        "mentions": 1,
+        "first_seen": "1209"
+      },
+      {
+        "name": "Chief Digital and Artificial Intelligence Officer",
+        "parent_org": "Department of Defense",
+        "context": "in coordination with the Chief Digital and Artificial Intelligence Officer",
+        "mentions": 1,
+        "first_seen": "1209"
+      },
+      {
+        "name": "Test Resource Management Center",
+        "parent_org": "Department of Defense",
+        "context": "existing computing and data storage infrastructure organizations and elements of the Department of Defense",
+        "mentions": 1,
+        "first_seen": "1209"
+      },
+      {
+        "name": "AI Accelerator",
+        "parent_org": "Department of the Air Force",
+        "context": "assembled from the existing computing and data storage infrastructure organizations and elements",
+        "mentions": 1,
+        "first_seen": "1209"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Under Secretary of Defense for Research and Engineering",
+        "org": "Department of Defense",
+        "context": "responsible for managing and overseeing the activities of the sandbox",
+        "mentions": 1,
+        "first_seen": "1209"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "AIxBio Defense Sandbox Act",
+        "citation": "H.R. 9626",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"AIxBio Defense Sandbox Act\"",
+        "mentions": 1,
+        "first_seen": "1209"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "AIxBio sandbox",
+        "doc_type": "initiative",
+        "owner_org": "Department of Defense",
+        "context": "secure computing and data storage environment shall be known as the \"AIxBio sandbox\"",
+        "mentions": 1,
+        "first_seen": "1209"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "under secretary of defense for research and engineering": "Explicitly named as the designated official responsible for managing the AIxBio sandbox and coordinating with the Chief Digital and Artificial Intelligence Officer"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1209",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Under Secretary of Defense for Research and Engineering",
+      "resolved": "Explicitly named as the designated official responsible for managing the AIxBio sandbox and coordinating with the Chief Digital and Artificial Intelligence Officer",
+      "doc_id": "1209",
+      "community_id": "community:205"
+    }
+  ],
+  "entity_confidence": {
+    "org:department_of_defense": 1.0,
+    "org:department_of_the_air_force": 0.6,
+    "legislation:aixbio_defense_sandbox_act": 0.6,
+    "office:under_secretary_of_defense_for_research_and_engineering": 0.6,
+    "office:chief_digital_and_artificial_intelligence_officer": 0.6,
+    "office:test_resource_management_center": 0.6,
+    "office:ai_accelerator": 0.6,
+    "named_doc:aixbio_sandbox": 0.6,
+    "role:under_secretary_of_defense_for_research_and_engineering": 0.6
+  }
+}

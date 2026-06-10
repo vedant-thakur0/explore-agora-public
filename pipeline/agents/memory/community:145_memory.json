@@ -1,0 +1,85 @@
+{
+  "community_id": "community:145",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Transportation",
+        "acronym": "DOT",
+        "context": "Secretary of Transportation shall issue regulations",
+        "mentions": 1,
+        "first_seen": "834"
+      },
+      {
+        "name": "Federal Railroad Administration",
+        "acronym": "FRA",
+        "context": "Form FRA F6180\u201349A (commonly known as the \"blue card\")",
+        "mentions": 1,
+        "first_seen": "834"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary of Transportation",
+        "org": "Department of Transportation",
+        "context": "Secretary of Transportation shall issue such regulations as are necessary",
+        "mentions": 1,
+        "first_seen": "834"
+      },
+      {
+        "title": "Qualified Mechanical Inspector",
+        "org": "Federal Railroad Administration",
+        "context": "only the Qualified Mechanical Inspector assigned to inspect a locomotive or rail car to sign off on the Form FRA F6180\u201349A",
+        "mentions": 1,
+        "first_seen": "834"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Rail Worker and Community Safety Act",
+        "citation": "Section 13",
+        "ref_type": "enacts",
+        "context": "SEC. 13. EQUIPMENT INSPECTIONS.",
+        "mentions": 1,
+        "first_seen": "834"
+      },
+      {
+        "name": "Code of Federal Regulations, Title 49, Part 215",
+        "citation": "49 CFR 215",
+        "ref_type": "cites",
+        "context": "any inspection conducted under part 215 of title 49, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "834"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Form FRA F6180\u201349A",
+        "doc_type": "other",
+        "owner_org": "Federal Railroad Administration",
+        "context": "Form FRA F6180\u201349A (commonly known as the \"blue card\") for locomotive inspections",
+        "mentions": 1,
+        "first_seen": "834"
+      }
+    ]
+  },
+  "disambiguation_rules": {},
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "834",
+  "llm_disambiguation_log": [],
+  "entity_confidence": {
+    "legislation:rail_worker_and_community_safety_act": 0.6,
+    "legislation:code_of_federal_regulations_title_49_part_215": 0.6,
+    "role:secretary_of_transportation": 0.6,
+    "role:qualified_mechanical_inspector": 0.6,
+    "named_doc:form_fra_f6180_49a": 0.6,
+    "org:department_of_transportation": 0.6,
+    "org:federal_railroad_administration": 0.6
+  }
+}

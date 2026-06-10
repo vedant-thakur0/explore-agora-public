@@ -1,0 +1,337 @@
+{
+  "community_id": "community:017",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Institutes of Health",
+        "acronym": "NIH",
+        "context": "research to be conducted or supported by the National Institutes of Health",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "Senate",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "House of Representatives",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "United States of America",
+        "acronym": "USA",
+        "context": "Senate and House of Representatives of the United States of America in Congress assembled",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "Public Health Service",
+        "acronym": "PHS",
+        "context": "Section 404C(a)(1) of the Public Health Service Act (42 U.S.C. 283e(a)(1))",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Secretary of Energy shall carry out a research, development, and demonstration program",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "conduct cooperative research with industry, National Laboratories, institutions of higher education",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Quantum Economic Development Consortium",
+        "acronym": null,
+        "context": "engaging with the Quantum Economic Development Consortium and other organizations",
+        "mentions": 1,
+        "first_seen": "808"
+      }
+    ],
+    "offices": [
+      {
+        "name": "National Center for Alternatives to Animals in Research and Testing",
+        "parent_org": "National Institutes of Health",
+        "context": "establishment of the National Center for Alternatives to Animals in Research and Testing",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "National Quantum Information Science Research Centers",
+        "parent_org": "Department of Energy",
+        "context": "operate National Quantum Information Science Research Centers to accelerate and scale up scientific and technical breakthroughs",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Office of Electricity",
+        "parent_org": "Department of Energy",
+        "context": "in subparagraph (E), the Office of Electricity",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Office of Cybersecurity, Energy Security, and Emergency Response",
+        "parent_org": "Department of Energy",
+        "context": "the Office of Cybersecurity, Energy Security, and Emergency Response",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Office of Fossil Energy and Carbon Management",
+        "parent_org": "Department of Energy",
+        "context": "the Office of Fossil Energy and Carbon Management",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Office of Technology Transitions",
+        "parent_org": "Department of Energy",
+        "context": "the Office of Technology Transitions",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Office of Science",
+        "parent_org": "Department of Energy",
+        "context": "Department of Energy's Office of Science in section 10102(a)(4)",
+        "mentions": 1,
+        "first_seen": "808"
+      }
+    ],
+    "roles": [
+      {
+        "title": "researchers",
+        "org": "National Institutes of Health",
+        "context": "researchers are not capitalizing on nonanimal models; researchers to develop and utilize humane methods",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "reference librarian with expertise in evaluating the adequacy of searches for nonanimal methods",
+        "org": "National Institutes of Health",
+        "context": "reviewers of the research proposals have access to a reference librarian with expertise",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "person who has expertise in nonanimal research methods",
+        "org": "National Institutes of Health",
+        "context": "research proposals are reviewed by at least one person who has expertise in nonanimal",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "Director",
+        "org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Center shall be headed by a director, who shall be appointed by the Secretary",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "Director of the National Center",
+        "org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Director of the National Center shall provide assistance (including funding) to federally funded researchers",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "Secretary",
+        "org": "Public Health Service",
+        "context": "the Secretary shall establish a National Center for Alternatives to Animals in Research and Testing",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "Director of the National Center for Alternatives to Animals in Research and Testing",
+        "org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Director of the National Center for Alternatives to Animals in Research and Testing shall establish a standardized process",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "The Secretary of Energy shall carry out a research, development, and demonstration program",
+        "mentions": 1,
+        "first_seen": "808"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Public Health Service Act",
+        "citation": null,
+        "ref_type": "amends",
+        "context": "To amend the Public Health Service Act to ensure that nonanimal methods are prioritized",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "Humane and Existing Alternatives in Research and Testing Sciences Act of 2025",
+        "citation": "HEARTS Act of 2025",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Humane and Existing Alternatives in Research and Testing Sciences Act of 2025\" or the \"HEARTS Act of 2025\".",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "Animal Welfare Act",
+        "citation": "Public Law 89\u2013544",
+        "ref_type": "cites",
+        "context": "requires researchers to consider alternatives to animal use for painful procedures",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "National Institutes of Health Revitalization Act of 1993",
+        "citation": "Public Law 103\u201343",
+        "ref_type": "cites",
+        "context": "NIH supposed to outline plan for reducing animal use; Section 205 calls for NIH to conduct research into nonanimal methods",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "National Quantum Initiative Act",
+        "citation": "15 U.S.C. 8851",
+        "ref_type": "amends",
+        "context": "Section 401 of the National Quantum Initiative Act (15 U.S.C. 8851) is amended",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "CHIPS and Science Act",
+        "citation": "section 404",
+        "ref_type": "cites",
+        "context": "consistent with section 404 of the CHIPS and Science Act",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "Public Law 117\u2013167, section 10102(a)(4)",
+        "ref_type": "cites",
+        "context": "section 10102(a)(4) of the Research and Development, Competition, and Innovation Act",
+        "mentions": 1,
+        "first_seen": "808"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "plan for reducing the number of animals used in federally funded research and testing",
+        "doc_type": "plan",
+        "owner_org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "developing a plan for reducing the number of animals used in federally funded research and testing",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "plan for reducing the numbers of animals used in federally funded research and testing",
+        "doc_type": "plan",
+        "owner_org": "covered reporting entities",
+        "context": "develop and submit to the National Center for Alternatives to Animals in Research and Testing and make publicly available a plan for reducing the numbers",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "standardized process for submitting and updating reports and plans",
+        "doc_type": "program",
+        "owner_org": "National Center for Alternatives to Animals in Research and Testing",
+        "context": "The Director of the National Center for Alternatives to Animals in Research and Testing shall establish a standardized process for submitting and updating reports and plans",
+        "mentions": 1,
+        "first_seen": "2336"
+      },
+      {
+        "name": "research, development, and demonstration program on quantum information science, engineering, and technology",
+        "doc_type": "program",
+        "owner_org": "Department of Energy",
+        "context": "Secretary of Energy shall carry out a research, development, and demonstration program on quantum information science",
+        "mentions": 1,
+        "first_seen": "808"
+      },
+      {
+        "name": "Quantum High Performance Computing Strategic Plan",
+        "doc_type": "plan",
+        "owner_org": "Department of Energy",
+        "context": "10-year strategic plan to guide Federal programs in designing, expanding, commercializing, and procuring hybrid, high performance computing systems",
+        "mentions": 1,
+        "first_seen": "808"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary": "Refers to the Secretary of Health and Human Services (implied context of Public Health Service Act administration)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "2336",
+      "note": "Document section contains extensive legislative drafting language (subsection redesignations, margin adjustments, striking and inserting text) which is structural/procedural rather than substantive. This represents the actual amendment text rather than narrative content, limiting entity extraction opportunities in this particular section."
+    },
+    {
+      "agora_id": "808",
+      "note": "Section contains extensive legislative drafting language with subsection redesignations, margin adjustments, and striking/inserting text. This represents amendment mechanics rather than substantive content, limiting entity extraction opportunities."
+    }
+  ],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "808",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary",
+      "resolved": "Refers to the Secretary of Health and Human Services (implied context of Public Health Service Act administration)",
+      "doc_id": "2336",
+      "community_id": "community:017"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:public_health_service_act": 0.6,
+    "legislation:humane_and_existing_alternatives_in_research_and_testing_sciences_act_of_2025": 0.6,
+    "legislation:animal_welfare_act": 0.6,
+    "legislation:national_institutes_of_health_revitalization_act_of_1993": 0.6,
+    "office:national_center_for_alternatives_to_animals_in_research_and_testing": 0.6,
+    "named_doc:plan_for_reducing_the_number_of_animals_used_in_federally_funded_research_and_testing": 0.6,
+    "named_doc:plan_for_reducing_the_numbers_of_animals_used_in_federally_funded_research_and_testing": 0.6,
+    "named_doc:standardized_process_for_submitting_and_updating_reports_and_plans": 0.6,
+    "org:national_institutes_of_health": 1.0,
+    "org:senate": 0.39999999999999997,
+    "org:house_of_representatives": 0.6,
+    "org:united_states_of_america": 0.6,
+    "org:public_health_service": 0.6,
+    "role:researchers": 0.6,
+    "role:reference_librarian_with_expertise_in_evaluating_the_adequacy_of_searches_for_nonanimal_methods": 0.6,
+    "role:person_who_has_expertise_in_nonanimal_research_methods": 0.6,
+    "role:director": 0.6,
+    "role:director_of_the_national_center": 0.6,
+    "role:secretary": 0.6,
+    "role:director_of_the_national_center_for_alternatives_to_animals_in_research_and_testing": 0.6,
+    "legislation:national_quantum_initiative_act": 0.6,
+    "legislation:chips_and_science_act": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "office:national_quantum_information_science_research_centers": 0.6,
+    "office:office_of_electricity": 0.6,
+    "office:office_of_cybersecurity_energy_security_and_emergency_response": 0.6,
+    "office:office_of_fossil_energy_and_carbon_management": 0.6,
+    "office:office_of_technology_transitions": 0.6,
+    "office:office_of_science": 0.6,
+    "named_doc:research_development_and_demonstration_program_on_quantum_information_science_engineering_and_technology": 0.6,
+    "named_doc:quantum_high_performance_computing_strategic_plan": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:quantum_economic_development_consortium": 0.6,
+    "role:secretary_of_energy": 0.6
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "community_id": "community:181",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Establishes a centralized AI program within the Department of Energy",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "National Nuclear Security Administration",
+        "acronym": "NNSA",
+        "context": "manages the Stockpile Stewardship Program established under section 4201",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "17 National Laboratories employ over 40,000 scientists, engineers, and researchers",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Advanced Research Directions on AI for Science, Energy, and Security",
+        "acronym": null,
+        "context": "2023 National Laboratory workshop report entitled \"Advanced Research Directions on AI for Science, Energy, and Security\"",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "National Nuclear Security Agency",
+        "acronym": "NSA",
+        "context": "Director of the National Security Agency consulted on AI risk program",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Department of Homeland Security",
+        "acronym": "DHS",
+        "context": "Secretary of Homeland Security consulted on AI risk evaluation",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Department of Defense",
+        "acronym": "DoD",
+        "context": "Secretary of Defense consulted on AI risk evaluation",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Office of the Director of National Intelligence",
+        "acronym": "ODNI",
+        "context": "Director of National Intelligence consulted on AI risk program",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": "DOC",
+        "context": "Secretary of Commerce consulted on AI risk evaluation",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Federal Energy Regulatory Commission",
+        "acronym": "FERC",
+        "context": "Federal Energy Regulatory Commission shall initiate a rulemaking to revise",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Federal Permitting Improvement Steering Council",
+        "acronym": null,
+        "context": "Executive Director of the Federal Permitting Improvement Steering Council established by section 41002(a)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Department of the Interior",
+        "acronym": null,
+        "context": "consultation with\u2014(i) the Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": null,
+        "context": "Secretary of Agriculture, with respect to National Forest System land",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Office of the Under Secretary for Science and Innovation",
+        "acronym": null,
+        "context": "Within the Office of the Under Secretary for Science and Innovation an Office of Critical and Emerging Technology",
+        "mentions": 1,
+        "first_seen": "1274"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Advanced Simulation and Computing program",
+        "parent_org": "National Nuclear Security Administration",
+        "context": "provides critical classified and unclassified computing capabilities to sustain the nuclear stockpile",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "National Security Agency",
+        "parent_org": "Department of Defense",
+        "context": "Director of the National Security Agency consulted in subsection (c)(1)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Federal Permitting Improvement Steering Council",
+        "parent_org": "Federal Government",
+        "context": "Executive Director of the Federal Permitting Improvement Steering Council established by section 41002(a) of the FAST Act",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Office of Critical and Emerging Technology",
+        "parent_org": "Department of Energy",
+        "context": "SEC. 8. OFFICE OF CRITICAL AND EMERGING TECHNOLOGY.",
+        "mentions": 1,
+        "first_seen": "1274"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "the Secretary is tasked to lead development in testbeds, national security protections, and assessment",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Director",
+        "org": "AI Research and Development Centers",
+        "context": "Each Center shall be headed by a Director, who shall be Chief Executive Officer",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Secretary of Homeland Security",
+        "org": "Department of Homeland Security",
+        "context": "Secretary consulted on AI risk program under subsection (c)(1)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Secretary of Defense",
+        "org": "Department of Defense",
+        "context": "Secretary consulted on AI risk program under subsection (c)(1)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Director of National Intelligence",
+        "org": "Office of the Director of National Intelligence",
+        "context": "Director consulted on AI risk program under subsection (c)(1)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Director of the National Security Agency",
+        "org": "National Security Agency",
+        "context": "Director consulted on AI risk program under subsection (c)(1)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "Secretary consulted on AI risk program under subsection (c)(1)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Secretary of the Interior",
+        "org": "Department of the Interior",
+        "context": "developed in consultation with\u2014(i) the Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Secretary of Agriculture",
+        "org": "Department of Agriculture",
+        "context": "Secretary of Agriculture, with respect to National Forest System land",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Executive Director",
+        "org": "Federal Permitting Improvement Steering Council",
+        "context": "Executive Director of the Federal Permitting Improvement Steering Council",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "title": "Director of Critical and Emerging Technology",
+        "org": "Office of Critical and Emerging Technology",
+        "context": "The Office shall be headed by a director, to be known as the 'Director of Critical and Emerging Technology'",
+        "mentions": 1,
+        "first_seen": "1274"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Department of Energy AI Act",
+        "citation": "SECTION 1",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Department of Energy AI Act\"",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Atomic Energy Defense Act",
+        "citation": "50 U.S.C. 2521",
+        "ref_type": "cites",
+        "context": "section 4201 of the Atomic Energy Defense Act (50 U.S.C. 2521)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "National Artificial Intelligence Initiative Act of 2020",
+        "citation": "15 U.S.C. 9401",
+        "ref_type": "cites",
+        "context": "section 5002 of the National Artificial Intelligence Initiative Act of 2020",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 15801",
+        "ref_type": "cites",
+        "context": "section 2 of the Energy Policy Act of 2005 (42 U.S.C. 15801)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "citation": "15 U.S.C. 9461",
+        "ref_type": "cites",
+        "context": "section 5501 of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Executive Order 14110",
+        "citation": "88 Fed. Reg. 75191",
+        "ref_type": "cites",
+        "context": "section 4.1(b) of Executive Order 14110 (88 Fed. Reg. 75191 (November 1, 2023))",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "42 U.S.C. 19231 et seq.",
+        "ref_type": "cites",
+        "context": "subtitle D of title VI of the Research and Development, Competition, and Innovation Act",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "National Environmental Policy Act of 1969",
+        "citation": "42 U.S.C. 4321 et seq.",
+        "ref_type": "cites",
+        "context": "using AI for deeper reviews of past determinations under the National Environmental Policy Act of 1969",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "FAST Act",
+        "citation": "42 U.S.C. 4370m\u20131(a)",
+        "ref_type": "cites",
+        "context": "section 41002(a) of the FAST Act",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Code of Federal Regulations Title 18 Section 35.28(f)",
+        "citation": "18 CFR 35.28(f)",
+        "ref_type": "cites",
+        "context": "pro forma Large Generator Interconnection Procedures promulgated pursuant to section 35.28(f) of title 18, Code of Federal Regulations",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Department of Energy Organization Act",
+        "citation": "Public Law 95\u201391; 91 Stat. 565; 119 Stat. 764; 133 Stat. 2199",
+        "ref_type": "amends",
+        "context": "Title II of the Department of Energy Organization Act is amended by inserting after section 215",
+        "mentions": 1,
+        "first_seen": "1274"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Frontiers In Artificial Intelligence For Science, Security, And Technology (FASST)",
+        "doc_type": "program",
+        "owner_org": "Department of Energy",
+        "context": "Program To Develop And Deploy Frontiers In Artificial Intelligence For Science, Security, And Technology (FASST)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Stockpile Stewardship Program",
+        "doc_type": "program",
+        "owner_org": "National Nuclear Security Administration",
+        "context": "the Stockpile Stewardship Program established under section 4201 of the Atomic Energy Defense Act",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Advanced Research Directions on AI for Science, Energy, and Security",
+        "doc_type": "report",
+        "owner_org": "National Laboratories",
+        "context": "the 2023 National Laboratory workshop report entitled \"Advanced Research Directions on AI for Science, Energy, and Security\"",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "AI for Energy",
+        "doc_type": "report",
+        "owner_org": "National Laboratories",
+        "context": "the 2024 National Laboratory workshop report entitled \"AI for Energy\"",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "AI Research and Development Centers",
+        "doc_type": "program",
+        "owner_org": "Department of Energy",
+        "context": "Not fewer than 8 multidisciplinary AI R&D Centers to be established",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "AI Risk Evaluation And Mitigation Program",
+        "doc_type": "program",
+        "owner_org": "Department of Energy",
+        "context": "Comprehensive program to evaluate and mitigate safety and security risks",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Risk Taxonomy",
+        "doc_type": "plan",
+        "owner_org": "Department of Energy",
+        "context": "Taxonomy of safety and security risks associated with AI systems",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "Large Generator Interconnection Procedures",
+        "doc_type": "regulation",
+        "owner_org": "Federal Energy Regulatory Commission",
+        "context": "pro forma Large Generator Interconnection Procedures promulgated pursuant to section 35.28(f)",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "critical and emerging technology action plan and assessment",
+        "doc_type": "plan",
+        "owner_org": "Department of Energy",
+        "context": "the Secretary shall submit to Congress a critical and emerging technology action plan and assessment",
+        "mentions": 1,
+        "first_seen": "1274"
+      },
+      {
+        "name": "emerging technology action plan and assessment",
+        "doc_type": "plan",
+        "owner_org": "Department of Energy",
+        "context": "Every 2 years after the submission of the plan and assessment, the Secretary shall submit an updated emerging technology action plan",
+        "mentions": 1,
+        "first_seen": "1274"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "nnsa": "Confirmed as National Nuclear Security Administration, a component of the Department of Energy",
+    "secretary": "Confirmed as Secretary of Energy per section 3(8)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1274",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "NNSA",
+      "resolved": "Confirmed as National Nuclear Security Administration, a component of the Department of Energy",
+      "doc_id": "1274",
+      "community_id": "community:181"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Confirmed as Secretary of Energy per section 3(8)",
+      "doc_id": "1274",
+      "community_id": "community:181"
+    }
+  ],
+  "entity_confidence": {
+    "org:department_of_energy": 0.6,
+    "org:national_nuclear_security_administration": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:advanced_research_directions_on_ai_for_science_energy_and_security": 0.6,
+    "org:national_nuclear_security_agency": 0.6,
+    "org:department_of_homeland_security": 1.0,
+    "org:department_of_defense": 1.0,
+    "org:office_of_the_director_of_national_intelligence": 0.9,
+    "org:department_of_commerce": 0.6,
+    "org:federal_energy_regulatory_commission": 0.6,
+    "org:federal_permitting_improvement_steering_council": 0.6,
+    "org:department_of_the_interior": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:office_of_the_under_secretary_for_science_and_innovation": 0.6,
+    "legislation:department_of_energy_ai_act": 0.6,
+    "legislation:atomic_energy_defense_act": 0.6,
+    "legislation:national_artificial_intelligence_initiative_act_of_2020": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "legislation:william_m_mac_thornberry_national_defense_authorization_act_for_fiscal_year_2021": 0.6,
+    "legislation:executive_order_14110": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "legislation:national_environmental_policy_act_of_1969": 0.6,
+    "legislation:fast_act": 0.6,
+    "legislation:code_of_federal_regulations_title_18_section_35_28_f": 0.6,
+    "legislation:department_of_energy_organization_act": 0.6,
+    "office:advanced_simulation_and_computing_program": 0.6,
+    "office:national_security_agency": 0.6,
+    "office:federal_permitting_improvement_steering_council": 0.6,
+    "office:office_of_critical_and_emerging_technology": 0.6,
+    "named_doc:frontiers_in_artificial_intelligence_for_science_security_and_technology_fasst": 0.6,
+    "named_doc:stockpile_stewardship_program": 0.6,
+    "named_doc:advanced_research_directions_on_ai_for_science_energy_and_security": 0.6,
+    "named_doc:ai_for_energy": 0.6,
+    "named_doc:ai_research_and_development_centers": 0.6,
+    "named_doc:ai_risk_evaluation_and_mitigation_program": 0.6,
+    "named_doc:risk_taxonomy": 0.6,
+    "named_doc:large_generator_interconnection_procedures": 0.6,
+    "named_doc:critical_and_emerging_technology_action_plan_and_assessment": 0.6,
+    "named_doc:emerging_technology_action_plan_and_assessment": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:director": 0.6,
+    "role:secretary_of_homeland_security": 0.9,
+    "role:secretary_of_defense": 0.9,
+    "role:director_of_national_intelligence": 0.9,
+    "role:director_of_the_national_security_agency": 0.6,
+    "role:secretary_of_commerce": 0.6,
+    "role:secretary_of_the_interior": 0.6,
+    "role:secretary_of_agriculture": 0.6,
+    "role:executive_director": 0.6,
+    "role:director_of_critical_and_emerging_technology": 0.6
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "community_id": "community:086",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Office of Management and Budget",
+        "acronym": "OMB",
+        "context": "Director shall issue guidance on the use of artificial intelligence by agencies",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "Government Accountability Office",
+        "acronym": "GAO",
+        "context": "Comptroller General of the United States shall submit to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "United States Senate Committee on Homeland Security and Governmental Affairs",
+        "acronym": null,
+        "context": "submit to the Committees on Homeland Security and Governmental Affairs",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "United States Senate Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "submit to the Committees on Commerce, Science, and Transportation of the Senate",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "United States House Committee on Oversight and Accountability",
+        "acronym": null,
+        "context": "Committees on Oversight and Accountability, Homeland Security, and Science, Space, and Technology",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "United States House Committee on Homeland Security",
+        "acronym": null,
+        "context": "Committees on Oversight and Accountability, Homeland Security, and Science, Space, and Technology",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "United States House Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committees on Oversight and Accountability, Homeland Security, and Science, Space, and Technology",
+        "mentions": 1,
+        "first_seen": "811"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Director",
+        "org": "Office of Management and Budget",
+        "context": "Director shall issue guidance on the use of artificial intelligence by agencies",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "title": "Comptroller General of the United States",
+        "org": "Government Accountability Office",
+        "context": "Comptroller General of the United States shall submit to the appropriate congressional committees",
+        "mentions": 1,
+        "first_seen": "811"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Federal Information Security Modernization Act of 2023",
+        "citation": "Pub. L. 117-xxx (inferred)",
+        "ref_type": "other",
+        "context": "Not later than 1 year after the date of enactment of this Act",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "Title 44, United States Code, Section 3502",
+        "citation": "44 U.S.C. \u00a7 3502",
+        "ref_type": "cites",
+        "context": "the term \"information system\" has the meaning given the term in section 3502 of title 44",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "Title 44, United States Code, Section 3554(b)",
+        "citation": "44 U.S.C. \u00a7 3554(b)",
+        "ref_type": "amends",
+        "context": "paragraphs (1), (5)(C), and (8)(B) of section 3554(b) of title 44, United States Code, as amended by this Act",
+        "mentions": 1,
+        "first_seen": "811"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Annual Report on the Use of Artificial Intelligence in Federal Cybersecurity",
+        "doc_type": "report",
+        "owner_org": "Office of Management and Budget",
+        "context": "Director shall submit to the appropriate congressional committees a report on the use of artificial intelligence",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "Report on Risks to Privacy and Cybersecurity from Federal AI Systems Use",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "report on the risks to the privacy of individuals and the cybersecurity of information systems",
+        "mentions": 1,
+        "first_seen": "811"
+      },
+      {
+        "name": "Study on Automation and AI in Federal Cybersecurity",
+        "doc_type": "report",
+        "owner_org": "Government Accountability Office",
+        "context": "study, and submit to the Committees on Homeland Security and Governmental Affairs and Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "811"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "director": "Refers to the Director of the Office of Management and Budget (OMB), as established in SEC. 14(b)(1) context of issuing federal guidance."
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "811",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Director",
+      "resolved": "Refers to the Director of the Office of Management and Budget (OMB), as established in SEC. 14(b)(1) context of issuing federal guidance.",
+      "doc_id": "811",
+      "community_id": "community:086"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:federal_information_security_modernization_act_of_2023": 0.6,
+    "legislation:title_44_united_states_code_section_3502": 0.6,
+    "legislation:title_44_united_states_code_section_3554_b": 0.6,
+    "role:director": 0.6,
+    "role:comptroller_general_of_the_united_states": 0.6,
+    "named_doc:annual_report_on_the_use_of_artificial_intelligence_in_federal_cybersecurity": 0.6,
+    "named_doc:report_on_risks_to_privacy_and_cybersecurity_from_federal_ai_systems_use": 0.6,
+    "named_doc:study_on_automation_and_ai_in_federal_cybersecurity": 0.6,
+    "org:office_of_management_and_budget": 1.0,
+    "org:government_accountability_office": 0.6,
+    "org:united_states_senate_committee_on_homeland_security_and_governmental_affairs": 0.6,
+    "org:united_states_senate_committee_on_commerce_science_and_transportation": 0.6,
+    "org:united_states_house_committee_on_oversight_and_accountability": 0.6,
+    "org:united_states_house_committee_on_homeland_security": 0.6,
+    "org:united_states_house_committee_on_science_space_and_technology": 0.6
+  }
+}

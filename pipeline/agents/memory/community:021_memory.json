@@ -1,0 +1,356 @@
+{
+  "community_id": "community:021",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Agriculture",
+        "acronym": "USDA",
+        "context": "Secretary shall carry out, with the Secretary of Energy and the Director of the National Science Foundation",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Secretary of Energy and the Director of the National Science Foundation, cross-cutting and collaborative research",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "National Science Foundation",
+        "acronym": "NSF",
+        "context": "Director of the National Science Foundation, cross-cutting and collaborative research and development activities",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Federal Interagency Committee for the Management of Noxious and Exotic Weeds",
+        "acronym": null,
+        "context": "invasive species management to further the work done by the Federal Interagency Committee for the Management of Noxious and Exotic Weeds",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Committee on Agriculture, Nutrition, and Forestry",
+        "acronym": null,
+        "context": "submit to the Committee on Agriculture, Nutrition, and Forestry, the Committee on Commerce",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Committee on Commerce, Science, and Transportation, and the Committee on Energy and Natural",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "the Committee on Energy and Natural Resources of the Senate and the Committee on Agriculture",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Committee on Agriculture",
+        "acronym": null,
+        "context": "the House of Representatives a report detailing the Committee on Agriculture and the Committee",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "Committee on Science, Space, and Technology of the House of Representatives a report",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "acronym": null,
+        "context": "land-grant colleges and universities (as defined in section 1404 of the National Agricultural Research",
+        "mentions": 1,
+        "first_seen": "1981"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Agriculture",
+        "context": "The Secretary shall carry out, with the Secretary of Energy and the Director of the National Science Foundation",
+        "mentions": 2,
+        "first_seen": "1980"
+      },
+      {
+        "title": "Secretary of Energy",
+        "org": "Department of Energy",
+        "context": "Secretary of Energy and the Director of the National Science Foundation, cross-cutting and collaborative research",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "title": "Director",
+        "org": "National Science Foundation",
+        "context": "Director of the National Science Foundation, cross-cutting and collaborative research and development activities",
+        "mentions": 1,
+        "first_seen": "1980"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Farm Security and Rural Investment Act of 2002",
+        "citation": "7 U.S.C. 8101 et seq.",
+        "ref_type": "cites",
+        "context": "in collaboration with the activities authorized under title IX of the Farm Security and Rural Investment Act of 2002",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "citation": "7 U.S.C. 3319k",
+        "ref_type": "cites",
+        "context": "in collaboration with the programs authorized under section 1473H of the National Agricultural Research, Extension, and Teaching Policy Act of 1977",
+        "mentions": 2,
+        "first_seen": "1980"
+      },
+      {
+        "name": "America COMPETES Act",
+        "citation": "42 U.S.C. 16538",
+        "ref_type": "cites",
+        "context": "in collaboration with the programs authorized under section 5012 of the America COMPETES Act",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Research and Development, Competition, and Innovation Act",
+        "citation": "42 U.S.C. 19231 et seq.",
+        "ref_type": "cites",
+        "context": "consistent with subtitle D of title VI of the Research and Development, Competition, and Innovation Act",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Rural Prosperity and Food Security Act of 2024",
+        "citation": "2024",
+        "ref_type": "enacts",
+        "context": "SEC. 7208. HIGH-PRIORITY RESEARCH AND EXTENSION INITIATIVES.",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Food, Agriculture, Conservation, and Trade Act of 1990",
+        "citation": "7 U.S.C. 5925(d)",
+        "ref_type": "amends",
+        "context": "Section 1672(d) of the Food, Agriculture, Conservation, and Trade Act of 1990",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Plant Protection Act",
+        "citation": "7 U.S.C. 7702",
+        "ref_type": "cites",
+        "context": "section 403 of the Plant Protection Act (7 U.S.C. 7702) that impact coffee plants",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "PFAS Act of 2019",
+        "citation": "15 U.S.C. 8931(2)(B)",
+        "ref_type": "cites",
+        "context": "section 7331(2)(B) of the PFAS Act of 2019 (15 U.S.C. 8931(2)(B))",
+        "mentions": 1,
+        "first_seen": "1981"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Interagency coordination report",
+        "doc_type": "report",
+        "owner_org": "Department of Agriculture, Department of Energy, National Science Foundation",
+        "context": "jointly submit to the Committee a report detailing interagency coordination between each Federal agency",
+        "mentions": 1,
+        "first_seen": "1980"
+      },
+      {
+        "name": "Coffee plant health initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Coffee plant health initiative.--Research and extension grants may be made under this section",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Macadamia tree health initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Macadamia tree health initiative.--Research and extension grants may be made under this section",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "PFAS agricultural effects research initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "PFAS agricultural effects research initiative.--Research and extension grants may be made",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Peanut aflatoxin research initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Peanut aflatoxin research initiative.--Research and extension grants may be made under this",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Biochar research initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Biochar research initiative.--Research and extension grants may be made under this section",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Spotted wing drosophila initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Spotted wing drosophila initiative.--Research and extension grants may be made and cooperative",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Spotted lanternfly control initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Spotted lanternfly control initiative.--Research and extension grants may be made under this",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Wheat resiliency initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Wheat resiliency initiative.--Research and extension grants may be made under this section",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "White oak research initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "White oak research initiative.--In general.--Research grants may be made under this section",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Sunflower breeding initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Sunflower breeding initiative.--Research and extension grants may be made under this section",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Pulse Crop Health Initiative",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Section 1672(e)(5) authorization period extended to 2029",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Training Coordination for Food and Agriculture Protection",
+        "doc_type": "program",
+        "owner_org": "Department of Agriculture",
+        "context": "Section 1672(f)(5) authorization period extended to 2029",
+        "mentions": 1,
+        "first_seen": "1981"
+      },
+      {
+        "name": "Pollinator Protection",
+        "doc_type": "initiative",
+        "owner_org": "Department of Agriculture",
+        "context": "Section 1672(g) paragraphs (1)(B), (2)(B), (3) authorization period extended to 2029",
+        "mentions": 1,
+        "first_seen": "1981"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the secretary": "Secretary of the Department of Agriculture",
+    "the director": "Director of the National Science Foundation",
+    "secretary": "Secretary of the Department of Agriculture (resolved via community context and repeated references to Secretary authority over agricultural grants)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1981",
+      "note": "Document text provided contains only a section header (SEC. 7208) with no substantive content. Summary indicates grants for agricultural AI uses, but no entities are explicitly named in the provided text excerpt."
+    }
+  ],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "1981",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "The Secretary",
+      "resolved": "Secretary of the Department of Agriculture",
+      "doc_id": "1980",
+      "community_id": "community:021"
+    },
+    {
+      "phrase": "the Director",
+      "resolved": "Director of the National Science Foundation",
+      "doc_id": "1980",
+      "community_id": "community:021"
+    },
+    {
+      "phrase": "Secretary",
+      "resolved": "Secretary of the Department of Agriculture (resolved via community context and repeated references to Secretary authority over agricultural grants)",
+      "doc_id": "1981",
+      "community_id": "community:021"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:farm_security_and_rural_investment_act_of_2002": 0.6,
+    "legislation:national_agricultural_research_extension_and_teaching_policy_act_of_1977": 0.6,
+    "legislation:america_competes_act": 0.6,
+    "legislation:research_and_development_competition_and_innovation_act": 0.6,
+    "named_doc:interagency_coordination_report": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:national_science_foundation": 1.0,
+    "org:federal_interagency_committee_for_the_management_of_noxious_and_exotic_weeds": 0.6,
+    "org:committee_on_agriculture_nutrition_and_forestry": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:committee_on_agriculture": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "role:secretary": 0.6,
+    "role:secretary_of_energy": 0.6,
+    "role:director": 0.6,
+    "legislation:rural_prosperity_and_food_security_act_of_2024": 0.6,
+    "legislation:food_agriculture_conservation_and_trade_act_of_1990": 0.6,
+    "legislation:plant_protection_act": 0.6,
+    "legislation:pfas_act_of_2019": 0.6,
+    "named_doc:coffee_plant_health_initiative": 0.6,
+    "named_doc:macadamia_tree_health_initiative": 0.6,
+    "named_doc:pfas_agricultural_effects_research_initiative": 0.6,
+    "named_doc:peanut_aflatoxin_research_initiative": 0.6,
+    "named_doc:biochar_research_initiative": 0.6,
+    "named_doc:spotted_wing_drosophila_initiative": 0.6,
+    "named_doc:spotted_lanternfly_control_initiative": 0.6,
+    "named_doc:wheat_resiliency_initiative": 0.6,
+    "named_doc:white_oak_research_initiative": 0.6,
+    "named_doc:sunflower_breeding_initiative": 0.6,
+    "named_doc:pulse_crop_health_initiative": 0.6,
+    "named_doc:training_coordination_for_food_and_agriculture_protection": 0.6,
+    "named_doc:pollinator_protection": 0.6,
+    "org:national_agricultural_research_extension_and_teaching_policy_act_of_1977": 0.6
+  }
+}

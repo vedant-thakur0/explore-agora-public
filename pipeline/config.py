@@ -76,3 +76,27 @@ NER_MEMORY_TOP_N = {          # max entities injected into prompt context per ty
     "named_docs": 10,
 }
 
+# Shared memory system (canonical registry)
+GLOBAL_REGISTRY_PATH = AGENTS_OUTPUT_DIR / "global_registry.json"
+TYPE_AUTHORITY_PATH = AGENTS_OUTPUT_DIR / "type_authority.json"
+CANONICAL_ENTITY_MAP_PATH = AGENTS_OUTPUT_DIR / "canonical_entity_map.json"
+REVIEW_QUEUE_PATH = AGENTS_OUTPUT_DIR / "review_queue.jsonl"
+CANONICALIZED_ENTITIES_PATH = AGENTS_OUTPUT_DIR / "entities_canonicalized.jsonl"
+COMMUNITIES_PATH = AGENTS_OUTPUT_DIR / "communities.json"
+CONTEXT_BUDGET_CHARS = 6000    # max chars for memory context injection (~1500 tokens)
+CONFIDENCE_REVIEW_THRESHOLD = 0.5  # entities below this -> review queue
+
+# Reports
+REPORTS_DIR = PROJECT_ROOT / "reports"
+REPORTS_GENERATED_DIR = PROJECT_ROOT / "reports" / "generated"
+
+# Rule graduation thresholds
+GRADUATION_THRESHOLD = 5       # consistent LLM disambiguations before rule graduation
+GLOBAL_SCOPE_THRESHOLD = 3     # communities before community rule becomes global
+
+# Hallucination probe (adversarial validation for rule graduation)
+HALLUCINATION_PROBE_ENABLED = True
+HALLUCINATION_TEMPERATURE = 1.0
+HALLUCINATION_PASS_THRESHOLD = 0.8   # fraction of high-temp outputs matching candidate
+HALLUCINATION_SAMPLE_DOCS = 3        # source docs to probe per candidate rule
+

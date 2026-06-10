@@ -1,0 +1,1444 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="weight" attr.type="int"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="group" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Strategies::Convening">
+  <data key="d0">Strategies</data>
+  <data key="d1">Convening</data>
+</node>
+<node id="Applications::Agriculture and resource extraction">
+  <data key="d0">Applications</data>
+  <data key="d1">Agriculture and resource extraction</data>
+</node>
+<node id="Applications::Arts, sports, leisure, travel, and lifestyle">
+  <data key="d0">Applications</data>
+  <data key="d1">Arts, sports, leisure, travel, and lifestyle</data>
+</node>
+<node id="Applications::Broadcasting and media production">
+  <data key="d0">Applications</data>
+  <data key="d1">Broadcasting and media production</data>
+</node>
+<node id="Applications::Business services and analytics">
+  <data key="d0">Applications</data>
+  <data key="d1">Business services and analytics</data>
+</node>
+<node id="Applications::Construction and field services">
+  <data key="d0">Applications</data>
+  <data key="d1">Construction and field services</data>
+</node>
+<node id="Applications::Consumer goods">
+  <data key="d0">Applications</data>
+  <data key="d1">Consumer goods</data>
+</node>
+<node id="Applications::Education">
+  <data key="d0">Applications</data>
+  <data key="d1">Education</data>
+</node>
+<node id="Applications::Energy and utilities">
+  <data key="d0">Applications</data>
+  <data key="d1">Energy and utilities</data>
+</node>
+<node id="Applications::Finance and investment">
+  <data key="d0">Applications</data>
+  <data key="d1">Finance and investment</data>
+</node>
+<node id="Applications::Government: benefits and welfare">
+  <data key="d0">Applications</data>
+  <data key="d1">Government: benefits and welfare</data>
+</node>
+<node id="Applications::Government: judicial and law enforcement">
+  <data key="d0">Applications</data>
+  <data key="d1">Government: judicial and law enforcement</data>
+</node>
+<node id="Applications::Government: military and public safety">
+  <data key="d0">Applications</data>
+  <data key="d1">Government: military and public safety</data>
+</node>
+<node id="Applications::Government: other applications/unspecified">
+  <data key="d0">Applications</data>
+  <data key="d1">Government: other applications/unspecified</data>
+</node>
+<node id="Applications::Manufacturing and process automation">
+  <data key="d0">Applications</data>
+  <data key="d1">Manufacturing and process automation</data>
+</node>
+<node id="Applications::Medicine, life sciences and public health">
+  <data key="d0">Applications</data>
+  <data key="d1">Medicine, life sciences and public health</data>
+</node>
+<node id="Applications::Networking and telecommunications">
+  <data key="d0">Applications</data>
+  <data key="d1">Networking and telecommunications</data>
+</node>
+<node id="Applications::Security">
+  <data key="d0">Applications</data>
+  <data key="d1">Security</data>
+</node>
+<node id="Applications::Transportation">
+  <data key="d0">Applications</data>
+  <data key="d1">Transportation</data>
+</node>
+<node id="Strategies::Disclosure">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure</data>
+</node>
+<node id="Applications::Sales, retail, and customer relations">
+  <data key="d0">Applications</data>
+  <data key="d1">Sales, retail, and customer relations</data>
+</node>
+<node id="Strategies::Disclosure: About evaluation">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure: About evaluation</data>
+</node>
+<node id="Strategies::Disclosure: About incidents">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure: About incidents</data>
+</node>
+<node id="Strategies::Disclosure: About inputs">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure: About inputs</data>
+</node>
+<node id="Strategies::Disclosure: Accuracy thereof">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure: Accuracy thereof</data>
+</node>
+<node id="Strategies::Disclosure: In deployment">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure: In deployment</data>
+</node>
+<node id="Strategies::Disclosure: In standard form">
+  <data key="d0">Strategies</data>
+  <data key="d1">Disclosure: In standard form</data>
+</node>
+<node id="Strategies::Evaluation">
+  <data key="d0">Strategies</data>
+  <data key="d1">Evaluation</data>
+</node>
+<node id="Strategies::Evaluation: Adversarial testing">
+  <data key="d0">Strategies</data>
+  <data key="d1">Evaluation: Adversarial testing</data>
+</node>
+<node id="Strategies::Evaluation: Conformity assessment">
+  <data key="d0">Strategies</data>
+  <data key="d1">Evaluation: Conformity assessment</data>
+</node>
+<node id="Strategies::Evaluation: External auditing">
+  <data key="d0">Strategies</data>
+  <data key="d1">Evaluation: External auditing</data>
+</node>
+<node id="Strategies::Evaluation: Impact assessment">
+  <data key="d0">Strategies</data>
+  <data key="d1">Evaluation: Impact assessment</data>
+</node>
+<node id="Strategies::Evaluation: Post-market monitoring">
+  <data key="d0">Strategies</data>
+  <data key="d1">Evaluation: Post-market monitoring</data>
+</node>
+<node id="Strategies::Governance development">
+  <data key="d0">Strategies</data>
+  <data key="d1">Governance development</data>
+</node>
+<node id="Strategies::Government study or report">
+  <data key="d0">Strategies</data>
+  <data key="d1">Government study or report</data>
+</node>
+<node id="Strategies::Government support">
+  <data key="d0">Strategies</data>
+  <data key="d1">Government support</data>
+</node>
+<node id="Strategies::Government support: AI workforce-related">
+  <data key="d0">Strategies</data>
+  <data key="d1">Government support: AI workforce-related</data>
+</node>
+<node id="Strategies::Government support: For R&amp;D">
+  <data key="d0">Strategies</data>
+  <data key="d1">Government support: For R&amp;D</data>
+</node>
+<node id="Strategies::Input controls">
+  <data key="d0">Strategies</data>
+  <data key="d1">Input controls</data>
+</node>
+<node id="Strategies::Input controls: Compute use">
+  <data key="d0">Strategies</data>
+  <data key="d1">Input controls: Compute use</data>
+</node>
+<node id="Strategies::Input controls: Data circulation">
+  <data key="d0">Strategies</data>
+  <data key="d1">Input controls: Data circulation</data>
+</node>
+<node id="Strategies::Input controls: Data use">
+  <data key="d0">Strategies</data>
+  <data key="d1">Input controls: Data use</data>
+</node>
+<node id="Strategies::Licensing, registration, and certification">
+  <data key="d0">Strategies</data>
+  <data key="d1">Licensing, registration, and certification</data>
+</node>
+<node id="Strategies::New institution">
+  <data key="d0">Strategies</data>
+  <data key="d1">New institution</data>
+</node>
+<node id="Strategies::Performance requirements">
+  <data key="d0">Strategies</data>
+  <data key="d1">Performance requirements</data>
+</node>
+<node id="Strategies::Pilots and testbeds">
+  <data key="d0">Strategies</data>
+  <data key="d1">Pilots and testbeds</data>
+</node>
+<node id="Strategies::Tiering">
+  <data key="d0">Strategies</data>
+  <data key="d1">Tiering</data>
+</node>
+<node id="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d0">Strategies</data>
+  <data key="d1">Tiering: Tiering based on domain of application</data>
+</node>
+<node id="Strategies::Tiering: Tiering based on impact">
+  <data key="d0">Strategies</data>
+  <data key="d1">Tiering: Tiering based on impact</data>
+</node>
+<node id="Strategies::Tiering: Tiering based on inputs">
+  <data key="d0">Strategies</data>
+  <data key="d1">Tiering: Tiering based on inputs</data>
+</node>
+<edge source="Strategies::Convening" target="Applications::Agriculture and resource extraction">
+  <data key="d2">7</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Arts, sports, leisure, travel, and lifestyle">
+  <data key="d2">3</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Broadcasting and media production">
+  <data key="d2">5</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Business services and analytics">
+  <data key="d2">5</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Construction and field services">
+  <data key="d2">3</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Consumer goods">
+  <data key="d2">1</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Education">
+  <data key="d2">5</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Energy and utilities">
+  <data key="d2">6</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Finance and investment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Government: benefits and welfare">
+  <data key="d2">5</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Government: judicial and law enforcement">
+  <data key="d2">6</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Government: military and public safety">
+  <data key="d2">37</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Government: other applications/unspecified">
+  <data key="d2">18</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Manufacturing and process automation">
+  <data key="d2">5</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Medicine, life sciences and public health">
+  <data key="d2">9</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Networking and telecommunications">
+  <data key="d2">2</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Security">
+  <data key="d2">5</data>
+</edge>
+<edge source="Strategies::Convening" target="Applications::Transportation">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Disclosure">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Evaluation">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Governance development">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Government study or report">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Government support">
+  <data key="d2">9</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">9</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Agriculture and resource extraction" target="Strategies::Pilots and testbeds">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Disclosure">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Evaluation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Governance development">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Government study or report">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Government support">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Input controls">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Input controls: Data use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::New institution">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Performance requirements">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Arts, sports, leisure, travel, and lifestyle" target="Strategies::Pilots and testbeds">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Disclosure">
+  <data key="d2">9</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Disclosure: In deployment">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Disclosure: In standard form">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Evaluation">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Governance development">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Government study or report">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Government support">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Input controls">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::New institution">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Performance requirements">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Pilots and testbeds">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Tiering">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Broadcasting and media production" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Disclosure">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Disclosure: About incidents">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Disclosure: In deployment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Evaluation">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Evaluation: Adversarial testing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Governance development">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Government study or report">
+  <data key="d2">8</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Government support">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Input controls">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Input controls: Data use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::New institution">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Performance requirements">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Pilots and testbeds">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Business services and analytics" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure: In deployment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Evaluation">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Governance development">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Government study or report">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Government support">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Input controls">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Input controls: Compute use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Input controls: Data use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Performance requirements">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Pilots and testbeds">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Construction and field services" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Disclosure">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Disclosure: In deployment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Evaluation">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Governance development">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Government study or report">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Government support">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Input controls">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Input controls: Compute use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Input controls: Data use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Performance requirements">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Pilots and testbeds">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Consumer goods" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Disclosure">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Evaluation">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Governance development">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Government study or report">
+  <data key="d2">9</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Government support">
+  <data key="d2">12</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">11</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">8</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::New institution">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Pilots and testbeds">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Education" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Disclosure">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Evaluation">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Governance development">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Government study or report">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Government support">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Energy and utilities" target="Strategies::Pilots and testbeds">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Disclosure">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Evaluation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Evaluation: Adversarial testing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Governance development">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Government study or report">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Government support">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Input controls">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Input controls: Compute use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Input controls: Data circulation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Input controls: Data use">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Performance requirements">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Pilots and testbeds">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Finance and investment" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure: About incidents">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Disclosure: In standard form">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Evaluation">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Governance development">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Government study or report">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Government support">
+  <data key="d2">8</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">8</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Input controls">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Input controls: Compute use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Input controls: Data use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::New institution">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Performance requirements">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Pilots and testbeds">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: benefits and welfare" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Disclosure">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Disclosure: About inputs">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Disclosure: In deployment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Evaluation">
+  <data key="d2">9</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Evaluation: Adversarial testing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Evaluation: External auditing">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Governance development">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Government study or report">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Government support">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::New institution">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Performance requirements">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Pilots and testbeds">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: judicial and law enforcement" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure">
+  <data key="d2">25</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure: About incidents">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure: About inputs">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure: In deployment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Disclosure: In standard form">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Evaluation">
+  <data key="d2">56</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Evaluation: Adversarial testing">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">12</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Evaluation: External auditing">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">20</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Governance development">
+  <data key="d2">51</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Government study or report">
+  <data key="d2">94</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Government support">
+  <data key="d2">61</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">34</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">42</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Input controls">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Input controls: Compute use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Input controls: Data circulation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Input controls: Data use">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::New institution">
+  <data key="d2">28</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Performance requirements">
+  <data key="d2">14</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Pilots and testbeds">
+  <data key="d2">25</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: military and public safety" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure: About incidents">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure: About inputs">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure: In deployment">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Disclosure: In standard form">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Evaluation">
+  <data key="d2">18</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Evaluation: Adversarial testing">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Evaluation: External auditing">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">12</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Governance development">
+  <data key="d2">17</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Government study or report">
+  <data key="d2">24</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Government support">
+  <data key="d2">26</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">17</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::New institution">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Performance requirements">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Pilots and testbeds">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Tiering">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Government: other applications/unspecified" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Disclosure">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Evaluation">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Governance development">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Government study or report">
+  <data key="d2">8</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Government support">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Manufacturing and process automation" target="Strategies::Pilots and testbeds">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Disclosure">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Disclosure: About incidents">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Disclosure: About inputs">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Evaluation">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Governance development">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Government study or report">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Government support">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">12</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Input controls">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Input controls: Compute use">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Input controls: Data circulation">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Input controls: Data use">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::New institution">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Performance requirements">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Pilots and testbeds">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Tiering">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Tiering: Tiering based on domain of application">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Tiering: Tiering based on impact">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Medicine, life sciences and public health" target="Strategies::Tiering: Tiering based on inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Disclosure">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Evaluation">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Governance development">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Government study or report">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Government support">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Licensing, registration, and certification">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Performance requirements">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Networking and telecommunications" target="Strategies::Pilots and testbeds">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Disclosure">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Disclosure: About evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Disclosure: Accuracy thereof">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Evaluation">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Evaluation: Conformity assessment">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Evaluation: External auditing">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Evaluation: Post-market monitoring">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Governance development">
+  <data key="d2">7</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Government study or report">
+  <data key="d2">13</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Government support">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">6</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">8</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::New institution">
+  <data key="d2">4</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Performance requirements">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Security" target="Strategies::Pilots and testbeds">
+  <data key="d2">5</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Disclosure">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Evaluation">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Evaluation: Impact assessment">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Governance development">
+  <data key="d2">3</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Government study or report">
+  <data key="d2">15</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Government support">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Government support: AI workforce-related">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Government support: For R&amp;D">
+  <data key="d2">10</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::New institution">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Performance requirements">
+  <data key="d2">2</data>
+</edge>
+<edge source="Applications::Transportation" target="Strategies::Pilots and testbeds">
+  <data key="d2">3</data>
+</edge>
+<edge source="Strategies::Disclosure" target="Applications::Sales, retail, and customer relations">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Disclosure: About inputs">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Disclosure: In deployment">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Disclosure: In standard form">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Evaluation">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Governance development">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Government study or report">
+  <data key="d2">1</data>
+</edge>
+<edge source="Applications::Sales, retail, and customer relations" target="Strategies::Performance requirements">
+  <data key="d2">1</data>
+</edge>
+</graph></graphml>

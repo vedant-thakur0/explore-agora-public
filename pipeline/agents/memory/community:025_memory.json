@@ -1,0 +1,146 @@
+{
+  "community_id": "community:025",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "United States Trade Representative",
+        "acronym": "USTR",
+        "context": "the United States Trade Representative shall set forth a list of products",
+        "mentions": 2,
+        "first_seen": "791"
+      },
+      {
+        "name": "Government of the People's Republic of China",
+        "acronym": null,
+        "context": "products...that are determined by the Trade Representative to receive support from the Government of the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "791"
+      },
+      {
+        "name": "Communist Party of China",
+        "acronym": null,
+        "context": "set forth by the Government of the People's Republic of China, the Communist Party of China, or another entity",
+        "mentions": 1,
+        "first_seen": "791"
+      },
+      {
+        "name": "People's Republic of China",
+        "acronym": "PRC",
+        "context": "prohibit the export to the People's Republic of China of any national security sensitive technology",
+        "mentions": 1,
+        "first_seen": "792"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Department of Commerce",
+        "parent_org": "United States Government",
+        "context": "The Secretary of Commerce shall prohibit the export",
+        "mentions": 1,
+        "first_seen": "792"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Trade Representative",
+        "org": "United States Trade Representative",
+        "context": "the Trade Representative shall include in the list required by subsection (a)",
+        "mentions": 1,
+        "first_seen": "791"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "The Secretary of Commerce shall prohibit the export to the People's Republic of China",
+        "mentions": 1,
+        "first_seen": "792"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Trade Act of 1974",
+        "citation": "19 U.S.C. 2241 et seq.",
+        "ref_type": "amends",
+        "context": "Chapter 8 of title I of the Trade Act of 1974 (19 U.S.C. 2241 et seq.) is amended",
+        "mentions": 2,
+        "first_seen": "791"
+      },
+      {
+        "name": "Fair Trade with China Enforcement Act",
+        "citation": null,
+        "ref_type": "enacts",
+        "context": "Not later than 120 days after the date of the enactment of the Fair Trade with China Enforcement Act",
+        "mentions": 2,
+        "first_seen": "791"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Made in China 2025",
+        "doc_type": "initiative",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "Notice on Issuing Made in China 2025",
+        "mentions": 1,
+        "first_seen": "791"
+      },
+      {
+        "name": "China Manufacturing 2025",
+        "doc_type": "strategy",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "China Manufacturing 2025",
+        "mentions": 1,
+        "first_seen": "791"
+      },
+      {
+        "name": "13th Five-year National Strategic Emerging Industries Development Plan",
+        "doc_type": "plan",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "Notice on Issuing the 13th Five-year National Strategic Emerging Industries Development Plan",
+        "mentions": 1,
+        "first_seen": "791"
+      },
+      {
+        "name": "Guiding Opinion on Promoting International Industrial Capacity and Equipment Manufacturing Cooperation",
+        "doc_type": "strategy",
+        "owner_org": "Government of the People's Republic of China",
+        "context": "Guiding Opinion on Promoting International Industrial Capacity and Equipment Manufacturing Cooperation",
+        "mentions": 1,
+        "first_seen": "791"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "secretary of commerce": "Explicitly identified as role in Department of Commerce with specific authority to prohibit exports under this section."
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "792",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Secretary of Commerce",
+      "resolved": "Explicitly identified as role in Department of Commerce with specific authority to prohibit exports under this section.",
+      "doc_id": "792",
+      "community_id": "community:025"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:trade_act_of_1974": 0.6,
+    "legislation:fair_trade_with_china_enforcement_act": 0.6,
+    "named_doc:made_in_china_2025": 0.6,
+    "named_doc:china_manufacturing_2025": 0.6,
+    "named_doc:13th_five_year_national_strategic_emerging_industries_development_plan": 0.6,
+    "named_doc:guiding_opinion_on_promoting_international_industrial_capacity_and_equipment_manufacturing_cooperation": 0.6,
+    "org:united_states_trade_representative": 0.6,
+    "org:government_of_the_people_s_republic_of_china": 0.6,
+    "org:communist_party_of_china": 0.6,
+    "role:trade_representative": 0.6,
+    "office:department_of_commerce": 0.6,
+    "org:people_s_republic_of_china": 0.6,
+    "role:secretary_of_commerce": 0.6
+  }
+}

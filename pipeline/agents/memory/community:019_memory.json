@@ -1,0 +1,310 @@
+{
+  "community_id": "community:019",
+  "label": "Incentives: Civil liability | Harms: Detrimental content | Harms: Violation of civil or human rights, including privacy",
+  "taxonomy_signature": [
+    "Incentives: Civil liability",
+    "Harms: Detrimental content",
+    "Harms: Violation of civil or human rights, including privacy",
+    "Applications: Arts, sports, leisure, travel, and lifestyle",
+    "Harms: Discrimination"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Senate of the United States",
+        "acronym": null,
+        "context": "IN THE SENATE OF THE UNITED STATES",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "House of Representatives of the United States",
+        "acronym": null,
+        "context": "Senate and House of Representatives of the United States of America",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "referred to the Committee on Commerce, Science, and Transportation",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Federal Trade Commission",
+        "acronym": "FTC",
+        "context": "The term \"Commission\" means the Federal Trade Commission.",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Secretary of Commerce",
+        "acronym": null,
+        "context": "Secretary of Commerce shall establish a pilot program",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Internal Revenue Service",
+        "acronym": "IRS",
+        "context": "electronic records of State departments of motor vehicles, the Internal Revenue Service",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Social Security Administration",
+        "acronym": "SSA",
+        "context": "the Social Security Administration, State agencies responsible for vital records",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Inspector General",
+        "acronym": null,
+        "context": "oversight by an Inspector General related to the proper implementation of this Act",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Committee on Commerce of the Senate",
+        "acronym": null,
+        "context": "submit to the Committee on Commerce of the Senate",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Committee on Appropriations of the Senate",
+        "acronym": null,
+        "context": "Committee on Appropriations of the Senate",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Committee on Energy and Commerce of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Energy and Commerce of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Committee on Appropriations of the House of Representatives",
+        "acronym": null,
+        "context": "Committee on Appropriations of the House of Representatives",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "acronym": null,
+        "context": "common carriers subject to the Communications Act of 1934 (47 U.S.C. 151 et seq.)",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Consolidated Appropriations Act, 2022",
+        "acronym": null,
+        "context": "Section 1309(a) of the Consolidated Appropriations Act, 2022 (15 U.S.C. 6851(a)) is amended",
+        "mentions": 1,
+        "first_seen": "531"
+      }
+    ],
+    "offices": [
+      {
+        "name": "attorney general of a State",
+        "parent_org": "State government",
+        "context": "attorney general of a State has reason to believe that an interest of the residents",
+        "mentions": 1,
+        "first_seen": "481"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Senator",
+        "org": "Senate of the United States",
+        "context": "Mr. Schatz (for himself, Mr. Cotton, Mr. Murphy, and Mrs. Britt) introduced the following bill",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "title": "Secretary of Commerce",
+        "org": "Department of Commerce",
+        "context": "the Secretary of Commerce shall establish a pilot program",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "title": "Inspector General",
+        "org": "Unspecified federal entity",
+        "context": "oversight by an Inspector General related to the proper implementation of this Act",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "title": "attorney general",
+        "org": "State government",
+        "context": "attorney general of a State may, as parens patriae, bring a civil action",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "title": "consumer protection officer",
+        "org": "State",
+        "context": "any other consumer protection officer of a State who is authorized by the State to do so may bring a civil action",
+        "mentions": 1,
+        "first_seen": "481"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Protecting Kids on Social Media Act",
+        "citation": "S. 1291",
+        "ref_type": "enacts",
+        "context": "S. 1291 introduced April 26, 2023",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Elementary and Secondary Education Act of 1965",
+        "citation": "20 U.S.C. 7801",
+        "ref_type": "cites",
+        "context": "section 8101 of the Elementary and Secondary Education Act of 1965 (20 U.S.C. 7801)",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Federal Trade Commission Act",
+        "citation": "15 U.S.C. 57a(a)(1)(B)",
+        "ref_type": "cites",
+        "context": "section 18(a)(1)(B) of the Federal Trade Commission Act (15 U.S.C. 57a(a)(1)(B))",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Communications Act of 1934",
+        "citation": "47 U.S.C. 151 et seq.",
+        "ref_type": "cites",
+        "context": "common carriers subject to the Communications Act of 1934 (47 U.S.C. 151 et seq.)",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Title 28, United States Code",
+        "citation": "28 U.S.C. 1391",
+        "ref_type": "cites",
+        "context": "section 1391 of title 28, United States Code",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Disrupt Explicit Forged Images And Non-Consensual Edits Act of 2024",
+        "citation": "DEFIANCE Act of 2024",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Disrupt Explicit Forged Images And Non-Consensual Edits Act of 2024\" or the \"DEFIANCE Act of 2024\".",
+        "mentions": 1,
+        "first_seen": "531"
+      },
+      {
+        "name": "Consolidated Appropriations Act, 2022",
+        "citation": "15 U.S.C. 6851(a)",
+        "ref_type": "amends",
+        "context": "Section 1309(a) of the Consolidated Appropriations Act, 2022 (15 U.S.C. 6851(a)) is amended",
+        "mentions": 1,
+        "first_seen": "531"
+      },
+      {
+        "name": "Title 18, United States Code",
+        "citation": "18 U.S.C. \u00a7 2255",
+        "ref_type": "cites",
+        "context": "subject to a judgment under section 2255 of title 18, United States Code",
+        "mentions": 1,
+        "first_seen": "531"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Pilot Program",
+        "doc_type": "program",
+        "owner_org": "Federal Trade Commission",
+        "context": "relies in good faith on information provided by the Pilot Program described in section 7",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Secure Digital Identification Credential Pilot Program",
+        "doc_type": "program",
+        "owner_org": "Department of Commerce",
+        "context": "establish a pilot program for providing a secure digital identification credential",
+        "mentions": 1,
+        "first_seen": "481"
+      },
+      {
+        "name": "Design Report to Congress",
+        "doc_type": "report",
+        "owner_org": "Department of Commerce",
+        "context": "Secretary shall submit to the Committee on Commerce of the Senate a report outlining the proposed design of the Pilot Program",
+        "mentions": 1,
+        "first_seen": "481"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "commission": "Resolved to Federal Trade Commission based on SEC. 2(2) definition in this document"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "481",
+      "note": "Document excerpt contains only title page and introductory legislative framework; substantive provisions referenced in summary (age verification requirements, algorithmic recommendation system prohibitions, parental consent mandates, age verification mechanisms, and secure digital identification credential pilot program) are not present in the provided text section."
+    },
+    {
+      "agora_id": "531",
+      "note": "Document excerpt contains only legislative text amending Section 1309 of the Consolidated Appropriations Act, 2022, focusing on definitions and civil action provisions; substantive details on remedies, damages, statute of limitations, and non-preemption mentioned in summary are not present in the provided text section."
+    }
+  ],
+  "docs_processed": 2,
+  "docs_total": 2,
+  "last_doc_id": "531",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Commission",
+      "resolved": "Resolved to Federal Trade Commission based on SEC. 2(2) definition in this document",
+      "doc_id": "481",
+      "community_id": "community:019"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:protecting_kids_on_social_media_act": 0.6,
+    "legislation:elementary_and_secondary_education_act_of_1965": 0.6,
+    "legislation:federal_trade_commission_act": 0.6,
+    "legislation:communications_act_of_1934": 0.6,
+    "legislation:title_28_united_states_code": 0.6,
+    "office:attorney_general_of_a_state": 0.6,
+    "named_doc:pilot_program": 0.6,
+    "named_doc:secure_digital_identification_credential_pilot_program": 0.6,
+    "named_doc:design_report_to_congress": 0.6,
+    "org:senate_of_the_united_states": 0.6,
+    "org:house_of_representatives_of_the_united_states": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:federal_trade_commission": 1.0,
+    "org:secretary_of_commerce": 0.6,
+    "org:internal_revenue_service": 0.6,
+    "org:social_security_administration": 0.6,
+    "org:inspector_general": 0.6,
+    "org:committee_on_commerce_of_the_senate": 0.6,
+    "org:committee_on_appropriations_of_the_senate": 0.6,
+    "org:committee_on_energy_and_commerce_of_the_house_of_representatives": 0.6,
+    "org:committee_on_appropriations_of_the_house_of_representatives": 0.6,
+    "org:communications_act_of_1934": 0.6,
+    "role:senator": 0.39999999999999997,
+    "role:secretary_of_commerce": 0.6,
+    "role:inspector_general": 0.6,
+    "role:attorney_general": 0.9,
+    "role:consumer_protection_officer": 0.6,
+    "legislation:disrupt_explicit_forged_images_and_non_consensual_edits_act_of_2024": 0.6,
+    "legislation:consolidated_appropriations_act_2022": 0.6,
+    "legislation:title_18_united_states_code": 0.6,
+    "org:consolidated_appropriations_act_2022": 0.6
+  }
+}

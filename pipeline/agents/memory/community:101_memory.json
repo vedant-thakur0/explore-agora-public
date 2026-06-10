@@ -1,0 +1,227 @@
+{
+  "community_id": "community:101",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Small Business Administration",
+        "acronym": "SBA",
+        "context": "improve certain programs of the Small Business Administration to better assist small business customers",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Senate Committee on Small Business and Entrepreneurship",
+        "acronym": null,
+        "context": "referred to the Committee on Small Business and Entrepreneurship",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Department of Commerce",
+        "acronym": null,
+        "context": "primary liaison to other Federal agencies including the Department of Commerce",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Department of Agriculture",
+        "acronym": null,
+        "context": "primary liaison to other Federal agencies including the Department of Agriculture",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Department of the Treasury",
+        "acronym": null,
+        "context": "primary liaison to other Federal agencies including the Department of the Treasury",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "acronym": "FCC",
+        "context": "primary liaison to other Federal agencies including the Federal Communications Commission",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Committee on Commerce, Science, and Transportation",
+        "acronym": null,
+        "context": "Senate committee to receive Chief Counsel for Advocacy report",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Committee on Energy and Commerce",
+        "acronym": null,
+        "context": "House committee to receive Chief Counsel for Advocacy report",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Committee on Small Business",
+        "acronym": null,
+        "context": "House committee to receive biennial and study reports",
+        "mentions": 1,
+        "first_seen": "461"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Investment and Innovation",
+        "parent_org": "Small Business Administration",
+        "context": "Associate Administrator for the Office of Investment and Innovation designates coordinator",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Office of Technology",
+        "parent_org": "Small Business Administration",
+        "context": "coordinator works in coordination with head of the Office of Technology",
+        "mentions": 1,
+        "first_seen": "461"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Coordinator",
+        "org": "Small Business Administration",
+        "context": "Designates a coordinator to assist small businesses in adopting AI and emerging technologies",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "title": "Associate Administrator for the Office of Investment and Innovation",
+        "org": "Small Business Administration",
+        "context": "Associate Administrator shall designate senior employee as broadband and emerging information technology coordinator",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "title": "Broadband and Emerging Information Technology Coordinator",
+        "org": "Small Business Administration",
+        "context": "senior employee designated to carry out coordination responsibilities, reports to Associate Administrator",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "title": "Chief Information Officer",
+        "org": "Small Business Administration",
+        "context": "coordinator works in coordination with chief information officer of the Administration",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "org": "Small Business Administration",
+        "context": "coordinator works in coordination with chief technology officer of the Administration",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "title": "Chief Counsel for Advocacy",
+        "org": "Small Business Administration",
+        "context": "shall conduct study evaluating impact of broadband and emerging information technology on small businesses",
+        "mentions": 1,
+        "first_seen": "461"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Small Business Broadband and Emerging Information Technology Enhancement Act of 2023",
+        "citation": "S. 2677",
+        "ref_type": "enacts",
+        "context": "S. 2677 To improve certain programs of the Small Business Administration",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Small Business Act",
+        "citation": "15 U.S.C. 631 et seq.",
+        "ref_type": "amends",
+        "context": "The Small Business Act is amended by redesignating section 49 and inserting new section 49",
+        "mentions": 1,
+        "first_seen": "461"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Biennial Report on Activities",
+        "doc_type": "report",
+        "owner_org": "Small Business Administration",
+        "context": "broadband and emerging information technology coordinator shall submit biennial report to Senate and House committees",
+        "mentions": 1,
+        "first_seen": "461"
+      },
+      {
+        "name": "Study on Impact of Broadband Availability, Speed, Price and Emerging Information Technology Deployment",
+        "doc_type": "report",
+        "owner_org": "Small Business Administration",
+        "context": "Chief Counsel for Advocacy shall conduct study and submit report with surveys and policy recommendations",
+        "mentions": 1,
+        "first_seen": "461"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "associate administrator": "Associate Administrator for the Office of Investment and Innovation at the Small Business Administration",
+    "the administration": "Small Business Administration",
+    "the committee on small business and entrepreneurship of the senate": "Senate Committee on Small Business and Entrepreneurship"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "461",
+      "note": "Document excerpt appears to be a fragment containing only closing quotation mark and partial phrase 'adband services or emerging information technologies.' No complete entities can be extracted from this incomplete text segment."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "461",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Associate Administrator",
+      "resolved": "Associate Administrator for the Office of Investment and Innovation at the Small Business Administration",
+      "doc_id": "461",
+      "community_id": "community:101"
+    },
+    {
+      "phrase": "the Administration",
+      "resolved": "Small Business Administration",
+      "doc_id": "461",
+      "community_id": "community:101"
+    },
+    {
+      "phrase": "the Committee on Small Business and Entrepreneurship of the Senate",
+      "resolved": "Senate Committee on Small Business and Entrepreneurship",
+      "doc_id": "461",
+      "community_id": "community:101"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:small_business_broadband_and_emerging_information_technology_enhancement_act_of_2023": 0.6,
+    "legislation:small_business_act": 0.6,
+    "office:office_of_investment_and_innovation": 0.6,
+    "office:office_of_technology": 0.6,
+    "role:coordinator": 0.6,
+    "role:associate_administrator_for_the_office_of_investment_and_innovation": 0.6,
+    "role:broadband_and_emerging_information_technology_coordinator": 0.6,
+    "role:chief_information_officer": 0.6,
+    "role:chief_technology_officer": 0.6,
+    "role:chief_counsel_for_advocacy": 0.6,
+    "named_doc:biennial_report_on_activities": 0.6,
+    "named_doc:study_on_impact_of_broadband_availability_speed_price_and_emerging_information_technology_deployment": 0.6,
+    "org:small_business_administration": 0.6,
+    "org:senate_committee_on_small_business_and_entrepreneurship": 0.6,
+    "org:department_of_commerce": 0.6,
+    "org:department_of_agriculture": 0.6,
+    "org:department_of_the_treasury": 0.6,
+    "org:federal_communications_commission": 0.6,
+    "org:committee_on_commerce_science_and_transportation": 0.6,
+    "org:committee_on_energy_and_commerce": 0.6,
+    "org:committee_on_small_business": 0.6
+  }
+}

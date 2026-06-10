@@ -1,0 +1,306 @@
+{
+  "community_id": "community:199",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of the Interior",
+        "acronym": "DOI",
+        "context": "Secretary of the Interior...along with the heads of other relevant Federal departments",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Department of Energy",
+        "acronym": "DOE",
+        "context": "Geothermal Technologies Office of the Department",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "National Laboratories",
+        "acronym": null,
+        "context": "defined in section 2 of the Energy Policy Act of 2005",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Committee on Natural Resources",
+        "acronym": null,
+        "context": "House of Representatives committee for water use reports",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Committee on Science, Space, and Technology",
+        "acronym": null,
+        "context": "House of Representatives committee for progress reports",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Committee on Energy and Natural Resources",
+        "acronym": null,
+        "context": "Senate committee for water use and progress reports",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "United States Geological Survey",
+        "acronym": "USGS",
+        "context": "geothermal resource assessment carried out by the United States Geological Survey",
+        "mentions": 1,
+        "first_seen": "1306"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Office of Fossil Energy",
+        "parent_org": "Department of Energy",
+        "context": "among the Office of Fossil Energy, the Office of Energy Efficiency and Renewable Energy",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Office of Energy Efficiency and Renewable Energy",
+        "parent_org": "Department of Energy",
+        "context": "among the Office of Fossil Energy, the Office of Energy Efficiency and Renewable Energy",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Geothermal Technologies Office",
+        "parent_org": "Department of Energy",
+        "context": "Within the Geothermal Technologies Office of the Department",
+        "mentions": 1,
+        "first_seen": "1306"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Secretary",
+        "org": "Department of Energy",
+        "context": "The repository...shall be periodically updated...as determined by the Secretary",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "title": "Secretary of the Interior",
+        "org": "Department of the Interior",
+        "context": "The Secretary shall enter into a memorandum of understanding with the Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "1306"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Energy Independence and Security Act",
+        "citation": "Energy Independence and Security Act",
+        "ref_type": "amends",
+        "context": "Amends the Energy Independence and Security Act to incorporate machine learning in geothermal research",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Energy Independence and Security Act of 2007",
+        "citation": "42 U.S.C. \u00a7 17191-17194",
+        "ref_type": "amends",
+        "context": "The Energy Independence and Security Act of 2007 is amended\u2014(1) in section 612",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "section 612",
+        "citation": "42 U.S.C. 17191",
+        "ref_type": "amends",
+        "context": "in section 612 (42 U.S.C. 17191; relating to definitions)",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "section 613",
+        "citation": "42 U.S.C. 17192",
+        "ref_type": "amends",
+        "context": "in section 613 (42 U.S.C. 17192; relating to hydrothermal research and development)",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "section 614",
+        "citation": "42 U.S.C. 17193",
+        "ref_type": "amends",
+        "context": "in section 614 (42 U.S.C. 17193; relating to general geothermal systems research and development)",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "section 615",
+        "citation": "42 U.S.C. 17194",
+        "ref_type": "amends",
+        "context": "in section 615 (42 U.S.C. 17194; relating to enhanced geothermal systems research and development)",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Energy Policy Act of 2005",
+        "citation": "42 U.S.C. 15801",
+        "ref_type": "cites",
+        "context": "section 2 of the Energy Policy Act of 2005",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Energy Policy Act of 1992",
+        "citation": "30 U.S.C. 1028",
+        "ref_type": "amends",
+        "context": "Section 2501 of the Energy Policy Act of 1992 (30 U.S.C. 1028) is amended",
+        "mentions": 1,
+        "first_seen": "1306"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Supercritical Geothermal Research Program",
+        "doc_type": "program",
+        "owner_org": null,
+        "context": "Establishes a supercritical geothermal research program focusing on supercritical conditions",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "geothermal data repositories",
+        "doc_type": "other",
+        "owner_org": null,
+        "context": "Requires periodic updates to geothermal data repositories",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "drilling data repository",
+        "doc_type": "other",
+        "owner_org": "Department of Energy",
+        "context": "The resulting data shall be shared publicly on the drilling data repository",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "memorandum of understanding",
+        "doc_type": "other",
+        "owner_org": "Department of Energy",
+        "context": "The Secretary shall enter into a memorandum of understanding with the Secretary of the Interior",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Supercritical Geothermal Research and Development Program",
+        "doc_type": "program",
+        "owner_org": "Department of Energy",
+        "context": "Supercritical Geothermal Research And Development Program",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "FORGE sites",
+        "doc_type": "initiative",
+        "owner_org": "Department of Energy",
+        "context": "at least one FORGE site has the capabilities to include supercritical geothermal testing",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Next Generation Geothermal Center of Excellence",
+        "doc_type": "initiative",
+        "owner_org": "Department of Energy",
+        "context": "The establishment of a next-generation geothermal center of excellence",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Water Use Report",
+        "doc_type": "report",
+        "owner_org": "Department of Energy",
+        "context": "the Secretary shall submit to the Committee a report on water use and estimated needs",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "Progress Reports",
+        "doc_type": "report",
+        "owner_org": "Department of Energy",
+        "context": "the Secretary shall submit progress reports every two years thereafter",
+        "mentions": 1,
+        "first_seen": "1306"
+      },
+      {
+        "name": "geothermal resource assessment",
+        "doc_type": "assessment",
+        "owner_org": "United States Geological Survey",
+        "context": "quadrennial update to the geothermal resource assessment carried out by the United States Geological Survey",
+        "mentions": 1,
+        "first_seen": "1306"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "the department": "Department of Energy (referenced in context of Secretary determining repository improvements)",
+    "the secretary": "Secretary of Department of Energy (responsible for geothermal data repository updates and regional deep data probes coordination)"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1306",
+      "note": "Document summary provided extensive context but the actual bill text excerpt only contains the short title section. No agency, personnel, or detailed legislative provisions are present in the extracted text. Summary text was used only to inform entity identification but no entities from the summary were extracted as they are not explicitly named in the actual legislative text provided."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1306",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "the Department",
+      "resolved": "Department of Energy (referenced in context of Secretary determining repository improvements)",
+      "doc_id": "1306",
+      "community_id": "community:199"
+    },
+    {
+      "phrase": "the Secretary",
+      "resolved": "Secretary of Department of Energy (responsible for geothermal data repository updates and regional deep data probes coordination)",
+      "doc_id": "1306",
+      "community_id": "community:199"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:energy_independence_and_security_act": 0.6,
+    "legislation:energy_independence_and_security_act_of_2007": 0.6,
+    "legislation:section_612": 0.6,
+    "legislation:section_613": 0.6,
+    "legislation:section_614": 0.6,
+    "legislation:section_615": 0.6,
+    "legislation:energy_policy_act_of_2005": 0.6,
+    "legislation:energy_policy_act_of_1992": 0.6,
+    "office:office_of_fossil_energy": 0.6,
+    "office:office_of_energy_efficiency_and_renewable_energy": 0.6,
+    "office:geothermal_technologies_office": 0.6,
+    "role:secretary": 0.6,
+    "role:secretary_of_the_interior": 0.6,
+    "named_doc:supercritical_geothermal_research_program": 0.6,
+    "named_doc:geothermal_data_repositories": 0.6,
+    "named_doc:drilling_data_repository": 0.6,
+    "named_doc:memorandum_of_understanding": 0.6,
+    "named_doc:supercritical_geothermal_research_and_development_program": 0.6,
+    "named_doc:forge_sites": 0.6,
+    "named_doc:next_generation_geothermal_center_of_excellence": 0.6,
+    "named_doc:water_use_report": 0.6,
+    "named_doc:progress_reports": 0.6,
+    "named_doc:geothermal_resource_assessment": 0.6,
+    "org:department_of_the_interior": 0.6,
+    "org:department_of_energy": 0.6,
+    "org:national_laboratories": 0.6,
+    "org:committee_on_natural_resources": 0.6,
+    "org:committee_on_science_space_and_technology": 0.6,
+    "org:committee_on_energy_and_natural_resources": 0.6,
+    "org:united_states_geological_survey": 0.6
+  }
+}

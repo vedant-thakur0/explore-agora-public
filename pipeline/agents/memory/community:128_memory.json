@@ -1,0 +1,120 @@
+{
+  "community_id": "community:128",
+  "label": "General",
+  "taxonomy_signature": [],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "National Oceanic and Atmospheric Administration",
+        "acronym": "NOAA",
+        "context": "amounts made available to Operations, Research, and Facilities of the National Oceanic and Atmospheric Administration",
+        "mentions": 1,
+        "first_seen": "519"
+      },
+      {
+        "name": "National Mesonet Program",
+        "acronym": null,
+        "context": "in partnership with the National Mesonet Program, establish memoranda of understanding",
+        "mentions": 1,
+        "first_seen": "519"
+      },
+      {
+        "name": "Climate Prediction Center",
+        "acronym": null,
+        "context": "partnership with the Climate Prediction Center of the National Weather Service",
+        "mentions": 1,
+        "first_seen": "519"
+      },
+      {
+        "name": "National Weather Service",
+        "acronym": null,
+        "context": "Climate Prediction Center of the National Weather Service",
+        "mentions": 1,
+        "first_seen": "519"
+      }
+    ],
+    "offices": [
+      {
+        "name": "Climate Prediction Center",
+        "parent_org": "National Weather Service",
+        "context": "partnership with the Climate Prediction Center of the National Weather Service",
+        "mentions": 1,
+        "first_seen": "519"
+      }
+    ],
+    "roles": [
+      {
+        "title": "Under Secretary",
+        "org": "National Oceanic and Atmospheric Administration",
+        "context": "The Under Secretary, in partnership with the Climate Prediction Center of the National Weather Service, shall undertake an effort",
+        "mentions": 1,
+        "first_seen": "519"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "National Integrated Drought Information System Act of 2006",
+        "citation": "15 U.S.C. 313d",
+        "ref_type": "amends",
+        "context": "Section 3 of the National Integrated Drought Information System Act of 2006 (15 U.S.C. 313d) is amended",
+        "mentions": 1,
+        "first_seen": "519"
+      },
+      {
+        "name": "Weather Research and Forecasting Innovation Act of 2017",
+        "citation": "15 U.S.C. 8501",
+        "ref_type": "cites",
+        "context": "the term 'Under Secretary' has the meaning given such term in section 2 of the Weather Research and Forecasting Innovation Act of 2017",
+        "mentions": 1,
+        "first_seen": "519"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "National Integrated Drought Information System",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "reauthorize the National Integrated Drought Information System, maintain a National Coordinated Soil Moisture Monitoring Network",
+        "mentions": 1,
+        "first_seen": "519"
+      },
+      {
+        "name": "National Coordinated Soil Moisture Monitoring Network",
+        "doc_type": "program",
+        "owner_org": "National Oceanic and Atmospheric Administration",
+        "context": "maintain a National Coordinated Soil Moisture Monitoring Network under section 3 of the National Integrated Drought Information System Act",
+        "mentions": 1,
+        "first_seen": "519"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "under secretary": "Under Secretary of Commerce for Oceans and Atmosphere (NOAA), as defined in Weather Research and Forecasting Innovation Act of 2017"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "519",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Under Secretary",
+      "resolved": "Under Secretary of Commerce for Oceans and Atmosphere (NOAA), as defined in Weather Research and Forecasting Innovation Act of 2017",
+      "doc_id": "519",
+      "community_id": "community:128"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:national_integrated_drought_information_system_act_of_2006": 0.6,
+    "legislation:weather_research_and_forecasting_innovation_act_of_2017": 0.6,
+    "office:climate_prediction_center": 0.6,
+    "role:under_secretary": 0.6,
+    "named_doc:national_integrated_drought_information_system": 0.6,
+    "named_doc:national_coordinated_soil_moisture_monitoring_network": 0.6,
+    "org:national_oceanic_and_atmospheric_administration": 1.0,
+    "org:national_mesonet_program": 0.6,
+    "org:climate_prediction_center": 0.6,
+    "org:national_weather_service": 0.6
+  }
+}

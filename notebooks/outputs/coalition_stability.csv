@@ -1,0 +1,9 @@
+,Policy Area,Subgraph Nodes,Subgraph Communities,Avg Jaccard Overlap
+7,Transportation and Public Works,84,10,0.559
+3,International Affairs,117,8,0.637
+5,Government Operations and Politics,161,13,0.655
+4,Labor and Employment,249,11,0.702
+6,Commerce,124,11,0.715
+2,Health,313,20,0.817
+1,Armed Forces and National Security,103,22,0.853
+0,"Science, Technology, Communications",260,19,0.906

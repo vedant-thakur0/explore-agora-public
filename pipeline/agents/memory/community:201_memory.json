@@ -1,0 +1,302 @@
+{
+  "community_id": "community:201",
+  "label": "Risk factors: Interpretability and explainability | Applications: Education | Strategies: Convening",
+  "taxonomy_signature": [
+    "Risk factors: Interpretability and explainability",
+    "Applications: Education",
+    "Strategies: Convening",
+    "Harms: Detrimental content",
+    "Strategies: Government support",
+    "Strategies: Tiering",
+    "Risk factors: Transparency"
+  ],
+  "entity_roster": {
+    "organizations": [
+      {
+        "name": "Department of Health and Human Services",
+        "acronym": "HHS",
+        "context": "Already established in community context as relevant agency",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Department of Education",
+        "acronym": "ED",
+        "context": "Department of Education and the Department of Health and Human Services",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Elementary and Secondary Education Act of 1965",
+        "acronym": "ESEA",
+        "context": "section 8101 of the Elementary and Secondary Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Education Amendments of 1978",
+        "acronym": null,
+        "context": "section 1141 of the Education Amendments of 1978",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "acronym": "NLRA",
+        "context": "section 2 of the National Labor Relations Act",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Bureau-funded schools",
+        "acronym": null,
+        "context": "Bureau-funded schools dissemination pathway",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Federally qualified health centers",
+        "acronym": "FQHC",
+        "context": "Federally qualified health centers and certified community behavioral health clinics",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Certified community behavioral health clinics",
+        "acronym": null,
+        "context": "certified community behavioral health clinics, as described in section 223",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Tribal, State, or local health departments",
+        "acronym": null,
+        "context": "dissemination through Tribal, State, or local health departments",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Labor organizations",
+        "acronym": null,
+        "context": "labor organizations, and professional organizations, representing educators",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Professional organizations",
+        "acronym": null,
+        "context": "professional organizations, representing educators, health care providers",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Foster care system",
+        "acronym": null,
+        "context": "foster care system for youth living in congregate care",
+        "mentions": 1,
+        "first_seen": "1287"
+      }
+    ],
+    "offices": [],
+    "roles": [
+      {
+        "title": "Secretary of Health and Human Services",
+        "org": "Department of Health and Human Services",
+        "context": "Secretary of Health and Human Services and the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Secretary of Education",
+        "org": "Department of Education",
+        "context": "Secretary of Health and Human Services and the Secretary of Education",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Principal",
+        "org": "Elementary or Secondary School",
+        "context": "principal, other school leader, superintendent, or other employee",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Superintendent",
+        "org": "Local Educational Agency or State Educational Agency",
+        "context": "principal, other school leader, superintendent, or other employee",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "School or educational agency administrator",
+        "org": "School or Educational Agency",
+        "context": "individual who is a principal, other school leader, superintendent",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Educators",
+        "org": "School or educational agency",
+        "context": "Such materials and resources for educators shall\u2014(i) define and provide an appropriate knowledge base",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Specialized instructional support personnel",
+        "org": "School or educational agency",
+        "context": "create different toolkits tailored for each of the following audiences: (3) Specialized instructional support personnel",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Health care providers serving pediatric patients",
+        "org": "Department of Health and Human Services",
+        "context": "create different toolkits tailored for each of the following audiences: (4) Health care providers serving pediatric patients",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "School or educational agency administrators",
+        "org": "School or educational agency",
+        "context": "Such toolkits for school or educational agency administrators shall include definitions and an appropriate knowledge base of artificial intelligence systems",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Health care providers who serve pediatric patients",
+        "org": "Health care system",
+        "context": "Such materials and resources for health care professionals who serve pediatric patients shall include definitions and an appropriate knowledge base",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "title": "Secretary",
+        "org": "Department of Health and Human Services and Department of Education",
+        "context": "The Secretaries shall create a communications strategy and dissemination plan",
+        "mentions": 1,
+        "first_seen": "1287"
+      }
+    ],
+    "legislation_refs": [
+      {
+        "name": "Social Media and AI Resiliency Toolkits in Schools Act",
+        "citation": "SMART in Schools Act",
+        "ref_type": "enacts",
+        "context": "This Act may be cited as the \"Social Media and AI Resiliency Toolkits in Schools Act\" or the \"SMART in Schools Act\".",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Elementary and Secondary Education Act of 1965",
+        "citation": "20 U.S.C. 7801",
+        "ref_type": "cites",
+        "context": "section 8101 of the Elementary and Secondary Education Act of 1965",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Education Amendments of 1978",
+        "citation": "25 U.S.C. 2021",
+        "ref_type": "cites",
+        "context": "section 1141 of the Education Amendments of 1978",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "National Labor Relations Act",
+        "citation": "29 U.S.C. 152",
+        "ref_type": "cites",
+        "context": "section 2 of the National Labor Relations Act",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Protecting Access to Medicare Act of 2014",
+        "citation": "42 U.S.C. 1396a note, section 223",
+        "ref_type": "cites",
+        "context": "section 223 of the Protecting Access to Medicare Act of 2014",
+        "mentions": 1,
+        "first_seen": "1287"
+      }
+    ],
+    "named_docs": [
+      {
+        "name": "Social Media and AI Resiliency Toolkits",
+        "doc_type": "program",
+        "owner_org": "Department of Health and Human Services",
+        "context": "Mandates development and updates of AI and social media impact toolkits on youth",
+        "mentions": 1,
+        "first_seen": "1287"
+      },
+      {
+        "name": "Communications strategy and dissemination plan",
+        "doc_type": "plan",
+        "owner_org": "Department of Education and Department of Health and Human Services",
+        "context": "The Secretaries shall create a communications strategy and dissemination plan",
+        "mentions": 1,
+        "first_seen": "1287"
+      }
+    ]
+  },
+  "disambiguation_rules": {
+    "departments": "Refers to Department of Education and Department of Health and Human Services (defined in SEC. 2(3))",
+    "secretaries": "Refers to Secretary of Health and Human Services and Secretary of Education, acting jointly or through designees (defined in SEC. 2(11))"
+  },
+  "parsing_rules": [],
+  "archived_rules": [],
+  "oddities": [
+    {
+      "agora_id": "1287",
+      "note": "Section 2 is a definitions section establishing statutory meanings for 15 terms used throughout the Act, including cross-references to ESEA and other federal legislation. Multiple definitions establish composite entities (e.g., 'Departments' and 'Secretaries') representing joint authority structures."
+    }
+  ],
+  "docs_processed": 1,
+  "docs_total": 1,
+  "last_doc_id": "1287",
+  "llm_disambiguation_log": [
+    {
+      "phrase": "Departments",
+      "resolved": "Refers to Department of Education and Department of Health and Human Services (defined in SEC. 2(3))",
+      "doc_id": "1287",
+      "community_id": "community:201"
+    },
+    {
+      "phrase": "Secretaries",
+      "resolved": "Refers to Secretary of Health and Human Services and Secretary of Education, acting jointly or through designees (defined in SEC. 2(11))",
+      "doc_id": "1287",
+      "community_id": "community:201"
+    }
+  ],
+  "entity_confidence": {
+    "legislation:social_media_and_ai_resiliency_toolkits_in_schools_act": 0.6,
+    "legislation:elementary_and_secondary_education_act_of_1965": 0.6,
+    "legislation:education_amendments_of_1978": 0.6,
+    "legislation:national_labor_relations_act": 0.6,
+    "legislation:protecting_access_to_medicare_act_of_2014": 0.6,
+    "role:secretary_of_health_and_human_services": 0.6,
+    "role:secretary_of_education": 0.6,
+    "role:principal": 0.6,
+    "role:superintendent": 0.6,
+    "role:school_or_educational_agency_administrator": 0.6,
+    "role:educators": 0.6,
+    "role:specialized_instructional_support_personnel": 0.6,
+    "role:health_care_providers_serving_pediatric_patients": 0.6,
+    "role:school_or_educational_agency_administrators": 0.6,
+    "role:health_care_providers_who_serve_pediatric_patients": 0.6,
+    "role:secretary": 0.6,
+    "named_doc:social_media_and_ai_resiliency_toolkits": 0.6,
+    "named_doc:communications_strategy_and_dissemination_plan": 0.6,
+    "org:department_of_health_and_human_services": 1.0,
+    "org:department_of_education": 0.6,
+    "org:elementary_and_secondary_education_act_of_1965": 0.6,
+    "org:education_amendments_of_1978": 0.6,
+    "org:national_labor_relations_act": 0.6,
+    "org:bureau_funded_schools": 0.6,
+    "org:federally_qualified_health_centers": 0.6,
+    "org:certified_community_behavioral_health_clinics": 0.6,
+    "org:tribal_state_or_local_health_departments": 0.6,
+    "org:labor_organizations": 0.6,
+    "org:professional_organizations": 0.6,
+    "org:foster_care_system": 0.6
+  }
+}

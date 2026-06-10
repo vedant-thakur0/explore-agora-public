@@ -21,6 +21,8 @@ agora/
 │   ├── multiplex_graph/             # Graph community detection output
 │   ├── supabase/                    # Supabase integration
 │   ├── web/                         # Annotation UI
+│   ├── FEC/                         # FEC ingestion experiments — currently placeholder
+│   ├── graph/                       # Sponsor/cosponsor graph edges, nodes, stats
 │   ├── runs/                        # Run manifests (do not delete)
 │   ├── datasets/                    # Training/reference artifacts
 │   ├── fixtures/                    # Sample data for offline testing
@@ -28,10 +30,14 @@ agora/
 │
 ├── knowledge_graph/                 # KG data & documentation
 │   ├── README.md                    # Data schema, join keys, limitations
-│   └── data/                        # Filtered Congress-only datasets
+│   └── graph_data/                  # Filtered Congress-only datasets
 │
-├── fulltext/                        # Plain-text bill fulltext files
+├── data/                            # Full AGORA corpus data
+│   └── fulltext/                    # ~1,016 plaintext bill files
+├── reports/                         # Generated analysis reports: markdown + HTML
+├── exploratory reports/             # Exploratory tag/party alignment analyses
 ├── notebooks/                       # Jupyter notebooks for exploration
+├── plans/                           # Planning documents
 ├── hooks/                           # Git/automation hooks
 ├── NER_AGENT.md                     # NER agent detailed documentation
 ├── FILETREE.md                      # This file
