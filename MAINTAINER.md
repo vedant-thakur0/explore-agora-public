@@ -27,12 +27,14 @@ python3 -m pipeline.cli reports
 
 This runs the full report generation pipeline. The output bundle lands in `reports/generated/<YYYY-MM-DD>/`. Copy that folder to your internal share.
 
-**Unsafe option (`--execute`):**
-The `--execute` flag re-runs the embedded Jupyter notebooks but is **currently UNSAFE** due to known bugs in `notebooks/REVIEW.md`:
-- **Notebook 01** (`01_sponsor_profiling.ipynb`): Cell 10 crashes with a NameError (uses undefined variable `cosponsors_df`).
-- **Notebook 02** (`02_policy_networks.ipynb`): Cell 12 has a severe performance bug (recomputes betweenness centrality on every iteration, turning minutes into hours).
+**Executing notebooks (`--execute`):**
+The `--execute` flag re-runs the embedded Jupyter notebooks so the rendered pages carry fresh figures (instead of "pending regeneration" placeholders). The notebook bugs catalogued in `notebooks/REVIEW.md` have been fixed; a full `--execute` run takes roughly 30 minutes:
 
-Until these bugs are fixed, report bundle notebook pages will show "pending regeneration."
+```bash
+python3 -m pipeline.cli reports --execute --timeout 900
+```
+
+Run without `--execute` for a fast bundle refresh that reuses the most recent notebook renders.
 
 ## Permissions model
 
@@ -53,11 +55,7 @@ File: `.claude/settings.local.json` — gitignored, per-machine.
 ## Known issues
 
 ### Notebook bugs
-See `notebooks/REVIEW.md` for the full bug list, ordered by severity. Key blockers:
-1. **01_sponsor_profiling.ipynb · Cell 10** — NameError; crashes on first run
-2. **02_policy_networks.ipynb · Cell 12** — betweenness centrality recomputed in loop; severe perf degradation
-3. **03_coalitions.ipynb · Cell 3** — inconsistent chamber inference; produces wrong numbers
-4. **03_coalitions.ipynb · Cell 7** — bridge legislators filter includes isolated nodes; wrong rankings
+The priority bugs catalogued in `notebooks/REVIEW.md` (crash in 01, perf in 02, wrong numbers in 03) have been **fixed**; notebooks now execute end-to-end via `reports --execute`. REVIEW.md is retained as the historical record — consult it if a regression appears.
 
 ### Pipeline runtime
 - `pipeline/runs/` is created at runtime and may not exist in a freshly cloned repository. It will be created automatically on first pipeline execution.

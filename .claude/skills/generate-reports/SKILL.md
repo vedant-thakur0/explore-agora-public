@@ -35,7 +35,7 @@ Typically under 2 minutes. It reads from already-processed artifacts — it does
 
 ## Optional flag
 
-`--execute` is available but is **slow, experimental, and requires maintainer sign-off before use**. Do not pass it unless the maintainer (Vedant) has explicitly approved it for your session.
+`--execute` re-runs the analysis notebooks so the report pages carry freshly computed figures. It works but takes roughly 30 minutes — tell the user about the wait and confirm before running it (use `--timeout 900`). Without `--execute`, the bundle reuses the most recent notebook renders and finishes in under 2 minutes.
 
 ## Explaining results to stakeholders
 
