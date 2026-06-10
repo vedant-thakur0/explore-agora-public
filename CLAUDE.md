@@ -11,7 +11,7 @@ ONLY IF NEEDED: See `FILETREE.md` for the full annotated file tree.
 
 ## Pipeline conventions
 - All path constants live in `config.py`.
-- CLI entry: `python3 -m agora.pipeline.cli <command>`
+- CLI entry: `python3 -m pipeline.cli <command>`
 - Agent outputs → `agents/output/`, checkpoints → `agents/checkpoints/`, memory → `agents/memory/`.
 
 ## Key references
@@ -21,3 +21,6 @@ ONLY IF NEEDED: See `FILETREE.md` for the full annotated file tree.
 - **NER agent docs:** `NER_AGENT.md`
 - **Tuning guide:** `pipeline/TUNING_RUNBOOK.md`
 - **Tuning history:** `pipeline/TUNING_CHANGELOG.md`
+
+## Operator mode
+Non-technical users should start with `GETTING_STARTED.md` and use the four core skills: `/generate-reports`, `/pipeline-status`, `/run-ranking`, and `/refresh-data`. Results are explained in plain language. Any operation that incurs API costs (ranking, NER, data sync) requires explicit confirmation before running. Never modify `pipeline/runs/` or `pipeline/agents/checkpoints/`. On errors, capture the error message to report to the maintainer rather than attempting deep fixes.

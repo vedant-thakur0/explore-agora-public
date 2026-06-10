@@ -3,6 +3,8 @@
 Knowledge graph development project over the AGORA corpus of AI policy documents.
 Prototype scope: **United States Congress** documents only.
 
+**Note:** `graph_data/` contains filtered Congress-only datasets; the full AGORA corpus (including `data/fulltext/` with ~1,016 plaintext bill files) lives at the repo root.
+
 ## Data Sources
 
 Filtered data lives in `data/`. Source CSVs are in the parent directory (`../`).

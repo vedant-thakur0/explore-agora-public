@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 ENV_PATH = Path(__file__).resolve().parents[1] / ".env"  # adjust parents[] if needed
 load_dotenv(dotenv_path=ENV_PATH)
 
-from .config import AGENTS_OUTPUT_DIR, MULTIPLEX_GRAPH_DIR, LOUVAIN_RESOLUTION
+from .config import AGENTS_OUTPUT_DIR, MULTIPLEX_GRAPH_DIR, LOUVAIN_RESOLUTION, REPORTS_GENERATED_DIR
 from .graph_query import run as run_graph_query
 from .knowledge_graph import run as run_knowledge_graph
 
@@ -201,6 +201,19 @@ def cmd_canonicalize(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_reports(args: argparse.Namespace) -> int:
+    from .reports import build_report
+    out_root = REPORTS_GENERATED_DIR
+    index_path = build_report(
+        out_root=out_root,
+        execute=args.execute,
+        allow_errors=args.allow_errors,
+        nb_timeout=args.timeout,
+    )
+    print(f"Report index: {index_path}")
+    return 0
+
+
 def cmd_query_neighborhood(args: argparse.Namespace) -> int:
     payload = run_graph_query(
         graph_dir=Path(args.graph_dir),
@@ -273,6 +286,15 @@ def build_parser() -> argparse.ArgumentParser:
 
     cn = sub.add_parser("canonicalize", help="Flag bare aliases in review queue with resolution context")
     cn.set_defaults(func=cmd_canonicalize)
+
+    rp = sub.add_parser("reports", help="Build a self-contained dated HTML report bundle for the internal team")
+    rp.add_argument("--execute", action="store_true",
+                    help="Execute notebooks before rendering (off by default; notebooks have known bugs)")
+    rp.add_argument("--allow-errors", action="store_true",
+                    help="Continue notebook execution past cell errors (only relevant with --execute)")
+    rp.add_argument("--timeout", type=int, default=300,
+                    help="Per-notebook execution timeout in seconds (default: 300; only relevant with --execute)")
+    rp.set_defaults(func=cmd_reports)
 
     nq = sub.add_parser("query-neighborhood", help="Query neighborhood around a seed node in graph export")
     nq.add_argument("--graph-dir", default="pipeline/graph")

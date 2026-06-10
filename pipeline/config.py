@@ -86,6 +86,10 @@ COMMUNITIES_PATH = AGENTS_OUTPUT_DIR / "communities.json"
 CONTEXT_BUDGET_CHARS = 6000    # max chars for memory context injection (~1500 tokens)
 CONFIDENCE_REVIEW_THRESHOLD = 0.5  # entities below this -> review queue
 
+# Reports
+REPORTS_DIR = PROJECT_ROOT / "reports"
+REPORTS_GENERATED_DIR = PROJECT_ROOT / "reports" / "generated"
+
 # Rule graduation thresholds
 GRADUATION_THRESHOLD = 5       # consistent LLM disambiguations before rule graduation
 GLOBAL_SCOPE_THRESHOLD = 3     # communities before community rule becomes global

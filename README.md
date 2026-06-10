@@ -4,6 +4,12 @@ A computational toolkit for AI policy research. Discovers, ranks, and analyzes A
 
 Built on top of the [AGORA dataset](https://zenodo.org/records/15692257) (Zenodo). The toolkit adds: agent-driven NER and entity normalization, cosponsor and coalition graph construction, document similarity matching, and a Flask review UI.
 
+## Who is this for?
+
+**Analysts / non-technical users:** Start with [`GETTING_STARTED.md`](GETTING_STARTED.md). Latest rendered reports live in `reports/generated/<date>/index.html`.
+
+**Developers:** Continue below with this README, [`CLAUDE.md`](CLAUDE.md), and [`FILETREE.md`](FILETREE.md).
+
 ## Components
 
 - **`pipeline/`** — Core Python pipeline (ingestion, ranking, agents, knowledge graph)
@@ -62,7 +68,7 @@ python3 -m pipeline.web.app
 
 ## Data licensing
 
-Derived datasets in `knowledge_graph/data/` are filtered subsets of the AGORA Zenodo corpus. See [`DATA_LICENSE.md`](DATA_LICENSE.md) for attribution and licensing terms of source data.
+Derived datasets in `knowledge_graph/graph_data/` are filtered subsets of the AGORA Zenodo corpus. See [`DATA_LICENSE.md`](DATA_LICENSE.md) for attribution and licensing terms of source data.
 
 ## License
 

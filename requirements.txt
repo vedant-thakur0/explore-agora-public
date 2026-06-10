@@ -10,3 +10,4 @@ flask>=3.0.0
 supabase>=2.0.0
 requests>=2.31.0
 spacy>=3.7.0
+nbconvert>=7.0.0
