@@ -25,7 +25,7 @@ If you want to refresh reports, ask questions about the data, or explore it inte
 
 Once Claude Code is installed and you have the repo folder locally:
 
-1. Open a terminal in the AGORA folder.
+1. Open a terminal in the AGORA folder. (On a Mac: right-click the AGORA folder in Finder and choose **Services → New Terminal at Folder**, or open Terminal and drag the folder onto the window.)
 2. Type `claude` and press Enter. This opens an interactive Claude session.
 3. Type plain-English requests like:
    - "generate the latest reports"

@@ -29,14 +29,16 @@ Claude will:
 ## Commands used (read-only, no side effects)
 
 ```bash
-ls -lt pipeline/runs/
+[ -d pipeline/runs ] && ls -lt pipeline/runs/ || echo "No run manifests yet (pipeline/runs/ is created on first pipeline run)"
 ls pipeline/agents/output/
 ls reports/generated/
 ```
 
+Note: `pipeline/runs/` may not exist until the pipeline has been run at least once in this environment. A missing directory means "never run here" — it is not an error.
+
 ## Explaining results in plain English
 
-- **Run manifests:** Each file in `pipeline/runs/` records what was run and when. The most recent file tells you when the pipeline was last executed. If the directory is empty, the pipeline has never been run in this environment.
+- **Run manifests:** Each file in `pipeline/runs/` records what was run and when. The most recent file tells you when the pipeline was last executed. If the directory is empty or does not exist yet, the pipeline has never been run in this environment.
 - **Agent outputs:** These are the processed results — community groupings, named entities extracted from legislation, and the graph structure. If a file is missing, that pipeline stage has not been run yet.
 - **Report bundles:** Each dated folder in `reports/generated/` corresponds to one report generation. If the folder is empty or missing, reports have not been generated yet.
 
