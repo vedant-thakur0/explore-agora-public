@@ -27,6 +27,11 @@ from .config import (
     PROJECT_ROOT,
 )
 
+# Additional paths for new improvements
+DATA_LICENSE_PATH = PROJECT_ROOT / "DATA_LICENSE.md"
+COSPONSOR_SUMMARY_PATH = PROJECT_ROOT / "COSPONSOR_PROJECT_SUMMARY.md"
+EXPLORATORY_REPORTS_DIR = PROJECT_ROOT / "exploratory reports"
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
@@ -105,7 +110,8 @@ CSV_DESCRIPTIONS = {
         "Bills with primary sponsor details pulled from the Congress.gov API."
     ),
     "bill_sponsors.csv": (
-        "205 unique sponsors with party, state, bill counts, and top policy areas."
+        "205 unique sponsors with party, state, bill counts, and top policy areas. "
+        "For detailed column descriptions, see bill_sponsors_README.md in this directory."
     ),
     "agora_comprehensive_data.csv": (
         "Full AGORA dataset with taxonomy tags, policy areas, and metadata."
@@ -129,6 +135,25 @@ def _copy(src: Path, dst: Path) -> bool:
     dst.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(src, dst)
     return True
+
+
+def _count_csv_rows(csv_path: Path) -> int | None:
+    """Count CSV rows cheaply by counting lines minus header. Returns None if error."""
+    try:
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            return sum(1 for _ in f) - 1  # subtract 1 for header
+    except Exception:
+        return None
+
+
+def _get_csv_headers(csv_path: Path) -> list[str] | None:
+    """Extract CSV header row. Returns None if error."""
+    try:
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            header_line = f.readline().strip()
+            return header_line.split(',')
+    except Exception:
+        return None
 
 
 def _md_to_html_fragment(md_path: Path) -> str:
@@ -261,6 +286,107 @@ def _multiplex_stats_table(json_path: Path) -> str:
         return f"<p><em>Could not parse multiplex_stats.json: {exc}</em></p>"
 
 
+def _build_data_dictionary_html(bundle_dir: Path) -> bool:
+    """
+    Build data_dictionary.html with CSV descriptions, key columns, and row counts.
+    Returns True if successful.
+    """
+    print("[reports] Building data_dictionary.html …")
+
+    csv_entries = []
+    for csv_file in sorted(GRAPH_DATA_DIR.glob("*.csv")):
+        row_count = _count_csv_rows(csv_file)
+        headers = _get_csv_headers(csv_file)
+        desc = CSV_DESCRIPTIONS.get(csv_file.name, "Data CSV.")
+
+        row_count_str = f"{row_count:,} rows" if row_count is not None else "—"
+        headers_str = ", ".join(headers[:5]) if headers else "—"
+        if headers and len(headers) > 5:
+            headers_str += f", ... ({len(headers)} total)"
+
+        csv_entries.append({
+            "filename": csv_file.name,
+            "desc": desc,
+            "row_count": row_count_str,
+            "headers": headers_str,
+        })
+
+    if not csv_entries:
+        return False
+
+    rows_html = ""
+    for entry in csv_entries:
+        rows_html += f"""\
+      <tr>
+        <td><strong>{entry['filename']}</strong></td>
+        <td>{entry['desc']}</td>
+        <td><code style="font-size:0.85rem">{entry['headers']}</code></td>
+        <td>{entry['row_count']}</td>
+      </tr>\n"""
+
+    data_dict_html = f"""\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Dictionary — AGORA</title>
+  <style>
+{_CSS}
+    code {{ font-family: 'Monaco', 'Courier New', monospace; }}
+  </style>
+</head>
+<body>
+<header>
+  <h1>AGORA Data Dictionary</h1>
+  <div class="meta">CSV files and their structure &nbsp;|&nbsp; Explore-AGORA toolkit</div>
+</header>
+
+<nav>
+  <a href="index.html">← Back to report index</a>
+</nav>
+
+<main>
+
+  <section>
+    <h2>Dataset Files Overview</h2>
+    <p class="desc">
+      The AGORA dataset consists of CSV files in <code>knowledge_graph/graph_data/</code>.
+      These files are available in the repository; they are <strong>not included</strong> in this
+      bundle due to their size.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Filename</th>
+          <th>Purpose</th>
+          <th>Key Columns (first 5)</th>
+          <th>Rows</th>
+        </tr>
+      </thead>
+      <tbody>
+{rows_html}      </tbody>
+    </table>
+    <p class="footnote">
+      For detailed column descriptions, see <code>knowledge_graph/graph_data/bill_sponsors_README.md</code>
+      in the repository.
+    </p>
+  </section>
+
+</main>
+</body>
+</html>
+"""
+
+    try:
+        dict_path = bundle_dir / "data_dictionary.html"
+        dict_path.write_text(data_dict_html, encoding="utf-8")
+        return True
+    except Exception as exc:
+        _warn(f"Could not write data_dictionary.html: {exc}")
+        return False
+
+
 # ---------------------------------------------------------------------------
 # CSS
 # ---------------------------------------------------------------------------
@@ -389,12 +515,40 @@ def build_report(
             })
 
     # -----------------------------------------------------------------------
-    # 3. Copy reports/*.md and reports/*.html
+    # 3. Copy reports/*.md and reports/*.html, plus executive summary
     # -----------------------------------------------------------------------
     print("[reports] Copying analysis reports …")
     reports_out_dir.mkdir(parents=True, exist_ok=True)
     analysis_items: list[dict] = []
+    executive_summary_item: dict | None = None
 
+    # --- Executive summary: COSPONSOR_PROJECT_SUMMARY.md (if present) ---
+    if COSPONSOR_SUMMARY_PATH.exists():
+        html_name = COSPONSOR_SUMMARY_PATH.stem + ".html"
+        dst = reports_out_dir / html_name
+        try:
+            fragment = _md_to_html_fragment(COSPONSOR_SUMMARY_PATH)
+            title = "Cosponsor Integration — Project Summary"
+            page = f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>{title} — AGORA</title>
+<style>body{{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1.5rem;line-height:1.6;color:#222}}
+h2,h3,h4{{margin:1.2rem 0 .4rem}}pre{{background:#f4f4f4;padding:.8rem;border-radius:4px;overflow-x:auto}}
+a{{color:#2563eb}}</style></head><body>
+<p><a href="../index.html">← Back to report index</a></p>
+{fragment}
+</body></html>"""
+            dst.write_text(page, encoding="utf-8")
+            executive_summary_item = {
+                "name": "Cosponsor Integration — Project Summary",
+                "rel": f"analyses/{html_name}",
+                "desc": "Complete project summary of cosponsor integration with active and withdrawn layers.",
+                "kind": "md",
+            }
+        except Exception as exc:
+            _warn(f"Could not convert COSPONSOR_PROJECT_SUMMARY.md: {exc}")
+
+    # --- Regular reports in reports/ directory ---
     for md_file in sorted(REPORTS_DIR.glob("*.md")):
         # Render md -> simple html
         html_name = md_file.stem + ".html"
@@ -420,6 +574,33 @@ a{{color:#2563eb}}</style></head><body>
             })
         except Exception as exc:
             _warn(f"Could not convert {md_file.name}: {exc}")
+
+    # --- Exploratory reports (from "exploratory reports/" directory) ---
+    if EXPLORATORY_REPORTS_DIR.exists():
+        for md_file in sorted(EXPLORATORY_REPORTS_DIR.glob("*.md")):
+            html_name = md_file.stem + ".html"
+            dst = reports_out_dir / html_name
+            try:
+                fragment = _md_to_html_fragment(md_file)
+                title = md_file.stem.replace("_", " ").title()
+                page = f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>{title} — AGORA</title>
+<style>body{{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1.5rem;line-height:1.6;color:#222}}
+h2,h3,h4{{margin:1.2rem 0 .4rem}}pre{{background:#f4f4f4;padding:.8rem;border-radius:4px;overflow-x:auto}}
+a{{color:#2563eb}}</style></head><body>
+<p><a href="../index.html">← Back to report index</a></p>
+{fragment}
+</body></html>"""
+                dst.write_text(page, encoding="utf-8")
+                analysis_items.append({
+                    "name": md_file.name,
+                    "rel": f"analyses/{html_name}",
+                    "desc": "Exploratory analysis report.",
+                    "kind": "md",
+                })
+            except Exception as exc:
+                _warn(f"Could not convert exploratory report {md_file.name}: {exc}")
 
     for html_file in sorted(REPORTS_DIR.glob("*.html")):
         dst = reports_out_dir / html_file.name
@@ -465,23 +646,51 @@ a{{color:#2563eb}}</style></head><body>
     )
 
     # -----------------------------------------------------------------------
-    # 6. CSV links (no copy — large files)
+    # 6. CSV metadata (no copy — large files, no absolute-path links)
     # -----------------------------------------------------------------------
     csv_items: list[dict] = []
     for csv_file in sorted(GRAPH_DATA_DIR.glob("*.csv")):
+        row_count = _count_csv_rows(csv_file)
+        row_count_str = f"~{row_count:,} rows" if row_count is not None else ""
         csv_items.append({
             "name": csv_file.name,
-            "path": str(csv_file),
             "desc": CSV_DESCRIPTIONS.get(csv_file.name, "Data CSV."),
+            "row_count": row_count_str,
         })
 
     # -----------------------------------------------------------------------
-    # 7. Build index.html
+    # 7. Build data_dictionary.html
+    # -----------------------------------------------------------------------
+    _build_data_dictionary_html(bundle_dir)
+
+    # -----------------------------------------------------------------------
+    # 8. Build index.html
     # -----------------------------------------------------------------------
     print("[reports] Writing index.html …")
 
     def _section_id(label: str) -> str:
         return label.lower().replace(" ", "-").replace("/", "-")
+
+    # --- Executive Summary section HTML (if cosponsor summary exists) ---
+    executive_summary_html = ""
+    if executive_summary_item:
+        executive_summary_html = f"""\
+  <!-- ── Executive Summary ────────────────────────────────────────────────── -->
+  <section id="executive-summary" style="border: 2px solid #2563eb; background: #f0f8ff;">
+    <h2 style="color: #1e40af;">Executive Summary</h2>
+    <p class="desc">
+      A complete summary of the cosponsor integration project, including layer architecture,
+      community detection, and key findings about legislative coalitions.
+    </p>
+    <ul class="file-list">
+      <li>
+        <a href="{executive_summary_item['rel']}">{executive_summary_item['name']}</a>
+        <span class="sub-desc">{executive_summary_item['desc']}</span>
+      </li>
+    </ul>
+  </section>
+
+"""
 
     # --- Notebook section HTML ---
     nb_rows = ""
@@ -540,14 +749,14 @@ a{{color:#2563eb}}</style></head><body>
     if not image_rows:
         image_rows = "      <li><em>No network images found.</em></li>\n"
 
-    # --- CSV section HTML ---
+    # --- CSV section HTML (plain text, no absolute paths) ---
     csv_rows = ""
     for c in csv_items:
+        row_count_str = f"  ({c['row_count']})" if c['row_count'] else ""
         csv_rows += f"""\
       <li>
-        <strong>{c['name']}</strong>
+        <strong>{c['name']}</strong>{row_count_str}
         <span class="sub-desc">{c['desc']}</span>
-        <span class="sub-desc" style="color:#9ca3af">Path: <code>{c['path']}</code></span>
       </li>\n"""
     if not csv_rows:
         csv_rows = "      <li><em>No CSV files found.</em></li>\n"
@@ -580,6 +789,7 @@ a{{color:#2563eb}}</style></head><body>
 </header>
 
 <nav>
+  <a href="#executive-summary">Executive Summary</a>
   <a href="#notebooks">Notebooks</a>
   <a href="#visualizations">Interactive Charts</a>
   <a href="#analyses">Analyses</a>
@@ -591,6 +801,7 @@ a{{color:#2563eb}}</style></head><body>
 
 <main>
 
+{executive_summary_html}
   <!-- ── Notebooks ─────────────────────────────────────────────────────── -->
   <section id="notebooks">
     <h2>Analytical Notebooks</h2>
@@ -662,20 +873,30 @@ a{{color:#2563eb}}</style></head><body>
   <section id="data">
     <h2>Source Data Files</h2>
     <p class="desc">
-      The underlying CSV datasets. These files are large and are <strong>not included
-      in this bundle</strong> — links show the file location on the shared drive or
-      local copy of the repository.
+      The underlying CSV datasets from the AGORA project. These files are large and are
+      <strong>not included in this bundle</strong>.
+      <strong><a href="data_dictionary.html">→ View full data dictionary with column details</a></strong>
+    </p>
+    <p style="color: #4b5563; font-size: 0.93rem; margin-bottom: 1rem; padding: 0.8rem; background: #f1f5f9; border-radius: 4px;">
+      <strong>Note:</strong> These files are available in the repository under
+      <code>knowledge_graph/graph_data/</code>.
     </p>
     <ul class="file-list">
 {csv_rows}    </ul>
-    <p class="footnote">
-      Column descriptions: see
-      <code>knowledge_graph/graph_data/bill_sponsors_README.md</code>
-      in the repository.
-    </p>
   </section>
 
 </main>
+
+<footer style="background: #f8f9fb; border-top: 1px solid #e2e8f0; padding: 1.5rem 3rem; margin-top: 2rem; text-align: center; font-size: 0.85rem; color: #6b7280;">
+  <p>
+    Built on the <a href="https://zenodo.org/records/15692257" style="color: #2563eb;">AGORA dataset</a>.
+    Data licensing terms available in <code>DATA_LICENSE.md</code> in the repository.
+  </p>
+  <p style="margin-top: 0.5rem;">
+    <em>For internal distribution only. Explore-AGORA toolkit.</em>
+  </p>
+</footer>
+
 </body>
 </html>
 """
