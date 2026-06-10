@@ -1,0 +1,11 @@
+,risk_factor,parent,documents
+0,Security,Risk Factors,66
+1,Safety,Risk Factors,50
+2,Transparency,Risk Factors,49
+3,Reliability,Risk Factors,41
+4,Privacy,Risk Factors,39
+5,Security: Cybersecurity,Security,38
+6,Bias,Risk Factors,22
+7,Interpretability and explainability,Risk Factors,18
+8,Security: Dissemination,Security,12
+9,Reliability: Robustness,Reliability,11
