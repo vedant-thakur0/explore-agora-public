@@ -49,6 +49,10 @@ Starting March 2026, cosponsor information extends the sponsor network:
 
 See [COSPONSOR_LAYERS.md](./COSPONSOR_LAYERS.md) for details on the knowledge graph Layer 1b (active) and Layer 1.75 (withdrawn) cosponsor networks.
 
+## Data source & licensing
+
+Filtered datasets in `data/` are derived from the AGORA corpus published on Zenodo (https://zenodo.org/records/15692257). Licensing and attribution terms are documented in [`DATA_LICENSE.md`](../DATA_LICENSE.md) at the repo root.
+
 ## Notes
 
 - `segments.csv` taxonomy columns use a `Category: Subcategory` naming convention.
