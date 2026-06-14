@@ -25,6 +25,9 @@ exploratory_reports/
 exploratory\ reports/
 ner_run.log
 
+# Local planning docs (not tracked)
+.claude/plans/
+
 # Notebook checkpoints
 .ipynb_checkpoints/
 
@@ -51,3 +54,6 @@ dist/
 .vscode/
 .idea/
 *.swp
+
+# Local tooling (gitleaks binary etc.)
+.tooling/

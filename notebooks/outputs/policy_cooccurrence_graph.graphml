@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="weight" attr.type="long"/>
 <key id="d0" for="node" attr.name="sponsor_count" attr.type="long"/>
-<graph edgedefault="undirected"><node id="Civil Rights and Liberties, Minority Issues">
-  <data key="d0">57</data>
-</node>
-<node id="Crime and Law Enforcement">
+<graph edgedefault="undirected"><node id="Crime and Law Enforcement">
   <data key="d0">76</data>
-</node>
-<node id="Armed Forces and National Security">
-  <data key="d0">103</data>
-</node>
-<node id="Science, Technology, Communications">
-  <data key="d0">260</data>
 </node>
 <node id="Health">
   <data key="d0">313</data>
 </node>
-<node id="Education">
-  <data key="d0">42</data>
+<node id="Armed Forces and National Security">
+  <data key="d0">103</data>
+</node>
+<node id="Civil Rights and Liberties, Minority Issues">
+  <data key="d0">57</data>
+</node>
+<node id="Science, Technology, Communications">
+  <data key="d0">260</data>
 </node>
 <node id="Energy">
   <data key="d0">29</data>
 </node>
+<node id="Government Operations and Politics">
+  <data key="d0">161</data>
+</node>
 <node id="Agriculture and Food">
   <data key="d0">44</data>
 </node>
-<node id="Government Operations and Politics">
-  <data key="d0">161</data>
+<node id="Education">
+  <data key="d0">42</data>
 </node>
 <node id="Public Lands and Natural Resources">
   <data key="d0">52</data>
@@ -52,11 +52,11 @@
 <node id="Foreign Trade and International Finance">
   <data key="d0">46</data>
 </node>
-<node id="Commerce">
-  <data key="d0">124</data>
-</node>
 <node id="Finance and Financial Sector">
   <data key="d0">39</data>
+</node>
+<node id="Commerce">
+  <data key="d0">124</data>
 </node>
 <node id="Housing and Community Development">
   <data key="d0">22</data>
@@ -70,89 +70,29 @@
 <node id="Arts, Culture, Religion">
   <data key="d0">5</data>
 </node>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Crime and Law Enforcement">
-  <data key="d1">18</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Armed Forces and National Security">
-  <data key="d1">18</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Science, Technology, Communications">
-  <data key="d1">45</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Health">
-  <data key="d1">45</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Education">
-  <data key="d1">5</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Energy">
-  <data key="d1">7</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Agriculture and Food">
-  <data key="d1">2</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Government Operations and Politics">
-  <data key="d1">26</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Public Lands and Natural Resources">
-  <data key="d1">6</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Labor and Employment">
-  <data key="d1">21</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Taxation">
-  <data key="d1">1</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="International Affairs">
-  <data key="d1">18</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Immigration">
-  <data key="d1">7</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Transportation and Public Works">
-  <data key="d1">9</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Foreign Trade and International Finance">
-  <data key="d1">17</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Commerce">
-  <data key="d1">30</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Finance and Financial Sector">
-  <data key="d1">10</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Housing and Community Development">
-  <data key="d1">8</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Economics and Public Finance">
-  <data key="d1">1</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Environmental Protection">
-  <data key="d1">2</data>
-</edge>
-<edge source="Civil Rights and Liberties, Minority Issues" target="Arts, Culture, Religion">
-  <data key="d1">2</data>
+<edge source="Crime and Law Enforcement" target="Health">
+  <data key="d1">47</data>
 </edge>
 <edge source="Crime and Law Enforcement" target="Armed Forces and National Security">
   <data key="d1">20</data>
 </edge>
+<edge source="Crime and Law Enforcement" target="Civil Rights and Liberties, Minority Issues">
+  <data key="d1">18</data>
+</edge>
 <edge source="Crime and Law Enforcement" target="Science, Technology, Communications">
   <data key="d1">54</data>
-</edge>
-<edge source="Crime and Law Enforcement" target="Health">
-  <data key="d1">47</data>
-</edge>
-<edge source="Crime and Law Enforcement" target="Education">
-  <data key="d1">6</data>
 </edge>
 <edge source="Crime and Law Enforcement" target="Energy">
   <data key="d1">7</data>
 </edge>
+<edge source="Crime and Law Enforcement" target="Government Operations and Politics">
+  <data key="d1">36</data>
+</edge>
 <edge source="Crime and Law Enforcement" target="Agriculture and Food">
   <data key="d1">10</data>
 </edge>
-<edge source="Crime and Law Enforcement" target="Government Operations and Politics">
-  <data key="d1">36</data>
+<edge source="Crime and Law Enforcement" target="Education">
+  <data key="d1">6</data>
 </edge>
 <edge source="Crime and Law Enforcement" target="Public Lands and Natural Resources">
   <data key="d1">6</data>
@@ -178,11 +118,11 @@
 <edge source="Crime and Law Enforcement" target="Foreign Trade and International Finance">
   <data key="d1">15</data>
 </edge>
-<edge source="Crime and Law Enforcement" target="Commerce">
-  <data key="d1">26</data>
-</edge>
 <edge source="Crime and Law Enforcement" target="Finance and Financial Sector">
   <data key="d1">9</data>
+</edge>
+<edge source="Crime and Law Enforcement" target="Commerce">
+  <data key="d1">26</data>
 </edge>
 <edge source="Crime and Law Enforcement" target="Housing and Community Development">
   <data key="d1">3</data>
@@ -193,134 +133,26 @@
 <edge source="Crime and Law Enforcement" target="Environmental Protection">
   <data key="d1">7</data>
 </edge>
-<edge source="Armed Forces and National Security" target="Science, Technology, Communications">
-  <data key="d1">55</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Health">
+<edge source="Health" target="Armed Forces and National Security">
   <data key="d1">62</data>
 </edge>
-<edge source="Armed Forces and National Security" target="Education">
-  <data key="d1">4</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Energy">
-  <data key="d1">8</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Agriculture and Food">
-  <data key="d1">8</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Government Operations and Politics">
-  <data key="d1">30</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Public Lands and Natural Resources">
-  <data key="d1">12</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Labor and Employment">
-  <data key="d1">36</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Taxation">
-  <data key="d1">4</data>
-</edge>
-<edge source="Armed Forces and National Security" target="International Affairs">
-  <data key="d1">23</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Emergency Management">
-  <data key="d1">8</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Immigration">
-  <data key="d1">15</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Transportation and Public Works">
-  <data key="d1">15</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Foreign Trade and International Finance">
-  <data key="d1">16</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Commerce">
-  <data key="d1">30</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Finance and Financial Sector">
-  <data key="d1">10</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Housing and Community Development">
-  <data key="d1">1</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Economics and Public Finance">
-  <data key="d1">3</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Environmental Protection">
-  <data key="d1">6</data>
-</edge>
-<edge source="Armed Forces and National Security" target="Arts, Culture, Religion">
-  <data key="d1">1</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Health">
-  <data key="d1">174</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Education">
-  <data key="d1">29</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Energy">
-  <data key="d1">22</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Agriculture and Food">
-  <data key="d1">27</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Government Operations and Politics">
-  <data key="d1">93</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Public Lands and Natural Resources">
-  <data key="d1">29</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Labor and Employment">
-  <data key="d1">127</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Taxation">
-  <data key="d1">16</data>
-</edge>
-<edge source="Science, Technology, Communications" target="International Affairs">
-  <data key="d1">61</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Emergency Management">
-  <data key="d1">13</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Immigration">
-  <data key="d1">30</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Transportation and Public Works">
+<edge source="Health" target="Civil Rights and Liberties, Minority Issues">
   <data key="d1">45</data>
 </edge>
-<edge source="Science, Technology, Communications" target="Foreign Trade and International Finance">
-  <data key="d1">33</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Commerce">
-  <data key="d1">87</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Finance and Financial Sector">
-  <data key="d1">25</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Housing and Community Development">
-  <data key="d1">11</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Economics and Public Finance">
-  <data key="d1">3</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Environmental Protection">
-  <data key="d1">11</data>
-</edge>
-<edge source="Science, Technology, Communications" target="Arts, Culture, Religion">
-  <data key="d1">3</data>
-</edge>
-<edge source="Health" target="Education">
-  <data key="d1">36</data>
+<edge source="Health" target="Science, Technology, Communications">
+  <data key="d1">174</data>
 </edge>
 <edge source="Health" target="Energy">
   <data key="d1">15</data>
 </edge>
+<edge source="Health" target="Government Operations and Politics">
+  <data key="d1">134</data>
+</edge>
 <edge source="Health" target="Agriculture and Food">
   <data key="d1">34</data>
 </edge>
-<edge source="Health" target="Government Operations and Politics">
-  <data key="d1">134</data>
+<edge source="Health" target="Education">
+  <data key="d1">36</data>
 </edge>
 <edge source="Health" target="Public Lands and Natural Resources">
   <data key="d1">28</data>
@@ -346,11 +178,11 @@
 <edge source="Health" target="Foreign Trade and International Finance">
   <data key="d1">36</data>
 </edge>
-<edge source="Health" target="Commerce">
-  <data key="d1">90</data>
-</edge>
 <edge source="Health" target="Finance and Financial Sector">
   <data key="d1">23</data>
+</edge>
+<edge source="Health" target="Commerce">
+  <data key="d1">90</data>
 </edge>
 <edge source="Health" target="Housing and Community Development">
   <data key="d1">20</data>
@@ -364,62 +196,182 @@
 <edge source="Health" target="Arts, Culture, Religion">
   <data key="d1">5</data>
 </edge>
-<edge source="Education" target="Energy">
-  <data key="d1">3</data>
+<edge source="Armed Forces and National Security" target="Civil Rights and Liberties, Minority Issues">
+  <data key="d1">18</data>
 </edge>
-<edge source="Education" target="Agriculture and Food">
+<edge source="Armed Forces and National Security" target="Science, Technology, Communications">
+  <data key="d1">55</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Energy">
+  <data key="d1">8</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Government Operations and Politics">
+  <data key="d1">30</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Agriculture and Food">
+  <data key="d1">8</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Education">
   <data key="d1">4</data>
 </edge>
-<edge source="Education" target="Government Operations and Politics">
-  <data key="d1">23</data>
-</edge>
-<edge source="Education" target="Public Lands and Natural Resources">
-  <data key="d1">5</data>
-</edge>
-<edge source="Education" target="Labor and Employment">
-  <data key="d1">36</data>
-</edge>
-<edge source="Education" target="Taxation">
-  <data key="d1">4</data>
-</edge>
-<edge source="Education" target="International Affairs">
-  <data key="d1">6</data>
-</edge>
-<edge source="Education" target="Emergency Management">
-  <data key="d1">3</data>
-</edge>
-<edge source="Education" target="Immigration">
-  <data key="d1">1</data>
-</edge>
-<edge source="Education" target="Transportation and Public Works">
+<edge source="Armed Forces and National Security" target="Public Lands and Natural Resources">
   <data key="d1">12</data>
 </edge>
-<edge source="Education" target="Foreign Trade and International Finance">
-  <data key="d1">3</data>
+<edge source="Armed Forces and National Security" target="Labor and Employment">
+  <data key="d1">36</data>
 </edge>
-<edge source="Education" target="Commerce">
-  <data key="d1">16</data>
-</edge>
-<edge source="Education" target="Finance and Financial Sector">
+<edge source="Armed Forces and National Security" target="Taxation">
   <data key="d1">4</data>
 </edge>
-<edge source="Education" target="Housing and Community Development">
-  <data key="d1">5</data>
+<edge source="Armed Forces and National Security" target="International Affairs">
+  <data key="d1">23</data>
 </edge>
-<edge source="Education" target="Economics and Public Finance">
+<edge source="Armed Forces and National Security" target="Emergency Management">
+  <data key="d1">8</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Immigration">
+  <data key="d1">15</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Transportation and Public Works">
+  <data key="d1">15</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Foreign Trade and International Finance">
+  <data key="d1">16</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Finance and Financial Sector">
+  <data key="d1">10</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Commerce">
+  <data key="d1">30</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Housing and Community Development">
   <data key="d1">1</data>
 </edge>
-<edge source="Education" target="Environmental Protection">
+<edge source="Armed Forces and National Security" target="Economics and Public Finance">
   <data key="d1">3</data>
 </edge>
-<edge source="Education" target="Arts, Culture, Religion">
+<edge source="Armed Forces and National Security" target="Environmental Protection">
+  <data key="d1">6</data>
+</edge>
+<edge source="Armed Forces and National Security" target="Arts, Culture, Religion">
   <data key="d1">1</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Science, Technology, Communications">
+  <data key="d1">45</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Energy">
+  <data key="d1">7</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Government Operations and Politics">
+  <data key="d1">26</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Agriculture and Food">
+  <data key="d1">2</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Education">
+  <data key="d1">5</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Public Lands and Natural Resources">
+  <data key="d1">6</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Labor and Employment">
+  <data key="d1">21</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Taxation">
+  <data key="d1">1</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="International Affairs">
+  <data key="d1">18</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Immigration">
+  <data key="d1">7</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Transportation and Public Works">
+  <data key="d1">9</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Foreign Trade and International Finance">
+  <data key="d1">17</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Finance and Financial Sector">
+  <data key="d1">10</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Commerce">
+  <data key="d1">30</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Housing and Community Development">
+  <data key="d1">8</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Economics and Public Finance">
+  <data key="d1">1</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Environmental Protection">
+  <data key="d1">2</data>
+</edge>
+<edge source="Civil Rights and Liberties, Minority Issues" target="Arts, Culture, Religion">
+  <data key="d1">2</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Energy">
+  <data key="d1">22</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Government Operations and Politics">
+  <data key="d1">93</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Agriculture and Food">
+  <data key="d1">27</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Education">
+  <data key="d1">29</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Public Lands and Natural Resources">
+  <data key="d1">29</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Labor and Employment">
+  <data key="d1">127</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Taxation">
+  <data key="d1">16</data>
+</edge>
+<edge source="Science, Technology, Communications" target="International Affairs">
+  <data key="d1">61</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Emergency Management">
+  <data key="d1">13</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Immigration">
+  <data key="d1">30</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Transportation and Public Works">
+  <data key="d1">45</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Foreign Trade and International Finance">
+  <data key="d1">33</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Finance and Financial Sector">
+  <data key="d1">25</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Commerce">
+  <data key="d1">87</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Housing and Community Development">
+  <data key="d1">11</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Economics and Public Finance">
+  <data key="d1">3</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Environmental Protection">
+  <data key="d1">11</data>
+</edge>
+<edge source="Science, Technology, Communications" target="Arts, Culture, Religion">
+  <data key="d1">3</data>
+</edge>
+<edge source="Energy" target="Government Operations and Politics">
+  <data key="d1">10</data>
 </edge>
 <edge source="Energy" target="Agriculture and Food">
   <data key="d1">5</data>
 </edge>
-<edge source="Energy" target="Government Operations and Politics">
-  <data key="d1">10</data>
+<edge source="Energy" target="Education">
+  <data key="d1">3</data>
 </edge>
 <edge source="Energy" target="Public Lands and Natural Resources">
   <data key="d1">7</data>
@@ -445,11 +397,11 @@
 <edge source="Energy" target="Foreign Trade and International Finance">
   <data key="d1">2</data>
 </edge>
-<edge source="Energy" target="Commerce">
-  <data key="d1">9</data>
-</edge>
 <edge source="Energy" target="Finance and Financial Sector">
   <data key="d1">4</data>
+</edge>
+<edge source="Energy" target="Commerce">
+  <data key="d1">9</data>
 </edge>
 <edge source="Energy" target="Housing and Community Development">
   <data key="d1">2</data>
@@ -460,47 +412,11 @@
 <edge source="Energy" target="Arts, Culture, Religion">
   <data key="d1">1</data>
 </edge>
-<edge source="Agriculture and Food" target="Government Operations and Politics">
+<edge source="Government Operations and Politics" target="Agriculture and Food">
   <data key="d1">13</data>
 </edge>
-<edge source="Agriculture and Food" target="Public Lands and Natural Resources">
-  <data key="d1">10</data>
-</edge>
-<edge source="Agriculture and Food" target="Labor and Employment">
-  <data key="d1">30</data>
-</edge>
-<edge source="Agriculture and Food" target="Taxation">
-  <data key="d1">7</data>
-</edge>
-<edge source="Agriculture and Food" target="International Affairs">
-  <data key="d1">9</data>
-</edge>
-<edge source="Agriculture and Food" target="Emergency Management">
-  <data key="d1">3</data>
-</edge>
-<edge source="Agriculture and Food" target="Immigration">
-  <data key="d1">7</data>
-</edge>
-<edge source="Agriculture and Food" target="Transportation and Public Works">
-  <data key="d1">9</data>
-</edge>
-<edge source="Agriculture and Food" target="Foreign Trade and International Finance">
-  <data key="d1">3</data>
-</edge>
-<edge source="Agriculture and Food" target="Commerce">
-  <data key="d1">6</data>
-</edge>
-<edge source="Agriculture and Food" target="Finance and Financial Sector">
-  <data key="d1">6</data>
-</edge>
-<edge source="Agriculture and Food" target="Housing and Community Development">
-  <data key="d1">2</data>
-</edge>
-<edge source="Agriculture and Food" target="Economics and Public Finance">
-  <data key="d1">3</data>
-</edge>
-<edge source="Agriculture and Food" target="Environmental Protection">
-  <data key="d1">4</data>
+<edge source="Government Operations and Politics" target="Education">
+  <data key="d1">23</data>
 </edge>
 <edge source="Government Operations and Politics" target="Public Lands and Natural Resources">
   <data key="d1">13</data>
@@ -526,11 +442,11 @@
 <edge source="Government Operations and Politics" target="Foreign Trade and International Finance">
   <data key="d1">12</data>
 </edge>
-<edge source="Government Operations and Politics" target="Commerce">
-  <data key="d1">54</data>
-</edge>
 <edge source="Government Operations and Politics" target="Finance and Financial Sector">
   <data key="d1">13</data>
+</edge>
+<edge source="Government Operations and Politics" target="Commerce">
+  <data key="d1">54</data>
 </edge>
 <edge source="Government Operations and Politics" target="Housing and Community Development">
   <data key="d1">17</data>
@@ -543,6 +459,90 @@
 </edge>
 <edge source="Government Operations and Politics" target="Arts, Culture, Religion">
   <data key="d1">5</data>
+</edge>
+<edge source="Agriculture and Food" target="Education">
+  <data key="d1">4</data>
+</edge>
+<edge source="Agriculture and Food" target="Public Lands and Natural Resources">
+  <data key="d1">10</data>
+</edge>
+<edge source="Agriculture and Food" target="Labor and Employment">
+  <data key="d1">30</data>
+</edge>
+<edge source="Agriculture and Food" target="Taxation">
+  <data key="d1">7</data>
+</edge>
+<edge source="Agriculture and Food" target="International Affairs">
+  <data key="d1">9</data>
+</edge>
+<edge source="Agriculture and Food" target="Emergency Management">
+  <data key="d1">3</data>
+</edge>
+<edge source="Agriculture and Food" target="Immigration">
+  <data key="d1">7</data>
+</edge>
+<edge source="Agriculture and Food" target="Transportation and Public Works">
+  <data key="d1">9</data>
+</edge>
+<edge source="Agriculture and Food" target="Foreign Trade and International Finance">
+  <data key="d1">3</data>
+</edge>
+<edge source="Agriculture and Food" target="Finance and Financial Sector">
+  <data key="d1">6</data>
+</edge>
+<edge source="Agriculture and Food" target="Commerce">
+  <data key="d1">6</data>
+</edge>
+<edge source="Agriculture and Food" target="Housing and Community Development">
+  <data key="d1">2</data>
+</edge>
+<edge source="Agriculture and Food" target="Economics and Public Finance">
+  <data key="d1">3</data>
+</edge>
+<edge source="Agriculture and Food" target="Environmental Protection">
+  <data key="d1">4</data>
+</edge>
+<edge source="Education" target="Public Lands and Natural Resources">
+  <data key="d1">5</data>
+</edge>
+<edge source="Education" target="Labor and Employment">
+  <data key="d1">36</data>
+</edge>
+<edge source="Education" target="Taxation">
+  <data key="d1">4</data>
+</edge>
+<edge source="Education" target="International Affairs">
+  <data key="d1">6</data>
+</edge>
+<edge source="Education" target="Emergency Management">
+  <data key="d1">3</data>
+</edge>
+<edge source="Education" target="Immigration">
+  <data key="d1">1</data>
+</edge>
+<edge source="Education" target="Transportation and Public Works">
+  <data key="d1">12</data>
+</edge>
+<edge source="Education" target="Foreign Trade and International Finance">
+  <data key="d1">3</data>
+</edge>
+<edge source="Education" target="Finance and Financial Sector">
+  <data key="d1">4</data>
+</edge>
+<edge source="Education" target="Commerce">
+  <data key="d1">16</data>
+</edge>
+<edge source="Education" target="Housing and Community Development">
+  <data key="d1">5</data>
+</edge>
+<edge source="Education" target="Economics and Public Finance">
+  <data key="d1">1</data>
+</edge>
+<edge source="Education" target="Environmental Protection">
+  <data key="d1">3</data>
+</edge>
+<edge source="Education" target="Arts, Culture, Religion">
+  <data key="d1">1</data>
 </edge>
 <edge source="Public Lands and Natural Resources" target="Labor and Employment">
   <data key="d1">23</data>
@@ -565,11 +565,11 @@
 <edge source="Public Lands and Natural Resources" target="Foreign Trade and International Finance">
   <data key="d1">4</data>
 </edge>
-<edge source="Public Lands and Natural Resources" target="Commerce">
-  <data key="d1">11</data>
-</edge>
 <edge source="Public Lands and Natural Resources" target="Finance and Financial Sector">
   <data key="d1">5</data>
+</edge>
+<edge source="Public Lands and Natural Resources" target="Commerce">
+  <data key="d1">11</data>
 </edge>
 <edge source="Public Lands and Natural Resources" target="Housing and Community Development">
   <data key="d1">3</data>
@@ -598,11 +598,11 @@
 <edge source="Labor and Employment" target="Foreign Trade and International Finance">
   <data key="d1">12</data>
 </edge>
-<edge source="Labor and Employment" target="Commerce">
-  <data key="d1">71</data>
-</edge>
 <edge source="Labor and Employment" target="Finance and Financial Sector">
   <data key="d1">19</data>
+</edge>
+<edge source="Labor and Employment" target="Commerce">
+  <data key="d1">71</data>
 </edge>
 <edge source="Labor and Employment" target="Housing and Community Development">
   <data key="d1">21</data>
@@ -631,11 +631,11 @@
 <edge source="Taxation" target="Foreign Trade and International Finance">
   <data key="d1">1</data>
 </edge>
-<edge source="Taxation" target="Commerce">
-  <data key="d1">6</data>
-</edge>
 <edge source="Taxation" target="Finance and Financial Sector">
   <data key="d1">5</data>
+</edge>
+<edge source="Taxation" target="Commerce">
+  <data key="d1">6</data>
 </edge>
 <edge source="Taxation" target="Housing and Community Development">
   <data key="d1">2</data>
@@ -655,11 +655,11 @@
 <edge source="International Affairs" target="Foreign Trade and International Finance">
   <data key="d1">18</data>
 </edge>
-<edge source="International Affairs" target="Commerce">
-  <data key="d1">24</data>
-</edge>
 <edge source="International Affairs" target="Finance and Financial Sector">
   <data key="d1">8</data>
+</edge>
+<edge source="International Affairs" target="Commerce">
+  <data key="d1">24</data>
 </edge>
 <edge source="International Affairs" target="Economics and Public Finance">
   <data key="d1">3</data>
@@ -670,11 +670,11 @@
 <edge source="Emergency Management" target="Transportation and Public Works">
   <data key="d1">7</data>
 </edge>
-<edge source="Emergency Management" target="Commerce">
-  <data key="d1">4</data>
-</edge>
 <edge source="Emergency Management" target="Finance and Financial Sector">
   <data key="d1">3</data>
+</edge>
+<edge source="Emergency Management" target="Commerce">
+  <data key="d1">4</data>
 </edge>
 <edge source="Emergency Management" target="Housing and Community Development">
   <data key="d1">1</data>
@@ -688,11 +688,11 @@
 <edge source="Immigration" target="Foreign Trade and International Finance">
   <data key="d1">9</data>
 </edge>
-<edge source="Immigration" target="Commerce">
-  <data key="d1">13</data>
-</edge>
 <edge source="Immigration" target="Finance and Financial Sector">
   <data key="d1">5</data>
+</edge>
+<edge source="Immigration" target="Commerce">
+  <data key="d1">13</data>
 </edge>
 <edge source="Immigration" target="Housing and Community Development">
   <data key="d1">1</data>
@@ -706,11 +706,11 @@
 <edge source="Transportation and Public Works" target="Foreign Trade and International Finance">
   <data key="d1">9</data>
 </edge>
-<edge source="Transportation and Public Works" target="Commerce">
-  <data key="d1">25</data>
-</edge>
 <edge source="Transportation and Public Works" target="Finance and Financial Sector">
   <data key="d1">11</data>
+</edge>
+<edge source="Transportation and Public Works" target="Commerce">
+  <data key="d1">25</data>
 </edge>
 <edge source="Transportation and Public Works" target="Housing and Community Development">
   <data key="d1">14</data>
@@ -724,11 +724,11 @@
 <edge source="Transportation and Public Works" target="Arts, Culture, Religion">
   <data key="d1">3</data>
 </edge>
-<edge source="Foreign Trade and International Finance" target="Commerce">
-  <data key="d1">17</data>
-</edge>
 <edge source="Foreign Trade and International Finance" target="Finance and Financial Sector">
   <data key="d1">6</data>
+</edge>
+<edge source="Foreign Trade and International Finance" target="Commerce">
+  <data key="d1">17</data>
 </edge>
 <edge source="Foreign Trade and International Finance" target="Housing and Community Development">
   <data key="d1">1</data>
@@ -739,20 +739,8 @@
 <edge source="Foreign Trade and International Finance" target="Environmental Protection">
   <data key="d1">2</data>
 </edge>
-<edge source="Commerce" target="Finance and Financial Sector">
+<edge source="Finance and Financial Sector" target="Commerce">
   <data key="d1">12</data>
-</edge>
-<edge source="Commerce" target="Housing and Community Development">
-  <data key="d1">13</data>
-</edge>
-<edge source="Commerce" target="Economics and Public Finance">
-  <data key="d1">1</data>
-</edge>
-<edge source="Commerce" target="Environmental Protection">
-  <data key="d1">4</data>
-</edge>
-<edge source="Commerce" target="Arts, Culture, Religion">
-  <data key="d1">1</data>
 </edge>
 <edge source="Finance and Financial Sector" target="Housing and Community Development">
   <data key="d1">3</data>
@@ -764,6 +752,18 @@
   <data key="d1">3</data>
 </edge>
 <edge source="Finance and Financial Sector" target="Arts, Culture, Religion">
+  <data key="d1">1</data>
+</edge>
+<edge source="Commerce" target="Housing and Community Development">
+  <data key="d1">13</data>
+</edge>
+<edge source="Commerce" target="Economics and Public Finance">
+  <data key="d1">1</data>
+</edge>
+<edge source="Commerce" target="Environmental Protection">
+  <data key="d1">4</data>
+</edge>
+<edge source="Commerce" target="Arts, Culture, Religion">
   <data key="d1">1</data>
 </edge>
 <edge source="Housing and Community Development" target="Economics and Public Finance">

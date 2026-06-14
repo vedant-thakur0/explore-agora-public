@@ -1,62 +1,78 @@
-# Notebook Review
+# Notebook Review — Current State Ledger
 
-Evaluation of `01_sponsor_profiling.ipynb`, `02_policy_networks.ipynb`, `03_coalitions.ipynb`, `04_taxonomy.ipynb` and shared `analysis_utils.py`. Ordered by severity.
+Last updated: 2026-06-14
 
-## Bugs (will break or produce wrong numbers)
+Tracks correctness bugs and misleading analyses across `01_sponsor_profiling.ipynb`, `02_policy_networks.ipynb`, `03_coalitions.ipynb`, `04_taxonomy.ipynb`, and shared `analysis_utils.py`. Items are marked with their current status.
 
-### 01_sponsor_profiling.ipynb · Cell 10 — NameError
+---
+
+## Bugs (crash or wrong numbers)
+
+### [FIXED] 01 · Cell 10 — NameError
 ```python
 au.sponsor_taxonomy_profile(docs_df, cosponsors_df, group="Strategies")
 ```
-The loaded variable is `cosp_df`, not `cosponsors_df`. Cell crashes on first run.
+Variable was `cosp_df`, not `cosponsors_df`. Fixed: corrected variable name.
 
-### 02_policy_networks.ipynb · Cell 12 — severe perf bug in t-SNE loop
-```python
-for node in nodes_list:
-    betweenness = nx.betweenness_centrality(G_area).get(node, 0)
-```
-`betweenness_centrality` is recomputed for the whole graph on every iteration. Call once outside the loop and index into the result. For ~14 policy areas this turns minutes into hours.
+### [FIXED — perf, numbers unaffected] 02 · Cell 12 — betweenness recomputed in loop
+`betweenness_centrality` was recomputed for the whole graph on every node iteration. Fixed: called once outside the loop and indexed into the result.
 
-### 03_coalitions.ipynb · Cell 3 — chamber inference inconsistent with module 1
-```python
-lambda x: "Senate" if str(x).startswith("Sen.") else "House"
-```
-Module 1 uses three-way Senate/House/Unknown. Here, Delegates (`Del.`) and Resident Commissioners are silently misclassified as House, biasing per-community Senate/House counts in `profiles_df`.
+### [FIXED] 03 · Cell 3 — chamber inference inconsistent with module 1
+`Del.` and Resident Commissioners were silently misclassified as House. Fixed: aligned with the three-way Senate/House/Unknown pattern from module 1.
 
-### 03_coalitions.ipynb · Cell 7 — bridge legislators include isolated nodes
-`G_cross` is built with `add_nodes_from(G.nodes(data=True))` then only cross-party edges added. Every node in `G_cc` ends up in `G_cross`, including isolated nodes with no cross-party links. `bridge_df.head(15)` and the "Top 100" scatter mix in zero-betweenness, zero-cross-degree members. Filter to `n for n in G_cross.nodes() if G_cross.degree(n) > 0` before ranking.
+### [FIXED] 03 · Cell 7 — bridge legislators included isolated nodes
+`G_cross` was built with all nodes from `G_cc`, including zero-degree isolated nodes. Fixed: filtered to `degree > 0` before ranking.
+
+---
 
 ## Misleading analyses
 
-### 01 · Cell 8 — chamber averages
-`doc_chamber["House"].mean()` averages House cosponsors across all bills including Senate-only bills, so the value is biased downward by Senate-origin bills with 0 House cosponsors (and vice versa). Either condition on the primary sponsor's chamber, or relabel as "average per bill in dataset" rather than "by chamber".
+### [FIXED — 2026-06-14] 01 · Cell 8 — chamber averages biased by cross-chamber bills
+**Was:** `doc_chamber["House"].mean()` averaged House cosponsors across ALL bills, including Senate-originated bills (which contribute 0 House cosponsors). This biased the per-chamber average downward.
 
-### 02 · Cell 12 — t-SNE on 3 features
-t-SNE on a 3-dim feature vector (degree, betweenness, clustering) isn't doing what readers think — there's no high-dim manifold to unfold. PCA, or just scatter-plotting two of the three features, would be more honest.
+**Fix applied (relabel, not conditioning):** Conditioning on the *primary sponsor's* chamber
+is **not possible** — the comprehensive CSV (`agora_comprehensive_data_with_cosponsor_lists.csv`,
+loaded via `au.load_comprehensive_df()`) carries no primary-sponsor name or chamber column. So the
+metric is relabeled honestly instead: it now reports the **dataset-wide average number of Senate /
+House cosponsors per bill** (averaged over every bill, including 0s), with an inline note that it is
+NOT a per-sponsoring-chamber comparison. The misleading "by chamber" framing (which implied sponsor
+chamber) is removed; the section header is updated to match. Variables used (`cosp_df`, `docs_df`,
+`doc_chamber`) are all defined earlier in the notebook.
 
-### 04 · Cells 3 / 5 — "top-level" filter is fragile
-```python
-top_level = [c for c in comm_strat_norm.columns if ":" not in c and len(c) > 2]
-```
-`taxonomy_vector` already strips the group prefix, so `:` only survives if a sub-category label itself contains one. If AGORA naming changes (flat labels), this filter silently keeps everything; if labels use `:` inconsistently across groups, top-level/sub-level membership is wrong. Drive this from the source column names before stripping.
+### [STILL-LIVE — perf-only, numbers unaffected] analysis_utils · `build_cosponsor_cosponsor_graph` — O(S²)
+Set intersections per sponsor pair. Fine at current scale; will hurt past a few thousand sponsors. A bill→sponsors inversion with per-bill pair enumeration would be faster. Does not affect any output numbers.
 
-### 04 · Cell 7 — community radar has no min-size filter
-A 3-member community with one bill on biometrics spikes to 100% on that application and visually dominates the radar against a 50-member community with diversified focus. Add a `len(aids) >= N` gate or normalize differently.
+### [STILL-LIVE — display only] 02 · Cell 12 — t-SNE on 3 features
+t-SNE on a 3-dim feature vector (degree, betweenness, clustering) does not unfold a high-dim manifold. PCA or a direct scatter of two features would be more interpretable. Does not affect underlying data or numbers output elsewhere.
 
-### 04 · Cell 11 — risk treemap hierarchy is mostly flat
-`parent` is inferred by `rf.split(": ", 1)`, but since `taxonomy_vector` strips the prefix, most labels have no `:` and default to the synthetic parent `"Risk Factors"`. The hierarchy is essentially flat except where sub-labels happen to embed a colon. Build parent from the original column-name prefix before stripping.
+### [STILL-LIVE — display only] 04 · Cells 3 / 5 — "top-level" filter is fragile
+`:` filter on taxonomy column names is fragile against AGORA naming changes. Does not corrupt existing output given current label conventions; risk is future label drift.
+
+### [STILL-LIVE — display only] 04 · Cell 7 — community radar has no min-size filter
+Small communities spike to 100% on narrow tags and visually dominate the radar. Cosmetic; underlying data is correct.
+
+### [STILL-LIVE — display only] 04 · Cell 11 — risk treemap hierarchy is mostly flat
+Parent inferred from `: ` split, but stripped labels rarely contain `:`. Hierarchy is essentially flat. Cosmetic; underlying data is correct.
+
+---
 
 ## Smaller issues
 
-- **01 · Cell 12** — `cosp_df.loc[cosp_df["Cosponsor_BioguideId"] == bios[i], …].iloc[0]` inside an O(N²) loop. Build `bio_party` once (as 03/04 do) and look up.
-- **02 · Cells 7 / 9** — `build_taxonomy_cooccurrence_graph` uses stripped labels as node IDs. If two groups share a stripped label (e.g. "Privacy" in both Harms and Risk Factors), the `group` attribute is overwritten by whichever is added last and the matrix mis-routes.
-- **01 · Cell 11** — fingerprint heatmap uses `sponsor_degrees.head(30)`, which may include sponsors with zero taxonomy tags (blank row). Filter to `fingerprint.sum(axis=1) > 0` first.
-- **All four** — `load_communities` is assumed to return `[{"id": ..., "members": [...]}]`. None of the notebooks validate this shape; schema drift would produce opaque errors.
-- **analysis_utils · `build_cosponsor_cosponsor_graph`** — O(S²) with set intersections per pair. Fine at current scale; will hurt past a few thousand sponsors. A bill→sponsors inversion with per-bill pair enumeration is faster.
+| Item | Status |
+|------|--------|
+| 01 · Cell 12 — O(N²) bio lookup inside loop | STILL-LIVE (perf-only) |
+| 02 · Cells 7/9 — stripped label node ID collision | STILL-LIVE (low risk at current label set) |
+| 01 · Cell 11 — fingerprint heatmap may include blank rows | STILL-LIVE (cosmetic) |
+| All four — `load_communities` shape not validated | STILL-LIVE (schema drift risk) |
 
-## Fix priority
+---
 
-1. `01 · Cell 10` — crashes
-2. `02 · Cell 12` — betweenness recompute (perf)
-3. `03 · Cell 3` — chamber inference (wrong numbers)
-4. `03 · Cell 7` — bridge filter (wrong rankings)
+## Original fix priority (historical)
+
+1. `01 · Cell 10` — crash → **FIXED**
+2. `02 · Cell 12` — betweenness perf → **FIXED**
+3. `03 · Cell 3` — chamber inference wrong numbers → **FIXED**
+4. `03 · Cell 7` — bridge filter wrong rankings → **FIXED**
+5. `01 · Cell 8` — chamber average biased → **FIXED 2026-06-14**
+
+All items that produce incorrect output numbers are now resolved. Remaining open items are performance or display issues only.

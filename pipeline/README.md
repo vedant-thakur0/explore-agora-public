@@ -7,28 +7,28 @@ Manual-run ingestion pipeline for discovering likely AI-policy documents from co
 Run from project root:
 
 ```bash
-python3 -m agora.pipeline.cli fetch --since 2025-01-01 --limit 100
-python3 -m agora.pipeline.cli rank-candidates --run-id <RUN_ID>
-python3 -m agora.pipeline.cli export-review --run-id <RUN_ID> --out agora/pipeline/review_exports/<RUN_ID>_review.csv
+python3 -m pipeline.cli fetch --since 2025-01-01 --limit 100
+python3 -m pipeline.cli rank-candidates --run-id <RUN_ID>
+python3 -m pipeline.cli export-review --run-id <RUN_ID> --out agora/pipeline/review_exports/<RUN_ID>_review.csv
 ```
 
 Offline fixture run:
 
 ```bash
-python3 -m agora.pipeline.cli fetch --since 2025-01-01 --limit 10 --fixture-json agora/pipeline/fixtures/sample_bills.json --run-id localtest
+python3 -m pipeline.cli fetch --since 2025-01-01 --limit 10 --fixture-json agora/pipeline/fixtures/sample_bills.json --run-id localtest
 ```
 
 One-call HR trial (live, list-only):
 
 ```bash
 export CONGRESS_API_KEY='YOUR_KEY'
-python3 -m agora.pipeline.trial_one_call_hr --since 2026-01-01 --limit 250 --top-k 50
+python3 -m pipeline.trial_one_call_hr --since 2026-01-01 --limit 250 --top-k 50
 ```
 
 One-call list + per-bill detail hydration (recommended):
 
 ```bash
-python3 -m agora.pipeline.cli trial-one-call-hr \
+python3 -m pipeline.cli trial-one-call-hr \
   --since 2026-01-01 \
   --limit 251 \
   --top-k 50 \
@@ -40,7 +40,7 @@ python3 -m agora.pipeline.cli trial-one-call-hr \
 Match incoming `.docx` files against AGORA positive profile:
 
 ```bash
-python3 -m agora.pipeline.cli match-docx \
+python3 -m pipeline.cli match-docx \
   --docx-dir /path/to/docx \
   --profile-jsonl /Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1.jsonl \
   --top-k 50 \
@@ -63,13 +63,13 @@ python3 -m agora.pipeline.cli match-docx \
 Build the positive-only AGORA profile from `documents.csv`:
 
 ```bash
-python3 -m agora.pipeline.build_positive_profile
+python3 -m pipeline.build_positive_profile
 ```
 
 Optional flags:
 
 ```bash
-python3 -m agora.pipeline.build_positive_profile \
+python3 -m pipeline.build_positive_profile \
   --input-csv /Users/vthakur/Documents/auto/agora/documents.csv \
   --out-prefix /Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1
 ```

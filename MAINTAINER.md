@@ -1,5 +1,7 @@
 # MAINTAINER.md — AGORA Operations
 
+> **Canonical counts, paths, and commands:** See [`FACTS.md`](FACTS.md) — do not duplicate those numbers here.
+
 This document covers operational tasks for repository maintainers and analysts.
 
 ## Provisioning analysts
@@ -55,7 +57,11 @@ File: `.claude/settings.local.json` — gitignored, per-machine.
 ## Known issues
 
 ### Notebook bugs
-The priority bugs catalogued in `notebooks/REVIEW.md` (crash in 01, perf in 02, wrong numbers in 03) have been **fixed**; notebooks now execute end-to-end via `reports --execute`. REVIEW.md is retained as the historical record — consult it if a regression appears.
+All bugs that produced **incorrect output numbers** are now resolved:
+- Priority-4 items (crash in 01, betweenness perf in 02, wrong chamber inference in 03, bridge filter in 03) — **fixed** in an earlier pass.
+- Chamber-average bias in 01 Cell 8 — **fixed 2026-06-14** (by relabel): the comprehensive CSV has no primary-sponsor chamber field, so the metric was relabeled to the dataset-wide average Senate/House *cosponsors* per bill (no longer implying a per-sponsoring-chamber comparison) rather than conditioned on sponsor chamber.
+
+Remaining open items in `notebooks/REVIEW.md` are **performance or display issues only** — they do not affect any numbers shipped into reports. Consult REVIEW.md as the current-state ledger; it is kept updated with the status of every catalogued item.
 
 ### Pipeline runtime
 - `pipeline/runs/` is created at runtime and may not exist in a freshly cloned repository. It will be created automatically on first pipeline execution.
