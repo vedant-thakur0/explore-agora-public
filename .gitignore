@@ -54,3 +54,6 @@ dist/
 .vscode/
 .idea/
 *.swp
+
+# Local tooling (gitleaks binary etc.)
+.tooling/
