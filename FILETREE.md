@@ -2,6 +2,7 @@
 
 ```
 agora/
+├── .claude/                         # Claude Code skills & plans
 ├── pipeline/                        # Main pipeline package
 │   ├── cli.py                       # CLI entry point
 │   ├── config.py                    # All path constants, LLM settings, thresholds
@@ -20,7 +21,10 @@ agora/
 │   │   └── checkpoints/             # State saves for resumable runs
 │   ├── multiplex_graph/             # Graph community detection output
 │   ├── supabase/                    # Supabase integration
-│   ├── web/                         # Annotation UI
+│   ├── web/                         # Flask UI
+│   │   ├── routes/                  # Flask UI routes
+│   │   ├── static/                  # Flask UI static assets
+│   │   └── templates/               # Flask UI HTML templates
 │   ├── FEC/                         # FEC ingestion experiments — currently placeholder
 │   ├── graph/                       # Sponsor/cosponsor graph edges, nodes, stats
 │   ├── runs/                        # Run manifests (do not delete)
@@ -33,10 +37,12 @@ agora/
 │   └── graph_data/                  # Filtered Congress-only datasets
 │
 ├── data/                            # Full AGORA corpus data
-│   └── fulltext/                    # ~1,016 plaintext bill files
+│   └── fulltext/                    # ~1,031 plaintext bill files
 ├── reports/                         # Generated analysis reports: markdown + HTML
+│   └── generated/                   # Dated report bundles
 ├── exploratory reports/             # Exploratory tag/party alignment analyses
 ├── notebooks/                       # Jupyter notebooks for exploration
+│   └── outputs/                     # Committed notebook artifacts
 ├── plans/                           # Planning documents
 ├── hooks/                           # Git/automation hooks
 ├── NER_AGENT.md                     # NER agent detailed documentation

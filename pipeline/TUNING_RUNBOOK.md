@@ -63,9 +63,9 @@ Backward compatibility:
 ## Evaluation Checklist
 
 - Run unit tests:
-  - `agora.pipeline.tests.test_pipeline`
-  - `agora.pipeline.tests.test_positive_profile`
-  - `agora.pipeline.tests.test_docx_matcher`
+  - `pipeline.tests.test_pipeline`
+  - `pipeline.tests.test_positive_profile`
+  - `pipeline.tests.test_docx_matcher`
 - Run a representative ranking pass and inspect:
   - high-scoring false positives
   - missed obvious positives

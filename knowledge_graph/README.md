@@ -1,9 +1,11 @@
 # AGORA Knowledge Graph
 
+> **Canonical counts, paths, and commands:** See [`../FACTS.md`](../FACTS.md) — do not duplicate those numbers here.
+
 Knowledge graph development project over the AGORA corpus of AI policy documents.
 Prototype scope: **United States Congress** documents only.
 
-**Note:** `graph_data/` contains filtered Congress-only datasets; the full AGORA corpus (including `data/fulltext/` with ~1,016 plaintext bill files) lives at the repo root.
+**Note:** `graph_data/` contains filtered Congress-only datasets; the full AGORA corpus (including `data/fulltext/` with ~1,031 plaintext bill files) lives at the repo root.
 
 ## Data Sources
 
@@ -19,21 +21,21 @@ Filtered data lives in `data/`. Source CSVs are in the parent directory (`../`).
 
 ### Full Text
 
-- **`../fulltext/`** — 1,016 plain-text files, one per document, named `<agora_id>.txt`
-  - Example: `../fulltext/1.txt`, `../fulltext/42.txt`
+- **`../data/fulltext/`** — 1,031 plain-text files, one per document, named `<agora_id>.txt`
+  - Example: `../data/fulltext/1.txt`, `../data/fulltext/42.txt`
 
 ### CSVs
 
 | File | Rows | Description |
 |---|---|---|
-| `../documents.csv` | ~10,990 | One row per AGORA document. Includes official name, casual name, authority, collections, taxonomy columns, summaries, tags, activity dates, and annotation status. |
+| `../documents.csv` | ~1,035 | One row per AGORA document. Includes official name, casual name, authority, collections, taxonomy columns, summaries, tags, activity dates, and annotation status. |
 | `../segments.csv` | ~143,294 | Text segments extracted from documents, with per-segment tags, summaries, topic annotations, and flags (non-operative, not AI-related). Keyed by `Document ID` + `Segment position`. |
 | `../authorities.csv` | ~105 | Issuing authorities (government bodies, agencies, orgs). Fields: Name, Jurisdiction, Parent authority. |
 | `../collections.csv` | ~15 | Thematic collections grouping documents. Fields: Name, Description. |
 
 ### Key Join Fields
 
-- `documents.csv` → `AGORA ID` links to filename in `fulltext/<agora_id>.txt`
+- `documents.csv` → `AGORA ID` links to filename in `data/fulltext/<agora_id>.txt`
 - `segments.csv` → `Document ID` is the same as `AGORA ID` in documents
 - `documents.csv` → `Authority` matches `Name` in authorities
 - `documents.csv` → `Collections` (semicolon-delimited) matches `Name` in collections
@@ -45,7 +47,7 @@ Starting March 2026, cosponsor information extends the sponsor network:
 | File | Rows | Description |
 |---|---|---|
 | `../graph_data/agora_cosponsors_long.csv` | ~3,500 | One row per (document, cosponsor) pair. Includes bioguide ID, party, state, district, sponsorship date, withdrawal tracking. |
-| `../graph_data/agora_comprehensive_data_with_cosponsor_lists.csv` | ~622 | Enriched documents CSV (replaces `agora_with_sponsors.csv`) with cosponsor counts and JSON-encoded lists. Primary input for sponsor/cosponsor graph building. |
+| `../graph_data/agora_comprehensive_data_with_cosponsor_lists.csv` | ~622 | Enriched documents CSV (primary sponsor/cosponsor input; agora_with_sponsors.csv remains available as the raw sponsor-detail source) with cosponsor counts and JSON-encoded lists. Primary input for sponsor/cosponsor graph building. |
 
 See [COSPONSOR_LAYERS.md](./COSPONSOR_LAYERS.md) for details on the knowledge graph Layer 1b (active) and Layer 1.75 (withdrawn) cosponsor networks.
 
@@ -56,6 +58,6 @@ Filtered datasets in `data/` are derived from the AGORA corpus published on Zeno
 ## Notes
 
 - `segments.csv` taxonomy columns use a `Category: Subcategory` naming convention.
-- Not all documents in `documents.csv` have a corresponding file in `fulltext/` (~1,016 of ~10,990 have retrieved plaintext).
+- Not all documents in `documents.csv` have a corresponding file in `data/fulltext/` (~1,031 of ~1,035 have retrieved plaintext).
 - The `documents.csv` `Annotated?` and `Validated?` fields track human review status.
 - Cosponsor data sourced from Congress.gov API (pulled 2026-03-13 per `bill_sponsors_README.md`).

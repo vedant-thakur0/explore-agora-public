@@ -1,5 +1,7 @@
 # AGORA
 
+> **Canonical counts, paths, and commands:** See [`FACTS.md`](FACTS.md) — do not duplicate those numbers here.
+
 A computational toolkit for AI policy research. Discovers, ranks, and analyzes AI-related legislation from U.S. Congress using a multi-stage pipeline: ingestion → ranking → NER → knowledge graph.
 
 Built on top of the [AGORA dataset](https://zenodo.org/records/15692257) (Zenodo). The toolkit adds: agent-driven NER and entity normalization, cosponsor and coalition graph construction, document similarity matching, and a Flask review UI.
@@ -15,7 +17,7 @@ Built on top of the [AGORA dataset](https://zenodo.org/records/15692257) (Zenodo
 - **`pipeline/`** — Core Python pipeline (ingestion, ranking, agents, knowledge graph)
 - **`pipeline/web/`** — Flask annotation UI for human review
 - **`pipeline/supabase/`** — Optional sync layer for hosted review workflows
-- **`pipeline/FEC/`** — Federal Election Commission ingestion experiments
+- **`pipeline/FEC/`** — Federal Election Commission ingestion experiments (experimental placeholder, not wired into the main pipeline; see [`pipeline/FEC/README.md`](pipeline/FEC/README.md))
 - **`knowledge_graph/`** — Data schema, cosponsor layer documentation, filtered datasets
 - **`notebooks/`** — Jupyter notebooks for exploration and analysis
 

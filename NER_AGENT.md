@@ -1,6 +1,8 @@
 # NER Agent — Plan & Architecture
 
-**Status:** Ready to run
+> **Canonical counts, paths, and commands:** See [`FACTS.md`](FACTS.md) — do not duplicate those numbers here.
+
+**Status:** Phase 3 Complete
 **Last Updated:** 2026-03-18
 **Entry Point:** `pipeline/agents/ner_agent.py`
 **CLI:** `python3 -m pipeline.cli build-multiplex-graph --agents ner`
@@ -15,8 +17,8 @@ It is **Phase 3** of the multiplex knowledge graph pipeline:
 ```
 Phase 1: Sponsor Graph  →  sponsor_nodes.csv, sponsor_edges.csv     ✅ Done
 Phase 2: Community Detection  →  communities.json (243 communities)  ✅ Done
-Phase 3: NER Agent  →  entities.jsonl, memory/, checkpoints/         ⬜ Next
-Phase 4: Graph Builder  →  Layer 3 entity graph (GraphML)            ⬜ Blocked on Phase 3
+Phase 3: NER Agent  →  entities.jsonl, memory/, checkpoints/         ✅ Done (531 docs, macro_f1 ~0.17)
+Phase 4: Graph Builder  →  Layer 3 entity graph (GraphML)            ⬜ Pending
 ```
 
 ---
@@ -44,7 +46,7 @@ For each community (sorted by size):
   Load community memory (or create fresh)
   For each document (sorted by centrality, highest first):
     Skip if already checkpointed
-    Load fulltext from fulltext/{agora_id}.txt
+    Load fulltext from data/fulltext/{agora_id}.txt
     Chunk text at SEC./SECTION. boundaries (max 6000 chars)
     For each chunk:
       Build prompt = system prompt + community memory context + user prompt
@@ -108,7 +110,7 @@ ANTHROPIC_MAX_RETRIES = 3
 
 ## Data Paths
 
-- **Fulltext source:** `agora/fulltext/` (1016 .txt files)
+- **Fulltext source:** `data/fulltext/` (1,031 .txt files)
 - **Communities input:** `pipeline/agents/output/communities.json` (243 communities, 535 docs)
 - **NER output:** `pipeline/agents/output/entities.jsonl`
 - **Errors:** `pipeline/agents/output/ner_errors.jsonl`
@@ -122,7 +124,7 @@ ANTHROPIC_MAX_RETRIES = 3
 
 ### Prerequisites
 1. `ANTHROPIC_API_KEY` set in `.env` at repo root
-2. Fulltext files present in `fulltext/` (1016 files available)
+2. Fulltext files present in `data/fulltext/` (1,031 files available)
 3. `communities.json` exists in `pipeline/agents/output/` (Phase 2 complete)
 
 ### Calibration Run (recommended first)
@@ -130,7 +132,7 @@ ANTHROPIC_MAX_RETRIES = 3
 # Process 2 docs from one community to verify output quality
 python3 -m pipeline.cli build-multiplex-graph \
   --agents ner \
-  --fulltext-dir fulltext \
+  --fulltext-dir data/fulltext \
   --community <community_id> \
   --limit 2
 ```
@@ -139,7 +141,7 @@ python3 -m pipeline.cli build-multiplex-graph \
 ```bash
 python3 -m pipeline.cli build-multiplex-graph \
   --agents ner \
-  --fulltext-dir fulltext
+  --fulltext-dir data/fulltext
 ```
 
 ### Resume After Interruption

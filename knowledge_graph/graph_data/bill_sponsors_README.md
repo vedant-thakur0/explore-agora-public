@@ -2,7 +2,7 @@
 
 ## Overview
 **File:** `bill_sponsors.csv`
-**Location:** `knowledge_graph/data/`
+**Location:** `knowledge_graph/graph_data/`
 **Generated:** 2026-03-13
 **Source Data:**
 - `agora_with_sponsors.csv` (sponsor details from Congress.gov API)

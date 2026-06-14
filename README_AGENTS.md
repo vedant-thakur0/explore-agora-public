@@ -58,10 +58,12 @@ agora/
 │
 ├── knowledge_graph/               # KG-specific analysis & documentation
 │   ├── README.md                  # Data sources, schema, join keys
-│   └── data/                      # Filtered Congress-only datasets
-│       ├── documents.csv          # 622 Congress documents
-│       ├── segments.csv           # 4,087 text segments from those docs
-│       └── fulltext/              # 619 plain-text files
+│   └── graph_data/                # Filtered Congress-only datasets (cosponsors, sponsors)
+│
+├── data/                          # Full corpus CSVs + retrieved plaintext
+│   ├── documents.csv              # 1,035 documents (622 are Congress-only)
+│   ├── segments.csv               # text segments
+│   └── fulltext/                  # 1,031 plain-text files (619 of the Congress subset)
 │
 ├── notebooks/                     # Jupyter notebooks for exploration
 │   └── graph_exploration.ipynb    # Interactive KG exploration
@@ -198,7 +200,7 @@ When you make significant changes, **update this file in these sections:**
 ### 2026-03-13 - Bill Sponsors Data Export
 - **Status:** Complete
 - **Changes:** Created comprehensive bill sponsors CSV with sponsor details, bills, and committee info
-- **Files Modified:** `knowledge_graph/data/bill_sponsors.csv` (new), `knowledge_graph/data/bill_sponsors_README.md` (new)
+- **Files Modified:** `knowledge_graph/graph_data/bill_sponsors.csv` (new), `knowledge_graph/graph_data/bill_sponsors_README.md` (new)
 - **Data:** 205 unique sponsors, 509 sponsored bills, 507 with committee information (99.6% coverage)
 - **Sources:** Aggregated from `agora_with_sponsors.csv`, `agora_comprehensive_data.csv`, and `pulled_data.json`
 - **Features:** Sponsor BioGuide IDs, party/state/district, policy areas, committee counts, Congress.gov API URLs for committee details
