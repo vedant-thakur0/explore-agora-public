@@ -1,7 +1,7 @@
 # AGORA File Tree
 
 ```
-agora/
+./                                   # repository root (AGORA project)
 ├── .claude/                         # Claude Code skills & plans
 ├── pipeline/                        # Main pipeline package
 │   ├── cli.py                       # CLI entry point
@@ -42,6 +42,7 @@ agora/
 │   └── generated/                   # Dated report bundles
 ├── exploratory reports/             # Exploratory tag/party alignment analyses
 ├── notebooks/                       # Jupyter notebooks for exploration
+│   ├── automatedingestion.ipynb     # Congress API session ingestion notebook
 │   └── outputs/                     # Committed notebook artifacts
 ├── plans/                           # Planning documents
 ├── hooks/                           # Git/automation hooks

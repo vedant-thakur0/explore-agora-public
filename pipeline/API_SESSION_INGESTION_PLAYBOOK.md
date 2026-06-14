@@ -1,6 +1,6 @@
 # Congress API Session Ingestion Playbook
 
-This playbook follows the exact tooling pattern used in `automatedingestion.ipynb`:
+This playbook follows the exact tooling pattern used in `notebooks/automatedingestion.ipynb`:
 
 - `pull_info(url)` for list/session pulls
 - `build_text_url(congress, bill_type, number)` for per-bill text endpoints

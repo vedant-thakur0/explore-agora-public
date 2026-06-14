@@ -11,7 +11,10 @@ from dotenv import load_dotenv
 ENV_PATH = Path(__file__).resolve().parents[1] / ".env"  # adjust parents[] if needed
 load_dotenv(dotenv_path=ENV_PATH)
 
-from .config import AGENTS_OUTPUT_DIR, MULTIPLEX_GRAPH_DIR, LOUVAIN_RESOLUTION, REPORTS_GENERATED_DIR
+from .config import (
+    AGENTS_OUTPUT_DIR, MULTIPLEX_GRAPH_DIR, LOUVAIN_RESOLUTION, REPORTS_GENERATED_DIR,
+    DOCUMENTS_CSV_PATH, SEGMENTS_CSV_PATH, AUTHORITIES_CSV_PATH, COLLECTIONS_CSV_PATH,
+)
 from .graph_query import run as run_graph_query
 from .knowledge_graph import run as run_knowledge_graph
 
@@ -234,10 +237,10 @@ def build_parser() -> argparse.ArgumentParser:
     sub = parser.add_subparsers(dest="command", required=True)
 
     kg = sub.add_parser("build-knowledge-graph", help="Build AGORA knowledge graph nodes/edges from CSV sources")
-    kg.add_argument("--documents-csv", default="documents.csv")
-    kg.add_argument("--segments-csv", default="segments.csv")
-    kg.add_argument("--authorities-csv", default="authorities.csv")
-    kg.add_argument("--collections-csv", default="collections.csv")
+    kg.add_argument("--documents-csv", default=str(DOCUMENTS_CSV_PATH))
+    kg.add_argument("--segments-csv", default=str(SEGMENTS_CSV_PATH))
+    kg.add_argument("--authorities-csv", default=str(AUTHORITIES_CSV_PATH))
+    kg.add_argument("--collections-csv", default=str(COLLECTIONS_CSV_PATH))
     kg.add_argument("--out-dir", default="pipeline/graph")
     kg.set_defaults(func=cmd_build_knowledge_graph)
 
