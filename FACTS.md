@@ -61,8 +61,8 @@ Source: `knowledge_graph/COSPONSOR_LAYERS.md`
 | Output file | `agents/output/entities.jsonl` |
 | Documents processed | **531** |
 | Eval report | `agents/output/ner_eval_report.json` — macro_f1 ≈ **0.17** |
-| Memory files | **239** files in `agents/memory/` |
-| Checkpoints | Present in `agents/checkpoints/` |
+| Memory files | **239** in `agents/memory/` when populated — generated at runtime, **gitignored** (not in a fresh clone) |
+| Checkpoints | `agents/checkpoints/` — generated at runtime, **gitignored** (not in a fresh clone) |
 
 ---
 
@@ -89,6 +89,6 @@ Source: `knowledge_graph/COSPONSOR_LAYERS.md`
 | Communities JSON | `pipeline/agents/output/communities.json` |
 | NER entities | `pipeline/agents/output/entities.jsonl` |
 | NER eval report | `pipeline/agents/output/ner_eval_report.json` |
-| Agent memory | `pipeline/agents/memory/` |
-| Agent checkpoints | `agents/checkpoints/` |
+| Agent memory | `pipeline/agents/memory/` (runtime-generated, gitignored) |
+| Agent checkpoints | `pipeline/agents/checkpoints/` (runtime-generated, gitignored) |
 | Pipeline config | `pipeline/config.py` (all path constants) |
