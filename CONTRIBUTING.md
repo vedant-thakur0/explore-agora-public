@@ -6,6 +6,7 @@ Thanks for your interest in AGORA. This is a research toolkit, so contributions 
 
 ```bash
 pip install -r requirements.txt
+pip install -r requirements-dev.txt   # test tooling (pytest)
 cp .env.example .env  # then fill in your keys
 python3 -m pytest pipeline/tests
 ```

@@ -6,7 +6,7 @@ import shutil
 import tempfile
 import unittest
 
-from agora.pipeline.knowledge_graph import run
+from pipeline.knowledge_graph import run
 
 
 class KnowledgeGraphTests(unittest.TestCase):

@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from agora.pipeline.graph_query import get_neighborhood, run
+from pipeline.graph_query import get_neighborhood, run
 
 
 class GraphQueryTests(unittest.TestCase):
