@@ -17,7 +17,7 @@ Runs the AGORA report generator, which reads locally-cached data and knowledge g
 python3 -m pipeline.cli reports
 ```
 
-Run from the repo root (`/Users/vthakur/Documents/auto/agora`).
+Run from the repo root.
 
 ## Expected output
 
@@ -45,4 +45,4 @@ Typically under 2 minutes. It reads from already-processed artifacts — it does
 
 ## On failure
 
-Do not attempt to debug the error yourself. Copy the full terminal output (including any traceback) and send it to the maintainer, Vedant (vedantt2210@gmail.com), with a note about what date and time you ran it.
+Do not attempt to debug the error yourself. Copy the full terminal output (including any traceback) and open a GitHub issue (or contact the project maintainer), with a note about what date and time you ran it.

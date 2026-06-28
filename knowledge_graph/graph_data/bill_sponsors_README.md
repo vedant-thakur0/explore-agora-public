@@ -7,7 +7,6 @@
 **Source Data:**
 - `agora_with_sponsors.csv` (sponsor details from Congress.gov API)
 - `agora_comprehensive_data.csv` (policy areas, cosponsor counts)
-- `pulled_data.json` (committee information from Congress.gov API)
 
 ## Summary Statistics
 - **205 unique sponsors** (109 Democrats, 94 Republicans, 2 Independents)
@@ -144,7 +143,6 @@ Includes committee memberships and historical assignments.
 |------|---------|
 | `agora_with_sponsors.csv` | Raw data with Congress.gov sponsor JSON |
 | `agora_comprehensive_data.csv` | Full taxonomy, policy areas, metadata |
-| `pulled_data.json` | Complete Congress.gov API responses (committee details, sponsors, actions) |
 | `documents.csv` | 622 Congress-only documents (join key: AGORA ID) |
 | `bill_sponsors_README.md` | This file |
 
@@ -181,6 +179,5 @@ Parse Bill Policy Areas, aggregate by area, count occurrences
 ---
 
 **For more info on the AGORA dataset, see:**
-- [README_AGENTS.md](../../README_AGENTS.md) — Project overview and data flow
 - [knowledge_graph/README.md](./README.md) — Knowledge graph schema and data sources
 - [Congress.gov API Documentation](https://api.congress.gov/) — Full API reference

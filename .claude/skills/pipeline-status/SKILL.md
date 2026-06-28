@@ -44,8 +44,8 @@ Note: `pipeline/runs/` may not exist until the pipeline has been run at least on
 
 ## What "stale" looks like
 
-If the most recent run manifest is more than a few weeks old and the underlying data has changed, the current outputs may not reflect the latest dataset. In that case, contact the maintainer (Vedant) about re-running the pipeline.
+If the most recent run manifest is more than a few weeks old and the underlying data has changed, the current outputs may not reflect the latest dataset. In that case, contact the project maintainer about re-running the pipeline.
 
 ## On failure
 
-If any listing command fails with a permissions error or unexpected output, capture the message and contact Vedant (vedantt2210@gmail.com).
+If any listing command fails with a permissions error or unexpected output, capture the message and open a GitHub issue (or contact the project maintainer).

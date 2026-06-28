@@ -8,7 +8,7 @@ Built on top of the [AGORA dataset](https://zenodo.org/records/15692257) (Zenodo
 
 ## Who is this for?
 
-**Analysts / non-technical users:** Start with [`GETTING_STARTED.md`](GETTING_STARTED.md). Latest rendered reports live in `reports/generated/<date>/index.html`.
+**Analysts / non-technical users:** Start with [`GETTING_STARTED.md`](GETTING_STARTED.md). Reports are generated locally via `/generate-reports` and land in `reports/generated/<date>/index.html` — a fresh clone will not contain one yet.
 
 **Developers:** Continue below with this README, [`CLAUDE.md`](CLAUDE.md), and [`FILETREE.md`](FILETREE.md).
 

@@ -1,6 +1,6 @@
 # Congress API Session Ingestion Playbook
 
-This playbook follows the exact tooling pattern used in `notebooks/automatedingestion.ipynb`:
+This playbook documents the Congress.gov session-ingestion tooling pattern:
 
 - `pull_info(url)` for list/session pulls
 - `build_text_url(congress, bill_type, number)` for per-bill text endpoints
@@ -149,15 +149,15 @@ Recommended output path in this repo:
 From repo root:
 
 ```bash
-PYTHONPATH=/Users/vthakur/Documents/auto python3 -m agora.pipeline.cli fetch \
+python3 -m pipeline.cli fetch \
   --since 2025-01-01 \
   --limit 250 \
-  --fixture-json /Users/vthakur/Documents/auto/agora/pipeline/fixtures/bill_texts.json \
+  --fixture-json pipeline/fixtures/bill_texts.json \
   --run-id session_run
 
-PYTHONPATH=/Users/vthakur/Documents/auto python3 -m agora.pipeline.cli rank-candidates \
+python3 -m pipeline.cli rank-candidates \
   --run-id session_run \
-  --reference-csv /Users/vthakur/Documents/auto/agora/documents_us_federal_with_fulltext.csv
+  --reference-csv documents_us_federal_with_fulltext.csv
 ```
 
 ## Output Contract
@@ -185,5 +185,5 @@ Once you have run ingestion and ranking:
 
 Use the dedicated tuning docs:
 
-- [TUNING_RUNBOOK.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_RUNBOOK.md) for the tuning process and guardrails.
-- [TUNING_CHANGELOG.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_CHANGELOG.md) to record every behavior-changing update.
+- [TUNING_RUNBOOK.md](TUNING_RUNBOOK.md) for the tuning process and guardrails.
+- [TUNING_CHANGELOG.md](TUNING_CHANGELOG.md) to record every behavior-changing update.

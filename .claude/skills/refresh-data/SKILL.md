@@ -5,7 +5,7 @@ description: Refreshes the AGORA dataset by downloading the latest Zenodo releas
 
 # Skill: refresh-data
 
-**Audience:** Non-technical analysts who have been explicitly told by the maintainer (Vedant) to refresh the dataset.
+**Audience:** Non-technical analysts who have been explicitly told by the project maintainer to refresh the dataset.
 
 ## IMPORTANT: This command writes to an external database
 
@@ -69,8 +69,8 @@ A dry-run output that shows zero errors means the data is valid and ready for a 
 
 ## If data refresh is blocked or restricted
 
-If the Zenodo record ID is not configured, or Supabase credentials are missing from the environment, the command will fail with a clear error. In that case, **do not attempt to configure credentials yourself**. Contact the maintainer, Vedant (vedantt2210@gmail.com), and share the exact error message. Data refresh configuration is maintainer-only.
+If the Zenodo record ID is not configured, or Supabase credentials are missing from the environment, the command will fail with a clear error. In that case, **do not attempt to configure credentials yourself**. Open a GitHub issue (or contact the project maintainer) and share the exact error message. Data refresh configuration is maintainer-only.
 
 ## On failure
 
-Copy the full terminal output and contact Vedant (vedantt2210@gmail.com). Do not retry a failed live sync without maintainer guidance — partial writes may need to be reviewed.
+Copy the full terminal output and open a GitHub issue (or contact the project maintainer). Do not retry a failed live sync without maintainer guidance — partial writes may need to be reviewed.

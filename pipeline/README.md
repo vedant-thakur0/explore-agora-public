@@ -42,7 +42,7 @@ Match incoming `.docx` files against AGORA positive profile:
 ```bash
 python3 -m pipeline.cli match-docx \
   --docx-dir /path/to/docx \
-  --profile-jsonl /Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1.jsonl \
+  --profile-jsonl pipeline/datasets/agora_positive_profile_v1.jsonl \
   --top-k 50 \
   --min-score 0.0 \
   --max-profile-matches 5
@@ -70,8 +70,8 @@ Optional flags:
 
 ```bash
 python3 -m pipeline.build_positive_profile \
-  --input-csv /Users/vthakur/Documents/auto/agora/documents.csv \
-  --out-prefix /Users/vthakur/Documents/auto/agora/pipeline/datasets/agora_positive_profile_v1
+  --input-csv documents.csv \
+  --out-prefix pipeline/datasets/agora_positive_profile_v1
 ```
 
 Generated artifacts:
@@ -101,8 +101,8 @@ Known limitations:
 
 Use these docs for iterative tuning of `pipeline/config.py` and `pipeline/ranker.py`:
 
-- [TUNING_RUNBOOK.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_RUNBOOK.md): process, guardrails, evaluation, and rollback.
-- [TUNING_CHANGELOG.md](/Users/vthakur/Documents/auto/agora/pipeline/TUNING_CHANGELOG.md): append-only history of tuning changes and observed impact.
+- [TUNING_RUNBOOK.md](TUNING_RUNBOOK.md): process, guardrails, evaluation, and rollback.
+- [TUNING_CHANGELOG.md](TUNING_CHANGELOG.md): append-only history of tuning changes and observed impact.
 
 ## Notes
 
