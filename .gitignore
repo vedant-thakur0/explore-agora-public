@@ -5,6 +5,9 @@
 *.pem
 *.key
 
+# Local MCP server config (project-specific refs; copy from .mcp.json.example)
+.mcp.json
+
 # Runtime artifacts
 pipeline/agents/checkpoints/
 pipeline/agents/memory/

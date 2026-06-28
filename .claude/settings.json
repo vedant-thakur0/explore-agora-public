@@ -1,7 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "Read(/Users/vthakur/Documents/auto/agora/**)",
       "mcp__supabase__list_tables",
       "Bash(python3 -m pipeline.cli reports*)",
       "Bash(python3 -m pipeline.cli sync-supabase --dry-run)",
@@ -22,9 +21,6 @@
       "Bash(rm -rf*)",
       "Bash(git push*)",
       "Bash(git reset*)"
-    ],
-    "additionalDirectories": [
-      "/Users/vthakur/Documents/auto"
     ]
   }
 }
