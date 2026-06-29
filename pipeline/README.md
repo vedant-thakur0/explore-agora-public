@@ -1,112 +1,57 @@
-# Congress.gov Candidate Discovery Pipeline
+# AGORA Pipeline
 
-Manual-run ingestion pipeline for discovering likely AI-policy documents from congress.gov.
-
-## Commands
-
-Run from project root:
+Core Python pipeline for building and analyzing the AGORA knowledge graph of AI-related
+U.S. legislation. Run as a module from the repository root:
 
 ```bash
-python3 -m pipeline.cli fetch --since 2025-01-01 --limit 100
-python3 -m pipeline.cli rank-candidates --run-id <RUN_ID>
-python3 -m pipeline.cli export-review --run-id <RUN_ID> --out agora/pipeline/review_exports/<RUN_ID>_review.csv
+python3 -m pipeline.cli --help    # list all commands
 ```
 
-Offline fixture run:
+All path constants and LLM/threshold settings live in [`config.py`](config.py); data classes are in
+[`models.py`](models.py). Run `--help` on any subcommand for its arguments.
+
+## Pipeline stages
+
+The corpus CSVs in `data/` feed a multi-stage build:
 
 ```bash
-python3 -m pipeline.cli fetch --since 2025-01-01 --limit 10 --fixture-json agora/pipeline/fixtures/sample_bills.json --run-id localtest
+# 1. Build the knowledge graph (nodes/edges) from the AGORA CSV sources
+python3 -m pipeline.cli build-knowledge-graph
+
+# 2. Detect document communities via Louvain clustering
+python3 -m pipeline.cli detect-communities
+
+# 3. Assemble the multiplex graph (sponsor / cosponsor / entity layers) from agent outputs
+python3 -m pipeline.cli build-multiplex-graph
+
+# 4. Build a self-contained dated HTML report bundle
+python3 -m pipeline.cli reports
 ```
 
-One-call HR trial (live, list-only):
+## Other commands
 
-```bash
-export CONGRESS_API_KEY='YOUR_KEY'
-python3 -m pipeline.trial_one_call_hr --since 2026-01-01 --limit 250 --top-k 50
-```
+| Command | Purpose |
+|---|---|
+| `query-neighborhood --seed-node-id <id>` | Query the neighborhood around a seed node in a graph export |
+| `eval-ner` | Evaluate NER output against the manual annotations |
+| `seed-registry` | Seed or rebuild the global canonical entity registry |
+| `canonicalize` | Flag bare entity aliases in the review queue with resolution context |
+| `sync-supabase` | Download the latest Zenodo release and upsert into Supabase (writes to a live DB) |
+| `sync-ner-entities` | Sync the NER entity dictionary and document-entity mappings to Supabase |
 
-One-call list + per-bill detail hydration (recommended):
+`sync-supabase` and `sync-ner-entities` need Supabase credentials in `.env` and write to a hosted
+database (see the repo-root `README.md` for configuration). Pass `--dry-run` to validate without writing.
 
-```bash
-python3 -m pipeline.cli trial-one-call-hr \
-  --since 2026-01-01 \
-  --limit 251 \
-  --top-k 50 \
-  --hydrate-details \
-  --detail-delay-sec 0.1 \
-  --detail-max-retries 2
-```
+## Components
 
-Match incoming `.docx` files against AGORA positive profile:
+- **`agents/`** — NER and graph-construction agents (see [`../NER_AGENT.md`](../NER_AGENT.md)).
+- **`web/`** — Flask annotation/review UI: `python3 -m pipeline.web.app` (see [`web/README.md`](web/README.md)).
+- **`supabase/`** — Optional sync layer for hosted review workflows.
+- **`multiplex_graph/`, `graph/`** — Generated graph exports (GraphML, node/edge CSVs, stats).
+- **`tests/`** — Unit tests: `python3 -m pytest pipeline/tests` (see [`../CONTRIBUTING.md`](../CONTRIBUTING.md)).
 
-```bash
-python3 -m pipeline.cli match-docx \
-  --docx-dir /path/to/docx \
-  --profile-jsonl pipeline/datasets/agora_positive_profile_v1.jsonl \
-  --top-k 50 \
-  --min-score 0.0 \
-  --max-profile-matches 5
-```
+## Reference
 
-## Data flow
-
-- `raw/`: source payload snapshots.
-- `normalized/`: normalized document JSONL.
-- `fulltext/`: hydrated plaintext by source ID.
-- `runs/`: run manifests and candidate JSONL.
-- `review_exports/`: reviewer CSVs with decision fields (`include`, `reject`, `unsure`).
-- `datasets/`: generated training/reference artifacts.
-- `runs/docx_match_<timestamp>.json`: `.docx` match runs and scored results.
-
-## Positive profile dataset (v1)
-
-Build the positive-only AGORA profile from `documents.csv`:
-
-```bash
-python3 -m pipeline.build_positive_profile
-```
-
-Optional flags:
-
-```bash
-python3 -m pipeline.build_positive_profile \
-  --input-csv documents.csv \
-  --out-prefix pipeline/datasets/agora_positive_profile_v1
-```
-
-Generated artifacts:
-
-- `pipeline/datasets/agora_positive_profile_v1.jsonl`
-- `pipeline/datasets/agora_positive_profile_v1.csv`
-- `pipeline/datasets/agora_positive_profile_v1_report.json`
-- `pipeline/datasets/agora_positive_profile_v1_lineage.json`
-
-Core fields:
-
-- `agora_id`, `official_name`, `casual_name`, `link_to_document`, `authority`
-- `collections`, `most_recent_activity`, `most_recent_activity_date`
-- `short_summary`, `long_summary`, `tags`
-- `official_plaintext_retrieved`, `official_plaintext_source`
-- `profile_text`, `profile_text_sha256`
-- `label_agora_fit` (always `1`), `label_source` (always `documents_csv`)
-- `snapshot_date`, `record_origin`
-
-Known limitations:
-
-- This is a positive-only reference dataset (no negatives).
-- It is intended for similarity matching of incoming `.docx` in a later step.
-- No classifier training occurs in this step.
-
-## Ranking Tuning Docs
-
-Use these docs for iterative tuning of `pipeline/config.py` and `pipeline/ranker.py`:
-
-- [TUNING_RUNBOOK.md](TUNING_RUNBOOK.md): process, guardrails, evaluation, and rollback.
-- [TUNING_CHANGELOG.md](TUNING_CHANGELOG.md): append-only history of tuning changes and observed impact.
-
-## Notes
-
-- No AGORA label prediction is performed.
-- Candidate ranking uses keyword signals + semantic similarity to existing federal AGORA corpus + metadata priors.
-- `.docx` matching uses a hybrid score: `0.70 * semantic_similarity + 0.30 * keyword_score`.
-- Dedup skips unchanged docs that were already reviewed in prior exports.
+- Knowledge-graph schema and join keys: [`../knowledge_graph/README.md`](../knowledge_graph/README.md)
+- Cosponsor layers: [`../knowledge_graph/COSPONSOR_LAYERS.md`](../knowledge_graph/COSPONSOR_LAYERS.md)
+- Canonical counts, paths, and commands: [`../FACTS.md`](../FACTS.md)

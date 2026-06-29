@@ -10,10 +10,8 @@ Other docs point here instead of duplicating these numbers. Do not update counts
 | Form | Works? | Notes |
 |---|---|---|
 | `python3 -m pipeline.cli <command>` | ✅ canonical | Run from the repository root. |
-| `PYTHONPATH=<repo-parent> python3 -m agora.pipeline.cli <command>` | ✅ valid alternate | Only works when the repo's **parent** dir is on `PYTHONPATH` (treats the repo folder `agora/` as the `agora` package). Used in `pipeline/API_SESSION_INGESTION_PLAYBOOK.md`. |
-| bare `python3 -m agora.pipeline.cli` (no PYTHONPATH) | ❌ fails | `ModuleNotFoundError: No module named 'agora'`. |
 
-Default to `python3 -m pipeline.cli <command>` from the repository root.
+Run `python3 -m pipeline.cli --help` from the repository root to list available commands.
 
 ---
 

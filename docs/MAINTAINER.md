@@ -72,7 +72,5 @@ Remaining open items in `REVIEW.md` are **performance or display issues only** â
 
 ## Deeper operations
 
-For advanced pipeline tuning and NER agent details, refer to:
-- **Pipeline tuning runbook:** `pipeline/TUNING_RUNBOOK.md`
-- **Tuning changelog:** `pipeline/TUNING_CHANGELOG.md`
+For NER agent details, refer to:
 - **NER agent design:** `NER_AGENT.md`

@@ -19,8 +19,6 @@ ONLY IF NEEDED: See `FILETREE.md` for the full annotated file tree.
 - **Data schema:** `knowledge_graph/README.md`
 - **Cosponsor layers:** `knowledge_graph/COSPONSOR_LAYERS.md` (Layer 1b: active, Layer 1.75: withdrawn)
 - **NER agent docs:** `NER_AGENT.md`
-- **Tuning guide:** `pipeline/TUNING_RUNBOOK.md`
-- **Tuning history:** `pipeline/TUNING_CHANGELOG.md`
 
 ## Operator mode
 Non-technical users should start with `GETTING_STARTED.md` and use the four core skills: `/generate-reports`, `/pipeline-status`, `/run-ranking`, and `/refresh-data`. Results are explained in plain language. Any operation that incurs API costs (ranking, NER, data sync) requires explicit confirmation before running. Never modify `pipeline/runs/` or `pipeline/agents/checkpoints/`. On errors, capture the error message to report to the maintainer rather than attempting deep fixes.
