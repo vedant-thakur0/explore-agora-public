@@ -3,6 +3,7 @@
 ```
 ./                                   # repository root (AGORA project)
 ├── .claude/                         # Claude Code skills & plans
+├── docs/                            # Maintainer operations guide
 ├── pipeline/                        # Main pipeline package
 │   ├── cli.py                       # CLI entry point
 │   ├── config.py                    # All path constants, LLM settings, thresholds
@@ -40,11 +41,8 @@
 │   └── fulltext/                    # ~1,031 plaintext bill files
 ├── reports/                         # Generated analysis reports: markdown + HTML
 │   └── generated/                   # Dated report bundles
-├── exploratory reports/             # Exploratory tag/party alignment analyses
 ├── notebooks/                       # Jupyter notebooks for exploration
-│   ├── automatedingestion.ipynb     # Congress API session ingestion notebook
 │   └── outputs/                     # Committed notebook artifacts
-├── plans/                           # Planning documents
 ├── hooks/                           # Git/automation hooks
 ├── NER_AGENT.md                     # NER agent detailed documentation
 ├── FILETREE.md                      # This file

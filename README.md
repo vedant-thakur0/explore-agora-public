@@ -8,7 +8,7 @@ Built on top of the [AGORA dataset](https://zenodo.org/records/15692257) (Zenodo
 
 ## Who is this for?
 
-**Analysts / non-technical users:** Start with [`GETTING_STARTED.md`](GETTING_STARTED.md). Latest rendered reports live in `reports/generated/<date>/index.html`.
+**Analysts / non-technical users:** Start with [`GETTING_STARTED.md`](GETTING_STARTED.md). Reports are generated locally via `/generate-reports` and land in `reports/generated/<date>/index.html` — a fresh clone will not contain one yet.
 
 **Developers:** Continue below with this README, [`CLAUDE.md`](CLAUDE.md), and [`FILETREE.md`](FILETREE.md).
 
@@ -51,8 +51,10 @@ SUPABASE_KEY=<your-anon-or-service-key>
 # List available pipeline commands
 python3 -m pipeline.cli --help
 
-# Run the document ranker over a session
-python3 -m pipeline.cli rank --session <session-id>
+# Build the knowledge graph, detect communities, and assemble the multiplex graph
+python3 -m pipeline.cli build-knowledge-graph
+python3 -m pipeline.cli detect-communities
+python3 -m pipeline.cli build-multiplex-graph
 
 # Launch the annotation web UI
 python3 -m pipeline.web.app
@@ -65,7 +67,6 @@ python3 -m pipeline.web.app
 - **NER agent design:** [`NER_AGENT.md`](NER_AGENT.md)
 - **Knowledge graph schema:** [`knowledge_graph/README.md`](knowledge_graph/README.md)
 - **Cosponsor layers:** [`knowledge_graph/COSPONSOR_LAYERS.md`](knowledge_graph/COSPONSOR_LAYERS.md)
-- **Tuning runbook:** [`pipeline/TUNING_RUNBOOK.md`](pipeline/TUNING_RUNBOOK.md)
 - **Cosponsor analysis quickstart:** [`COSPONSOR_ANALYSIS_QUICKSTART.md`](COSPONSOR_ANALYSIS_QUICKSTART.md)
 
 ## Data licensing

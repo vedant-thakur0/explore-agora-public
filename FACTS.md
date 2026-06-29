@@ -10,10 +10,8 @@ Other docs point here instead of duplicating these numbers. Do not update counts
 | Form | Works? | Notes |
 |---|---|---|
 | `python3 -m pipeline.cli <command>` | ✅ canonical | Run from the repository root. |
-| `PYTHONPATH=<repo-parent> python3 -m agora.pipeline.cli <command>` | ✅ valid alternate | Only works when the repo's **parent** dir is on `PYTHONPATH` (treats the repo folder `agora/` as the `agora` package). Used in `pipeline/API_SESSION_INGESTION_PLAYBOOK.md`. |
-| bare `python3 -m agora.pipeline.cli` (no PYTHONPATH) | ❌ fails | `ModuleNotFoundError: No module named 'agora'`. |
 
-Default to `python3 -m pipeline.cli <command>` from the repository root.
+Run `python3 -m pipeline.cli --help` from the repository root to list available commands.
 
 ---
 
@@ -61,8 +59,8 @@ Source: `knowledge_graph/COSPONSOR_LAYERS.md`
 | Output file | `agents/output/entities.jsonl` |
 | Documents processed | **531** |
 | Eval report | `agents/output/ner_eval_report.json` — macro_f1 ≈ **0.17** |
-| Memory files | **239** files in `agents/memory/` |
-| Checkpoints | Present in `agents/checkpoints/` |
+| Memory files | **239** in `agents/memory/` when populated — generated at runtime, **gitignored** (not in a fresh clone) |
+| Checkpoints | `agents/checkpoints/` — generated at runtime, **gitignored** (not in a fresh clone) |
 
 ---
 
@@ -89,6 +87,6 @@ Source: `knowledge_graph/COSPONSOR_LAYERS.md`
 | Communities JSON | `pipeline/agents/output/communities.json` |
 | NER entities | `pipeline/agents/output/entities.jsonl` |
 | NER eval report | `pipeline/agents/output/ner_eval_report.json` |
-| Agent memory | `pipeline/agents/memory/` |
-| Agent checkpoints | `agents/checkpoints/` |
+| Agent memory | `pipeline/agents/memory/` (runtime-generated, gitignored) |
+| Agent checkpoints | `pipeline/agents/checkpoints/` (runtime-generated, gitignored) |
 | Pipeline config | `pipeline/config.py` (all path constants) |

@@ -5,8 +5,10 @@
 *.pem
 *.key
 
+# Local MCP server config (project-specific refs; copy from .mcp.json.example)
+.mcp.json
+
 # Runtime artifacts
-pipeline/agents/output/
 pipeline/agents/checkpoints/
 pipeline/agents/memory/
 pipeline/runs/
@@ -16,20 +18,60 @@ pipeline/raw/
 pipeline/normalized/
 pipeline/fulltext/
 
+# Agent output: ignore runtime scratch, keep curated results
+pipeline/agents/output/*
+!pipeline/agents/output/README.md
+!pipeline/agents/output/communities.json
+!pipeline/agents/output/cosponsor_communities.json
+!pipeline/agents/output/entities.jsonl
+!pipeline/agents/output/entities_canonicalized.jsonl
+!pipeline/agents/output/canonical_entity_map.json
+!pipeline/agents/output/entity_dictionary.jsonl
+!pipeline/agents/output/global_registry.json
+!pipeline/agents/output/type_authority.json
+!pipeline/agents/output/doc_sponsor_matrix.json
+!pipeline/agents/output/doc_url_map.json
+!pipeline/agents/output/tag_party_alignment.json
+!pipeline/agents/output/tag_party_alignment_both_methods.json
+!pipeline/agents/output/ner_eval_report.json
+!pipeline/agents/output/sponsor_edges.csv
+!pipeline/agents/output/sponsor_nodes.csv
+!pipeline/agents/output/cosponsor_edges.csv
+!pipeline/agents/output/cosponsor_nodes.csv
+!pipeline/agents/output/withdrawn_cosponsor_edges.csv
+!pipeline/agents/output/withdrawn_cosponsor_nodes.csv
+!pipeline/agents/output/manual_annotations/
+!pipeline/agents/output/manual_annotations/*
+!pipeline/agents/output/communities_2_5_network.png
+!pipeline/agents/output/community_2_detail.png
+!pipeline/agents/output/cosponsor_sample_2.png
+pipeline/agents/output/ner_errors.jsonl
+pipeline/agents/output/review_queue.jsonl
+
 # Knowledge graph fulltext (large)
 knowledge_graph/fulltext/
 
+# Orphaned raw API dump (unused by code; corpus lives on Zenodo)
+knowledge_graph/graph_data/pulled_data.json
+
 # Reports and exploratory output
 reports/
-exploratory_reports/
-exploratory\ reports/
 ner_run.log
+
+# Internal notes/reports — kept locally, not published
+docs/REVIEW.md
+docs/COSPONSOR_PROJECT_SUMMARY.md
+plans/char_offset_backfill.md
+exploratory_reports/
 
 # Local planning docs (not tracked)
 .claude/plans/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+# Generated notebook dashboard (regenerate via notebooks/build_dashboard.py)
+notebooks/dashboard.html
 
 # Python
 __pycache__/
@@ -54,6 +96,7 @@ dist/
 .vscode/
 .idea/
 *.swp
+*.Rhistory
 
 # Local tooling (gitleaks binary etc.)
 .tooling/

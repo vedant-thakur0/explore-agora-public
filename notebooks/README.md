@@ -22,7 +22,6 @@ Notebooks expect the repo root as the working directory and read from `data/` an
 | `04_taxonomy.ipynb` | AI policy taxonomy exploration |
 | `agora_data_explorer.ipynb` | Browse the AGORA dataset slice |
 | `congress_api_explorer.ipynb` | Examples of Congress.gov API queries |
-| `graph_exploration.ipynb` | Interactive knowledge graph exploration |
 | `pipeline_demos.ipynb` | End-to-end pipeline walkthrough |
 
 ## Data dependencies

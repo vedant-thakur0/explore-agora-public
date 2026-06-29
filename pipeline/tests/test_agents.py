@@ -194,7 +194,9 @@ class TestNERChunking:
             SEC. 102. Second section.
             Content of second section.
         """)
-        chunks = chunk_text(text, max_chunk=6000)
+        # max_chunk must be below the combined length so the section-split path runs;
+        # text shorter than max_chunk returns a single chunk (see test_short_text_no_split).
+        chunks = chunk_text(text, max_chunk=80)
         assert len(chunks) == 2
         assert "SEC. 101" in chunks[0]
         assert "SEC. 102" in chunks[1]

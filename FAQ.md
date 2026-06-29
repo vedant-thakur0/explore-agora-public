@@ -18,7 +18,7 @@ AGORA runs four core steps:
 
 ## How current is the data?
 
-Reports are snapshots taken on a specific date. Always check the date shown on `index.html`. If the data is older than you need, ask Claude to run `/refresh-data` (with Vedant's approval) to ingest the latest bills from Congress.
+Reports are snapshots taken on a specific date. Always check the date shown on `index.html`. If the data is older than you need, ask Claude to run `/refresh-data` (with the project maintainer's approval) to ingest the latest bills from Congress.
 
 ## Does running things cost money?
 
@@ -32,9 +32,8 @@ Report generation itself is free; costs only apply if you're bringing in new dat
 
 1. Note which report and which chart.
 2. Check the date on `index.html` to see if the data is stale.
-3. Contact Vedant with the details.
-4. Known bugs and issues are tracked in `notebooks/REVIEW.md` in the repository.
+3. Open a GitHub issue with the details.
 
 ## Who maintains this?
 
-**Vedant Thakur** — vedantt2210@gmail.com
+This project is maintained by its contributors. To report bugs or ask questions, open a GitHub issue in this repository.

@@ -29,8 +29,6 @@ from .config import (
 
 # Additional paths for new improvements
 DATA_LICENSE_PATH = PROJECT_ROOT / "DATA_LICENSE.md"
-COSPONSOR_SUMMARY_PATH = PROJECT_ROOT / "COSPONSOR_PROJECT_SUMMARY.md"
-EXPLORATORY_REPORTS_DIR = PROJECT_ROOT / "exploratory reports"
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -522,32 +520,6 @@ def build_report(
     analysis_items: list[dict] = []
     executive_summary_item: dict | None = None
 
-    # --- Executive summary: COSPONSOR_PROJECT_SUMMARY.md (if present) ---
-    if COSPONSOR_SUMMARY_PATH.exists():
-        html_name = COSPONSOR_SUMMARY_PATH.stem + ".html"
-        dst = reports_out_dir / html_name
-        try:
-            fragment = _md_to_html_fragment(COSPONSOR_SUMMARY_PATH)
-            title = "Cosponsor Integration — Project Summary"
-            page = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<title>{title} — AGORA</title>
-<style>body{{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1.5rem;line-height:1.6;color:#222}}
-h2,h3,h4{{margin:1.2rem 0 .4rem}}pre{{background:#f4f4f4;padding:.8rem;border-radius:4px;overflow-x:auto}}
-a{{color:#2563eb}}</style></head><body>
-<p><a href="../index.html">← Back to report index</a></p>
-{fragment}
-</body></html>"""
-            dst.write_text(page, encoding="utf-8")
-            executive_summary_item = {
-                "name": "Cosponsor Integration — Project Summary",
-                "rel": f"analyses/{html_name}",
-                "desc": "Complete project summary of cosponsor integration with active and withdrawn layers.",
-                "kind": "md",
-            }
-        except Exception as exc:
-            _warn(f"Could not convert COSPONSOR_PROJECT_SUMMARY.md: {exc}")
-
     # --- Regular reports in reports/ directory ---
     for md_file in sorted(REPORTS_DIR.glob("*.md")):
         # Render md -> simple html
@@ -574,33 +546,6 @@ a{{color:#2563eb}}</style></head><body>
             })
         except Exception as exc:
             _warn(f"Could not convert {md_file.name}: {exc}")
-
-    # --- Exploratory reports (from "exploratory reports/" directory) ---
-    if EXPLORATORY_REPORTS_DIR.exists():
-        for md_file in sorted(EXPLORATORY_REPORTS_DIR.glob("*.md")):
-            html_name = md_file.stem + ".html"
-            dst = reports_out_dir / html_name
-            try:
-                fragment = _md_to_html_fragment(md_file)
-                title = md_file.stem.replace("_", " ").title()
-                page = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<title>{title} — AGORA</title>
-<style>body{{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1.5rem;line-height:1.6;color:#222}}
-h2,h3,h4{{margin:1.2rem 0 .4rem}}pre{{background:#f4f4f4;padding:.8rem;border-radius:4px;overflow-x:auto}}
-a{{color:#2563eb}}</style></head><body>
-<p><a href="../index.html">← Back to report index</a></p>
-{fragment}
-</body></html>"""
-                dst.write_text(page, encoding="utf-8")
-                analysis_items.append({
-                    "name": md_file.name,
-                    "rel": f"analyses/{html_name}",
-                    "desc": "Exploratory analysis report.",
-                    "kind": "md",
-                })
-            except Exception as exc:
-                _warn(f"Could not convert exploratory report {md_file.name}: {exc}")
 
     for html_file in sorted(REPORTS_DIR.glob("*.html")):
         dst = reports_out_dir / html_file.name

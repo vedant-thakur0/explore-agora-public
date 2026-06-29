@@ -13,7 +13,7 @@ Before running, Claude will ask you to confirm. The pipeline makes calls to:
 
 - **Anthropic API** — for Named Entity Recognition (NER) over legislative documents. Each run processes hundreds of documents and consumes real API credits.
 
-Do not run this unless you have budget approval or have confirmed with the maintainer (Vedant) that a run is needed.
+Do not run this unless you have budget approval or have confirmed with the project maintainer that a run is needed.
 
 ## What this does
 
@@ -70,4 +70,4 @@ After the run completes, the command prints a JSON summary. Key fields:
 
 ## On failure
 
-Do not attempt to debug. Copy the full terminal output and contact Vedant (vedantt2210@gmail.com). Common issues: missing API key in environment, missing input CSV files, rate limit exhaustion.
+Do not attempt to debug. Copy the full terminal output and open a GitHub issue (or contact the project maintainer). Common issues: missing API key in environment, missing input CSV files, rate limit exhaustion.
