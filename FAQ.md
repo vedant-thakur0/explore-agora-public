@@ -33,7 +33,6 @@ Report generation itself is free; costs only apply if you're bringing in new dat
 1. Note which report and which chart.
 2. Check the date on `index.html` to see if the data is stale.
 3. Open a GitHub issue with the details.
-4. Known bugs and issues are tracked in `docs/REVIEW.md` in the repository.
 
 ## Who maintains this?
 

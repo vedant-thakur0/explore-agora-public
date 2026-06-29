@@ -30,7 +30,7 @@ python3 -m pipeline.cli reports
 This runs the full report generation pipeline. The output bundle lands in `reports/generated/<YYYY-MM-DD>/`. Copy that folder to your internal share.
 
 **Executing notebooks (`--execute`):**
-The `--execute` flag re-runs the embedded Jupyter notebooks so the rendered pages carry fresh figures (instead of "pending regeneration" placeholders). The notebook bugs catalogued in `REVIEW.md` have been fixed; a full `--execute` run takes roughly 30 minutes:
+The `--execute` flag re-runs the embedded Jupyter notebooks so the rendered pages carry fresh figures (instead of "pending regeneration" placeholders). The known notebook bugs have been fixed; a full `--execute` run takes roughly 30 minutes:
 
 ```bash
 python3 -m pipeline.cli reports --execute --timeout 900
@@ -61,7 +61,7 @@ All bugs that produced **incorrect output numbers** are now resolved:
 - Priority-4 items (crash in 01, betweenness perf in 02, wrong chamber inference in 03, bridge filter in 03) — **fixed** in an earlier pass.
 - Chamber-average bias in 01 Cell 8 — **fixed 2026-06-14** (by relabel): the comprehensive CSV has no primary-sponsor chamber field, so the metric was relabeled to the dataset-wide average Senate/House *cosponsors* per bill (no longer implying a per-sponsoring-chamber comparison) rather than conditioned on sponsor chamber.
 
-Remaining open items in `REVIEW.md` are **performance or display issues only** — they do not affect any numbers shipped into reports. Consult REVIEW.md as the current-state ledger; it is kept updated with the status of every catalogued item.
+Remaining open notebook items are **performance or display issues only** — they do not affect any numbers shipped into reports.
 
 ### Pipeline runtime
 - `pipeline/runs/` is created at runtime and may not exist in a freshly cloned repository. It will be created automatically on first pipeline execution.

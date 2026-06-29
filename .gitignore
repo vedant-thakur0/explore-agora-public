@@ -58,6 +58,12 @@ knowledge_graph/graph_data/pulled_data.json
 reports/
 ner_run.log
 
+# Internal notes/reports — kept locally, not published
+docs/REVIEW.md
+docs/COSPONSOR_PROJECT_SUMMARY.md
+plans/char_offset_backfill.md
+exploratory_reports/
+
 # Local planning docs (not tracked)
 .claude/plans/
 
